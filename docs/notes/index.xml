@@ -17,7 +17,9 @@
       <pubDate>Sun, 19 Jan 2020 07:17:15 +0000</pubDate>
       
       <guid>/notes/2020-01-13-week-03/</guid>
-      <description> Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)  Hugo: Build with Drafts hugo -D serve  </description>
+      <description> Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)   Hugo: Build with Drafts hugo -D serve
+  Python: List sub directories
+  tool_codegen_dir: Path = Path(__file__) print([x.name for x in tool_codegen_dir.iterdir() if x.is_dir()])  Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character  </description>
     </item>
     
   </channel>
