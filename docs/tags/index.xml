@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on deskriders</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aws</title>
+      <link>/tags/aws/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>/tags/serverless/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyqt5</title>
+      <link>/tags/pyqt5/</link>
+      <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
+      
+      <guid>/tags/pyqt5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>/tags/devops/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oauth2</title>
+      <link>/tags/oauth2/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/oauth2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>/tags/security/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>/tags/testing/</link>
+      <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
+      
+      <guid>/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>/tags/monitoring/</link>
+      <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
+      
+      <guid>/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plantuml</title>
+      <link>/tags/plantuml/</link>
+      <pubDate>Sun, 13 Oct 2019 07:45:14 +0000</pubDate>
+      
+      <guid>/tags/plantuml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kuberider</title>
+      <link>/tags/kuberider/</link>
+      <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
+      
+      <guid>/tags/kuberider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packaging</title>
+      <link>/tags/packaging/</link>
+      <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
+      
+      <guid>/tags/packaging/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

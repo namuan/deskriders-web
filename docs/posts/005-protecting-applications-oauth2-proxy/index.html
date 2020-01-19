@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Protecting applications with OAuth2 Proxy"/>
+<meta name="twitter:description" content="Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
+Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider."/>
+
+    <meta property="og:title" content="Protecting applications with OAuth2 Proxy" />
+<meta property="og:description" content="Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
+Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/005-protecting-applications-oauth2-proxy/" />
+<meta property="article:published_time" content="2019-11-23T10:47:29+00:00" />
+<meta property="article:modified_time" content="2019-11-23T10:47:29+00:00" />
+
+
+    
+      <base href="/posts/005-protecting-applications-oauth2-proxy/">
+    
+    <title>
+  Protecting applications with OAuth2 Proxy · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/005-protecting-applications-oauth2-proxy/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.62.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/projects/">Projects</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Protecting applications with OAuth2 Proxy</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-11-23T10:47:29Z'>
+                November 23, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2 minutes read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/docker/">docker</a>
+      <span class="separator">•</span>
+    <a href="/tags/oauth2/">oauth2</a>
+      <span class="separator">•</span>
+    <a href="/tags/security/">security</a>
+      <span class="separator">•</span>
+    <a href="/tags/devops/">devops</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source <a href="https://pusher.github.io/oauth2_proxy/">OAuth2 Proxy</a> (which is a fork from <a href="https://github.com/bitly/oauth2_proxy">Bitly OAuth2 Proxy</a>) to secure private applications without adding any authentication logic in the application itself.</p>
+<p>Here, we'll see how to secure the open source version of <a href="https://httpbin.org">https://httpbin.org</a>. Httpbin application itself is open and can be accessed without any authentication.</p>
+<p><img src="/images/005/i1zmqplvv8eq8pzsvfvt.png" alt="Proxy configuration"></p>
+<p>In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider. See <a href="https://pusher.github.io/oauth2_proxy/auth-configuration">Providers</a> for different config options.</p>
+<h4 id="setting-up-github-application">Setting up Github Application:</h4>
+<p>Login to your github account and navigate to <a href="https://github.com/settings/developers">Developer Settings</a>. Click on OAuth Apps and Register a new application.</p>
+<p>I'll call this application SocialBin and set the homepage as <a href="http://localtest.me">http://localtest.me</a>. <a href="https://readme.localtest.me">Localtest.me</a> is a DNS configured to point to 127.0.0.1 and makes it easy to do local testing.</p>
+<p>We will be running the application on port 8080 so the callback url is set as <a href="http://localtest.me:8080/oauth2/callback">http://localtest.me:8080/oauth2/callback</a>.</p>
+<p>That is it for setting up the application. Note down the Client ID and Client Secret which will be used later.</p>
+<p><img src="/images/005/fozsrm840r7nu8wbia5o.png" alt="Github Client configuration"></p>
+<h4 id="running-application-with-proxy">Running application with proxy:</h4>
+<p>Clone this <a href="https://github.com/namuan/oauth2-proxy-httpbin">Github project</a> and then copy or move the example configuration file.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cp .env.example .env
+</code></pre></div><p>You can also run the following command to generate a random value which will be used for cookie secret.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">head -c32 /dev/urandom | base64
+</code></pre></div><p>Edit the .env file and update the variables.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">OAUTH2_PROXY_COOKIE_SECRET=&lt;generated random value&gt;
+OAUTH2_PROXY_COOKIE_DOMAIN=http://localtest.me
+OAUTH2_PROXY_CLIENT_ID=&lt;github client id&gt;
+OAUTH2_PROXY_CLIENT_SECRET=&lt;github client secret&gt;
+</code></pre></div><p>Now, switch over to docker-compose.yml which is setting up two docker containers. The <a href="https://hub.docker.com/r/kennethreitz/httpbin">httpbin</a> container is the service we are trying to protect so you can see that it is not exposing any ports. The <code>&quot;--upstream=http://httpbin:80&quot;,</code> configuration is telling the oauth2 proxy where to send the traffic once the login is successful.</p>
+<p>With everything in its place, we can bring up the containers using <code>docker-compose</code>.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker-compose up
+</code></pre></div><p>It'll take some time if it is running for the first time to pull any missing docker images. Once everything is running, you can visit <code>http://localtest.me:8080/</code> in the browser which should show you a screen with a button to &ldquo;Sign in with Github&rdquo;. Here is a brief sequence of the login flow and accessing httpbin.</p>
+<p><img src="/images/005/br9iafvbj41srj5j7dxl.gif" alt="oauth2_proxy_login_httpbin"></p>
+<h4 id="conclusion">Conclusion:</h4>
+<p>As we saw, OAuth2Proxy is a useful tool to protect any application without changing the code. The source code for this setup is available here <a href="https://github.com/namuan/oauth2-proxy-httpbin">https://github.com/namuan/oauth2-proxy-httpbin</a>.</p>
+<h4 id="references">References:</h4>
+<p><a href="https://github.com/pusher/oauth2_proxy">https://github.com/pusher/oauth2_proxy</a>
+<a href="https://readme.localtest.me/">https://readme.localtest.me/</a>
+<a href="https://hub.docker.com/r/kennethreitz/httpbin">https://hub.docker.com/r/kennethreitz/httpbin</a>
+<a href="https://hub.docker.com/r/bitnami/oauth2-proxy">https://hub.docker.com/r/bitnami/oauth2-proxy</a></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2020
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on deskriders</title>
+    <link>/tags/tutorial/</link>
+    <description>Recent content in tutorial on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Jan 2020 11:51:10 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overlay button on a PyQt5 widget</title>
+      <link>/posts/007-pyqt5-overlay-button-widget/</link>
+      <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
+      
+      <guid>/posts/007-pyqt5-overlay-button-widget/</guid>
+      <description>This is a short post on how to add a floating button on top of a widget in PyQt5.
+First, we&#39;ll define the button and the relative positioning.
+class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &amp;#39;viewport&amp;#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.</description>
+    </item>
+    
+    <item>
+      <title>Developing API exchange sharing service - Part I</title>
+      <link>/posts/008-developing-api-exchange-1/</link>
+      <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
+      
+      <guid>/posts/008-developing-api-exchange-1/</guid>
+      <description>In this series of articles, I&#39;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
+This API is used from HttpRider to save API exchanges (request+response).
+Here is a sample page generated from HttpRider.
+Demo The service itself consists of two simple APIs.
+POST /prints Saves the HTML encoded in base64 in dynamo database. Once it is saved, it returns the URL of the shared document in the Location header of the response.</description>
+    </item>
+    
+  </channel>
+</rss>

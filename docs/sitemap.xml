@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/projects/http-rider/</loc>
+    <lastmod>2019-12-01T12:21:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/kube-rider/</loc>
+    <lastmod>2019-10-13T08:46:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/dev-rider/</loc>
+    <lastmod>2020-01-17T08:46:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/tube-stats/</loc>
+    <lastmod>2018-12-25T09:27:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/docker-files/</loc>
+    <lastmod>2019-01-18T09:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-18T09:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/news-rider/</loc>
+    <lastmod>2020-01-18T09:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2020-01-18T09:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2020-01-15T10:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/009-developing-api-exchange-2/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/serverless/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tutorial/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/007-pyqt5-overlay-button-widget/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pyqt5/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/008-developing-api-exchange-1/</loc>
+    <lastmod>2020-01-01T16:51:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/devops/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/oauth2/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/005-protecting-applications-oauth2-proxy/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/security/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/httprider/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/004-httprider-performance-testing/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/testing/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/003-httprider-generating-bdd-tests/</loc>
+    <lastmod>2019-10-28T11:30:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/002-httprider-generating-runscope-monitoring-tests/</loc>
+    <lastmod>2019-10-27T11:30:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/monitoring/</loc>
+    <lastmod>2019-10-27T11:30:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/001-httprider-generating-sequence-diagrams/</loc>
+    <lastmod>2019-10-13T07:45:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plantuml/</loc>
+    <lastmod>2019-10-13T07:45:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kuberider/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/kuberider/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/006-kuberider-bundling-macosx-release/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/packaging/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/docker-compose-builder/</loc>
+    <lastmod>2019-02-01T09:27:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+  </url>
+  
+</urlset>
