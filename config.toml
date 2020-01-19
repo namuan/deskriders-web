@@ -64,14 +64,6 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-twitter"
     weight = 3
     url = "https://twitter.com/deskriders_twt/"
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    weight = 6
-    url = "https://deskriders.dev/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
-
 
 [languages]
     [languages.en]
@@ -88,3 +80,8 @@ pygmentscodefencesguesssyntax = true
             name = "Projects"
             weight = 3
             url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Notes"
+            weight = 4
+            url = "notes/"

@@ -14,6 +14,7 @@ commit-all: generate ## Push generated documentation to Github
 	git push origin master
 
 serve: ## Serve site locally
+	open -a Firefox.app http://localhost:1313
 	hugo server --disableFastRender
 
 stage: generate ## Deploys to Netlify staging environment

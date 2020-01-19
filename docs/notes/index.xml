@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on deskriders</title>
+    <link>/notes/</link>
+    <description>Recent content in Notes on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jan 2020 07:17:15 +0000</lastBuildDate>
+    
+	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 03 2020</title>
+      <link>/notes/2020-01-13-week-03/</link>
+      <pubDate>Sun, 19 Jan 2020 07:17:15 +0000</pubDate>
+      
+      <guid>/notes/2020-01-13-week-03/</guid>
+      <description> Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)  Hugo: Build with Drafts hugo -D serve  </description>
+    </item>
+    
+  </channel>
+</rss>
