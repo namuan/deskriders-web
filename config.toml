@@ -74,3 +74,8 @@ url = "posts/"
 name = "Projects"
 weight = 3
 url = "projects/"
+
+[[menu.main]]
+name = "Notes"
+weight = 4
+url = "notes/"
