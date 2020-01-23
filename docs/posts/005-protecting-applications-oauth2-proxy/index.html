@@ -143,17 +143,17 @@ In this guide, we will setup a Github OAuth application but the same setup can b
 <p><img src="/images/005/fozsrm840r7nu8wbia5o.png" alt="Github Client configuration"></p>
 <h4 id="running-application-with-proxy">Running application with proxy:</h4>
 <p>Clone this <a href="https://github.com/namuan/oauth2-proxy-httpbin">Github project</a> and then copy or move the example configuration file.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cp .env.example .env
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cp .env.example .env
 </code></pre></div><p>You can also run the following command to generate a random value which will be used for cookie secret.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">head -c32 /dev/urandom | base64
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">head -c32 /dev/urandom | base64
 </code></pre></div><p>Edit the .env file and update the variables.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">OAUTH2_PROXY_COOKIE_SECRET=&lt;generated random value&gt;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">OAUTH2_PROXY_COOKIE_SECRET=&lt;generated random value&gt;
 OAUTH2_PROXY_COOKIE_DOMAIN=http://localtest.me
 OAUTH2_PROXY_CLIENT_ID=&lt;github client id&gt;
 OAUTH2_PROXY_CLIENT_SECRET=&lt;github client secret&gt;
 </code></pre></div><p>Now, switch over to docker-compose.yml which is setting up two docker containers. The <a href="https://hub.docker.com/r/kennethreitz/httpbin">httpbin</a> container is the service we are trying to protect so you can see that it is not exposing any ports. The <code>&quot;--upstream=http://httpbin:80&quot;,</code> configuration is telling the oauth2 proxy where to send the traffic once the login is successful.</p>
 <p>With everything in its place, we can bring up the containers using <code>docker-compose</code>.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker-compose up
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker-compose up
 </code></pre></div><p>It'll take some time if it is running for the first time to pull any missing docker images. Once everything is running, you can visit <code>http://localtest.me:8080/</code> in the browser which should show you a screen with a button to &ldquo;Sign in with Github&rdquo;. Here is a brief sequence of the login flow and accessing httpbin.</p>
 <p><img src="/images/005/br9iafvbj41srj5j7dxl.gif" alt="oauth2_proxy_login_httpbin"></p>
 <h4 id="conclusion">Conclusion:</h4>
