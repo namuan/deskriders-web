@@ -50,10 +50,14 @@ googleAnalytics = "UA-129728575-5"
     # Custom JS
     custom_js = []
 
+
+[params.utteranc]
+    repo = "namuan/deskriders-web"
+
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 [[params.social]]
     name = "Github"
