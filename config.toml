@@ -12,6 +12,8 @@ canonifyurls = true
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+googleAnalytics = "UA-129728575-5"
+
 # disqusShortname = "yourdiscussshortname"
 
 [params]
