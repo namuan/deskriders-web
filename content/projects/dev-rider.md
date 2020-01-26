@@ -40,3 +40,24 @@ Linux package [coming soon](https://github.com/namuan/dev-rider/issues/6) but it
 🚀 Markdown Viewer
 
 🚀 JSON Viewer/Formatter/Minifier
+
+
+##### 🚨 Call for Help 🚨
+
+The list of things that we can add is huge so appreciate anyone willing to contribute. I'm available to guide you through the application architecture and what is involved in making appropriate changes. Hopefully we'll learn something useful in the process 🙌.
+
+⚠️ **Add more languages for code snippets**
+
+DevRider supports curated code snippets for a tool. For eg, if you are using Base64 Encoder then it'll show you the source code to do base64 encoding in different languages.
+
+So if you are looking to learn a new language then please don't hesitate to provide code samples for some of the tools already exists.
+
+See https://github.com/namuan/dev-rider/issues for picking up a task as a first time contributor.
+
+⚠️ **Add more tools**
+
+If you are thinking about learning Python/PyQt then consider adding a new tool. Here is a page where I described the process of adding a Markdown Viewer https://github.com/namuan/dev-rider/blob/master/docs/devrider-adding-tool.md.
+
+Also see the current list [here](https://github.com/namuan/dev-rider/blob/master/docs/more-tools.md) but you are welcome to add anything missing from that list.
+
+Please like the [Github Project](https://github.com/namuan/dev-rider) and follow https://twitter.com/deskriders_twt/ for development updates and spreading the word out.
