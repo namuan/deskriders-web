@@ -20,9 +20,6 @@ serve: ## Serve site locally
 stage: generate ## Deploys to Netlify staging environment
 	netlify deploy --dir=docs
 
-prod: ## Deploys to Netlify Live environment
-	netlify deploy --prod
-
 .PHONY: help
 .DEFAULT_GOAL := help
 
