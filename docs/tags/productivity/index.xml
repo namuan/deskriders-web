@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on deskriders</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in productivity on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Jan 2020 19:05:42 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing DevRider :: One Desktop Tool for Common Development Tools</title>
+      <link>/posts/010-introducing-devrider/</link>
+      <pubDate>Thu, 23 Jan 2020 19:05:42 +0000</pubDate>
+      
+      <guid>/posts/010-introducing-devrider/</guid>
+      <description>There is a serious problem with the state of simple development tools on the internet. Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups which makes it difficult and risky to use. And then there is also a huge problem with privacy and leaking any private data that is used on any of these websites.
+Although it is impossible to replace them altogether, let me introduce you to DevRider, a new open source to provide some of the common tools in an extensible desktop application.</description>
+    </item>
+    
+  </channel>
+</rss>
