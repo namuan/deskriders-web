@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on deskriders</title>
+    <link>/tags/tools/</link>
+    <description>Recent content in tools on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Jan 2020 10:13:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Simple setup to remember one-liners/code snippets</title>
+      <link>/posts/012-keeping-snippets/</link>
+      <pubDate>Mon, 27 Jan 2020 10:13:04 +0000</pubDate>
+      
+      <guid>/posts/012-keeping-snippets/</guid>
+      <description>Here is a simple setup explaining a comment I made on Reddit.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&#39;t store block of code or longer text here as they&#39;ll become difficult to search.
+find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
+    </item>
+    
+  </channel>
+</rss>

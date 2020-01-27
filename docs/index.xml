@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2020 19:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 10:13:04 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -68,6 +68,33 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>A Simple setup to remember one-liners/code snippets</title>
+      <link>/posts/012-keeping-snippets/</link>
+      <pubDate>Mon, 27 Jan 2020 10:13:04 +0000</pubDate>
+      
+      <guid>/posts/012-keeping-snippets/</guid>
+      <description>Here is a simple setup explaining a comment I made on Reddit.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&#39;t store block of code or longer text here as they&#39;ll become difficult to search.
+find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
+    </item>
+    
+    <item>
+      <title>January Releases for Deskrider Tools</title>
+      <link>/posts/011-deskrider-january-releases/</link>
+      <pubDate>Sun, 26 Jan 2020 17:21:38 +0000</pubDate>
+      
+      <guid>/posts/011-deskrider-january-releases/</guid>
+      <description>Here are the January releases for HttpRider and DeskRider.
+HttpRider MacOS
+Download for Mac
+Windows releases are still pending. Looks like I may have to switch to PyInstaller from py2app/py2exe. Hoping to finish it over the coming week.
+DevRider MacOS
+Download for Mac
+Windows
+Download for Windows</description>
     </item>
     
     <item>
