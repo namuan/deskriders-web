@@ -76,9 +76,9 @@ weight = 2
 url = "posts/"
 
 [[menu.main]]
-name = "Projects"
+name = "Products"
 weight = 3
-url = "projects/"
+url = "products"
 
 [[menu.main]]
 name = "Notes"

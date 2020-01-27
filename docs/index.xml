@@ -18,10 +18,11 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+Downloads Downloads are currently available for MacOS and Windows from the following page.
+https://www.httprider.com/docs/getting-started/installation/
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
-🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
-🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
+🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.</description>
     </item>
     
     <item>
@@ -137,6 +138,16 @@ Although it is impossible to replace them altogether, let me introduce you to De
       <guid>/projects/news-rider/</guid>
       <description>Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi
 👉 NewsRider</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/products/</link>
+      <pubDate>Wed, 15 Jan 2020 10:32:46 +0000</pubDate>
+      
+      <guid>/products/</guid>
+      <description>HttpRider :: Cross-Platform Open Source Desktop API Client HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+DevRider :: Development Tools/Utilities In One Place There is a serious problem with the state of simple development tools on the internet. Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups 😷 which makes it difficult and risky to use.</description>
     </item>
     
     <item>

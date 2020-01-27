@@ -18,10 +18,11 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+Downloads Downloads are currently available for MacOS and Windows from the following page.
+https://www.httprider.com/docs/getting-started/installation/
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
-🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
-🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
+🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.</description>
     </item>
     
     <item>
