@@ -6,7 +6,7 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2020 10:13:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 16:38:45 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>productivity</title>
       <link>/tags/productivity/</link>
-      <pubDate>Mon, 27 Jan 2020 10:13:04 +0000</pubDate>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
       
       <guid>/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>/tags/tips/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/tags/tips/</guid>
       <description></description>
     </item>
     
