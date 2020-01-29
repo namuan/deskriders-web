@@ -29,41 +29,56 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/productivity/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/tips/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+    <loc>/posts/014-tooltip-2-simple-maths-bc/</loc>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/tooltips/</loc>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/</loc>
+    <lastmod>2020-01-28T19:08:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/2020-01-27-week-05/</loc>
+    <lastmod>2020-01-28T19:08:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url>
   
@@ -110,11 +125,6 @@
   <url>
     <loc>/tags/utilities/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
-    <lastmod>2020-01-20T09:45:05+00:00</lastmod>
   </url>
   
   <url>

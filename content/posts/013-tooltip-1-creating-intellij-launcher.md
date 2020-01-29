@@ -1,7 +1,7 @@
 +++ 
 date = 2020-01-28T16:38:45Z
 title = "Tooltip # 1 :: Creating command line launcher for IntelliJ products"
-description = ""
+description = "Create command line launcher for IntelliJ products"
 slug = "" 
 tags = ["tips", "productivity"]
 categories = ["tooltips"]

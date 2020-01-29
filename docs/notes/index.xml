@@ -6,10 +6,19 @@
     <description>Recent content in Notes on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jan 2020 09:45:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 19:08:56 +0000</lastBuildDate>
     
 	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 05 2020</title>
+      <link>/notes/2020-01-27-week-05/</link>
+      <pubDate>Tue, 28 Jan 2020 19:08:56 +0000</pubDate>
+      
+      <guid>/notes/2020-01-27-week-05/</guid>
+      <description> Google Cloud   Create a new Service accounts Share Google Sheet with the service account  </description>
+    </item>
     
     <item>
       <title>Week 04 2020</title>
