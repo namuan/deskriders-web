@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2020 08:38:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 09:24:27 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -72,6 +72,17 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Tooltip # 3 :: Reading files line by line on command line</title>
+      <link>/posts/015-tooltip-3-reading-file-line-by-line/</link>
+      <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
+      
+      <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
+      <description>In this short clip, we&#39;ll look at using for and while loop to process each line in a file.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+    <item>
       <title>Tooltip # 2 :: Simple Maths on command line using bc</title>
       <link>/posts/014-tooltip-2-simple-maths-bc/</link>
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
@@ -90,7 +101,7 @@ References:
       <pubDate>Tue, 28 Jan 2020 19:08:56 +0000</pubDate>
       
       <guid>/notes/2020-01-27-week-05/</guid>
-      <description> Google Cloud   Create a new Service accounts Share Google Sheet with the service account  </description>
+      <description>Python : Python one liner to extract and transform Spring HttpStatus enums Raw  curl -s https://raw.githubusercontent.com/spring-projects/spring-framework/master/spring-web/src/main/java/org/springframework/http/HttpStatus.java | \ grep &amp;#39;\&amp;#34;.*),&amp;#39; | \ while read line; \ do echo $line | python -c &amp;#39;import re,sys; s, c, m = re.search(&amp;#34;([\w\_]+)\((\d+),\s+\&amp;#34;([\w\s]+)&amp;#34;, sys.stdin.readline()).groups(); print(&amp;#34;{}: (\&amp;#34;HttpStatus.{}\&amp;#34;, \&amp;#34;{}\&amp;#34;),&amp;#34;.format(c, s, m))&amp;#39;; \ done  Python: Find words in a sentence  source = &amp;#39;The quick brown fox jumps over the lazy dog&amp;#39; import re print(re.</description>
     </item>
     
     <item>

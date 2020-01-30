@@ -17,7 +17,7 @@
       <pubDate>Tue, 28 Jan 2020 19:08:56 +0000</pubDate>
       
       <guid>/notes/2020-01-27-week-05/</guid>
-      <description> Google Cloud   Create a new Service accounts Share Google Sheet with the service account  </description>
+      <description>Python : Python one liner to extract and transform Spring HttpStatus enums Raw  curl -s https://raw.githubusercontent.com/spring-projects/spring-framework/master/spring-web/src/main/java/org/springframework/http/HttpStatus.java | \ grep &amp;#39;\&amp;#34;.*),&amp;#39; | \ while read line; \ do echo $line | python -c &amp;#39;import re,sys; s, c, m = re.search(&amp;#34;([\w\_]+)\((\d+),\s+\&amp;#34;([\w\s]+)&amp;#34;, sys.stdin.readline()).groups(); print(&amp;#34;{}: (\&amp;#34;HttpStatus.{}\&amp;#34;, \&amp;#34;{}\&amp;#34;),&amp;#34;.format(c, s, m))&amp;#39;; \ done  Python: Find words in a sentence  source = &amp;#39;The quick brown fox jumps over the lazy dog&amp;#39; import re print(re.</description>
     </item>
     
     <item>
