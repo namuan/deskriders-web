@@ -122,6 +122,25 @@ done
 <li>Shell: Pass contents of clipboard as file descriptor. It'll work with apps expecting file argument.</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ command &lt;<span style="color:#f92672">(</span>pbpaste<span style="color:#f92672">)</span>
+</code></pre></div><ul>
+<li>Python/Jinja: Using Jinja template in a simple Python script</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cat template.j2
+<span style="color:#f92672">{</span><span style="color:#f92672">{</span> description <span style="color:#f92672">}</span><span style="color:#f92672">}</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># pip install Jinja2</span>
+
+<span style="color:#f92672">from</span> jinja2 <span style="color:#f92672">import</span> Environment, FileSystemLoader
+
+TEMPLATE_DIR <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>dirname(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>abspath(__file__))
+
+jinja_env <span style="color:#f92672">=</span> Environment(loader<span style="color:#f92672">=</span>FileSystemLoader(TEMPLATE_DIR), trim_blocks<span style="color:#f92672">=</span>True)
+
+book_item <span style="color:#f92672">=</span> dict(
+	description<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello World</span><span style="color:#e6db74">&#34;</span>
+)
+
+rendered <span style="color:#f92672">=</span> jinja_env<span style="color:#f92672">.</span>get_template(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">template.j2</span><span style="color:#e6db74">&#34;</span>)<span style="color:#f92672">.</span>render(book_item)
+<span style="color:#66d9ef">print</span>(rendered)
 </code></pre></div>
   </article>
 </section>
