@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/projects/mind-books-club/</loc>
+    <lastmod>2020-01-31T15:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/kube-rider/</loc>
     <lastmod>2019-10-13T08:46:20+00:00</lastmod>
   </url>
@@ -28,42 +33,52 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-01-31T15:27:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <loc>/projects/</loc>
+    <lastmod>2020-01-31T15:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/productivity/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/tips/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/015-tooltip-3-reading-file-line-by-line/</loc>
-    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+    <loc>/posts/016-tooltip-4-converting-json-to-csv/</loc>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/tooltips/</loc>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/015-tooltip-3-reading-file-line-by-line/</loc>
     <lastmod>2020-01-30T09:24:27+00:00</lastmod>
   </url>
   
@@ -144,11 +159,6 @@
   
   <url>
     <loc>/projects/news-rider/</loc>
-    <lastmod>2020-01-18T09:27:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
     <lastmod>2020-01-18T09:27:57+00:00</lastmod>
   </url>
   
@@ -273,12 +283,12 @@
   </url>
   
   <url>
-    <loc>/tags/kuberider/</loc>
+    <loc>/categories/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/kuberider/</loc>
+    <loc>/tags/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   

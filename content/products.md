@@ -7,6 +7,10 @@ date: 2020-01-15T10:32:46Z
 HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. 
 It is a lean alternative to Postman and other tools developed using Electron.
 
+## [MindBooks :: Thought provoking books](/projects/mind-books-club/)
+
+Growing collection of books to open your mind.
+
 ## [DevRider :: Development Tools/Utilities In One Place](/projects/dev-rider/)
 
 There is a serious problem with the state of simple development tools on the internet. 

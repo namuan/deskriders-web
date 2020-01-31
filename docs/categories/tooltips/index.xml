@@ -6,10 +6,22 @@
     <description>Recent content in tooltips on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2020 09:24:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 08:00:06 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tooltips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip # 4 :: Converting JSON to CSV using csvkit</title>
+      <link>/posts/016-tooltip-4-converting-json-to-csv/</link>
+      <pubDate>Fri, 31 Jan 2020 08:00:06 +0000</pubDate>
+      
+      <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
+      <description>In this short clip, we&#39;ll look at using in2sec utility from csvkit to convert JSON to CSV.
+Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Used http://next.json-generator.com to generate JSON document</description>
+    </item>
     
     <item>
       <title>Tooltip # 3 :: Reading files line by line on command line</title>

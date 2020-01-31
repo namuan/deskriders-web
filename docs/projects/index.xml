@@ -6,7 +6,7 @@
     <description>Recent content in Projects on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jan 2020 09:27:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 15:27:38 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,6 +23,15 @@ https://www.httprider.com/docs/getting-started/installation/
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
 🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.</description>
+    </item>
+    
+    <item>
+      <title>Mindbooks :: Thought Provoking Books</title>
+      <link>/projects/mind-books-club/</link>
+      <pubDate>Fri, 31 Jan 2020 15:27:38 +0000</pubDate>
+      
+      <guid>/projects/mind-books-club/</guid>
+      <description>👉 https://mindbooks.club</description>
     </item>
     
     <item>

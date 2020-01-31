@@ -1,5 +1,5 @@
 +++ 
-date = 2020-02-02T08:00:21Z
+date = 2020-02-01T08:00:21Z
 title = "Tooltip # 5 :: Converting CSV to JSON using csvkit"
 description = "Looking at using csvjson utility from csvkit to convert CSV to JSON"
 tags = ["tips", "productivity"]
