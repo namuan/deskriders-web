@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2020 08:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 08:00:21 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip # 5 :: Converting CSV to JSON using csvkit</title>
+      <link>/posts/017-tooltip-5-converting-csv-to-json/</link>
+      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      
+      <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
+      <description>In this short clip, we&#39;ll look at using csvjson utility from csvkit to convert CSV to JSON.
+Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
     
     <item>
       <title>Tooltip # 4 :: Converting JSON to CSV using csvkit</title>
