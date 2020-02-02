@@ -2,7 +2,7 @@
 date = 2020-01-31T08:00:06Z
 title = "Tooltip # 4 :: Converting JSON to CSV using csvkit"
 description = "Looking at in2csv from csvkit to convert JSON to CSV"
-tags = ["tips", "productivity"]
+tags = ["csv", "json", "csvkit"]
 categories = ["tooltips"]
 externalLink = ""
 series = []

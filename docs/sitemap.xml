@@ -34,41 +34,56 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jq/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/json/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/productivity/</loc>
-    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tooltips/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/csv/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tips/</loc>
+    <loc>/tags/csvkit/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/017-tooltip-5-converting-csv-to-json/</loc>
-    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/tooltips/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url>
   
@@ -83,8 +98,18 @@
   </url>
   
   <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/015-tooltip-3-reading-file-line-by-line/</loc>
     <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maths/</loc>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url>
   
   <url>
@@ -103,6 +128,16 @@
   </url>
   
   <url>
+    <loc>/tags/ide/</loc>
+    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url>
@@ -114,11 +149,6 @@
   
   <url>
     <loc>/categories/productivity/</loc>
-    <lastmod>2020-01-27T10:13:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shell/</loc>
     <lastmod>2020-01-27T10:13:04+00:00</lastmod>
   </url>
   

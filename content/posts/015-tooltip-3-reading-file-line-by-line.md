@@ -2,7 +2,7 @@
 date = 2020-01-30T09:24:27Z
 title = "Tooltip # 3 :: Reading files line by line on command line"
 description = "Looking at simple commands to read a file line by line and process each line"
-tags = ["tips", "productivity"]
+tags = ["shell"]
 categories = ["tooltips"]
 externalLink = ""
 series = []

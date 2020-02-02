@@ -6,35 +6,80 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2020 08:00:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 07:45:25 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>productivity</title>
-      <link>/tags/productivity/</link>
-      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      <title>jq</title>
+      <link>/tags/jq/</link>
+      <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
       
-      <guid>/tags/productivity/</guid>
+      <guid>/tags/jq/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tips</title>
-      <link>/tags/tips/</link>
+      <title>json</title>
+      <link>/tags/json/</link>
+      <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
+      
+      <guid>/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csv</title>
+      <link>/tags/csv/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
       
-      <guid>/tags/tips/</guid>
+      <guid>/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csvkit</title>
+      <link>/tags/csvkit/</link>
+      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      
+      <guid>/tags/csvkit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
       <link>/tags/shell/</link>
-      <pubDate>Mon, 27 Jan 2020 10:13:04 +0000</pubDate>
+      <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
       
       <guid>/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maths</title>
+      <link>/tags/maths/</link>
+      <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
+      
+      <guid>/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>/tags/ide/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>/tags/productivity/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     
