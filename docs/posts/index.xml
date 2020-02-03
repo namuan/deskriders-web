@@ -6,10 +6,38 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2020 07:45:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 08:05:07 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip 7: Selecting nested array items using jq</title>
+      <link>/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
+      <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
+      
+      <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
+      <description>In this short clip, we&#39;ll further into jq syntax and selecting nested items using jq filtering.
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
+    
+    <item>
+      <title>January 2020 Progress Report</title>
+      <link>/posts/022-january2020-progress-report/</link>
+      <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
+      
+      <guid>/posts/022-january2020-progress-report/</guid>
+      <description>🚀 Started DevRider
+🚀 Created Windows Release Package for HttpRider (https://www.deskriders.dev/projects/http-rider/)
+🚀 Started MindBooks
+🚀 Started new series on Tooltips
+February Goals: 📝 Add links to MindBook to buy books
+📝 Promote Mindbooks on ProductHunt, IndieHackers and other channels
+📝 Publish around 30 tooltips
+📝 Move tooltips to its own website</description>
+    </item>
     
     <item>
       <title>Tooltip # 6 :: Filtering JSON arrays with jq</title>

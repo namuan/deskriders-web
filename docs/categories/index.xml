@@ -6,7 +6,7 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2020 07:45:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 08:05:07 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>tooltips</title>
       <link>/categories/tooltips/</link>
-      <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
+      <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
       
       <guid>/categories/tooltips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>indiedev</title>
+      <link>/categories/indiedev/</link>
+      <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
+      
+      <guid>/categories/indiedev/</guid>
       <description></description>
     </item>
     

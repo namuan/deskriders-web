@@ -34,41 +34,61 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/jq/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/json/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
-    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+    <loc>/posts/019-tooltip-7-selecting-nested-array-items-jq/</loc>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/tooltips/</loc>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/indiedev/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/022-january2020-progress-report/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/motivation/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
     <lastmod>2020-02-02T07:45:25+00:00</lastmod>
   </url>
   
@@ -318,12 +338,12 @@
   </url>
   
   <url>
-    <loc>/categories/kuberider/</loc>
+    <loc>/tags/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/kuberider/</loc>
+    <loc>/categories/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   
