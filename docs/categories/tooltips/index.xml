@@ -6,10 +6,22 @@
     <description>Recent content in tooltips on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2020 08:05:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 08:05:44 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tooltips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip 8 : Extracting Array Item using jq</title>
+      <link>/posts/020-tooltip-8-extracting-items-contains-jq/</link>
+      <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
+      
+      <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
+      <description>In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
     
     <item>
       <title>Tooltip 7: Selecting nested array items using jq</title>
