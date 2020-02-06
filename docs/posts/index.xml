@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip 10 : Using seq to generate padded numbers</title>
+      <link>/posts/023-tooltip-10-seq-padded-numbers/</link>
+      <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
+      <description>In this short clip, we&#39;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
+Requirements:   📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
     
     <item>
       <title>Tooltip 9 : Combining JSON attributes using jq</title>
