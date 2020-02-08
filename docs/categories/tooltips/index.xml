@@ -6,10 +6,21 @@
     <description>Recent content in tooltips on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 08:06:04 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tooltips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip 11 : Using lsof to list all open ports and process identifiers</title>
+      <link>/posts/024-tooltip-11-lsof-open-ports-pids/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
+      <description>In this short clip, we&#39;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+Requirements:   📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
+    </item>
     
     <item>
       <title>Tooltip 10 : Using seq to generate padded numbers</title>

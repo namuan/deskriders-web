@@ -6,10 +6,28 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 08:06:04 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>lsof</title>
+      <link>/tags/lsof/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/lsof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>/tags/networking/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/networking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>seq</title>
