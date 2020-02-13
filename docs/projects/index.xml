@@ -6,7 +6,7 @@
     <description>Recent content in Projects on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jan 2020 15:27:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 18:53:43 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -78,6 +78,21 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>One Page :: Simple ScratchPad</title>
+      <link>/projects/one-page/</link>
+      <pubDate>Thu, 13 Feb 2020 18:53:43 +0000</pubDate>
+      
+      <guid>/projects/one-page/</guid>
+      <description>OnePage is a simple cross-platform scratchpad.
+👉 https://github.com/namuan/one-page
+Features 🚀 Only allows you to create a single note
+🚀 No possibility of creating multiple notes so your notes are always in front
+🚀 Single App across platforms
+🚀 Remove any formatting style
+🚀 Auto-save notes</description>
     </item>
     
     <item>

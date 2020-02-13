@@ -24,6 +24,10 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
 KubeRider is a simple desktop client for working with Kubernetes.
 It is a wrapper over kubectl which means you don't have to remember CLI options and arguments.
 
+## [OnePage :: Simple ScratchPad](/projects/one-page/)
+
+Simple Cross-Platform ScratchPad.
+
 ## [Docker-Files :: Dockerfile(s) for NodeJS, Python, Java, Ruby etc](/projects/docker-files/)
 
 Search engine for Dockerfiles
