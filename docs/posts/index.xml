@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 08:06:04 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tooltip 13: Using command line functions to simplify find command</title>
+      <link>/posts/026-tooltip-13-cli-functions-find/</link>
+      <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/026-tooltip-13-cli-functions-find/</guid>
+      <description>In this tooltip, we&#39;ll create a simple function to find files in the current directory tree using find.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
     
     <item>
       <title>Tooltip 12 : Using svgo to optimize SVG files</title>
@@ -18,7 +29,7 @@
       
       <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
       <description>In this short video, we&#39;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
-Requirements:   📝:
+  📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Github: https://github.com/svg/svgo
 👉 NPM: https://npmjs.org/package/svgo</description>
@@ -31,7 +42,7 @@ Requirements:   📝:
       
       <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
       <description>In this short clip, we&#39;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
-Requirements:   📝:
+  📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
     </item>
     
@@ -42,7 +53,7 @@ Requirements:   📝:
       
       <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
       <description>In this short clip, we&#39;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
-Requirements:   📝:
+  📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     

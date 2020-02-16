@@ -10,8 +10,6 @@ series = []
 
 In this short clip, we'll look at 'lsof', a simple tool on MacOS to list all open ports and get their process identifiers. 
 
-#### Requirements:
-
 {{< youtube WoPZu9_RQe0 >}}
 
 📝:

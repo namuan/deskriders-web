@@ -10,8 +10,6 @@ series = []
 
 In this short clip, we'll use 'seq' command line tool to generate padded numbers.
 
-#### Requirements:
-
 {{< youtube fsjUghQCLoY >}}
 
 📝:

@@ -10,8 +10,6 @@ series = []
 
 In this short video, we'll use 'svgo' tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
 
-#### Requirements:
-
 {{< youtube oBcz2M6gXQ4 >}}
 
 📝:
