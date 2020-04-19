@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 13:05:38 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -78,6 +78,28 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Java 8&#43;: Using Collectors as reducers</title>
+      <link>/posts/027-java-collectors-reducer/</link>
+      <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
+      
+      <guid>/posts/027-java-collectors-reducer/</guid>
+      <description>A simple example to show how to use Collectors as reducers in Java 8+.
+Say, we have a simple Transaction class consists of the currency and the value of the transaction.
+Transaction class is sprinkled with Lombok annotation to make use of Builder.
+@Value @Builder public static class Transaction { String currency; int value; } And given the following set of data:
+GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
+    </item>
+    
+    <item>
+      <title>Week 08 2020</title>
+      <link>/notes/2020-02-17-week-08/</link>
+      <pubDate>Mon, 17 Feb 2020 19:08:56 +0000</pubDate>
+      
+      <guid>/notes/2020-02-17-week-08/</guid>
+      <description> Python: Open file dialog box  from PyQt5.QtWidgets import QFileDialog def open_file(self, dialog_title, dialog_location, file_filter=None): return QFileDialog.getOpenFileName( self, dialog_title, dialog_location, filter=file_filter ) file_location, _ = self.main_window.save_file( &amp;#34;Export Environments&amp;#34;, current_project_folder, file_filter=&amp;#34;Environment Files (*.envs.json)&amp;#34;, ) if file_location: # do something pass  Go: Qt Binding https://github.com/therecipe/qt  </description>
     </item>
     
     <item>
