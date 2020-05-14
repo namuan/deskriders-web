@@ -4,8 +4,8 @@ date = 2020-05-08T15:00:06+01:00
 title = "Gradle custom task for selectively running tests"
 description = "how do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?"
 slug = "" 
-tags = []
-categories = []
+tags = ["java", "gradle"]
+categories = ["java"]
 externalLink = ""
 series = []
 +++

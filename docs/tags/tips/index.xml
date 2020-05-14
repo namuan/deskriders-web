@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on deskriders</title>
+    <link>/tags/tips/</link>
+    <description>Recent content in tips on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2020 23:45:43 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using EasyRandom with Spring Framework</title>
+      <link>/posts/029-easy-random-spring-boot/</link>
+      <pubDate>Thu, 14 May 2020 23:45:43 +0100</pubDate>
+      
+      <guid>/posts/029-easy-random-spring-boot/</guid>
+      <description>Tired of creating objects in tests. Try using EasyRandom library. Here is how easily you can add it to a Spring Java project
+Step 1: Add gradle/maven dependency https://mvnrepository.com/artifact/org.jeasy/easy-random
+Step 2: Declare it in test Step 3: Use it to generate random data objects Step 4: 😍 Tips: Random initial seed In the default setup, EasyRandom uses a default seed value to generate randam data. Although it is quite simple to initiate EasyRandom with a random seed.</description>
+    </item>
+    
+  </channel>
+</rss>
