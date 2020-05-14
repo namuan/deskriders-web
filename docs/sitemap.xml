@@ -33,12 +33,22 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-04-19T13:05:38+01:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-05-08T15:00:06+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/posts/028-gradle-contract-tests/</loc>
+    <lastmod>2020-05-08T15:00:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-05-08T15:00:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
   </url>
   
@@ -54,11 +64,6 @@
   
   <url>
     <loc>/posts/027-java-collectors-reducer/</loc>
-    <lastmod>2020-04-19T13:05:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
   </url>
   

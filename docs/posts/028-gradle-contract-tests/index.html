@@ -10,26 +10,26 @@
     <meta name="keywords" content="blog,developer">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tooltip 8 : Extracting Array Item using jq"/>
-<meta name="twitter:description" content="In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &#39;contains&#39; function to partially match an attribute value."/>
+<meta name="twitter:title" content="Gradle custom task for selectively running tests"/>
+<meta name="twitter:description" content="how do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?"/>
 
-    <meta property="og:title" content="Tooltip 8 : Extracting Array Item using jq" />
-<meta property="og:description" content="In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &#39;contains&#39; function to partially match an attribute value." />
+    <meta property="og:title" content="Gradle custom task for selectively running tests" />
+<meta property="og:description" content="how do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/020-tooltip-8-extracting-items-contains-jq/" />
-<meta property="article:published_time" content="2020-02-04T08:05:44+00:00" />
-<meta property="article:modified_time" content="2020-02-04T08:05:44+00:00" />
+<meta property="og:url" content="/posts/028-gradle-contract-tests/" />
+<meta property="article:published_time" content="2020-05-08T15:00:06+01:00" />
+<meta property="article:modified_time" content="2020-05-08T15:00:06+01:00" />
 
 
     
-      <base href="/posts/020-tooltip-8-extracting-items-contains-jq/">
+      <base href="/posts/028-gradle-contract-tests/">
     
     <title>
-  Tooltip 8 : Extracting Array Item using jq · deskriders
+  Gradle custom task for selectively running tests · deskriders
 </title>
 
     
-      <link rel="canonical" href="/posts/020-tooltip-8-extracting-items-contains-jq/">
+      <link rel="canonical" href="/posts/028-gradle-contract-tests/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -105,14 +105,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Tooltip 8 : Extracting Array Item using jq</h1>
+          <h1 class="title">Gradle custom task for selectively running tests</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-02-04T08:05:44Z'>
-                February 4, 2020
+              <time datetime='2020-05-08T15:00:06&#43;01:00'>
+                May 8, 2020
               </time>
             </span>
             <span class="reading-time">
@@ -120,33 +120,34 @@
               One minute read
             </span>
           </div>
-          <div class="categories">
-  <i class="fas fa-folder"></i>
-    <a href="/categories/tooltips/">tooltips</a></div>
-
-          <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="/tags/json/">json</a>
-      <span class="separator">•</span>
-    <a href="/tags/jq/">jq</a></div>
-
+          
+          
         </div>
       </header>
 
       <div>
-        <p>In this short clip, we'll continue looking at jq to extract a nested array item along with using the &lsquo;contains&rsquo; function to partially match an attribute value.</p>
-<h4 id="requirements">Requirements:</h4>
-<ul>
-<li>jq: <a href="https://stedolan.github.io/jq/">https://stedolan.github.io/jq/</a></li>
-</ul>
+        <p><em>Q: How do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?</em></p>
+<p>Here, I'll add a test which is ignored when running <code>./gradlew test</code> but it can be triggered when needed (eg. from a separate Jenkins Job).</p>
+<p>The current directory structure look this</p>
+<p><img src="/images/20200508151905944_642229617.png" alt=""></p>
+<p>The first step is to exclude all the tests under contracts/</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">test <span style="color:#f92672">{</span>
+	<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/OR88RAyiTiE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+	exclude<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;**/contracts/*.*&#39;</span><span style="color:#f92672">)</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Then we'll define another Gradle task so that contract tests can be executed on demand</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">task <span style="color:#a6e22e">contractTests</span><span style="color:#f92672">(</span>type: Test<span style="color:#f92672">,</span> group: <span style="color:#e6db74">&#39;verification&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
 
-<p>📝:</p>
-<p>👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</p>
-<p>👉 Although <code>jq</code> is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</p>
+    include<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;**/contracts/*.*&#39;</span><span style="color:#f92672">)</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Once you have it setup</p>
+<p>Run all tests which will exclude any contract tests</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">./gradlew test
+</code></pre></div><p>And at the same time, we can run just contract tests</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">./gradlew contractTests
+</code></pre></div><p>🎉</p>
 
       </div>
 

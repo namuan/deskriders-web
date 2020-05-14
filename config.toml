@@ -29,9 +29,6 @@ googleAnalytics = "UA-129728575-5"
     hideCopyright = false
     since = 2019
 
-    # Git Commit in Footer, uncomment the line below to enable it.
-    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
-
     rtl = false
 
     # Specify light/dark colorscheme
@@ -39,7 +36,7 @@ googleAnalytics = "UA-129728575-5"
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorscheme = "light"
+    colorscheme = "auto"
 
     # Series see also post count
     maxSeeAlsoItems = 5
