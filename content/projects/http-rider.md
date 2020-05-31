@@ -7,6 +7,8 @@ weight: 100
 [HttpRider](https://httprider.com) is a cross-platfom open souce desktop API client built using Python and PyQt. 
 It is a lean alternative to Postman and other tools developed using Electron.
 
+[![MacOS Release](https://img.shields.io/github/v/release/namuan/http-rider-osx?label=macos)](https://github.com/namuan/http-rider-osx/releases/latest) [![Windows Release](https://img.shields.io/github/v/release/namuan/http-rider-win?label=windows)](https://github.com/namuan/http-rider-win/releases/latest) [![Linux Release](https://img.shields.io/github/v/release/namuan/http-rider?label=Linux)](https://github.com/namuan/http-rider/releases/latest) [![GitHub license](https://img.shields.io/github/license/namuan/http-rider.svg)](https://github.com/namuan/http-rider/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/deskriders_twt.svg?style=social&label=Follow)](https://twitter.com/deskriders_twt)
+
 ![HttpRider Cover Image](/images/httprider-cover-image.png)
 
 ##### Features:

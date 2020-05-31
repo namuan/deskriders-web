@@ -10,6 +10,8 @@ And then there is also a huge problem with privacy 👀 and leaking any private 
 
 [DevRider](https://github.com/namuan/dev-rider) is an attempt to provide a desktop tool which includes a shell and addins for various utilities.
 
+[![MacOS Release](https://img.shields.io/github/v/release/namuan/dev-rider-osx?label=macos)](https://github.com/namuan/dev-rider-osx/releases/latest) [![Windows Release](https://img.shields.io/github/v/release/namuan/dev-rider-win?label=windows)](https://github.com/namuan/dev-rider-win/releases/latest) [![Linux Release](https://img.shields.io/github/v/release/namuan/dev-rider?label=Linux)](https://github.com/namuan/dev-rider/releases/latest) [![GitHub license](https://img.shields.io/github/license/namuan/dev-rider.svg)](https://github.com/namuan/dev-rider/blob/master/LICENSE) [![Build Status](https://travis-ci.com/namuan/dev-rider.svg?branch=master)](https://travis-ci.org/namuan/dev-rider) [![Twitter Follow](https://img.shields.io/twitter/follow/deskriders_twt.svg?style=social&label=Follow)](https://twitter.com/deskriders_twt)
+
 ##### Features
 
 🚀 No Ads, Lean, Open Source

@@ -18,6 +18,7 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+    
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
 🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
@@ -86,12 +87,13 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/multi-breaks/</guid>
       <description>A Simple MacOS Application to set-up multiple reminders to improve your health.
+  
 👉 https://github.com/namuan/multi-breaks
 Features 🚀 Mindful Breathing Reminders every 45 minutes
 🚀 20/20/20 Eyesight Reminders every 20 minutes
 🚀 Stand-up and Walk Reminders every 1 hour
 🚀 Drinking Water Reminders every 2 hours
-Downloads </description>
+Downloads Mac OS App</description>
     </item>
     
     <item>
@@ -158,6 +160,7 @@ GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
       
       <guid>/projects/one-page/</guid>
       <description>OnePage is a simple cross-platform scratchpad.
+     
 👉 https://github.com/namuan/one-page
 Features 🚀 Only allows you to create a single note
 🚀 No possibility of creating multiple notes so your notes are always in front
@@ -167,7 +170,7 @@ Features 🚀 Only allows you to create a single note
 Downloads Downloads are currently available for MacOS and Windows.
 Mac OS App
 Windows App
-Linux from Source. Please check README.md for instructions</description>
+Linux from Source. Please check README.</description>
     </item>
     
     <item>
