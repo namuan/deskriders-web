@@ -9,6 +9,12 @@ It is a wrapper over kubectl which means you don't have to remember CLI options 
 
 ![KubeRider Cover Image](/images/kuberider-cover-image.png)
 
+#### Downloads
+
+Downloads are currently only available for MacOS.
+
+[Mac OS App](https://github.com/namuan/kube-rider-osx/releases/latest)
+
 ##### Features:
 
 🚀 Uses kubectl so no extra configuration required

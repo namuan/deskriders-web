@@ -18,8 +18,8 @@
       
       <guid>/posts/009-developing-api-exchange-2/</guid>
       <description>Please check the previous part to know the background of this project.
-In this part, we&#39;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&#39;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
 The first step is to create a new project folder and initialise package.</description>
     </item>

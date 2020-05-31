@@ -17,7 +17,7 @@
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -29,7 +29,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
       
       <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -41,7 +41,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
       
       <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
-      <description>In this short clip, we&#39;ll further into jq syntax and selecting nested items using jq filtering.
+      <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -53,7 +53,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
       
       <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
-      <description>In this short clip, we&#39;ll look at using jq to filter JSON arrays.
+      <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>

@@ -10,19 +10,6 @@ And then there is also a huge problem with privacy 👀 and leaking any private 
 
 [DevRider](https://github.com/namuan/dev-rider) is an attempt to provide a desktop tool which includes a shell and addins for various utilities.
 
-#### Downloads
-
-Downloads are currently available for MacOS and Windows.
-Linux package [coming soon](https://github.com/namuan/dev-rider/issues/6) but it should be simple to run from source.
-
-[Mac OS App](https://github.com/namuan/dev-rider-osx/releases/download/0.2.0/devrider-0.2.0.zip)
-
-[Windows App](https://github.com/namuan/dev-rider-win/releases/download/0.2.0/devrider-0.2.0.zip)
-
-[Linux from Source](https://github.com/namuan/dev-rider/blob/master/docs/contributing.md)
-
-![DevRider Cover Image](/images/devrider-cover-image.png)
-
 ##### Features
 
 🚀 No Ads, Lean, Open Source
@@ -41,6 +28,18 @@ Linux package [coming soon](https://github.com/namuan/dev-rider/issues/6) but it
 
 🚀 JSON Viewer/Formatter/Minifier
 
+#### Downloads
+
+Downloads are currently available for MacOS and Windows.
+Linux package [coming soon](https://github.com/namuan/dev-rider/issues/6) but it should be simple to run from source.
+
+[Mac OS App](https://github.com/namuan/dev-rider-osx/releases/latest)
+
+[Windows App](https://github.com/namuan/dev-rider-win/releases/latest)
+
+[Linux from Source](https://github.com/namuan/dev-rider/blob/master/docs/contributing.md)
+
+![DevRider Cover Image](/images/devrider-cover-image.png)
 
 ##### 🚨 Call for Help 🚨
 

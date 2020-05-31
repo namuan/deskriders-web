@@ -33,12 +33,17 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
+    <loc>/projects/multi-breaks/</loc>
+    <lastmod>2020-05-31T12:34:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/projects/</loc>
+    <lastmod>2020-05-31T12:34:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2020-05-14T23:45:43+01:00</lastmod>
   </url>
   
@@ -124,11 +129,6 @@
   
   <url>
     <loc>/projects/one-page/</loc>
-    <lastmod>2020-02-13T18:53:43+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
     <lastmod>2020-02-13T18:53:43+00:00</lastmod>
   </url>
   
@@ -343,6 +343,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-01-15T10:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/aws/</loc>
     <lastmod>2020-01-03T18:51:44+00:00</lastmod>
   </url>
@@ -453,12 +458,12 @@
   </url>
   
   <url>
-    <loc>/categories/kuberider/</loc>
+    <loc>/tags/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/kuberider/</loc>
+    <loc>/categories/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
   

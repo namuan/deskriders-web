@@ -17,7 +17,7 @@
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
       
       <guid>/posts/006-kuberider-bundling-macosx-release/</guid>
-      <description>In this post, I&#39;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
+      <description>In this post, I&amp;rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
 Step 1: Application Icon Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.
 Here is what I ended up using the Paper app on iPad.</description>
     </item>

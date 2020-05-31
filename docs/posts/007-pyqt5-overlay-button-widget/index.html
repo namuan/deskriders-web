@@ -12,12 +12,12 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Overlay button on a PyQt5 widget"/>
 <meta name="twitter:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&#39;ll define the button and the relative positioning.
+First, we&rsquo;ll define the button and the relative positioning.
 class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self."/>
 
     <meta property="og:title" content="Overlay button on a PyQt5 widget" />
 <meta property="og:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&#39;ll define the button and the relative positioning.
+First, we&rsquo;ll define the button and the relative positioning.
 class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/007-pyqt5-overlay-button-widget/" />
@@ -65,7 +65,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -142,7 +142,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
       <div>
         <p>This is a short post on how to add a floating button on top of a widget in PyQt5.</p>
 <p><img src="/images/007/6tpq07fmmwo1rt4gadry.gif" alt="pyqt5_floating_widget"></p>
-<p>First, we'll define the button and the relative positioning.</p>
+<p>First, we&rsquo;ll define the button and the relative positioning.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FloatingButtonWidget</span>(QtWidgets<span style="color:#f92672">.</span>QPushButton): <span style="color:#75715e">#1</span>
 
     <span style="color:#66d9ef">def</span> __init__(self, parent):
@@ -151,7 +151,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
         self<span style="color:#f92672">.</span>paddingTop <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_position</span>(self): 
-        <span style="color:#66d9ef">if</span> hasattr(self<span style="color:#f92672">.</span>parent(), <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">viewport</span><span style="color:#e6db74">&#39;</span>):
+        <span style="color:#66d9ef">if</span> hasattr(self<span style="color:#f92672">.</span>parent(), <span style="color:#e6db74">&#39;viewport&#39;</span>):
             parent_rect <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>parent()<span style="color:#f92672">.</span>viewport()<span style="color:#f92672">.</span>rect()
         <span style="color:#66d9ef">else</span>:
             parent_rect <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>parent()<span style="color:#f92672">.</span>rect()
@@ -176,7 +176,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
 <li>This will add the button to the top. If you need to place it at the button then use something like <code>parent_rect.height() - self.paddingLeft</code>.</li>
 <li>Catching the mouse pressed event and calling an signal on the parent widget.</li>
 </ol>
-<p>With the button defined, we'll embed it in a custom <code>QPlainTextEdit</code> and define appropriate interfaces for the caller to work with the floating button.</p>
+<p>With the button defined, we&rsquo;ll embed it in a custom <code>QPlainTextEdit</code> and define appropriate interfaces for the caller to work with the floating button.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OverlayedPlainTextEdit</span>(QtWidgets<span style="color:#f92672">.</span>QPlainTextEdit): <span style="color:#75715e">#1</span>
     floatingButtonClicked <span style="color:#f92672">=</span> QtCore<span style="color:#f92672">.</span>pyqtSignal() <span style="color:#75715e">#2</span>
 
@@ -193,12 +193,12 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
 </code></pre></div><ol>
 <li>Inheriting from QPlainTextEdit although this could be any widget.</li>
 <li>Defining a custom signal which is triggered when a mouse pressed event is captured in the floating button as we saw earlier.</li>
-<li>Updating the text of the button which we'll see later.</li>
+<li>Updating the text of the button which we&rsquo;ll see later.</li>
 <li>Overriding <code>resizeEvent</code> so that we can update the position of the floating button.</li>
 </ol>
 <p>Now we can use this class instead of <code>QPlainTextEdit</code> and update the floating button.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>floatingButtonClicked<span style="color:#f92672">.</span>connect(self<span style="color:#f92672">.</span>on_test)
-self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Edit</span><span style="color:#e6db74">&#34;</span>)<span style="color:#960050;background-color:#1e0010">`</span>
+self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74">&#34;Edit&#34;</span>)<span style="color:#960050;background-color:#1e0010">`</span>
 </code></pre></div><p>That is it. Here is the full source code. <a href="https://gist.github.com/namuan/e34387e53e62b52c6aea2146108a92c7">Github Gist</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> sys
 
@@ -214,7 +214,7 @@ self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672"
         self<span style="color:#f92672">.</span>paddingTop <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_position</span>(self):
-        <span style="color:#66d9ef">if</span> hasattr(self<span style="color:#f92672">.</span>parent(), <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">viewport</span><span style="color:#e6db74">&#39;</span>):
+        <span style="color:#66d9ef">if</span> hasattr(self<span style="color:#f92672">.</span>parent(), <span style="color:#e6db74">&#39;viewport&#39;</span>):
             parent_rect <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>parent()<span style="color:#f92672">.</span>viewport()<span style="color:#f92672">.</span>rect()
         <span style="color:#66d9ef">else</span>:
             parent_rect <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>parent()<span style="color:#f92672">.</span>rect()
@@ -252,22 +252,22 @@ self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672"
 <span style="color:#75715e"># NOTE: This class is generated from QtDesigner</span>
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ui_DebugWindow</span>(object):
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">setupUi</span>(self, DebugWindow):
-        DebugWindow<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">DebugWindow</span><span style="color:#e6db74">&#34;</span>)
+        DebugWindow<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;DebugWindow&#34;</span>)
         DebugWindow<span style="color:#f92672">.</span>resize(<span style="color:#ae81ff">622</span>, <span style="color:#ae81ff">498</span>)
         self<span style="color:#f92672">.</span>centralwidget <span style="color:#f92672">=</span> QtWidgets<span style="color:#f92672">.</span>QWidget(DebugWindow)
-        self<span style="color:#f92672">.</span>centralwidget<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">centralwidget</span><span style="color:#e6db74">&#34;</span>)
+        self<span style="color:#f92672">.</span>centralwidget<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;centralwidget&#34;</span>)
         self<span style="color:#f92672">.</span>verticalLayout <span style="color:#f92672">=</span> QtWidgets<span style="color:#f92672">.</span>QVBoxLayout(self<span style="color:#f92672">.</span>centralwidget)
-        self<span style="color:#f92672">.</span>verticalLayout<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">verticalLayout</span><span style="color:#e6db74">&#34;</span>)
+        self<span style="color:#f92672">.</span>verticalLayout<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;verticalLayout&#34;</span>)
         self<span style="color:#f92672">.</span>plainTextEdit <span style="color:#f92672">=</span> OverlayedPlainTextEdit(self<span style="color:#f92672">.</span>centralwidget)
-        self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">plainTextEdit</span><span style="color:#e6db74">&#34;</span>)
+        self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;plainTextEdit&#34;</span>)
         self<span style="color:#f92672">.</span>verticalLayout<span style="color:#f92672">.</span>addWidget(self<span style="color:#f92672">.</span>plainTextEdit)
         DebugWindow<span style="color:#f92672">.</span>setCentralWidget(self<span style="color:#f92672">.</span>centralwidget)
         self<span style="color:#f92672">.</span>menubar <span style="color:#f92672">=</span> QtWidgets<span style="color:#f92672">.</span>QMenuBar(DebugWindow)
         self<span style="color:#f92672">.</span>menubar<span style="color:#f92672">.</span>setGeometry(QtCore<span style="color:#f92672">.</span>QRect(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">622</span>, <span style="color:#ae81ff">22</span>))
-        self<span style="color:#f92672">.</span>menubar<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">menubar</span><span style="color:#e6db74">&#34;</span>)
+        self<span style="color:#f92672">.</span>menubar<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;menubar&#34;</span>)
         DebugWindow<span style="color:#f92672">.</span>setMenuBar(self<span style="color:#f92672">.</span>menubar)
         self<span style="color:#f92672">.</span>statusbar <span style="color:#f92672">=</span> QtWidgets<span style="color:#f92672">.</span>QStatusBar(DebugWindow)
-        self<span style="color:#f92672">.</span>statusbar<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">statusbar</span><span style="color:#e6db74">&#34;</span>)
+        self<span style="color:#f92672">.</span>statusbar<span style="color:#f92672">.</span>setObjectName(<span style="color:#e6db74">&#34;statusbar&#34;</span>)
         DebugWindow<span style="color:#f92672">.</span>setStatusBar(self<span style="color:#f92672">.</span>statusbar)
 
         self<span style="color:#f92672">.</span>retranslateUi(DebugWindow)
@@ -275,7 +275,7 @@ self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672"
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">retranslateUi</span>(self, DebugWindow):
         _translate <span style="color:#f92672">=</span> QtCore<span style="color:#f92672">.</span>QCoreApplication<span style="color:#f92672">.</span>translate
-        DebugWindow<span style="color:#f92672">.</span>setWindowTitle(_translate(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">DebugWindow</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">MainWindow</span><span style="color:#e6db74">&#34;</span>))
+        DebugWindow<span style="color:#f92672">.</span>setWindowTitle(_translate(<span style="color:#e6db74">&#34;DebugWindow&#34;</span>, <span style="color:#e6db74">&#34;MainWindow&#34;</span>))
 
 
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DebugWindow</span>(QtWidgets<span style="color:#f92672">.</span>QMainWindow, Ui_DebugWindow):
@@ -290,17 +290,17 @@ self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672"
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">on_test</span>(self):
         self<span style="color:#f92672">.</span>edit_mode <span style="color:#f92672">=</span> <span style="color:#f92672">not</span> self<span style="color:#f92672">.</span>edit_mode
-        self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>appendPlainText(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Button Clicked - Mode: {}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Edit</span><span style="color:#e6db74">&#34;</span> <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>edit_mode <span style="color:#66d9ef">else</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Preview</span><span style="color:#e6db74">&#34;</span>))
+        self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>appendPlainText(<span style="color:#e6db74">&#34;Button Clicked - Mode: {}&#34;</span><span style="color:#f92672">.</span>format(<span style="color:#e6db74">&#34;Edit&#34;</span> <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>edit_mode <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#34;Preview&#34;</span>))
         self<span style="color:#f92672">.</span>update_floating_button_text()
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_floating_button_text</span>(self):
         <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>edit_mode:
-            self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Edit</span><span style="color:#e6db74">&#34;</span>)
+            self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74">&#34;Edit&#34;</span>)
         <span style="color:#66d9ef">else</span>:
-            self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Preview</span><span style="color:#e6db74">&#34;</span>)
+            self<span style="color:#f92672">.</span>plainTextEdit<span style="color:#f92672">.</span>update_floating_button_text(<span style="color:#e6db74">&#34;Preview&#34;</span>)
 
 
-<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#34;</span>:
+<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
     app <span style="color:#f92672">=</span> QtWidgets<span style="color:#f92672">.</span>QApplication([])
     window <span style="color:#f92672">=</span> DebugWindow()
     window<span style="color:#f92672">.</span>show()

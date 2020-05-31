@@ -18,7 +18,7 @@
       
       <guid>/posts/005-protecting-applications-oauth2-proxy/</guid>
       <description>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+Here, we&amp;rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
 In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider.</description>
     </item>
     

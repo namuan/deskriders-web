@@ -18,7 +18,7 @@
       
       <guid>/posts/012-keeping-snippets/</guid>
       <description>Here is a simple setup explaining a comment I made on Reddit.
-All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&#39;t store block of code or longer text here as they&#39;ll become difficult to search.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&amp;rsquo;t store block of code or longer text here as they&amp;rsquo;ll become difficult to search.
 find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
     </item>
     

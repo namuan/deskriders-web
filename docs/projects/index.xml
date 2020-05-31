@@ -6,7 +6,7 @@
     <description>Recent content in Projects on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2020 18:53:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 12:34:19 +0100</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,11 +18,10 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-Downloads Downloads are currently available for MacOS and Windows from the following page.
-https://www.httprider.com/docs/getting-started/installation/
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
-🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.</description>
+🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
+🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
     </item>
     
     <item>
@@ -40,15 +39,15 @@ Features: 🚀 Open source and Cross-Platform
       <pubDate>Sun, 13 Oct 2019 08:46:20 +0000</pubDate>
       
       <guid>/projects/kube-rider/</guid>
-      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&#39;t have to remember CLI options and arguments.
+      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&amp;rsquo;t have to remember CLI options and arguments.
+Downloads Downloads are currently only available for MacOS.
+Mac OS App
 Features: 🚀 Uses kubectl so no extra configuration required
 🚀 Display kubectl commands for learning
 🚀 Context and Namespace switching
 🚀 Pod list and watching
 🚀 Create/Delete Pods
-🚀 List Pod containers and Events
-🚀 Open container logs
-🚀 Running commands in container</description>
+🚀 List Pod containers and Events</description>
     </item>
     
     <item>
@@ -81,6 +80,21 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Multi Breaks :: HealthCare Reminders</title>
+      <link>/projects/multi-breaks/</link>
+      <pubDate>Sun, 31 May 2020 12:34:19 +0100</pubDate>
+      
+      <guid>/projects/multi-breaks/</guid>
+      <description>A Simple MacOS Application to set-up multiple reminders to improve your health.
+👉 https://github.com/namuan/multi-breaks
+Features 🚀 Mindful Breathing Reminders every 45 minutes
+🚀 20/20/20 Eyesight Reminders every 20 minutes
+🚀 Stand-up and Walk Reminders every 1 hour
+🚀 Drinking Water Reminders every 2 hours
+Downloads </description>
+    </item>
+    
+    <item>
       <title>One Page :: Simple ScratchPad</title>
       <link>/projects/one-page/</link>
       <pubDate>Thu, 13 Feb 2020 18:53:43 +0000</pubDate>
@@ -92,7 +106,11 @@ Features 🚀 Only allows you to create a single note
 🚀 No possibility of creating multiple notes so your notes are always in front
 🚀 Single App across platforms
 🚀 Remove any formatting style
-🚀 Auto-save notes</description>
+🚀 Auto-save notes
+Downloads Downloads are currently available for MacOS and Windows.
+Mac OS App
+Windows App
+Linux from Source. Please check README.md for instructions</description>
     </item>
     
     <item>

@@ -61,7 +61,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -139,7 +139,7 @@ self<span style="color:#f92672">.</span>parent<span style="color:#f92672">.</spa
 </li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> String reservedCharacter <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;!#$%&amp;&#39;()*+,/:;=?@[]&#34;</span><span style="color:#f92672">;</span>
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">char</span><span style="color:#f92672">[</span><span style="color:#f92672">]</span> chars <span style="color:#f92672">=</span> reservedCharacter<span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">char</span><span style="color:#f92672">[]</span> chars <span style="color:#f92672">=</span> reservedCharacter<span style="color:#f92672">.</span><span style="color:#a6e22e">toCharArray</span><span style="color:#f92672">();</span>
 </code></pre></div><ul>
 <li>URI Encoding: How <code>:</code> becomes <code>%3A</code> using <a href="https://en.wikipedia.org/wiki/Percent-encoding">Percent Encoding</a></li>
 </ul>
@@ -254,16 +254,16 @@ Padding the output will make it <code>00111010</code>.</p>
 </li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@ParameterizedTest</span><span style="color:#f92672">(</span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;{0} should be \&#34;{1}\&#34;&#34;</span><span style="color:#f92672">)</span>
-    <span style="color:#a6e22e">@CsvSource</span><span style="color:#f92672">(</span><span style="color:#f92672">{</span>
+    <span style="color:#a6e22e">@CsvSource</span><span style="color:#f92672">({</span>
             <span style="color:#e6db74">&#34;http://www.example.com, http%3A%2F%2Fwww.example.com&#34;</span><span style="color:#f92672">,</span>
             <span style="color:#e6db74">&#34;?query=123, %3Fquery%3D123&#34;</span>
-    <span style="color:#f92672">}</span><span style="color:#f92672">)</span>
+    <span style="color:#f92672">})</span>
     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">testPercentEncodeAsciiString</span><span style="color:#f92672">(</span>String source<span style="color:#f92672">,</span> String expected<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         <span style="color:#75715e">// when
-</span><span style="color:#75715e"></span>        String result <span style="color:#f92672">=</span> PercentEncoding<span style="color:#f92672">.</span><span style="color:#a6e22e">encode</span><span style="color:#f92672">(</span>source<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        String result <span style="color:#f92672">=</span> PercentEncoding<span style="color:#f92672">.</span><span style="color:#a6e22e">encode</span><span style="color:#f92672">(</span>source<span style="color:#f92672">);</span>
 
         <span style="color:#75715e">// then
-</span><span style="color:#75715e"></span>        assertEquals<span style="color:#f92672">(</span>expected<span style="color:#f92672">,</span> result<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        assertEquals<span style="color:#f92672">(</span>expected<span style="color:#f92672">,</span> result<span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 </code></pre></div><ul>
 <li>Java: Generating a mvn wrapper</li>

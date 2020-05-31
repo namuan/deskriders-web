@@ -18,7 +18,7 @@
       
       <guid>/posts/007-pyqt5-overlay-button-widget/</guid>
       <description>This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&#39;ll define the button and the relative positioning.
+First, we&amp;rsquo;ll define the button and the relative positioning.
 class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &amp;#39;viewport&amp;#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.</description>
     </item>
     
@@ -28,7 +28,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
       <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
       
       <guid>/posts/008-developing-api-exchange-1/</guid>
-      <description>In this series of articles, I&#39;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
+      <description>In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
 This API is used from HttpRider to save API exchanges (request+response).
 Here is a sample page generated from HttpRider.
 Demo The service itself consists of two simple APIs.

@@ -61,7 +61,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -135,18 +135,18 @@
 
       <div>
         <p><em>Q: How do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?</em></p>
-<p>Here, I'll add a test which is ignored when running <code>./gradlew test</code> but it can be triggered when needed (eg. from a separate Jenkins Job).</p>
+<p>Here, I&rsquo;ll add a test which is ignored when running <code>./gradlew test</code> but it can be triggered when needed (eg. from a separate Jenkins Job).</p>
 <p>The current directory structure look this</p>
 <p><img src="/images/20200508151905944_642229617.png" alt=""></p>
 <p>The first step is to exclude all the tests under contracts/</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">test <span style="color:#f92672">{</span>
-	<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
+	<span style="color:#f92672">...</span>
 
 	exclude<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;**/contracts/*.*&#39;</span><span style="color:#f92672">)</span>
 <span style="color:#f92672">}</span>
-</code></pre></div><p>Then we'll define another Gradle task so that contract tests can be executed on demand</p>
+</code></pre></div><p>Then we&rsquo;ll define another Gradle task so that contract tests can be executed on demand</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">task <span style="color:#a6e22e">contractTests</span><span style="color:#f92672">(</span>type: Test<span style="color:#f92672">,</span> group: <span style="color:#e6db74">&#39;verification&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
+    <span style="color:#f92672">...</span>
 
     include<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;**/contracts/*.*&#39;</span><span style="color:#f92672">)</span>
 <span style="color:#f92672">}</span>

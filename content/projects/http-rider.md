@@ -9,12 +9,6 @@ It is a lean alternative to Postman and other tools developed using Electron.
 
 ![HttpRider Cover Image](/images/httprider-cover-image.png)
 
-#### Downloads
-
-Downloads are currently available for MacOS and Windows from the following page.
-
-https://www.httprider.com/docs/getting-started/installation/
-
 ##### Features:
 
 🚀 Open source and Cross-Platform
@@ -35,5 +29,10 @@ https://www.httprider.com/docs/getting-started/installation/
 
 🚀 Api Sharing: Share API using an open source [online service](https://www.httprider.com/docs/how-tos/050_sharing_api_exchange/). 
 
-
 And more [here](https://www.httprider.com/docs/how-tos/)
+
+#### Downloads
+
+Downloads are currently available for MacOS and Windows from the following page.
+
+https://www.httprider.com/docs/getting-started/installation/

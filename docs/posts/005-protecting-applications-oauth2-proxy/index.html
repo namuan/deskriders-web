@@ -12,12 +12,12 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Protecting applications with OAuth2 Proxy"/>
 <meta name="twitter:description" content="Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+Here, we&rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
 In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider."/>
 
     <meta property="og:title" content="Protecting applications with OAuth2 Proxy" />
 <meta property="og:description" content="Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+Here, we&rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
 In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/005-protecting-applications-oauth2-proxy/" />
@@ -65,7 +65,7 @@ In this guide, we will setup a Github OAuth application but the same setup can b
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -140,13 +140,13 @@ In this guide, we will setup a Github OAuth application but the same setup can b
 
       <div>
         <p>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source <a href="https://pusher.github.io/oauth2_proxy/">OAuth2 Proxy</a> (which is a fork from <a href="https://github.com/bitly/oauth2_proxy">Bitly OAuth2 Proxy</a>) to secure private applications without adding any authentication logic in the application itself.</p>
-<p>Here, we'll see how to secure the open source version of <a href="https://httpbin.org">https://httpbin.org</a>. Httpbin application itself is open and can be accessed without any authentication.</p>
+<p>Here, we&rsquo;ll see how to secure the open source version of <a href="https://httpbin.org">https://httpbin.org</a>. Httpbin application itself is open and can be accessed without any authentication.</p>
 <p><img src="/images/005/i1zmqplvv8eq8pzsvfvt.png" alt="Proxy configuration"></p>
 <p>In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider. See <a href="https://pusher.github.io/oauth2_proxy/auth-configuration">Providers</a> for different config options.</p>
 <h4 id="setting-up-github-application">Setting up Github Application:</h4>
 <p>Login to your github account and navigate to <a href="https://github.com/settings/developers">Developer Settings</a>. Click on OAuth Apps and Register a new application.</p>
-<p>I'll call this application SocialBin and set the homepage as <a href="http://localtest.me">http://localtest.me</a>. <a href="https://readme.localtest.me">Localtest.me</a> is a DNS configured to point to 127.0.0.1 and makes it easy to do local testing.</p>
-<p>We will be running the application on port 8080 so the callback url is set as <a href="http://localtest.me:8080/oauth2/callback">http://localtest.me:8080/oauth2/callback</a>.</p>
+<p>I&rsquo;ll call this application SocialBin and set the homepage as <a href="http://localtest.me">http://localtest.me</a>. <a href="https://readme.localtest.me">Localtest.me</a> is a DNS configured to point to 127.0.0.1 and makes it easy to do local testing.</p>
+<p>We will be running the application on port 8080 so the callback url is set as <a href="http://localtest.me">http://localtest.me</a>:8080/oauth2/callback.</p>
 <p>That is it for setting up the application. Note down the Client ID and Client Secret which will be used later.</p>
 <p><img src="/images/005/fozsrm840r7nu8wbia5o.png" alt="Github Client configuration"></p>
 <h4 id="running-application-with-proxy">Running application with proxy:</h4>
@@ -162,7 +162,7 @@ OAUTH2_PROXY_CLIENT_SECRET=&lt;github client secret&gt;
 </code></pre></div><p>Now, switch over to docker-compose.yml which is setting up two docker containers. The <a href="https://hub.docker.com/r/kennethreitz/httpbin">httpbin</a> container is the service we are trying to protect so you can see that it is not exposing any ports. The <code>&quot;--upstream=http://httpbin:80&quot;,</code> configuration is telling the oauth2 proxy where to send the traffic once the login is successful.</p>
 <p>With everything in its place, we can bring up the containers using <code>docker-compose</code>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker-compose up
-</code></pre></div><p>It'll take some time if it is running for the first time to pull any missing docker images. Once everything is running, you can visit <code>http://localtest.me:8080/</code> in the browser which should show you a screen with a button to &ldquo;Sign in with Github&rdquo;. Here is a brief sequence of the login flow and accessing httpbin.</p>
+</code></pre></div><p>It&rsquo;ll take some time if it is running for the first time to pull any missing docker images. Once everything is running, you can visit <code>http://localtest.me:8080/</code> in the browser which should show you a screen with a button to &ldquo;Sign in with Github&rdquo;. Here is a brief sequence of the login flow and accessing httpbin.</p>
 <p><img src="/images/005/br9iafvbj41srj5j7dxl.gif" alt="oauth2_proxy_login_httpbin"></p>
 <h4 id="conclusion">Conclusion:</h4>
 <p>As we saw, OAuth2Proxy is a useful tool to protect any application without changing the code. The source code for this setup is available here <a href="https://github.com/namuan/oauth2-proxy-httpbin">https://github.com/namuan/oauth2-proxy-httpbin</a>.</p>

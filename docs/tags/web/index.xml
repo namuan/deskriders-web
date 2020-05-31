@@ -17,7 +17,7 @@
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
-      <description>In this short video, we&#39;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
+      <description>In this short video, we&amp;rsquo;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Github: https://github.com/svg/svgo

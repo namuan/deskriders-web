@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2020 23:45:43 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 10:32:46 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,11 +18,10 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-Downloads Downloads are currently available for MacOS and Windows from the following page.
-https://www.httprider.com/docs/getting-started/installation/
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
-🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.</description>
+🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
+🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
     </item>
     
     <item>
@@ -40,15 +39,15 @@ Features: 🚀 Open source and Cross-Platform
       <pubDate>Sun, 13 Oct 2019 08:46:20 +0000</pubDate>
       
       <guid>/projects/kube-rider/</guid>
-      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&#39;t have to remember CLI options and arguments.
+      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&amp;rsquo;t have to remember CLI options and arguments.
+Downloads Downloads are currently only available for MacOS.
+Mac OS App
 Features: 🚀 Uses kubectl so no extra configuration required
 🚀 Display kubectl commands for learning
 🚀 Context and Namespace switching
 🚀 Pod list and watching
 🚀 Create/Delete Pods
-🚀 List Pod containers and Events
-🚀 Open container logs
-🚀 Running commands in container</description>
+🚀 List Pod containers and Events</description>
     </item>
     
     <item>
@@ -81,6 +80,21 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Multi Breaks :: HealthCare Reminders</title>
+      <link>/projects/multi-breaks/</link>
+      <pubDate>Sun, 31 May 2020 12:34:19 +0100</pubDate>
+      
+      <guid>/projects/multi-breaks/</guid>
+      <description>A Simple MacOS Application to set-up multiple reminders to improve your health.
+👉 https://github.com/namuan/multi-breaks
+Features 🚀 Mindful Breathing Reminders every 45 minutes
+🚀 20/20/20 Eyesight Reminders every 20 minutes
+🚀 Stand-up and Walk Reminders every 1 hour
+🚀 Drinking Water Reminders every 2 hours
+Downloads </description>
+    </item>
+    
+    <item>
       <title>Using EasyRandom with Spring Framework</title>
       <link>/posts/029-easy-random-spring-boot/</link>
       <pubDate>Thu, 14 May 2020 23:45:43 +0100</pubDate>
@@ -98,10 +112,10 @@ Step 2: Declare it in test Step 3: Use it to generate random data objects Step 4
       
       <guid>/posts/028-gradle-contract-tests/</guid>
       <description>Q: How do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?
-Here, I&#39;ll add a test which is ignored when running ./gradlew test but it can be triggered when needed (eg. from a separate Jenkins Job).
+Here, I&amp;rsquo;ll add a test which is ignored when running ./gradlew test but it can be triggered when needed (eg. from a separate Jenkins Job).
 The current directory structure look this
 The first step is to exclude all the tests under contracts/
-test { ... exclude(&amp;#39;**/contracts/*.*&amp;#39;) } Then we&#39;ll define another Gradle task so that contract tests can be executed on demand</description>
+test { ... exclude(&amp;#39;**/contracts/*.*&amp;#39;) } Then we&amp;rsquo;ll define another Gradle task so that contract tests can be executed on demand</description>
     </item>
     
     <item>
@@ -132,7 +146,7 @@ GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/026-tooltip-13-cli-functions-find/</guid>
-      <description>In this tooltip, we&#39;ll create a simple function to find files in the current directory tree using find.
+      <description>In this tooltip, we&amp;rsquo;ll create a simple function to find files in the current directory tree using find.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -149,7 +163,11 @@ Features 🚀 Only allows you to create a single note
 🚀 No possibility of creating multiple notes so your notes are always in front
 🚀 Single App across platforms
 🚀 Remove any formatting style
-🚀 Auto-save notes</description>
+🚀 Auto-save notes
+Downloads Downloads are currently available for MacOS and Windows.
+Mac OS App
+Windows App
+Linux from Source. Please check README.md for instructions</description>
     </item>
     
     <item>
@@ -158,7 +176,7 @@ Features 🚀 Only allows you to create a single note
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
-      <description>In this short video, we&#39;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
+      <description>In this short video, we&amp;rsquo;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Github: https://github.com/svg/svgo
@@ -171,7 +189,7 @@ Features 🚀 Only allows you to create a single note
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
-      <description>In this short clip, we&#39;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+      <description>In this short clip, we&amp;rsquo;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
     </item>
@@ -182,7 +200,7 @@ Features 🚀 Only allows you to create a single note
       <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
-      <description>In this short clip, we&#39;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
+      <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -193,7 +211,7 @@ Features 🚀 Only allows you to create a single note
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -205,7 +223,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
       
       <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -217,7 +235,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
       
       <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
-      <description>In this short clip, we&#39;ll further into jq syntax and selecting nested items using jq filtering.
+      <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -245,7 +263,7 @@ February Goals: 📝 Add links to MindBook to buy books
       <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
       
       <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
-      <description>In this short clip, we&#39;ll look at using jq to filter JSON arrays.
+      <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -257,7 +275,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
       
       <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
-      <description>In this short clip, we&#39;ll look at using csvjson utility from csvkit to convert CSV to JSON.
+      <description>In this short clip, we&amp;rsquo;ll look at using csvjson utility from csvkit to convert CSV to JSON.
 Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -268,7 +286,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Fri, 31 Jan 2020 08:00:06 +0000</pubDate>
       
       <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
-      <description>In this short clip, we&#39;ll look at using in2sec utility from csvkit to convert JSON to CSV.
+      <description>In this short clip, we&amp;rsquo;ll look at using in2sec utility from csvkit to convert JSON to CSV.
 Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Used http://next.json-generator.com to generate JSON document</description>
@@ -280,7 +298,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
       
       <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
-      <description>In this short clip, we&#39;ll look at using for and while loop to process each line in a file.
+      <description>In this short clip, we&amp;rsquo;ll look at using for and while loop to process each line in a file.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -291,7 +309,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
       
       <guid>/posts/014-tooltip-2-simple-maths-bc/</guid>
-      <description>In this short clip, we&#39;ll look at using a simple command line tool bc to basic maths.
+      <description>In this short clip, we&amp;rsquo;ll look at using a simple command line tool bc to basic maths.
   Notes 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 References:
@@ -314,7 +332,7 @@ References:
       
       <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
       <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
-In this first video, we&#39;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
   </description>
     </item>
     
@@ -325,7 +343,7 @@ In this first video, we&#39;ll look at creating a command line launcher for Inte
       
       <guid>/posts/012-keeping-snippets/</guid>
       <description>Here is a simple setup explaining a comment I made on Reddit.
-All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&#39;t store block of code or longer text here as they&#39;ll become difficult to search.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&amp;rsquo;t store block of code or longer text here as they&amp;rsquo;ll become difficult to search.
 find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
     </item>
     
@@ -393,9 +411,10 @@ Although it is impossible to replace them altogether, let me introduce you to De
       <pubDate>Wed, 15 Jan 2020 10:32:46 +0000</pubDate>
       
       <guid>/products/</guid>
-      <description>HttpRider :: Cross-Platform Open Source Desktop API Client HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+      <description>Multi Breaks :: HealthCare Reminders Multiple reminders to improve your health.
+HttpRider :: Cross-Platform Open Source Desktop API Client HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
 MindBooks :: Thought provoking books Growing collection of books to open your mind.
-DevRider :: Development Tools/Utilities In One Place There is a serious problem with the state of simple development tools on the internet. Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups 😷 which makes it difficult and risky to use.</description>
+DevRider :: Development Tools/Utilities In One Place There is a serious problem with the state of simple development tools on the internet.</description>
     </item>
     
     <item>
@@ -414,8 +433,8 @@ DevRider :: Development Tools/Utilities In One Place There is a serious problem 
       
       <guid>/posts/009-developing-api-exchange-2/</guid>
       <description>Please check the previous part to know the background of this project.
-In this part, we&#39;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&#39;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
 The first step is to create a new project folder and initialise package.</description>
     </item>
@@ -427,7 +446,7 @@ The first step is to create a new project folder and initialise package.</descri
       
       <guid>/posts/007-pyqt5-overlay-button-widget/</guid>
       <description>This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&#39;ll define the button and the relative positioning.
+First, we&amp;rsquo;ll define the button and the relative positioning.
 class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &amp;#39;viewport&amp;#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.</description>
     </item>
     
@@ -437,7 +456,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
       <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
       
       <guid>/posts/008-developing-api-exchange-1/</guid>
-      <description>In this series of articles, I&#39;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
+      <description>In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
 This API is used from HttpRider to save API exchanges (request+response).
 Here is a sample page generated from HttpRider.
 Demo The service itself consists of two simple APIs.
@@ -451,7 +470,7 @@ POST /prints Saves the HTML encoded in base64 in dynamo database. Once it is sav
       
       <guid>/posts/005-protecting-applications-oauth2-proxy/</guid>
       <description>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&#39;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
+Here, we&amp;rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
 In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider.</description>
     </item>
     
@@ -461,7 +480,7 @@ In this guide, we will setup a Github OAuth application but the same setup can b
       <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
       
       <guid>/posts/004-httprider-performance-testing/</guid>
-      <description>The title is a bit misleading as HttpRider can&#39;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
+      <description>The title is a bit misleading as HttpRider can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
 Slow cooker: SlowCooker is a command line tool for load testing. Here is an excellent blog post about the background and difference from other similar tools.
 Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code.</description>
     </item>
@@ -472,10 +491,10 @@ Generating code to run slow cooker is as simple as selecting an API call and cli
       <pubDate>Mon, 28 Oct 2019 11:30:47 +0000</pubDate>
       
       <guid>/posts/003-httprider-generating-bdd-tests/</guid>
-      <description>In this post, we&#39;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&#39;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&#39;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&#39;s start with a few API calls using the sample database provided with source.</description>
+      <description>In this post, we&amp;rsquo;ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we&amp;rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I&amp;rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let&amp;rsquo;s start with a few API calls using the sample database provided with source.</description>
     </item>
     
     <item>
@@ -497,7 +516,7 @@ Once the tests have successfully finished, click on the export/export all button
       
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
-In HttpRider, I&#39;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
+In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
  HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     
@@ -507,7 +526,7 @@ In HttpRider, I&#39;ve recently introduced an exporter for sequence diagrams. So
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
       
       <guid>/posts/006-kuberider-bundling-macosx-release/</guid>
-      <description>In this post, I&#39;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
+      <description>In this post, I&amp;rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
 Step 1: Application Icon Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.
 Here is what I ended up using the Paper app on iPad.</description>
     </item>

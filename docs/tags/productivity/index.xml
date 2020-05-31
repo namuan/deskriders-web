@@ -18,7 +18,7 @@
       
       <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
       <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
-In this first video, we&#39;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
   </description>
     </item>
     
@@ -29,7 +29,7 @@ In this first video, we&#39;ll look at creating a command line launcher for Inte
       
       <guid>/posts/012-keeping-snippets/</guid>
       <description>Here is a simple setup explaining a comment I made on Reddit.
-All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&#39;t store block of code or longer text here as they&#39;ll become difficult to search.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&amp;rsquo;t store block of code or longer text here as they&amp;rsquo;ll become difficult to search.
 find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
     </item>
     

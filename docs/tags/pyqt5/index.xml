@@ -18,7 +18,7 @@
       
       <guid>/posts/007-pyqt5-overlay-button-widget/</guid>
       <description>This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&#39;ll define the button and the relative positioning.
+First, we&amp;rsquo;ll define the button and the relative positioning.
 class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &amp;#39;viewport&amp;#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.</description>
     </item>
     

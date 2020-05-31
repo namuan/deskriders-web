@@ -11,12 +11,12 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="KubeRider :: Bundling MacOS release"/>
-<meta name="twitter:description" content="In this post, I&#39;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
+<meta name="twitter:description" content="In this post, I&rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
 Step 1: Application Icon Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.
 Here is what I ended up using the Paper app on iPad."/>
 
     <meta property="og:title" content="KubeRider :: Bundling MacOS release" />
-<meta property="og:description" content="In this post, I&#39;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
+<meta property="og:description" content="In this post, I&rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
 Step 1: Application Icon Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.
 Here is what I ended up using the Paper app on iPad." />
 <meta property="og:type" content="article" />
@@ -65,7 +65,7 @@ Here is what I ended up using the Paper app on iPad." />
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -138,7 +138,7 @@ Here is what I ended up using the Paper app on iPad." />
       </header>
 
       <div>
-        <p>In this post, I'll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.</p>
+        <p>In this post, I&rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.</p>
 <h3 id="step-1-application-icon">Step 1: Application Icon</h3>
 <p>Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.</p>
 <p>Here is what I ended up using the Paper app on iPad.</p>
@@ -153,23 +153,23 @@ svg_file<span style="color:#f92672">=</span>$1
 output_name<span style="color:#f92672">=</span>$2
   
 set -e
-test -d <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> rm -R <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset</span><span style="color:#e6db74">&#34;</span>
-mkdir <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset</span><span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_16x16.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">16</span> -h <span style="color:#ae81ff">16</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_16x16@2x.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">32</span> -h <span style="color:#ae81ff">32</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_32x32.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">32</span> -h <span style="color:#ae81ff">32</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_32x32@2x.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">64</span> -h <span style="color:#ae81ff">64</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_128x128.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">128</span> -h <span style="color:#ae81ff">128</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_128x128@2x.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">256</span> -h <span style="color:#ae81ff">256</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_256x256.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">256</span> -h <span style="color:#ae81ff">256</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_256x256@2x.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_512x512.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_512x512@2x.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">1024</span> -h <span style="color:#ae81ff">1024</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
-iconutil -c icns <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset</span><span style="color:#e6db74">&#34;</span>
-rm -R <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset</span><span style="color:#e6db74">&#34;</span>
+test -d <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset&#34;</span> <span style="color:#f92672">&amp;&amp;</span> rm -R <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset&#34;</span>
+mkdir <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_16x16.png&#34;</span> -w <span style="color:#ae81ff">16</span> -h <span style="color:#ae81ff">16</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_16x16@2x.png&#34;</span> -w <span style="color:#ae81ff">32</span> -h <span style="color:#ae81ff">32</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_32x32.png&#34;</span> -w <span style="color:#ae81ff">32</span> -h <span style="color:#ae81ff">32</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_32x32@2x.png&#34;</span> -w <span style="color:#ae81ff">64</span> -h <span style="color:#ae81ff">64</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_128x128.png&#34;</span> -w <span style="color:#ae81ff">128</span> -h <span style="color:#ae81ff">128</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_128x128@2x.png&#34;</span> -w <span style="color:#ae81ff">256</span> -h <span style="color:#ae81ff">256</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_256x256.png&#34;</span> -w <span style="color:#ae81ff">256</span> -h <span style="color:#ae81ff">256</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_256x256@2x.png&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_512x512.png&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span>$output_name<span style="color:#e6db74">.iconset/icon_512x512@2x.png&#34;</span> -w <span style="color:#ae81ff">1024</span> -h <span style="color:#ae81ff">1024</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+iconutil -c icns <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset&#34;</span>
+rm -R <span style="color:#e6db74">&#34;</span>$output_name<span style="color:#e6db74">.iconset&#34;</span>
 mv $output_name.icns packaging/data/icons/
   
-$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>output_name<span style="color:#e6db74">}</span><span style="color:#e6db74">/images/</span><span style="color:#e6db74">${</span>output_name<span style="color:#e6db74">}</span><span style="color:#e6db74">.png</span><span style="color:#e6db74">&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
+$inkscape -z -e <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>output_name<span style="color:#e6db74">}</span><span style="color:#e6db74">/images/</span><span style="color:#e6db74">${</span>output_name<span style="color:#e6db74">}</span><span style="color:#e6db74">.png&#34;</span> -w <span style="color:#ae81ff">512</span> -h <span style="color:#ae81ff">512</span> <span style="color:#e6db74">&#34;</span>$svg_file<span style="color:#e6db74">&#34;</span>
 </code></pre></div><p>Then we simply run the above script providing it the path to the svg file</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">./mk-icns.sh `pwd`/kuberider/images/kuberider.svg kuberider
 </code></pre></div><p>That generates an icon set and an image which will be used during package installation.</p>

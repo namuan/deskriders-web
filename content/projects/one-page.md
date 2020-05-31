@@ -7,6 +7,8 @@ OnePage is a simple cross-platform scratchpad.
 
 👉 https://github.com/namuan/one-page
 
+![DevRider Cover Image](/images/devrider-cover-image.png)
+
 ### Features
 
 🚀 Only allows you to create a single note
@@ -19,6 +21,13 @@ OnePage is a simple cross-platform scratchpad.
 
 🚀 Auto-save notes
 
-![OnePage Cover Image](/images/one-page-cover-image.png)
+#### Downloads
 
+Downloads are currently available for MacOS and Windows.
 
+[Mac OS App](https://github.com/namuan/one-page-releases/releases/latest)
+
+[Windows App](https://github.com/namuan/one-page-releases/releases/latest)
+
+[Linux from Source](https://github.com/namuan/one-page/releases/latest).
+Please check [README.md](https://github.com/namuan/one-page/blob/master/README.md#development) for instructions

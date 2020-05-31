@@ -12,15 +12,15 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Developing API exchange sharing service - Part II"/>
 <meta name="twitter:description" content="Please check the previous part to know the background of this project.
-In this part, we&#39;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&#39;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+In this part, we&rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
 The first step is to create a new project folder and initialise package."/>
 
     <meta property="og:title" content="Developing API exchange sharing service - Part II" />
 <meta property="og:description" content="Please check the previous part to know the background of this project.
-In this part, we&#39;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&#39;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+In this part, we&rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
 The first step is to create a new project folder and initialise package." />
 <meta property="og:type" content="article" />
@@ -69,7 +69,7 @@ The first step is to create a new project folder and initialise package." />
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -145,8 +145,8 @@ The first step is to create a new project folder and initialise package." />
 
       <div>
         <p>Please check the <a href="https://dev.to/namuan/developing-api-exchange-sharing-service-part-i-nhp">previous part</a> to know the background of this project.</p>
-<p>In this part, we'll dive into code and deploy a simple API to AWS Lambda and Api Gateway.</p>
-<p>I'll be using Python <a href="https://palletsprojects.com/p/flask/">Flask</a> framework for defining the APIs and <a href="https://serverless.com">Serverless framework</a> to manage the infrastructure and deployment.</p>
+<p>In this part, we&rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.</p>
+<p>I&rsquo;ll be using Python <a href="https://palletsprojects.com/p/flask/">Flask</a> framework for defining the APIs and <a href="https://serverless.com">Serverless framework</a> to manage the infrastructure and deployment.</p>
 <p>Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.</p>
 <p>The first step is to create a new project folder and initialise package.json file which will be used to define and install Serverless plugins.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir api-exchange-server
@@ -156,11 +156,11 @@ $ npm init
 $ <span style="color:#75715e"># Enter all the way to generate package.json file</span>
 </code></pre></div><p>Installing Serverless CLI.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ npm install -D serverless <span style="color:#75715e"># Although better to install this globally</span>
-</code></pre></div><p>If Serverless CLI is installed globally then you don't need to prefix the <code>serverless</code> commands with <code>./nodes_modules/.bin/</code>.</p>
-<p>Let's create a new project</p>
+</code></pre></div><p>If Serverless CLI is installed globally then you don&rsquo;t need to prefix the <code>serverless</code> commands with <code>./nodes_modules/.bin/</code>.</p>
+<p>Let&rsquo;s create a new project</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ./node_modules/.bin/serverless
 Name the project serverless-project. Ignore the project name as we<span style="color:#960050;background-color:#1e0010">&#39;</span>ll move the files to the current folder.
-</code></pre></div><p>We'll just copy the files that we need from the generated project.</p>
+</code></pre></div><p>We&rsquo;ll just copy the files that we need from the generated project.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mv serverless-project/serverless.yml .
 $ mv serverless-project/.gitignore .
 $ rm -rf serverless-project
@@ -174,8 +174,8 @@ drwxr-xr-x  <span style="color:#ae81ff">386</span> nmn  staff   <span style="col
 -rw-r--r--    <span style="color:#ae81ff">1</span> nmn  staff  <span style="color:#ae81ff">156725</span>  <span style="color:#ae81ff">1</span> Jan 08:54 package-lock.json
 -rw-r--r--    <span style="color:#ae81ff">1</span> nmn  staff     <span style="color:#ae81ff">271</span>  <span style="color:#ae81ff">1</span> Jan 08:54 package.json
 -rw-r--r--    <span style="color:#ae81ff">1</span> nmn  staff    <span style="color:#ae81ff">3206</span>  <span style="color:#ae81ff">1</span> Jan 08:58 serverless.yml
-</code></pre></div><p>Let's open the folder in your <a href="https://code.visualstudio.com">favourite</a> text editor.</p>
-<p>To connect AWS Lambda to Flask handlers, we'll need to install <a href="https://github.com/logandk/serverless-wsgi">serverless-wsgi</a> plugin to do the necessary transformation.</p>
+</code></pre></div><p>Let&rsquo;s open the folder in your <a href="https://code.visualstudio.com">favourite</a> text editor.</p>
+<p>To connect AWS Lambda to Flask handlers, we&rsquo;ll need to install <a href="https://github.com/logandk/serverless-wsgi">serverless-wsgi</a> plugin to do the necessary transformation.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ./node_modules/.bin/serverless plugin search -q wsgi
 <span style="color:#ae81ff">1</span> plugin<span style="color:#f92672">(</span>s<span style="color:#f92672">)</span> found <span style="color:#66d9ef">for</span> your search query <span style="color:#e6db74">&#34;wsgi&#34;</span>
 
@@ -184,9 +184,9 @@ serverless-wsgi - Serverless plugin to deploy WSGI applications <span style="col
 To install a plugin run <span style="color:#e6db74">&#39;serverless plugin install --name plugin-name-here&#39;</span>
 
 It will be automatically downloaded and added to your package.json and serverless.yml file
-</code></pre></div><p>As stated by the really useful help message, we'll install this plugin.</p>
+</code></pre></div><p>As stated by the really useful help message, we&rsquo;ll install this plugin.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ./node_modules/.bin/serverless plugin install --name serverless-wsgi
-</code></pre></div><p>Next, we'll create a simple flask Api which will return the environment variables in json. As this code will run on Lambda, you'll be able to see all the environment variables available for the function.</p>
+</code></pre></div><p>Next, we&rsquo;ll create a simple flask Api which will return the environment variables in json. As this code will run on Lambda, you&rsquo;ll be able to see all the environment variables available for the function.</p>
 <p>File -&gt; New -&gt; &ldquo;api.py&rdquo;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> os
 <span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask, jsonify
@@ -194,10 +194,10 @@ It will be automatically downloaded and added to your package.json and serverles
 app <span style="color:#f92672">=</span> Flask(__name__)
 
 
-<span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">/</span><span style="color:#e6db74">&#34;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">GET</span><span style="color:#e6db74">&#34;</span>])
+<span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#34;/&#34;</span>, methods<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#34;GET&#34;</span>])
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">environ</span>():
     <span style="color:#66d9ef">return</span> jsonify({k:v <span style="color:#66d9ef">for</span> k, v <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>items()})
-</code></pre></div><p>Just noticed that we haven't installed Flask yet so let's create a requirements file and install it in a new virtualenv.</p>
+</code></pre></div><p>Just noticed that we haven&rsquo;t installed Flask yet so let&rsquo;s create a requirements file and install it in a new virtualenv.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install flask
@@ -205,29 +205,29 @@ $ pip freeze &gt; requirements.txt
 </code></pre></div><p>With the project completed, we can test the Api by running it locally.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ FLASK_APP<span style="color:#f92672">=</span>api.py flask run
 </code></pre></div><p>Next we need to tell/configure Serverless framework to connect Lambda to Flask App. There are few ways to setup the integration.
-Here we'll be using <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html">AWS Lambda Proxy</a> integration for the API handler.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">functions:
-  api:
-    handler: wsgi_handler.handler
-    events:
-      - http: ANY /
-      - http: ANY {proxy+}
+Here we&rsquo;ll be using <a href="https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html">AWS Lambda Proxy</a> integration for the API handler.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">functions</span>:
+  <span style="color:#66d9ef">api</span>:
+    <span style="color:#66d9ef">handler</span>: wsgi_handler.handler
+    <span style="color:#66d9ef">events</span>:
+      - <span style="color:#66d9ef">http</span>: ANY /
+      - <span style="color:#66d9ef">http</span>: ANY {proxy+}
 </code></pre></div><p>We also need to tell wsgi plugin where to find the Flask API, so let define a custom section for this.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">custom:
-  wsgi:
-    app: api.app
-</code></pre></div><p>Although the wsgi plugin can manage python dependencies, I had better luck with using a different plugin <a href="https://github.com/UnitedIncome/serverless-python-requirements">serverless-python-requirements</a> so we'll install it as well</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">custom</span>:
+  <span style="color:#66d9ef">wsgi</span>:
+    <span style="color:#66d9ef">app</span>: api.app
+</code></pre></div><p>Although the wsgi plugin can manage python dependencies, I had better luck with using a different plugin <a href="https://github.com/UnitedIncome/serverless-python-requirements">serverless-python-requirements</a> so we&rsquo;ll install it as well</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ./node_modules/.bin/serverless plugin install --name serverless-python-requirements
-</code></pre></div><p>Now let's try packaging up the app.</p>
+</code></pre></div><p>Now let&rsquo;s try packaging up the app.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ./node_modules/.bin/serverless package
-</code></pre></div><p>If successful, the generated zip file will be placed in <code>.serverless</code> folder. If we examine that file, we'll find that it contains all the files in the current folder including the giant <code>venv</code> and <code>node_modules</code> folder 😱.</p>
+</code></pre></div><p>If successful, the generated zip file will be placed in <code>.serverless</code> folder. If we examine that file, we&rsquo;ll find that it contains all the files in the current folder including the giant <code>venv</code> and <code>node_modules</code> folder 😱.</p>
 <p><img src="/images/009/k1bftpwralpe20xx6p20.jpg" alt="serverless package"></p>
-<p>I'm sure python requirements folder is right up there as well.</p>
-<p>Luckily, we can configure what to include in the zip file so we'll exclude everything and just add the file that we need to run the application. Note that the plugin will still take care of all the python dependencies defined in requirements.txt file.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">package:
-  exclude:
+<p>I&rsquo;m sure python requirements folder is right up there as well.</p>
+<p>Luckily, we can configure what to include in the zip file so we&rsquo;ll exclude everything and just add the file that we need to run the application. Note that the plugin will still take care of all the python dependencies defined in requirements.txt file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">package</span>:
+  <span style="color:#66d9ef">exclude</span>:
     - <span style="color:#e6db74">&#34;**&#34;</span>
-  include:
+  <span style="color:#66d9ef">include</span>:
     - <span style="color:#e6db74">&#34;api.py&#34;</span>
 </code></pre></div><p>This is what it looks like with the changes that we made in the serverless.yml file.</p>
 <p><img src="/images/009/8kgmqgsu6khi6692eatb.png" alt="Serverless wsgi setup"></p>
@@ -243,7 +243,7 @@ Here we'll be using <a href="https://docs.aws.amazon.com/apigateway/latest/devel
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -v https://mcb1lbc2ti.execute-api.us-east-1.amazonaws.com/dev
 <span style="color:#75715e"># or</span> 
 open https://mcb1lbc2ti.execute-api.us-east-1.amazonaws.com/dev
-</code></pre></div><p>Once you are done with it, don't forget to remove the setup.</p>
+</code></pre></div><p>Once you are done with it, don&rsquo;t forget to remove the setup.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ AWS_PROFILE<span style="color:#f92672">=</span>myprofile ./node_modules/.bin/serverless remove -v
 </code></pre></div>
       </div>

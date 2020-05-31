@@ -18,8 +18,8 @@
       
       <guid>/posts/009-developing-api-exchange-2/</guid>
       <description>Please check the previous part to know the background of this project.
-In this part, we&#39;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&#39;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
 The first step is to create a new project folder and initialise package.</description>
     </item>
@@ -30,7 +30,7 @@ The first step is to create a new project folder and initialise package.</descri
       <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
       
       <guid>/posts/008-developing-api-exchange-1/</guid>
-      <description>In this series of articles, I&#39;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
+      <description>In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
 This API is used from HttpRider to save API exchanges (request+response).
 Here is a sample page generated from HttpRider.
 Demo The service itself consists of two simple APIs.

@@ -17,7 +17,7 @@
       <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
       
       <guid>/posts/004-httprider-performance-testing/</guid>
-      <description>The title is a bit misleading as HttpRider can&#39;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
+      <description>The title is a bit misleading as HttpRider can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
 Slow cooker: SlowCooker is a command line tool for load testing. Here is an excellent blog post about the background and difference from other similar tools.
 Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code.</description>
     </item>
@@ -28,10 +28,10 @@ Generating code to run slow cooker is as simple as selecting an API call and cli
       <pubDate>Mon, 28 Oct 2019 11:30:47 +0000</pubDate>
       
       <guid>/posts/003-httprider-generating-bdd-tests/</guid>
-      <description>In this post, we&#39;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&#39;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&#39;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&#39;s start with a few API calls using the sample database provided with source.</description>
+      <description>In this post, we&amp;rsquo;ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we&amp;rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I&amp;rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let&amp;rsquo;s start with a few API calls using the sample database provided with source.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Once the tests have successfully finished, click on the export/export all button
       
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
-In HttpRider, I&#39;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
+In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
  HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     

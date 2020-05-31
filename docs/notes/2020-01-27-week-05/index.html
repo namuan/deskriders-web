@@ -61,7 +61,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -110,31 +110,31 @@
     <ul>
 <li>Python : Python one liner to extract and transform Spring HttpStatus enums Raw</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">curl <span style="color:#f92672">-</span>s https:<span style="color:#f92672">/</span><span style="color:#f92672">/</span>raw<span style="color:#f92672">.</span>githubusercontent<span style="color:#f92672">.</span>com<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>projects<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>framework<span style="color:#f92672">/</span>master<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>web<span style="color:#f92672">/</span>src<span style="color:#f92672">/</span>main<span style="color:#f92672">/</span>java<span style="color:#f92672">/</span>org<span style="color:#f92672">/</span>springframework<span style="color:#f92672">/</span>http<span style="color:#f92672">/</span>HttpStatus<span style="color:#f92672">.</span>java <span style="color:#f92672">|</span> \
-grep <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">.*),</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">|</span> \
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">curl <span style="color:#f92672">-</span>s https:<span style="color:#f92672">//</span>raw<span style="color:#f92672">.</span>githubusercontent<span style="color:#f92672">.</span>com<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>projects<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>framework<span style="color:#f92672">/</span>master<span style="color:#f92672">/</span>spring<span style="color:#f92672">-</span>web<span style="color:#f92672">/</span>src<span style="color:#f92672">/</span>main<span style="color:#f92672">/</span>java<span style="color:#f92672">/</span>org<span style="color:#f92672">/</span>springframework<span style="color:#f92672">/</span>http<span style="color:#f92672">/</span>HttpStatus<span style="color:#f92672">.</span>java <span style="color:#f92672">|</span> \
+grep <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">.*),&#39;</span> <span style="color:#f92672">|</span> \
 <span style="color:#66d9ef">while</span> read line; \
-  do echo <span style="color:#960050;background-color:#1e0010">$</span>line <span style="color:#f92672">|</span> python <span style="color:#f92672">-</span>c <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">import re,sys; s, c, m = re.search(</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">([</span><span style="color:#e6db74">\</span><span style="color:#e6db74">w</span><span style="color:#e6db74">\</span><span style="color:#e6db74">_]+)</span><span style="color:#e6db74">\</span><span style="color:#e6db74">((</span><span style="color:#e6db74">\</span><span style="color:#e6db74">d+),</span><span style="color:#e6db74">\</span><span style="color:#e6db74">s+</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">([</span><span style="color:#e6db74">\</span><span style="color:#e6db74">w</span><span style="color:#e6db74">\</span><span style="color:#e6db74">s]+)</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">, sys.stdin.readline()).groups(); print(</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{}: (</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">HttpStatus.{}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">, </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">{}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">),</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">.format(c, s, m))</span><span style="color:#e6db74">&#39;</span>; \
+  do echo <span style="color:#960050;background-color:#1e0010">$</span>line <span style="color:#f92672">|</span> python <span style="color:#f92672">-</span>c <span style="color:#e6db74">&#39;import re,sys; s, c, m = re.search(&#34;([\w\_]+)\((\d+),\s+</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">([\w\s]+)&#34;, sys.stdin.readline()).groups(); print(&#34;{}: (</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">HttpStatus.{}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">, </span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">{}</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">),&#34;.format(c, s, m))&#39;</span>; \
 done
 </code></pre></div><ul>
 <li>Python: Find words in a sentence</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">source <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">The quick brown fox jumps over the lazy dog</span><span style="color:#e6db74">&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">source <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;The quick brown fox jumps over the lazy dog&#39;</span>
 
 <span style="color:#f92672">import</span> re
-<span style="color:#66d9ef">print</span>(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">\</span><span style="color:#e6db74">b(</span><span style="color:#e6db74">\</span><span style="color:#e6db74">w+)</span><span style="color:#e6db74">\</span><span style="color:#e6db74">b</span><span style="color:#e6db74">&#39;</span>, source))
+<span style="color:#66d9ef">print</span>(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;\b(\w+)\b&#39;</span>, source))
 </code></pre></div><ul>
 <li>jq: Length of array</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ echo <span style="color:#e6db74">&#39;[&#34;123&#34;, &#34;567&#34;, &#34;abc&#34;]&#39;</span> | jq <span style="color:#e6db74">&#39;. | length&#39;</span>
 </code></pre></div><ul>
-<li>Shell: Pass contents of clipboard as file descriptor. It'll work with apps expecting file argument.</li>
+<li>Shell: Pass contents of clipboard as file descriptor. It&rsquo;ll work with apps expecting file argument.</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ command &lt;<span style="color:#f92672">(</span>pbpaste<span style="color:#f92672">)</span>
 </code></pre></div><ul>
 <li>Python/Jinja: Using Jinja template in a simple Python script</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ cat template.j2
-<span style="color:#f92672">{</span><span style="color:#f92672">{</span> description <span style="color:#f92672">}</span><span style="color:#f92672">}</span>
+<span style="color:#f92672">{{</span> description <span style="color:#f92672">}}</span>
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># pip install Jinja2</span>
 
 <span style="color:#f92672">from</span> jinja2 <span style="color:#f92672">import</span> Environment, FileSystemLoader
@@ -144,10 +144,10 @@ TEMPLATE_DIR <span style="color:#f92672">=</span> os<span style="color:#f92672">
 jinja_env <span style="color:#f92672">=</span> Environment(loader<span style="color:#f92672">=</span>FileSystemLoader(TEMPLATE_DIR), trim_blocks<span style="color:#f92672">=</span>True)
 
 book_item <span style="color:#f92672">=</span> dict(
-	description<span style="color:#f92672">=</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Hello World</span><span style="color:#e6db74">&#34;</span>
+	description<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hello World&#34;</span>
 )
 
-rendered <span style="color:#f92672">=</span> jinja_env<span style="color:#f92672">.</span>get_template(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">template.j2</span><span style="color:#e6db74">&#34;</span>)<span style="color:#f92672">.</span>render(book_item)
+rendered <span style="color:#f92672">=</span> jinja_env<span style="color:#f92672">.</span>get_template(<span style="color:#e6db74">&#34;template.j2&#34;</span>)<span style="color:#f92672">.</span>render(book_item)
 <span style="color:#66d9ef">print</span>(rendered)
 </code></pre></div><ul>
 <li>Convert: Resize image</li>
@@ -162,29 +162,29 @@ rendered <span style="color:#f92672">=</span> jinja_env<span style="color:#f9267
 <span style="color:#f92672">import</span> time
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run_command</span>(command):
-  <span style="color:#66d9ef">return</span> subprocess<span style="color:#f92672">.</span>check_output(command, stderr<span style="color:#f92672">=</span>subprocess<span style="color:#f92672">.</span>STDOUT, shell<span style="color:#f92672">=</span>True)<span style="color:#f92672">.</span>decode(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">utf-8</span><span style="color:#e6db74">&#39;</span>)
+  <span style="color:#66d9ef">return</span> subprocess<span style="color:#f92672">.</span>check_output(command, stderr<span style="color:#f92672">=</span>subprocess<span style="color:#f92672">.</span>STDOUT, shell<span style="color:#f92672">=</span>True)<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#39;utf-8&#39;</span>)
   
-link_rgx <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Link</span><span style="color:#e6db74">\</span><span style="color:#e6db74">s=</span><span style="color:#e6db74">\</span><span style="color:#e6db74">s</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">(.*)</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">&#34;</span>)
+link_rgx <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">&#34;Link\s=\s</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">(.*)</span><span style="color:#ae81ff">\&#34;</span><span style="color:#e6db74">&#34;</span>)
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_file</span>(file):
   text <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read_text()
   link <span style="color:#f92672">=</span> link_rgx<span style="color:#f92672">.</span>findall(text)[<span style="color:#ae81ff">0</span>]
-  cmd <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">curl -s </span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> link <span style="color:#f92672">+</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74"> | pup </span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74">div.stacked div.left a.actionLinkLite text{}</span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74"> | head -n 1</span><span style="color:#e6db74">&#39;</span>
+  cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;curl -s &#34;</span> <span style="color:#f92672">+</span> link <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; | pup </span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74">div.stacked div.left a.actionLinkLite text{}</span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74"> | head -n 1&#39;</span>
   category <span style="color:#f92672">=</span> run_command(cmd)
   category <span style="color:#f92672">=</span> category<span style="color:#f92672">.</span>strip()
-  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Running {}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(cmd))
-  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Category Found for {} is {}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(link, category))
-  cmd <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">sed -i.bak </span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74">s/categories = </span><span style="color:#e6db74">\</span><span style="color:#e6db74">[</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">\</span><span style="color:#e6db74">]/categories = </span><span style="color:#e6db74">\</span><span style="color:#e6db74">[</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">\</span><span style="color:#e6db74">]/g</span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74"> </span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">+</span> file<span style="color:#f92672">.</span>as_posix()
-  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Running {}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(cmd))
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Running {}&#34;</span><span style="color:#f92672">.</span>format(cmd))
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Category Found for {} is {}&#34;</span><span style="color:#f92672">.</span>format(link, category))
+  cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;sed -i.bak </span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74">s/categories = \[&#34;&#34;\]/categories = \[&#34;&#39;</span> <span style="color:#f92672">+</span> category <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;\]/g</span><span style="color:#ae81ff">\&#39;</span><span style="color:#e6db74"> &#39;</span> <span style="color:#f92672">+</span> file<span style="color:#f92672">.</span>as_posix()
+  <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Running {}&#34;</span><span style="color:#f92672">.</span>format(cmd))
   run_command(cmd)
   time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">5</span>)
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
-  p <span style="color:#f92672">=</span> Path<span style="color:#f92672">.</span>cwd()<span style="color:#f92672">.</span>joinpath(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">books</span><span style="color:#e6db74">&#34;</span>)
+  p <span style="color:#f92672">=</span> Path<span style="color:#f92672">.</span>cwd()<span style="color:#f92672">.</span>joinpath(<span style="color:#e6db74">&#34;books&#34;</span>)
   <span style="color:#66d9ef">for</span> f <span style="color:#f92672">in</span> p<span style="color:#f92672">.</span>iterdir():
     process_file(f)
 
-<span style="color:#66d9ef">if</span> __name__<span style="color:#f92672">==</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#34;</span>:
+<span style="color:#66d9ef">if</span> __name__<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;__main__&#34;</span>:
   main()
 </code></pre></div>
   </article>

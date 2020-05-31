@@ -11,16 +11,16 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Generating BDD tests with HttpRider"/>
-<meta name="twitter:description" content="In this post, we&#39;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&#39;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&#39;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&#39;s start with a few API calls using the sample database provided with source."/>
+<meta name="twitter:description" content="In this post, we&rsquo;ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we&rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I&rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let&rsquo;s start with a few API calls using the sample database provided with source."/>
 
     <meta property="og:title" content="Generating BDD tests with HttpRider" />
-<meta property="og:description" content="In this post, we&#39;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&#39;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&#39;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&#39;s start with a few API calls using the sample database provided with source." />
+<meta property="og:description" content="In this post, we&rsquo;ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we&rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I&rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let&rsquo;s start with a few API calls using the sample database provided with source." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/003-httprider-generating-bdd-tests/" />
 <meta property="article:published_time" content="2019-10-28T11:30:47+00:00" />
@@ -67,7 +67,7 @@ Let&#39;s start with a few API calls using the sample database provided with sou
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.0" />
+    <meta name="generator" content="Hugo 0.71.0" />
   </head>
 
   
@@ -142,16 +142,16 @@ Let&#39;s start with a few API calls using the sample database provided with sou
       </header>
 
       <div>
-        <p>In this post, we'll see how we can easily generate BDD tests with HttpRider.</p>
-<p>Instead of writing the code behind the REST api calls, we'll use an open source framework called <a href="https://github.com/apickli/apickli">Apickli</a> to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built <a href="https://github.com/apickli/apickli#gherkin-expressions">Gherkin expressions</a>.</p>
-<p>I've also created a <a href="https://github.com/namuan/apickli_functional_tests">sample project</a> using Apicki framework to make it easy to get it up and running.</p>
-<p>Let's start with a few API calls using the <a href="https://github.com/namuan/http-rider/tree/master/sample">sample database</a> provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.</p>
+        <p>In this post, we&rsquo;ll see how we can easily generate BDD tests with HttpRider.</p>
+<p>Instead of writing the code behind the REST api calls, we&rsquo;ll use an open source framework called <a href="https://github.com/apickli/apickli">Apickli</a> to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built <a href="https://github.com/apickli/apickli#gherkin-expressions">Gherkin expressions</a>.</p>
+<p>I&rsquo;ve also created a <a href="https://github.com/namuan/apickli_functional_tests">sample project</a> using Apicki framework to make it easy to get it up and running.</p>
+<p>Let&rsquo;s start with a few API calls using the <a href="https://github.com/namuan/http-rider/tree/master/sample">sample database</a> provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.</p>
 <p><img src="https://deskriders.dev/media/posts/13/apickli_1.png" alt=""></p>
 <p>Now, click on Export/Export All to open up code generator.</p>
 <p><img src="/images/003/apicli_2.png" alt=""></p>
 <p>Select Apickli Tests from the drop down menu to see the BDD generated code.</p>
 <p><img src="/images/003/apickli_3.png" alt=""></p>
-<p>If you don't have a project setup, then you can clone the <a href="https://github.com/namuan/apickli_functional_tests">test project</a> and replace the contents of <a href="https://github.com/namuan/apickli_functional_tests/blob/master/tests/Functional.feature">Functional.feature</a> file with the exported code.</p>
+<p>If you don&rsquo;t have a project setup, then you can clone the <a href="https://github.com/namuan/apickli_functional_tests">test project</a> and replace the contents of <a href="https://github.com/namuan/apickli_functional_tests/blob/master/tests/Functional.feature">Functional.feature</a> file with the exported code.</p>
 <p>Run <code>npm i</code> to install the dependencies and then <code>npm run all</code> to run all the included scenarios.</p>
 <p><img src="/images/003/apickli_4.png" alt=""></p>
 <p>You can also view the generated report by running <code>npm run report</code> which should generate the HTML report in the <code>report</code> folder.</p>

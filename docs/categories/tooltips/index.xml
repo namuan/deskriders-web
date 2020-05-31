@@ -17,7 +17,7 @@
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/026-tooltip-13-cli-functions-find/</guid>
-      <description>In this tooltip, we&#39;ll create a simple function to find files in the current directory tree using find.
+      <description>In this tooltip, we&amp;rsquo;ll create a simple function to find files in the current directory tree using find.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -28,7 +28,7 @@
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
-      <description>In this short video, we&#39;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
+      <description>In this short video, we&amp;rsquo;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Github: https://github.com/svg/svgo
@@ -41,7 +41,7 @@
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
-      <description>In this short clip, we&#39;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+      <description>In this short clip, we&amp;rsquo;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
     </item>
@@ -52,7 +52,7 @@
       <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
-      <description>In this short clip, we&#39;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
+      <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -63,7 +63,7 @@
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -75,7 +75,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
       
       <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
-      <description>In this short clip, we&#39;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -87,7 +87,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
       
       <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
-      <description>In this short clip, we&#39;ll further into jq syntax and selecting nested items using jq filtering.
+      <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -99,7 +99,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
       
       <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
-      <description>In this short clip, we&#39;ll look at using jq to filter JSON arrays.
+      <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
 Requirements:  jq: https://stedolan.github.io/jq/    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
@@ -111,7 +111,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
       
       <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
-      <description>In this short clip, we&#39;ll look at using csvjson utility from csvkit to convert CSV to JSON.
+      <description>In this short clip, we&amp;rsquo;ll look at using csvjson utility from csvkit to convert CSV to JSON.
 Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -122,7 +122,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Fri, 31 Jan 2020 08:00:06 +0000</pubDate>
       
       <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
-      <description>In this short clip, we&#39;ll look at using in2sec utility from csvkit to convert JSON to CSV.
+      <description>In this short clip, we&amp;rsquo;ll look at using in2sec utility from csvkit to convert JSON to CSV.
 Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Used http://next.json-generator.com to generate JSON document</description>
@@ -134,7 +134,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
       
       <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
-      <description>In this short clip, we&#39;ll look at using for and while loop to process each line in a file.
+      <description>In this short clip, we&amp;rsquo;ll look at using for and while loop to process each line in a file.
   📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
@@ -145,7 +145,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
       
       <guid>/posts/014-tooltip-2-simple-maths-bc/</guid>
-      <description>In this short clip, we&#39;ll look at using a simple command line tool bc to basic maths.
+      <description>In this short clip, we&amp;rsquo;ll look at using a simple command line tool bc to basic maths.
   Notes 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 References:
@@ -159,7 +159,7 @@ References:
       
       <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
       <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
-In this first video, we&#39;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
   </description>
     </item>
     
