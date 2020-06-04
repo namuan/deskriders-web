@@ -1,2 +1,5 @@
 # Local Netlify folder
 .netlify
+*.vswp
+_vnote.json
+_v_recycle_bin/

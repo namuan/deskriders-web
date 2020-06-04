@@ -81,6 +81,17 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Handy Bash/Zsh function to generate PlantUML diagrams</title>
+      <link>/posts/1591301414-plantuml-shortcut/</link>
+      <pubDate>Thu, 04 Jun 2020 22:11:58 +0100</pubDate>
+      
+      <guid>/posts/1591301414-plantuml-shortcut/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
+Requirements:  PlantUML: Direct Download  Download it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</description>
+    </item>
+    
+    <item>
       <title>Multi Breaks :: HealthCare Reminders</title>
       <link>/projects/multi-breaks/</link>
       <pubDate>Sun, 31 May 2020 12:34:19 +0100</pubDate>
@@ -385,6 +396,15 @@ Although it is impossible to replace them altogether, let me introduce you to De
       
       <guid>/notes/2020-01-20-week-04/</guid>
       <description>Python: One way to handle focusOut event by installing event filter on the widget  # Installing event filter self.parent.txt_scratch_pad.installEventFilter(self.events) # where self.events in a class with a QObject parent class - like ScratchPadEvents 👇 # Then override eventFilter method in that class class ScratchPadEvents(QObject): def __init__(self, parent, app): super().__init__(parent) def eventFilter(self, source: QObject, event: QEvent): if event.type() == QtCore.QEvent.FocusOut: # do something pass return super().eventFilter(source, event)  ImageMagick: Resize a bunch of images using ImageMagick  find .</description>
+    </item>
+    
+    <item>
+      <title>Week 03 2020</title>
+      <link>/_v_recycle_bin/20200604/2020_06_04/</link>
+      <pubDate>Sun, 19 Jan 2020 07:17:15 +0000</pubDate>
+      
+      <guid>/_v_recycle_bin/20200604/2020_06_04/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -33,6 +33,41 @@
   </url>
   
   <url>
+    <loc>/tags/bash/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591301414-plantuml-shortcut/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plantuml/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tooltips/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/multi-breaks/</loc>
     <lastmod>2020-05-31T12:34:19+01:00</lastmod>
   </url>
@@ -43,27 +78,12 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/java/</loc>
     <lastmod>2020-05-14T23:45:43+01:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/java/</loc>
-    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-14T23:45:43+01:00</lastmod>
   </url>
   
@@ -119,11 +139,6 @@
   
   <url>
     <loc>/posts/026-tooltip-13-cli-functions-find/</loc>
-    <lastmod>2020-02-16T08:06:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/tooltips/</loc>
     <lastmod>2020-02-16T08:06:04+00:00</lastmod>
   </url>
   
@@ -323,6 +338,16 @@
   </url>
   
   <url>
+    <loc>/_v_recycle_bin/</loc>
+    <lastmod>2020-01-19T07:17:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_v_recycle_bin/20200604/2020_06_04/</loc>
+    <lastmod>2020-01-19T07:17:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/2020-01-13-week-03/</loc>
     <lastmod>2020-01-19T07:17:15+00:00</lastmod>
   </url>
@@ -449,11 +474,6 @@
   
   <url>
     <loc>/posts/001-httprider-generating-sequence-diagrams/</loc>
-    <lastmod>2019-10-13T07:45:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/plantuml/</loc>
     <lastmod>2019-10-13T07:45:14+00:00</lastmod>
   </url>
   
