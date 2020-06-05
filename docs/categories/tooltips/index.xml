@@ -6,13 +6,25 @@
     <description>Recent content in tooltips on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2020 22:11:58 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 07:47:18 +0100</lastBuildDate>
     
 	<atom:link href="/categories/tooltips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Handy Bash/Zsh function to generate PlantUML diagrams</title>
+      <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
+      <link>/posts/1591343684-plantuml-svg-export/</link>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      
+      <guid>/posts/1591343684-plantuml-svg-export/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function for export SVG diagrams using PlantUML.
+Requirements:  PlantUML: Direct Download  Place it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
+function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</title>
       <link>/posts/1591301414-plantuml-shortcut/</link>
       <pubDate>Thu, 04 Jun 2020 22:11:58 +0100</pubDate>
       

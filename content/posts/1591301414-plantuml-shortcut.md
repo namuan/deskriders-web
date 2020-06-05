@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2020-06-04T22:11:58
-title = "Handy Bash/Zsh function to generate PlantUML diagrams"
+title = "Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams"
 description = "Creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere"
 tags = ["plantuml", "bash"]
 categories = ["tooltips"]

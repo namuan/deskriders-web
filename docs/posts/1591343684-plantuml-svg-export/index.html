@@ -10,26 +10,26 @@
     <meta name="keywords" content="blog,developer">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams"/>
-<meta name="twitter:description" content="Creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere"/>
+<meta name="twitter:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML"/>
+<meta name="twitter:description" content="Looking at creating a simple Bash/Zsh function for export SVG diagrams using PlantUML"/>
 
-    <meta property="og:title" content="Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams" />
-<meta property="og:description" content="Creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere" />
+    <meta property="og:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML" />
+<meta property="og:description" content="Looking at creating a simple Bash/Zsh function for export SVG diagrams using PlantUML" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1591301414-plantuml-shortcut/" />
-<meta property="article:published_time" content="2020-06-04T22:11:58+01:00" />
-<meta property="article:modified_time" content="2020-06-04T22:11:58+01:00" />
+<meta property="og:url" content="/posts/1591343684-plantuml-svg-export/" />
+<meta property="article:published_time" content="2020-06-05T07:47:18+01:00" />
+<meta property="article:modified_time" content="2020-06-05T07:47:18+01:00" />
 
 
     
-      <base href="/posts/1591301414-plantuml-shortcut/">
+      <base href="/posts/1591343684-plantuml-svg-export/">
     
     <title>
-  Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams · deskriders
+  Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML · deskriders
 </title>
 
     
-      <link rel="canonical" href="/posts/1591301414-plantuml-shortcut/">
+      <link rel="canonical" href="/posts/1591343684-plantuml-svg-export/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -105,14 +105,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</h1>
+          <h1 class="title">Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-06-04T22:11:58&#43;01:00'>
-                June 4, 2020
+              <time datetime='2020-06-05T07:47:18&#43;01:00'>
+                June 5, 2020
               </time>
             </span>
             <span class="reading-time">
@@ -134,27 +134,26 @@
       </header>
 
       <div>
-        <p>In this short clip, we&rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.</p>
+        <p>In this short clip, we&rsquo;ll look at creating a simple Bash/Zsh function for export SVG diagrams using PlantUML.</p>
 <h4 id="requirements">Requirements:</h4>
 <ul>
 <li>PlantUML: <a href="http://sourceforge.net/projects/plantuml/files/plantuml.jar/download">Direct Download</a></li>
 </ul>
-<p>Download it where you can easily refer to it.</p>
+<p>Place it where you can easily refer to it.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar
 -rw-r--r--@ <span style="color:#ae81ff">1</span> nmn  staff  <span style="color:#ae81ff">7985304</span>  <span style="color:#ae81ff">9</span> Nov  <span style="color:#ae81ff">2019</span> /Users/nmn/tools/plantuml/plantuml.jar
 </code></pre></div><p>Next, we&rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">function</span> plantuml<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    NAME<span style="color:#f92672">=</span>$1
-    cat $NAME | java -DPLANTUML_LIMIT_SIZE<span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span> -jar $TOOLS_HOME/plantuml/plantuml.jar -pipe &gt; $NAME.png
-    open $NAME.png
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">function</span> plantsvg<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
+    cat <span style="color:#e6db74">${</span>NAME<span style="color:#e6db74">}</span> | java -DPLANTUML_LIMIT_SIZE<span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span> -jar $TOOLS_HOME/plantuml/plantuml.jar -tsvg -pipe &gt; <span style="color:#e6db74">${</span>NAME<span style="color:#e6db74">}</span>.svg
+    open -a Firefox.app <span style="color:#e6db74">${</span>NAME<span style="color:#e6db74">}</span>.svg
 <span style="color:#f92672">}</span>
-</code></pre></div><p>Then you can call this function with the file name.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">plantuml sample.png
-</code></pre></div><p>Once you have it setup, this will convert the provided plantuml file to a PNG image and open it up using the default PNG viewer.</p>
+</code></pre></div><p>Once you have it setup, this will export the provided plantuml file to an SVG image and open it up using Firefox.
+You can change the application used to open this SVG by replacing <code>Firefox.app</code> with the another application.</p>
 <p>Here it is in action</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Wy02jNNkhIE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/ytSB-cjAKzA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p>📝:</p>
