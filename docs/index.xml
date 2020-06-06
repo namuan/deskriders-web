@@ -136,7 +136,6 @@ nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 N
       
       <guid>/projects/multi-breaks/</guid>
       <description>A Simple MacOS Application to set-up multiple reminders to improve your health.
-  
 👉 https://github.com/namuan/multi-breaks
 Features 🚀 Mindful Breathing Reminders every 45 minutes
 🚀 20/20/20 Eyesight Reminders every 20 minutes
