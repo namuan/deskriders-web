@@ -33,27 +33,47 @@
   </url>
   
   <url>
+    <loc>/tags/architecture/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/document/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/httprider/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591444366-httprider-notebook-publishing/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/bash/</loc>
     <lastmod>2020-06-05T07:47:18+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/plantuml/</loc>
-    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-06-05T07:47:18+01:00</lastmod>
   </url>
   
@@ -444,11 +464,6 @@
   
   <url>
     <loc>/tags/api/</loc>
-    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/httprider/</loc>
     <lastmod>2019-11-16T16:24:01+00:00</lastmod>
   </url>
   

@@ -81,6 +81,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Publishing Notebooks with HttpRider</title>
+      <link>/posts/1591444366-httprider-notebook-publishing/</link>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      
+      <guid>/posts/1591444366-httprider-notebook-publishing/</guid>
+      <description>Preliminary design document for implementing notebooks with HttpRider.
+This feature enables the user to publish interactive API notebooks. These interactive API notebooks can be used to document a scenario where an individual API call doesn&amp;rsquo;t make sense without the context around it.
+Features [] Publish API call description in Markdown format
+[] Publish API call as curl commands
+[] Allow user of the notebook to run curl commands interactively
+[] Track the response of the commands and use the output to chain other calls</description>
+    </item>
+    
+    <item>
       <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
       <link>/posts/1591343684-plantuml-svg-export/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
