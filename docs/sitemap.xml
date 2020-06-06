@@ -33,12 +33,47 @@
   </url>
   
   <url>
-    <loc>/tags/architecture/</loc>
-    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/series/orkestra/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/orkestra/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591300238_orkestra_day1/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/products/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/architecture/</loc>
     <lastmod>2020-06-06T11:53:52+01:00</lastmod>
   </url>
   
@@ -53,17 +88,7 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/1591444366-httprider-notebook-publishing/</loc>
-    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-06-06T11:53:52+01:00</lastmod>
   </url>
   
@@ -520,10 +545,6 @@
   <url>
     <loc>/projects/docker-compose-builder/</loc>
     <lastmod>2019-02-01T09:27:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
   </url>
   
 </urlset>

@@ -81,6 +81,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Orkestra Day 1</title>
+      <link>/posts/1591300238_orkestra_day1/</link>
+      <pubDate>Sat, 06 Jun 2020 15:13:42 +0100</pubDate>
+      
+      <guid>/posts/1591300238_orkestra_day1/</guid>
+      <description>Started working on the core shell of the application. Here is what it looks like after a session in Qt Designer
+  The Notes scratch pad is functional with persistence. The toolbar has a configuration button which opens up a dialog with a couple of tabs.
+Here is the walkthrough video of using Qt Creator to develop this layout
+  </description>
+    </item>
+    
+    <item>
       <title>Publishing Notebooks with HttpRider</title>
       <link>/posts/1591444366-httprider-notebook-publishing/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>

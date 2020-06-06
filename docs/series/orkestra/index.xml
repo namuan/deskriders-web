@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>orkestra on deskriders</title>
+    <link>/series/orkestra/</link>
+    <description>Recent content in orkestra on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jun 2020 15:13:42 +0100</lastBuildDate>
+    
+	<atom:link href="/series/orkestra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Orkestra Day 1</title>
+      <link>/posts/1591300238_orkestra_day1/</link>
+      <pubDate>Sat, 06 Jun 2020 15:13:42 +0100</pubDate>
+      
+      <guid>/posts/1591300238_orkestra_day1/</guid>
+      <description>Started working on the core shell of the application. Here is what it looks like after a session in Qt Designer
+  The Notes scratch pad is functional with persistence. The toolbar has a configuration button which opens up a dialog with a couple of tabs.
+Here is the walkthrough video of using Qt Creator to develop this layout
+  </description>
+    </item>
+    
+  </channel>
+</rss>
