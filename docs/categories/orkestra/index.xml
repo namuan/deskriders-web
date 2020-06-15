@@ -6,10 +6,32 @@
     <description>Recent content in orkestra on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jun 2020 15:13:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 20:33:16 +0100</lastBuildDate>
     
 	<atom:link href="/categories/orkestra/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Orkestra - Support for Environments</title>
+      <link>/posts/1591776555-orkestra-day-3/</link>
+      <pubDate>Mon, 15 Jun 2020 20:33:16 +0100</pubDate>
+      
+      <guid>/posts/1591776555-orkestra-day-3/</guid>
+      <description>Environment is a major core feature for Orkestra. In the latest changes, I implemented support for configuring environments.
+See Github Issue for Environments for development log
+Here is a demo of the partial functionality implemented.</description>
+    </item>
+    
+    <item>
+      <title>Orkestra Day 2 - MVC and Toolbar menu button</title>
+      <link>/posts/1591735673-orkestra-day-2/</link>
+      <pubDate>Tue, 09 Jun 2020 21:10:56 +0100</pubDate>
+      
+      <guid>/posts/1591735673-orkestra-day-2/</guid>
+      <description>Add a couple of things since last time.
+ Create a &amp;ldquo;Default&amp;rdquo; folder and populate on start up Add a toolbar button menu to add different step type  As part of updating folders, I refactored a bunch of things. There is now an AppWorld which kinda holds a number of things. It provides access to data stores and other infrastructure components.
+Here is a how folders update when the application starts.</description>
+    </item>
     
     <item>
       <title>Orkestra Day 1</title>
