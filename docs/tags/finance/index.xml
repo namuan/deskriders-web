@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>finance on deskriders</title>
+    <link>/tags/finance/</link>
+    <description>Recent content in finance on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Nov 2020 10:13:22 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[2020-11-21] ETFs momentum report</title>
+      <link>/posts/1605953563-etfs-momentum-report/</link>
+      <pubDate>Sat, 21 Nov 2020 10:13:22 +0000</pubDate>
+      
+      <guid>/posts/1605953563-etfs-momentum-report/</guid>
+      <description>ETF Momentum Report Top 20 Macro ETFs based on momentum on week ending 2020-11-21
+XLI (Industrials)    Metric Value     Momentum 20.83   3 Months Gain 11.04 times   Yearly Gain 1.76 times    Links:
+Y Finance| Y Chart| BarChart| ChartMill| StockInvest| TradingView EWJ (Japan)    Metric Value     Momentum 12.67   3 Months Gain 9.</description>
+    </item>
+    
+  </channel>
+</rss>
