@@ -6,7 +6,7 @@
     <description>Recent content in Projects on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 May 2020 12:34:19 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Aug 2021 09:27:38 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,12 +26,12 @@ Features: 🚀 Open source and Cross-Platform
     </item>
     
     <item>
-      <title>Mindbooks :: Thought Provoking Books</title>
-      <link>/projects/mind-books-club/</link>
-      <pubDate>Fri, 31 Jan 2020 15:27:38 +0000</pubDate>
+      <title>TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies</title>
+      <link>/projects/trading-utils/</link>
+      <pubDate>Sun, 29 Aug 2021 09:27:38 +0000</pubDate>
       
-      <guid>/projects/mind-books-club/</guid>
-      <description>👉 https://mindbooks.club</description>
+      <guid>/projects/trading-utils/</guid>
+      <description>👉 https://github.com/namuan/trading-utils</description>
     </item>
     
     <item>
@@ -123,15 +123,6 @@ Linux from Source. Please check README.</description>
       <guid>/projects/news-rider/</guid>
       <description>Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi
 👉 NewsRider</description>
-    </item>
-    
-    <item>
-      <title>Docker Compose Builder :: Create Docker Compose File Like A Pro</title>
-      <link>/projects/docker-compose-builder/</link>
-      <pubDate>Fri, 01 Feb 2019 09:27:44 +0000</pubDate>
-      
-      <guid>/projects/docker-compose-builder/</guid>
-      <description>👉 DockerComposeBuilder.</description>
     </item>
     
   </channel>

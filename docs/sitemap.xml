@@ -8,8 +8,8 @@
   </url>
   
   <url>
-    <loc>/projects/mind-books-club/</loc>
-    <lastmod>2020-01-31T15:27:38+00:00</lastmod>
+    <loc>/projects/trading-utils/</loc>
+    <lastmod>2021-08-29T09:27:38+00:00</lastmod>
   </url>
   
   <url>
@@ -30,6 +30,11 @@
   <url>
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2021-08-29T09:27:38+00:00</lastmod>
   </url>
   
   <url>
@@ -149,11 +154,6 @@
   
   <url>
     <loc>/projects/multi-breaks/</loc>
-    <lastmod>2020-05-31T12:34:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
     <lastmod>2020-05-31T12:34:19+01:00</lastmod>
   </url>
   
@@ -570,11 +570,6 @@
   <url>
     <loc>/tags/packaging/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/docker-compose-builder/</loc>
-    <lastmod>2019-02-01T09:27:44+00:00</lastmod>
   </url>
   
 </urlset>

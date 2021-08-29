@@ -2,18 +2,14 @@
 date: 2020-01-15T10:32:46Z
 ---
 
-## [Multi Breaks :: HealthCare Reminders](/projects/multi-breaks/)
+## [TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies etc](/projects/trading-utils/)
 
-Multiple reminders to improve your health.
+Collection of scripts and utilities for stock market analysis, strategies.
 
 ## [HttpRider :: Cross-Platform Open Source Desktop API Client](/projects/http-rider/)
 
 HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. 
 It is a lean alternative to Postman and other tools developed using Electron.
-
-## [MindBooks :: Thought provoking books](/projects/mind-books-club/)
-
-Growing collection of books to open your mind.
 
 ## [DevRider :: Development Tools/Utilities In One Place](/projects/dev-rider/)
 
@@ -36,10 +32,6 @@ Simple Cross-Platform ScratchPad.
 
 Search engine for Dockerfiles
 
-## [Docker Compose Builder :: Create Docker Compose File Like A Pro](/projects/docker-compose-builder/)
-
-Create Docker Compose files
-
 ## [Tube Stats :: Export Youtube Comments](/projects/tube-stats/)
 
 Completely serverless e-commerce service built using Python, Serverless Framework and DynamoDB and deployed on AWS Platform.
@@ -47,3 +39,4 @@ Completely serverless e-commerce service built using Python, Serverless Framewor
 ## [News Rider :: Personalised News](/projects/news-rider/)
 
 Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi
+

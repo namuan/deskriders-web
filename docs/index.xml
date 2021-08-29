@@ -26,12 +26,12 @@ Features: 🚀 Open source and Cross-Platform
     </item>
     
     <item>
-      <title>Mindbooks :: Thought Provoking Books</title>
-      <link>/projects/mind-books-club/</link>
-      <pubDate>Fri, 31 Jan 2020 15:27:38 +0000</pubDate>
+      <title>TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies</title>
+      <link>/projects/trading-utils/</link>
+      <pubDate>Sun, 29 Aug 2021 09:27:38 +0000</pubDate>
       
-      <guid>/projects/mind-books-club/</guid>
-      <description>👉 https://mindbooks.club</description>
+      <guid>/projects/trading-utils/</guid>
+      <description>👉 https://github.com/namuan/trading-utils</description>
     </item>
     
     <item>
@@ -504,9 +504,8 @@ Although it is impossible to replace them altogether, let me introduce you to De
       <pubDate>Wed, 15 Jan 2020 10:32:46 +0000</pubDate>
       
       <guid>/products/</guid>
-      <description>Multi Breaks :: HealthCare Reminders Multiple reminders to improve your health.
+      <description>TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies etc Collection of scripts and utilities for stock market analysis, strategies.
 HttpRider :: Cross-Platform Open Source Desktop API Client HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-MindBooks :: Thought provoking books Growing collection of books to open your mind.
 DevRider :: Development Tools/Utilities In One Place There is a serious problem with the state of simple development tools on the internet.</description>
     </item>
     
@@ -622,15 +621,6 @@ In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagra
       <description>In this post, I&amp;rsquo;ll go through what is involved in building a MacOS release package and publishing it on Github from TravisCI.
 Step 1: Application Icon Although it is probably quicker to find/generate a logo from an online service. I decided to create a simple logo to go through the process of creating and converting it in vector drawing.
 Here is what I ended up using the Paper app on iPad.</description>
-    </item>
-    
-    <item>
-      <title>Docker Compose Builder :: Create Docker Compose File Like A Pro</title>
-      <link>/projects/docker-compose-builder/</link>
-      <pubDate>Fri, 01 Feb 2019 09:27:44 +0000</pubDate>
-      
-      <guid>/projects/docker-compose-builder/</guid>
-      <description>👉 DockerComposeBuilder.</description>
     </item>
     
   </channel>
