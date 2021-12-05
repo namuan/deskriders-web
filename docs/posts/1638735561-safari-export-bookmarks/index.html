@@ -10,38 +10,26 @@
     <meta name="keywords" content="blog,developer">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Multi Breaks :: HealthCare Reminders"/>
-<meta name="twitter:description" content="A Simple MacOS Application to set-up multiple reminders to improve your health.
-👉 https://github.com/namuan/multi-breaks
-Features 🚀 Mindful Breathing Reminders every 45 minutes
-🚀 20/20/20 Eyesight Reminders every 20 minutes
-🚀 Stand-up and Walk Reminders every 1 hour
-🚀 Drinking Water Reminders every 2 hours
-Downloads Mac OS App"/>
+<meta name="twitter:title" content="Export Reading list from Safari"/>
+<meta name="twitter:description" content="Steps to export your Safari reading list to a bookmarks file"/>
 
-    <meta property="og:title" content="Multi Breaks :: HealthCare Reminders" />
-<meta property="og:description" content="A Simple MacOS Application to set-up multiple reminders to improve your health.
-👉 https://github.com/namuan/multi-breaks
-Features 🚀 Mindful Breathing Reminders every 45 minutes
-🚀 20/20/20 Eyesight Reminders every 20 minutes
-🚀 Stand-up and Walk Reminders every 1 hour
-🚀 Drinking Water Reminders every 2 hours
-Downloads Mac OS App" />
+    <meta property="og:title" content="Export Reading list from Safari" />
+<meta property="og:description" content="Steps to export your Safari reading list to a bookmarks file" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/projects/multi-breaks/" />
-<meta property="article:published_time" content="2020-05-31T12:34:19+01:00" />
-<meta property="article:modified_time" content="2020-05-31T12:34:19+01:00" />
+<meta property="og:url" content="/posts/1638735561-safari-export-bookmarks/" />
+<meta property="article:published_time" content="2021-12-05T20:19:36+00:00" />
+<meta property="article:modified_time" content="2021-12-05T20:19:36+00:00" />
 
 
     
-      <base href="/projects/multi-breaks/">
+      <base href="/posts/1638735561-safari-export-bookmarks/">
     
     <title>
-  Multi Breaks :: HealthCare Reminders · deskriders
+  Export Reading list from Safari · deskriders
 </title>
 
     
-      <link rel="canonical" href="/projects/multi-breaks/">
+      <link rel="canonical" href="/posts/1638735561-safari-export-bookmarks/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -113,26 +101,67 @@ Downloads Mac OS App" />
 
       <div class="content">
         
-  <section class="container page">
-  <article>
-    <header>
-      <h1>Multi Breaks :: HealthCare Reminders</h1>
-    </header>
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Export Reading list from Safari</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2021-12-05T20:19:36Z'>
+                December 5, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
 
-    <p>A Simple MacOS Application to set-up multiple reminders to improve your health.</p>
-<p>👉 <a href="https://github.com/namuan/multi-breaks">https://github.com/namuan/multi-breaks</a></p>
-<p><img src="https://raw.githubusercontent.com/namuan/multi-breaks/master/docs/multi-breaks.png" alt="Cover Image"></p>
-<h3 id="features">Features</h3>
-<p>🚀 Mindful Breathing Reminders every 45 minutes</p>
-<p>🚀 20/20/20 Eyesight Reminders every 20 minutes</p>
-<p>🚀 Stand-up and Walk Reminders every 1 hour</p>
-<p>🚀 Drinking Water Reminders every 2 hours</p>
-<h3 id="downloads">Downloads</h3>
-<p><a href="https://github.com/namuan/multi-breaks-osx/releases/latest">Mac OS App</a></p>
+      <div>
+        <ol>
+<li>
+<p>open ~/Library/Safari</p>
+</li>
+<li>
+<p>Copy the Safari bookmarks file to your desktop.</p>
+<p><img src="/images/1638735561-safari-export-bookmarks.png" alt=""></p>
+</li>
+<li>
+<p>Then run the following command to get the list of links</p>
+</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">plutil -convert xml1 -o - Bookmarks.plist | grep -E  -o &#39;&lt;string&gt;http[s]{0,1}://.*&lt;/string&gt;&#39; | grep -v icloud | sed -E &#39;s/&lt;\/{0,1}string&gt;//g&#39;
+</code></pre></div><p><strong>References</strong></p>
+<p><a href="https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431">https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431</a></p>
 
-  </article>
-</section>
+      </div>
 
+      <footer>
+        
+
+
+        
+        
+        <script src="https://utteranc.es/client.js"
+  repo= "namuan/deskriders-web"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+      </footer>
+    </article>
+
+    
+  </section>
 
       </div>
 

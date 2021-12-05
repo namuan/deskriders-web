@@ -81,6 +81,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Export Reading list from Safari</title>
+      <link>/posts/1638735561-safari-export-bookmarks/</link>
+      <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
+      
+      <guid>/posts/1638735561-safari-export-bookmarks/</guid>
+      <description>open ~/Library/Safari
+  Copy the Safari bookmarks file to your desktop.
+  Then run the following command to get the list of links
+  plutil -convert xml1 -o - Bookmarks.plist | grep -E -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39; References
+https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431</description>
+    </item>
+    
+    <item>
       <title>[2020-11-21] ETFs momentum report</title>
       <link>/posts/1605953563-etfs-momentum-report/</link>
       <pubDate>Sat, 21 Nov 2020 10:13:22 +0000</pubDate>
@@ -160,21 +173,6 @@ function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LI
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
 Requirements:  PlantUML: Direct Download  Download it where you can easily refer to it.
 nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</description>
-    </item>
-    
-    <item>
-      <title>Multi Breaks :: HealthCare Reminders</title>
-      <link>/projects/multi-breaks/</link>
-      <pubDate>Sun, 31 May 2020 12:34:19 +0100</pubDate>
-      
-      <guid>/projects/multi-breaks/</guid>
-      <description>A Simple MacOS Application to set-up multiple reminders to improve your health.
-👉 https://github.com/namuan/multi-breaks
-Features 🚀 Mindful Breathing Reminders every 45 minutes
-🚀 20/20/20 Eyesight Reminders every 20 minutes
-🚀 Stand-up and Walk Reminders every 1 hour
-🚀 Drinking Water Reminders every 2 hours
-Downloads Mac OS App</description>
     </item>
     
     <item>
