@@ -6,10 +6,37 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2020 10:13:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Dec 2021 12:13:25 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>json</title>
+      <link>/tags/json/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping</title>
+      <link>/tags/mapping/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wiremock</title>
+      <link>/tags/wiremock/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/wiremock/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>finance</title>
@@ -179,15 +206,6 @@
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/tags/jq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>json</title>
-      <link>/tags/json/</link>
-      <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
-      
-      <guid>/tags/json/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Wiremock: How to match multiple urls in a single mapping"/>
+<meta name="twitter:description" content="Example JSON mapping to match multiple urls"/>
+
+    <meta property="og:title" content="Wiremock: How to match multiple urls in a single mapping" />
+<meta property="og:description" content="Example JSON mapping to match multiple urls" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/1639311183-wiremock-match-multiple-urls/" />
+<meta property="article:published_time" content="2021-12-12T12:13:25+00:00" />
+<meta property="article:modified_time" content="2021-12-12T12:13:25+00:00" />
+
+
+    
+      <base href="/posts/1639311183-wiremock-match-multiple-urls/">
+    
+    <title>
+  Wiremock: How to match multiple urls in a single mapping · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/1639311183-wiremock-match-multiple-urls/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.71.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Wiremock: How to match multiple urls in a single mapping</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2021-12-12T12:13:25Z'>
+                December 12, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/wiremock/">wiremock</a>
+      <span class="separator">•</span>
+    <a href="/tags/json/">json</a>
+      <span class="separator">•</span>
+    <a href="/tags/mapping/">mapping</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p><a href="http://wiremock.org/">Wiremock</a> is a tool to mock HTTP APIs.
+You can set up Stubs in Wiremock by using their API or by calling the admin API over HTTP.
+Usually it is used as part of a test suite but here I&rsquo;m running the <a href="http://wiremock.org/docs/running-standalone/">standalone</a> Wiremock server.</p>
+<p>Once the jar file is downloaded, you can start the server by running the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">java -jar wiremock-jre8-standalone-2.32.0.jar
+</code></pre></div><p>Here we are setting multiple URLs to match in a single mapping.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat <span style="color:#e6db74">&lt;&lt; EOF | http POST http://localhost:8080/__admin/mappings
+</span><span style="color:#e6db74">{
+</span><span style="color:#e6db74">    &#34;request&#34;: {
+</span><span style="color:#e6db74">        &#34;method&#34;: &#34;GET&#34;,
+</span><span style="color:#e6db74">        &#34;urlPattern&#34;: &#34;/health|/actuator/health&#34;
+</span><span style="color:#e6db74">    },
+</span><span style="color:#e6db74">    &#34;response&#34;: {
+</span><span style="color:#e6db74">        &#34;status&#34;: 200,
+</span><span style="color:#e6db74">        &#34;headers&#34; : {
+</span><span style="color:#e6db74">            &#34;Content-Type&#34; : &#34;application/json&#34;
+</span><span style="color:#e6db74">        },
+</span><span style="color:#e6db74">        &#34;body&#34;: &#34;{\&#34;status\&#34;: \&#34;UP\&#34;}&#34;
+</span><span style="color:#e6db74">    }
+</span><span style="color:#e6db74">}
+</span><span style="color:#e6db74">EOF</span>
+</code></pre></div><p>Once it is set, you can test the mapping by calling the URL:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">http GET http://localhost:8080/health
+HTTP/1.1 <span style="color:#ae81ff">200</span> OK
+Content-Encoding: gzip
+Content-Type: application/json
+Matched-Stub-Id: 1641b44a-5f4b-48f9-bbe6-e7f81054a064
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+<span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;status&#34;</span>: <span style="color:#e6db74">&#34;UP&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Or by calling the alternative URL:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">http GET http://localhost:8080/actuator/health
+HTTP/1.1 <span style="color:#ae81ff">200</span> OK
+Content-Encoding: gzip
+Content-Type: application/json
+Matched-Stub-Id: 1641b44a-5f4b-48f9-bbe6-e7f81054a064
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, User-Agent
+
+<span style="color:#f92672">{</span>
+    <span style="color:#e6db74">&#34;status&#34;</span>: <span style="color:#e6db74">&#34;UP&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div>
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        <script src="https://utteranc.es/client.js"
+  repo= "namuan/deskriders-web"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2021
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129728575-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>

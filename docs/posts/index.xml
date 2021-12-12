@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Dec 2021 20:19:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Dec 2021 12:13:25 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wiremock: How to match multiple urls in a single mapping</title>
+      <link>/posts/1639311183-wiremock-match-multiple-urls/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/posts/1639311183-wiremock-match-multiple-urls/</guid>
+      <description>Wiremock is a tool to mock HTTP APIs. You can set up Stubs in Wiremock by using their API or by calling the admin API over HTTP. Usually it is used as part of a test suite but here I&amp;rsquo;m running the standalone Wiremock server.
+Once the jar file is downloaded, you can start the server by running the following command:
+java -jar wiremock-jre8-standalone-2.32.0.jar Here we are setting multiple URLs to match in a single mapping.</description>
+    </item>
     
     <item>
       <title>Export Reading list from Safari</title>
