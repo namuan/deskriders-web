@@ -3,7 +3,9 @@ export PROJECTNAME=$(shell basename "$(PWD)")
 .SILENT: ;               # no need for @
 
 process: ## Here is the process
-	echo "make new -- to add a new entry"
+	echo "Write blog entry in vNote. Make sure to use the correct filename"
+	echo "Copy Path from vNote"
+	echo "Run /bin-utils/publish_vnote_to_hugo.py"
 	echo "make serve -- to check it locally"
 	echo "make stage -- to push it live"
 	echo "make commit-all -- to commit the changes"
