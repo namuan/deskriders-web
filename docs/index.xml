@@ -81,14 +81,53 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Go Language</title>
+      <link>/notes/golang/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/golang/</guid>
+      <description>Notes  Go: Qt Binding https://github.com/therecipe/qt  </description>
+    </item>
+    
+    <item>
+      <title>Java/JVM</title>
+      <link>/notes/java/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/java/</guid>
+      <description>Notes   Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character
+  Java: Initialise a CharArray from a String
+  private String reservedCharacter = &amp;#34;!#$%&amp;amp;&amp;#39;()*+,/:;=?@[]&amp;#34;; private char[] chars = reservedCharacter.toCharArray();  Java/JUnit5 : Parameterized testing with JUnit 5  @ParameterizedTest(name = &amp;#34;{0} should be \&amp;#34;{1}\&amp;#34;&amp;#34;) @CsvSource({ &amp;#34;http://www.example.com, http%3A%2F%2Fwww.example.com&amp;#34;, &amp;#34;?query=123, %3Fquery%3D123&amp;#34; }) public void testPercentEncodeAsciiString(String source, String expected) { // when  String result = PercentEncoding.encode(source); // then  assertEquals(expected, result); }  Java: Generating a mvn wrapper  $ mvn -N io.</description>
+    </item>
+    
+    <item>
+      <title>Mac (Apps/Tools/Tips and Tricks)</title>
+      <link>/notes/mac/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/mac/</guid>
+      <description>Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ./static -name &amp;#39;*.png&amp;#39; | while read line; do convert -resize 1280x1280 $line $line; done  jq: Length of array  $ echo &amp;#39;[&amp;#34;123&amp;#34;, &amp;#34;567&amp;#34;, &amp;#34;abc&amp;#34;]&amp;#39; | jq &amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/notes/python/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/python/</guid>
+      <description>Notes  Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)  Python: List sub directories  tool_codegen_dir: Path = Path(__file__) print([x.name for x in tool_codegen_dir.iterdir() if x.is_dir()])  Python/PyQt: One way to handle focusOut event by installing event filter on the widget  # Installing event filter self.parent.txt_scratch_pad.installEventFilter(self.events) # where self.events in a class with a QObject parent class - like ScratchPadEvents 👇 # Then override eventFilter method in that class class ScratchPadEvents(QObject): def __init__(self, parent, app): super().</description>
+    </item>
+    
+    <item>
       <title>Testing</title>
       <link>/notes/testing/</link>
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/testing/</guid>
-      <description>Selenium webium
+      <description>Tools webium
  Webium is a Page Object pattern implementation library for Python (http://martinfowler.com/bliki/PageObject.html). It allows you to extend WebElement class to your custom controls like Link, Button and group them as pages.
- </description>
+ Notes </description>
     </item>
     
     <item>
@@ -242,15 +281,6 @@ Say, we have a simple Transaction class consists of the currency and the value o
 Transaction class is sprinkled with Lombok annotation to make use of Builder.
 @Value @Builder public static class Transaction { String currency; int value; } And given the following set of data:
 GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
-    </item>
-    
-    <item>
-      <title>Week 08 2020</title>
-      <link>/notes/2020-02-17-week-08/</link>
-      <pubDate>Mon, 17 Feb 2020 19:08:56 +0000</pubDate>
-      
-      <guid>/notes/2020-02-17-week-08/</guid>
-      <description> Python: Open file dialog box  from PyQt5.QtWidgets import QFileDialog def open_file(self, dialog_title, dialog_location, file_filter=None): return QFileDialog.getOpenFileName( self, dialog_title, dialog_location, filter=file_filter ) file_location, _ = self.main_window.save_file( &amp;#34;Export Environments&amp;#34;, current_project_folder, file_filter=&amp;#34;Environment Files (*.envs.json)&amp;#34;, ) if file_location: # do something pass  Go: Qt Binding https://github.com/therecipe/qt  </description>
     </item>
     
     <item>
@@ -431,15 +461,6 @@ References:
     </item>
     
     <item>
-      <title>Week 05 2020</title>
-      <link>/notes/2020-01-27-week-05/</link>
-      <pubDate>Tue, 28 Jan 2020 19:08:56 +0000</pubDate>
-      
-      <guid>/notes/2020-01-27-week-05/</guid>
-      <description>Python : Python one liner to extract and transform Spring HttpStatus enums Raw  curl -s https://raw.githubusercontent.com/spring-projects/spring-framework/master/spring-web/src/main/java/org/springframework/http/HttpStatus.java | \ grep &amp;#39;\&amp;#34;.*),&amp;#39; | \ while read line; \ do echo $line | python -c &amp;#39;import re,sys; s, c, m = re.search(&amp;#34;([\w\_]+)\((\d+),\s+\&amp;#34;([\w\s]+)&amp;#34;, sys.stdin.readline()).groups(); print(&amp;#34;{}: (\&amp;#34;HttpStatus.{}\&amp;#34;, \&amp;#34;{}\&amp;#34;),&amp;#34;.format(c, s, m))&amp;#39;; \ done  Python: Find words in a sentence  source = &amp;#39;The quick brown fox jumps over the lazy dog&amp;#39; import re print(re.</description>
-    </item>
-    
-    <item>
       <title>Tooltip # 1 :: Creating command line launcher for IntelliJ products</title>
       <link>/posts/013-tooltip-1-creating-intellij-launcher/</link>
       <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
@@ -490,23 +511,14 @@ Although it is impossible to replace them altogether, let me introduce you to De
     </item>
     
     <item>
-      <title>Week 04 2020</title>
-      <link>/notes/2020-01-20-week-04/</link>
+      <title>Random learning notes</title>
+      <link>/notes/random-learning/</link>
       <pubDate>Mon, 20 Jan 2020 09:45:05 +0000</pubDate>
       
-      <guid>/notes/2020-01-20-week-04/</guid>
-      <description>Python: One way to handle focusOut event by installing event filter on the widget  # Installing event filter self.parent.txt_scratch_pad.installEventFilter(self.events) # where self.events in a class with a QObject parent class - like ScratchPadEvents 👇 # Then override eventFilter method in that class class ScratchPadEvents(QObject): def __init__(self, parent, app): super().__init__(parent) def eventFilter(self, source: QObject, event: QEvent): if event.type() == QtCore.QEvent.FocusOut: # do something pass return super().eventFilter(source, event)  ImageMagick: Resize a bunch of images using ImageMagick  find .</description>
-    </item>
-    
-    <item>
-      <title>Week 03 2020</title>
-      <link>/notes/2020-01-13-week-03/</link>
-      <pubDate>Sun, 19 Jan 2020 07:17:15 +0000</pubDate>
-      
-      <guid>/notes/2020-01-13-week-03/</guid>
-      <description> Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)   Hugo: Build with Drafts hugo -D serve
-  Python: List sub directories
-  tool_codegen_dir: Path = Path(__file__) print([x.name for x in tool_codegen_dir.iterdir() if x.is_dir()])  Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character  </description>
+      <guid>/notes/random-learning/</guid>
+      <description>Websites  Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com  Notes  URI Encoding: How : becomes %3A using Percent Encoding  We start with finding the ASCII value of : which is 58. See ASCII table
+Convert 58 to binary using Short division by Two with Reminder. i.e. Divide the answer by 2 and keeping the reminder which will be the binary form.
+58/2 = 29 =&amp;gt; Reminder 0 29/2 = 14 =&amp;gt; Reminder 1 14/2 = 7 =&amp;gt; Reminder 0 7/2 = 3 =&amp;gt; Reminder 1 3/2 = 1 =&amp;gt; Reminder 1 1/2 = na =&amp;gt; Reminder 1 So the binary form is 111010 if we line up all the reminders Padding the output will make it 00111010.</description>
     </item>
     
     <item>
