@@ -81,6 +81,16 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Using helium - a Selenium API wrapper</title>
+      <link>/posts/1639863087-python-selenium/</link>
+      <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
+      
+      <guid>/posts/1639863087-python-selenium/</guid>
+      <description>Here is a quick example to use Helium.
+Steps:  Install dependencies using pip or add it to requirements.txt and run pip3 install -r requirements.txt  pip3 install helium # or pip3 install -r requirements.txt Create a python file and paste the following code.  #!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; Demonstrates how to use helium to automate a web browser. &amp;#34;&amp;#34;&amp;#34; from helium import start_firefox def main(): driver = start_firefox() driver.execute_script(&amp;#34;window.alert(&amp;#39;Hello World&amp;#39;)&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() Here I&amp;rsquo;m using Firefox but it is easy to switch to Chrome.</description>
+    </item>
+    
+    <item>
       <title>Wiremock: How to match multiple urls in a single mapping</title>
       <link>/posts/1639311183-wiremock-match-multiple-urls/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
@@ -475,15 +485,6 @@ Although it is impossible to replace them altogether, let me introduce you to De
       
       <guid>/notes/2020-01-20-week-04/</guid>
       <description>Python: One way to handle focusOut event by installing event filter on the widget  # Installing event filter self.parent.txt_scratch_pad.installEventFilter(self.events) # where self.events in a class with a QObject parent class - like ScratchPadEvents 👇 # Then override eventFilter method in that class class ScratchPadEvents(QObject): def __init__(self, parent, app): super().__init__(parent) def eventFilter(self, source: QObject, event: QEvent): if event.type() == QtCore.QEvent.FocusOut: # do something pass return super().eventFilter(source, event)  ImageMagick: Resize a bunch of images using ImageMagick  find .</description>
-    </item>
-    
-    <item>
-      <title>Week 03 2020</title>
-      <link>/_v_recycle_bin/20200604/2020_06_04/</link>
-      <pubDate>Sun, 19 Jan 2020 07:17:15 +0000</pubDate>
-      
-      <guid>/_v_recycle_bin/20200604/2020_06_04/</guid>
-      <description></description>
     </item>
     
     <item>

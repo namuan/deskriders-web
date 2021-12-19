@@ -33,22 +33,47 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/selenium/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/selenium/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1639863087-python-selenium/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/json/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/mapping/</loc>
-    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url>
   
@@ -74,11 +99,6 @@
   
   <url>
     <loc>/posts/1605953563-etfs-momentum-report/</loc>
-    <lastmod>2020-11-21T10:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
     <lastmod>2020-11-21T10:13:22+00:00</lastmod>
   </url>
   
@@ -418,11 +438,6 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2020-01-25T19:05:42+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/utilities/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
   </url>
@@ -430,16 +445,6 @@
   <url>
     <loc>/notes/2020-01-20-week-04/</loc>
     <lastmod>2020-01-20T09:45:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/_v_recycle_bin/</loc>
-    <lastmod>2020-01-19T07:17:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/_v_recycle_bin/20200604/2020_06_04/</loc>
-    <lastmod>2020-01-19T07:17:15+00:00</lastmod>
   </url>
   
   <url>

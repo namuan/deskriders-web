@@ -26,7 +26,10 @@ serve: ## Serve site locally
 	hugo server -D --disableFastRender
 
 new: ## Hugo command to create a new entry
-	echo "hugo new (posts|notes|projects)/next-title.md"
+	echo "Write blog entry in vNote. Make sure to use the correct filename"
+	echo "Copy Path from vNote"
+	echo "Run /bin-utils/publish_vnote_to_hugo.py"
+	echo "OR hugo new (posts|notes|projects)/next-title.md"
 
 stage: generate ## Deploys to Netlify staging environment
 	netlify deploy --dir=docs
