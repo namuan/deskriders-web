@@ -6,10 +6,21 @@
     <description>Recent content in Notes on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Feb 2020 19:08:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Dec 2021 15:46:00 +0000</lastBuildDate>
     
 	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testing</title>
+      <link>/notes/testing/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/testing/</guid>
+      <description>Selenium webium
+ Webium is a Page Object pattern implementation library for Python (http://martinfowler.com/bliki/PageObject.html). It allows you to extend WebElement class to your custom controls like Link, Button and group them as pages.
+ </description>
+    </item>
     
     <item>
       <title>Week 08 2020</title>

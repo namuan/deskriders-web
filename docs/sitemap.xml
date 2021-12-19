@@ -33,6 +33,16 @@
   </url>
   
   <url>
+    <loc>/notes/</loc>
+    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/testing/</loc>
+    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url>
@@ -235,11 +245,6 @@
   <url>
     <loc>/tags/streams/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
-    <lastmod>2020-02-17T19:08:56+00:00</lastmod>
   </url>
   
   <url>

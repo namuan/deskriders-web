@@ -81,6 +81,17 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Testing</title>
+      <link>/notes/testing/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/testing/</guid>
+      <description>Selenium webium
+ Webium is a Page Object pattern implementation library for Python (http://martinfowler.com/bliki/PageObject.html). It allows you to extend WebElement class to your custom controls like Link, Button and group them as pages.
+ </description>
+    </item>
+    
+    <item>
       <title>Using helium - a Selenium API wrapper</title>
       <link>/posts/1639863087-python-selenium/</link>
       <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
