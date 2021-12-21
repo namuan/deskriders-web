@@ -48,9 +48,6 @@ googleAnalytics = "UA-129728575-5"
     custom_js = []
 
 
-[params.utteranc]
-    repo = "namuan/deskriders-web"
-
 [taxonomies]
     category = "categories"
     series = "series"

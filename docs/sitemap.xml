@@ -33,6 +33,26 @@
   </url>
   
   <url>
+    <loc>/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</loc>
+    <lastmod>2021-12-21T22:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hacker-news-links/</loc>
+    <lastmod>2021-12-21T22:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-12-21T22:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-21T22:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/golang/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url>
@@ -68,11 +88,6 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/python/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url>
@@ -84,11 +99,6 @@
   
   <url>
     <loc>/categories/selenium/</loc>
-    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url>
   

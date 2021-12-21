@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hacker-news-links on deskriders</title>
+    <link>/tags/hacker-news-links/</link>
+    <description>Recent content in hacker-news-links on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Dec 2021 22:27:39 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hacker-news-links/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Links] Ask HN: What&#39;s are your personal automations? | Hacker News</title>
+      <link>/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</link>
+      <pubDate>Tue, 21 Dec 2021 22:27:39 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</guid>
+      <description>🍊 HN Link
+🌎 Breadmakers | Zojirushi.com
+🌎 Random Daily Art | Have art delivered straight to your inbox every day.
+🌎 Personal CRM done right - Monica
+🌎 What data on myself I collect and why? | beepb00p
+🌎 In search of a better job scheduler | beepb00p
+🌎 GitHub - karlicoss/axol: Personal news feed: search for results on Reddit/Pinboard/Twitter/Hackernews and read as RSS
+🌎 GitHub - sabrehagen/desktop-environment: ☁️ From tty to production in one command, on the desktop and in the cloud.</description>
+    </item>
+    
+  </channel>
+</rss>
