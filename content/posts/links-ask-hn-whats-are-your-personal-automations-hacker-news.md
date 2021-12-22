@@ -115,7 +115,3 @@
 🌎 [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
 
 ![](/images/2021/12/21/httpsohmyzsh.png)
-
-🌎 [GitHub - HackerNews/API: Documentation and Samples for the Official HN API](https://github.com/HackerNews/API)
-
-![](/images/2021/12/21/httpsgithubcomhackernewsapi.png)
