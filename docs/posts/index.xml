@@ -6,10 +6,29 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Dec 2021 18:40:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Dec 2021 20:13:43 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: What overlooked class of tools should a self-taught programmer look into | Hacker News</title>
+      <link>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</link>
+      <pubDate>Thu, 23 Dec 2021 20:13:43 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</guid>
+      <description>🍊 HN Link
+🌎 Makefile · master · Internet Cleanup Foundation / web security map · GitLab
+🌎 Microsoft will ship a full Linux kernel in Windows 10 - The Verge
+🌎 Stack Overflow Developer Survey 2019
+🌎 :: Darch
+🌎 GitHub - pauldotknopf/darch-recipes: My operating systems, using Darch.
+🌎 Automation and Make
+🌎 Welcome to Fabric! — Fabric documentation
+🌎 Welcome to Invoke! — Invoke documentation
+🌎 MSYS2
+🌎 Make for Windows</description>
+    </item>
     
     <item>
       <title>Working with asdf</title>
