@@ -33,17 +33,22 @@
   </url>
   
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640280913-working-with-asdf/</loc>
+    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/links-ask-hn-what-automation-tools-have-you-used-to-replace-mundane-activities-hacker-news/</loc>
     <lastmod>2021-12-22T08:44:25+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/hacker-news-links/</loc>
-    <lastmod>2021-12-22T08:44:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2021-12-22T08:44:25+00:00</lastmod>
   </url>
   
