@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>best-practices on deskriders</title>
+    <link>/categories/best-practices/</link>
+    <description>Recent content in best-practices on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Dec 2021 10:06:01 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up Git commit template</title>
+      <link>/posts/1640339806-setting-up-git-commit-template/</link>
+      <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
+      
+      <guid>/posts/1640339806-setting-up-git-commit-template/</guid>
+      <description>How to setup a global Git commit template to remind you to write good commit messages.
+ Here is the template I like to use just to remind me about different keywords when using conventional commit
+--- fix: PATCH (Semantic versioning) .. fix! for beaking change feat: MINOR (Semantic versioning) .. feat! for breaking change build:, chore:, ci:, docs:, style:, refactor:, perf:, test: BREAKING CHANGE: extends key in config file is now used for extending other config files Create a file with the template.</description>
+    </item>
+    
+  </channel>
+</rss>

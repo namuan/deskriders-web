@@ -33,17 +33,37 @@
   </url>
   
   <url>
+    <loc>/categories/best-practices/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/git/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640339806-setting-up-git-commit-template/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</loc>
     <lastmod>2021-12-23T21:12:20+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/hacker-news-links/</loc>
-    <lastmod>2021-12-23T21:12:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2021-12-23T21:12:20+00:00</lastmod>
   </url>
   
@@ -105,11 +125,6 @@
   <url>
     <loc>/notes/testing/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url>
   
   <url>
