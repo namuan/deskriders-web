@@ -6,10 +6,27 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Dec 2021 20:13:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Dec 2021 21:12:20 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: What are your favorite low-coding apps / tools as a developer? | Hacker News</title>
+      <link>/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</link>
+      <pubDate>Thu, 23 Dec 2021 21:12:20 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</guid>
+      <description>🍊 HN Link
+🌎 Instant GraphQL APIs on your data | Built-in Authz &amp;amp; Caching
+🌎 Build one internal tool for all your data | Forest Admin
+🌎 GraphQL Code Generator
+🌎 Metabase
+🌎 PostHog - Host Your Own Product Analytics
+🌎 GitHub - Steams/ra-data-hasura-graphql: React-admin data provider for Hasura GraphQL endpoints
+🌎 GitHub - cpursley/react-admin-low-code: react-admin (via ra-data-hasura provider) + hasura = :)
+🌎 Get notified of user signups and plan changes automatically using Postgres &amp;amp; Phoenix PubSub | by Ben Church | HackerNoon.</description>
+    </item>
     
     <item>
       <title>[Links] Ask HN: What overlooked class of tools should a self-taught programmer look into | Hacker News</title>
