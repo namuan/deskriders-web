@@ -38,6 +38,8 @@ https://github.com/tasdikrahman/spaceShooter
 https://github.com/jatinmandav/Gaming-in-Python
 >  Code to all the Games made using Python Programming Language
 
+* FlappyBird -> https://pygamezero-bird.readthedocs.io/en/latest/part1.html
+
 ### Notes
 
 * Python: How to get a class name from a type

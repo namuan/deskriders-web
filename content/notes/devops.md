@@ -16,5 +16,6 @@ https://gitlab.com/stavros/harbormaster
 
 https://dockerswarm.rocks/
 
+* Hello CloudRun -> https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0
 
 ### Notes
