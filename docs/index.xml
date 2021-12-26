@@ -104,6 +104,23 @@ In most organisations I worked with, the usual microservices development model i
     </item>
     
     <item>
+      <title>Databases</title>
+      <link>/notes/databases/</link>
+      <pubDate>Sat, 25 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/databases/</guid>
+      <description>Sqlite Sqlite
+Sql.js
+sql.js-httpvfs
+Here are few links for future reference
+https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
+https://github.com/segfall/static-wiki
+https://github.com/ilmalte/github-actions-with-sqlite
+https://github.com/phiresky/sql.js-httpvfs/issues/22
+Notes </description>
+    </item>
+    
+    <item>
       <title>[Links] Programs that have saved me 100&#43; hours | Hacker News</title>
       <link>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</link>
       <pubDate>Sat, 25 Dec 2021 10:52:03 +0000</pubDate>

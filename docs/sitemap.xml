@@ -73,6 +73,16 @@
   </url>
   
   <url>
+    <loc>/notes/databases/</loc>
+    <lastmod>2021-12-25T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/</loc>
+    <lastmod>2021-12-25T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</loc>
     <lastmod>2021-12-25T10:52:03+00:00</lastmod>
   </url>
@@ -144,11 +154,6 @@
   
   <url>
     <loc>/notes/mac/</loc>
-    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url>
   
