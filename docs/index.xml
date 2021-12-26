@@ -252,6 +252,19 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
     </item>
     
     <item>
+      <title>DevOps</title>
+      <link>/notes/devops/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/devops/</guid>
+      <description>Jenkins https://github.com/hoto/jenkinsfile-examples
+ Executable examples of Jenkinsfiles.
+ https://github.com/oleg-nenashev/demo-jenkins-config-as-code
+ Demo of Jenkins Configuration-As-Code with Docker and Groovy Hook Scripts
+ Notes </description>
+    </item>
+    
+    <item>
       <title>Go Language</title>
       <link>/notes/golang/</link>
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
@@ -277,8 +290,10 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/mac/</guid>
-      <description>Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ./static -name &amp;#39;*.png&amp;#39; | while read line; do convert -resize 1280x1280 $line $line; done  jq: Length of array  $ echo &amp;#39;[&amp;#34;123&amp;#34;, &amp;#34;567&amp;#34;, &amp;#34;abc&amp;#34;]&amp;#39; | jq &amp;#39;.</description>
+      <description>Websites https://gchq.github.io/CyberChef/
+ The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+ Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find .</description>
     </item>
     
     <item>
@@ -287,7 +302,18 @@ Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  fi
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/python/</guid>
-      <description>Notes  Python: How to get a class name from a type  class A: pass a = A() print(a.__class__.__name__) # or print(type(a).__name__)  Python: List sub directories  tool_codegen_dir: Path = Path(__file__) print([x.name for x in tool_codegen_dir.iterdir() if x.is_dir()])  Python/PyQt: One way to handle focusOut event by installing event filter on the widget  # Installing event filter self.parent.txt_scratch_pad.installEventFilter(self.events) # where self.events in a class with a QObject parent class - like ScratchPadEvents 👇 # Then override eventFilter method in that class class ScratchPadEvents(QObject): def __init__(self, parent, app): super().</description>
+      <description>Flask https://github.com/damian-ontivero/servertree
+ Made with Python (Flask), HTML, CSS3, JavaScript (A little) and SQLAlchemy as ORM.
+ PyQt https://github.com/kadir014/pyqt5-custom-widgets
+ More useful widgets for PyQt5
+ https://github.com/taseikyo/PyQt5-Apps
+ Some useful apps based on PyQt5.
+ https://www.pythonguis.com/tutorials/system-tray-mac-menu-bar-applications-pyqt/
+ System tray &amp;amp; Mac menu bar applications
+ Graphics https://github.com/p5py/p5
+ p5 is a Python package based on the core ideas of Processing.
+ Gaming https://github.com/CharlesPikachu/Games
+ Games: Create interesting games by pure python.</description>
     </item>
     
     <item>

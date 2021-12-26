@@ -3,6 +3,12 @@ title: "Mac (Apps/Tools/Tips and Tricks)"
 date: 2021-12-19T15:46:00Z
 ---
 
+### Websites
+
+https://gchq.github.io/CyberChef/
+>  The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+
+
 ### Apps
 
 #### Screen Drawing

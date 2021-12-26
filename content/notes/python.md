@@ -3,6 +3,38 @@ title: "Python"
 date: 2021-12-19T15:46:00Z
 ---
 
+### Flask
+
+https://github.com/damian-ontivero/servertree
+> Made with Python (Flask), HTML, CSS3, JavaScript (A little) and SQLAlchemy as ORM.
+
+### PyQt
+
+https://github.com/kadir014/pyqt5-custom-widgets
+>  More useful widgets for PyQt5
+
+https://github.com/taseikyo/PyQt5-Apps
+> Some useful apps based on PyQt5.
+
+https://www.pythonguis.com/tutorials/system-tray-mac-menu-bar-applications-pyqt/
+> System tray & Mac menu bar applications
+
+### Graphics
+
+https://github.com/p5py/p5
+>  p5 is a Python package based on the core ideas of Processing.
+
+### Gaming
+
+https://github.com/CharlesPikachu/Games
+>  Games: Create interesting games by pure python.
+ 
+https://github.com/tasdikrahman/spaceShooter
+>  🎮 The classic retro game recreated using Pygame and python
+
+https://github.com/jatinmandav/Gaming-in-Python
+>  Code to all the Games made using Python Programming Language
+
 ### Notes
 
 * Python: How to get a class name from a type

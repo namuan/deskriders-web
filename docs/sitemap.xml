@@ -143,6 +143,11 @@
   </url>
   
   <url>
+    <loc>/notes/devops/</loc>
+    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/golang/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url>
