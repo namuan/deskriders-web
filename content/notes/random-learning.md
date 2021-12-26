@@ -7,6 +7,18 @@ date: 2020-01-20T09:45:05Z
 
 * Simple but very useful website to format Markdown tables -> http://markdowntable.com
 
+* Publishing blog/documentation using MKdocs -> https://github.com/tiangolo/dockerswarm.rocks
+
+https://awslabs.github.io/smithy/quickstart.html
+* Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
+
+* Alfred update script -> https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
+
+### Blog posts
+
+* Side-projects on Google Cloud Run -> https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
+
+* Lunr.js search on Hugo -> https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/
 
 ### Notes
 * URI Encoding: How `:` becomes `%3A` using [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)

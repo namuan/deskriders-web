@@ -8,6 +8,9 @@ date: 2021-12-19T15:46:00Z
 https://github.com/damian-ontivero/servertree
 > Made with Python (Flask), HTML, CSS3, JavaScript (A little) and SQLAlchemy as ORM.
 
+* Building Flask Apps: https://hackersandslackers.com/series/build-flask-apps/
+
+
 ### PyQt
 
 https://github.com/kadir014/pyqt5-custom-widgets

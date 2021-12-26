@@ -11,4 +11,10 @@ https://github.com/hoto/jenkinsfile-examples
 https://github.com/oleg-nenashev/demo-jenkins-config-as-code
 > Demo of Jenkins Configuration-As-Code with Docker and Groovy Hook Scripts
 
+https://gitlab.com/stavros/harbormaster
+> Harbormaster is a small utility that lets you easily deploy multiple Docker-Compose applications on a single host.
+
+https://dockerswarm.rocks/
+
+
 ### Notes
