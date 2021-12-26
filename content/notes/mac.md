@@ -46,6 +46,12 @@ __Updating packages___
 brew update
 ```
 
+__Cleaning up brew__
+```shell
+brew bundle dump # Writes all installed casks/formulae/taps to Brewfile
+brew bundle --force cleanup # Removes all dependencies not listed in Brewfile
+```
+
 ### Hugo
 
 __Build with drafts__

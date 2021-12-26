@@ -135,6 +135,9 @@ A similar application which is quite good is <a href="https://github.com/weiamei
 </code></pre></div><h3 id="homebrew">Homebrew</h3>
 <p><strong>Updating packages</strong>_</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew update
+</code></pre></div><p><strong>Cleaning up brew</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew bundle dump <span style="color:#75715e"># Writes all installed casks/formulae/taps to Brewfile</span>
+brew bundle --force cleanup <span style="color:#75715e"># Removes all dependencies not listed in Brewfile</span>
 </code></pre></div><h3 id="hugo">Hugo</h3>
 <p><strong>Build with drafts</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo -D serve
