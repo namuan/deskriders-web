@@ -3,7 +3,6 @@ date = 2020-11-21T10:13:22
 title = "[2020-11-21] ETFs momentum report"
 description = "Top 20 Macro ETFs based on momentum"
 tags = ["markets", "finance"]
-categories = ["finance"]
 externalLink = ""
 series = []
 +++

@@ -4,7 +4,6 @@ title = "KubeRider :: Bundling MacOS release"
 description = ""
 slug = "" 
 tags = ["kuberider", "packaging"]
-categories = ["kuberider"]
 externalLink = ""
 series = []
 +++

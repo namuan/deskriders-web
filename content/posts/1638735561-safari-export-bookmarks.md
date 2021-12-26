@@ -3,10 +3,9 @@ date = 2021-12-05T20:19:36Z
 title = "Export Reading list from Safari"
 description = "Steps to export your Safari reading list to a bookmarks file"
 slug = "" 
-tags = []
-categories = []
+tags = ["safari"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 1. open ~/Library/Safari

@@ -4,9 +4,8 @@ title = "January 2020 Progress Report"
 description = "Looking back at what I accomplished last month"
 slug = "" 
 tags = ["motivation"]
-categories = ["indiedev"]
 externalLink = ""
-series = []
+series = ["indiedev"]
 +++
 
 ![Github Contributions](/images/022/jan2020-github.png)

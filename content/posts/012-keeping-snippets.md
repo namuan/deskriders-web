@@ -4,7 +4,6 @@ title = "A Simple setup to remember one-liners/code snippets"
 description = ""
 slug = "" 
 tags = ["productivity", "shell", "tools"]
-categories = ["productivity"]
 externalLink = ""
 series = []
 +++

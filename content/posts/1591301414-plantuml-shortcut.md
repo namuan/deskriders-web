@@ -4,9 +4,8 @@ date = 2020-06-04T22:11:58
 title = "Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams"
 description = "Creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere"
 tags = ["plantuml", "bash"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.

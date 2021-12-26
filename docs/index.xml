@@ -81,6 +81,17 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>[SaaS Idea] Markdown to ... converter</title>
+      <link>/posts/1640512515-project-idea-markdown-to-anything/</link>
+      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
+      
+      <guid>/posts/1640512515-project-idea-markdown-to-anything/</guid>
+      <description>Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc
+ Release 1.0: Feature: Convert Markdown to Confluence
+Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document  Technology [] Subdomain - markdown.</description>
+    </item>
+    
+    <item>
       <title>Implementing Features with Microservices Architecture</title>
       <link>/posts/1640512228-implementing_features_micro_services/</link>
       <pubDate>Sun, 26 Dec 2021 09:50:56 +0000</pubDate>

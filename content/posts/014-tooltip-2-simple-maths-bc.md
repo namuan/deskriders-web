@@ -4,9 +4,8 @@ title = "Tooltip # 2 :: Simple Maths on command line using bc"
 description = "Looking at bc to do simple Maths on command line"
 slug = "" 
 tags = ["shell", "maths"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 

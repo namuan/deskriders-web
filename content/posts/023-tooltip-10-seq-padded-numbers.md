@@ -3,9 +3,8 @@ date = 2020-02-06T08:06:04Z
 title = "Tooltip 10 : Using seq to generate padded numbers"
 description = "In this short clip, we'll use 'seq' command line tool to generate padded numbers."
 tags = ["seq"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll use 'seq' command line tool to generate padded numbers.

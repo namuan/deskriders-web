@@ -4,7 +4,6 @@ title = "Overlay button on a PyQt5 widget"
 description = ""
 slug = "" 
 tags = ["python", "pyqt5", "tutorial"]
-categories = ["tutorial"]
 externalLink = ""
 series = []
 +++

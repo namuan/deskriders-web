@@ -4,9 +4,8 @@ title = "Introducing DevRider :: One Desktop App for Common Development Tools"
 description = ""
 slug = "" 
 tags = ["python", "utilities", "productivity"]
-categories = ["devrider"]
 externalLink = ""
-series = []
+series = ["devrider"]
 +++
 
 There is a serious problem with the state of simple development tools on the internet. 

@@ -3,9 +3,8 @@ date = 2020-06-05T07:47:18
 title = "Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML"
 description = "Looking at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML"
 tags = ["plantuml", "bash"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.

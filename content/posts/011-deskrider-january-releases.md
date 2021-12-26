@@ -4,9 +4,8 @@ title = "January Releases for Deskrider Tools"
 description = ""
 slug = "" 
 tags = []
-categories = []
 externalLink = ""
-series = []
+series = ["indiedev"]
 +++
 
 Here are the January releases for HttpRider and DeskRider.

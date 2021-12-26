@@ -1,12 +1,11 @@
 +++
-    date = 2021-12-25T10:52:03
-    title = "[Links] Programs that have saved me 100+ hours | Hacker News"
-    description = ""
-    slug = ""
-    tags = ["hacker-news-links"]
-    categories = []
-    externalLink = ""
-    series = []
+date = 2021-12-25T10:52:03
+title = "[Links] Programs that have saved me 100+ hours | Hacker News"
+description = ""
+slug = ""
+tags = ["hacker-news-links"]
+externalLink = ""
+series = []
 +++
 
 🍊 [HN Link](https://news.ycombinator.com/item?id=13887237)

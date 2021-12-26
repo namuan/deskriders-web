@@ -1,12 +1,11 @@
 +++
-    date = 2021-12-22T08:10:07
-    title = "[Links] Ask HN: What do you automate in your life and work? | Hacker News"
-    description = ""
-    slug = ""
-    tags = ["hacker-news-links"]
-    categories = []
-    externalLink = ""
-    series = []
+date = 2021-12-22T08:10:07
+title = "[Links] Ask HN: What do you automate in your life and work? | Hacker News"
+description = ""
+slug = ""
+tags = ["hacker-news-links"]
+externalLink = ""
+series = []
 +++
 
 🍊 [HN Link](https://news.ycombinator.com/item?id=21373931)

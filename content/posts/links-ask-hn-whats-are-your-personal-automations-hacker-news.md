@@ -1,12 +1,11 @@
 +++
-    date = 2021-12-21T22:27:39
-    title = "[Links] Ask HN: What's are your personal automations? | Hacker News"
-    description = ""
-    slug = ""
-    tags = ["hacker-news-links"]
-    categories = []
-    externalLink = ""
-    series = []
+date = 2021-12-21T22:27:39
+title = "[Links] Ask HN: What's are your personal automations? | Hacker News"
+description = ""
+slug = ""
+tags = ["hacker-news-links"]
+externalLink = ""
+series = []
 +++
 
 🍊 [HN Link](https://news.ycombinator.com/item?id=25381191)

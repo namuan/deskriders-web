@@ -5,7 +5,6 @@ title = "Using EasyRandom with Spring Framework"
 description = "EasyRandom is an extremely useful library to generate Java beans with random data"
 slug = "" 
 tags = ["java", "tips"]
-categories = ["java"]
 externalLink = ""
 series = []
 +++

@@ -4,7 +4,6 @@ title = "Protecting applications with OAuth2 Proxy"
 description = ""
 slug = "" 
 tags = ["docker", "oauth2", "security", "devops"]
-categories = []
 externalLink = ""
 series = []
 +++

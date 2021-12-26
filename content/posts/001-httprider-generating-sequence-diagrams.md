@@ -4,9 +4,8 @@ title = "Generating sequence diagrams with HttpRider"
 description = ""
 slug = "" 
 tags = ["plantuml", "python", "api"]
-categories = ["httprider"]
 externalLink = ""
-series = []
+series = ["httprider"]
 +++
 
 Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case. 

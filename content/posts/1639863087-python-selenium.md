@@ -4,7 +4,6 @@ title = "Using helium - a Selenium API wrapper"
 description = "A quick example of using Helium as a Selenium API wrapper to automate browser interactions."
 slug = ""
 tags = ["python", "selenium"]
-categories = ["selenium"]
 externalLink = ""
 series = []
 +++

@@ -4,7 +4,6 @@ title = "Developing API exchange sharing service - Part II"
 description = ""
 slug = "" 
 tags = ["python", "serverless", "aws"]
-categories = ["tutorial"]
 externalLink = ""
 series = []
 +++

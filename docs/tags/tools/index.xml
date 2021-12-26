@@ -6,10 +6,27 @@
     <description>Recent content in tools on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2020 10:13:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Dec 2021 18:40:25 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Working with asdf</title>
+      <link>/posts/1640280913-working-with-asdf/</link>
+      <pubDate>Thu, 23 Dec 2021 18:40:25 +0000</pubDate>
+      
+      <guid>/posts/1640280913-working-with-asdf/</guid>
+      <description>asdf
+Installation
+Dependencies required (on Linux) before setting up Python using asdf
+sudo apt install build-essential zlib1g-dev libbz2-dev libssl-dev libsqlite3-dev sqlite libffi-dev libbson-dev -y Adding Python plugin
+~ asdf plugin add python Installing Python
+~ asdf install python 3.9.1 Setting up globally
+~ asdf global python 3.9.1 ~ python --version Python 3.9.1 Uninstalling Python
+~ asdf uninstall python 3.9.1 Adding Java plugin
+asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available version</description>
+    </item>
     
     <item>
       <title>A Simple setup to remember one-liners/code snippets</title>

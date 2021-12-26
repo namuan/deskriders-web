@@ -3,8 +3,7 @@ date = 2021-12-24T10:06:01
 title = "Setting up Git commit template"
 description = "How to setup a global Git commit template to remind you to write good commit messages."
 slug = ""
-tags = []
-categories = ["git", "best-practices"]
+tags = ["git", "best-practices"]
 externalLink = ""
 series = []
 +++

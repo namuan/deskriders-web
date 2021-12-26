@@ -4,9 +4,8 @@ title = "Tooltip # 1 :: Creating command line launcher for IntelliJ products"
 description = "Create command line launcher for IntelliJ products"
 slug = "" 
 tags = ["ide", "productivity"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -> 1min) video 📹covering a specific task.

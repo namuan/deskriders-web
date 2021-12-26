@@ -3,9 +3,8 @@ date = 2020-02-02T07:45:25Z
 title = "Tooltip # 6 :: Filtering JSON arrays with jq"
 description = "Looking at using jq to filter JSON arrays and chaining filters"
 tags = ["json", "jq"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll look at using `jq` to filter JSON arrays.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>indiedev on deskriders</title>
+    <link>/series/indiedev/</link>
+    <description>Recent content in indiedev on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Feb 2020 09:10:43 +0000</lastBuildDate>
+    
+	<atom:link href="/series/indiedev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>January 2020 Progress Report</title>
+      <link>/posts/022-january2020-progress-report/</link>
+      <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
+      
+      <guid>/posts/022-january2020-progress-report/</guid>
+      <description>🚀 Started DevRider
+🚀 Created Windows Release Package for HttpRider (https://www.deskriders.dev/projects/http-rider/)
+🚀 Started MindBooks
+🚀 Started new series on Tooltips
+February Goals: 📝 Add links to MindBook to buy books
+📝 Promote Mindbooks on ProductHunt, IndieHackers and other channels
+📝 Publish around 30 tooltips
+📝 Move tooltips to its own website</description>
+    </item>
+    
+    <item>
+      <title>January Releases for Deskrider Tools</title>
+      <link>/posts/011-deskrider-january-releases/</link>
+      <pubDate>Sun, 26 Jan 2020 17:21:38 +0000</pubDate>
+      
+      <guid>/posts/011-deskrider-january-releases/</guid>
+      <description>Here are the January releases for HttpRider and DeskRider.
+HttpRider MacOS
+Download for Mac
+Windows releases are still pending. Looks like I may have to switch to PyInstaller from py2app/py2exe. Hoping to finish it over the coming week.
+DevRider MacOS
+Download for Mac
+Windows
+Download for Windows</description>
+    </item>
+    
+  </channel>
+</rss>

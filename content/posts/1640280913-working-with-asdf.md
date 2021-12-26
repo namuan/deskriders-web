@@ -3,8 +3,7 @@ date = 2021-12-23T18:40:25
 title = "Working with asdf"
 description = "Setting up asdf for managing packages"
 slug = ""
-tags = []
-categories = []
+tags = ["tools"]
 externalLink = ""
 series = []
 +++

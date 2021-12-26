@@ -3,7 +3,6 @@ date = 2020-04-19T13:05:38+01:00
 title = "Java 8+: Using Collectors as reducers"
 description = "In this simple example, we'll look at using Collectors to apply reduction to a list"
 tags = ["java", "streams"]
-categories = ["java"]
 externalLink = ""
 series = []
 +++

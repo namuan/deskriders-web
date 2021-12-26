@@ -3,10 +3,9 @@ date = 2021-12-26T09:50:56
 title = "Implementing Features with Microservices Architecture"
 description = ""
 slug = ""
-tags = []
-categories = []
+tags = ["ideas"]
 externalLink = ""
-series = []
+series = ["ideas"]
 +++
         
 An ongoing thought process on how to help with generating code when working on a microservices based architecture.

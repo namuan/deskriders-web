@@ -1,12 +1,11 @@
 +++
-    date = 2021-12-26T17:14:20
-    title = "[Links] Ask HN: Programs that saved you 100 hours?"
-    description = ""
-    slug = ""
-    tags = ["hacker-news-links"]
-    categories = []
-    externalLink = ""
-    series = []
+date = 2021-12-26T17:14:20
+title = "[Links] Ask HN: Programs that saved you 100 hours?"
+description = ""
+slug = ""
+tags = ["hacker-news-links"]
+externalLink = ""
+series = []
 +++
 
 🍊 [HN Link](https://news.ycombinator.com/item?id=22849208)

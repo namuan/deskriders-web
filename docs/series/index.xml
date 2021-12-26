@@ -6,10 +6,28 @@
     <description>Recent content in Series on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 20:33:16 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Dec 2021 09:56:42 +0000</lastBuildDate>
     
 	<atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ideas</title>
+      <link>/series/ideas/</link>
+      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
+      
+      <guid>/series/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tooltips</title>
+      <link>/series/tooltips/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/series/tooltips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>orkestra</title>
@@ -17,6 +35,33 @@
       <pubDate>Mon, 15 Jun 2020 20:33:16 +0100</pubDate>
       
       <guid>/series/orkestra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>httprider</title>
+      <link>/series/httprider/</link>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      
+      <guid>/series/httprider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>indiedev</title>
+      <link>/series/indiedev/</link>
+      <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
+      
+      <guid>/series/indiedev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devrider</title>
+      <link>/series/devrider/</link>
+      <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
+      
+      <guid>/series/devrider/</guid>
       <description></description>
     </item>
     

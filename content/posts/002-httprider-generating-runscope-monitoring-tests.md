@@ -4,9 +4,8 @@ title = "Generating Runscope monitoring tests with HttpRider"
 description = ""
 slug = "" 
 tags = ["monitoring", "python", "api"]
-categories = ["httprider"]
 externalLink = ""
-series = []
+series = ["httprider"]
 +++
 
 [Runscope](https://www.runscope.com) (Now Part of [BlazeMeter](https://www.blazemeter.com)) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from [HttpRider](https://github.com/namuan/http-rider).

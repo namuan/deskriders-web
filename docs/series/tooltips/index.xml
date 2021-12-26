@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tooltips on deskriders</title>
+    <link>/series/tooltips/</link>
+    <description>Recent content in tooltips on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Dec 2021 12:13:25 +0000</lastBuildDate>
+    
+	<atom:link href="/series/tooltips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wiremock: How to match multiple urls in a single mapping</title>
+      <link>/posts/1639311183-wiremock-match-multiple-urls/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/posts/1639311183-wiremock-match-multiple-urls/</guid>
+      <description>Wiremock is a tool to mock HTTP APIs. You can set up Stubs in Wiremock by using their API or by calling the admin API over HTTP. Usually it is used as part of a test suite but here I&amp;rsquo;m running the standalone Wiremock server.
+Once the jar file is downloaded, you can start the server by running the following command:
+java -jar wiremock-jre8-standalone-2.32.0.jar Here we are setting multiple URLs to match in a single mapping.</description>
+    </item>
+    
+    <item>
+      <title>Export Reading list from Safari</title>
+      <link>/posts/1638735561-safari-export-bookmarks/</link>
+      <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
+      
+      <guid>/posts/1638735561-safari-export-bookmarks/</guid>
+      <description>open ~/Library/Safari
+  Copy the Safari bookmarks file to your desktop.
+  Then run the following command to get the list of links
+  plutil -convert xml1 -o - Bookmarks.plist | grep -E -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39; References
+https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
+      <link>/posts/1591343684-plantuml-svg-export/</link>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      
+      <guid>/posts/1591343684-plantuml-svg-export/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
+Requirements:  PlantUML: Direct Download  Place it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
+function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</title>
+      <link>/posts/1591301414-plantuml-shortcut/</link>
+      <pubDate>Thu, 04 Jun 2020 22:11:58 +0100</pubDate>
+      
+      <guid>/posts/1591301414-plantuml-shortcut/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
+Requirements:  PlantUML: Direct Download  Download it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 13: Using command line functions to simplify find command</title>
+      <link>/posts/026-tooltip-13-cli-functions-find/</link>
+      <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/026-tooltip-13-cli-functions-find/</guid>
+      <description>In this tooltip, we&amp;rsquo;ll create a simple function to find files in the current directory tree using find.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 12 : Using svgo to optimize SVG files</title>
+      <link>/posts/025-tooltip-12-svgo-optimize-svg-files/</link>
+      <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
+      <description>In this short video, we&amp;rsquo;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Github: https://github.com/svg/svgo
+👉 NPM: https://npmjs.org/package/svgo</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 11 : Using lsof to list all open ports and process identifiers</title>
+      <link>/posts/024-tooltip-11-lsof-open-ports-pids/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 10 : Using seq to generate padded numbers</title>
+      <link>/posts/023-tooltip-10-seq-padded-numbers/</link>
+      <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
+      <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 9 : Combining JSON attributes using jq</title>
+      <link>/posts/021-tooltip-9-constructing-new-structure-jq/</link>
+      <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 8 : Extracting Array Item using jq</title>
+      <link>/posts/020-tooltip-8-extracting-items-contains-jq/</link>
+      <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
+      
+      <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
+      <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip 7: Selecting nested array items using jq</title>
+      <link>/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
+      <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
+      
+      <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
+      <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 6 :: Filtering JSON arrays with jq</title>
+      <link>/posts/018-tooltip-6-filtering-json-arrays-jq/</link>
+      <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
+      
+      <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
+Requirements:  jq: https://stedolan.github.io/jq/    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 5 :: Converting CSV to JSON using csvkit</title>
+      <link>/posts/017-tooltip-5-converting-csv-to-json/</link>
+      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      
+      <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at using csvjson utility from csvkit to convert CSV to JSON.
+Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 4 :: Converting JSON to CSV using csvkit</title>
+      <link>/posts/016-tooltip-4-converting-json-to-csv/</link>
+      <pubDate>Fri, 31 Jan 2020 08:00:06 +0000</pubDate>
+      
+      <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at using in2sec utility from csvkit to convert JSON to CSV.
+Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+👉 Used http://next.json-generator.com to generate JSON document</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 3 :: Reading files line by line on command line</title>
+      <link>/posts/015-tooltip-3-reading-file-line-by-line/</link>
+      <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
+      
+      <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at using for and while loop to process each line in a file.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 2 :: Simple Maths on command line using bc</title>
+      <link>/posts/014-tooltip-2-simple-maths-bc/</link>
+      <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
+      
+      <guid>/posts/014-tooltip-2-simple-maths-bc/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at using a simple command line tool bc to basic maths.
+  Notes 📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
+References:
+⎘ https://fedoramagazine.org/bc-command-line-calculator/</description>
+    </item>
+    
+    <item>
+      <title>Tooltip # 1 :: Creating command line launcher for IntelliJ products</title>
+      <link>/posts/013-tooltip-1-creating-intellij-launcher/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
+      <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

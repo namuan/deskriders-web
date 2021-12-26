@@ -4,9 +4,8 @@ title = "Wiremock: How to match multiple urls in a single mapping"
 description = "Example JSON mapping to match multiple urls"
 slug = "" 
 tags = ["wiremock", "json", "mapping"]
-categories = []
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 [Wiremock](http://wiremock.org/) is a tool to mock HTTP APIs.

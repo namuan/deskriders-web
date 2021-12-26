@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Dec 2021 09:50:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Dec 2021 09:56:42 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[SaaS Idea] Markdown to ... converter</title>
+      <link>/posts/1640512515-project-idea-markdown-to-anything/</link>
+      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
+      
+      <guid>/posts/1640512515-project-idea-markdown-to-anything/</guid>
+      <description>Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc
+ Release 1.0: Feature: Convert Markdown to Confluence
+Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document  Technology [] Subdomain - markdown.</description>
+    </item>
     
     <item>
       <title>Implementing Features with Microservices Architecture</title>

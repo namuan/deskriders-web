@@ -4,9 +4,8 @@ title = "Generating BDD tests with HttpRider"
 description = ""
 slug = "" 
 tags = ["testing", "api", "python"]
-categories = ["httprider"]
 externalLink = ""
-series = []
+series = ["httprider"]
 +++
 
 In this post, we'll see how we can easily generate BDD tests with HttpRider. 

@@ -3,9 +3,8 @@ date = 2020-02-03T08:05:07Z
 title = "Tooltip 7: Selecting nested array items using jq"
 description = "In this short clip, we'll further into jq syntax and selecting nested items using jq filtering."
 tags = ["json", "jq"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll further into jq syntax and selecting nested items using jq filtering.

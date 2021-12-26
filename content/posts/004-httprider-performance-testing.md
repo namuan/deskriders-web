@@ -4,9 +4,8 @@ title = "Performance testing with HttpRider"
 description = ""
 slug = "" 
 tags = ["testing", "api", "python"]
-categories = ["httprider"]
 externalLink = ""
-series = []
+series = ["httprider"]
 +++
 
 The title is a bit misleading as [HttpRider](https://github.com/namuan/http-rider) can't run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.

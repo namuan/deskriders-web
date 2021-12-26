@@ -1,12 +1,11 @@
 +++
-    date = 2021-12-27T21:12:51
-    title = "[Links] Ask HN: What's the most life-changing blog post you've ever read?"
-    description = ""
-    slug = ""
-    tags = ["hacker-news-links"]
-    categories = []
-    externalLink = ""
-    series = []
+date = 2021-12-27T21:12:51
+title = "[Links] Ask HN: What's the most life-changing blog post you've ever read?"
+description = ""
+slug = ""
+tags = ["hacker-news-links"]
+externalLink = ""
+series = []
 +++
 
 🍊 [HN Link](https://news.ycombinator.com/item?id=28232165)

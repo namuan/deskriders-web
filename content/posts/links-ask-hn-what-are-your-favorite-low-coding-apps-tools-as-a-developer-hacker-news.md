@@ -4,7 +4,6 @@ title = "[Links] Ask HN: What are your favorite low-coding apps / tools as a dev
 description = ""
 slug = ""
 tags = ["hacker-news-links"]
-categories = []
 externalLink = ""
 series = []
 +++

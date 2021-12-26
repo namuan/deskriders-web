@@ -5,9 +5,8 @@ title = "Publishing Notebooks with HttpRider"
 description = "Design document for implementing notebooks with HttpRider"
 slug = ""
 tags = ["document", "architecture"]
-categories = ["httprider"]
 externalLink = ""
-series = []
+series = ["httprider"]
 +++
 
 Preliminary design document for implementing notebooks with HttpRider.

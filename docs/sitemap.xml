@@ -33,12 +33,42 @@
   </url>
   
   <url>
-    <loc>/posts/1640512228-implementing_features_micro_services/</loc>
-    <lastmod>2021-12-26T09:50:56+00:00</lastmod>
+    <loc>/posts/1640512515-project-idea-markdown-to-anything/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ide/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ideas/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/ideas/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640512228-implementing_features_micro_services/</loc>
     <lastmod>2021-12-26T09:50:56+00:00</lastmod>
   </url>
   
@@ -53,22 +83,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-12-25T10:52:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/best-practices/</loc>
+    <loc>/tags/best-practices/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url>
   
@@ -85,6 +105,11 @@
   <url>
     <loc>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</loc>
     <lastmod>2021-12-23T20:13:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
   </url>
   
   <url>
@@ -148,11 +173,6 @@
   </url>
   
   <url>
-    <loc>/categories/selenium/</loc>
-    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/1639863087-python-selenium/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url>
@@ -164,6 +184,11 @@
   
   <url>
     <loc>/tags/mapping/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/tooltips/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url>
   
@@ -183,6 +208,11 @@
   </url>
   
   <url>
+    <loc>/tags/safari/</loc>
+    <lastmod>2021-12-05T20:19:36+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/</loc>
     <lastmod>2021-08-29T09:27:38+00:00</lastmod>
   </url>
@@ -198,11 +228,6 @@
   </url>
   
   <url>
-    <loc>/categories/finance/</loc>
-    <lastmod>2020-11-21T10:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/markets/</loc>
     <lastmod>2020-11-21T10:13:22+00:00</lastmod>
   </url>
@@ -213,22 +238,12 @@
   </url>
   
   <url>
-    <loc>/categories/orkestra/</loc>
-    <lastmod>2020-06-15T20:33:16+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/1591776555-orkestra-day-3/</loc>
     <lastmod>2020-06-15T20:33:16+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/products/</loc>
-    <lastmod>2020-06-15T20:33:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
     <lastmod>2020-06-15T20:33:16+01:00</lastmod>
   </url>
   
@@ -253,7 +268,7 @@
   </url>
   
   <url>
-    <loc>/categories/httprider/</loc>
+    <loc>/series/httprider/</loc>
     <lastmod>2020-06-06T11:53:52+01:00</lastmod>
   </url>
   
@@ -278,22 +293,12 @@
   </url>
   
   <url>
-    <loc>/categories/tooltips/</loc>
-    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/1591301414-plantuml-shortcut/</loc>
     <lastmod>2020-06-04T22:11:58+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/java/</loc>
-    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/java/</loc>
     <lastmod>2020-05-14T23:45:43+01:00</lastmod>
   </url>
   
@@ -408,7 +413,7 @@
   </url>
   
   <url>
-    <loc>/categories/indiedev/</loc>
+    <loc>/series/indiedev/</loc>
     <lastmod>2020-02-02T09:10:43+00:00</lastmod>
   </url>
   
@@ -468,11 +473,6 @@
   </url>
   
   <url>
-    <loc>/tags/ide/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/productivity/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url>
@@ -488,22 +488,12 @@
   </url>
   
   <url>
-    <loc>/categories/productivity/</loc>
-    <lastmod>2020-01-27T10:13:04+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tools/</loc>
-    <lastmod>2020-01-27T10:13:04+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/011-deskrider-january-releases/</loc>
     <lastmod>2020-01-26T17:21:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/devrider/</loc>
+    <loc>/series/devrider/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
   </url>
   
@@ -554,11 +544,6 @@
   
   <url>
     <loc>/tags/serverless/</loc>
-    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/tutorial/</loc>
     <lastmod>2020-01-03T18:51:44+00:00</lastmod>
   </url>
   
@@ -648,11 +633,6 @@
   </url>
   
   <url>
-    <loc>/categories/kuberider/</loc>
-    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/006-kuberider-bundling-macosx-release/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
@@ -660,6 +640,10 @@
   <url>
     <loc>/tags/packaging/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

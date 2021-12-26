@@ -3,9 +3,8 @@ date = 2020-02-05T08:06:04Z
 title = "Tooltip 9 : Combining JSON attributes using jq"
 description = "In this short clip, we'll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name)."
 tags = ["json", "jq"]
-categories = ["tooltips"]
 externalLink = ""
-series = []
+series = ["tooltips"]
 +++
 
 In this short clip, we'll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
