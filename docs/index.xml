@@ -81,6 +81,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Implementing Features with Microservices Architecture</title>
+      <link>/posts/1640512228-implementing_features_micro_services/</link>
+      <pubDate>Sun, 26 Dec 2021 09:50:56 +0000</pubDate>
+      
+      <guid>/posts/1640512228-implementing_features_micro_services/</guid>
+      <description>An ongoing thought process on how to help with generating code when working on a microservices based architecture.
+In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
+1. Common Functionality We can classify the following responsibilities as common across multiple micro services
+ Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
+    </item>
+    
+    <item>
       <title>[Links] Programs that have saved me 100&#43; hours | Hacker News</title>
       <link>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</link>
       <pubDate>Sat, 25 Dec 2021 10:52:03 +0000</pubDate>
