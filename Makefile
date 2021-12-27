@@ -34,6 +34,9 @@ new: ## Hugo command to create a new entry
 deploy: generate ## Deploys to Netlify staging environment
 	netlify deploy --prod --dir=docs
 
+deploy-push: deploy commit-all ## Deploys and then commits changes to Github
+	echo "✅ All Done!"
+
 .PHONY: help
 .DEFAULT_GOAL := help
 
