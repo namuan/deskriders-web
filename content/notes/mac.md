@@ -44,6 +44,9 @@ $ command <(pbpaste)
 ```
 $ convert -quality 75% -resize 40x40 twitter.png twitter-icn.png
 ```
+* Ctrl X-E to quickly edit current command
+
+{{< youtube Uin5cYqY7y8 >}}
 
 ### Homebrew
 

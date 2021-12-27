@@ -6,10 +6,26 @@
     <description>Recent content in hacker-news-links on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Dec 2021 10:52:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Dec 2021 17:14:20 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hacker-news-links/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: Programs that saved you 100 hours?</title>
+      <link>/posts/links-ask-hn-programs-that-saved-you-100-hours/</link>
+      <pubDate>Sun, 26 Dec 2021 17:14:20 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-programs-that-saved-you-100-hours/</guid>
+      <description>🍊 HN Link
+🌎 GitHub - rupa/z: z - jump around
+🌎 GitHub - junegunn/fzf: A command-line fuzzy finder
+🌎 unix - Unlimited Bash History - Stack Overflow
+🌎 dotfiles/kd at master · lloeki/dotfiles · GitHub
+🌎 GitHub - wting/autojump: A cd command that learns - easily navigate directories from the command line
+🌎 GitHub - fdw/ranger-autojump: The combined magic of autojump, ranger and zsh
+🌎 macros - Visual Studio Marketplace</description>
+    </item>
     
     <item>
       <title>[Links] Programs that have saved me 100&#43; hours | Hacker News</title>
