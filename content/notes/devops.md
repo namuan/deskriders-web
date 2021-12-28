@@ -30,6 +30,7 @@ https://dockerswarm.rocks/
 
 * Automated security testing -> https://devops.com/automated-security-testing-continuous-delivery-pipeline/
 
+* GitSecrets -> https://git-secret.io/ , Another alternative to GitCrypt -> https://www.agwa.name/projects/git-crypt/
 
 ### Docker
 

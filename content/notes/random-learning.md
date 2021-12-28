@@ -121,7 +121,9 @@ digraph architecture {
 
 * GraphViz to draw reverse proxy flow -> https://github.com/mricon/rev-proxy-grapher
 
+* Clever solution using Google Spreadsheets -> https://github.com/adam-p/danforth-east
 
+* Cloud Run Hello Python -> https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0
 
 ### Blog posts
 
