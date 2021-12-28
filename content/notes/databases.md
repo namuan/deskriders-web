@@ -25,6 +25,9 @@ https://github.com/phiresky/sql.js-httpvfs/issues/22
 
 * Sqlite DB Migration with PRAGMA user_version: https://levlaz.org/sqlite-db-migrations-with-pragma-user_version/
 
+* Auto generate GraphQL server -> https://github.com/bradleyboy/tuql
+
+
 ### PostgreSQL
 
 * Postgres is a great pub/sub & job server https://webapp.io/blog/postgres-is-the-answer/
@@ -35,3 +38,4 @@ https://github.com/phiresky/sql.js-httpvfs/issues/22
 
 ### Notes
 
+* Membership schema -> https://github.com/membership/membership.db

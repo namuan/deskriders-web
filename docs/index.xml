@@ -81,6 +81,25 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>[Links] Ask HN: What&#39;s the most life-changing blog post you&#39;ve ever read?</title>
+      <link>/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</link>
+      <pubDate>Mon, 27 Dec 2021 21:12:51 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</guid>
+      <description>🍊 HN Link
+🌎 Making a kangling for chöd | Buddhism for Vampires
+🌎 Perennial philosophy - Wikipedia
+🌎 Greco-Buddhism - Wikipedia
+🌎 Serenity Prayer - Wikipedia
+🌎 Vividness | Vividness
+🌎 Maximizers vs Satisficers: Who Makes Better Decisions? - Psychologist World
+🌎 Consume less, create more - TJCX
+🌎 An app can be a home-cooked meal
+🌎 The googlebot monopoly
+🌎 We Crawled Our Way Into The Big Tech Antitrust Report - Knuckleheads&amp;rsquo; Club</description>
+    </item>
+    
+    <item>
       <title>[Links] Ask HN: Programs that saved you 100 hours?</title>
       <link>/posts/links-ask-hn-programs-that-saved-you-100-hours/</link>
       <pubDate>Sun, 26 Dec 2021 17:14:20 +0000</pubDate>
@@ -135,10 +154,10 @@ https://github.com/ilmalte/github-actions-with-sqlite
 https://github.com/phiresky/sql.js-httpvfs/issues/22
   Sqlite JSON Support: https://dgl.cx/2020/06/sqlite-json-support
   Sqlite DB Migration with PRAGMA user_version: https://levlaz.org/sqlite-db-migrations-with-pragma-user_version/
+  Auto generate GraphQL server -&amp;gt; https://github.com/bradleyboy/tuql
   PostgreSQL   Postgres is a great pub/sub &amp;amp; job server https://webapp.io/blog/postgres-is-the-answer/
   Turning PostgreSQL into a queue serving 10,000 jobs per second https://gist.github.com/chanks/7585810
-  PostgREST Starter Kit: https://github.com/subzerocloud/postgrest-starter-kit
-  Notes </description>
+  PostgREST Starter Kit: https://github.</description>
     </item>
     
     <item>
@@ -285,7 +304,11 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
  https://gitlab.com/stavros/harbormaster
  Harbormaster is a small utility that lets you easily deploy multiple Docker-Compose applications on a single host.
  https://dockerswarm.rocks/
- Hello CloudRun -&amp;gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0  Notes </description>
+  Hello CloudRun -&amp;gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0
+  Jenkins As Code -&amp;gt; https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/
+  Ansible Best Practices -&amp;gt; https://max.engineer/six-ansible-practices
+  Jenkins wrangling -&amp;gt; https://coderanger.net/jenkins/
+  Security   OpenSSH Security -&amp;gt; https://linux-audit.</description>
     </item>
     
     <item>
@@ -303,9 +326,13 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/java/</guid>
-      <description>Notes   Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character
+      <description>Websites   Testing framework built on Cucumber JVM -&amp;gt; https://sukesh15.gitbooks.io/cucumber-jvm-test-framework-/content/
+  Investigating thread dumps -&amp;gt; http://www.captaindebug.com/2012/10/investigating-deadlocks-part-3.html
+  Statemachines -&amp;gt; https://github.com/davidmoten/state-machine/blob/master/README.md
+  Microservices -&amp;gt; https://www.slideshare.net/danveloper/microservices-the-right-way
+  Notes   Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character
   Java: Initialise a CharArray from a String
-  private String reservedCharacter = &amp;#34;!#$%&amp;amp;&amp;#39;()*+,/:;=?@[]&amp;#34;; private char[] chars = reservedCharacter.toCharArray();  Java/JUnit5 : Parameterized testing with JUnit 5  @ParameterizedTest(name = &amp;#34;{0} should be \&amp;#34;{1}\&amp;#34;&amp;#34;) @CsvSource({ &amp;#34;http://www.example.com, http%3A%2F%2Fwww.example.com&amp;#34;, &amp;#34;?query=123, %3Fquery%3D123&amp;#34; }) public void testPercentEncodeAsciiString(String source, String expected) { // when  String result = PercentEncoding.encode(source); // then  assertEquals(expected, result); }  Java: Generating a mvn wrapper  $ mvn -N io.</description>
+  private String reservedCharacter = &amp;#34;!#$%&amp;amp;&amp;#39;()*+,/:;=?@[]&amp;#34;; private char[] chars = reservedCharacter.toCharArray();  Java/JUnit5 : Parameterized testing with JUnit 5  @ParameterizedTest(name = &amp;#34;{0} should be \&amp;#34;{1}\&amp;#34;&amp;#34;) @CsvSource({ &amp;#34;http://www.</description>
     </item>
     
     <item>
@@ -314,10 +341,8 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/mac/</guid>
-      <description>Websites https://gchq.github.io/CyberChef/
- The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
- Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find .</description>
+      <description>Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ./static -name &amp;#39;*.png&amp;#39; | while read line; do convert -resize 1280x1280 $line $line; done  jq: Length of array  $ echo &amp;#39;[&amp;#34;123&amp;#34;, &amp;#34;567&amp;#34;, &amp;#34;abc&amp;#34;]&amp;#39; | jq &amp;#39;.</description>
     </item>
     
     <item>
@@ -348,7 +373,9 @@ Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  fi
       <guid>/notes/testing/</guid>
       <description>Tools webium
  Webium is a Page Object pattern implementation library for Python (http://martinfowler.com/bliki/PageObject.html). It allows you to extend WebElement class to your custom controls like Link, Button and group them as pages.
- Notes </description>
+   Api Documentation -&amp;gt; https://github.com/Redocly/redoc
+  Generating millions of HTTP requests -&amp;gt; https://dak1n1.com/blog/14-http-load-generate/
+  Notes </description>
     </item>
     
     <item>
@@ -742,8 +769,8 @@ Although it is impossible to replace them altogether, let me introduce you to De
   https://awslabs.github.io/smithy/quickstart.html
   Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
   Alfred update script -&amp;gt; https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
-  Blog posts   Side-projects on Google Cloud Run -&amp;gt; https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
-  Lunr.</description>
+  PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/
+  The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis -&amp;gt; https://gchq.</description>
     </item>
     
     <item>

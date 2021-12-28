@@ -18,7 +18,11 @@
  https://gitlab.com/stavros/harbormaster
  Harbormaster is a small utility that lets you easily deploy multiple Docker-Compose applications on a single host.
  https://dockerswarm.rocks/
- Hello CloudRun -&gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0  Notes "/>
+  Hello CloudRun -&gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0
+  Jenkins As Code -&gt; https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/
+  Ansible Best Practices -&gt; https://max.engineer/six-ansible-practices
+  Jenkins wrangling -&gt; https://coderanger.net/jenkins/
+  Security   OpenSSH Security -&gt; https://linux-audit."/>
 
     <meta property="og:title" content="DevOps" />
 <meta property="og:description" content="Jenkins https://github.com/hoto/jenkinsfile-examples
@@ -28,7 +32,11 @@
  https://gitlab.com/stavros/harbormaster
  Harbormaster is a small utility that lets you easily deploy multiple Docker-Compose applications on a single host.
  https://dockerswarm.rocks/
- Hello CloudRun -&gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0  Notes " />
+  Hello CloudRun -&gt; https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0
+  Jenkins As Code -&gt; https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/
+  Ansible Best Practices -&gt; https://max.engineer/six-ansible-practices
+  Jenkins wrangling -&gt; https://coderanger.net/jenkins/
+  Security   OpenSSH Security -&gt; https://linux-audit." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/notes/devops/" />
 <meta property="article:published_time" content="2021-12-19T15:46:00+00:00" />
@@ -136,7 +144,74 @@
 </blockquote>
 <p><a href="https://dockerswarm.rocks/">https://dockerswarm.rocks/</a></p>
 <ul>
-<li>Hello CloudRun -&gt; <a href="https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0">https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0</a></li>
+<li>
+<p>Hello CloudRun -&gt; <a href="https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0">https://codelabs.developers.google.com/codelabs/cloud-run-hello-python3?hl=en#0</a></p>
+</li>
+<li>
+<p>Jenkins As Code -&gt; <a href="https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/">https://fishi.devtail.io/weblog/2019/01/12/jenkins-as-code-part-2/</a></p>
+</li>
+<li>
+<p>Ansible Best Practices -&gt; <a href="https://max.engineer/six-ansible-practices">https://max.engineer/six-ansible-practices</a></p>
+</li>
+<li>
+<p>Jenkins wrangling -&gt; <a href="https://coderanger.net/jenkins/">https://coderanger.net/jenkins/</a></p>
+</li>
+</ul>
+<h3 id="security">Security</h3>
+<ul>
+<li>
+<p>OpenSSH Security -&gt; <a href="https://linux-audit.com/audit-and-harden-your-ssh-configuration/">https://linux-audit.com/audit-and-harden-your-ssh-configuration/</a></p>
+</li>
+<li>
+<p>Automated security testing -&gt; <a href="https://devops.com/automated-security-testing-continuous-delivery-pipeline/">https://devops.com/automated-security-testing-continuous-delivery-pipeline/</a></p>
+</li>
+</ul>
+<h3 id="docker">Docker</h3>
+<ul>
+<li>
+<p>Inspecting Docker traffic -&gt; <a href="https://skynet.sexy/2015/05/inspect-docker-traffix-on-osx">https://skynet.sexy/2015/05/inspect-docker-traffix-on-osx</a></p>
+</li>
+<li>
+<p>Docker container to capture all host traffic -&gt; <a href="https://jerrygamblin.com/2016/05/28/a-docker-container-to-capture-all-traffic-from-host/">https://jerrygamblin.com/2016/05/28/a-docker-container-to-capture-all-traffic-from-host/</a></p>
+</li>
+<li>
+<p>TcpDump in Docker -&gt; <a href="https://husobee.github.io/http/tcpdump/docker/2016/11/30/troubleshooting-http-docker-tcpdump.html">https://husobee.github.io/http/tcpdump/docker/2016/11/30/troubleshooting-http-docker-tcpdump.html</a></p>
+</li>
+<li>
+<p>Run more stuff in Docker -&gt; <a href="https://jonathan.bergknoff.com/journal/run-more-stuff-in-docker/">https://jonathan.bergknoff.com/journal/run-more-stuff-in-docker/</a></p>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">alias aws<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;docker run --rm -v ~/.aws:/.aws -v &#34;$(pwd)&#34;:&#34;$(pwd)&#34; -w &#34;$(pwd)&#34; -u 1000:1000 -e AWS_PROFILE mikesir87/aws-cli:1.18.11 aws&#39;</span>
+alias jq<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;docker run -i --rm jess/jq jq&#39;</span>
+</code></pre></div><p>Hugo</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo <span style="color:#f92672">=</span> docker run --rm -u $$<span style="color:#f92672">(</span>id -u<span style="color:#f92672">)</span>:$$<span style="color:#f92672">(</span>id -g<span style="color:#f92672">)</span> -v <span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span>:/src -v <span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span>/output:/target <span style="color:#66d9ef">$(</span>2<span style="color:#66d9ef">)</span> klakegg/hugo:0.54.0-ext-alpine <span style="color:#66d9ef">$(</span>1<span style="color:#66d9ef">)</span>
+
+hugo-watch:
+    mkdir -p output
+    <span style="color:#66d9ef">$(</span>call hugo, server, -it -p 1313:1313<span style="color:#66d9ef">)</span>
+</code></pre></div><p>Python</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">run_container <span style="color:#f92672">=</span> docker run -i --rm -u $$<span style="color:#f92672">(</span>id -u<span style="color:#f92672">)</span>:$$<span style="color:#f92672">(</span>id -g<span style="color:#f92672">)</span> -v <span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span>:<span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span> -w <span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span> <span style="color:#66d9ef">$(</span>3<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>1<span style="color:#66d9ef">)</span> <span style="color:#66d9ef">$(</span>2<span style="color:#66d9ef">)</span>
+python <span style="color:#f92672">=</span> <span style="color:#66d9ef">$(</span>call run_container, python:3.8.2-alpine3.11, <span style="color:#66d9ef">$(</span>1<span style="color:#66d9ef">)</span>, -e PYTHONUSERBASE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$$<span style="color:#e6db74">(pwd)&#34;</span>/vendor <span style="color:#66d9ef">$(</span>2<span style="color:#66d9ef">))</span>
+
+dependencies:
+    <span style="color:#66d9ef">$(</span>call python, pip install --user -r requirements.txt, -e XDG_CACHE_HOME<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>user_cache_dir<span style="color:#66d9ef">)</span> -v <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>user_cache_dir<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>:<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>user_cache_dir<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
+
+repl:
+    <span style="color:#66d9ef">$(</span>call python, python<span style="color:#66d9ef">)</span>
+
+run:
+    <span style="color:#66d9ef">$(</span>call python, python -m app.main<span style="color:#66d9ef">)</span>
+
+<span style="color:#75715e"># where user_cache_dir is set elsewhere to ~/.cache on Linux or ~/Library/Caches on a Mac.</span>
+</code></pre></div><h3 id="aws">AWS</h3>
+<ul>
+<li>
+<p>On-Demand test environments -&gt; <a href="https://mherman.org/blog/on-demand-test-environments-with-docker-and-aws-ecs/">https://mherman.org/blog/on-demand-test-environments-with-docker-and-aws-ecs/</a></p>
+</li>
+<li>
+<p>AWS Tips -&gt; <a href="https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/">https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/</a>
+And -&gt; <a href="https://launchbylunch.com/posts/2014/Jan/29/aws-tips/">https://launchbylunch.com/posts/2014/Jan/29/aws-tips/</a></p>
+</li>
 </ul>
 <h3 id="notes">Notes</h3>
 

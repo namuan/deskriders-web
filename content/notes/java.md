@@ -3,6 +3,17 @@ title: "Java/JVM"
 date: 2021-12-19T15:46:00Z
 ---
 
+### Websites
+
+* Testing framework built on Cucumber JVM -> https://sukesh15.gitbooks.io/cucumber-jvm-test-framework-/content/
+
+* Investigating thread dumps -> http://www.captaindebug.com/2012/10/investigating-deadlocks-part-3.html
+
+* Statemachines -> https://github.com/davidmoten/state-machine/blob/master/README.md
+
+* Microservices -> https://www.slideshare.net/danveloper/microservices-the-right-way
+
+
 ### Notes
 
 * Java: URLEncoder does form encoding instead of percent encoding - https://stackoverflow.com/questions/4737841/urlencoder-not-able-to-translate-space-character

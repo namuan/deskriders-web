@@ -14,6 +14,115 @@ https://awslabs.github.io/smithy/quickstart.html
 
 * Alfred update script -> https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
 
+* PlantUml Cheat Sheet -> https://ogom.github.io/draw_uml/plantuml/
+
+* The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis -> https://gchq.github.io/CyberChef/
+
+* Http3 Book -> https://http3-explained.haxx.se/en/
+
+* Whiteboard cleaner script -> https://gist.github.com/lelandbatey/8677901#description
+```shell
+#!/bin/bash
+convert "$1" -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 "$2"
+
+# eg. ./whiteboardClean.sh example1.jpg output1.png
+```
+Applescript droplet -> paste this into a new script and save it as an application -> https://gist.github.com/lelandbatey/8677901#gistcomment-1205710
+```applescript
+on open thefiles
+  repeat with thefile in thefiles
+    set finalpath to POSIX path of thefile
+    do shell script "mktemp -t image"
+    set temppath to the result
+    set success to false
+    try
+      do shell script "/usr/local/bin/convert '" & finalpath & "' -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 '" & temppath & "'"
+      set success to true
+    on error theerror
+      display dialog "Conversion failed: " & theerror
+    end try
+    if success then
+      do shell script "mv '" & temppath & "' '" & finalpath & "'"
+      display notification "Converted " & finalpath
+    end if
+  end repeat
+end open
+```
+
+Convert to SVG using http://autotrace.sourceforge.net/ -> https://gist.github.com/lelandbatey/8677901#gistcomment-1205798
+```shell
+./autotrace \
+  --dpi 1024 \
+  --line-threshold 0.1 \
+  --color-count 16 \
+  --corner-always-threshold 60 \
+  --line-reversion-threshold 0.1 \
+  --width-weight-factor 0.1 \
+  --despeckle-level 10 \
+  --despeckle-tightness 5 \
+  --preserve-width \
+  --remove-adjacent-corners \
+  --output-format svg \
+  --output-file out.svg \
+  in.png
+```
+Also check https://mzucker.github.io/2016/09/20/noteshrink.html
+https://github.com/santhalakshminarayana/whiteboard-image-enhance
+
+* Learn by doing -> https://tryenlight.github.io/
+
+* Split user stories ruthlessly -> https://mikeborozdin.com/post/split-user-stories-get-value-early/
+
+* Using GraphViz to view Microservices -> https://gist.github.com/vladgolubev/80c5523336ddec3859c0e90d9a070882
+```graphviz
+digraph architecture {
+  rankdir=LR;
+
+  // Storage - #303F9F (dark blue)
+  node[fillcolor="#303F9F" style="filled" fontcolor="white"];
+  database[label="DB"]; cache[label="Redis"];
+  
+  // Client-side Apps - #FFEB3B (yellow)
+  node[fillcolor="#FFEB3B" style="filled" fontcolor="black"];
+  front_end[label="Front-end App"]; extension[label="Browser Extension"];
+  
+  // Microservices - #C8E6C9 (light green)
+  node[fillcolor="#C8E6C9" style="filled" fontcolor="black"];
+  photos_ms[label="Photos MS"]; chats_ms[label="Chats MS"]; friends_ms[label="Friends MS"];
+  
+  // API Gateways - #FFCCBC (light orange)
+  node[fillcolor="#FFCCBC" style="filled" fontcolor="black"];
+  auth_api[label="Auth API"]; my_app_api[label="Main API"];
+  
+  // 3rd-party APIs - #CFD8DC (light grey)
+  node[fillcolor="#CFD8DC" style="filled" fontcolor="black"];
+  facebook_api[label="Facebook API"];
+  
+  subgraph client_side_apps {
+      front_end -> {auth_api, my_app_api};
+      extension -> {auth_api, my_app_api};
+      
+      {rank=same; front_end, extension, auth_api};
+  }
+  
+  subgraph api_gateways {
+      my_app_api -> {photos_ms, chats_ms, friends_ms};
+  }
+  
+  subgraph microservices {
+      photos_ms -> {database};
+      chats_ms -> {database, cache};
+      friends_ms -> {database, facebook_api};
+  }
+} 
+```
+
+* Teach tech with cartoons -> https://jvns.ca/teach-tech-with-cartoons/
+
+* GraphViz to draw reverse proxy flow -> https://github.com/mricon/rev-proxy-grapher
+
+
+
 ### Blog posts
 
 * Side-projects on Google Cloud Run -> https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
