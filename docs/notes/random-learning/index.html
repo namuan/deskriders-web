@@ -265,6 +265,15 @@
 </ul>
 <h3 id="notes">Notes</h3>
 <ul>
+<li>Pass arguments to Make task</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># Makefile</span>
+pre-commit-tool: <span style="color:#75715e">## Manually run a single pre-commit hook</span>
+	./venv/bin/pre-commit run <span style="color:#66d9ef">$(</span>TOOL<span style="color:#66d9ef">)</span> --all-files
+	
+<span style="color:#75715e"># Run it as</span>
+make pre-commit-tool TOOL<span style="color:#f92672">=</span>black
+</code></pre></div><ul>
 <li>URI Encoding: How <code>:</code> becomes <code>%3A</code> using <a href="https://en.wikipedia.org/wiki/Percent-encoding">Percent Encoding</a></li>
 </ul>
 <p>We start with finding the ASCII value of <code>:</code> which is <code>58</code>.

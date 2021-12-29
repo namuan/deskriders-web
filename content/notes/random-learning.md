@@ -132,6 +132,17 @@ digraph architecture {
 * Lunr.js search on Hugo -> https://palant.info/2020/06/04/the-easier-way-to-use-lunr-search-with-hugo/
 
 ### Notes
+
+* Pass arguments to Make task
+```shell
+# Makefile
+pre-commit-tool: ## Manually run a single pre-commit hook
+	./venv/bin/pre-commit run $(TOOL) --all-files
+	
+# Run it as
+make pre-commit-tool TOOL=black
+```
+
 * URI Encoding: How `:` becomes `%3A` using [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
 
 We start with finding the ASCII value of `:` which is `58`. 
