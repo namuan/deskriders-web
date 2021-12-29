@@ -81,6 +81,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Selenium Firefox and saving webpage as PDF</title>
+      <link>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</link>
+      <pubDate>Wed, 29 Dec 2021 15:37:40 +0000</pubDate>
+      
+      <guid>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</guid>
+      <description>A quick sample to save a webpage as PDF using Selenium with Firefox. Here I&amp;rsquo;m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
+You can read more about using Helium here.
+Installing the selenium wrapper
+pip3 install helium Python code
+#!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&amp;#34;--start-maximized&amp;#34;) options.set_preference(&amp;#34;print.always_print_silent&amp;#34;, True) options.</description>
+    </item>
+    
+    <item>
       <title>[Links] Ask HN: What&#39;s the most life-changing blog post you&#39;ve ever read?</title>
       <link>/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</link>
       <pubDate>Mon, 27 Dec 2021 21:12:51 +0000</pubDate>
