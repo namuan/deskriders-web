@@ -27,6 +27,10 @@ https://github.com/phiresky/sql.js-httpvfs/issues/22
 
 * Auto generate GraphQL server -> https://github.com/bradleyboy/tuql
 
+* Undo/Redo with SQLite -> https://www.sqlite.org/undoredo.html
+
+* Verneuil: streaming replication for sqlite -> https://github.com/backtrace-labs/verneuil
+
 
 ### PostgreSQL
 

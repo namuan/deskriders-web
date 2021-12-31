@@ -81,6 +81,21 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Cooking</title>
+      <link>/notes/cooking/</link>
+      <pubDate>Wed, 29 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/cooking/</guid>
+      <description>InstantPot   Recipes -&amp;gt; https://www.pressurecookrecipes.com/
+  Instant Pot Potato Salad -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-potato-salad/
+  Instant Pot Lentil Curry -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentil-curry/
+  Instant Pot Lentils -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentils/
+  Instant Pot Chicken and Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
+  Accessories
+ https://www.amazon.co.uk/Stainless-Multifunction-Basket-Pressure-Steamer/dp/B075SXP2Z8  Vitamix  Hummus -&amp;gt; https://www.vitamix.com/us/en_us/recipes/hummus  Notes </description>
+    </item>
+    
+    <item>
       <title>Selenium Firefox and saving webpage as PDF</title>
       <link>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</link>
       <pubDate>Wed, 29 Dec 2021 15:37:40 +0000</pubDate>
@@ -168,9 +183,10 @@ https://github.com/phiresky/sql.js-httpvfs/issues/22
   Sqlite JSON Support: https://dgl.cx/2020/06/sqlite-json-support
   Sqlite DB Migration with PRAGMA user_version: https://levlaz.org/sqlite-db-migrations-with-pragma-user_version/
   Auto generate GraphQL server -&amp;gt; https://github.com/bradleyboy/tuql
+  Undo/Redo with SQLite -&amp;gt; https://www.sqlite.org/undoredo.html
+  Verneuil: streaming replication for sqlite -&amp;gt; https://github.com/backtrace-labs/verneuil
   PostgreSQL   Postgres is a great pub/sub &amp;amp; job server https://webapp.io/blog/postgres-is-the-answer/
-  Turning PostgreSQL into a queue serving 10,000 jobs per second https://gist.github.com/chanks/7585810
-  PostgREST Starter Kit: https://github.</description>
+  Turning PostgreSQL into a queue serving 10,000 jobs per second https://gist.</description>
     </item>
     
     <item>
@@ -354,8 +370,8 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/mac/</guid>
-      <description>Apps Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ./static -name &amp;#39;*.png&amp;#39; | while read line; do convert -resize 1280x1280 $line $line; done  jq: Length of array  $ echo &amp;#39;[&amp;#34;123&amp;#34;, &amp;#34;567&amp;#34;, &amp;#34;abc&amp;#34;]&amp;#39; | jq &amp;#39;.</description>
+      <description>Apps  HTTP Toolkit -&amp;gt; https://httptoolkit.tech/ Intercept &amp;amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&amp;gt; https://github.com/httptoolkit  Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find .</description>
     </item>
     
     <item>
@@ -777,13 +793,13 @@ Although it is impossible to replace them altogether, let me introduce you to De
       <pubDate>Mon, 20 Jan 2020 09:45:05 +0000</pubDate>
       
       <guid>/notes/random-learning/</guid>
-      <description>Websites   Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com
+      <description>Websites   Amazon Machine learning courses -&amp;gt; https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
+  Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com
   Publishing blog/documentation using MKdocs -&amp;gt; https://github.com/tiangolo/dockerswarm.rocks
   https://awslabs.github.io/smithy/quickstart.html
   Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
   Alfred update script -&amp;gt; https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
-  PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/
-  The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis -&amp;gt; https://gchq.</description>
+  PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/</description>
     </item>
     
     <item>

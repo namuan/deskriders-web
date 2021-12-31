@@ -40,6 +40,11 @@ https://github.com/jatinmandav/Gaming-in-Python
 
 * FlappyBird -> https://pygamezero-bird.readthedocs.io/en/latest/part1.html
 
+### Web Scraping
+
+* Puppeteer -> https://pypuppeteer.readthedocs.io/en/latest/
+* Devices -> https://github.com/puppeteer/puppeteer/blob/v1.18.1/lib/DeviceDescriptors.js
+
 ### Notes
 
 * Python: How to get a class name from a type

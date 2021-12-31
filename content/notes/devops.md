@@ -79,6 +79,7 @@ run:
 * AWS Tips -> https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/
 And -> https://launchbylunch.com/posts/2014/Jan/29/aws-tips/
 
+* Push files to s3 with Github actions -> https://til.simonwillison.net/github-actions/s3-bucket-github-actions
 
 
 ### Notes

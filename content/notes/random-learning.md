@@ -5,6 +5,8 @@ date: 2020-01-20T09:45:05Z
 
 ### Websites
 
+* Amazon Machine learning courses -> https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
+
 * Simple but very useful website to format Markdown tables -> http://markdowntable.com
 
 * Publishing blog/documentation using MKdocs -> https://github.com/tiangolo/dockerswarm.rocks

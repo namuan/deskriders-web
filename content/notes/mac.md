@@ -5,6 +5,10 @@ date: 2021-12-19T15:46:00Z
 
 ### Apps
 
+* HTTP Toolkit -> https://httptoolkit.tech/
+Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
+Open source -> https://github.com/httptoolkit
+
 #### Screen Drawing
 
 Found [quickdraw](https://github.com/maxchuquimia/quickdraw) which is an app for drawing over the screen.
