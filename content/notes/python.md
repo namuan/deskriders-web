@@ -22,10 +22,21 @@ https://github.com/taseikyo/PyQt5-Apps
 https://www.pythonguis.com/tutorials/system-tray-mac-menu-bar-applications-pyqt/
 > System tray & Mac menu bar applications
 
-### Graphics
+### Graphics / Diagrams
 
 https://github.com/p5py/p5
 >  p5 is a Python package based on the core ideas of Processing.
+
+* Yed examples with Python -> https://github.com/bockor/pyyed-real-life-examples
+
+* Python dependency graph using yed (generates GraphML) -> https://github.com/vijeshm/pythondependencygraph
+
+* Network analysis in Python -> https://github.com/networkx/networkx
+
+### Machine Learning
+
+* https://github.com/tom-doerr/fix
+Suggests solutions for errors in the command line. It is using OpenAI's Codex AI to come up with suggestions.
 
 ### Gaming
 
