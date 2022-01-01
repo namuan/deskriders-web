@@ -19,27 +19,33 @@ A similar application which is quite good is [Pensela](https://github.com/weiame
 
 #### Command Line Tools
 
-* ImageMagick Resize a bunch of images using ImageMagick__
+* ImageMagick Resize a bunch of images using ImageMagick
 
-```bash
+```shell
 find ./static -name '*.png' | while read line; do convert -resize 1280x1280 $line $line; done
+```
+
+* Combine and convert list of images into a single PDF
+
+```shell
+convert IMG_00{09..18}.JPG IMG_0025.JPG IMG_00{19..20}.JPG IMG_0026.JPG IMG_00{21..24}.JPG Final-Doc.pdf
 ```
 
 * jq: Length of array
 
-```sh
+```shell
 $ echo '["123", "567", "abc"]' | jq '. | length'
 ```
 
 * Shell: Pass contents of clipboard as file descriptor. It'll work with apps expecting file argument.
 
-```sh
+```shell
 $ command <(pbpaste)
 ```
 
 * Convert: Resize image
 
-```
+```shell
 $ convert -quality 75% -resize 40x40 twitter.png twitter-icn.png
 ```
 * Ctrl X-E to quickly edit current command

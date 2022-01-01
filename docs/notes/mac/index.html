@@ -12,11 +12,11 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mac (Apps/Tools/Tips and Tricks)"/>
 <meta name="twitter:description" content="Apps  HTTP Toolkit -&gt; https://httptoolkit.tech/ Intercept &amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&gt; https://github.com/httptoolkit  Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&rsquo;t seem to provide any packages, and I&rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ."/>
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find ."/>
 
     <meta property="og:title" content="Mac (Apps/Tools/Tips and Tricks)" />
 <meta property="og:description" content="Apps  HTTP Toolkit -&gt; https://httptoolkit.tech/ Intercept &amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&gt; https://github.com/httptoolkit  Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&rsquo;t seem to provide any packages, and I&rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find ." />
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/notes/mac/" />
 <meta property="article:published_time" content="2021-12-19T15:46:00+00:00" />
@@ -122,21 +122,25 @@ A similar application which is quite good is <a href="https://github.com/weiamei
 <p><img src="/images/2021/12/pensela.png" alt=""></p>
 <h4 id="command-line-tools">Command Line Tools</h4>
 <ul>
-<li>ImageMagick Resize a bunch of images using ImageMagick__</li>
+<li>ImageMagick Resize a bunch of images using ImageMagick</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">find ./static -name <span style="color:#e6db74">&#39;*.png&#39;</span> | <span style="color:#66d9ef">while</span> read line; <span style="color:#66d9ef">do</span> convert -resize 1280x1280 $line $line; <span style="color:#66d9ef">done</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">find ./static -name <span style="color:#e6db74">&#39;*.png&#39;</span> | <span style="color:#66d9ef">while</span> read line; <span style="color:#66d9ef">do</span> convert -resize 1280x1280 $line $line; <span style="color:#66d9ef">done</span>
+</code></pre></div><ul>
+<li>Combine and convert list of images into a single PDF</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">convert IMG_00<span style="color:#f92672">{</span>09..18<span style="color:#f92672">}</span>.JPG IMG_0025.JPG IMG_00<span style="color:#f92672">{</span>19..20<span style="color:#f92672">}</span>.JPG IMG_0026.JPG IMG_00<span style="color:#f92672">{</span>21..24<span style="color:#f92672">}</span>.JPG Final-Doc.pdf
 </code></pre></div><ul>
 <li>jq: Length of array</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ echo <span style="color:#e6db74">&#39;[&#34;123&#34;, &#34;567&#34;, &#34;abc&#34;]&#39;</span> | jq <span style="color:#e6db74">&#39;. | length&#39;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ echo <span style="color:#e6db74">&#39;[&#34;123&#34;, &#34;567&#34;, &#34;abc&#34;]&#39;</span> | jq <span style="color:#e6db74">&#39;. | length&#39;</span>
 </code></pre></div><ul>
 <li>Shell: Pass contents of clipboard as file descriptor. It&rsquo;ll work with apps expecting file argument.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ command &lt;<span style="color:#f92672">(</span>pbpaste<span style="color:#f92672">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ command &lt;<span style="color:#f92672">(</span>pbpaste<span style="color:#f92672">)</span>
 </code></pre></div><ul>
 <li>Convert: Resize image</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ convert -quality 75% -resize 40x40 twitter.png twitter-icn.png
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ convert -quality 75% -resize 40x40 twitter.png twitter-icn.png
 </code></pre></div><ul>
 <li>Ctrl X-E to quickly edit current command</li>
 </ul>
@@ -166,7 +170,7 @@ brew bundle --force cleanup <span style="color:#75715e"># Removes all dependenci
     
     
       
-        © 2019 - 2021
+        © 2019 - 2022
       
        Deskriders.dev 
     

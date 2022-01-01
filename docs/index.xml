@@ -390,7 +390,7 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       
       <guid>/notes/mac/</guid>
       <description>Apps  HTTP Toolkit -&amp;gt; https://httptoolkit.tech/ Intercept &amp;amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&amp;gt; https://github.com/httptoolkit  Screen Drawing Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick__  find .</description>
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find .</description>
     </item>
     
     <item>
