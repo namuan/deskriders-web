@@ -6,10 +6,26 @@
     <description>Recent content in hacker-news-links on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Dec 2021 12:57:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 17:10:48 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hacker-news-links/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: What did you make during lockdown?</title>
+      <link>/posts/links-ask-hn-what-did-you-make-during-lockdown/</link>
+      <pubDate>Sun, 02 Jan 2022 17:10:48 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-what-did-you-make-during-lockdown/</guid>
+      <description>🍊 HN Link
+🌎 James Stanley - Autopatzer: my automatic chess board
+🌎 Monoprice Silence Mini: TMC2208 stepper drivers + Noctua fans : MPSelectMiniOwners
+🌎 autopatzer/Router.pm at master · jes/autopatzer · GitHub
+🌎 GitHub - ankidroid/Anki-Android: AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.
+🌎 anki/rslib at main · ankitects/anki · GitHub
+🌎 A Daydreaming AI for my Desk | hmac.io blog
+🌎 Writing New Image Hashing Algorithms to Help a Yearbook Teacher | hmac.</description>
+    </item>
     
     <item>
       <title>[Links] Ask HN: Is there still a place for native desktop apps?</title>
