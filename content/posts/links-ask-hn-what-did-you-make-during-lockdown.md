@@ -4,12 +4,11 @@
     description = ""
     slug = ""
     tags = ["hacker-news-links"]
-    categories = []
     externalLink = ""
     series = []
 +++
 
-🍊 [HN Link]()
+🍊 [HN Link](https://news.ycombinator.com/item?id=23592788)
 
 
 🌎 [James Stanley - Autopatzer: my automatic chess board](https://incoherency.co.uk/blog/stories/autopatzer.html)
