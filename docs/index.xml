@@ -81,6 +81,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Generate Homebrew dependencies graph</title>
+      <link>/posts/1640943229-brew-graph-highlight-edges/</link>
+      <pubDate>Mon, 03 Jan 2022 10:38:32 +0000</pubDate>
+      
+      <guid>/posts/1640943229-brew-graph-highlight-edges/</guid>
+      <description>Tap dependent package
+brew tap martido/homebrew-graph Generate dot file
+brew graph -f dot --installed --highlight-leaves -o graph.dot Clean dot file and generate gif
+cat graph.dot | sfdp -x -Goverlap=scale -Nshape=circle -Gspinles=curved -Tgif &amp;gt; deps.gif The output will be in deps.gif</description>
+    </item>
+    
+    <item>
       <title>[Links] Ask HN: What did you make during lockdown?</title>
       <link>/posts/links-ask-hn-what-did-you-make-during-lockdown/</link>
       <pubDate>Sun, 02 Jan 2022 17:10:48 +0000</pubDate>
