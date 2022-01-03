@@ -142,6 +142,15 @@ TARGET_DIR=&amp;#34;../tele-muninn&amp;#34;; echo &amp;#39;.pre-commit-config.ya
     </item>
     
     <item>
+      <title>Interesting</title>
+      <link>/notes/interesting/</link>
+      <pubDate>Wed, 29 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/interesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Selenium Firefox and saving webpage as PDF</title>
       <link>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</link>
       <pubDate>Wed, 29 Dec 2021 15:37:40 +0000</pubDate>
