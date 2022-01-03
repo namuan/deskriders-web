@@ -1,5 +1,5 @@
 ---
-title: "Random learning notes"
+title: "Random (To be sorted)"
 date: 2020-01-20T09:45:05Z
 ---
 
@@ -26,6 +26,8 @@ https://awslabs.github.io/smithy/quickstart.html
 ```shell
 #!/bin/bash
 convert "$1" -morphology Convolve DoG:15,100,0 -negate -normalize -blur 0x1 -channel RBG -level 60%,91%,0.1 "$2"
+
+* The 20 Minute Business Plan -> https://www.alexandercowan.com/business-model-canvas-templates/
 
 # eg. ./whiteboardClean.sh example1.jpg output1.png
 ```

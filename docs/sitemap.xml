@@ -128,11 +128,6 @@
   </url>
   
   <url>
-    <loc>/notes/databases/</loc>
-    <lastmod>2021-12-25T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</loc>
     <lastmod>2021-12-25T10:52:03+00:00</lastmod>
   </url>
@@ -188,27 +183,7 @@
   </url>
   
   <url>
-    <loc>/notes/devops/</loc>
-    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/golang/</loc>
-    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/java/</loc>
-    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/mac/</loc>
-    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/python/</loc>
+    <loc>/notes/developer/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url>
   
@@ -563,7 +538,7 @@
   </url>
   
   <url>
-    <loc>/notes/random-learning/</loc>
+    <loc>/notes/to-sort/</loc>
     <lastmod>2020-01-20T09:45:05+00:00</lastmod>
   </url>
   

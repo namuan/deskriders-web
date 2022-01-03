@@ -15,6 +15,8 @@ date: 2021-12-29T15:46:00Z
 
 * Instant Pot Chicken and Rice -> https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
 
+* Pépin’s broccoli stems and mushroom risotto -> https://lindyrecipe.com/main/pepins-broccoli-stems-and-mushroom-risotto/
+
 **Accessories**
 
 * https://www.amazon.co.uk/Stainless-Multifunction-Basket-Pressure-Steamer/dp/B075SXP2Z8
