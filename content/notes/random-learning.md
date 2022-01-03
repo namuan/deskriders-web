@@ -139,8 +139,8 @@ digraph architecture {
 ```shell
 # Makefile
 pre-commit-tool: ## Manually run a single pre-commit hook
-	./venv/bin/pre-commit run $(TOOL) --all-files
-	
+    ./venv/bin/pre-commit run $(TOOL) --all-files
+
 # Run it as
 make pre-commit-tool TOOL=black
 ```
@@ -191,6 +191,3 @@ Using the following Hex table conversion, we map `0011` => 3 and `1010` to A whi
 
 The final part is to prefix it with `%` (which is the escape character) makes it `%3A`
 
-### Notes
-
-> The distinction between droplet and airborne transmission has enormous consequences. To combat droplets, a leading precaution is to wash hands frequently with soap and water. To fight infectious aerosols, the air itself is the enemy. In hospitals, that means expensive isolation wards and N95 masks for all medical staff.
