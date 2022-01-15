@@ -1,5 +1,5 @@
 +++
-    date = 2022-01-15T16:15:50
+    date = 2022-01-16T16:15:50
     title = "[Links] Ask HN: Tools you have made for yourself?"
     description = ""
     slug = ""
