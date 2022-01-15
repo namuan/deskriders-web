@@ -6,10 +6,26 @@
     <description>Recent content in hacker-news-links on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Jan 2022 12:35:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jan 2022 16:15:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hacker-news-links/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: Tools you have made for yourself?</title>
+      <link>/posts/links-ask-hn-tools-you-have-made-for-yourself/</link>
+      <pubDate>Sat, 15 Jan 2022 16:15:50 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-tools-you-have-made-for-yourself/</guid>
+      <description>🍊 HN Link
+🌎 Recut - Remove Silence From Your Videos Automatically
+🌎 GitHub - mohapsat/auto-giphy-movie: AutoGiphyMovie lets you search Giphy for gifs, converts them to videos, attach a soundtrack and stitches it all together into a movie
+🌎 color_edit.py · GitHub
+🌎 Gallery — MoviePy 1.0.2 documentation
+🌎 GitHub - zdwolfe/zstat: Bone-simple tool for generating basic numerical stats from stdin
+🌎 zstat-cli · PyPI
+🌎 Wheelbuilding dishing and centering tool</description>
+    </item>
     
     <item>
       <title>[Links] Ask HN: What are some tools / libraries you built yourself?</title>
