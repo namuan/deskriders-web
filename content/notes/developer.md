@@ -433,16 +433,17 @@ https://github.com/damian-ontivero/servertree
 
 * Building Flask Apps: https://hackersandslackers.com/series/build-flask-apps/
 
+* Generator -> https://github.com/ksh7/flask-starter
+
 #### PyQt
 
-https://github.com/kadir014/pyqt5-custom-widgets
->  More useful widgets for PyQt5
+* Useful widgets for PyQt5 -> https://github.com/kadir014/pyqt5-custom-widgets
 
-https://github.com/taseikyo/PyQt5-Apps
-> Some useful apps based on PyQt5.
+* Some useful apps based on PyQt5. ->https://github.com/taseikyo/PyQt5-Apps
 
-https://www.pythonguis.com/tutorials/system-tray-mac-menu-bar-applications-pyqt/
-> System tray & Mac menu bar applications
+* System tray & Mac menu bar applications -> https://www.pythonguis.com/tutorials/system-tray-mac-menu-bar-applications-pyqt/
+
+* Iconic fonts in PyQt and PySide applications -> https://github.com/spyder-ide/qtawesome
 
 #### Graphics / Diagrams
 
@@ -483,3 +484,10 @@ https://github.com/jatinmandav/Gaming-in-Python
 
 * Generating millions of HTTP requests -> https://dak1n1.com/blog/14-http-load-generate/
 
+### Other Useful websites
+
+* Minimal Pastebin -> https://github.com/wantguns/bin
+
+* Turns your Python functions into microservices with web API, interactive GUI -> https://github.com/ml-tooling/opyrator
+
+* Edit and regenerate plots and graphs -> https://pylustrator.readthedocs.io/en/latest/
