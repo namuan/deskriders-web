@@ -6,10 +6,42 @@
     <description>Recent content in hacker-news-links on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Jan 2022 12:35:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 16:15:50 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hacker-news-links/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: Tools you have made for yourself?</title>
+      <link>/posts/links-ask-hn-tools-you-have-made-for-yourself/</link>
+      <pubDate>Sun, 16 Jan 2022 16:15:50 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-tools-you-have-made-for-yourself/</guid>
+      <description>🍊 HN Link
+🌎 Recut - Remove Silence From Your Videos Automatically
+🌎 GitHub - mohapsat/auto-giphy-movie: AutoGiphyMovie lets you search Giphy for gifs, converts them to videos, attach a soundtrack and stitches it all together into a movie
+🌎 color_edit.py · GitHub
+🌎 Gallery — MoviePy 1.0.2 documentation
+🌎 GitHub - zdwolfe/zstat: Bone-simple tool for generating basic numerical stats from stdin
+🌎 zstat-cli · PyPI
+🌎 Wheelbuilding dishing and centering tool</description>
+    </item>
+    
+    <item>
+      <title>[Links] Ask HN: Which tools have made you a much better programmer?</title>
+      <link>/posts/links-ask-hn-which-tools-have-made-you-a-much-better-programmer/</link>
+      <pubDate>Sun, 16 Jan 2022 15:24:36 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-which-tools-have-made-you-a-much-better-programmer/</guid>
+      <description>🍊 HN Link
+🌎 .gitconfig · GitHub
+🌎 GitHub - jeaye/vimrc: Cleanly organized, medium-weight vimrc for Clojure and C++
+🌎 functools â Higher-order functions and operations on callable objects — Python 3.10.2 documentation
+🌎 itertools â Functions creating iterators for efficient looping — Python 3.10.2 documentation
+🌎 https://sicp.comp.nus.edu.sg/
+🌎 GitHub - neoclide/coc.nvim: Nodejs extension host for vim &amp;amp; neovim, load extensions like VSCode and host language servers.
+🌎 GitHub - jwkvam/jupyterlab-vim: Vim notebook cell bindings for JupyterLab</description>
+    </item>
     
     <item>
       <title>[Links] Ask HN: What are some tools / libraries you built yourself?</title>
