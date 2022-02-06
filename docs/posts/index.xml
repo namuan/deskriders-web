@@ -6,10 +6,23 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jan 2022 16:15:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Feb 2022 10:03:41 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Auto generate documentation for python scripts in README.md file</title>
+      <link>/posts/1644141796-auto-generate-readme/</link>
+      <pubDate>Sun, 06 Feb 2022 10:03:41 +0000</pubDate>
+      
+      <guid>/posts/1644141796-auto-generate-readme/</guid>
+      <description>Here is a simple way to keep README document in-sync if you have a number of things to document.
+And it looks like this:
+Each script needs to response to --help when called which is then collected and rendered into README.md between a set of pre-configured tokens.
+readme_docs.py contains the code to generate this documentation.
+It is also configured as a pre-commit hook so that we always keep it up to date.</description>
+    </item>
     
     <item>
       <title>[Links] Ask HN: Tools you have made for yourself?</title>
