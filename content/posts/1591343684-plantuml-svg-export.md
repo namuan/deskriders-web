@@ -9,11 +9,11 @@ series = ["tooltips"]
 
 In this short clip, we'll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
 
-#### Requirements:
+#### Requirements
 
 * PlantUML: [Direct Download](http://sourceforge.net/projects/plantuml/files/plantuml.jar/download)
 
-Place it where you can easily refer to it. 
+Place it where you can easily refer to it.
 
 ```bash
 nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar
@@ -40,4 +40,3 @@ Here it is in action
 📝:
 
 👉 Tested on MacOS but should work on earlier versions and all flavours of Linux
-

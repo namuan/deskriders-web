@@ -6,10 +6,21 @@
     <description>Recent content in java on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2020 23:45:43 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
     
 	<atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
+      <link>/posts/1645945892-til-spring-exception-logging/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/posts/1645945892-til-spring-exception-logging/</guid>
+      <description>This can go in the application.properties file.
+# Single line. Full stack trace will be captured in a single line logging.exception-conversion-word=%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated Single line. Only the exception message will be captured in a single line logging.exception-conversion-word=%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated. Default formatting but only capturing a single line logging.exception-conversion-word=%wEx{short} This works if you don&amp;rsquo;t override logging.pattern.console as the default logging.pattern.console allows you to use logging.exception-converstion-word
+If you need to only filter out certain packages from exception stack trace.</description>
+    </item>
     
     <item>
       <title>Using EasyRandom with Spring Framework</title>

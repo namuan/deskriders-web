@@ -6,10 +6,21 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Feb 2022 10:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
+      <link>/posts/1645945892-til-spring-exception-logging/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/posts/1645945892-til-spring-exception-logging/</guid>
+      <description>This can go in the application.properties file.
+# Single line. Full stack trace will be captured in a single line logging.exception-conversion-word=%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated Single line. Only the exception message will be captured in a single line logging.exception-conversion-word=%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated. Default formatting but only capturing a single line logging.exception-conversion-word=%wEx{short} This works if you don&amp;rsquo;t override logging.pattern.console as the default logging.pattern.console allows you to use logging.exception-converstion-word
+If you need to only filter out certain packages from exception stack trace.</description>
+    </item>
     
     <item>
       <title>Auto generate documentation for python scripts in README.md file</title>
@@ -437,7 +448,7 @@ Features [] Publish API call description in Markdown format
       
       <guid>/posts/1591343684-plantuml-svg-export/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
-Requirements:  PlantUML: Direct Download  Place it where you can easily refer to it.
+Requirements  PlantUML: Direct Download  Place it where you can easily refer to it.
 nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
 function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
     </item>
