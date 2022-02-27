@@ -10,26 +10,26 @@
     <meta name="keywords" content="blog,developer">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Auto generate documentation for python scripts in README.md file"/>
-<meta name="twitter:description" content="A simple way to keep documentation in-sync with the scripts"/>
+<meta name="twitter:title" content="TIL :: Graphviz 👉 PNG with docker"/>
+<meta name="twitter:description" content="Converting a Graphviz dot file to png with a Docker image"/>
 
-    <meta property="og:title" content="Auto generate documentation for python scripts in README.md file" />
-<meta property="og:description" content="A simple way to keep documentation in-sync with the scripts" />
+    <meta property="og:title" content="TIL :: Graphviz 👉 PNG with docker" />
+<meta property="og:description" content="Converting a Graphviz dot file to png with a Docker image" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1644141796-auto-generate-readme/" />
-<meta property="article:published_time" content="2022-02-06T10:03:41+00:00" />
-<meta property="article:modified_time" content="2022-02-06T10:03:41+00:00" />
+<meta property="og:url" content="/posts/1645947154-graphviz-dot-png/" />
+<meta property="article:published_time" content="2022-02-27T07:33:19+00:00" />
+<meta property="article:modified_time" content="2022-02-27T07:33:19+00:00" />
 
 
     
-      <base href="/posts/1644141796-auto-generate-readme/">
+      <base href="/posts/1645947154-graphviz-dot-png/">
     
     <title>
-  Auto generate documentation for python scripts in README.md file · deskriders
+  TIL :: Graphviz 👉 PNG with docker · deskriders
 </title>
 
     
-      <link rel="canonical" href="/posts/1644141796-auto-generate-readme/">
+      <link rel="canonical" href="/posts/1645947154-graphviz-dot-png/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -105,14 +105,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Auto generate documentation for python scripts in README.md file</h1>
+          <h1 class="title">TIL :: Graphviz 👉 PNG with docker</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2022-02-06T10:03:41Z'>
-                February 6, 2022
+              <time datetime='2022-02-27T07:33:19Z'>
+                February 27, 2022
               </time>
             </span>
             <span class="reading-time">
@@ -120,24 +120,35 @@
               One minute read
             </span>
           </div>
-          
-          
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/til/">til</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/docker/">docker</a>
+      <span class="separator">•</span>
+    <a href="/tags/graphviz/">graphviz</a></div>
+
         </div>
       </header>
 
       <div>
-        <p>Here is a simple way to keep README document in-sync if you have a number of things to document.</p>
-<p>And it looks like this:</p>
-<p><img src="/images/2022/02/06/484506901615092.png" alt="Image"></p>
-<p>Each script needs to response to <code>--help</code> when called which is then collected and rendered into <code>README.md</code> between a set of pre-configured tokens.</p>
-<p><a href="https://github.com/namuan/bin-utils/blob/master/readme_docs.py">readme_docs.py</a> contains the code to generate this documentation.</p>
-<p>It is also <a href="https://github.com/namuan/bin-utils/blob/master/.pre-commit-config.yaml#L44">configured</a> as a pre-commit hook so that we always keep it up to date.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      - <span style="color:#66d9ef">id</span>: readme-docs
-        <span style="color:#66d9ef">name</span>: Readme documentation
-        <span style="color:#66d9ef">description</span>: Using [python help], inserts into README.md.
-        <span style="color:#66d9ef">entry</span>: python3 readme_docs.py
-        <span style="color:#66d9ef">language</span>: system
-        <span style="color:#66d9ef">pass_filenames</span>: <span style="color:#66d9ef">false</span>
+        <p>A simple Graphviz dot file. You could try generating <a href="https://www.deskriders.dev/posts/1640943229-brew-graph-highlight-edges/">brew dependencies graph</a></p>
+<p>Create a Docker image</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> alpine:3.5</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> mkdir /graphviz <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  apk add --update graphviz ttf-dejavu <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  rm -rf /var/cache/apk/*<span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /graphviz</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">CMD</span> dot -Tpng<span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>Build Docker image from this file</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker build -f Dockerfile -t namuan/dot2png .
+</code></pre></div><p>And then run it with the dot file</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat dependencies.dot | docker run --rm -i namuan/dot2png &gt; dependencies.png
 </code></pre></div>
       </div>
 
