@@ -15,6 +15,8 @@ date: 2021-12-29T15:46:00Z
 
 * Instant Pot Chicken and Rice -> https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
 
+* Instant Pot Rice -> https://www.pressurecookrecipes.com/instant-pot-rice/
+
 * Pépin’s broccoli stems and mushroom risotto -> https://lindyrecipe.com/main/pepins-broccoli-stems-and-mushroom-risotto/
 
 
