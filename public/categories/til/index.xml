@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>til on deskriders</title>
+    <link>/categories/til/</link>
+    <description>Recent content in til on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TIL :: Graphviz 👉 PNG with docker</title>
+      <link>/posts/1645947154-graphviz-dot-png/</link>
+      <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
+      
+      <guid>/posts/1645947154-graphviz-dot-png/</guid>
+      <description>A simple Graphviz dot file. You could try generating brew dependencies graph
+Create a Docker image
+FROMalpine:3.5RUN mkdir /graphviz &amp;amp;&amp;amp; \  apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \  rm -rf /var/cache/apk/*WORKDIR/graphvizCMD dot -TpngBuild Docker image from this file
+docker build -f Dockerfile -t namuan/dot2png . And then run it with the dot file
+cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png </description>
+    </item>
+    
+    <item>
+      <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
+      <link>/posts/1645945892-til-spring-exception-logging/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/posts/1645945892-til-spring-exception-logging/</guid>
+      <description>This can go in the application.properties file.
+# Single line. Full stack trace will be captured in a single line logging.exception-conversion-word=%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated Single line. Only the exception message will be captured in a single line logging.exception-conversion-word=%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated. Default formatting but only capturing a single line logging.exception-conversion-word=%wEx{short} This works if you don&amp;rsquo;t override logging.pattern.console as the default logging.pattern.console allows you to use logging.exception-converstion-word
+If you need to only filter out certain packages from exception stack trace.</description>
+    </item>
+    
+  </channel>
+</rss>

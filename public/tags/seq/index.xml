@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seq on deskriders</title>
+    <link>/tags/seq/</link>
+    <description>Recent content in seq on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/seq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tooltip 10 : Using seq to generate padded numbers</title>
+      <link>/posts/023-tooltip-10-seq-padded-numbers/</link>
+      <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
+      <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+    </item>
+    
+  </channel>
+</rss>

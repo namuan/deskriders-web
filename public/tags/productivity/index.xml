@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on deskriders</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in productivity on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Jan 2020 16:38:45 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tooltip # 1 :: Creating command line launcher for IntelliJ products</title>
+      <link>/posts/013-tooltip-1-creating-intellij-launcher/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
+      <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
+  </description>
+    </item>
+    
+    <item>
+      <title>A Simple setup to remember one-liners/code snippets</title>
+      <link>/posts/012-keeping-snippets/</link>
+      <pubDate>Mon, 27 Jan 2020 10:13:04 +0000</pubDate>
+      
+      <guid>/posts/012-keeping-snippets/</guid>
+      <description>Here is a simple setup explaining a comment I made on Reddit.
+All I have is a notes.txt under my home directory where the snippets (one-liners) are stored in the following format. Note that I don&amp;rsquo;t store block of code or longer text here as they&amp;rsquo;ll become difficult to search.
+find . -type f -name &amp;#39;*.txt&amp;#39; -exec sed -i &amp;#39;&amp;#39; s/this/that/g {} + # search and replace sed find It starts with the command then # and a brief comment on what it does.</description>
+    </item>
+    
+    <item>
+      <title>Introducing DevRider :: One Desktop App for Common Development Tools</title>
+      <link>/posts/010-introducing-devrider/</link>
+      <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
+      
+      <guid>/posts/010-introducing-devrider/</guid>
+      <description>There is a serious problem with the state of simple development tools on the internet.
+Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups which makes it annoying and risky to use.
+And then there is also a huge problem with privacy and leaking any private data that is used on any of these websites.
+Although it is impossible to replace them altogether, let me introduce you to DevRider, a new open source to provide some of the common tools in an extensible desktop application.</description>
+    </item>
+    
+  </channel>
+</rss>

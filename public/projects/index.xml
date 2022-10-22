@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on deskriders</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Aug 2021 09:27:38 +0000</lastBuildDate>
+    
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
+      <link>/projects/http-rider/</link>
+      <pubDate>Sun, 01 Dec 2019 12:21:06 +0000</pubDate>
+      
+      <guid>/projects/http-rider/</guid>
+      <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
+    
+Features: 🚀 Open source and Cross-Platform
+🚀 Lean and Faster than Java/Electron alternatives
+🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
+🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
+    </item>
+    
+    <item>
+      <title>TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies</title>
+      <link>/projects/trading-utils/</link>
+      <pubDate>Sun, 29 Aug 2021 09:27:38 +0000</pubDate>
+      
+      <guid>/projects/trading-utils/</guid>
+      <description>👉 https://github.com/namuan/trading-utils</description>
+    </item>
+    
+    <item>
+      <title>Kube Rider :: Desktop Kubernetes Client</title>
+      <link>/projects/kube-rider/</link>
+      <pubDate>Sun, 13 Oct 2019 08:46:20 +0000</pubDate>
+      
+      <guid>/projects/kube-rider/</guid>
+      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&amp;rsquo;t have to remember CLI options and arguments.
+Downloads Downloads are currently only available for MacOS.
+Mac OS App
+Features: 🚀 Uses kubectl so no extra configuration required
+🚀 Display kubectl commands for learning
+🚀 Context and Namespace switching
+🚀 Pod list and watching
+🚀 Create/Delete Pods
+🚀 List Pod containers and Events</description>
+    </item>
+    
+    <item>
+      <title>Dev Rider :: Development Tools/Utilities In One Place</title>
+      <link>/projects/dev-rider/</link>
+      <pubDate>Fri, 17 Jan 2020 08:46:26 +0000</pubDate>
+      
+      <guid>/projects/dev-rider/</guid>
+      <description>There is a serious problem with the state of simple development tools on the internet. Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups 😷 which makes it difficult and risky to use. And then there is also a huge problem with privacy 👀 and leaking any private data that is used on any of these websites.
+DevRider is an attempt to provide a desktop tool which includes a shell and addins for various utilities.</description>
+    </item>
+    
+    <item>
+      <title>Tube Stats :: Export Youtube Comments</title>
+      <link>/projects/tube-stats/</link>
+      <pubDate>Tue, 25 Dec 2018 09:27:30 +0000</pubDate>
+      
+      <guid>/projects/tube-stats/</guid>
+      <description>Completely serverless e-commerce service built using Python, Serverless Framework and DynamoDB and deployed on AWS Platform.
+👉 TubeStats.</description>
+    </item>
+    
+    <item>
+      <title>Docker Files :: Dockerfile(s) for NodeJS, Python, Java, Ruby etc</title>
+      <link>/projects/docker-files/</link>
+      <pubDate>Fri, 18 Jan 2019 09:27:38 +0000</pubDate>
+      
+      <guid>/projects/docker-files/</guid>
+      <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>One Page :: Simple ScratchPad</title>
+      <link>/projects/one-page/</link>
+      <pubDate>Thu, 13 Feb 2020 18:53:43 +0000</pubDate>
+      
+      <guid>/projects/one-page/</guid>
+      <description>OnePage is a simple cross-platform scratchpad.
+     
+👉 https://github.com/namuan/one-page
+Features 🚀 Only allows you to create a single note
+🚀 No possibility of creating multiple notes so your notes are always in front
+🚀 Single App across platforms
+🚀 Remove any formatting style
+🚀 Auto-save notes
+Downloads Downloads are currently available for MacOS and Windows.
+Mac OS App
+Windows App
+Linux from Source. Please check README.</description>
+    </item>
+    
+    <item>
+      <title>News Rider :: Personalised News</title>
+      <link>/projects/news-rider/</link>
+      <pubDate>Sat, 18 Jan 2020 09:27:57 +0000</pubDate>
+      
+      <guid>/projects/news-rider/</guid>
+      <description>Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi
+👉 NewsRider</description>
+    </item>
+    
+  </channel>
+</rss>

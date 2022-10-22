@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Implementing Features with Microservices Architecture"/>
+<meta name="twitter:description" content="An ongoing thought process on how to help with generating code when working on a microservices based architecture.
+In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
+1. Common Functionality We can classify the following responsibilities as common across multiple micro services
+ Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices."/>
+
+    <meta property="og:title" content="Implementing Features with Microservices Architecture" />
+<meta property="og:description" content="An ongoing thought process on how to help with generating code when working on a microservices based architecture.
+In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
+1. Common Functionality We can classify the following responsibilities as common across multiple micro services
+ Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/1640512228-implementing_features_micro_services/" />
+<meta property="article:published_time" content="2021-12-26T09:50:56+00:00" />
+<meta property="article:modified_time" content="2021-12-26T09:50:56+00:00" /><meta property="og:see_also" content="/posts/1640512515-project-idea-markdown-to-anything/" />
+
+
+
+    
+      <base href="/posts/1640512228-implementing_features_micro_services/">
+    
+    <title>
+  Implementing Features with Microservices Architecture · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/1640512228-implementing_features_micro_services/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.71.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Implementing Features with Microservices Architecture</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2021-12-26T09:50:56Z'>
+                December 26, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/ideas/">ideas</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>An ongoing thought process on how to help with generating code when working on a microservices based architecture.</p>
+<p>In most organisations I worked with, the usual microservices development model is <em>roughly</em> divided into two main parts.</p>
+<h3 id="1-common-functionality">1. Common Functionality</h3>
+<p>We can classify the following responsibilities as common across multiple micro services</p>
+<ul>
+<li>Build and deployment pipeline</li>
+<li>Logging destination and output</li>
+<li>Environment Configuration</li>
+<li>Publishing metrics</li>
+<li>Tracing across multiple services</li>
+<li>API request/response formats</li>
+<li>Handling Idempotency where applicable</li>
+</ul>
+<p>All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices. Hopefully these will be defined once and rarely change over time.</p>
+<h3 id="2-domain-specific-functionality">2. Domain Specific Functionality</h3>
+<p>In addition to the common functionality above, the following things are usually required when adding a new feature.</p>
+<ul>
+<li>Define API route</li>
+<li>Define API request input parameters</li>
+<li>Define/Validate API input parameters</li>
+<li>Define schemas for messaging</li>
+<li>Call external services. It could be over JSON/SOAP based webservices or Kafka/JMS for asynchronous processing</li>
+<li>Define schemas/migration scripts for database entities</li>
+<li>Call database for CRUD operations</li>
+<li>Format successful/error API responses</li>
+<li>Unit tests</li>
+<li>Component test with embedded databases and mocked stubs</li>
+<li>Generating API documentation</li>
+</ul>
+<p>A common implementation of a use case is defined as a sequence diagram here.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="/images/2021/12/26/tmp5x1i5mes.png" alt=""></p>
+
+      </div>
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in ideas</h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="/posts/1640512515-project-idea-markdown-to-anything/">[SaaS Idea] Markdown to ... converter</a>
+            </li>
+          
+        
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2022
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129728575-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>

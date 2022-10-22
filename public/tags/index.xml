@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on deskriders</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphviz</title>
+      <link>/tags/graphviz/</link>
+      <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
+      
+      <guid>/tags/graphviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logging</title>
+      <link>/tags/logging/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/tags/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>springboot</title>
+      <link>/tags/springboot/</link>
+      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
+      
+      <guid>/tags/springboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacker-news-links</title>
+      <link>/tags/hacker-news-links/</link>
+      <pubDate>Sun, 16 Jan 2022 16:15:50 +0000</pubDate>
+      
+      <guid>/tags/hacker-news-links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>/tags/ide/</link>
+      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
+      
+      <guid>/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ideas</title>
+      <link>/tags/ideas/</link>
+      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
+      
+      <guid>/tags/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>best-practices</title>
+      <link>/tags/best-practices/</link>
+      <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
+      
+      <guid>/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/tags/git/</link>
+      <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
+      
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Thu, 23 Dec 2021 18:40:25 +0000</pubDate>
+      
+      <guid>/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>selenium</title>
+      <link>/tags/selenium/</link>
+      <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
+      
+      <guid>/tags/selenium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json</title>
+      <link>/tags/json/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping</title>
+      <link>/tags/mapping/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wiremock</title>
+      <link>/tags/wiremock/</link>
+      <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
+      
+      <guid>/tags/wiremock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safari</title>
+      <link>/tags/safari/</link>
+      <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
+      
+      <guid>/tags/safari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finance</title>
+      <link>/tags/finance/</link>
+      <pubDate>Sat, 21 Nov 2020 10:13:22 +0000</pubDate>
+      
+      <guid>/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markets</title>
+      <link>/tags/markets/</link>
+      <pubDate>Sat, 21 Nov 2020 10:13:22 +0000</pubDate>
+      
+      <guid>/tags/markets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>products</title>
+      <link>/tags/products/</link>
+      <pubDate>Mon, 15 Jun 2020 20:33:16 +0100</pubDate>
+      
+      <guid>/tags/products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>/tags/architecture/</link>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      
+      <guid>/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>document</title>
+      <link>/tags/document/</link>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      
+      <guid>/tags/document/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>/tags/bash/</link>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      
+      <guid>/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plantuml</title>
+      <link>/tags/plantuml/</link>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      
+      <guid>/tags/plantuml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>/tags/tips/</link>
+      <pubDate>Thu, 14 May 2020 23:45:43 +0100</pubDate>
+      
+      <guid>/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gradle</title>
+      <link>/tags/gradle/</link>
+      <pubDate>Fri, 08 May 2020 15:00:06 +0100</pubDate>
+      
+      <guid>/tags/gradle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streams</title>
+      <link>/tags/streams/</link>
+      <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
+      
+      <guid>/tags/streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>/tags/cli/</link>
+      <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>find</title>
+      <link>/tags/find/</link>
+      <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/find/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svg</title>
+      <link>/tags/svg/</link>
+      <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/svg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>/tags/web/</link>
+      <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lsof</title>
+      <link>/tags/lsof/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/lsof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>/tags/networking/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seq</title>
+      <link>/tags/seq/</link>
+      <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jq</title>
+      <link>/tags/jq/</link>
+      <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/tags/jq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>motivation</title>
+      <link>/tags/motivation/</link>
+      <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
+      
+      <guid>/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csv</title>
+      <link>/tags/csv/</link>
+      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      
+      <guid>/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csvkit</title>
+      <link>/tags/csvkit/</link>
+      <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
+      
+      <guid>/tags/csvkit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>/tags/shell/</link>
+      <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
+      
+      <guid>/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maths</title>
+      <link>/tags/maths/</link>
+      <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
+      
+      <guid>/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>/tags/productivity/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utilities</title>
+      <link>/tags/utilities/</link>
+      <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
+      
+      <guid>/tags/utilities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>/tags/aws/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>/tags/serverless/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyqt5</title>
+      <link>/tags/pyqt5/</link>
+      <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
+      
+      <guid>/tags/pyqt5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>/tags/devops/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oauth2</title>
+      <link>/tags/oauth2/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/oauth2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>/tags/security/</link>
+      <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>/tags/testing/</link>
+      <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
+      
+      <guid>/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monitoring</title>
+      <link>/tags/monitoring/</link>
+      <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
+      
+      <guid>/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kuberider</title>
+      <link>/tags/kuberider/</link>
+      <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
+      
+      <guid>/tags/kuberider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packaging</title>
+      <link>/tags/packaging/</link>
+      <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
+      
+      <guid>/tags/packaging/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

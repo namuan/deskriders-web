@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serverless on deskriders</title>
+    <link>/tags/serverless/</link>
+    <description>Recent content in serverless on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developing API exchange sharing service - Part II</title>
+      <link>/posts/009-developing-api-exchange-2/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/posts/009-developing-api-exchange-2/</guid>
+      <description>Please check the previous part to know the background of this project.
+In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
+The first step is to create a new project folder and initialise package.</description>
+    </item>
+    
+    <item>
+      <title>Developing API exchange sharing service - Part I</title>
+      <link>/posts/008-developing-api-exchange-1/</link>
+      <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
+      
+      <guid>/posts/008-developing-api-exchange-1/</guid>
+      <description>In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using Flask python framework and deploying it on AWS Lambda and API gateway.
+This API is used from HttpRider to save API exchanges (request+response).
+Here is a sample page generated from HttpRider.
+Demo The service itself consists of two simple APIs.
+POST /prints Saves the HTML encoded in base64 in dynamo database. Once it is saved, it returns the URL of the shared document in the Location header of the response.</description>
+    </item>
+    
+  </channel>
+</rss>

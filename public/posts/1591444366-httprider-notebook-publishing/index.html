@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Publishing Notebooks with HttpRider"/>
+<meta name="twitter:description" content="Design document for implementing notebooks with HttpRider"/>
+
+    <meta property="og:title" content="Publishing Notebooks with HttpRider" />
+<meta property="og:description" content="Design document for implementing notebooks with HttpRider" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/1591444366-httprider-notebook-publishing/" />
+<meta property="article:published_time" content="2020-06-06T11:53:52+01:00" />
+<meta property="article:modified_time" content="2020-06-06T11:53:52+01:00" /><meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
+
+
+
+    
+      <base href="/posts/1591444366-httprider-notebook-publishing/">
+    
+    <title>
+  Publishing Notebooks with HttpRider · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/1591444366-httprider-notebook-publishing/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.71.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Publishing Notebooks with HttpRider</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-06-06T11:53:52&#43;01:00'>
+                June 6, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3 minutes read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/document/">document</a>
+      <span class="separator">•</span>
+    <a href="/tags/architecture/">architecture</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Preliminary design document for implementing notebooks with HttpRider.</p>
+<p>This feature enables the user to publish interactive API notebooks.
+These interactive API notebooks can be used to document a scenario where an individual API call doesn&rsquo;t make sense without the context around it.</p>
+<h4 id="features">Features</h4>
+<p>[] Publish API call description in Markdown format</p>
+<p>[] Publish API call as curl commands</p>
+<p>[] Allow user of the notebook to run curl commands interactively</p>
+<p>[] Track the response of the commands and use the output to chain other calls</p>
+<p>[] A Notebook can only be published from the HttpRider application</p>
+<p>[] A Notebook can be shared publicly using a unique URL</p>
+<p>[] A Notebook can be shared with another user</p>
+<p>[] A Notebook can be shared with another team</p>
+<h4 id="how-it-works">How it works</h4>
+<p>There will be three different entities involved in a usual use case. The desktop application [App] which talks to the server [Server] and the client [Client] to render the notebook</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[App] Generates q unique identifier to identify the app (So that we can link the notebooks with the App) and it can be used later to link the user to the notebooks and the App
+[App] Button to publish the selected API calls
+[App] Opens up a modal dialog box to show preview
+[App] User is allowed to update description text or the curl commands in the preview window
+[App] User click on the Send button
+[App] POST /notebooks along with the content of the API Calls
+[Server] Receives the POST request and generates a unique identifier of the notebook after saving the request in the database
+[Server] Returns the Location (Header) of the notebook with HTTP 201
+[App] Validates that the response code is HTTP 201 and display the generated link to the user
+[App] User clicks on the link
+[App] Opens up the URL in the default browser
+[Client] Handles the Notebook URL and extract the unique identifier
+[Client] Makes a call to the server to get the notebook data
+[Client] Renders the notebook along with the buttons to run curl commands
+[Client] User clicks on the button to run curl command
+[Client] Validates that all the required variables are provided for running the curl command
+[Client] If any variable is missing then opens up a modal form to ask for the missing variables
+[Client] Once pre-condition is satisfied, it packages up the curl command and send it to server
+[Server] Receives the command and run it against the target
+[Server] Receives the response back from the target and return it back to the client
+[Client] Receives the response from the server and renders in below the curl command
+[Client] Extracts variables from the response and updates subsequence curl commands with the variable values
+</code></pre></div><h4 id="data-model">Data Model</h4>
+<p>We have three different entities</p>
+<p>Notebook</p>
+<table>
+<thead>
+<tr>
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>unique identifier</td>
+</tr>
+<tr>
+<td>publisher</td>
+<td>user_id</td>
+</tr>
+<tr>
+<td>unique_link</td>
+<td>url safe random identifier</td>
+</tr>
+<tr>
+<td>shared_with</td>
+<td>List of { id, type } where id the user or team identifier and type in [USER, TEAM]</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>User</p>
+<table>
+<thead>
+<tr>
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>user unique identifier</td>
+</tr>
+<tr>
+<td>email</td>
+<td>user email</td>
+</tr>
+<tr>
+<td>invited_by</td>
+<td>user identifier for the invitee</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Team</p>
+<table>
+<thead>
+<tr>
+<th>Fields</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>unique identifier</td>
+</tr>
+<tr>
+<td>user_list</td>
+<td>List of {id, role} where id is user unique identifier and role in [ADMIN, MEMBER]</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in httprider</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="/posts/004-httprider-performance-testing/">Performance testing with HttpRider</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="/posts/003-httprider-generating-bdd-tests/">Generating BDD tests with HttpRider</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="/posts/002-httprider-generating-runscope-monitoring-tests/">Generating Runscope monitoring tests with HttpRider</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="/posts/001-httprider-generating-sequence-diagrams/">Generating sequence diagrams with HttpRider</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2022
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129728575-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/projects/http-rider/</loc>
+    <lastmod>2019-12-01T12:21:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/trading-utils/</loc>
+    <lastmod>2021-08-29T09:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/kube-rider/</loc>
+    <lastmod>2019-10-13T08:46:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/dev-rider/</loc>
+    <lastmod>2020-01-17T08:46:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/tube-stats/</loc>
+    <lastmod>2018-12-25T09:27:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/docker-files/</loc>
+    <lastmod>2019-01-18T09:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/graphviz/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/til/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1645947154-graphviz-dot-png/</loc>
+    <lastmod>2022-02-27T07:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/java/</loc>
+    <lastmod>2022-02-27T06:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/logging/</loc>
+    <lastmod>2022-02-27T06:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/springboot/</loc>
+    <lastmod>2022-02-27T06:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1645945892-til-spring-exception-logging/</loc>
+    <lastmod>2022-02-27T06:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1644141796-auto-generate-readme/</loc>
+    <lastmod>2022-02-06T10:03:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-tools-you-have-made-for-yourself/</loc>
+    <lastmod>2022-01-16T16:15:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hacker-news-links/</loc>
+    <lastmod>2022-01-16T16:15:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-which-tools-have-made-you-a-much-better-programmer/</loc>
+    <lastmod>2022-01-16T15:24:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-are-some-tools-libraries-you-built-yourself/</loc>
+    <lastmod>2022-01-03T12:35:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640943229-brew-graph-highlight-edges/</loc>
+    <lastmod>2022-01-03T10:38:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-did-you-make-during-lockdown/</loc>
+    <lastmod>2022-01-02T17:10:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1641130250-cli-streamline-projects/</loc>
+    <lastmod>2022-01-02T13:32:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-is-there-still-a-place-for-native-desktop-apps/</loc>
+    <lastmod>2021-12-31T12:57:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/cooking/</loc>
+    <lastmod>2021-12-29T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/interesting/</loc>
+    <lastmod>2021-12-29T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/</loc>
+    <lastmod>2021-12-29T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</loc>
+    <lastmod>2021-12-29T15:37:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</loc>
+    <lastmod>2021-12-27T21:12:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-programs-that-saved-you-100-hours/</loc>
+    <lastmod>2021-12-26T17:14:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640512515-project-idea-markdown-to-anything/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ide/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ideas/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/ideas/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2021-12-26T09:56:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640512228-implementing_features_micro_services/</loc>
+    <lastmod>2021-12-26T09:50:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</loc>
+    <lastmod>2021-12-25T10:52:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/best-practices/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640339806-setting-up-git-commit-template/</loc>
+    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</loc>
+    <lastmod>2021-12-23T21:12:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</loc>
+    <lastmod>2021-12-23T20:13:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1640280913-working-with-asdf/</loc>
+    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-automation-tools-have-you-used-to-replace-mundane-activities-hacker-news/</loc>
+    <lastmod>2021-12-22T08:44:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-what-do-you-automate-in-your-life-and-work-hacker-news/</loc>
+    <lastmod>2021-12-22T08:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</loc>
+    <lastmod>2021-12-21T22:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/developer/</loc>
+    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/testing/</loc>
+    <lastmod>2021-12-19T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/selenium/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1639863087-python-selenium/</loc>
+    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/json/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mapping/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/tooltips/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/wiremock/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1639311183-wiremock-match-multiple-urls/</loc>
+    <lastmod>2021-12-12T12:13:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1638735561-safari-export-bookmarks/</loc>
+    <lastmod>2021-12-05T20:19:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/safari/</loc>
+    <lastmod>2021-12-05T20:19:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2021-08-29T09:27:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1605953563-etfs-momentum-report/</loc>
+    <lastmod>2020-11-21T10:13:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/finance/</loc>
+    <lastmod>2020-11-21T10:13:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/markets/</loc>
+    <lastmod>2020-11-21T10:13:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/orkestra/</loc>
+    <lastmod>2020-06-15T20:33:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591776555-orkestra-day-3/</loc>
+    <lastmod>2020-06-15T20:33:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/products/</loc>
+    <lastmod>2020-06-15T20:33:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591735673-orkestra-day-2/</loc>
+    <lastmod>2020-06-09T21:10:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591300238_orkestra_day1/</loc>
+    <lastmod>2020-06-06T15:13:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/architecture/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/document/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/httprider/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591444366-httprider-notebook-publishing/</loc>
+    <lastmod>2020-06-06T11:53:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bash/</loc>
+    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plantuml/</loc>
+    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591343684-plantuml-svg-export/</loc>
+    <lastmod>2020-06-05T07:47:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/1591301414-plantuml-shortcut/</loc>
+    <lastmod>2020-06-04T22:11:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tips/</loc>
+    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/029-easy-random-spring-boot/</loc>
+    <lastmod>2020-05-14T23:45:43+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gradle/</loc>
+    <lastmod>2020-05-08T15:00:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/028-gradle-contract-tests/</loc>
+    <lastmod>2020-05-08T15:00:06+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/027-java-collectors-reducer/</loc>
+    <lastmod>2020-04-19T13:05:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/streams/</loc>
+    <lastmod>2020-04-19T13:05:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cli/</loc>
+    <lastmod>2020-02-16T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/find/</loc>
+    <lastmod>2020-02-16T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/026-tooltip-13-cli-functions-find/</loc>
+    <lastmod>2020-02-16T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/one-page/</loc>
+    <lastmod>2020-02-13T18:53:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/svg/</loc>
+    <lastmod>2020-02-10T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/025-tooltip-12-svgo-optimize-svg-files/</loc>
+    <lastmod>2020-02-10T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2020-02-10T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/lsof/</loc>
+    <lastmod>2020-02-07T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/networking/</loc>
+    <lastmod>2020-02-07T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/024-tooltip-11-lsof-open-ports-pids/</loc>
+    <lastmod>2020-02-07T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/seq/</loc>
+    <lastmod>2020-02-06T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/023-tooltip-10-seq-padded-numbers/</loc>
+    <lastmod>2020-02-06T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jq/</loc>
+    <lastmod>2020-02-05T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/021-tooltip-9-constructing-new-structure-jq/</loc>
+    <lastmod>2020-02-05T08:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/020-tooltip-8-extracting-items-contains-jq/</loc>
+    <lastmod>2020-02-04T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/019-tooltip-7-selecting-nested-array-items-jq/</loc>
+    <lastmod>2020-02-03T08:05:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/indiedev/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/022-january2020-progress-report/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/motivation/</loc>
+    <lastmod>2020-02-02T09:10:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
+    <lastmod>2020-02-02T07:45:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/csv/</loc>
+    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/csvkit/</loc>
+    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/017-tooltip-5-converting-csv-to-json/</loc>
+    <lastmod>2020-02-01T08:00:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/016-tooltip-4-converting-json-to-csv/</loc>
+    <lastmod>2020-01-31T08:00:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/015-tooltip-3-reading-file-line-by-line/</loc>
+    <lastmod>2020-01-30T09:24:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maths/</loc>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/014-tooltip-2-simple-maths-bc/</loc>
+    <lastmod>2020-01-29T08:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>
+    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/012-keeping-snippets/</loc>
+    <lastmod>2020-01-27T10:13:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/011-deskrider-january-releases/</loc>
+    <lastmod>2020-01-26T17:21:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/devrider/</loc>
+    <lastmod>2020-01-25T19:05:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/010-introducing-devrider/</loc>
+    <lastmod>2020-01-25T19:05:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/utilities/</loc>
+    <lastmod>2020-01-25T19:05:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/to-sort/</loc>
+    <lastmod>2020-01-20T09:45:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/news-rider/</loc>
+    <lastmod>2020-01-18T09:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/products/</loc>
+    <lastmod>2020-01-15T10:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2020-01-15T10:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-15T10:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/009-developing-api-exchange-2/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/serverless/</loc>
+    <lastmod>2020-01-03T18:51:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/007-pyqt5-overlay-button-widget/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pyqt5/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2020-01-02T11:51:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/008-developing-api-exchange-1/</loc>
+    <lastmod>2020-01-01T16:51:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/devops/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/oauth2/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/005-protecting-applications-oauth2-proxy/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/security/</loc>
+    <lastmod>2019-11-23T10:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/004-httprider-performance-testing/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/testing/</loc>
+    <lastmod>2019-11-16T16:24:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/003-httprider-generating-bdd-tests/</loc>
+    <lastmod>2019-10-28T11:30:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/002-httprider-generating-runscope-monitoring-tests/</loc>
+    <lastmod>2019-10-27T11:30:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/monitoring/</loc>
+    <lastmod>2019-10-27T11:30:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/001-httprider-generating-sequence-diagrams/</loc>
+    <lastmod>2019-10-13T07:45:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kuberider/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/006-kuberider-bundling-macosx-release/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/packaging/</loc>
+    <lastmod>2019-08-26T08:32:55+00:00</lastmod>
+  </url>
+  
+</urlset>

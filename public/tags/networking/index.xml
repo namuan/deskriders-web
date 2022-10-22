@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networking on deskriders</title>
+    <link>/tags/networking/</link>
+    <description>Recent content in networking on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2020 08:06:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tooltip 11 : Using lsof to list all open ports and process identifiers</title>
+      <link>/posts/024-tooltip-11-lsof-open-ports-pids/</link>
+      <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
+      
+      <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
+      <description>In this short clip, we&amp;rsquo;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+  📝:
+👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
+    </item>
+    
+  </channel>
+</rss>

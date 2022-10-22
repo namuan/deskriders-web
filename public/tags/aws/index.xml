@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on deskriders</title>
+    <link>/tags/aws/</link>
+    <description>Recent content in aws on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developing API exchange sharing service - Part II</title>
+      <link>/posts/009-developing-api-exchange-2/</link>
+      <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
+      
+      <guid>/posts/009-developing-api-exchange-2/</guid>
+      <description>Please check the previous part to know the background of this project.
+In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
+The first step is to create a new project folder and initialise package.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on deskriders</title>
+    <link>/notes/</link>
+    <description>Recent content in Notes on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Dec 2021 15:46:00 +0000</lastBuildDate>
+    
+	<atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cooking</title>
+      <link>/notes/cooking/</link>
+      <pubDate>Wed, 29 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/cooking/</guid>
+      <description>InstantPot   Recipes -&amp;gt; https://www.pressurecookrecipes.com/
+  Instant Pot Potato Salad -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-potato-salad/
+  Instant Pot Lentil Curry -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentil-curry/
+  Instant Pot Lentils -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentils/
+  Instant Pot Chicken and Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
+  Instant Pot Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-rice/
+  Pépin’s broccoli stems and mushroom risotto -&amp;gt; https://lindyrecipe.com/main/pepins-broccoli-stems-and-mushroom-risotto/
+  Accessories
+ https://www.amazon.co.uk/Stainless-Multifunction-Basket-Pressure-Steamer/dp/B075SXP2Z8  Vitamix   Hummus -&amp;gt; https://www.vitamix.com/us/en_us/recipes/hummus
+  Pesto Sauce -&amp;gt; https://www.</description>
+    </item>
+    
+    <item>
+      <title>Interesting</title>
+      <link>/notes/interesting/</link>
+      <pubDate>Wed, 29 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/interesting/</guid>
+      <description>GBP Purchasing power decline
+Droplet and Airborne transmission
+ The distinction between droplet and airborne transmission has enormous consequences. To combat droplets, a leading precaution is to wash hands frequently with soap and water. To fight infectious aerosols, the air itself is the enemy. In hospitals, that means expensive isolation wards and N95 masks for all medical staff.
+ </description>
+    </item>
+    
+    <item>
+      <title>Development Apps/Tools/Tips and Tricks</title>
+      <link>/notes/developer/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/developer/</guid>
+      <description>Apps  HTTP Toolkit -&amp;gt; https://httptoolkit.tech/ Intercept &amp;amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&amp;gt; https://github.com/httptoolkit  QuickDraw
+Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
+Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find .</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>/notes/testing/</link>
+      <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
+      
+      <guid>/notes/testing/</guid>
+      <description>Notes </description>
+    </item>
+    
+    <item>
+      <title>Random (To be sorted)</title>
+      <link>/notes/to-sort/</link>
+      <pubDate>Mon, 20 Jan 2020 09:45:05 +0000</pubDate>
+      
+      <guid>/notes/to-sort/</guid>
+      <description>Websites   Amazon Machine learning courses -&amp;gt; https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
+  Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com
+  Publishing blog/documentation using MKdocs -&amp;gt; https://github.com/tiangolo/dockerswarm.rocks
+  https://awslabs.github.io/smithy/quickstart.html
+  Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
+  Alfred update script -&amp;gt; https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
+  PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/</description>
+    </item>
+    
+  </channel>
+</rss>
