@@ -33,6 +33,21 @@
   </url>
   
   <url>
+    <loc>/notes/jwt/</loc>
+    <lastmod>2022-10-22T15:03:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/</loc>
+    <lastmod>2022-10-22T15:03:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/mouseless-mac/</loc>
+    <lastmod>2022-10-22T15:03:14+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2022-02-27T07:33:19+00:00</lastmod>
   </url>
@@ -139,11 +154,6 @@
   
   <url>
     <loc>/notes/interesting/</loc>
-    <lastmod>2021-12-29T15:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
     <lastmod>2021-12-29T15:46:00+00:00</lastmod>
   </url>
   

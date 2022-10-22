@@ -81,6 +81,30 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>JSON Web Tokens (JWT)</title>
+      <link>/notes/jwt/</link>
+      <pubDate>Sat, 22 Oct 2022 15:03:22 +0100</pubDate>
+      
+      <guid>/notes/jwt/</guid>
+      <description>Why you should not use JWT HN
+Why JWTs Suck as Session Tokens
+Related The complete guide to protecting your APIs with OAuth2 (part 1) HN</description>
+    </item>
+    
+    <item>
+      <title>Mouseless Mac</title>
+      <link>/notes/mouseless-mac/</link>
+      <pubDate>Sat, 22 Oct 2022 15:03:14 +0100</pubDate>
+      
+      <guid>/notes/mouseless-mac/</guid>
+      <description>Excellent article linking together a number of tools
+Browser
+Mac Desktop
+IntelliJ
+Shortcat</description>
+    </item>
+    
+    <item>
       <title>TIL :: Graphviz 👉 PNG with docker</title>
       <link>/posts/1645947154-graphviz-dot-png/</link>
       <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
