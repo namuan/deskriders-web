@@ -81,6 +81,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>JSON Command line power tools</title>
+      <link>/posts/1666983482-json-power-tools/</link>
+      <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
+      
+      <guid>/posts/1666983482-json-power-tools/</guid>
+      <description>JQ :: command-line JSON processor https://stedolan.github.io/jq/
+Tutorial
+Cheatsheet
+JTab :: Json data as a formatted table https://github.com/wlezzar/jtab
+gron :: Make JSON greppable https://github.com/tomnomnom/gron
+fx (Function eXecution) :: Interactive JSON Viewer https://github.com/antonmedv/fx</description>
+    </item>
+    
+    <item>
       <title>JSON Web Tokens (JWT)</title>
       <link>/notes/jwt/</link>
       <pubDate>Sat, 22 Oct 2022 15:03:22 +0100</pubDate>

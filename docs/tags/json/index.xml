@@ -6,10 +6,24 @@
     <description>Recent content in json on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Dec 2021 12:13:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
     
 	<atom:link href="/tags/json/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JSON Command line power tools</title>
+      <link>/posts/1666983482-json-power-tools/</link>
+      <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
+      
+      <guid>/posts/1666983482-json-power-tools/</guid>
+      <description>JQ :: command-line JSON processor https://stedolan.github.io/jq/
+Tutorial
+Cheatsheet
+JTab :: Json data as a formatted table https://github.com/wlezzar/jtab
+gron :: Make JSON greppable https://github.com/tomnomnom/gron
+fx (Function eXecution) :: Interactive JSON Viewer https://github.com/antonmedv/fx</description>
+    </item>
     
     <item>
       <title>Wiremock: How to match multiple urls in a single mapping</title>
