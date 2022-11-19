@@ -6,10 +6,32 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 19 Nov 2022 12:43:03 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Links] Ask HN: Do you recall any book or course that made a topic finally click?</title>
+      <link>/posts/links-ask-hn-do-you-recall-any-book-or-course-that-made-a-topic-finally-click/</link>
+      <pubDate>Sat, 19 Nov 2022 12:43:03 +0000</pubDate>
+      
+      <guid>/posts/links-ask-hn-do-you-recall-any-book-or-course-that-made-a-topic-finally-click/</guid>
+      <description>🍊 Link
+🌎 Stanford Engineering Everywhere | EE261 - The Fourier Transform and its Applications
+🌎 Practical Deep Learning for Coders - Practical Deep Learning
+🌎 How to Design Programs
+🌎 Design of Computer Programs | Udacity Free Courses
+🌎 Crafting Interpreters
+🌎 https://www.youtube.com/watch?v=8aGhZQkoFbQ
+🌎 https://www.youtube.com/watch?v=rivBfgaEyWQ
+🌎 https://www.youtube.com/watch?v=JRNToFh3hxU
+🌎 https://www.youtube.com/watch?v=_8gHHBlbziw
+🌎 https://www.youtube.com/watch?v=cCOL7MC4Pl0
+🌎 https://www.youtube.com/watch?v=KJP1E-Y-xyo
+🌎 Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript | Tania Rascia
+🌎 Python Asyncio: The Complete Guide</description>
+    </item>
     
     <item>
       <title>JSON Command line power tools</title>

@@ -6,10 +6,19 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 19 Nov 2022 12:43:03 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hacker-news-links</title>
+      <link>/tags/hacker-news-links/</link>
+      <pubDate>Sat, 19 Nov 2022 12:43:03 +0000</pubDate>
+      
+      <guid>/tags/hacker-news-links/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>commandline</title>
@@ -71,15 +80,6 @@
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
       
       <guid>/tags/springboot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hacker-news-links</title>
-      <link>/tags/hacker-news-links/</link>
-      <pubDate>Sun, 16 Jan 2022 16:15:50 +0000</pubDate>
-      
-      <guid>/tags/hacker-news-links/</guid>
       <description></description>
     </item>
     
