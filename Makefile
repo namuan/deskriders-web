@@ -36,6 +36,9 @@ new: ## Hugo command to create a new entry
 	echo "Run /bin-utils/publish_vnote_to_hugo.py"
 	echo "OR hugo new (posts|notes|projects)/next-title.md"
 
+new-post: ## Create a new post with the given title (Use this with title=blah blah)
+	hugo new posts/`date +%s`-$(title).md
+
 deploy: generate ## Deploys to Netlify staging environment
 	netlify deploy --prod --dir=docs
 
