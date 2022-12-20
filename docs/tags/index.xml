@@ -6,10 +6,33 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Nov 2022 12:43:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Dec 2022 09:57:16 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>javafx</title>
+      <link>/tags/javafx/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/tags/javafx/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kotlin</title>
+      <link>/tags/kotlin/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/tags/kotlin/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>logging</title>
+      <link>/tags/logging/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/tags/logging/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hacker-news-links</title>
@@ -66,29 +89,11 @@
     </item>
     
     <item>
-      <title>logging</title>
-      <link>/tags/logging/</link>
-      <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      
-      <guid>/tags/logging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>springboot</title>
       <link>/tags/springboot/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
       
       <guid>/tags/springboot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ide</title>
-      <link>/tags/ide/</link>
-      <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
-      
-      <guid>/tags/ide/</guid>
       <description></description>
     </item>
     
@@ -194,7 +199,7 @@
     <item>
       <title>products</title>
       <link>/tags/products/</link>
-      <pubDate>Mon, 15 Jun 2020 20:33:16 +0100</pubDate>
+      <pubDate>Mon, 15 Jun 2020 20:33:16 +0000</pubDate>
       
       <guid>/tags/products/</guid>
       <description></description>
@@ -203,7 +208,7 @@
     <item>
       <title>architecture</title>
       <link>/tags/architecture/</link>
-      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
       
       <guid>/tags/architecture/</guid>
       <description></description>
@@ -212,7 +217,7 @@
     <item>
       <title>document</title>
       <link>/tags/document/</link>
-      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
       
       <guid>/tags/document/</guid>
       <description></description>
@@ -221,7 +226,7 @@
     <item>
       <title>bash</title>
       <link>/tags/bash/</link>
-      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
       
       <guid>/tags/bash/</guid>
       <description></description>
@@ -230,7 +235,7 @@
     <item>
       <title>plantuml</title>
       <link>/tags/plantuml/</link>
-      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
       
       <guid>/tags/plantuml/</guid>
       <description></description>
@@ -377,6 +382,15 @@
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
       
       <guid>/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>/tags/ide/</link>
+      <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
+      
+      <guid>/tags/ide/</guid>
       <description></description>
     </item>
     

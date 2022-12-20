@@ -6,11 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jan 2020 10:32:46 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 20 Dec 2022 09:57:16 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -18,7 +14,6 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-    
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
 🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
@@ -78,6 +73,17 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Kotlin Logging with SLF4J and Logback</title>
+      <link>/posts/1671530224-kotlin-logging/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/posts/1671530224-kotlin-logging/</guid>
+      <description>Add depedencies in pom.xml or gradle file
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.github.microutils&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;kotlin-logging-jvm&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${kotlin-logging-jvm.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;ch.qos.logback&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;logback-classic&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${logback-classic.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; Configure logback.xml file in src/main/resources/logback.xml. The following file configures a File appender. It logs it in a file under $HOME/.gptfx/application.log as it is used for a JavaFX application.
+&amp;lt;configuration&amp;gt; &amp;lt;appender name=&amp;#34;FILE&amp;#34; class=&amp;#34;ch.qos.logback.core.FileAppender&amp;#34;&amp;gt; &amp;lt;file&amp;gt;${user.home}/.gptfx/application.log&amp;lt;/file&amp;gt; &amp;lt;encoder&amp;gt; &amp;lt;pattern&amp;gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&amp;lt;/pattern&amp;gt; &amp;lt;/encoder&amp;gt; &amp;lt;/appender&amp;gt; &amp;lt;root level=&amp;#34;debug&amp;#34;&amp;gt; &amp;lt;appender-ref ref=&amp;#34;FILE&amp;#34;/&amp;gt; &amp;lt;/root&amp;gt; &amp;lt;/configuration&amp;gt; If the project is using Java Modules then add the following two lines to grant access to required apis.</description>
     </item>
     
     <item>
@@ -148,7 +154,7 @@ Shortcat</description>
       <guid>/posts/1645947154-graphviz-dot-png/</guid>
       <description>A simple Graphviz dot file. You could try generating brew dependencies graph
 Create a Docker image
-FROMalpine:3.5RUN mkdir /graphviz &amp;amp;&amp;amp; \  apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \  rm -rf /var/cache/apk/*WORKDIR/graphvizCMD dot -TpngBuild Docker image from this file
+FROM alpine:3.5 RUN mkdir /graphviz &amp;amp;&amp;amp; \ apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \ rm -rf /var/cache/apk/* WORKDIR /graphviz CMD dot -Tpng Build Docker image from this file
 docker build -f Dockerfile -t namuan/dot2png . And then run it with the dot file
 cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png </description>
     </item>
@@ -294,16 +300,20 @@ TARGET_DIR=&amp;#34;../tele-muninn&amp;#34;; echo &amp;#39;.pre-commit-config.ya
       <pubDate>Wed, 29 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/cooking/</guid>
-      <description>InstantPot   Recipes -&amp;gt; https://www.pressurecookrecipes.com/
-  Instant Pot Potato Salad -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-potato-salad/
-  Instant Pot Lentil Curry -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentil-curry/
-  Instant Pot Lentils -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentils/
-  Instant Pot Chicken and Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
-  Instant Pot Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-rice/
-  Pépin’s broccoli stems and mushroom risotto -&amp;gt; https://lindyrecipe.com/main/pepins-broccoli-stems-and-mushroom-risotto/
-  Accessories
- https://www.amazon.co.uk/Stainless-Multifunction-Basket-Pressure-Steamer/dp/B075SXP2Z8  Vitamix   Hummus -&amp;gt; https://www.vitamix.com/us/en_us/recipes/hummus
-  Pesto Sauce -&amp;gt; https://www.</description>
+      <description>InstantPot Recipes -&amp;gt; https://www.pressurecookrecipes.com/
+Instant Pot Potato Salad -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-potato-salad/
+Instant Pot Lentil Curry -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentil-curry/
+Instant Pot Lentils -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-lentils/
+Instant Pot Chicken and Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-chicken-and-rice/
+Instant Pot Rice -&amp;gt; https://www.pressurecookrecipes.com/instant-pot-rice/
+Pépin’s broccoli stems and mushroom risotto -&amp;gt; https://lindyrecipe.com/main/pepins-broccoli-stems-and-mushroom-risotto/
+Accessories
+https://www.amazon.co.uk/Stainless-Multifunction-Basket-Pressure-Steamer/dp/B075SXP2Z8 Vitamix Hummus -&amp;gt; https://www.vitamix.com/us/en_us/recipes/hummus
+Pesto Sauce -&amp;gt; https://www.vitamix.com/us/en_us/recipes/pesto-sauce
+Lunch Ideas *Smoky beans &amp;amp; baked eggs -&amp;gt; https://www.bbcgoodfood.com/recipes/smoky-beans-baked-eggs
+Sesame chicken noodles -&amp;gt; https://www.bbcgoodfood.com/recipes/sesame-chicken-noodles
+Super-salad wraps -&amp;gt; https://www.bbcgoodfood.com/recipes/super-salad-wraps
+Pasta salad with tuna mayo -&amp;gt; https://www.</description>
     </item>
     
     <item>
@@ -314,8 +324,7 @@ TARGET_DIR=&amp;#34;../tele-muninn&amp;#34;; echo &amp;#39;.pre-commit-config.ya
       <guid>/notes/interesting/</guid>
       <description>GBP Purchasing power decline
 Droplet and Airborne transmission
- The distinction between droplet and airborne transmission has enormous consequences. To combat droplets, a leading precaution is to wash hands frequently with soap and water. To fight infectious aerosols, the air itself is the enemy. In hospitals, that means expensive isolation wards and N95 masks for all medical staff.
- </description>
+The distinction between droplet and airborne transmission has enormous consequences. To combat droplets, a leading precaution is to wash hands frequently with soap and water. To fight infectious aerosols, the air itself is the enemy. In hospitals, that means expensive isolation wards and N95 masks for all medical staff.</description>
     </item>
     
     <item>
@@ -373,8 +382,8 @@ pip3 install helium Python code
       
       <guid>/posts/1640512515-project-idea-markdown-to-anything/</guid>
       <description>Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc
- Release 1.0: Feature: Convert Markdown to Confluence
-Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document  Technology [] Subdomain - markdown.</description>
+Release 1.0: Feature: Convert Markdown to Confluence
+Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document Technology [] Subdomain - markdown.</description>
     </item>
     
     <item>
@@ -386,7 +395,7 @@ Scenario: Successfully post Markdown document Given: a Markdown document When: J
       <description>An ongoing thought process on how to help with generating code when working on a microservices based architecture.
 In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
 1. Common Functionality We can classify the following responsibilities as common across multiple micro services
- Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
+Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
     </item>
     
     <item>
@@ -413,7 +422,7 @@ In most organisations I worked with, the usual microservices development model i
       
       <guid>/posts/1640339806-setting-up-git-commit-template/</guid>
       <description>How to setup a global Git commit template to remind you to write good commit messages.
- Here is the template I like to use just to remind me about different keywords when using conventional commit
+Here is the template I like to use just to remind me about different keywords when using conventional commit
 --- fix: PATCH (Semantic versioning) .. fix! for beaking change feat: MINOR (Semantic versioning) .. feat! for breaking change build:, chore:, ci:, docs:, style:, refactor:, perf:, test: BREAKING CHANGE: extends key in config file is now used for extending other config files Create a file with the template.</description>
     </item>
     
@@ -526,9 +535,9 @@ asdf plugin-add java https://github.com/halcyon/asdf-java.git List all available
       <pubDate>Sun, 19 Dec 2021 15:46:00 +0000</pubDate>
       
       <guid>/notes/developer/</guid>
-      <description>Apps  HTTP Toolkit -&amp;gt; https://httptoolkit.tech/ Intercept &amp;amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&amp;gt; https://github.com/httptoolkit  QuickDraw
+      <description>Apps HTTP Toolkit -&amp;gt; https://httptoolkit.tech/ Intercept &amp;amp; view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors Open source -&amp;gt; https://github.com/httptoolkit QuickDraw
 Found quickdraw which is an app for drawing over the screen. Unfortunately, it doesn&amp;rsquo;t seem to provide any packages, and I&amp;rsquo;m unable to build it locally. A similar application which is quite good is Pensela.
-Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find .</description>
+Command Line Tools ImageMagick Resize a bunch of images using ImageMagick find .</description>
     </item>
     
     <item>
@@ -547,7 +556,7 @@ Command Line Tools  ImageMagick Resize a bunch of images using ImageMagick  find
       
       <guid>/posts/1639863087-python-selenium/</guid>
       <description>Here is a quick example to use Helium.
-Steps:  Install dependencies using pip or add it to requirements.txt and run pip3 install -r requirements.txt  pip3 install helium # or pip3 install -r requirements.txt Create a python file and paste the following code.  #!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; Demonstrates how to use helium to automate a web browser. &amp;#34;&amp;#34;&amp;#34; from helium import start_firefox def main(): driver = start_firefox() driver.execute_script(&amp;#34;window.alert(&amp;#39;Hello World&amp;#39;)&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() Here I&amp;rsquo;m using Firefox but it is easy to switch to Chrome.</description>
+Steps: Install dependencies using pip or add it to requirements.txt and run pip3 install -r requirements.txt pip3 install helium # or pip3 install -r requirements.txt Create a python file and paste the following code. #!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; Demonstrates how to use helium to automate a web browser. &amp;#34;&amp;#34;&amp;#34; from helium import start_firefox def main(): driver = start_firefox() driver.execute_script(&amp;#34;window.alert(&amp;#39;Hello World&amp;#39;)&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() Here I&amp;rsquo;m using Firefox but it is easy to switch to Chrome.</description>
     </item>
     
     <item>
@@ -568,9 +577,9 @@ java -jar wiremock-jre8-standalone-2.32.0.jar Here we are setting multiple URLs 
       
       <guid>/posts/1638735561-safari-export-bookmarks/</guid>
       <description>open ~/Library/Safari
-  Copy the Safari bookmarks file to your desktop.
-  Then run the following command to get the list of links
-  plutil -convert xml1 -o - Bookmarks.plist | grep -E -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39; References
+Copy the Safari bookmarks file to your desktop.
+Then run the following command to get the list of links
+plutil -convert xml1 -o - Bookmarks.plist | grep -E -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39; References
 https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431</description>
     </item>
     
@@ -581,14 +590,16 @@ https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris
       
       <guid>/posts/1605953563-etfs-momentum-report/</guid>
       <description>ETF Momentum Report Top 20 Macro ETFs based on momentum on week ending 2020-11-21
-XLI (Industrials)    Metric Value     Momentum 20.83   3 Months Gain 11.04 times   Yearly Gain 1.76 times    Links:
-Y Finance| Y Chart| BarChart| ChartMill| StockInvest| TradingView EWJ (Japan)    Metric Value     Momentum 12.67   3 Months Gain 9.</description>
+XLI (Industrials) Metric Value Momentum 20.83 3 Months Gain 11.04 times Yearly Gain 1.76 times Links:
+Y Finance | Y Chart | BarChart | ChartMill | StockInvest | TradingView
+EWJ (Japan) Metric Value Momentum 12.67 3 Months Gain 9.54 times Yearly Gain 1.47 times Links:
+Y Finance | Y Chart | BarChart | ChartMill | StockInvest | TradingView</description>
     </item>
     
     <item>
       <title>Orkestra - Support for Environments</title>
       <link>/posts/1591776555-orkestra-day-3/</link>
-      <pubDate>Mon, 15 Jun 2020 20:33:16 +0100</pubDate>
+      <pubDate>Mon, 15 Jun 2020 20:33:16 +0000</pubDate>
       
       <guid>/posts/1591776555-orkestra-day-3/</guid>
       <description>Environment is a major core feature for Orkestra. In the latest changes, I implemented support for configuring environments.
@@ -599,30 +610,29 @@ Here is a demo of the partial functionality implemented.</description>
     <item>
       <title>Orkestra Day 2 - MVC and Toolbar menu button</title>
       <link>/posts/1591735673-orkestra-day-2/</link>
-      <pubDate>Tue, 09 Jun 2020 21:10:56 +0100</pubDate>
+      <pubDate>Tue, 09 Jun 2020 21:10:56 +0000</pubDate>
       
       <guid>/posts/1591735673-orkestra-day-2/</guid>
       <description>Add a couple of things since last time.
- Create a &amp;ldquo;Default&amp;rdquo; folder and populate on start up Add a toolbar button menu to add different step type  As part of updating folders, I refactored a bunch of things. There is now an AppWorld which kinda holds a number of things. It provides access to data stores and other infrastructure components.
+Create a &amp;ldquo;Default&amp;rdquo; folder and populate on start up Add a toolbar button menu to add different step type As part of updating folders, I refactored a bunch of things. There is now an AppWorld which kinda holds a number of things. It provides access to data stores and other infrastructure components.
 Here is a how folders update when the application starts.</description>
     </item>
     
     <item>
       <title>Orkestra Day 1</title>
       <link>/posts/1591300238_orkestra_day1/</link>
-      <pubDate>Sat, 06 Jun 2020 15:13:42 +0100</pubDate>
+      <pubDate>Sat, 06 Jun 2020 15:13:42 +0000</pubDate>
       
       <guid>/posts/1591300238_orkestra_day1/</guid>
       <description>Started working on the core shell of the application. Here is what it looks like after a session in Qt Designer
-  The Notes scratch pad is functional with persistence. The toolbar has a configuration button which opens up a dialog with a couple of tabs.
-Here is the walkthrough video of using Qt Creator to develop this layout
-  </description>
+The Notes scratch pad is functional with persistence. The toolbar has a configuration button which opens up a dialog with a couple of tabs.
+Here is the walkthrough video of using Qt Creator to develop this layout</description>
     </item>
     
     <item>
       <title>Publishing Notebooks with HttpRider</title>
       <link>/posts/1591444366-httprider-notebook-publishing/</link>
-      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
       
       <guid>/posts/1591444366-httprider-notebook-publishing/</guid>
       <description>Preliminary design document for implementing notebooks with HttpRider.
@@ -636,11 +646,11 @@ Features [] Publish API call description in Markdown format
     <item>
       <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
       <link>/posts/1591343684-plantuml-svg-export/</link>
-      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
       
       <guid>/posts/1591343684-plantuml-svg-export/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
-Requirements  PlantUML: Direct Download  Place it where you can easily refer to it.
+Requirements PlantUML: Direct Download Place it where you can easily refer to it.
 nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
 function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
     </item>
@@ -648,12 +658,13 @@ function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LI
     <item>
       <title>Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</title>
       <link>/posts/1591301414-plantuml-shortcut/</link>
-      <pubDate>Thu, 04 Jun 2020 22:11:58 +0100</pubDate>
+      <pubDate>Thu, 04 Jun 2020 22:11:58 +0000</pubDate>
       
       <guid>/posts/1591301414-plantuml-shortcut/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
-Requirements:  PlantUML: Direct Download  Download it where you can easily refer to it.
-nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</description>
+Requirements: PlantUML: Direct Download Download it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
+function plantuml() { NAME=$1 cat $NAME | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
     </item>
     
     <item>
@@ -700,7 +711,7 @@ GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
       
       <guid>/posts/026-tooltip-13-cli-functions-find/</guid>
       <description>In this tooltip, we&amp;rsquo;ll create a simple function to find files in the current directory tree using find.
-  📝:
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -711,7 +722,6 @@ GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
       
       <guid>/projects/one-page/</guid>
       <description>OnePage is a simple cross-platform scratchpad.
-     
 👉 https://github.com/namuan/one-page
 Features 🚀 Only allows you to create a single note
 🚀 No possibility of creating multiple notes so your notes are always in front
@@ -721,7 +731,7 @@ Features 🚀 Only allows you to create a single note
 Downloads Downloads are currently available for MacOS and Windows.
 Mac OS App
 Windows App
-Linux from Source. Please check README.</description>
+Linux from Source. Please check README.md for instructions</description>
     </item>
     
     <item>
@@ -731,7 +741,7 @@ Linux from Source. Please check README.</description>
       
       <guid>/posts/025-tooltip-12-svgo-optimize-svg-files/</guid>
       <description>In this short video, we&amp;rsquo;ll use &amp;lsquo;svgo&amp;rsquo; tool to optimise SVG files. In this case, it reduces the SVG size by almost 50%.
-  📝:
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Github: https://github.com/svg/svgo
 👉 NPM: https://npmjs.org/package/svgo</description>
@@ -743,8 +753,8 @@ Linux from Source. Please check README.</description>
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
       
       <guid>/posts/024-tooltip-11-lsof-open-ports-pids/</guid>
-      <description>In this short clip, we&amp;rsquo;ll look at &amp;lsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
-  📝:
+      <description>In this short clip, we&amp;rsquo;ll look at &amp;rsquo;lsof&amp;rsquo;, a simple tool on MacOS to list all open ports and get their process identifiers.
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux 👉 ManPage: https://linux.die.net/man/8/lsof 👉 Reference to other commands: https://www.howtoforge.com/linux-lsof-command/</description>
     </item>
     
@@ -755,7 +765,7 @@ Linux from Source. Please check README.</description>
       
       <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
       <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
-  📝:
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -766,7 +776,7 @@ Linux from Source. Please check README.</description>
       
       <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -778,7 +788,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -790,7 +800,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -818,7 +828,7 @@ February Goals: 📝 Add links to MindBook to buy books
       
       <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -830,7 +840,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using csvjson utility from csvkit to convert CSV to JSON.
-Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+Requirements: csvkit: https://csvkit.readthedocs.io/en/latest/ (sudo) pip install csvkit 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -841,7 +851,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       
       <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using in2sec utility from csvkit to convert JSON to CSV.
-Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+Requirements: csvkit: https://csvkit.readthedocs.io/en/latest/ (sudo) pip install csvkit 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Used http://next.json-generator.com to generate JSON document</description>
     </item>
@@ -853,7 +863,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       
       <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using for and while loop to process each line in a file.
-  📝:
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -864,7 +874,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       
       <guid>/posts/014-tooltip-2-simple-maths-bc/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using a simple command line tool bc to basic maths.
-  Notes 📝:
+Notes 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 References:
 ⎘ https://fedoramagazine.org/bc-command-line-calculator/</description>
@@ -877,8 +887,7 @@ References:
       
       <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
       <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
-In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
-  </description>
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.</description>
     </item>
     
     <item>
@@ -926,13 +935,14 @@ Although it is impossible to replace them altogether, let me introduce you to De
       <pubDate>Mon, 20 Jan 2020 09:45:05 +0000</pubDate>
       
       <guid>/notes/to-sort/</guid>
-      <description>Websites   Amazon Machine learning courses -&amp;gt; https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
-  Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com
-  Publishing blog/documentation using MKdocs -&amp;gt; https://github.com/tiangolo/dockerswarm.rocks
-  https://awslabs.github.io/smithy/quickstart.html
-  Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
-  Alfred update script -&amp;gt; https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
-  PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/</description>
+      <description>Websites Amazon Machine learning courses -&amp;gt; https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
+Simple but very useful website to format Markdown tables -&amp;gt; http://markdowntable.com
+Publishing blog/documentation using MKdocs -&amp;gt; https://github.com/tiangolo/dockerswarm.rocks
+https://awslabs.github.io/smithy/quickstart.html
+Smithy is an interface definition language and set of tools that allows developers to build clients and servers in multiple languages.
+Alfred update script -&amp;gt; https://github.com/sballin/alfred-search-notes-app/blob/master/update.py
+PlantUml Cheat Sheet -&amp;gt; https://ogom.github.io/draw_uml/plantuml/
+The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis -&amp;gt; https://gchq.</description>
     </item>
     
     <item>
@@ -1056,7 +1066,7 @@ Once the tests have successfully finished, click on the export/export all button
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
 In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
- HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
+HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     
     <item>

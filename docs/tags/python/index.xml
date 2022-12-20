@@ -6,11 +6,7 @@
     <description>Recent content in python on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Dec 2021 12:23:12 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 19 Dec 2021 12:23:12 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using helium - a Selenium API wrapper</title>
       <link>/posts/1639863087-python-selenium/</link>
@@ -18,7 +14,7 @@
       
       <guid>/posts/1639863087-python-selenium/</guid>
       <description>Here is a quick example to use Helium.
-Steps:  Install dependencies using pip or add it to requirements.txt and run pip3 install -r requirements.txt  pip3 install helium # or pip3 install -r requirements.txt Create a python file and paste the following code.  #!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; Demonstrates how to use helium to automate a web browser. &amp;#34;&amp;#34;&amp;#34; from helium import start_firefox def main(): driver = start_firefox() driver.execute_script(&amp;#34;window.alert(&amp;#39;Hello World&amp;#39;)&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() Here I&amp;rsquo;m using Firefox but it is easy to switch to Chrome.</description>
+Steps: Install dependencies using pip or add it to requirements.txt and run pip3 install -r requirements.txt pip3 install helium # or pip3 install -r requirements.txt Create a python file and paste the following code. #!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; Demonstrates how to use helium to automate a web browser. &amp;#34;&amp;#34;&amp;#34; from helium import start_firefox def main(): driver = start_firefox() driver.execute_script(&amp;#34;window.alert(&amp;#39;Hello World&amp;#39;)&amp;#34;) if __name__ == &amp;#34;__main__&amp;#34;: main() Here I&amp;rsquo;m using Firefox but it is easy to switch to Chrome.</description>
     </item>
     
     <item>
@@ -113,7 +109,7 @@ Once the tests have successfully finished, click on the export/export all button
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
 In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
- HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
+HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     
   </channel>

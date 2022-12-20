@@ -16,9 +16,10 @@
     <meta property="og:title" content="Publishing Notebooks with HttpRider" />
 <meta property="og:description" content="Design document for implementing notebooks with HttpRider" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1591444366-httprider-notebook-publishing/" />
-<meta property="article:published_time" content="2020-06-06T11:53:52+01:00" />
-<meta property="article:modified_time" content="2020-06-06T11:53:52+01:00" /><meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
+<meta property="og:url" content="/posts/1591444366-httprider-notebook-publishing/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-06-06T11:53:52+00:00" />
+<meta property="article:modified_time" content="2020-06-06T11:53:52+00:00" />
+<meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
 
 
 
@@ -62,7 +63,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -112,7 +113,7 @@
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-06-06T11:53:52&#43;01:00'>
+              <time datetime='2020-06-06T11:53:52Z'>
                 June 6, 2020
               </time>
             </span>
@@ -146,29 +147,29 @@ These interactive API notebooks can be used to document a scenario where an indi
 <p>[] A Notebook can be shared with another team</p>
 <h4 id="how-it-works">How it works</h4>
 <p>There will be three different entities involved in a usual use case. The desktop application [App] which talks to the server [Server] and the client [Client] to render the notebook</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[App] Generates q unique identifier to identify the app (So that we can link the notebooks with the App) and it can be used later to link the user to the notebooks and the App
-[App] Button to publish the selected API calls
-[App] Opens up a modal dialog box to show preview
-[App] User is allowed to update description text or the curl commands in the preview window
-[App] User click on the Send button
-[App] POST /notebooks along with the content of the API Calls
-[Server] Receives the POST request and generates a unique identifier of the notebook after saving the request in the database
-[Server] Returns the Location (Header) of the notebook with HTTP 201
-[App] Validates that the response code is HTTP 201 and display the generated link to the user
-[App] User clicks on the link
-[App] Opens up the URL in the default browser
-[Client] Handles the Notebook URL and extract the unique identifier
-[Client] Makes a call to the server to get the notebook data
-[Client] Renders the notebook along with the buttons to run curl commands
-[Client] User clicks on the button to run curl command
-[Client] Validates that all the required variables are provided for running the curl command
-[Client] If any variable is missing then opens up a modal form to ask for the missing variables
-[Client] Once pre-condition is satisfied, it packages up the curl command and send it to server
-[Server] Receives the command and run it against the target
-[Server] Receives the response back from the target and return it back to the client
-[Client] Receives the response from the server and renders in below the curl command
-[Client] Extracts variables from the response and updates subsequence curl commands with the variable values
-</code></pre></div><h4 id="data-model">Data Model</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[App] Generates q unique identifier to identify the app (So that we can link the notebooks with the App) and it can be used later to link the user to the notebooks and the App
+</span></span><span style="display:flex;"><span>[App] Button to publish the selected API calls
+</span></span><span style="display:flex;"><span>[App] Opens up a modal dialog box to show preview
+</span></span><span style="display:flex;"><span>[App] User is allowed to update description text or the curl commands in the preview window
+</span></span><span style="display:flex;"><span>[App] User click on the Send button
+</span></span><span style="display:flex;"><span>[App] POST /notebooks along with the content of the API Calls
+</span></span><span style="display:flex;"><span>[Server] Receives the POST request and generates a unique identifier of the notebook after saving the request in the database
+</span></span><span style="display:flex;"><span>[Server] Returns the Location (Header) of the notebook with HTTP 201
+</span></span><span style="display:flex;"><span>[App] Validates that the response code is HTTP 201 and display the generated link to the user
+</span></span><span style="display:flex;"><span>[App] User clicks on the link
+</span></span><span style="display:flex;"><span>[App] Opens up the URL in the default browser
+</span></span><span style="display:flex;"><span>[Client] Handles the Notebook URL and extract the unique identifier
+</span></span><span style="display:flex;"><span>[Client] Makes a call to the server to get the notebook data
+</span></span><span style="display:flex;"><span>[Client] Renders the notebook along with the buttons to run curl commands
+</span></span><span style="display:flex;"><span>[Client] User clicks on the button to run curl command
+</span></span><span style="display:flex;"><span>[Client] Validates that all the required variables are provided for running the curl command
+</span></span><span style="display:flex;"><span>[Client] If any variable is missing then opens up a modal form to ask for the missing variables
+</span></span><span style="display:flex;"><span>[Client] Once pre-condition is satisfied, it packages up the curl command and send it to server
+</span></span><span style="display:flex;"><span>[Server] Receives the command and run it against the target
+</span></span><span style="display:flex;"><span>[Server] Receives the response back from the target and return it back to the client
+</span></span><span style="display:flex;"><span>[Client] Receives the response from the server and renders in below the curl command
+</span></span><span style="display:flex;"><span>[Client] Extracts variables from the response and updates subsequence curl commands with the variable values
+</span></span></code></pre></div><h4 id="data-model">Data Model</h4>
 <p>We have three different entities</p>
 <p>Notebook</p>
 <table>
@@ -355,7 +356,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

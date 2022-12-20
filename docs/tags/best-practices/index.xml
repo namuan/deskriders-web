@@ -6,11 +6,7 @@
     <description>Recent content in best-practices on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Dec 2021 10:06:01 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 24 Dec 2021 10:06:01 +0000</lastBuildDate><atom:link href="/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up Git commit template</title>
       <link>/posts/1640339806-setting-up-git-commit-template/</link>
@@ -18,7 +14,7 @@
       
       <guid>/posts/1640339806-setting-up-git-commit-template/</guid>
       <description>How to setup a global Git commit template to remind you to write good commit messages.
- Here is the template I like to use just to remind me about different keywords when using conventional commit
+Here is the template I like to use just to remind me about different keywords when using conventional commit
 --- fix: PATCH (Semantic versioning) .. fix! for beaking change feat: MINOR (Semantic versioning) .. feat! for breaking change build:, chore:, ci:, docs:, style:, refactor:, perf:, test: BREAKING CHANGE: extends key in config file is now used for extending other config files Create a file with the template.</description>
     </item>
     

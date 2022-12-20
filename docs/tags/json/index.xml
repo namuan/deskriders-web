@@ -6,11 +6,7 @@
     <description>Recent content in json on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/json/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate><atom:link href="/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JSON Command line power tools</title>
       <link>/posts/1666983482-json-power-tools/</link>
@@ -43,7 +39,7 @@ java -jar wiremock-jre8-standalone-2.32.0.jar Here we are setting multiple URLs 
       
       <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -55,7 +51,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -67,7 +63,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -79,7 +75,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using jq to filter JSON arrays.
-Requirements:  jq: https://stedolan.github.io/jq/    📝:
+Requirements: jq: https://stedolan.github.io/jq/ 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Although jq is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.</description>
     </item>
@@ -91,7 +87,7 @@ Requirements:  jq: https://stedolan.github.io/jq/    📝:
       
       <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using csvjson utility from csvkit to convert CSV to JSON.
-Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+Requirements: csvkit: https://csvkit.readthedocs.io/en/latest/ (sudo) pip install csvkit 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -102,7 +98,7 @@ Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip inst
       
       <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using in2sec utility from csvkit to convert JSON to CSV.
-Requirements:  csvkit: https://csvkit.readthedocs.io/en/latest/  (sudo) pip install csvkit    📝:
+Requirements: csvkit: https://csvkit.readthedocs.io/en/latest/ (sudo) pip install csvkit 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 👉 Used http://next.json-generator.com to generate JSON document</description>
     </item>

@@ -16,9 +16,10 @@
     <meta property="og:title" content="Export Reading list from Safari" />
 <meta property="og:description" content="Steps to export your Safari reading list to a bookmarks file" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1638735561-safari-export-bookmarks/" />
+<meta property="og:url" content="/posts/1638735561-safari-export-bookmarks/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-05T20:19:36+00:00" />
-<meta property="article:modified_time" content="2021-12-05T20:19:36+00:00" /><meta property="og:see_also" content="/posts/1639311183-wiremock-match-multiple-urls/" /><meta property="og:see_also" content="/posts/1591343684-plantuml-svg-export/" /><meta property="og:see_also" content="/posts/1591301414-plantuml-shortcut/" /><meta property="og:see_also" content="/posts/026-tooltip-13-cli-functions-find/" /><meta property="og:see_also" content="/posts/025-tooltip-12-svgo-optimize-svg-files/" />
+<meta property="article:modified_time" content="2021-12-05T20:19:36+00:00" />
+<meta property="og:see_also" content="/posts/1639311183-wiremock-match-multiple-urls/" /><meta property="og:see_also" content="/posts/1591343684-plantuml-svg-export/" /><meta property="og:see_also" content="/posts/1591301414-plantuml-shortcut/" /><meta property="og:see_also" content="/posts/026-tooltip-13-cli-functions-find/" /><meta property="og:see_also" content="/posts/025-tooltip-12-svgo-optimize-svg-files/" />
 
 
 
@@ -62,7 +63,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -142,8 +143,8 @@
 <p>Then run the following command to get the list of links</p>
 </li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">plutil -convert xml1 -o - Bookmarks.plist | grep -E  -o &#39;&lt;string&gt;http[s]{0,1}://.*&lt;/string&gt;&#39; | grep -v icloud | sed -E &#39;s/&lt;\/{0,1}string&gt;//g&#39;
-</code></pre></div><p><strong>References</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>plutil -convert xml1 -o - Bookmarks.plist | grep -E  -o &#39;&lt;string&gt;http[s]{0,1}://.*&lt;/string&gt;&#39; | grep -v icloud | sed -E &#39;s/&lt;\/{0,1}string&gt;//g&#39;
+</span></span></code></pre></div><p><strong>References</strong></p>
 <p><a href="https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431">https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431</a></p>
 
       </div>
@@ -243,7 +244,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

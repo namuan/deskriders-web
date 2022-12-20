@@ -6,10 +6,17 @@
     <description>Recent content in logging on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/logging/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 20 Dec 2022 09:57:16 +0000</lastBuildDate><atom:link href="/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotlin Logging with SLF4J and Logback</title>
+      <link>/posts/1671530224-kotlin-logging/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/posts/1671530224-kotlin-logging/</guid>
+      <description>Add depedencies in pom.xml or gradle file
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.github.microutils&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;kotlin-logging-jvm&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${kotlin-logging-jvm.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;ch.qos.logback&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;logback-classic&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${logback-classic.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; Configure logback.xml file in src/main/resources/logback.xml. The following file configures a File appender. It logs it in a file under $HOME/.gptfx/application.log as it is used for a JavaFX application.
+&amp;lt;configuration&amp;gt; &amp;lt;appender name=&amp;#34;FILE&amp;#34; class=&amp;#34;ch.qos.logback.core.FileAppender&amp;#34;&amp;gt; &amp;lt;file&amp;gt;${user.home}/.gptfx/application.log&amp;lt;/file&amp;gt; &amp;lt;encoder&amp;gt; &amp;lt;pattern&amp;gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&amp;lt;/pattern&amp;gt; &amp;lt;/encoder&amp;gt; &amp;lt;/appender&amp;gt; &amp;lt;root level=&amp;#34;debug&amp;#34;&amp;gt; &amp;lt;appender-ref ref=&amp;#34;FILE&amp;#34;/&amp;gt; &amp;lt;/root&amp;gt; &amp;lt;/configuration&amp;gt; If the project is using Java Modules then add the following two lines to grant access to required apis.</description>
+    </item>
     
     <item>
       <title>TIL :: Log Exceptions on a single line with Spring Boot</title>

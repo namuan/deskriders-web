@@ -6,10 +6,17 @@
     <description>Recent content in til on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/til/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 20 Dec 2022 09:57:16 +0000</lastBuildDate><atom:link href="/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kotlin Logging with SLF4J and Logback</title>
+      <link>/posts/1671530224-kotlin-logging/</link>
+      <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
+      
+      <guid>/posts/1671530224-kotlin-logging/</guid>
+      <description>Add depedencies in pom.xml or gradle file
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.github.microutils&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;kotlin-logging-jvm&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${kotlin-logging-jvm.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;ch.qos.logback&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;logback-classic&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;${logback-classic.version}&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; Configure logback.xml file in src/main/resources/logback.xml. The following file configures a File appender. It logs it in a file under $HOME/.gptfx/application.log as it is used for a JavaFX application.
+&amp;lt;configuration&amp;gt; &amp;lt;appender name=&amp;#34;FILE&amp;#34; class=&amp;#34;ch.qos.logback.core.FileAppender&amp;#34;&amp;gt; &amp;lt;file&amp;gt;${user.home}/.gptfx/application.log&amp;lt;/file&amp;gt; &amp;lt;encoder&amp;gt; &amp;lt;pattern&amp;gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&amp;lt;/pattern&amp;gt; &amp;lt;/encoder&amp;gt; &amp;lt;/appender&amp;gt; &amp;lt;root level=&amp;#34;debug&amp;#34;&amp;gt; &amp;lt;appender-ref ref=&amp;#34;FILE&amp;#34;/&amp;gt; &amp;lt;/root&amp;gt; &amp;lt;/configuration&amp;gt; If the project is using Java Modules then add the following two lines to grant access to required apis.</description>
+    </item>
     
     <item>
       <title>TIL :: Graphviz 👉 PNG with docker</title>
@@ -19,7 +26,7 @@
       <guid>/posts/1645947154-graphviz-dot-png/</guid>
       <description>A simple Graphviz dot file. You could try generating brew dependencies graph
 Create a Docker image
-FROMalpine:3.5RUN mkdir /graphviz &amp;amp;&amp;amp; \  apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \  rm -rf /var/cache/apk/*WORKDIR/graphvizCMD dot -TpngBuild Docker image from this file
+FROM alpine:3.5 RUN mkdir /graphviz &amp;amp;&amp;amp; \ apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \ rm -rf /var/cache/apk/* WORKDIR /graphviz CMD dot -Tpng Build Docker image from this file
 docker build -f Dockerfile -t namuan/dot2png . And then run it with the dot file
 cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png </description>
     </item>

@@ -6,11 +6,7 @@
     <description>Recent content in springboot on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate><atom:link href="/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
       <link>/posts/1645945892-til-spring-exception-logging/</link>

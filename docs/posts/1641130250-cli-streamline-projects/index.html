@@ -20,9 +20,10 @@ TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile 
 It is run from a project which is already up to date and it requires having diffmerge available in your PATH.
 TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile init-new-project.sh init-template.sh .flake8 setup.cfg .github/actions/python-poetry-env/action.yml .github/workflows/build.yml .github/workflows/dependencies.yml .github/workflows/publish.yml pyproject.toml&#39; | while read file; do echo &#34;Comparing: $file&#34;; test -f &#34;$TARGET_DIR/$file&#34; || cp $file &#34;$TARGET_DIR/$file&#34;; diffmerge &#34;$file&#34; &#34;$TARGET_DIR/$file&#34;; done; cd $TARGET_DIR Once it finishes, you&rsquo;ll end up in the target folder which changes can be manually reviewed and committed." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1641130250-cli-streamline-projects/" />
+<meta property="og:url" content="/posts/1641130250-cli-streamline-projects/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-01-02T13:32:35+00:00" />
 <meta property="article:modified_time" content="2022-01-02T13:32:35+00:00" />
+
 
 
     
@@ -65,7 +66,7 @@ TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile 
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -132,18 +133,18 @@ TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile 
       <div>
         <p>Here is a command I run to compare and streamline multiple projects.</p>
 <p>It is run from a project which is already up to date and it requires having <code>diffmerge</code> available in your PATH.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">TARGET_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;../tele-muninn&#34;</span>; echo <span style="color:#e6db74">&#39;.pre-commit-config.yaml
-</span><span style="color:#e6db74">Makefile
-</span><span style="color:#e6db74">init-new-project.sh
-</span><span style="color:#e6db74">init-template.sh
-</span><span style="color:#e6db74">.flake8
-</span><span style="color:#e6db74">setup.cfg
-</span><span style="color:#e6db74">.github/actions/python-poetry-env/action.yml
-</span><span style="color:#e6db74">.github/workflows/build.yml
-</span><span style="color:#e6db74">.github/workflows/dependencies.yml
-</span><span style="color:#e6db74">.github/workflows/publish.yml
-</span><span style="color:#e6db74">pyproject.toml&#39;</span> | <span style="color:#66d9ef">while</span> read file; <span style="color:#66d9ef">do</span> echo <span style="color:#e6db74">&#34;Comparing: </span>$file<span style="color:#e6db74">&#34;</span>; test -f <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">||</span> cp $file <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span>; diffmerge <span style="color:#e6db74">&#34;</span>$file<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span>; <span style="color:#66d9ef">done</span>; cd $TARGET_DIR
-</code></pre></div><p>Once it finishes, you&rsquo;ll end up in the target folder which changes can be manually reviewed and committed.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>TARGET_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;../tele-muninn&#34;</span>; echo <span style="color:#e6db74">&#39;.pre-commit-config.yaml
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Makefile
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">init-new-project.sh
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">init-template.sh
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">.flake8
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">setup.cfg
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">.github/actions/python-poetry-env/action.yml
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">.github/workflows/build.yml
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">.github/workflows/dependencies.yml
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">.github/workflows/publish.yml
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pyproject.toml&#39;</span> | <span style="color:#66d9ef">while</span> read file; <span style="color:#66d9ef">do</span> echo <span style="color:#e6db74">&#34;Comparing: </span>$file<span style="color:#e6db74">&#34;</span>; test -f <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">||</span> cp $file <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span>; diffmerge <span style="color:#e6db74">&#34;</span>$file<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$TARGET_DIR<span style="color:#e6db74">/</span>$file<span style="color:#e6db74">&#34;</span>; <span style="color:#66d9ef">done</span>; cd $TARGET_DIR
+</span></span></code></pre></div><p>Once it finishes, you&rsquo;ll end up in the target folder which changes can be manually reviewed and committed.</p>
 
       </div>
 
@@ -194,7 +195,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

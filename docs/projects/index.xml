@@ -6,11 +6,7 @@
     <description>Recent content in Projects on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Aug 2021 09:27:38 +0000</lastBuildDate>
-    
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 29 Aug 2021 09:27:38 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -18,7 +14,6 @@
       
       <guid>/projects/http-rider/</guid>
       <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-    
 Features: 🚀 Open source and Cross-Platform
 🚀 Lean and Faster than Java/Electron alternatives
 🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
@@ -87,7 +82,6 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/one-page/</guid>
       <description>OnePage is a simple cross-platform scratchpad.
-     
 👉 https://github.com/namuan/one-page
 Features 🚀 Only allows you to create a single note
 🚀 No possibility of creating multiple notes so your notes are always in front
@@ -97,7 +91,7 @@ Features 🚀 Only allows you to create a single note
 Downloads Downloads are currently available for MacOS and Windows.
 Mac OS App
 Windows App
-Linux from Source. Please check README.</description>
+Linux from Source. Please check README.md for instructions</description>
     </item>
     
     <item>

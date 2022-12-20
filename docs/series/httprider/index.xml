@@ -6,15 +6,11 @@
     <description>Recent content in httprider on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jun 2020 11:53:52 +0100</lastBuildDate>
-    
-	<atom:link href="/series/httprider/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 06 Jun 2020 11:53:52 +0000</lastBuildDate><atom:link href="/series/httprider/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publishing Notebooks with HttpRider</title>
       <link>/posts/1591444366-httprider-notebook-publishing/</link>
-      <pubDate>Sat, 06 Jun 2020 11:53:52 +0100</pubDate>
+      <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
       
       <guid>/posts/1591444366-httprider-notebook-publishing/</guid>
       <description>Preliminary design document for implementing notebooks with HttpRider.
@@ -68,7 +64,7 @@ Once the tests have successfully finished, click on the export/export all button
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
 In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
- HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
+HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     
   </channel>

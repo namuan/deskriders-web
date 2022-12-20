@@ -6,11 +6,7 @@
     <description>Recent content in ideas on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Dec 2021 09:56:42 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 Dec 2021 09:56:42 +0000</lastBuildDate><atom:link href="/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[SaaS Idea] Markdown to ... converter</title>
       <link>/posts/1640512515-project-idea-markdown-to-anything/</link>
@@ -18,8 +14,8 @@
       
       <guid>/posts/1640512515-project-idea-markdown-to-anything/</guid>
       <description>Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc
- Release 1.0: Feature: Convert Markdown to Confluence
-Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document  Technology [] Subdomain - markdown.</description>
+Release 1.0: Feature: Convert Markdown to Confluence
+Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document Technology [] Subdomain - markdown.</description>
     </item>
     
     <item>
@@ -31,7 +27,7 @@ Scenario: Successfully post Markdown document Given: a Markdown document When: J
       <description>An ongoing thought process on how to help with generating code when working on a microservices based architecture.
 In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
 1. Common Functionality We can classify the following responsibilities as common across multiple micro services
- Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
+Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
     </item>
     
   </channel>

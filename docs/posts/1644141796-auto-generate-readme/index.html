@@ -16,9 +16,10 @@
     <meta property="og:title" content="Auto generate documentation for python scripts in README.md file" />
 <meta property="og:description" content="A simple way to keep documentation in-sync with the scripts" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1644141796-auto-generate-readme/" />
+<meta property="og:url" content="/posts/1644141796-auto-generate-readme/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-06T10:03:41+00:00" />
 <meta property="article:modified_time" content="2022-02-06T10:03:41+00:00" />
+
 
 
     
@@ -61,7 +62,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -132,13 +133,13 @@
 <p>Each script needs to response to <code>--help</code> when called which is then collected and rendered into <code>README.md</code> between a set of pre-configured tokens.</p>
 <p><a href="https://github.com/namuan/bin-utils/blob/master/readme_docs.py">readme_docs.py</a> contains the code to generate this documentation.</p>
 <p>It is also <a href="https://github.com/namuan/bin-utils/blob/master/.pre-commit-config.yaml#L44">configured</a> as a pre-commit hook so that we always keep it up to date.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">      - <span style="color:#66d9ef">id</span>: readme-docs
-        <span style="color:#66d9ef">name</span>: Readme documentation
-        <span style="color:#66d9ef">description</span>: Using [python help], inserts into README.md.
-        <span style="color:#66d9ef">entry</span>: python3 readme_docs.py
-        <span style="color:#66d9ef">language</span>: system
-        <span style="color:#66d9ef">pass_filenames</span>: <span style="color:#66d9ef">false</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>      - <span style="color:#f92672">id</span>: <span style="color:#ae81ff">readme-docs</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Readme documentation</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">description</span>: <span style="color:#ae81ff">Using [python help], inserts into README.md.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">entry</span>: <span style="color:#ae81ff">python3 readme_docs.py</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">language</span>: <span style="color:#ae81ff">system</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">pass_filenames</span>: <span style="color:#66d9ef">false</span>
+</span></span></code></pre></div>
       </div>
 
       <footer>
@@ -188,7 +189,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

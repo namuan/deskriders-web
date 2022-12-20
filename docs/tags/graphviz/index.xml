@@ -6,11 +6,7 @@
     <description>Recent content in graphviz on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/graphviz/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate><atom:link href="/tags/graphviz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL :: Graphviz 👉 PNG with docker</title>
       <link>/posts/1645947154-graphviz-dot-png/</link>
@@ -19,7 +15,7 @@
       <guid>/posts/1645947154-graphviz-dot-png/</guid>
       <description>A simple Graphviz dot file. You could try generating brew dependencies graph
 Create a Docker image
-FROMalpine:3.5RUN mkdir /graphviz &amp;amp;&amp;amp; \  apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \  rm -rf /var/cache/apk/*WORKDIR/graphvizCMD dot -TpngBuild Docker image from this file
+FROM alpine:3.5 RUN mkdir /graphviz &amp;amp;&amp;amp; \ apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \ rm -rf /var/cache/apk/* WORKDIR /graphviz CMD dot -Tpng Build Docker image from this file
 docker build -f Dockerfile -t namuan/dot2png . And then run it with the dot file
 cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png </description>
     </item>

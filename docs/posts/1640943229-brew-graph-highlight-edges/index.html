@@ -22,9 +22,10 @@ brew tap martido/homebrew-graph Generate dot file
 brew graph -f dot --installed --highlight-leaves -o graph.dot Clean dot file and generate gif
 cat graph.dot | sfdp -x -Goverlap=scale -Nshape=circle -Gspinles=curved -Tgif &gt; deps.gif The output will be in deps.gif" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1640943229-brew-graph-highlight-edges/" />
+<meta property="og:url" content="/posts/1640943229-brew-graph-highlight-edges/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-01-03T10:38:32+00:00" />
 <meta property="article:modified_time" content="2022-01-03T10:38:32+00:00" />
+
 
 
     
@@ -67,7 +68,7 @@ cat graph.dot | sfdp -x -Goverlap=scale -Nshape=circle -Gspinles=curved -Tgif &g
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -133,12 +134,12 @@ cat graph.dot | sfdp -x -Goverlap=scale -Nshape=circle -Gspinles=curved -Tgif &g
 
       <div>
         <p>Tap dependent package</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew tap martido/homebrew-graph
-</code></pre></div><p><strong>Generate dot file</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew graph -f dot --installed --highlight-leaves -o graph.dot
-</code></pre></div><p><strong>Clean dot file and generate gif</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cat graph.dot | sfdp -x -Goverlap<span style="color:#f92672">=</span>scale -Nshape<span style="color:#f92672">=</span>circle -Gspinles<span style="color:#f92672">=</span>curved -Tgif &gt; deps.gif
-</code></pre></div><p>The output will be in <code>deps.gif</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew tap martido/homebrew-graph
+</span></span></code></pre></div><p><strong>Generate dot file</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew graph -f dot --installed --highlight-leaves -o graph.dot
+</span></span></code></pre></div><p><strong>Clean dot file and generate gif</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat graph.dot | sfdp -x -Goverlap<span style="color:#f92672">=</span>scale -Nshape<span style="color:#f92672">=</span>circle -Gspinles<span style="color:#f92672">=</span>curved -Tgif &gt; deps.gif
+</span></span></code></pre></div><p>The output will be in <code>deps.gif</code></p>
 <p><img src="/images/2022/01/03/542973917575786.png" alt=""></p>
 
       </div>
@@ -190,7 +191,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

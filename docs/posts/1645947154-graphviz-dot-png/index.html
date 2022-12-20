@@ -16,9 +16,10 @@
     <meta property="og:title" content="TIL :: Graphviz 👉 PNG with docker" />
 <meta property="og:description" content="Converting a Graphviz dot file to png with a Docker image" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1645947154-graphviz-dot-png/" />
+<meta property="og:url" content="/posts/1645947154-graphviz-dot-png/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-27T07:33:19+00:00" />
 <meta property="article:modified_time" content="2022-02-27T07:33:19+00:00" />
+
 
 
     
@@ -61,7 +62,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.108.0">
   </head>
 
   
@@ -136,20 +137,20 @@
       <div>
         <p>A simple Graphviz dot file. You could try generating <a href="https://www.deskriders.dev/posts/1640943229-brew-graph-highlight-edges/">brew dependencies graph</a></p>
 <p>Create a Docker image</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> alpine:3.5</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> mkdir /graphviz <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  apk add --update graphviz ttf-dejavu <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>  rm -rf /var/cache/apk/*<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /graphviz</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">CMD</span> dot -Tpng<span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><p>Build Docker image from this file</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker build -f Dockerfile -t namuan/dot2png .
-</code></pre></div><p>And then run it with the dot file</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat dependencies.dot | docker run --rm -i namuan/dot2png &gt; dependencies.png
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-docker" data-lang="docker"><span style="display:flex;"><span><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> alpine:3.5</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> mkdir /graphviz <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  apk add --update graphviz ttf-dejavu <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  rm -rf /var/cache/apk/*<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /graphviz</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">CMD</span> dot -Tpng<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>Build Docker image from this file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -f Dockerfile -t namuan/dot2png .
+</span></span></code></pre></div><p>And then run it with the dot file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat dependencies.dot | docker run --rm -i namuan/dot2png &gt; dependencies.png
+</span></span></code></pre></div>
       </div>
 
       <footer>
@@ -199,7 +200,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   </body>
 

@@ -6,11 +6,7 @@
     <description>Recent content in shell on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jan 2020 09:24:27 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Jan 2020 09:24:27 +0000</lastBuildDate><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip # 3 :: Reading files line by line on command line</title>
       <link>/posts/015-tooltip-3-reading-file-line-by-line/</link>
@@ -18,7 +14,7 @@
       
       <guid>/posts/015-tooltip-3-reading-file-line-by-line/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using for and while loop to process each line in a file.
-  📝:
+📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
     </item>
     
@@ -29,7 +25,7 @@
       
       <guid>/posts/014-tooltip-2-simple-maths-bc/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at using a simple command line tool bc to basic maths.
-  Notes 📝:
+Notes 📝:
 👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux
 References:
 ⎘ https://fedoramagazine.org/bc-command-line-calculator/</description>

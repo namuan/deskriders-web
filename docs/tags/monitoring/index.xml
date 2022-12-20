@@ -6,11 +6,7 @@
     <description>Recent content in monitoring on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 11:30:15 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 Oct 2019 11:30:15 +0000</lastBuildDate><atom:link href="/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating Runscope monitoring tests with HttpRider</title>
       <link>/posts/002-httprider-generating-runscope-monitoring-tests/</link>

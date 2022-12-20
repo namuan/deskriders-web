@@ -6,11 +6,7 @@
     <description>Recent content in productivity on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jan 2020 16:38:45 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 Jan 2020 16:38:45 +0000</lastBuildDate><atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip # 1 :: Creating command line launcher for IntelliJ products</title>
       <link>/posts/013-tooltip-1-creating-intellij-launcher/</link>
@@ -18,8 +14,7 @@
       
       <guid>/posts/013-tooltip-1-creating-intellij-launcher/</guid>
       <description>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&amp;gt; 1min) video 📹covering a specific task.
-In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.
-  </description>
+In this first video, we&amp;rsquo;ll look at creating a command line launcher for IntelliJ. Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.</description>
     </item>
     
     <item>

@@ -6,19 +6,15 @@
     <description>Recent content in plantuml on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2020 07:47:18 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/plantuml/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 05 Jun 2020 07:47:18 +0000</lastBuildDate><atom:link href="/tags/plantuml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
       <link>/posts/1591343684-plantuml-svg-export/</link>
-      <pubDate>Fri, 05 Jun 2020 07:47:18 +0100</pubDate>
+      <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
       
       <guid>/posts/1591343684-plantuml-svg-export/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
-Requirements  PlantUML: Direct Download  Place it where you can easily refer to it.
+Requirements PlantUML: Direct Download Place it where you can easily refer to it.
 nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
 function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
     </item>
@@ -26,12 +22,13 @@ function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LI
     <item>
       <title>Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</title>
       <link>/posts/1591301414-plantuml-shortcut/</link>
-      <pubDate>Thu, 04 Jun 2020 22:11:58 +0100</pubDate>
+      <pubDate>Thu, 04 Jun 2020 22:11:58 +0000</pubDate>
       
       <guid>/posts/1591301414-plantuml-shortcut/</guid>
       <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
-Requirements:  PlantUML: Direct Download  Download it where you can easily refer to it.
-nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.</description>
+Requirements: PlantUML: Direct Download Download it where you can easily refer to it.
+nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
+function plantuml() { NAME=$1 cat $NAME | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
     </item>
     
     <item>
@@ -42,7 +39,7 @@ nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 N
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
       <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
 In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
- HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
+HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
     </item>
     
   </channel>
