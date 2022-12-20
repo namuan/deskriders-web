@@ -2,6 +2,11 @@ export PROJECTNAME=$(shell basename "$(PWD)")
 
 .SILENT: ;               # no need for @
 
+setup-macos: ## Install dependencies etc
+	echo "Installing dependencies"
+	brew install hugo
+	brew install netlify-cli
+
 process: ## Here is the process
 	echo "Write blog entry in vNote. Make sure to use the correct filename"
 	echo "Copy Path from vNote"
