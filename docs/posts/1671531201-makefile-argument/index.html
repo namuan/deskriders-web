@@ -10,23 +10,27 @@
     <meta name="keywords" content="blog,developer">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Improving developer productivity"/>
+<meta name="twitter:title" content="Run a Makefile target with argument"/>
+<meta name="twitter:description" content="How to run a Makefile target with arguments"/>
 
-    <meta property="og:title" content="Categories" />
-<meta property="og:description" content="Improving developer productivity" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/" />
+    <meta property="og:title" content="Run a Makefile target with argument" />
+<meta property="og:description" content="How to run a Makefile target with arguments" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/1671531201-makefile-argument/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-20T10:08:33+00:00" />
+<meta property="article:modified_time" content="2022-12-20T10:08:33+00:00" />
 
 
-
-    
-      <base href="/categories/">
-    
-    <title>Category: Categories · deskriders</title>
 
     
-      <link rel="canonical" href="/categories/">
+      <base href="/posts/1671531201-makefile-argument/">
+    
+    <title>
+  Run a Makefile target with argument · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/1671531201-makefile-argument/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -58,7 +62,6 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="deskriders" />
     <meta name="generator" content="Hugo 0.108.0">
   </head>
 
@@ -99,32 +102,60 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Category: Categories</h1>
-  <ul>
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Run a Makefile target with argument</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2022-12-20T10:08:33Z'>
+                December 20, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/tips/">tips</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/makefile/">makefile</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Define a new <code>Makefile</code> task</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>new-post: ## Create a new post with the given title (Use this with title=blah blah)
+</span></span><span style="display:flex;"><span>    hugo new posts/`date +%s`-$(title).md
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>Use it from the command line by providing a title when calling this task</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make new-post title<span style="color:#f92672">=</span>hello-world
+</span></span></code></pre></div><p>See full <a href="https://github.com/namuan/deskriders-web/blob/master/Makefile#L39">Makefile</a></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
     
-    <li>
-      <a class="title" href="/categories/tips/">tips</a>
-    </li>
-    
-    <li>
-      <a class="title" href="/categories/til/">til</a>
-    </li>
-    
-    <li>
-      <a class="title" href="/categories/tools/">tools</a>
-    </li>
-    
-  </ul>
-  
-
-
-
-
-
-
-</section>
-
+  </section>
 
       </div>
 
