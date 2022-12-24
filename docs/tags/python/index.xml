@@ -6,7 +6,19 @@
     <description>Recent content in python on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Dec 2021 12:23:12 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 19:21:52 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Speech Recognition in Python</title>
+      <link>/posts/1671909712-python-speech-recognition-chatgpt/</link>
+      <pubDate>Sat, 24 Dec 2022 19:21:52 +0000</pubDate>
+      
+      <guid>/posts/1671909712-python-speech-recognition-chatgpt/</guid>
+      <description>You: I would like to learn about speech_recognition module in Python
+ChatGPT: The speech_recognition module is a Python library that allows you to perform speech recognition. With this library, you can easily convert spoken audio to text.
+Here&amp;rsquo;s a simple example of how to use the speech_recognition module to transcribe audio from a microphone:
+import speech_recognition as sr # create a Recognizer object r = sr.Recognizer() # create a Microphone object mic = sr.</description>
+    </item>
+    
     <item>
       <title>Using helium - a Selenium API wrapper</title>
       <link>/posts/1639863087-python-selenium/</link>

@@ -20,28 +20,40 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/categories/chatgpt/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/posts/1671909712-python-speech-recognition-chatgpt/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/tags/speech/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
+  </url><url>
     <loc>/tags/audio/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-12-24T16:57:13+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-12-24T16:57:13+00:00</lastmod>
-  </url><url>
     <loc>/posts/1671901033-installing-pyaudio-mac/</loc>
-    <lastmod>2022-12-24T16:57:13+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
     <loc>/tags/pyaudio/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
     <loc>/categories/setup/</loc>
-    <lastmod>2022-12-24T16:57:13+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
     <loc>/tags/makefile/</loc>
@@ -205,9 +217,6 @@
   </url><url>
     <loc>/notes/testing/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
-    <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url><url>
     <loc>/tags/selenium/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
