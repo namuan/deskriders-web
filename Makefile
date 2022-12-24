@@ -27,7 +27,7 @@ commit-all: ## Push generated documentation to Github
 	git push origin master
 
 serve: ## Serve site locally
-	open -a Safari.app http://localhost:1313
+	open http://localhost:1313
 	hugo server -D --disableFastRender
 
 new: ## Hugo command to create a new entry

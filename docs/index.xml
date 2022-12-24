@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Dec 2022 10:08:33 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 16:57:13 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,16 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Installing PyAudio on M1 Mac</title>
+      <link>/posts/1671901033-installing-pyaudio-mac/</link>
+      <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
+      
+      <guid>/posts/1671901033-installing-pyaudio-mac/</guid>
+      <description>If you are getting the following error when installing pyaudio
+× Building wheel for pyaudio (pyproject.toml) did not run successfully. │ exit code: 1 ╰─&amp;gt; [16 lines of output] running bdist_wheel running build running build_py creating build creating build/lib.macosx-13-arm64-cpython-310 copying src/pyaudio.py -&amp;gt; build/lib.macosx-13-arm64-cpython-310 running build_ext building &amp;#39;_portaudio&amp;#39; extension creating build/temp.macosx-13-arm64-cpython-310 creating build/temp.macosx-13-arm64-cpython-310/src clang -Wno-unused-result -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -DMACOSX=1 -I/usr/local/include -I/usr/include -I/Users/nnn/workspace/voice-koder/venv/include -I/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/include/python3.10 -c src/_portaudiomodule.</description>
     </item>
     
     <item>
