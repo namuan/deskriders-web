@@ -1124,5 +1124,18 @@ Step 1: Application Icon Although it is probably quicker to find/generate a logo
 Here is what I ended up using the Paper app on iPad.</description>
     </item>
     
+    <item>
+      <title>PyScript :: Run Python in HTML</title>
+      <link>/notes/py-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/py-script/</guid>
+      <description>HomePage
+Documentation
+Examples
+GitHub
+Community Lazy Trader Source</description>
+    </item>
+    
   </channel>
 </rss>
