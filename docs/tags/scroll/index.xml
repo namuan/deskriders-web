@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scroll on deskriders</title>
+    <link>/tags/scroll/</link>
+    <description>Recent content in scroll on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Dec 2022 12:35:37 +0000</lastBuildDate><atom:link href="/tags/scroll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auto-scroll to bottom of infinite scroll page using Microsoft Playwright</title>
+      <link>/posts/1672317337-questions-2022-12-29/</link>
+      <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
+      
+      <guid>/posts/1672317337-questions-2022-12-29/</guid>
+      <description>These two functions will help with scrolling to the bottom of the page.
+def scroll_speed(): return random.randint(300, 500) def scroll_to_end(page): current_scroll_position, new_height = 0, 1 while current_scroll_position &amp;lt;= new_height: page.evaluate(f&amp;#34;&amp;#34;&amp;#34;() =&amp;gt; {{ window.scrollTo(0, {current_scroll_position}); }} &amp;#34;&amp;#34;&amp;#34;) new_height = page.evaluate(&amp;#34;&amp;#34;&amp;#34;() =&amp;gt; { return document.body.scrollHeight; } &amp;#34;&amp;#34;&amp;#34;) current_scroll_position += scroll_speed() logging.info(f&amp;#34;current_scroll_position: {current_scroll_position}, new_height: {new_height}&amp;#34;) time.sleep(2) Full source code
+#!/usr/bin/env python3 import logging import random import time from argparse import ArgumentParser, RawDescriptionHelpFormatter from pathlib import Path from dotenv import load_dotenv from playwright.</description>
+    </item>
+    
+  </channel>
+</rss>
