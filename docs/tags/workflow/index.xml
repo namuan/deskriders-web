@@ -13,7 +13,8 @@
       <pubDate>Fri, 30 Dec 2022 21:56:34 +0000</pubDate>
       
       <guid>/posts/1672437394-py-executable-framework-chatgpt/</guid>
-      <description>You: I&amp;rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.
+      <description>Teaching ChatGPT How to write workflows using py-executable-checklist framework.
+You (🗣️): I&amp;rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.
 Here is what the definition of a whole workflow looks like
 def workflow(): return [ DoSomething, ] DoSomething is a step in the workflow and is defined as
 class DoSomething(WorkflowBase): &amp;#34;&amp;#34;&amp;#34; Go to this page Copy the command Run the command Copy the output and paste it into the email &amp;#34;&amp;#34;&amp;#34; username: str def execute(self): logging.</description>

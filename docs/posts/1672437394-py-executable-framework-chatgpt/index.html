@@ -133,7 +133,10 @@
       </header>
 
       <div>
-        <p><strong><strong>You:
+        <blockquote>
+<p><em>Teaching <a href="https://chat.openai.com/chat">ChatGPT</a> How to write workflows using <a href="https://namuan.github.io/py-executable-checklist/">py-executable-checklist</a> framework.</em></p>
+</blockquote>
+<p><strong><strong>You (🗣️):
 I&rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.</strong></strong></p>
 <p>Here is what the definition of a whole workflow looks like</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">workflow</span>():
@@ -169,7 +172,7 @@ Each step can return some state by returning a dictionary of key value pairs.</p
 <li>For each song, metadata including album name and album art is added</li>
 <li>The entire monthly folder is added to the &ldquo;automatically add to itunes&rdquo; folder</li>
 </ul>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 Here is an example of how you could define the workflow for the scenario you described using the WorkflowBase class:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> logging
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
@@ -249,12 +252,12 @@ Here is an example of how you could define the workflow for the scenario you des
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AddTextToPhoto</span>(WorkflowBase):
 </span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Add text (title, month, year) to the photo in a random
-</span></span></span></code></pre></div><p><strong>You:
+</span></span></span></code></pre></div><p><strong>You (🗣️):
 Can you implement the following step?</strong></p>
 <ul>
 <li>Text (title, month, year) is added to the photo in a random color</li>
 </ul>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 Sure! Here is an example of how you could implement the step to add text (title, month, year) to a photo in a random color using the Python Pillow library:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> random
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image, ImageDraw, ImageFont
@@ -303,12 +306,12 @@ Sure! Here is an example of how you could implement the step to add text (title,
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the modified photo data as output</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;modified_photo_data&#34;</span>: modified_photo_data}
 </span></span></code></pre></div><p>This step assumes that you have an Arial font file named &ldquo;arial.ttf&rdquo; in the same directory as your Python script. You can modify the font and font size to your liking. The text is added to the image at the top left corner (x = 10, y = 10) with a vertical spacing of 30 pixels between each line of text. The random color is generated using the <code>random.randint()</code> function. The modified image is saved to a temporary file and the modified image data is read from the file and returned as output.</p>
-<p><strong>You:
+<p><strong>You (🗣️):
 Can you follow on and implement this step?</strong></p>
 <ul>
 <li>For each song, metadata including album name and album art is added</li>
 </ul>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 Sure! Here is an example of how you could implement a step to add metadata including album name and album art to each song in a folder using the Python Mutagen library:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mutagen
 </span></span><span style="display:flex;"><span>
@@ -337,12 +340,12 @@ Sure! Here is an example of how you could implement a step to add metadata inclu
 </span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Save the modified metadata to the audio file</span>
 </span></span><span style="display:flex;"><span>            audio_file<span style="color:#f92672">.</span>save()
 </span></span></code></pre></div><p>This step assumes that you have installed the Mutagen library (<code>pip install mutagen</code>) and that the folder specified in the <code>folder_name</code> input contains only audio files with the &ldquo;.mp3&rdquo; file extension. The step iterates over the files in the folder, skips non-audio files, and uses Mutagen to load the audio file. It then sets the <code>album</code> field in the metadata to the value of the <code>album_name</code> input and adds the <code>album_art</code> image data as the front cover to the metadata using the Mutagen <code>APIC</code> tag. Finally, it saves the modified metadata to the audio file.</p>
-<p><strong>You:
+<p><strong>You (🗣️):
 Following on from above, can you implement this step?</strong></p>
 <ul>
 <li>The entire monthly folder is added to the &ldquo;automatically add to itunes&rdquo; folder</li>
 </ul>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 Sure! Here is an example of how you could implement a step to move the entire monthly folder to the &ldquo;automatically add to itunes&rdquo; folder on macOS using the Python shutil library:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> shutil
 </span></span><span style="display:flex;"><span>
@@ -360,13 +363,13 @@ Sure! Here is an example of how you could implement a step to move the entire mo
 </span></span><span style="display:flex;"><span>        shutil<span style="color:#f92672">.</span>move(self<span style="color:#f92672">.</span>folder_name, iTunes_folder)
 </span></span></code></pre></div><p>This step assumes that you are using macOS and that the &ldquo;automatically add to itunes&rdquo; folder is located at &ldquo;~/Music/iTunes/iTunes Media/Automatically Add to iTunes&rdquo; on your system. The step uses the <code>shutil.move()</code> function to move the specified folder to the &ldquo;automatically add to itunes&rdquo; folder.</p>
 <p>Note that this step will only work on macOS systems. If you are using a different operating system, you will need to use a different method to move the folder to the equivalent location on your system.</p>
-<p><strong>You:
+<p><strong>You (🗣️):
 Now can you collect all the above steps and generate the following function</strong></p>
 <p>def workflow():
 return [
 DoSomething,
 ]</p>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 Sure! Here is an example of how you could define the workflow for the scenario you described using the steps that I provided above:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">workflow</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [
@@ -380,9 +383,9 @@ Sure! Here is an example of how you could define the workflow for the scenario y
 </span></span><span style="display:flex;"><span>    ]
 </span></span></code></pre></div><p>This workflow will first gather the JSON data for the top songs of the past month from the r/listentothis subreddit, create a folder based on the current month and year in the local directory, download the songs in the ALAC format and add them to the folder, grab the top photo from the r/earthporn subreddit, add text (title, month, year) to the photo in a random color, add metadata including album name and album art to each song in the folder, and finally move the entire folder to the &ldquo;automatically add to itunes&rdquo; folder.</p>
 <p>You can customize the workflow by modifying the input parameters of each step or by adding additional steps as needed.</p>
-<p><strong>You:
+<p><strong>You (🗣️):
 How can I use requests with a known user agent?</strong></p>
-<p>ChatGPT:
+<p><strong>ChatGPT (🤖):</strong>
 To use the <code>requests</code> library with a known user agent, you can pass the <code>headers</code> parameter to the <code>get()</code> or <code>post()</code> function and specify the user agent in the <code>&quot;User-Agent&quot;</code> header.</p>
 <p>For example, to send a GET request to a URL with the Chrome user agent, you could do the following:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> requests

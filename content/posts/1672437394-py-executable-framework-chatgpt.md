@@ -9,7 +9,9 @@ externalLink = ""
 series = []
 +++
 
-****You:
+>_Teaching [ChatGPT](https://chat.openai.com/chat) How to write workflows using [py-executable-checklist](https://namuan.github.io/py-executable-checklist/) framework._
+
+****You (🗣️):
 I'm writing a Python application which defines a workflow as a series of steps defined by a class for each step.****
 
 Here is what the definition of a whole workflow looks like
@@ -56,7 +58,7 @@ Based on the above description, can you write a workflow for the following scena
 * For each song, metadata including album name and album art is added
 * The entire monthly folder is added to the "automatically add to itunes" folder
 
-ChatGPT:
+**ChatGPT (🤖):**
 Here is an example of how you could define the workflow for the scenario you described using the WorkflowBase class:
 
 ```python
@@ -140,12 +142,12 @@ class AddTextToPhoto(WorkflowBase):
     Add text (title, month, year) to the photo in a random
 ```
 
-**You:
+**You (🗣️):
 Can you implement the following step?**
 
 * Text (title, month, year) is added to the photo in a random color
 
-ChatGPT:
+**ChatGPT (🤖):**
 Sure! Here is an example of how you could implement the step to add text (title, month, year) to a photo in a random color using the Python Pillow library:
 
 ```python
@@ -199,12 +201,12 @@ class AddTextToPhoto(WorkflowBase):
 
 This step assumes that you have an Arial font file named "arial.ttf" in the same directory as your Python script. You can modify the font and font size to your liking. The text is added to the image at the top left corner (x = 10, y = 10) with a vertical spacing of 30 pixels between each line of text. The random color is generated using the `random.randint()` function. The modified image is saved to a temporary file and the modified image data is read from the file and returned as output.
 
-**You:
+**You (🗣️):
 Can you follow on and implement this step?**
 
 * For each song, metadata including album name and album art is added
 
-ChatGPT:
+**ChatGPT (🤖):**
 Sure! Here is an example of how you could implement a step to add metadata including album name and album art to each song in a folder using the Python Mutagen library:
 
 ```python
@@ -239,11 +241,11 @@ class AddMetadataToSongs(WorkflowBase):
 
 This step assumes that you have installed the Mutagen library (`pip install mutagen`) and that the folder specified in the `folder_name` input contains only audio files with the ".mp3" file extension. The step iterates over the files in the folder, skips non-audio files, and uses Mutagen to load the audio file. It then sets the `album` field in the metadata to the value of the `album_name` input and adds the `album_art` image data as the front cover to the metadata using the Mutagen `APIC` tag. Finally, it saves the modified metadata to the audio file.
 
-**You:
+**You (🗣️):
 Following on from above, can you implement this step?**
 * The entire monthly folder is added to the "automatically add to itunes" folder
 
-ChatGPT:
+**ChatGPT (🤖):**
 Sure! Here is an example of how you could implement a step to move the entire monthly folder to the "automatically add to itunes" folder on macOS using the Python shutil library:
 
 ```python
@@ -267,7 +269,7 @@ This step assumes that you are using macOS and that the "automatically add to it
 
 Note that this step will only work on macOS systems. If you are using a different operating system, you will need to use a different method to move the folder to the equivalent location on your system.
 
-**You:
+**You (🗣️):
 Now can you collect all the above steps and generate the following function**
 
 def workflow():
@@ -275,7 +277,7 @@ return [
 DoSomething,
 ]
 
-ChatGPT:
+**ChatGPT (🤖):**
 Sure! Here is an example of how you could define the workflow for the scenario you described using the steps that I provided above:
 
 ```python
@@ -295,10 +297,10 @@ This workflow will first gather the JSON data for the top songs of the past mont
 
 You can customize the workflow by modifying the input parameters of each step or by adding additional steps as needed.
 
-**You:
+**You (🗣️):
 How can I use requests with a known user agent?**
 
-ChatGPT:
+**ChatGPT (🤖):**
 To use the `requests` library with a known user agent, you can pass the `headers` parameter to the `get()` or `post()` function and specify the user agent in the `"User-Agent"` header.
 
 For example, to send a GET request to a URL with the Chrome user agent, you could do the following:
