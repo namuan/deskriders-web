@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Dec 2022 12:35:37 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 21:56:34 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Implementing py-executable workflow using ChatGPT</title>
+      <link>/posts/1672437394-py-executable-framework-chatgpt/</link>
+      <pubDate>Fri, 30 Dec 2022 21:56:34 +0000</pubDate>
+      
+      <guid>/posts/1672437394-py-executable-framework-chatgpt/</guid>
+      <description>You: I&amp;rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.
+Here is what the definition of a whole workflow looks like
+def workflow(): return [ DoSomething, ] DoSomething is a step in the workflow and is defined as
+class DoSomething(WorkflowBase): &amp;#34;&amp;#34;&amp;#34; Go to this page Copy the command Run the command Copy the output and paste it into the email &amp;#34;&amp;#34;&amp;#34; username: str def execute(self): logging.</description>
     </item>
     
     <item>

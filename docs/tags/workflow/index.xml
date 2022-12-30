@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflow on deskriders</title>
+    <link>/tags/workflow/</link>
+    <description>Recent content in workflow on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Dec 2022 21:56:34 +0000</lastBuildDate><atom:link href="/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing py-executable workflow using ChatGPT</title>
+      <link>/posts/1672437394-py-executable-framework-chatgpt/</link>
+      <pubDate>Fri, 30 Dec 2022 21:56:34 +0000</pubDate>
+      
+      <guid>/posts/1672437394-py-executable-framework-chatgpt/</guid>
+      <description>You: I&amp;rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.
+Here is what the definition of a whole workflow looks like
+def workflow(): return [ DoSomething, ] DoSomething is a step in the workflow and is defined as
+class DoSomething(WorkflowBase): &amp;#34;&amp;#34;&amp;#34; Go to this page Copy the command Run the command Copy the output and paste it into the email &amp;#34;&amp;#34;&amp;#34; username: str def execute(self): logging.</description>
+    </item>
+    
+  </channel>
+</rss>
