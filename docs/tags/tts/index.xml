@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tts on deskriders</title>
+    <link>/tags/tts/</link>
+    <description>Recent content in tts on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Jan 2023 20:47:29 +0000</lastBuildDate><atom:link href="/tags/tts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Tortoise TTS</title>
+      <link>/posts/1672606049-installing-tortoise-tts/</link>
+      <pubDate>Sun, 01 Jan 2023 20:47:29 +0000</pubDate>
+      
+      <guid>/posts/1672606049-installing-tortoise-tts/</guid>
+      <description>These instructions are only tested on macOS and valid on 1st of January 2023.
+git clone https://github.com/neonbjb/tortoise-tts.git cd tortoise-tts python3.9 -m venv venv source venv/bin/activate pip install torch torchvision python3.9 setup.py install pip uninstall numpy pip install numba pip uninstall threadpoolctl pip install scikit-learn==1.2.0 # Rerunning due to failures in the previous step because on mismatched versions python3.9 setup.py install pip install torchaudio python tortoise/do_tts.py --text &amp;#34;I&amp;#39;m going to speak this&amp;#34; --voice random --preset fast ls -l results open results/random_0_0.</description>
+    </item>
+    
+  </channel>
+</rss>
