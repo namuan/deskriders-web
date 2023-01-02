@@ -1,4 +1,5 @@
 export PROJECTNAME=$(shell basename "$(PWD)")
+export IMAGE_FILE=$(shell date +%s).png
 
 .SILENT: ;               # no need for @
 
@@ -38,6 +39,13 @@ new: ## Hugo command to create a new entry
 
 new-post: ## Create a new post with the given title (Use this with title=blah blah)
 	hugo new posts/`date +%s`-$(title).md
+
+paste-image: ## Paste image from clipboard and return markdown link
+	mkdir -vp static/images/`date +%Y`/`date +%m`/`date +%d`
+	echo "Save the screenshot and move it to the path copied in clipboard"
+	echo "`pwd`/static/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}" | pbcopy
+	echo "Copy following markdown snippet and paste it in the post"
+	echo "![image](/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE})"
 
 deploy: generate ## Deploys to Netlify staging environment
 	netlify deploy --prod --dir=docs
