@@ -6,7 +6,17 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 20:47:29 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Maven in Docker</title>
+      <link>/posts/1672665828-running-maven-docker/</link>
+      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
+      
+      <guid>/posts/1672665828-running-maven-docker/</guid>
+      <description>Run this from the root of a maven project
+docker run -it --rm -v &amp;#34;$PWD&amp;#34;:/home/src/gpt-fx -v &amp;#34;$HOME/.m2&amp;#34;:/root/.m2 -w /home/src/gpt-fx maven:3.8.3-openjdk-17 mvn clean package -Ppackage </description>
+    </item>
+    
     <item>
       <title>Installing Tortoise TTS</title>
       <link>/posts/1672606049-installing-tortoise-tts/</link>

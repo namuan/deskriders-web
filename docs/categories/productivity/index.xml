@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on deskriders</title>
+    <link>/categories/productivity/</link>
+    <description>Recent content in productivity on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate><atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Maven in Docker</title>
+      <link>/posts/1672665828-running-maven-docker/</link>
+      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
+      
+      <guid>/posts/1672665828-running-maven-docker/</guid>
+      <description>Run this from the root of a maven project
+docker run -it --rm -v &amp;#34;$PWD&amp;#34;:/home/src/gpt-fx -v &amp;#34;$HOME/.m2&amp;#34;:/root/.m2 -w /home/src/gpt-fx maven:3.8.3-openjdk-17 mvn clean package -Ppackage </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 20:47:29 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maven</title>
+      <link>/tags/maven/</link>
+      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
+      
+      <guid>/tags/maven/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai</title>
       <link>/tags/ai/</link>
@@ -202,15 +220,6 @@
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
       
       <guid>/tags/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>/tags/docker/</link>
-      <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
-      
-      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
