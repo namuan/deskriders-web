@@ -21,10 +21,37 @@
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-01-02T13:23:48+00:00</lastmod>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/categories/chatgpt/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/posts/1672866863-chatgpt-prompt-checklist-step/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/tags/checklist/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-01-02T13:23:48+00:00</lastmod>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/tags/prompt/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/tags/step/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-04T21:14:23+00:00</lastmod>
+  </url><url>
+    <loc>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</loc>
+    <lastmod>2023-01-04T21:10:56+00:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2023-01-04T21:10:56+00:00</lastmod>
   </url><url>
     <loc>/tags/docker/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
@@ -32,16 +59,10 @@
     <loc>/tags/maven/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-01-02T13:23:48+00:00</lastmod>
-  </url><url>
     <loc>/categories/productivity/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
   </url><url>
     <loc>/posts/1672665828-running-maven-docker/</loc>
-    <lastmod>2023-01-02T13:23:48+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
   </url><url>
     <loc>/tags/ai/</loc>
@@ -55,9 +76,6 @@
   </url><url>
     <loc>/tags/tts/</loc>
     <lastmod>2023-01-01T20:47:29+00:00</lastmod>
-  </url><url>
-    <loc>/categories/chatgpt/</loc>
-    <lastmod>2022-12-30T21:56:34+00:00</lastmod>
   </url><url>
     <loc>/posts/1672437394-py-executable-framework-chatgpt/</loc>
     <lastmod>2022-12-30T21:56:34+00:00</lastmod>
@@ -105,9 +123,6 @@
     <lastmod>2022-12-25T09:35:08+00:00</lastmod>
   </url><url>
     <loc>/posts/1671909712-python-speech-recognition-chatgpt/</loc>
-    <lastmod>2022-12-24T19:21:52+00:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2022-12-24T19:21:52+00:00</lastmod>
   </url><url>
     <loc>/tags/speech/</loc>

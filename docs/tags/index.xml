@@ -6,7 +6,43 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 21:14:23 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>checklist</title>
+      <link>/tags/checklist/</link>
+      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      
+      <guid>/tags/checklist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prompt</title>
+      <link>/tags/prompt/</link>
+      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      
+      <guid>/tags/prompt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>step</title>
+      <link>/tags/step/</link>
+      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      
+      <guid>/tags/step/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 04 Jan 2023 21:10:56 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>/tags/docker/</link>
@@ -121,15 +157,6 @@
       <pubDate>Sun, 25 Dec 2022 09:35:08 +0000</pubDate>
       
       <guid>/tags/styling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Sat, 24 Dec 2022 19:21:52 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,25 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 21:14:23 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Prompt for generating py-executable-checklist step</title>
+      <link>/posts/1672866863-chatgpt-prompt-checklist-step/</link>
+      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      
+      <guid>/posts/1672866863-chatgpt-prompt-checklist-step/</guid>
+      <description>[Command] Create a complete, working, and VERY efficient Python code. Do NOT send me the explanations of how the function works, you need to implement it yourself and ONLY send me the code WITHIN CODE BLOCKS ONLY. Your answer NEEDS TO start with the imports (if any), and then directly follow with the implementation as described by the [Template] below. The step name is defined in the [Step name] section and description in the [Task definition] section Here is the [template] that you will need to work with.</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT prompt for generating steps and workflow using py-executable-checklist</title>
+      <link>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</link>
+      <pubDate>Wed, 04 Jan 2023 21:10:56 +0000</pubDate>
+      
+      <guid>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</guid>
+      <description>First Step: Generating each step one at a time I&amp;#39;m writing a Python application which defines a workflow as a series of steps defined by a class for each step. Don&amp;#39;t write any explanations. Don&amp;#39;t write the workflow function DoSomething is a step in the workflow and is defined as class DoSomething(WorkflowBase): &amp;#34;&amp;#34;&amp;#34; Go to this page Copy the command Run the command Copy the output and paste it into the email &amp;#34;&amp;#34;&amp;#34; username: str def execute(self): logging.</description>
+    </item>
+    
     <item>
       <title>Running Maven in Docker</title>
       <link>/posts/1672665828-running-maven-docker/</link>
