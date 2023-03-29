@@ -6,22 +6,40 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Jan 2023 21:14:23 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 11:45:44 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>checklist</title>
-      <link>/tags/checklist/</link>
-      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      <title>html</title>
+      <link>/tags/html/</link>
+      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
       
-      <guid>/tags/checklist/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>prompt</title>
       <link>/tags/prompt/</link>
-      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
       
       <guid>/tags/prompt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>/tags/template/</link>
+      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
+      
+      <guid>/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>checklist</title>
+      <link>/tags/checklist/</link>
+      <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
+      
+      <guid>/tags/checklist/</guid>
       <description></description>
     </item>
     

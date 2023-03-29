@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on deskriders</title>
+    <link>/tags/html/</link>
+    <description>Recent content in html on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Mar 2023 11:45:44 +0000</lastBuildDate><atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Prompt for generating a simple two column web page</title>
+      <link>/posts/1680090300-chatgpt-prompt-html-template/</link>
+      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
+      
+      <guid>/posts/1680090300-chatgpt-prompt-html-template/</guid>
+      <description>You: Create a simple HTML page with two columns
+ChatGPT: Sure, here&amp;rsquo;s an example of a simple HTML page with two columns:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Two Column Page&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; /* Style the columns */ .column { float: left; width: 50%; padding: 10px; } /* Clear floats after the columns */ .row::after { content: &amp;#34;&amp;#34;; clear: both; display: table; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;column&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;Column 1&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;This is the content of column 1.</description>
+    </item>
+    
+  </channel>
+</rss>

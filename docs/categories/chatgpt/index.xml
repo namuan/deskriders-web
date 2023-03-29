@@ -6,7 +6,18 @@
     <description>Recent content in chatgpt on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Jan 2023 21:14:23 +0000</lastBuildDate><atom:link href="/categories/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 11:45:44 +0000</lastBuildDate><atom:link href="/categories/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Prompt for generating a simple two column web page</title>
+      <link>/posts/1680090300-chatgpt-prompt-html-template/</link>
+      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
+      
+      <guid>/posts/1680090300-chatgpt-prompt-html-template/</guid>
+      <description>You: Create a simple HTML page with two columns
+ChatGPT: Sure, here&amp;rsquo;s an example of a simple HTML page with two columns:
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Two Column Page&amp;lt;/title&amp;gt; &amp;lt;style&amp;gt; /* Style the columns */ .column { float: left; width: 50%; padding: 10px; } /* Clear floats after the columns */ .row::after { content: &amp;#34;&amp;#34;; clear: both; display: table; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;row&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;column&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;Column 1&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;This is the content of column 1.</description>
+    </item>
+    
     <item>
       <title>ChatGPT Prompt for generating py-executable-checklist step</title>
       <link>/posts/1672866863-chatgpt-prompt-checklist-step/</link>
