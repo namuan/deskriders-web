@@ -6,7 +6,34 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Mar 2023 11:45:44 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>/tags/template/</link>
+      <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
+      
+      <guid>/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tkinter</title>
+      <link>/tags/tkinter/</link>
+      <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
+      
+      <guid>/tags/tkinter/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>html</title>
       <link>/tags/html/</link>
@@ -26,15 +53,6 @@
     </item>
     
     <item>
-      <title>template</title>
-      <link>/tags/template/</link>
-      <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
-      
-      <guid>/tags/template/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>checklist</title>
       <link>/tags/checklist/</link>
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
@@ -49,15 +67,6 @@
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
       
       <guid>/tags/step/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Wed, 04 Jan 2023 21:10:56 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
       <description></description>
     </item>
     

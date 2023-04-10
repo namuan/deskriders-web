@@ -21,30 +21,39 @@
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
   </url><url>
     <loc>/categories/chatgpt/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
-  </url><url>
-    <loc>/posts/1680090300-chatgpt-prompt-html-template/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/tags/python/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/tags/template/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/tags/tkinter/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/posts/1681102399-chatgpt-tkinter-blank-app/</loc>
+    <lastmod>2023-04-10T05:53:19+01:00</lastmod>
+  </url><url>
+    <loc>/posts/1680090300-chatgpt-prompt-html-template/</loc>
     <lastmod>2023-03-29T11:45:44+00:00</lastmod>
   </url><url>
     <loc>/tags/html/</loc>
     <lastmod>2023-03-29T11:45:44+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
-  </url><url>
     <loc>/tags/prompt/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-03-29T11:45:44+00:00</lastmod>
-  </url><url>
-    <loc>/tags/template/</loc>
     <lastmod>2023-03-29T11:45:44+00:00</lastmod>
   </url><url>
     <loc>/posts/1672866863-chatgpt-prompt-checklist-step/</loc>
@@ -57,9 +66,6 @@
     <lastmod>2023-01-04T21:14:23+00:00</lastmod>
   </url><url>
     <loc>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</loc>
-    <lastmod>2023-01-04T21:10:56+00:00</lastmod>
-  </url><url>
-    <loc>/tags/python/</loc>
     <lastmod>2023-01-04T21:10:56+00:00</lastmod>
   </url><url>
     <loc>/tags/docker/</loc>

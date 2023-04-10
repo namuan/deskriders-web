@@ -6,7 +6,18 @@
     <description>Recent content in python on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Jan 2023 21:10:56 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tkinter blank application</title>
+      <link>/posts/1681102399-chatgpt-tkinter-blank-app/</link>
+      <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
+      
+      <guid>/posts/1681102399-chatgpt-tkinter-blank-app/</guid>
+      <description>You: Create a blank application in tkinter Python
+ChatGPT: To create a blank application using tkinter in Python, you&amp;rsquo;ll first need to install the tkinter package (if you haven&amp;rsquo;t already) and then import it. Here&amp;rsquo;s a simple example of a blank tkinter application:
+import tkinter as tk # Create the main application window app = tk.Tk() # Set the title for the main window app.title(&amp;#34;Blank Application&amp;#34;) # Set the dimensions of the main window app.</description>
+    </item>
+    
     <item>
       <title>ChatGPT prompt for generating steps and workflow using py-executable-checklist</title>
       <link>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</link>
