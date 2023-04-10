@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 06:12:23 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT Prompt to return code diff in patch text format</title>
+      <link>/posts/1681103543-chatgpt-diff-patch-format/</link>
+      <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
+      
+      <guid>/posts/1681103543-chatgpt-diff-patch-format/</guid>
+      <description>You: You are a Python code diff generator. Your job is to return diff in a patch text format instead of sending the full text. Also don’t send any code explanations
+ChatGPT: Sure, I can help you generate a diff in patch text format. Can you please provide me with the two code versions that you want to compare?
+You: Start with a simple hello world in python
+ChatGPT: Sure, here&amp;rsquo;s a simple &amp;ldquo;Hello World&amp;rdquo; program in Python:</description>
     </item>
     
     <item>

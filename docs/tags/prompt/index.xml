@@ -6,7 +6,19 @@
     <description>Recent content in prompt on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Mar 2023 11:45:44 +0000</lastBuildDate><atom:link href="/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 06:12:23 +0100</lastBuildDate><atom:link href="/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Prompt to return code diff in patch text format</title>
+      <link>/posts/1681103543-chatgpt-diff-patch-format/</link>
+      <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
+      
+      <guid>/posts/1681103543-chatgpt-diff-patch-format/</guid>
+      <description>You: You are a Python code diff generator. Your job is to return diff in a patch text format instead of sending the full text. Also don’t send any code explanations
+ChatGPT: Sure, I can help you generate a diff in patch text format. Can you please provide me with the two code versions that you want to compare?
+You: Start with a simple hello world in python
+ChatGPT: Sure, here&amp;rsquo;s a simple &amp;ldquo;Hello World&amp;rdquo; program in Python:</description>
+    </item>
+    
     <item>
       <title>ChatGPT Prompt for generating a simple two column web page</title>
       <link>/posts/1680090300-chatgpt-prompt-html-template/</link>
