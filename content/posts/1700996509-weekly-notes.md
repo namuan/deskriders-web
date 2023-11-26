@@ -1,5 +1,4 @@
-+++ 
-draft = true
++++
 date = 2023-11-26T11:01:49Z
 title = "Weekly Notes 2023-11-26"
 description = ""

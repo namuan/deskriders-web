@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 06:12:23 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Nov 2023 11:01:49 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Weekly Notes 2023-11-26</title>
+      <link>/posts/1700996509-weekly-notes/</link>
+      <pubDate>Sun, 26 Nov 2023 11:01:49 +0000</pubDate>
+      
+      <guid>/posts/1700996509-weekly-notes/</guid>
+      <description>AI narrator This is like the original demo but using downloadable models. It requires using replicate API but it&amp;rsquo;ll be cool to run everything locally.
+SVD-WebUI Looks like an interface to Stable Video diffusion but I can&amp;rsquo;t get it to work on a Mac.
+How to create a custom GPT from an SQLite3 database Name: API Tool Finder Instructions:
+The API Tool Finder GPT is tailored to assist users in identifying the most suitable API tools for their needs.</description>
     </item>
     
     <item>
