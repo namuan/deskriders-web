@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Nov 2023 11:01:49 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 20:03:29 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Weekly Notes 2023-12-03</title>
+      <link>/posts/1701633809-weekly-notes/</link>
+      <pubDate>Sun, 03 Dec 2023 20:03:29 +0000</pubDate>
+      
+      <guid>/posts/1701633809-weekly-notes/</guid>
+      <description>summarize Summarize a youtube video using whisper.cpp and youtube-dl. Very handy script for a common use case
+vscode-ui-sketcher Generate code from mockups from inside Visual Studio Code
+streamlit-agent DistiLlama Looks like a very useful project but I can&amp;rsquo;t get it to work due to some yarn/corepack issues :confused:
+talking_with_hn A simple but practical example of using LangChain with different tools
+10x-nerd-buddy Another Researcher LLM App using Llama2 and written in Javascript</description>
     </item>
     
     <item>
