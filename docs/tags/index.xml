@@ -6,7 +6,25 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 06:12:23 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 16:03:16 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mixtral</title>
+      <link>/tags/mixtral/</link>
+      <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
+      
+      <guid>/tags/mixtral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ollama</title>
+      <link>/tags/ollama/</link>
+      <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
+      
+      <guid>/tags/ollama/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>code</title>
       <link>/tags/code/</link>

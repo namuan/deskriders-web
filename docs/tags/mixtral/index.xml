@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mixtral on deskriders</title>
+    <link>/tags/mixtral/</link>
+    <description>Recent content in mixtral on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Dec 2023 16:03:16 +0000</lastBuildDate><atom:link href="/tags/mixtral/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Function calling using Ollama models</title>
+      <link>/posts/1702742595-function-calling-ollama-models/</link>
+      <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
+      
+      <guid>/posts/1702742595-function-calling-ollama-models/</guid>
+      <description>Here is a quick breakthrough of using functions with Mixtral running on Ollama
+Code is available here.
+It is built on top of openhermes-functions by abacaj 🙏
+The prompt used looks like this
+You have access to the following tools: {function_to_json(get_weather)} {function_to_json(calculate_mortgage_payment)} {function_to_json(get_directions)} {function_to_json(get_article_details)} You must follow these instructions: Always select one or more of the above tools based on the user query If a tool is found, you must respond in the JSON format matching the following schema: {{ &amp;#34;tools&amp;#34;: {{ &amp;#34;tool&amp;#34;: &amp;#34;&amp;lt;name of the selected tool&amp;gt;&amp;#34;, &amp;#34;tool_input&amp;#34;: &amp;lt;parameters for the selected tool, matching the tool&amp;#39;s JSON schema }} }} If there are multiple tools required, make sure a list of tools are returned in a JSON array.</description>
+    </item>
+    
+  </channel>
+</rss>
