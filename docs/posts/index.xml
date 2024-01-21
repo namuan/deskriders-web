@@ -6,7 +6,16 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Dec 2023 16:03:16 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 17:55:20 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Train a custom LLM/ChatGPT on my own documents (2023/2024)</title>
+      <link>/posts/1705859719-hn-gpt-documents-2023/</link>
+      <pubDate>Sun, 21 Jan 2024 17:55:20 +0000</pubDate>
+      
+      <guid>/posts/1705859719-hn-gpt-documents-2023/</guid>
+      <description>Train a custom LLM/ChatGPT on my own documents (2023/2024) Red Hat LLM App Dev ArXiv Paper Twitter Post by @dotey GitHub - deepset-ai/haystack LlamaIndex Docs Microsoft Research on Prompt Engineering Lyzr AI - Building a SOTA Chatbot GitHub - UE5 Llama Lora Ensemble Analytics - Introducing Bedrock AWS Q Harper Carroll - Finetune LLM with Own Data Ghost Archive Twitter Post by @xaiguydotagi LlamaIndex Docs - Production RAG deeplearning.ai - Fine-Tuning LLMs Ragntune Blog - Fine-tuning an LLM for RAG GitHub - H2Oai/h2ogpt GitHub - imartinez/privateGPT GitHub - cheshire-cat-ai/core LlamaIndex Docs - BM25 Retriever Simon Willison&amp;rsquo;s TIL - Embedding Paragraphs in LLMs ndurner GitHub - Training Own Model Finetuning Google NotebookLM GitHub - outlines-dev/outlines GitHub - 1rgs/jsonformer GitHub - khoj-ai/khoj Anthropic - Claude 2.</description>
+    </item>
+    
     <item>
       <title>Function calling using Ollama models</title>
       <link>/posts/1702742595-function-calling-ollama-models/</link>
