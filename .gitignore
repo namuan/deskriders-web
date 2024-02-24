@@ -3,3 +3,4 @@
 *.vswp
 _vnote.json
 _v_recycle_bin/
+node_modules/

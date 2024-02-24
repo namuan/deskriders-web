@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jan 2024 17:55:20 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Feb 2024 08:19:29 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>What happened next when SPY jumped over 2%</title>
+      <link>/posts/1708762767-spy-pct-move/</link>
+      <pubDate>Sat, 24 Feb 2024 08:19:29 +0000</pubDate>
+      
+      <guid>/posts/1708762767-spy-pct-move/</guid>
+      <description>Last week, SPY jump over 2% on Thursday
+This was surprising for many as the market is already up a lot.
+So, I wanted to see what happened the next day when SPY jumped over 2%.
+Here are the results over the last 10 years.
+The next day change after a 2% jump
+Next Day Change Number of Occurrences Percentage &amp;lt; 0 33 55.93% &amp;gt; 0 25 42.37% &amp;gt; 1 % 13 22.</description>
     </item>
     
     <item>
