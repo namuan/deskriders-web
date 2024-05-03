@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 08:19:29 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 May 2024 10:53:56 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Setup AiTown with Pinokio and run with your own models</title>
+      <link>/posts/1714730035-aitown-ollama-models/</link>
+      <pubDate>Fri, 03 May 2024 10:53:56 +0100</pubDate>
+      
+      <guid>/posts/1714730035-aitown-ollama-models/</guid>
+      <description> Download pinokio and Setup AiTown cd $HOME/pinokio/api/aitown.git/app eval &amp;#34;$(conda shell.bash hook)&amp;#34; &amp;amp;&amp;amp; conda deactivate &amp;amp;&amp;amp; conda deactivate &amp;amp;&amp;amp; conda deactivate &amp;amp;&amp;amp; conda activate $HOME/pinokio/api/aitown.git/app/node18 Shell 1: ./convex-local-backend Shell 2: npm run dev Switch model First backup Llama3
+ollama cp llama3:latest llama3-backup:latest Switch model
+ollama rm llama3:latest; ollama cp openhermes:latest llama3:latest Restore llama3 from backup
+ollama rm llama3:latest; ollama cp llama3-backup:latest llama3:latest Verify
+ollama list </description>
     </item>
     
     <item>
