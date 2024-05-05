@@ -6,7 +6,16 @@
     <description>Recent content in trading on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 08:19:29 +0000</lastBuildDate><atom:link href="/tags/trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 13:08:43 +0100</lastBuildDate><atom:link href="/tags/trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tracking Stocks in Google Sheet</title>
+      <link>/posts/1714824523-track-stocks-csv-google-sheet/</link>
+      <pubDate>Sat, 04 May 2024 13:08:43 +0100</pubDate>
+      
+      <guid>/posts/1714824523-track-stocks-csv-google-sheet/</guid>
+      <description>Generate CSV reports $ ./generate-csv-reports.sh 2&amp;gt;&amp;amp;1 | grep &amp;#34;Exporting report&amp;#34; Combine all reports $ python3 combine-all-csvs.py Paste into Google Sheet Re-arrange and apply formulas Last Close: =GOOGLEFINANCE(C3,&amp;#34;price&amp;#34;) Current Code: =G3*E3 TV Link: =HYPERLINK(CONCATENATE(&amp;#34;https://www.tradingview.com/chart/?symbol=&amp;#34;, C3), C3) Chart: =sparkline(googlefinance(C3,&amp;#34;price&amp;#34;,today()-30,today())) Profit Loss: =I3-H3 </description>
+    </item>
+    
     <item>
       <title>What happened next when SPY jumped over 2%</title>
       <link>/posts/1708762767-spy-pct-move/</link>
