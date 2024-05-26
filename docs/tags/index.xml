@@ -6,7 +6,25 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 May 2024 13:08:43 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 May 2024 18:57:32 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>llm</title>
+      <link>/tags/llm/</link>
+      <pubDate>Sun, 26 May 2024 18:57:32 +0100</pubDate>
+      
+      <guid>/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ollama</title>
+      <link>/tags/ollama/</link>
+      <pubDate>Sun, 26 May 2024 18:57:32 +0100</pubDate>
+      
+      <guid>/tags/ollama/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>sheets</title>
       <link>/tags/sheets/</link>
@@ -22,24 +40,6 @@
       <pubDate>Sat, 04 May 2024 13:08:43 +0100</pubDate>
       
       <guid>/tags/trading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>llm</title>
-      <link>/tags/llm/</link>
-      <pubDate>Fri, 03 May 2024 10:53:56 +0100</pubDate>
-      
-      <guid>/tags/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ollama</title>
-      <link>/tags/ollama/</link>
-      <pubDate>Fri, 03 May 2024 10:53:56 +0100</pubDate>
-      
-      <guid>/tags/ollama/</guid>
       <description></description>
     </item>
     
