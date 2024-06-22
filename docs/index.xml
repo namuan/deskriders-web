@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 May 2024 18:57:32 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 11:03:58 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,16 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>How to make/lose money with buying dips</title>
+      <link>/posts/1719050638-rsi-dips/</link>
+      <pubDate>Sat, 22 Jun 2024 11:03:58 +0100</pubDate>
+      
+      <guid>/posts/1719050638-rsi-dips/</guid>
+      <description>Overview: Analyzes stock data for RSI dips below a specified lower threshold and subsequent rises above a higher threshold. Simulates buy and sell actions based on these RSI movements Calculates potential profits/losses from these simulated trades Provides a summary of dips and performance metrics Source [GitHub] https://github.com/namuan/trading-utils/blob/main/rsi_dips.py
+See the top of the script on how to run it</description>
     </item>
     
     <item>
