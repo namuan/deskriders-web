@@ -6,7 +6,19 @@
     <description>Recent content in finance on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 08:19:29 +0000</lastBuildDate><atom:link href="/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Aug 2024 08:55:38 +0100</lastBuildDate><atom:link href="/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real Estate vs Stock Market</title>
+      <link>/posts/1724313337-reit-spy-comparison/</link>
+      <pubDate>Thu, 22 Aug 2024 08:55:38 +0100</pubDate>
+      
+      <guid>/posts/1724313337-reit-spy-comparison/</guid>
+      <description>I selected IYR (as Real Estate proxy) and SPY and compare them over the last 24 years. This is expected but surprising to see the performance from 2001 - to date.
+As seen in the bottom chart, the stock market just managed to rise above the Real Estate returns.
+SPY (571%) vs IYR (549%)
+But the picture changes if we start a little later. Here is the comparison every 4 years from 2001.</description>
+    </item>
+    
     <item>
       <title>What happened next when SPY jumped over 2%</title>
       <link>/posts/1708762767-spy-pct-move/</link>
