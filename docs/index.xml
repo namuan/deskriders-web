@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Aug 2024 08:55:38 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Aug 2024 11:00:48 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Not all bear markets are equal</title>
+      <link>/posts/1724407248-bear-markets-analysis/</link>
+      <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
+      
+      <guid>/posts/1724407248-bear-markets-analysis/</guid>
+      <description>Analysis on bear markets from their peak to the trough. The data for peak and trough values is extracted from Yardeni Research
+Comparison between the last 4 bear markets Here is how the performance looks like during those periods
+Performance break down during each bear market
+Dot-com bubble burst Global Financial Crises Covid-19 Crash 2022 Downturn </description>
     </item>
     
     <item>
