@@ -6,7 +6,52 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Aug 2024 11:00:48 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Aug 2024 11:16:44 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pandoc</title>
+      <link>/tags/pandoc/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PDF conversion</title>
+      <link>/tags/pdf-conversion/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/tags/pdf-conversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SingleFile</title>
+      <link>/tags/singlefile/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/tags/singlefile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web scraping</title>
+      <link>/tags/web-scraping/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/tags/web-scraping/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>markets</title>
       <link>/tags/markets/</link>
@@ -130,15 +175,6 @@
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
       
       <guid>/tags/prompt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      
-      <guid>/tags/python/</guid>
       <description></description>
     </item>
     

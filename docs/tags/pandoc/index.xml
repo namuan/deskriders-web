@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pandoc on deskriders</title>
+    <link>/tags/pandoc/</link>
+    <description>Recent content in pandoc on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Aug 2024 11:16:44 +0100</lastBuildDate><atom:link href="/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Website to PDF using Vivaldi Browser and SingleFile extension</title>
+      <link>/posts/1725099403-blog-posts-to-pdf/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/posts/1725099403-blog-posts-to-pdf/</guid>
+      <description>Pre-Requisites: Vivaldi Browser (Although any other browser can be used) SingleFile extension If using Chrome then single-file-cli should also work, but it didn&amp;rsquo;t work with Vivaldi.
+Start with a collection of links in a file
+link1.html link2.html Download complete HTML for each url
+Note: Change the x,y coordinates if required
+Github
+#!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; A script to download web pages using Vivaldi browser and SingleFile extension Usage: ./download-urls.py -h ./download-urls.py -v file.</description>
+    </item>
+    
+  </channel>
+</rss>

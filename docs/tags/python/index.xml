@@ -6,7 +6,21 @@
     <description>Recent content in python on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Aug 2024 11:16:44 +0100</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Website to PDF using Vivaldi Browser and SingleFile extension</title>
+      <link>/posts/1725099403-blog-posts-to-pdf/</link>
+      <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
+      
+      <guid>/posts/1725099403-blog-posts-to-pdf/</guid>
+      <description>Pre-Requisites: Vivaldi Browser (Although any other browser can be used) SingleFile extension If using Chrome then single-file-cli should also work, but it didn&amp;rsquo;t work with Vivaldi.
+Start with a collection of links in a file
+link1.html link2.html Download complete HTML for each url
+Note: Change the x,y coordinates if required
+Github
+#!/usr/bin/env python3 &amp;#34;&amp;#34;&amp;#34; A script to download web pages using Vivaldi browser and SingleFile extension Usage: ./download-urls.py -h ./download-urls.py -v file.</description>
+    </item>
+    
     <item>
       <title>Tkinter blank application</title>
       <link>/posts/1681102399-chatgpt-tkinter-blank-app/</link>
