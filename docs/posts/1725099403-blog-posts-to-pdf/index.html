@@ -118,7 +118,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              3 minutes read
+              4 minutes read
             </span>
           </div>
           <div class="categories">
@@ -295,10 +295,11 @@ but it didn&rsquo;t work with Vivaldi.</p>
 </span></span><span style="display:flex;"><span>current_directory <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>getcwd()
 </span></span><span style="display:flex;"><span>clean_html_files(current_directory)
 </span></span></code></pre></div><p><strong>Convert individual HTML file to PDF</strong></p>
+<p>NOTE: Update the <code>html_dir</code> variable to where the files are downloaded.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Set the directory containing the HTML files</span>
-</span></span><span style="display:flex;"><span>html_dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/temp/lazy-trader&#34;</span>
+</span></span><span style="display:flex;"><span>html_dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/temp&#34;</span>
 </span></span><span style="display:flex;"><span>pdf_dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$html_dir<span style="color:#e6db74">/pdf&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Create the pdf subdirectory if it doesn&#39;t exist</span>

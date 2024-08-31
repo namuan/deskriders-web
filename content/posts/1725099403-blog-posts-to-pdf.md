@@ -179,11 +179,13 @@ clean_html_files(current_directory)
 
 **Convert individual HTML file to PDF**
 
+NOTE: Update the `html_dir` variable to where the files are downloaded.
+
 ```shell
 #!/bin/bash
 
 # Set the directory containing the HTML files
-html_dir="$HOME/temp/lazy-trader"
+html_dir="$HOME/temp"
 pdf_dir="$html_dir/pdf"
 
 # Create the pdf subdirectory if it doesn't exist
