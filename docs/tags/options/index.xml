@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>options on deskriders</title>
+    <link>/tags/options/</link>
+    <description>Recent content in options on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Sep 2024 10:49:16 +0100</lastBuildDate><atom:link href="/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Market Analysis and Straddle Adjustment Strategies (2024-09-04)</title>
+      <link>/posts/1725443356-market-2024-09-04-tuesday/</link>
+      <pubDate>Wed, 04 Sep 2024 10:49:16 +0100</pubDate>
+      
+      <guid>/posts/1725443356-market-2024-09-04-tuesday/</guid>
+      <description>This is how the market looked yesterday (2024-09-03):
+And this is how it looks today:
+This is after a 2.12% drop.
+This is how the straddles look before market open, so I think I need to adjust at least one which is expiring on the 6th.
+XSP Sep 6th 562 Short Straddle
+The price is almost touching the put strike. We have already done one adjustment here, so there are a couple of potential further adjustments:</description>
+    </item>
+    
+  </channel>
+</rss>
