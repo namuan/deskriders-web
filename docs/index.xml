@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 09:04:43 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 09:46:40 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Deploying multiple applications on a VPS</title>
+      <link>/posts/1725526000-vps-deployment-multiple-apps/</link>
+      <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
+      
+      <guid>/posts/1725526000-vps-deployment-multiple-apps/</guid>
+      <description>Dokku: my favorite personal serverless platform
+Server Setup Basics
+Deploying Docker images with Dokku and a custom nginx configuration
+Tutorial: How to Deploy Apps and Websites with Dokku
+Example Repo</description>
     </item>
     
     <item>
