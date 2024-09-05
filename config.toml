@@ -62,7 +62,7 @@ googleAnalytics = "UA-129728575-5"
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/deskriders_twt/"
+    url = "https://x.com/namuan_twt/"
 
 [[menu.main]]
 name = "Blog"

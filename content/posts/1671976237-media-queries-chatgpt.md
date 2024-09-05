@@ -21,7 +21,7 @@ I have this div which is showing all the elements in the div alongside each othe
             <a href="https://github.com/namuan/lazy-trader" target="_blank" aria-label="Github">Github</a>
         </li>
         <li>
-            <a href="https://twitter.com/deskriders_twt/" target="_blank" aria-label="Twitter">Twitter</a>
+            <a href="https://x.com/namuan_twt/" target="_blank" aria-label="Twitter">Twitter</a>
         </li>
     </ul>
 </div>

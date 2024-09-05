@@ -61,4 +61,4 @@ If you are thinking about learning Python/PyQt then consider adding a new tool. 
 
 Also see the current list [here](https://github.com/namuan/dev-rider/blob/master/docs/more-tools.md) but you are welcome to add anything missing from that list.
 
-Please like the [Github Project](https://github.com/namuan/dev-rider) and follow https://twitter.com/deskriders_twt/ for development updates and spreading the word out.
+Please like the [Github Project](https://github.com/namuan/dev-rider) and follow https://x.com/namuan_twt/ for development updates and spreading the word out.
