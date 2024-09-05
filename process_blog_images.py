@@ -69,10 +69,15 @@ def process_blog_post(blog_post_path):
             logging.debug(f"Moving image from {source_path} to {target_path}")
 
             os.makedirs(os.path.dirname(target_path), exist_ok=True)
+
+            if not os.path.exists(source_path):
+                logging.warning(f"Can't find file {source_path}")
+                continue
+
             shutil.move(source_path, target_path)
 
             old_tag = f'![{alt_text}]({image_file})'
-            new_tag = f'![{target_location}]({target_location})'
+            new_tag = f'![{target_location}](/{target_location})'
             content = content.replace(old_tag, new_tag)
             logging.info(f"Updated image tag: {old_tag} -> {new_tag}")
 

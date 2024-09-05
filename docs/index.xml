@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 08:28:07 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 09:04:43 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Market Analysis and Straddle Adjustment Strategies (2024-09-05)</title>
+      <link>/posts/1725523483-market-2024-09-05-thursday/</link>
+      <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
+      
+      <guid>/posts/1725523483-market-2024-09-05-thursday/</guid>
+      <description>This is how the market looked yesterday:
+And this is how it looks today:
+There is a general downward trend across most indexes and sectors, particularly in the shorter-term (5-day) moving averages, suggesting a short-term market pullback or increased volatility.
+Existing Positions XSP Sep 6th 562 Short Straddle
+It recovered a little, but I closed it for a loss as it is getting very close to expiry.
+XSP Sep 9th 558 Short Straddle</description>
     </item>
     
     <item>
