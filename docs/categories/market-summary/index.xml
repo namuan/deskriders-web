@@ -6,7 +6,26 @@
     <description>Recent content in market-summary on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 09:04:43 +0100</lastBuildDate><atom:link href="/categories/market-summary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 18:21:08 +0100</lastBuildDate><atom:link href="/categories/market-summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Market Analysis and Straddle Adjustment Strategies (2024-09-06)</title>
+      <link>/posts/1725643268-market-2024-09-06-friday/</link>
+      <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
+      
+      <guid>/posts/1725643268-market-2024-09-06-friday/</guid>
+      <description>This is how the market looked yesterday:
+And this is how it looks today:
+Market down around -1.51%
+Existing Positions XSP Sep 9th 558 Short Straddle
+Closed it for -$331 (-17%) loss
+XSP Sep 10th 556 Short Straddle
+Closed it for +$183 (+20%) profit
+XSP Sep 11th 552 Short Straddle
+Adjusted. Close existing untested side. Sold another ATM Call.
+New Position XSP Sep 12th 550 Short Straddle
+Opened yesterday and had to adjust it today due to large down move.</description>
+    </item>
+    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-05)</title>
       <link>/posts/1725523483-market-2024-09-05-thursday/</link>

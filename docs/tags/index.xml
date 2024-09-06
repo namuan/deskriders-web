@@ -6,7 +6,43 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Sep 2024 09:46:40 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 18:21:08 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>adjustments</title>
+      <link>/tags/adjustments/</link>
+      <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
+      
+      <guid>/tags/adjustments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markets</title>
+      <link>/tags/markets/</link>
+      <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
+      
+      <guid>/tags/markets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>options</title>
+      <link>/tags/options/</link>
+      <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
+      
+      <guid>/tags/options/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategies</title>
+      <link>/tags/strategies/</link>
+      <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
+      
+      <guid>/tags/strategies/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>deployment</title>
       <link>/tags/deployment/</link>
@@ -22,42 +58,6 @@
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
       
       <guid>/tags/servers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>adjustments</title>
-      <link>/tags/adjustments/</link>
-      <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
-      
-      <guid>/tags/adjustments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markets</title>
-      <link>/tags/markets/</link>
-      <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
-      
-      <guid>/tags/markets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>options</title>
-      <link>/tags/options/</link>
-      <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
-      
-      <guid>/tags/options/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>strategies</title>
-      <link>/tags/strategies/</link>
-      <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
-      
-      <guid>/tags/strategies/</guid>
       <description></description>
     </item>
     
