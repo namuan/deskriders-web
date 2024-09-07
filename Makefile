@@ -19,15 +19,18 @@ process: ## Here is the process
 clean: ## Clean Docs folder
 	rm -rf docs
 
-generate: clean ## Generator Documentation
+generate: clean opt-images ## Generator Documentation
 	HUGO_ENV="production" hugo --gc --destination docs || exit 1
 
-commit-all: ## Push generated documentation to Github
+opt-images: ## Optimise images
+	python3 image_optimizer.py --path static/images -v
+
+commit-all: opt-images ## Push generated documentation to Github
 	git add -A
 	git commit -m "Updated docs"
 	git push origin master
 
-serve: ## Serve site locally
+serve: opt-images ## Serve site locally
 	open http://localhost:1313
 	hugo server -D --disableFastRender
 
