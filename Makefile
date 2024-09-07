@@ -25,7 +25,7 @@ generate: clean opt-images ## Generator Documentation
 opt-images: ## Optimise images
 	python3 image_optimizer.py --path static/images -v
 
-commit-all: opt-images ## Push generated documentation to Github
+commit-all: ## Push generated documentation to Github
 	git add -A
 	git commit -m "Updated docs"
 	git push origin master
