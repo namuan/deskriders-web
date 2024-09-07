@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
 
 """
-Image Optimizer
+Image Optimizer for Non-Committed Files in a Specific Directory
 
-This script optimizes all images in a given directory and its subdirectories for web use.
-It also reports the total file size difference after optimization.
+This script optimizes non-committed image files in a specified directory within a Git repository.
+It reports the total file size difference after optimization.
 
 Usage:
     python image_optimizer.py --path /path/to/images/directory [-v] [-vv]
 
 Arguments:
-    --path  : Path to the directory containing images
+    --path  : Path to the images directory (relative to the Git repository root)
     -v      : Enable verbose logging
     -vv     : Enable very verbose logging
 
 Example:
-    python image_optimizer.py --path /Users/nnn/workspace/deskriders-web/static -v
+    python image_optimizer.py --path static/images -v
 
 Required packages:
-    pip install pillow
+    pip install pillow gitpython
 """
 
 import os
 import argparse
 import logging
 from PIL import Image
+from git import Repo
+from git.exc import InvalidGitRepositoryError
+from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
 def setup_logging(verbose_level):
@@ -34,8 +37,9 @@ def setup_logging(verbose_level):
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Optimize images for web use")
-    parser.add_argument("--path", required=True, help="Path to the directory containing images")
+    parser = ArgumentParser(description=__doc__, formatter_class=RawDescriptionHelpFormatter)
+    parser.add_argument("--path", required=True,
+                        help="Path to the images directory (relative to the Git repository root)")
     parser.add_argument("-v", action="count", default=0, help="Increase verbosity")
     return parser.parse_args()
 
@@ -62,13 +66,23 @@ def optimize_image(file_path):
         return 0
 
 
-def process_directory(directory_path):
+def get_non_committed_images(repo, images_path):
+    try:
+        non_committed_files = [item.a_path for item in repo.index.diff(None)]
+        non_committed_files.extend(repo.untracked_files)
+        return [f for f in non_committed_files
+                if f.startswith(images_path) and is_image_file(f)]
+    except InvalidGitRepositoryError:
+        logging.error("The current directory is not a valid Git repository.")
+        return []
+
+
+def process_non_committed_images(repo, images_path):
     total_size_difference = 0
-    for root, _, files in os.walk(directory_path):
-        for file in files:
-            if is_image_file(file):
-                file_path = os.path.join(root, file)
-                total_size_difference += optimize_image(file_path)
+    non_committed_images = get_non_committed_images(repo, images_path)
+    for image_path in non_committed_images:
+        full_path = os.path.join(repo.working_dir, image_path)
+        total_size_difference += optimize_image(full_path)
     return total_size_difference
 
 
@@ -84,8 +98,19 @@ def main():
     args = parse_arguments()
     setup_logging(args.v)
 
-    logging.info(f"Starting image optimization in: {args.path}")
-    total_size_difference = process_directory(args.path)
+    try:
+        repo = Repo(os.getcwd())
+    except InvalidGitRepositoryError:
+        logging.error("The current directory is not a valid Git repository.")
+        return
+
+    images_path = args.path.rstrip(os.sep)
+    if not os.path.isdir(images_path):
+        logging.error(f"The path {images_path} is not a valid directory.")
+        return
+
+    logging.info(f"Starting image optimization for non-committed files in {images_path}")
+    total_size_difference = process_non_committed_images(repo, images_path)
     logging.info("Image optimization completed")
 
     formatted_size_difference = format_size(total_size_difference)
