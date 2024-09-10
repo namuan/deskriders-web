@@ -47,6 +47,7 @@ paste-image: ## Paste image from clipboard and return markdown link
 	mkdir -vp static/images/`date +%Y`/`date +%m`/`date +%d`
 	echo "`pwd`/static/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}" | pbcopy
 	echo "Copy following markdown snippet and paste it in the post"
+	echo "/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}"
 	echo "![image](/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE})"
 	echo "Paste the image in the document. IntelliJ should save it as img.png"
 	echo "mv content/posts/img.png static/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}"
