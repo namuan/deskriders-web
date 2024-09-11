@@ -17,5 +17,11 @@ series = []
 
 [Tutorial: How to Deploy Apps and Websites with Dokku](https://maxschmitt.me/posts/tutorial-deploy-apps-websites-dokku)
 
+[Zero Downtime Deployment for Docker Compose](https://github.com/Wowu/docker-rollout)
+
+[aquamarine](https://github.com/maxcountryman/aquamarine)
+A demo of zero-downtime deploys with Docker Compose and Traefik
+
 [Example Repo](https://github.com/DareFail/AI-Video-Boilerplate-Pro)
+
 

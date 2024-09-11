@@ -137,6 +137,8 @@ Opened yesterday and had to adjust it today due to large down move.</description
 Server Setup Basics
 Deploying Docker images with Dokku and a custom nginx configuration
 Tutorial: How to Deploy Apps and Websites with Dokku
+Zero Downtime Deployment for Docker Compose
+aquamarine A demo of zero-downtime deploys with Docker Compose and Traefik
 Example Repo</description>
     </item>
     
