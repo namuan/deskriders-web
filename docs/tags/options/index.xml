@@ -6,7 +6,23 @@
     <description>Recent content in options on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Sep 2024 09:16:40 +0100</lastBuildDate><atom:link href="/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 16:30:49 +0100</lastBuildDate><atom:link href="/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Market Analysis and Straddle Adjustment Strategies (2024-09-11)</title>
+      <link>/posts/1726068649-market-2024-09-11-wednesday/</link>
+      <pubDate>Wed, 11 Sep 2024 16:30:49 +0100</pubDate>
+      
+      <guid>/posts/1726068649-market-2024-09-11-wednesday/</guid>
+      <description>This is how the market looked yesterday:
+And this is how it looks today:
+Existing Positions XSP Sep 13th 7DTE Short Straddle
+Closed for +$246 return since Sep 6, 2024 at 6:31 PM
+/ESU24 Sep 16th 7DTE Short Straddle
+No adjustment required yet although the big swing is taking it closer to the down-side.
+XSP Sep 17th 7DTE Short Straddle
+No adjustment required as current price is almost around the middle.</description>
+    </item>
+    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-10)</title>
       <link>/posts/1725956200-market-2024-09-10-tuesday/</link>
@@ -16,9 +32,9 @@
       <description>This is how the market looked yesterday:
 And this is how it looks today (up 1.12%):
 Existing Positions XSP Sep 11th 7DTE Short Straddle
-Closed it for +$134 (+8.5%) return since Sep 4, 2024, 6:37 PM
+Closed it for +$134 return since Sep 4, 2024, 6:37 PM
 XSP Sep 12th 7DTE Short Straddle
-Closed it for +$140 (+8.4%) return since Sep 5, 2024, 6:46 PM
+Closed it for +$140 return since Sep 5, 2024, 6:46 PM
 XSP Sep 13th 7DTE Short Straddle
 No adjustment required yet (3DTE now) but if the market keeps going up then will need to adjust it.</description>
     </item>
@@ -50,9 +66,9 @@ No adjustment required yet but if the market keeps going up then will need to ad
 And this is how it looks today:
 Market down around -1.51%
 Existing Positions XSP Sep 9th 558 Short Straddle
-Closed it for -$331 (-17%) loss
+Closed it for -$331 loss
 XSP Sep 10th 556 Short Straddle
-Closed it for +$183 (+20%) profit
+Closed it for +$183 profit
 XSP Sep 11th 552 Short Straddle
 Adjusted. Close existing untested side. Sold another ATM Call.
 New Position XSP Sep 12th 550 Short Straddle
