@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Sep 2024 18:27:05 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 09:04:54 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Exploring Google&#39;s NotebookLM</title>
+      <link>/posts/1726301094-google-ai-notebook-llm/</link>
+      <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
+      
+      <guid>/posts/1726301094-google-ai-notebook-llm/</guid>
+      <description>I&amp;rsquo;m amazed by Google&amp;rsquo;s Notebook LLM
+&amp;ldquo;NotebookLM gives you a personalized AI collaborator that helps you do your best thinking. After uploading your documents, NotebookLM becomes an instant expert in those sources so you can read, take notes, and collaborate with it to refine and organize your ideas.&amp;rdquo;
+View references directly from answers
+Click on the reference to jump directly into the relevant section in the source document
+I found that very useful that I can then focus on the relevant section in the source document.</description>
     </item>
     
     <item>
