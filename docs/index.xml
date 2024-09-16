@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2024 09:04:54 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 08:26:22 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,27 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Link List :: 2024-09-16</title>
+      <link>/posts/1726471582-linklist-2024-09-16/</link>
+      <pubDate>Mon, 16 Sep 2024 08:26:22 +0100</pubDate>
+      
+      <guid>/posts/1726471582-linklist-2024-09-16/</guid>
+      <description>https://github.com/michaelchu/optopsy/wiki
+https://algorithms-tour.stitchfix.com/
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+https://vallandingham.me/scroller.html
+https://www.joelonsoftware.com/2002/01/06/fire-and-motion/
+https://github.com/blotterfyi/velocity
+https://github.com/aorwall/moatless-tools
+https://github.com/morishin/XDeck
+https://compute.hyper.space/
+https://github.com/phiresky/thought-forge-ai?tab=readme-ov-file
+https://github.com/Doriandarko/maestro
+https://github.com/Blaizzy/fastmlx
+https://github.com/kturung/langgraph_streamlit_codeassistant</description>
     </item>
     
     <item>
@@ -168,6 +189,15 @@ XSP Sep 12th 550 Short Straddle
 No change. Still safe so will keep it open for another day
 XSP Sep 13th 541 Short Straddle
 No adjustment required yet but if the market keeps going up then will need to adjust it.</description>
+    </item>
+    
+    <item>
+      <title>Link List :: 2024-09-07</title>
+      <link>/posts/1726471302-linklist-2024-09-07/</link>
+      <pubDate>Sat, 07 Sep 2024 08:21:43 +0100</pubDate>
+      
+      <guid>/posts/1726471302-linklist-2024-09-07/</guid>
+      <description> https://github.com/roboflow/sports https://github.com/raznem/parsera https://github.com/Peng-YM/LeetCode-Anki https://github.com/ading2210/poe-api https://github.com/linyimin0812/spring-startup-analyzer https://optionalpha.com/blog/0dte-options-strategy-performance https://github.com/paul-gauthier/aider/blob/main/benchmark/README.md https://github.com/michaelchu/optopsy/wiki https://github.com/simonw/tools https://github.com/geographyclub/qgis-expressions/tree/main/screens https://www.gpu-mart.com/blog/import-models-from-huggingface-to-ollama https://www.reddit.com/r/LocalLLaMA/comments/1exe1lu/tutorial_getting_phi_35_mini_running_locally_in/ </description>
     </item>
     
     <item>

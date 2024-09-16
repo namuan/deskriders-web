@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>links on deskriders</title>
+    <link>/tags/links/</link>
+    <description>Recent content in links on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Sep 2024 08:26:22 +0100</lastBuildDate><atom:link href="/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2024-09-16</title>
+      <link>/posts/1726471582-linklist-2024-09-16/</link>
+      <pubDate>Mon, 16 Sep 2024 08:26:22 +0100</pubDate>
+      
+      <guid>/posts/1726471582-linklist-2024-09-16/</guid>
+      <description>https://github.com/michaelchu/optopsy/wiki
+https://algorithms-tour.stitchfix.com/
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+https://vallandingham.me/scroller.html
+https://www.joelonsoftware.com/2002/01/06/fire-and-motion/
+https://github.com/blotterfyi/velocity
+https://github.com/aorwall/moatless-tools
+https://github.com/morishin/XDeck
+https://compute.hyper.space/
+https://github.com/phiresky/thought-forge-ai?tab=readme-ov-file
+https://github.com/Doriandarko/maestro
+https://github.com/Blaizzy/fastmlx
+https://github.com/kturung/langgraph_streamlit_codeassistant</description>
+    </item>
+    
+    <item>
+      <title>Link List :: 2024-09-07</title>
+      <link>/posts/1726471302-linklist-2024-09-07/</link>
+      <pubDate>Sat, 07 Sep 2024 08:21:43 +0100</pubDate>
+      
+      <guid>/posts/1726471302-linklist-2024-09-07/</guid>
+      <description> https://github.com/roboflow/sports https://github.com/raznem/parsera https://github.com/Peng-YM/LeetCode-Anki https://github.com/ading2210/poe-api https://github.com/linyimin0812/spring-startup-analyzer https://optionalpha.com/blog/0dte-options-strategy-performance https://github.com/paul-gauthier/aider/blob/main/benchmark/README.md https://github.com/michaelchu/optopsy/wiki https://github.com/simonw/tools https://github.com/geographyclub/qgis-expressions/tree/main/screens https://www.gpu-mart.com/blog/import-models-from-huggingface-to-ollama https://www.reddit.com/r/LocalLLaMA/comments/1exe1lu/tutorial_getting_phi_35_mini_running_locally_in/ </description>
+    </item>
+    
+  </channel>
+</rss>
