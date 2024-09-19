@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>huggingface on deskriders</title>
+    <link>/tags/huggingface/</link>
+    <description>Recent content in huggingface on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Sep 2024 11:22:15 +0100</lastBuildDate><atom:link href="/tags/huggingface/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Diffusers Image Outpaint Huggingface demo locally on a Mac</title>
+      <link>/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</link>
+      <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
+      
+      <guid>/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</guid>
+      <description>See demo here
+Clone HuggingFace space locally
+git clone https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint Create Virtual Environment and Install Dependencies
+python3.12 -m venv venv source venv/bin/activate pip install -r requirements.txt Update source to use mps backend
+Run gradio application. It&amp;rsquo;ll take a little time to download all models required to run this space. If stuck then exit the process and try again. It should print a link to localhost to open the application.
+venv/bin/gradio app.</description>
+    </item>
+    
+  </channel>
+</rss>

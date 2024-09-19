@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Sep 2024 20:27:29 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Sep 2024 11:22:15 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Running Diffusers Image Outpaint Huggingface demo locally on a Mac</title>
+      <link>/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</link>
+      <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
+      
+      <guid>/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</guid>
+      <description>See demo here
+Clone HuggingFace space locally
+git clone https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint Create Virtual Environment and Install Dependencies
+python3.12 -m venv venv source venv/bin/activate pip install -r requirements.txt Update source to use mps backend
+Run gradio application. It&amp;rsquo;ll take a little time to download all models required to run this space. If stuck then exit the process and try again. It should print a link to localhost to open the application.
+venv/bin/gradio app.</description>
     </item>
     
     <item>
