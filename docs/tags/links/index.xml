@@ -6,7 +6,16 @@
     <description>Recent content in links on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2024 08:26:22 +0100</lastBuildDate><atom:link href="/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 19:55:10 +0100</lastBuildDate><atom:link href="/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2024-09-23</title>
+      <link>/posts/1727117710-linklist-2024-09-23/</link>
+      <pubDate>Mon, 23 Sep 2024 19:55:10 +0100</pubDate>
+      
+      <guid>/posts/1727117710-linklist-2024-09-23/</guid>
+      <description>Prompt used for generating summary of each page in Poe As instructed before, Summarise it using only bullet points in markdown syntax. No headings, just bullet points. I want it as raw markdown so that I can use it in README.md file {clipboard} https://github.com/michaelchu/optopsy/wiki - Optopsy is an open source Python library for backtesting options trading strategies - Created by Michael Chu and hosted on GitHub - Uses a bucketing methodology to group option chains - Groups option chains by days to expiration and delta/strike distance from current price - Evaluates profit/loss of each option chain and aggregates results into buckets - Generates statistics including average profit/loss, minimum, maximum, and distributions - Focuses on answering core questions rather than fully replicating real-world events - Results are meant for theoretical understanding, not actual trade recommendations - Does not factor in external events or sequence of events over time - Accuracy can be improved by refining bucket intervals - Wiki covers methodology, API reference, data feeds, usage, and contributing - Feedback and contributions are welcomed by the developer - Allows programmatic backtesting of options strategies in Python - Analyzes statistical outcomes across different implied market states - Goal is insight into potential performance rather than replicating real events - Available open source on GitHub for use, learning, and contribution https://compute.</description>
+    </item>
+    
     <item>
       <title>Link List :: 2024-09-16</title>
       <link>/posts/1726471582-linklist-2024-09-16/</link>

@@ -6,7 +6,16 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Sep 2024 19:40:21 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 19:55:10 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linklist</title>
+      <link>/categories/linklist/</link>
+      <pubDate>Mon, 23 Sep 2024 19:55:10 +0100</pubDate>
+      
+      <guid>/categories/linklist/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>market-summary</title>
       <link>/categories/market-summary/</link>
@@ -22,15 +31,6 @@
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
       
       <guid>/categories/demos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linklist</title>
-      <link>/categories/linklist/</link>
-      <pubDate>Mon, 16 Sep 2024 08:26:22 +0100</pubDate>
-      
-      <guid>/categories/linklist/</guid>
       <description></description>
     </item>
     
