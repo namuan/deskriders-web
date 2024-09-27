@@ -20,13 +20,28 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
+    <loc>/posts/1727425815-productivity-2024/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
+    <loc>/tags/tools/</loc>
+    <lastmod>2024-09-27T09:30:15+01:00</lastmod>
+  </url><url>
     <loc>/tags/adjustments/</loc>
     <lastmod>2024-09-26T21:26:06+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-09-26T21:26:06+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2024-09-26T21:26:06+01:00</lastmod>
   </url><url>
     <loc>/posts/1727382365-market-2024-09-26-thursday/</loc>
@@ -41,13 +56,7 @@
     <loc>/tags/options/</loc>
     <lastmod>2024-09-26T21:26:06+01:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-09-26T21:26:06+01:00</lastmod>
-  </url><url>
     <loc>/tags/strategies/</loc>
-    <lastmod>2024-09-26T21:26:06+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-09-26T21:26:06+01:00</lastmod>
   </url><url>
     <loc>/posts/1727284959-market-2024-09-25-wednesday/</loc>
@@ -500,9 +509,6 @@
     <loc>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</loc>
     <lastmod>2021-12-23T20:13:43+00:00</lastmod>
   </url><url>
-    <loc>/tags/tools/</loc>
-    <lastmod>2021-12-23T18:40:25+00:00</lastmod>
-  </url><url>
     <loc>/posts/1640280913-working-with-asdf/</loc>
     <lastmod>2021-12-23T18:40:25+00:00</lastmod>
   </url><url>
@@ -690,9 +696,6 @@
     <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url><url>
     <loc>/tags/ide/</loc>
-    <lastmod>2020-01-28T16:38:45+00:00</lastmod>
-  </url><url>
-    <loc>/tags/productivity/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url><url>
     <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>

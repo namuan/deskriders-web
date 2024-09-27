@@ -45,7 +45,7 @@ def parse_arguments():
 
 
 def is_image_file(filename):
-    return filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))
+    return filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp'))
 
 
 def get_file_size(file_path):

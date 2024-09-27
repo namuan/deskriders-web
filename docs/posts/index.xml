@@ -6,7 +6,22 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Sep 2024 21:26:06 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Sep 2024 09:30:15 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Productivity - 2024 Edition</title>
+      <link>/posts/1727425815-productivity-2024/</link>
+      <pubDate>Fri, 27 Sep 2024 09:30:15 +0100</pubDate>
+      
+      <guid>/posts/1727425815-productivity-2024/</guid>
+      <description>Goals/Principles
+Use existing applications where possible Build tools around your workflow. Not the other way around Prefer applications with a simple UI unless they are my own Alfred
+This is one of my most used applications.
+All of my workflows and snippets are here https://github.com/namuan/namuan/tree/main/alfred
+Some of the non-standard way I use Alfred:
+. Opening a bunch of websites in the morning using a keyword.
+. Snippets for storing GPT/LLM prompts</description>
+    </item>
+    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-26)</title>
       <link>/posts/1727382365-market-2024-09-26-thursday/</link>
