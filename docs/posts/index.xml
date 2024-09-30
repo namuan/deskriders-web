@@ -6,7 +6,17 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Sep 2024 20:38:03 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2024 10:19:29 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2024-09-30</title>
+      <link>/posts/1727687969-linklist-2024-09-30/</link>
+      <pubDate>Mon, 30 Sep 2024 10:19:29 +0100</pubDate>
+      
+      <guid>/posts/1727687969-linklist-2024-09-30/</guid>
+      <description>Last 7 days (as of 2024-09-28 18:57)
+https://github.com/michaelchu/optopsy/wiki * Optopsy is an open-source backtesting library for option strategies. * The library focuses on answering core questions about option strategies, rather than simulating every possible scenario. * The backtesting algorithm involves: * Evaluating option chains within specified entry and exit dates. * Grouping evaluated chains into buckets based on Days to Expiration (DTE) and delta or strike distance percent. * Constructing option strategy legs and calculating profit/loss.</description>
+    </item>
+    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-27)</title>
       <link>/posts/1727465883-market-2024-09-27-friday/</link>
