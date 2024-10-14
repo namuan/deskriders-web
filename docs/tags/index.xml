@@ -6,20 +6,11 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Oct 2024 08:38:16 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>links</title>
-      <link>/tags/links/</link>
-      <pubDate>Mon, 14 Oct 2024 08:38:16 +0100</pubDate>
-      
-      <guid>/tags/links/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 14 Oct 2024 20:03:40 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>adjustments</title>
       <link>/tags/adjustments/</link>
-      <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
+      <pubDate>Mon, 14 Oct 2024 20:03:40 +0100</pubDate>
       
       <guid>/tags/adjustments/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>markets</title>
       <link>/tags/markets/</link>
-      <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
+      <pubDate>Mon, 14 Oct 2024 20:03:40 +0100</pubDate>
       
       <guid>/tags/markets/</guid>
       <description></description>
@@ -37,7 +28,7 @@
     <item>
       <title>options</title>
       <link>/tags/options/</link>
-      <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
+      <pubDate>Mon, 14 Oct 2024 20:03:40 +0100</pubDate>
       
       <guid>/tags/options/</guid>
       <description></description>
@@ -46,9 +37,18 @@
     <item>
       <title>strategies</title>
       <link>/tags/strategies/</link>
-      <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
+      <pubDate>Mon, 14 Oct 2024 20:03:40 +0100</pubDate>
       
       <guid>/tags/strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>links</title>
+      <link>/tags/links/</link>
+      <pubDate>Mon, 14 Oct 2024 08:38:16 +0100</pubDate>
+      
+      <guid>/tags/links/</guid>
       <description></description>
     </item>
     

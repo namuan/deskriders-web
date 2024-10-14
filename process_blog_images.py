@@ -52,10 +52,10 @@ def parse_args():
     return parser.parse_args()
 
 
-def generate_target_location():
+def generate_target_location(counter):
     now = datetime.now()
     timestamp = int(time.time())
-    return f"images/{now.year}/{now.month:02d}/{now.day:02d}/{timestamp}.png"
+    return f"images/{now.year}/{now.month:02d}/{now.day:02d}/{timestamp}-{counter}.png"
 
 
 def process_blog_post(blog_post_path):
@@ -67,9 +67,11 @@ def process_blog_post(blog_post_path):
     image_tags = re.findall(r'!\[(.*?)]\((.*?)\)', content)
     logging.debug(f"Found {len(image_tags)} image tags")
 
+    counter = 1
     for alt_text, image_file in image_tags:
         if image_file.endswith('.png'):
-            target_location = generate_target_location()
+            target_location = generate_target_location(counter)
+            counter += 1
 
             source_path = os.path.join(os.path.dirname(blog_post_path), image_file)
             target_path = os.path.join('static', target_location)
