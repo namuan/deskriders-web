@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Oct 2024 08:38:16 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Oct 2024 11:12:24 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,18 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>TDD Cycle in a loop using LLM</title>
+      <link>/posts/1728900744-tdd-cycle-loop-llm/</link>
+      <pubDate>Mon, 14 Oct 2024 11:12:24 +0100</pubDate>
+      
+      <guid>/posts/1728900744-tdd-cycle-loop-llm/</guid>
+      <description>How to effectively use LLMs to write and iterator over building software?
+This won&amp;rsquo;t be fully automated as a human input and guidance will be required at each step.
+See the following picture for a rough loop. It&amp;rsquo;ll be handy to have a graph like IDE to make it easy to visualise and have human feedback.
+References https://codeinthehole.com/tips/llm-tdd-loop-script/ https://arxiv.org/pdf/2312.04687 https://github.com/defineprogramming/phindapidocs </description>
     </item>
     
     <item>
