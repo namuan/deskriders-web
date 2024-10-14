@@ -12,7 +12,9 @@ import logging
 import os
 import re
 import shutil
+import time
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
+from datetime import datetime
 
 
 def setup_logging(verbosity):
@@ -50,6 +52,12 @@ def parse_args():
     return parser.parse_args()
 
 
+def generate_target_location():
+    now = datetime.now()
+    timestamp = int(time.time())
+    return f"images/{now.year}/{now.month:02d}/{now.day:02d}/{timestamp}.png"
+
+
 def process_blog_post(blog_post_path):
     logging.info(f"Processing blog post: {blog_post_path}")
 
@@ -61,7 +69,7 @@ def process_blog_post(blog_post_path):
 
     for alt_text, image_file in image_tags:
         if image_file.endswith('.png'):
-            target_location = alt_text.strip('/')
+            target_location = generate_target_location()
 
             source_path = os.path.join(os.path.dirname(blog_post_path), image_file)
             target_path = os.path.join('static', target_location)
@@ -102,4 +110,3 @@ if __name__ == "__main__":
     args = parse_args()
     setup_logging(args.verbose)
     main(args)
-

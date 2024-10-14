@@ -46,8 +46,7 @@ new-post: ## Create a new post with the given title (Use this with title=blah bl
 paste-image: ## Paste image from clipboard and return markdown link
 	mkdir -vp static/images/`date +%Y`/`date +%m`/`date +%d`
 	echo "`pwd`/static/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}" | pbcopy
-	echo "Copy following markdown snippet and paste it in the post"
-	echo "/images/`date +%Y`/`date +%m`/`date +%d`/${IMAGE_FILE}"
+	echo "Don't need to run this anymore"
 
 deploy: generate ## Deploys to Netlify staging environment
 	netlify deploy --prod --dir=docs
