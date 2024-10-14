@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Oct 2024 18:05:08 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Oct 2024 08:38:16 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -76,6 +76,15 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
     </item>
     
     <item>
+      <title>Link List :: 2024-10-14</title>
+      <link>/posts/1728891496-linklist-2024-10-13/</link>
+      <pubDate>Mon, 14 Oct 2024 08:38:16 +0100</pubDate>
+      
+      <guid>/posts/1728891496-linklist-2024-10-13/</guid>
+      <description>https://www.reddit.com/r/options/wiki/toolbox/links/ Here are some resources for option trading: **Backtesting Tools** * OptionStack (backtesting tool, free trial) * thinkorswim &amp;#34;thinkBack&amp;#34; (backtesting tool within a broker&amp;#39;s platform) * TradeMachine Pro (paid only, but has 30-day free trial) * Tastylive backtesting webapp (free, with account registration) **Technical Analysis** * Daytrading Simulator article on TA for options * Fidelity TA for options trading Webinar PDF * Investopedia top technical indicators for options trading * TDA three indicators to check before the trade **Research &amp;amp; Indicators** * Finlo (research and portfolio tracking, free 7-day trial) * Predicting Alpha (volatility forecasting and strategy-focused dashboard, requires registration) * Qwidgets customizable dashboard for researching options trades (free, requires registration) * Simpler Trading (research, analysis, and education, mostly paid but some free resources) **Screeners &amp;amp; Scanners** * Barchart options screener * CME Open Interest heatmap for CME options/futures products * FDScanner * Golden Sweeps (freemium web site) * Market Chameleon options screener * Option Samurai (paid subscription only) * Option Sonar unusual activity scanner (free alerts are delayed, paid subscriptions are real-time) **Option Trading Blogs, Video and Podcast Channels** * InTheMoney YouTube channel * Option Alpha YouTube channel * Poor vs.</description>
+    </item>
+    
+    <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-10)</title>
       <link>/posts/1728839108-market-2024-10-13-sunday/</link>
       <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
@@ -105,6 +114,16 @@ So far, +$331.25 (+6.7%) return since Oct 7, 2024 at 3:23 PM
 Closed for +$525 (+14%) return since Oct 7, 2024 at 3:25 PM
 New Position Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
 0 DTE /ESZ24 Oct 8th 5770/5795/5745 Iron Butterfly (Exp)</description>
+    </item>
+    
+    <item>
+      <title>Link List :: 2024-10-08</title>
+      <link>/posts/1728891487-linklist-2024-10-06/</link>
+      <pubDate>Tue, 08 Oct 2024 08:38:07 +0100</pubDate>
+      
+      <guid>/posts/1728891487-linklist-2024-10-06/</guid>
+      <description>Last 7 days (as of 2024-10-08 10:10)
+https://markrbest.github.io/reading-list/ - Book list covers various topics in trading, finance, and programming - General trading books: - &amp;#34;Advances in Financial Machine Learning&amp;#34; by Marcos Lopez de Prado - &amp;#34;Trading Systems and Methods&amp;#34; by Perry J. Kaufman - Ernie Chan&amp;#39;s books on algorithmic trading - Portfolio management: - &amp;#34;Quantitative Portfolio Management&amp;#34; by Michael Isichenko - &amp;#34;Advanced Portfolio Management&amp;#34; by Giuseppe A. Paleologo - Market making and trade cost analysis: - &amp;#34;Algorithmic Trading: A Practitioner&amp;#39;s Guide&amp;#34; by Rishi K.</description>
     </item>
     
     <item>
