@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Oct 2024 12:51:18 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 20:44:47 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,23 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Market Analysis and Straddle Adjustment Strategies (2024-10-16)</title>
+      <link>/posts/1729107887-market-2024-10-16-wednesday/</link>
+      <pubDate>Wed, 16 Oct 2024 20:44:47 +0100</pubDate>
+      
+      <guid>/posts/1729107887-market-2024-10-16-wednesday/</guid>
+      <description>This is how the market looked yesterday:
+And this is how it looks today:
+Positions /ESZ24 Oct 23rd 7/8DTE Short Straddle
+So far, +$500 (+12%) return since Oct 15, 2024 at 4:18 PM
+/ESZ24 Oct 24th 7/8DTE Short Straddle
+Double Straddle
+So far, -$18.75 (-0.2%) return since Oct 16, 2024 at 4:07 PM
+Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
+/ESZ24 Oct 16th 3DTE Short Straddle (Exp)</description>
     </item>
     
     <item>
