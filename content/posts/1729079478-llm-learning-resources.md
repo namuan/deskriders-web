@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2024-10-16T12:51:18+01:00
 title = "LLM Learning Resources"
 description = "Some resources of learning about Large Language Models"

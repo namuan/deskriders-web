@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Oct 2024 21:46:25 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 12:51:18 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,15 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>LLM Learning Resources</title>
+      <link>/posts/1729079478-llm-learning-resources/</link>
+      <pubDate>Wed, 16 Oct 2024 12:51:18 +0100</pubDate>
+      
+      <guid>/posts/1729079478-llm-learning-resources/</guid>
+      <description> Sebastian Raschka&amp;rsquo;s book &amp;ldquo;Build a Large Language Model From Scratch&amp;rdquo; Video Andrej Karpathy&amp;rsquo;s YouTube playlist on neural networks Karpathy&amp;rsquo;s NanoGPT tutorial StatQuest videos on coding a transformer from scratch Video explaining self-attention mechanism: https://youtu.be/g2BRIuln4uc GitHub repo with diagrams and implementation code: https://github.com/adalkiran/llama-nuts-and-bolts Spreadsheet-based approach: https://github.com/ianand/spreadsheets-are-all-you-need Karpathy&amp;rsquo;s llama2.c project: https://github.com/karpathy/llama2.c </description>
     </item>
     
     <item>

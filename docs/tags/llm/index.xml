@@ -6,7 +6,16 @@
     <description>Recent content in llm on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 May 2024 18:57:32 +0100</lastBuildDate><atom:link href="/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 12:51:18 +0100</lastBuildDate><atom:link href="/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM Learning Resources</title>
+      <link>/posts/1729079478-llm-learning-resources/</link>
+      <pubDate>Wed, 16 Oct 2024 12:51:18 +0100</pubDate>
+      
+      <guid>/posts/1729079478-llm-learning-resources/</guid>
+      <description> Sebastian Raschka&amp;rsquo;s book &amp;ldquo;Build a Large Language Model From Scratch&amp;rdquo; Video Andrej Karpathy&amp;rsquo;s YouTube playlist on neural networks Karpathy&amp;rsquo;s NanoGPT tutorial StatQuest videos on coding a transformer from scratch Video explaining self-attention mechanism: https://youtu.be/g2BRIuln4uc GitHub repo with diagrams and implementation code: https://github.com/adalkiran/llama-nuts-and-bolts Spreadsheet-based approach: https://github.com/ianand/spreadsheets-are-all-you-need Karpathy&amp;rsquo;s llama2.c project: https://github.com/karpathy/llama2.c </description>
+    </item>
+    
     <item>
       <title>Setup OpenWebUI with Pinokio and run with your own models</title>
       <link>/posts/1716746252-openwebui-ollama-models/</link>
