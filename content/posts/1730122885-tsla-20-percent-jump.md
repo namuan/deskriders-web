@@ -57,3 +57,8 @@ Less buffer on the upside but better profit potential if the stock goes down a l
 A Bull Call Ladder which gives us a lot of room (around 10%) and better profit potential
 
 ![images/2024/10/28/1730124452-6.png](/images/2024/10/28/1730124452-6.png)
+
+Disclaimer: This analysis is for educational purposes only and should not be considered as financial advice. 
+Options trading involves significant risks and may not be suitable for all investors. 
+Past performance is not indicative of future results. 
+Always conduct your own research and consider consulting with a financial advisor before making any investment decisions.
