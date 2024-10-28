@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2024-10-28T13:41:25Z
 title = "Trading TSLA After the 20% Surge: Historical Patterns and Options Strategies"
 description = "Analysis of Tesla's post-earnings rally and historical data of similar price jumps, exploring three options trading strategies to potentially capitalize on the stock's expected movement."
