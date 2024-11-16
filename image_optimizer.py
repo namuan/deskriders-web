@@ -1,5 +1,10 @@
-#!/usr/bin/env python3
-
+#!uv run
+# /// script
+# dependencies = [
+#   "pillow",
+#   "GitPython",
+# ]
+# ///
 """
 Image Optimizer for Non-Committed Files in a Specific Directory
 

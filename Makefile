@@ -23,7 +23,7 @@ generate: clean opt-images ## Generator Documentation
 	HUGO_ENV="production" hugo --gc --destination docs || exit 1
 
 opt-images: ## Optimise images
-	python3 image_optimizer.py --path static/images -v
+	uv run image_optimizer.py --path static/images -v
 
 commit-all: ## Push generated documentation to Github
 	git add -A
