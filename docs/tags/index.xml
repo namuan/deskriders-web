@@ -6,7 +6,16 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2024 09:00:03 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 09:53:17 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>links</title>
+      <link>/tags/links/</link>
+      <pubDate>Mon, 18 Nov 2024 09:53:17 +0000</pubDate>
+      
+      <guid>/tags/links/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>memory</title>
       <link>/tags/memory/</link>
@@ -76,15 +85,6 @@
       <pubDate>Wed, 16 Oct 2024 12:51:18 +0100</pubDate>
       
       <guid>/tags/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>links</title>
-      <link>/tags/links/</link>
-      <pubDate>Mon, 14 Oct 2024 08:38:16 +0100</pubDate>
-      
-      <guid>/tags/links/</guid>
       <description></description>
     </item>
     
