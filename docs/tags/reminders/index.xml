@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reminders on deskriders</title>
+    <link>/tags/reminders/</link>
+    <description>Recent content in reminders on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Nov 2024 16:33:26 +0000</lastBuildDate><atom:link href="/tags/reminders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining reading and managing bookmarked links</title>
+      <link>/posts/1732466006-read-it-later-workflow/</link>
+      <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
+      
+      <guid>/posts/1732466006-read-it-later-workflow/</guid>
+      <description>Here is a brief recap of the workflow I use to collect links to read later.
+It starts with a &amp;ldquo;Shortcut,&amp;rdquo; which is available on all iOS/Mac devices.
+It is either something I want to read today:
+Or push it back to tomorrow:
+The links end up in a separate &amp;ldquo;Reminders&amp;rdquo; list, which makes it easy to manage.
+Using Reminders as a way to organize reading links is quite useful, as it nags you at regular intervals.</description>
+    </item>
+    
+  </channel>
+</rss>

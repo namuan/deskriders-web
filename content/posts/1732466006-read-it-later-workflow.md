@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2024-11-24T16:33:26Z
 title = "Streamlining reading and managing bookmarked links"
 description = "A quick overview of my workflow to collect, organize, and publish reading links using iOS Shortcuts, Reminders, and a Python script in Pythonista."

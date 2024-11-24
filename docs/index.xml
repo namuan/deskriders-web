@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Nov 2024 16:25:42 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2024 16:33:26 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,20 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Streamlining reading and managing bookmarked links</title>
+      <link>/posts/1732466006-read-it-later-workflow/</link>
+      <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
+      
+      <guid>/posts/1732466006-read-it-later-workflow/</guid>
+      <description>Here is a brief recap of the workflow I use to collect links to read later.
+It starts with a &amp;ldquo;Shortcut,&amp;rdquo; which is available on all iOS/Mac devices.
+It is either something I want to read today:
+Or push it back to tomorrow:
+The links end up in a separate &amp;ldquo;Reminders&amp;rdquo; list, which makes it easy to manage.
+Using Reminders as a way to organize reading links is quite useful, as it nags you at regular intervals.</description>
     </item>
     
     <item>
