@@ -78,3 +78,8 @@ Once downloaded, the documentation will be under `public/docs` folder
 
 ![images/2024/11/26/1732622000-1.png](/images/2024/11/26/1732622000-1.png)
 
+The collection of html files can be cleaned up and written to a single markdown file using [trafilatura](https://trafilatura.readthedocs.io/en/latest/usage-cli.html)
+
+```shell
+uvx trafilatura --input-dir public/docs/css --markdown > css-llm.md
+```

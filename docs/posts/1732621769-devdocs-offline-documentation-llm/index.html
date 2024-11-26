@@ -118,7 +118,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              One minute read
+              2 minutes read
             </span>
           </div>
           <div class="categories">
@@ -180,7 +180,9 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker run -v <span style="color:#66d9ef">$(</span>pwd<span style="color:#66d9ef">)</span>:/devdocs thibaut/devdocs bash -c <span style="color:#e6db74">&#34;thor docs:download --all&#34;</span>
 </span></span></code></pre></div><p>Once downloaded, the documentation will be under <code>public/docs</code> folder</p>
 <p><img src="/images/2024/11/26/1732622000-1.png" alt="images/2024/11/26/1732622000-1.png"></p>
-
+<p>The collection of html files can be cleaned up and written to a single markdown file using <a href="https://trafilatura.readthedocs.io/en/latest/usage-cli.html">trafilatura</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx trafilatura --input-dir public/docs/css --markdown &gt; css-llm.md
+</span></span></code></pre></div>
       </div>
 
       <footer>
