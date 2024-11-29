@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reddit on deskriders</title>
-    <link>/tags/reddit/</link>
-    <description>Recent content in reddit on deskriders</description>
+    <title>trading on deskriders</title>
+    <link>/categories/trading/</link>
+    <description>Recent content in trading on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Nov 2024 11:25:30 +0000</lastBuildDate><atom:link href="/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Nov 2024 11:25:30 +0000</lastBuildDate><atom:link href="/categories/trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)</title>
       <link>/posts/1732879530-download-reddit-post/</link>
@@ -18,17 +18,6 @@ Link to Google Sheet:
 https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
 Here is the table with current prices:
 Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.</description>
-    </item>
-    
-    <item>
-      <title>Search Reddit Between Date Range</title>
-      <link>/posts/1725521287-search-reddit-date-range/</link>
-      <pubDate>Thu, 05 Sep 2024 08:28:07 +0100</pubDate>
-      
-      <guid>/posts/1725521287-search-reddit-date-range/</guid>
-      <description>Here is a link to search Reddit between a date range
-https://www.google.com/search?q=python+site%3Awww.reddit.com&amp;amp;lr=&amp;amp;as_qdr=all&amp;amp;tbs=cdr%3A1%2Ccd_min%3A8%2F27%2F2016%2Ccd_max%3A8%2F13%2F2018&amp;amp;sxsrf=ADLYWIL-MUEOvBsbboTdCB3bjCvwlZvSpg%3A1725520794506&amp;amp;uact=5
-Change the search term and dates accordingly</description>
     </item>
     
   </channel>

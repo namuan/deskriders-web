@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2024 11:49:29 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Nov 2024 11:25:30 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,19 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)</title>
+      <link>/posts/1732879530-download-reddit-post/</link>
+      <pubDate>Fri, 29 Nov 2024 11:25:30 +0000</pubDate>
+      
+      <guid>/posts/1732879530-download-reddit-post/</guid>
+      <description>Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
+Link to Google Sheet:
+https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
+Here is the table with current prices:
+Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.</description>
     </item>
     
     <item>

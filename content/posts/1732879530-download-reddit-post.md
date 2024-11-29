@@ -1,5 +1,4 @@
 +++
-draft = true
 date = 2024-11-29T11:25:30Z
 title = "Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)"
 description = ""
