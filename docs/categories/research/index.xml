@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on deskriders</title>
+    <link>/categories/research/</link>
+    <description>Recent content in research on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Dec 2024 20:56:52 +0000</lastBuildDate><atom:link href="/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VIX yearly highest values over the last 20 years</title>
+      <link>/posts/1733777812-vix-yearly-highest-high/</link>
+      <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
+      
+      <guid>/posts/1733777812-vix-yearly-highest-high/</guid>
+      <description>Started as a question from this tweet
+I downloaded ^VIX data from Yahoo Finance using this script.
+https://github.com/namuan/trading-utils/blob/main/download_stocks_ohlcv.py
+uvr download_stocks_ohlcv.py --tickers ^VIX --back-period-in-years 20 Assuming the output data is download in a CSV file output/\^VIX.csv
+I imported the CSV data in an Sqlite3 database
+$ sqlite3 vix.db In the Sqlite3 prompt
+CREATE TABLE vix_prices ( date TIMESTAMP, adj_close REAL, close REAL, high REAL, low REAL, open REAL, volume INTEGER ); .</description>
+    </item>
+    
+  </channel>
+</rss>

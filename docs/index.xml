@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2024 21:20:14 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 20:56:52 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,30 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>VIX yearly highest values over the last 20 years</title>
+      <link>/posts/1733777812-vix-yearly-highest-high/</link>
+      <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
+      
+      <guid>/posts/1733777812-vix-yearly-highest-high/</guid>
+      <description>Started as a question from this tweet
+I downloaded ^VIX data from Yahoo Finance using this script.
+https://github.com/namuan/trading-utils/blob/main/download_stocks_ohlcv.py
+uvr download_stocks_ohlcv.py --tickers ^VIX --back-period-in-years 20 Assuming the output data is download in a CSV file output/\^VIX.csv
+I imported the CSV data in an Sqlite3 database
+$ sqlite3 vix.db In the Sqlite3 prompt
+CREATE TABLE vix_prices ( date TIMESTAMP, adj_close REAL, close REAL, high REAL, low REAL, open REAL, volume INTEGER ); .</description>
+    </item>
+    
+    <item>
+      <title>Projects developed using GenAI</title>
+      <link>/posts/1733734776-genai-developed-projects/</link>
+      <pubDate>Mon, 09 Dec 2024 08:59:36 +0000</pubDate>
+      
+      <guid>/posts/1733734776-genai-developed-projects/</guid>
+      <description>TBD</description>
     </item>
     
     <item>
