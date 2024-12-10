@@ -28,7 +28,7 @@ CREATE TABLE vix_prices ( date TIMESTAMP, adj_close REAL, close REAL, high REAL,
       <pubDate>Mon, 09 Dec 2024 08:59:36 +0000</pubDate>
       
       <guid>/posts/1733734776-genai-developed-projects/</guid>
-      <description>TBD</description>
+      <description> https://github.com/namuan/code_compass https://github.com/namuan/pyremindkit https://github.com/namuan/active-breaks https://github.com/namuan/chat-circuit https://github.com/namuan/annotate-it https://github.com/namuan/llm-context-builder https://github.com/namuan/video-line-sdk https://github.com/namuan/persistent-cache https://github.com/namuan/snapscan https://github.com/namuan/stock-pulse https://github.com/namuan/trading-utils https://github.com/namuan/bin-utils </description>
     </item>
     
     <item>

@@ -9,7 +9,15 @@ externalLink = ""
 series = []
 +++
 
-TBD
-
-
-
+* https://github.com/namuan/code_compass
+* https://github.com/namuan/pyremindkit
+* https://github.com/namuan/active-breaks
+* https://github.com/namuan/chat-circuit
+* https://github.com/namuan/annotate-it
+* https://github.com/namuan/llm-context-builder
+* https://github.com/namuan/video-line-sdk
+* https://github.com/namuan/persistent-cache
+* https://github.com/namuan/snapscan
+* https://github.com/namuan/stock-pulse
+* https://github.com/namuan/trading-utils
+* https://github.com/namuan/bin-utils
