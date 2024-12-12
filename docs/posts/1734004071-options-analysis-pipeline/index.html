@@ -168,7 +168,7 @@ The <code>trade_history</code> table contains the trade period and daily premium
 You can directly run SQL query against the database.</p>
 <p>Here is an SQL query to report the monthly premium difference (premium collected at open - paid back at close)</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">SELECT</span>
-</span></span><span style="display:flex;"><span>    STRFTIME(<span style="color:#e6db74">&#39;%Y-%m&#39;</span>, Date) <span style="color:#66d9ef">AS</span> <span style="color:#66d9ef">Month</span>,
+</span></span><span style="display:flex;"><span>    STRFTIME(<span style="color:#e6db74">&#39;%Y-%m&#39;</span>, ExpireDate) <span style="color:#66d9ef">AS</span> <span style="color:#66d9ef">Month</span>,
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">SUM</span>(PremiumCaptured) <span style="color:#66d9ef">AS</span> TotalPremiumCaptured,
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">SUM</span>(ClosingPremium) <span style="color:#66d9ef">AS</span> TotalClosingPremium,
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">SUM</span>(PremiumCaptured <span style="color:#f92672">-</span> ClosingPremium) <span style="color:#66d9ef">AS</span> TotalPremiumDifference

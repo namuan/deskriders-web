@@ -58,7 +58,7 @@ Here is an SQL query to report the monthly premium difference (premium collected
 
 ```sql
 SELECT
-    STRFTIME('%Y-%m', Date) AS Month,
+    STRFTIME('%Y-%m', ExpireDate) AS Month,
     SUM(PremiumCaptured) AS TotalPremiumCaptured,
     SUM(ClosingPremium) AS TotalClosingPremium,
     SUM(PremiumCaptured - ClosingPremium) AS TotalPremiumDifference
