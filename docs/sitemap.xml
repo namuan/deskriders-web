@@ -20,11 +20,41 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>/posts/1734004071-options-analysis-pipeline/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/tags/backtesting/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-12-11T20:35:22+00:00</lastmod>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/tags/data-analysis/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/categories/data-analysis/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-12-11T20:35:22+00:00</lastmod>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/tags/options/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/categories/python/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/tags/trading/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
+  </url><url>
+    <loc>/categories/trading/</loc>
+    <lastmod>2024-12-12T11:47:51+00:00</lastmod>
   </url><url>
     <loc>/posts/1733949322-linklist-2024-12-11/</loc>
     <lastmod>2024-12-11T20:35:22+00:00</lastmod>
@@ -33,12 +63,6 @@
     <lastmod>2024-12-11T20:35:22+00:00</lastmod>
   </url><url>
     <loc>/tags/links/</loc>
-    <lastmod>2024-12-11T20:35:22+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-12-11T20:35:22+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-12-11T20:35:22+00:00</lastmod>
   </url><url>
     <loc>/tags/investment/</loc>
@@ -78,9 +102,6 @@
     <lastmod>2024-11-29T11:25:30+00:00</lastmod>
   </url><url>
     <loc>/posts/1732879530-download-reddit-post/</loc>
-    <lastmod>2024-11-29T11:25:30+00:00</lastmod>
-  </url><url>
-    <loc>/categories/trading/</loc>
     <lastmod>2024-11-29T11:25:30+00:00</lastmod>
   </url><url>
     <loc>/tags/devdocs/</loc>
@@ -139,9 +160,6 @@
   </url><url>
     <loc>/tags/strategies/</loc>
     <lastmod>2024-11-16T08:40:23+00:00</lastmod>
-  </url><url>
-    <loc>/tags/options/</loc>
-    <lastmod>2024-10-28T13:41:25+00:00</lastmod>
   </url><url>
     <loc>/categories/stocks/</loc>
     <lastmod>2024-10-28T13:41:25+00:00</lastmod>
@@ -366,9 +384,6 @@
     <lastmod>2024-06-22T11:03:58+01:00</lastmod>
   </url><url>
     <loc>/tags/indicators/</loc>
-    <lastmod>2024-06-22T11:03:58+01:00</lastmod>
-  </url><url>
-    <loc>/tags/trading/</loc>
     <lastmod>2024-06-22T11:03:58+01:00</lastmod>
   </url><url>
     <loc>/tags/ollama/</loc>

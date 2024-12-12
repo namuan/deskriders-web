@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2024-12-12T11:47:51Z
 title = "Analysing a very simple Short Straddle strategy"
 description = "Learn how to import OptionsDX data into an SQLite database, simulate a simple short straddle strategy, and analyze the results using SQL and a Dash application."

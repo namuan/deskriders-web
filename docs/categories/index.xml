@@ -6,7 +6,34 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 20:35:22 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Dec 2024 11:47:51 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analysis</title>
+      <link>/categories/data-analysis/</link>
+      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
+      
+      <guid>/categories/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/categories/python/</link>
+      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trading</title>
+      <link>/categories/trading/</link>
+      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
+      
+      <guid>/categories/trading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linklist</title>
       <link>/categories/linklist/</link>
@@ -40,15 +67,6 @@
       <pubDate>Fri, 06 Dec 2024 21:20:14 +0000</pubDate>
       
       <guid>/categories/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trading</title>
-      <link>/categories/trading/</link>
-      <pubDate>Fri, 29 Nov 2024 11:25:30 +0000</pubDate>
-      
-      <guid>/categories/trading/</guid>
       <description></description>
     </item>
     
