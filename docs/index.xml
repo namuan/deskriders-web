@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2024 19:51:50 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Dec 2024 13:08:12 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
       <link>/projects/http-rider/</link>
@@ -73,6 +73,16 @@ DevRider is an attempt to provide a desktop tool which includes a shell and addi
       
       <guid>/projects/docker-files/</guid>
       <description>👉 docker-files</description>
+    </item>
+    
+    <item>
+      <title>List of very handy uvx use-cases</title>
+      <link>/posts/1734872892-uvx-example-usages/</link>
+      <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
+      
+      <guid>/posts/1734872892-uvx-example-usages/</guid>
+      <description>Open Marimo uvx marimo edit --sandbox Also
+uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread</description>
     </item>
     
     <item>

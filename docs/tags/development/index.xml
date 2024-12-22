@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on deskriders</title>
+    <link>/tags/development/</link>
+    <description>Recent content in development on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Dec 2024 13:08:12 +0000</lastBuildDate><atom:link href="/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of very handy uvx use-cases</title>
+      <link>/posts/1734872892-uvx-example-usages/</link>
+      <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
+      
+      <guid>/posts/1734872892-uvx-example-usages/</guid>
+      <description>Open Marimo uvx marimo edit --sandbox Also
+uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread</description>
+    </item>
+    
+  </channel>
+</rss>
