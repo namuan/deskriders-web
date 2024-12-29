@@ -6,7 +6,34 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Dec 2024 13:08:12 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Dec 2024 10:10:13 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environments</title>
+      <link>/tags/environments/</link>
+      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
+      
+      <guid>/tags/environments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode</title>
+      <link>/tags/vscode/</link>
+      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
+      
+      <guid>/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>development</title>
       <link>/tags/development/</link>
@@ -472,15 +499,6 @@
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
       
       <guid>/tags/step/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>/tags/docker/</link>
-      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
-      
-      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
