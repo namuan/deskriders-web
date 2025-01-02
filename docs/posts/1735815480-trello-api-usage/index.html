@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Trello API"/>
+<meta name="twitter:description" content="How to set up and connect to Trello API"/>
+
+    <meta property="og:title" content="Using Trello API" />
+<meta property="og:description" content="How to set up and connect to Trello API" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/1735815480-trello-api-usage/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-01-02T10:58:00+00:00" />
+<meta property="article:modified_time" content="2025-01-02T10:58:00+00:00" />
+
+
+
+    
+      <base href="/posts/1735815480-trello-api-usage/">
+    
+    <title>
+  Using Trello API · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/1735815480-trello-api-usage/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.110.0">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Using Trello API</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2025-01-02T10:58:00Z'>
+                January 2, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/productivity/">productivity</a>
+      <span class="separator">•</span>
+    <a href="/categories/tools/">tools</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/trello/">trello</a>
+      <span class="separator">•</span>
+    <a href="/tags/api/">api</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Create a new API Key</p>
+<p><a href="https://trello.com/power-ups/admin">https://trello.com/power-ups/admin</a></p>
+<p>Once the API Key is created, there is a link to create API Token</p>
+<p><img src="/images/2025/01/02/1735815846-1.png" alt="images/2025/01/02/1735815846-1.png"></p>
+<p><a href="https://developer.atlassian.com/cloud/trello/rest/api-group-actions/#api-group-actions">Trello REST API Reference</a></p>
+<p>Here is a simple Python script to list all the cards under a certain list.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env -S uv run --quiet --script</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># /// script</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># dependencies = [</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#   &#34;requests&#34;,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ]</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ///</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_trello_cards</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get environment variables</span>
+</span></span><span style="display:flex;"><span>    api_key <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;TRELLO_KEY&#39;</span>)
+</span></span><span style="display:flex;"><span>    api_token <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;TRELLO_TOKEN&#39;</span>)
+</span></span><span style="display:flex;"><span>    board_name_to_match <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;TRELLO_BOARDNAME&#39;</span>)
+</span></span><span style="display:flex;"><span>    list_name_to_match <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;TRELLO_LISTNAME&#39;</span>)
+</span></span><span style="display:flex;"><span>    username <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;TRELLO_USER&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Common parameters for all requests</span>
+</span></span><span style="display:flex;"><span>    base_params <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;key&#39;</span>: api_key,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;token&#39;</span>: api_token
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_request</span>(url, params<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>        request_params <span style="color:#f92672">=</span> base_params<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> params:
+</span></span><span style="display:flex;"><span>            request_params<span style="color:#f92672">.</span>update(params)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, params<span style="color:#f92672">=</span>request_params)
+</span></span><span style="display:flex;"><span>        response<span style="color:#f92672">.</span>raise_for_status()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> response<span style="color:#f92672">.</span>json()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get user&#39;s boards</span>
+</span></span><span style="display:flex;"><span>    boards_url <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;https://api.trello.com/1/members/</span><span style="color:#e6db74">{</span>username<span style="color:#e6db74">}</span><span style="color:#e6db74">/boards&#34;</span>
+</span></span><span style="display:flex;"><span>    boards <span style="color:#f92672">=</span> make_request(boards_url)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Find the specific board</span>
+</span></span><span style="display:flex;"><span>    board_id <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> board <span style="color:#f92672">in</span> boards:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> board[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">==</span> board_name_to_match:
+</span></span><span style="display:flex;"><span>            board_id <span style="color:#f92672">=</span> board[<span style="color:#e6db74">&#39;id&#39;</span>]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> board_id:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">Exception</span>(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Board &#39;</span><span style="color:#e6db74">{</span>board_name_to_match<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39; not found&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get lists on the board</span>
+</span></span><span style="display:flex;"><span>    lists_url <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;https://api.trello.com/1/boards/</span><span style="color:#e6db74">{</span>board_id<span style="color:#e6db74">}</span><span style="color:#e6db74">/lists&#34;</span>
+</span></span><span style="display:flex;"><span>    lists <span style="color:#f92672">=</span> make_request(lists_url)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Find the specific list</span>
+</span></span><span style="display:flex;"><span>    list_id <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> list_ <span style="color:#f92672">in</span> lists:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> list_[<span style="color:#e6db74">&#39;name&#39;</span>] <span style="color:#f92672">==</span> list_name_to_match:
+</span></span><span style="display:flex;"><span>            list_id <span style="color:#f92672">=</span> list_[<span style="color:#e6db74">&#39;id&#39;</span>]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> list_id:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">Exception</span>(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;List &#39;</span><span style="color:#e6db74">{</span>list_name_to_match<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39; not found&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Get cards in the list</span>
+</span></span><span style="display:flex;"><span>    cards_url <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;https://api.trello.com/1/lists/</span><span style="color:#e6db74">{</span>list_id<span style="color:#e6db74">}</span><span style="color:#e6db74">/cards&#34;</span>
+</span></span><span style="display:flex;"><span>    cards <span style="color:#f92672">=</span> make_request(cards_url)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Print cards</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> card <span style="color:#f92672">in</span> cards:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>card[<span style="color:#e6db74">&#39;name&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74"> | href=</span><span style="color:#e6db74">{</span>card[<span style="color:#e6db74">&#39;shortUrl&#39;</span>]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        get_trello_cards()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error: </span><span style="color:#e6db74">{</span>str(e)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>We can also get a JSON representation of the board by requesting a <code>.json</code> url.</p>
+<p>Eg. <a href="https://trello.com/b/7lQSoeS/boardname">https://trello.com/b/7lQSoeS/boardname</a> to <a href="https://trello.com/b/7lQSoeS/boardname.json">https://trello.com/b/7lQSoeS/boardname.json</a></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129728575-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+
+</html>

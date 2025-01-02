@@ -6,7 +6,25 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Dec 2024 09:09:47 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jan 2025 10:58:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>productivity</title>
+      <link>/categories/productivity/</link>
+      <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
+      
+      <guid>/categories/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>/categories/tools/</link>
+      <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
+      
+      <guid>/categories/tools/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linklist</title>
       <link>/categories/linklist/</link>
@@ -58,15 +76,6 @@
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
       
       <guid>/categories/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>/categories/productivity/</link>
-      <pubDate>Mon, 09 Dec 2024 08:59:36 +0000</pubDate>
-      
-      <guid>/categories/productivity/</guid>
       <description></description>
     </item>
     
@@ -148,15 +157,6 @@
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
       
       <guid>/categories/demos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tools</title>
-      <link>/categories/tools/</link>
-      <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      
-      <guid>/categories/tools/</guid>
       <description></description>
     </item>
     

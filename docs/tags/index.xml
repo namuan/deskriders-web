@@ -6,7 +6,25 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Dec 2024 09:09:47 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jan 2025 10:58:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trello</title>
+      <link>/tags/trello/</link>
+      <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
+      
+      <guid>/tags/trello/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>links</title>
       <link>/tags/links/</link>
@@ -1048,15 +1066,6 @@
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
       
       <guid>/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>api</title>
-      <link>/tags/api/</link>
-      <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
-      
-      <guid>/tags/api/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,21 @@
     <description>Recent content in productivity on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Dec 2024 08:59:36 +0000</lastBuildDate><atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jan 2025 10:58:00 +0000</lastBuildDate><atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Trello API</title>
+      <link>/posts/1735815480-trello-api-usage/</link>
+      <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
+      
+      <guid>/posts/1735815480-trello-api-usage/</guid>
+      <description>Create a new API Key
+https://trello.com/power-ups/admin
+Once the API Key is created, there is a link to create API Token
+Trello REST API Reference
+Here is a simple Python script to list all the cards under a certain list.
+#!/usr/bin/env -S uv run --quiet --script # /// script # dependencies = [ # &amp;#34;requests&amp;#34;, # ] # /// import os import requests def get_trello_cards(): # Get environment variables api_key = os.</description>
+    </item>
+    
     <item>
       <title>Projects developed using GenAI</title>
       <link>/posts/1733734776-genai-developed-projects/</link>
