@@ -187,7 +187,8 @@ docker run --name space-1 -d -p 18020-18040:8020-8040 --restart=always alnoda/al
       
       <guid>/posts/1734872892-uvx-example-usages/</guid>
       <description>Open Marimo uvx marimo edit --sandbox Also
-uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread</description>
+uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
+Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0.0 \ --image ~/Documents/Screenshots/2024/11/01/20241101_082217.png \ --prompt &amp;#34;Describe image in detail, include all text&amp;#34; uv run --with mlx-vlm --with torch \ python -m mlx_vlm.</description>
     </item>
     
     <item>
