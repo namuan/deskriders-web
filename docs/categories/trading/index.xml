@@ -6,7 +6,25 @@
     <description>Recent content in trading on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2024 19:51:50 +0000</lastBuildDate><atom:link href="/categories/trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 11:55:48 +0000</lastBuildDate><atom:link href="/categories/trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short Straddles with RSI based market filters</title>
+      <link>/posts/1736250948-short-straddle-rsi-market-filter/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/posts/1736250948-short-straddle-rsi-market-filter/</guid>
+      <description>Hypothesis: What if we avoid new trade if RSI is overbought or oversold?
+Backtest with different RSI thresholds and different RSI periods
+RSI Thresholds:
+RSI Period: 4 rsi_low_values=(0 10 20 30) rsi_high_values=(70 80 90 100) Best Parameters by Expectancy Ratio:
+rsi_low_threshold=20, rsi_high_threshold=100
+Expectancy Ratio: 1.08
+This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns. rsi_low_threshold=30, rsi_high_threshold=100
+Expectancy Ratio: 1.06
+Second-best expectancy ratio. rsi_low_threshold=30, rsi_high_threshold=70
+Expectancy Ratio: 1.</description>
+    </item>
+    
     <item>
       <title>Key Metrics for Evaluating Trading System Performance</title>
       <link>/posts/1734292310-key-metrics-trading-system-performance/</link>

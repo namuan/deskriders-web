@@ -6,7 +6,34 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jan 2025 10:58:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 11:55:48 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analysis</title>
+      <link>/categories/data-analysis/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/categories/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/categories/python/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trading</title>
+      <link>/categories/trading/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/categories/trading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>productivity</title>
       <link>/categories/productivity/</link>
@@ -40,33 +67,6 @@
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
       
       <guid>/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trading</title>
-      <link>/categories/trading/</link>
-      <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      
-      <guid>/categories/trading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Analysis</title>
-      <link>/categories/data-analysis/</link>
-      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
-      <guid>/categories/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>/categories/python/</link>
-      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
-      <guid>/categories/python/</guid>
       <description></description>
     </item>
     

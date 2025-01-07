@@ -6,7 +6,43 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jan 2025 10:58:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 11:55:48 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>backtesting</title>
+      <link>/tags/backtesting/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/tags/backtesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data analysis</title>
+      <link>/tags/data-analysis/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>options</title>
+      <link>/tags/options/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/tags/options/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trading</title>
+      <link>/tags/trading/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      
+      <guid>/tags/trading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>api</title>
       <link>/tags/api/</link>
@@ -85,42 +121,6 @@
       <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
       
       <guid>/tags/performance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trading</title>
-      <link>/tags/trading/</link>
-      <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      
-      <guid>/tags/trading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>backtesting</title>
-      <link>/tags/backtesting/</link>
-      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
-      <guid>/tags/backtesting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data analysis</title>
-      <link>/tags/data-analysis/</link>
-      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
-      <guid>/tags/data-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>options</title>
-      <link>/tags/options/</link>
-      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
-      <guid>/tags/options/</guid>
       <description></description>
     </item>
     
