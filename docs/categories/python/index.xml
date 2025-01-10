@@ -6,7 +6,19 @@
     <description>Recent content in Python on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jan 2025 11:55:48 +0000</lastBuildDate><atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate><atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short Straddles with Laddering</title>
+      <link>/posts/1736507408-short-straddle-with-laddering/</link>
+      <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
+      
+      <guid>/posts/1736507408-short-straddle-with-laddering/</guid>
+      <description>Short Straddles
+For e.g. Given that our account can trade 5 SPX contracts at once.
+We can either trade 1 contract every day - 5 different positions Or we can trade all 5 contracts at the same time in a single trade - 1 position Or we can stagger 5 contracts in a single trade. Add 1 contract every day Here are the results
+(a) 1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry</description>
+    </item>
+    
     <item>
       <title>Short Straddles with RSI based market filters</title>
       <link>/posts/1736250948-short-straddle-rsi-market-filter/</link>
