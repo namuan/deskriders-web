@@ -6,7 +6,16 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2025 17:26:27 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linklist</title>
+      <link>/categories/linklist/</link>
+      <pubDate>Sat, 18 Jan 2025 17:26:27 +0000</pubDate>
+      
+      <guid>/categories/linklist/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Audio Processing</title>
       <link>/categories/audio-processing/</link>
@@ -76,15 +85,6 @@
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
       
       <guid>/categories/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linklist</title>
-      <link>/categories/linklist/</link>
-      <pubDate>Tue, 31 Dec 2024 09:09:47 +0000</pubDate>
-      
-      <guid>/categories/linklist/</guid>
       <description></description>
     </item>
     

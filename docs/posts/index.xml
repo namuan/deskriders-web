@@ -6,7 +6,18 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2025 17:26:27 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2025-01-18</title>
+      <link>/posts/1737221187-linklist-2025-01-18/</link>
+      <pubDate>Sat, 18 Jan 2025 17:26:27 +0000</pubDate>
+      
+      <guid>/posts/1737221187-linklist-2025-01-18/</guid>
+      <description>https://elmwealth.com/microstrategy-bitcoin/ The text is a research report on MicroStrategy (MSTR), a company that has been focused on buying Bitcoin and other cryptocurrencies. The authors of the report provide an analysis of various aspects of MSTR, including its stock price, options trading activity, and return characteristics.
+Some key points from the report include:
+MicroStrategy&amp;rsquo;s stock price: The report notes that MicroStrategy&amp;rsquo;s stock price has returned a significant 200% in about seven months, making it one of the best-performing stocks in the past year.</description>
+    </item>
+    
     <item>
       <title>EPUB to Conversational Audio: AI-Powered Podcast Generator</title>
       <link>/posts/1737196960-epub-to-audio-setup/</link>
@@ -16,6 +27,15 @@
       <description>This script extracts text from an EPUB file, formats it, and converts it into an engaging audio podcast. It uses AI-based transcript generation, rewriting, and text-to-speech synthesis to create a conversational and captivating audio output.
 Here is the source code
 git clone https://github.com/namuan/llm-playground.git Pre-Requisites: MLX Qwen2.5 Models: These will be downloaded when the script runs for the first time. FIRST_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-14B-Instruct-4bit&amp;#34; SECOND_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-7B-Instruct-4bit&amp;#34; Although you can configure a different MLX model if you already have it downloaded.</description>
+    </item>
+    
+    <item>
+      <title>Link List :: 2025-01-11</title>
+      <link>/posts/1737221182-linklist-2025-01-11/</link>
+      <pubDate>Sat, 11 Jan 2025 17:26:22 +0000</pubDate>
+      
+      <guid>/posts/1737221182-linklist-2025-01-11/</guid>
+      <description>https://www.kaggle.com/code/faressayah/stock-market-analysis-prediction-using-lstm https://github.com/arihanv/fasthtml-modal * Deploy a FastHTML app on Modal&amp;#39;s serverless infra with simple python code * Install required packages with pip install -r requirements.txt * Run the app with python app.py * Create a free account at modal.com and authenticate in CLI * Deploy the app with modal deploy deploy.py https://github.com/nikitabobko/AeroSpace * AeroSpace is an i3-like tiling window manager for macOS. * Based on a tree paradigm and i3 inspired design.</description>
     </item>
     
     <item>
@@ -68,75 +88,7 @@ Here is a simple Python script to list all the cards under a certain list.
       <pubDate>Tue, 31 Dec 2024 09:09:47 +0000</pubDate>
       
       <guid>/posts/1735636186-linklist-2024-12-31/</guid>
-      <description>https://crates.io/crates/npkl
-https://www.nuanc.me/
-https://github.com/sturdy-dev/semantic-code-search
-https://github.com/wangxj03/ai-cookbook/tree/main
-https://github.com/AndrewNgo-ini/agentic_rag
-https://github.com/duriantaco/treeline
-https://www.macrohistory.net/database/
-https://github.com/abuiles/ramon
-https://x.com/googleaidevs/status/1866873133191643415?s=12
-https://simonwillison.net/2024/Dec/11/gemini-2/
-https://ai.google.dev/showcase/tldraw
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5035294
-https://gist.github.com/v1c77/96affa87de94045d29cdc5f9cb8c1847?permalink_comment_id=5334315#gistcomment-5334315
-https://www.quantitativo.com/p/fast-trend-following
-https://ollama.com/blog/structured-outputs
-https://www.oldmapsonline.org/en/history
-https://github.com/ai-christianson/RA.Aid
-https://x.com/alma18499/status/1867544989770694987?s=12
-https://sveinbjorn.org/sloth/
-https://simonwillison.net/2024/Dec/14/improve-your-writing/
-https://github.com/SjorsLockhorst/sem-art-search
-https://old.reddit.com/r/ChatGPTCoding/comments/1he1q4a/as_a_developer_this_is_one_of_the_best_use_cases/
-https://www.york.ac.uk/news-and-events/news/2024/research/school-smartphone-ban-better-sleep/
-https://old.reddit.com/r/LocalLLaMA/comments/1hf7jd2/everyone_share_their_favorite_chain_of_thought/
-https://old.reddit.com/r/LocalLLaMA/comments/1hfdx7k/github_microsoftmarkitdown_python_tool_for/
-https://til.simonwillison.net/llms/streaming-llm-apis
-https://github.com/RafalWilinski/mcp-apple-notes
-https://arxiv.org/abs/2412.09394
-https://github.com/madroidmaq/mlx-omni-server
-https://github.com/Lobelia-Earth/url-state-codecs
-https://github.com/mmiscool/aiCoder
-https://github.com/Grigorij-Dudnik/Clean-Coder-AI
-https://github.com/mthomason/mbot
-https://github.com/Dicklesworthstone/your-source-to-prompt.html
-https://github.com/RooVetGit/Roo-Cline
-https://github.com/CITIZENDOT/SportsBettingArbitrage
-https://github.com/microsoft/promptflow
-https://github.com/evoluteur/healing-frequencies
-https://dylanhuang.com/blog/closing-my-startup/
-https://x.com/alphainacademia/status/1869206745152971251?s=12
-https://arxiv.org/abs/2408.10234#
-https://kernc.github.io/backtesting.py/#example
-https://www.aisnakeoil.com/p/is-ai-progress-slowing-down
-https://x.com/alexanderchen/status/1869840289118203988?s=12
-https://systematicindividualinvestor.com/2024/12/17/pyramiding-profits/
-https://x.com/akshaykagrawal/status/1870265596988010660?s=12
-https://github.com/superlinear-ai/raglite
-https://github.com/LoSinCos/movie-iris
-https://github.com/jakubsuchy/flights-above-me
-https://github.com/video-db/Director
-https://github.com/virattt/ai-hedge-fund/tree/main
-https://github.com/AlexShakaev/backtesting_and_algotrading_options_with_Interactive_Brokers_API
-https://github.com/Shubhamsaboo/awesome-llm-apps
-https://x.com/thorstenball/status/1870767122931917026?s=12
-https://x.com/theturingpost/status/1870643476762914975?s=12
-https://x.com/kunal732/status/1870980767834370486?s=12
-https://blog.moontower.ai/a-winner-thats-really-a-loser/
-https://github.com/BrainBlend-AI/atomic-agents
-https://github.com/jchanvfx/NodeGraphQt
-https://github.com/intellectronica/building-effective-agents-with-pydantic-ai
-https://github.com/iceener/ai
-https://github.com/browser-use/browser-use
-https://x.com/marimo_io/status/1871318124232069375?s=12
-https://x.com/jaredhstocks/status/1871605462963298418?s=12
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3968542
-https://www.validusrm.com/wp-content/uploads/2023/11/Cboe-Validus-PutWrite_0323.pdf
-https://x.com/fatihtahta0/status/1871325967836442953?s=12
-https://github.com/ArturSepp/QuantInvestStrats
-https://github.com/mmiscool/aiCoder/blob/master/src/intelligentMerge.js</description>
+      <description>https://crates.io/crates/npkl https://www.nuanc.me/ https://github.com/sturdy-dev/semantic-code-search * 🔍 Overview * • 🔧 Installation * pip3 install semantic-code-search * • 💻 Usage * sem &amp;#39;my query&amp;#39; https://github.com/wangxj03/ai-cookbook/tree/main * wangxj03/ai-cookbook https://github.com/AndrewNgo-ini/agentic_rag * # Project Overview * A fully custom chatbot built with Agentic RAG (Retrieval-Augmented Generation), combining OpenAI models with a local knowledge base. * Lightweight, dependency-free frontend and streamlined FastAPI backend for complete control and simplicity. * # Technical Details * Pure HTML/CSS/JavaScript frontend with no external dependencies * FastAPI backend with OpenAI integration * Agentic RAG implementation: * Context retrieval using embeddings and cosine similarity * Step-by-step reasoning with Chain of Thought * Function calling for dynamic context retrieval * Comprehensive error handling and logging * Type-safe implementation with Python type hints * Configurable through environment variables https://github.</description>
     </item>
     
     <item>
