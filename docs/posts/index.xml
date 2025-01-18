@@ -6,7 +6,18 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EPUB to Conversational Audio: AI-Powered Podcast Generator</title>
+      <link>/posts/1737196960-epub-to-audio-setup/</link>
+      <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
+      
+      <guid>/posts/1737196960-epub-to-audio-setup/</guid>
+      <description>This script extracts text from an EPUB file, formats it, and converts it into an engaging audio podcast. It uses AI-based transcript generation, rewriting, and text-to-speech synthesis to create a conversational and captivating audio output.
+Here is the source code
+git clone https://github.com/namuan/llm-playground.git Pre-Requisites: MLX Qwen2.5 Models: These will be downloaded when the script runs for the first time. FIRST_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-14B-Instruct-4bit&amp;#34; SECOND_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-7B-Instruct-4bit&amp;#34; Although you can configure a different MLX model if you already have it downloaded.</description>
+    </item>
+    
     <item>
       <title>Short Straddles with Laddering</title>
       <link>/posts/1736507408-short-straddle-with-laddering/</link>

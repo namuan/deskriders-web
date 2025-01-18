@@ -6,7 +6,18 @@
     <description>Recent content in books on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2024 21:20:14 +0000</lastBuildDate><atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate><atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EPUB to Conversational Audio: AI-Powered Podcast Generator</title>
+      <link>/posts/1737196960-epub-to-audio-setup/</link>
+      <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
+      
+      <guid>/posts/1737196960-epub-to-audio-setup/</guid>
+      <description>This script extracts text from an EPUB file, formats it, and converts it into an engaging audio podcast. It uses AI-based transcript generation, rewriting, and text-to-speech synthesis to create a conversational and captivating audio output.
+Here is the source code
+git clone https://github.com/namuan/llm-playground.git Pre-Requisites: MLX Qwen2.5 Models: These will be downloaded when the script runs for the first time. FIRST_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-14B-Instruct-4bit&amp;#34; SECOND_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-7B-Instruct-4bit&amp;#34; Although you can configure a different MLX model if you already have it downloaded.</description>
+    </item>
+    
     <item>
       <title>Book recommendations from Mary Rose Cook Tweet</title>
       <link>/posts/1733520014-book-recommendations-maryrosecook-tweet/</link>

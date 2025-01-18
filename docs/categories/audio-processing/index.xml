@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio Processing on deskriders</title>
+    <link>/categories/audio-processing/</link>
+    <description>Recent content in Audio Processing on deskriders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate><atom:link href="/categories/audio-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EPUB to Conversational Audio: AI-Powered Podcast Generator</title>
+      <link>/posts/1737196960-epub-to-audio-setup/</link>
+      <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
+      
+      <guid>/posts/1737196960-epub-to-audio-setup/</guid>
+      <description>This script extracts text from an EPUB file, formats it, and converts it into an engaging audio podcast. It uses AI-based transcript generation, rewriting, and text-to-speech synthesis to create a conversational and captivating audio output.
+Here is the source code
+git clone https://github.com/namuan/llm-playground.git Pre-Requisites: MLX Qwen2.5 Models: These will be downloaded when the script runs for the first time. FIRST_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-14B-Instruct-4bit&amp;#34; SECOND_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-7B-Instruct-4bit&amp;#34; Although you can configure a different MLX model if you already have it downloaded.</description>
+    </item>
+    
+  </channel>
+</rss>
