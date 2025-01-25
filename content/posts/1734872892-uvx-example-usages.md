@@ -51,6 +51,18 @@ uvx pyclean .
 
 Collected from this [Reddit thread](https://www.reddit.com/r/Python/comments/1guf2fh/if_you_use_uv_what_are_your_use_cases_for_uvx/)
 
+### Run Open WebUI
+
+```shell
+uvx open-webui@latest serve
+```
+
+### Run Autogen Studio
+
+```shell
+uvx autogenstudio@latest ui --port 8081
+```
+
 ## Run MLX VLM Models
 
 ```shell
@@ -71,4 +83,11 @@ uv run --with mlx-vlm --with torch \
   --temp 0.0 \
   --image https://image.png \
   --prompt "Describe image in detail, include all text"
+```
+
+```shell
+uv run --with f5-tts-mlx \
+  python -m f5_tts_mlx.generate \
+  --output gen.wav \
+  --text "On December 7, 1941, an unprepared United States was attacked at Pearl Harbor, crippling much of the US fleet. Less than four years later, US deployed a new and unimaginably destructive weapon—a weapon that, just a few years before, had been considered science fiction."
 ```

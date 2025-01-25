@@ -13,12 +13,12 @@
 <meta name="twitter:title" content="List of very handy uvx use-cases"/>
 <meta name="twitter:description" content="Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0.0 \ --image ~/Documents/Screenshots/2024/11/01/20241101_082217.png \ --prompt &#34;Describe image in detail, include all text&#34; uv run --with mlx-vlm --with torch \ python -m mlx_vlm."/>
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0."/>
 
     <meta property="og:title" content="List of very handy uvx use-cases" />
 <meta property="og:description" content="Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0.0 \ --image ~/Documents/Screenshots/2024/11/01/20241101_082217.png \ --prompt &#34;Describe image in detail, include all text&#34; uv run --with mlx-vlm --with torch \ python -m mlx_vlm." />
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/1734872892-uvx-example-usages/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-12-22T13:08:12+00:00" />
@@ -154,7 +154,11 @@ Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model 
 </span></span></code></pre></div><h3 id="clean-up-pyc-files-and-__pycache__-directories">Clean up .pyc files and <strong>pycache</strong> directories</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx pyclean .
 </span></span></code></pre></div><p>Collected from this <a href="https://www.reddit.com/r/Python/comments/1guf2fh/if_you_use_uv_what_are_your_use_cases_for_uvx/">Reddit thread</a></p>
-<h2 id="run-mlx-vlm-models">Run MLX VLM Models</h2>
+<h3 id="run-open-webui">Run Open WebUI</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx open-webui@latest serve
+</span></span></code></pre></div><h3 id="run-autogen-studio">Run Autogen Studio</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx autogenstudio@latest ui --port <span style="color:#ae81ff">8081</span>
+</span></span></code></pre></div><h2 id="run-mlx-vlm-models">Run MLX VLM Models</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uv run --with mlx-vlm <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  python -m mlx_vlm.generate <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --model Qwen/Qwen2-VL-2B-Instruct <span style="color:#ae81ff">\
@@ -169,6 +173,10 @@ Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model 
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --temp 0.0 <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --image https://image.png <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --prompt <span style="color:#e6db74">&#34;Describe image in detail, include all text&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uv run --with f5-tts-mlx <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  python -m f5_tts_mlx.generate <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --output gen.wav <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --text <span style="color:#e6db74">&#34;On December 7, 1941, an unprepared United States was attacked at Pearl Harbor, crippling much of the US fleet. Less than four years later, US deployed a new and unimaginably destructive weapon—a weapon that, just a few years before, had been considered science fiction.&#34;</span>
 </span></span></code></pre></div>
       </div>
 
