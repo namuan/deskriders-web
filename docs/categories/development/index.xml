@@ -29,7 +29,7 @@ docker run --name space-1 -d -p 18020-18040:8020-8040 --restart=always alnoda/al
       <guid>/posts/1734872892-uvx-example-usages/</guid>
       <description>Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0.</description>
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run llm (CLI) with Ollama uvx --with llm-ollama llm -m llama3.1:latest &amp;#34;Fun facts about Squid Game&amp;#34; Other examples in official docs</description>
     </item>
     
   </channel>

@@ -13,12 +13,12 @@
 <meta name="twitter:title" content="List of very handy uvx use-cases"/>
 <meta name="twitter:description" content="Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0."/>
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run llm (CLI) with Ollama uvx --with llm-ollama llm -m llama3.1:latest &#34;Fun facts about Squid Game&#34; Other examples in official docs"/>
 
     <meta property="og:title" content="List of very handy uvx use-cases" />
 <meta property="og:description" content="Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0." />
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run llm (CLI) with Ollama uvx --with llm-ollama llm -m llama3.1:latest &#34;Fun facts about Squid Game&#34; Other examples in official docs" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/1734872892-uvx-example-usages/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-12-22T13:08:12+00:00" />
@@ -158,6 +158,10 @@ Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx open-webui@latest serve
 </span></span></code></pre></div><h3 id="run-autogen-studio">Run Autogen Studio</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx autogenstudio@latest ui --port <span style="color:#ae81ff">8081</span>
+</span></span></code></pre></div><h3 id="run-llm-cli-with-ollama">Run llm (CLI) with Ollama</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx --with llm-ollama llm -m llama3.1:latest <span style="color:#e6db74">&#34;Fun facts about Squid Game&#34;</span>
+</span></span></code></pre></div><p>Other examples in official <a href="https://github.com/simonw/llm/blob/main/docs/setup.md">docs</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uvx --with llm-claude-3 llm -m claude-3.5-haiku <span style="color:#e6db74">&#39;fun facts about skunks&#39;</span>
 </span></span></code></pre></div><h2 id="run-mlx-vlm-models">Run MLX VLM Models</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>uv run --with mlx-vlm <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  python -m mlx_vlm.generate <span style="color:#ae81ff">\

@@ -6,7 +6,16 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jan 2025 17:26:27 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jan 2025 14:01:45 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2025-01-26</title>
+      <link>/posts/1737900105-linklist-2025-01-26/</link>
+      <pubDate>Sun, 26 Jan 2025 14:01:45 +0000</pubDate>
+      
+      <guid>/posts/1737900105-linklist-2025-01-26/</guid>
+      <description>https://github.com/langgptai/awesome-claude-prompts https://github.com/lsgrep/chrome-extension-ollama-chat A Chrome extension that adds a sleek sidebar interface for chatting with local LLMs using Ollama, built with React, TypeScript, and Vite. Supports smooth sidebar integration with any webpage Includes chat interface with support for Markdown formatting Features real-time streaming responses Offers clean and modern UI design Allows multiple model support via Ollama Provides keyboard shortcuts for quick access Requires Node.js (v16 or higher), npm, yarn, Chrome browser, and Ollama installed and running locally Clone the repository using git clone &amp;lt;repository-url&amp;gt; Install dependencies with npm install Build the extension with npm run build Load the extension in Chrome by enabling &amp;ldquo;Developer mode&amp;rdquo; and loading it from the dist directory Start Ollama with CORS enabled by running OLLAMA_ORIGINS=chrome-extension://* ollama serve Pull a model (if necessary) using ollama pull &amp;lt;model-name&amp;gt; Start the development server with npm run dev The extension will rebuild automatically when changes are made Click the extension icon to toggle the sidebar, select an Ollama model, and start chatting Features React + TypeScript for the UI, Vite for building and development, Chrome Extension Manifest V3, and Ollama API for local LLM integration Utilizes real-time streaming using Server-Sent Events Includes improved sidebar styling and layout, smooth animations, and fixed visibility toggle Adjusted width for better readability Initial release with basic chat functionality and Ollama integration Supports Markdown formatting Licensed under the WTFPL - Do What the Fuck You Want to Public License (see LICENSE file) https://github.</description>
+    </item>
+    
     <item>
       <title>Link List :: 2025-01-18</title>
       <link>/posts/1737221187-linklist-2025-01-18/</link>
@@ -113,7 +122,7 @@ docker run --name space-1 -d -p 18020-18040:8020-8040 --restart=always alnoda/al
       <guid>/posts/1734872892-uvx-example-usages/</guid>
       <description>Open Marimo uvx marimo edit --sandbox Also
 uvx marimo tutorial intro iPython with packages uvx --with pandas,yfinance ipython Convert files to markdown uvx markitdown ssrn-4990063.pdf Aider.chat uvx aider Clean up .pyc files and pycache directories uvx pyclean . Collected from this Reddit thread
-Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run MLX VLM Models uv run --with mlx-vlm \ python -m mlx_vlm.generate \ --model Qwen/Qwen2-VL-2B-Instruct \ --max-tokens 1000 \ --temp 0.</description>
+Run Open WebUI uvx open-webui@latest serve Run Autogen Studio uvx autogenstudio@latest ui --port 8081 Run llm (CLI) with Ollama uvx --with llm-ollama llm -m llama3.1:latest &amp;#34;Fun facts about Squid Game&amp;#34; Other examples in official docs</description>
     </item>
     
     <item>

@@ -63,6 +63,18 @@ uvx open-webui@latest serve
 uvx autogenstudio@latest ui --port 8081
 ```
 
+### Run llm (CLI) with Ollama
+
+```shell
+uvx --with llm-ollama llm -m llama3.1:latest "Fun facts about Squid Game"
+```
+
+Other examples in official [docs](https://github.com/simonw/llm/blob/main/docs/setup.md)
+
+```shell
+uvx --with llm-claude-3 llm -m claude-3.5-haiku 'fun facts about skunks'
+```
+
 ## Run MLX VLM Models
 
 ```shell
