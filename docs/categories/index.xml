@@ -4,233 +4,184 @@
     <title>Categories on deskriders</title>
     <link>/categories/</link>
     <description>Recent content in Categories on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Feb 2025 19:47:25 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 18:00:25 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>linklist</title>
+      <title>Linklist</title>
       <link>/categories/linklist/</link>
-      <pubDate>Mon, 10 Feb 2025 19:47:25 +0000</pubDate>
-      
+      <pubDate>Sun, 16 Feb 2025 18:00:25 +0000</pubDate>
       <guid>/categories/linklist/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Audio Processing</title>
       <link>/categories/audio-processing/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/categories/audio-processing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>eBook Conversion</title>
+      <title>EBook Conversion</title>
       <link>/categories/ebook-conversion/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/categories/ebook-conversion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Text-to-Speech</title>
       <link>/categories/text-to-speech/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/categories/text-to-speech/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Analysis</title>
       <link>/categories/data-analysis/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/categories/data-analysis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Python</title>
       <link>/categories/python/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/categories/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>trading</title>
+      <title>Trading</title>
       <link>/categories/trading/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/categories/trading/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>/categories/productivity/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      
       <guid>/categories/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tools</title>
+      <title>Tools</title>
       <link>/categories/tools/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      
       <guid>/categories/tools/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>/categories/development/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      
       <guid>/categories/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>/categories/research/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
-      
       <guid>/categories/research/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>books</title>
+      <title>Books</title>
       <link>/categories/books/</link>
       <pubDate>Fri, 06 Dec 2024 21:20:14 +0000</pubDate>
-      
       <guid>/categories/books/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>llm</title>
+      <title>Llm</title>
       <link>/categories/llm/</link>
       <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
-      
       <guid>/categories/llm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>/categories/programming/</link>
       <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
-      
       <guid>/categories/programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>workflow</title>
+      <title>Workflow</title>
       <link>/categories/workflow/</link>
       <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
-      
       <guid>/categories/workflow/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>knowledge</title>
+      <title>Knowledge</title>
       <link>/categories/knowledge/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      
       <guid>/categories/knowledge/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>market-summary</title>
+      <title>Market-Summary</title>
       <link>/categories/market-summary/</link>
       <pubDate>Sat, 16 Nov 2024 08:40:23 +0000</pubDate>
-      
       <guid>/categories/market-summary/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stocks</title>
+      <title>Stocks</title>
       <link>/categories/stocks/</link>
       <pubDate>Mon, 28 Oct 2024 13:41:25 +0000</pubDate>
-      
       <guid>/categories/stocks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>learning</title>
+      <title>Learning</title>
       <link>/categories/learning/</link>
       <pubDate>Wed, 16 Oct 2024 12:51:18 +0100</pubDate>
-      
       <guid>/categories/learning/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>demos</title>
+      <title>Demos</title>
       <link>/categories/demos/</link>
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
-      
       <guid>/categories/demos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>automation</title>
+      <title>Automation</title>
       <link>/categories/automation/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      
       <guid>/categories/automation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>chatgpt</title>
+      <title>Chatgpt</title>
       <link>/categories/chatgpt/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      
       <guid>/categories/chatgpt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>setup</title>
+      <title>Setup</title>
       <link>/categories/setup/</link>
       <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
-      
       <guid>/categories/setup/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tips</title>
+      <title>Tips</title>
       <link>/categories/tips/</link>
       <pubDate>Tue, 20 Dec 2022 10:08:33 +0000</pubDate>
-      
       <guid>/categories/tips/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>til</title>
+      <title>Til</title>
       <link>/categories/til/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      
       <guid>/categories/til/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

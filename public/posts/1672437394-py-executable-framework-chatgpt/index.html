@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Implementing py-executable workflow using ChatGPT">
+  <meta name="twitter:description" content="ChatGPT defines the workflow and implements all the steps given to it in a checklist format.">
+
+    <meta property="og:url" content="//localhost:1313/posts/1672437394-py-executable-framework-chatgpt/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Implementing py-executable workflow using ChatGPT">
+  <meta property="og:description" content="ChatGPT defines the workflow and implements all the steps given to it in a checklist format.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-12-30T21:56:34+00:00">
+    <meta property="article:modified_time" content="2022-12-30T21:56:34+00:00">
+    <meta property="article:tag" content="Workflow">
+
+
+    
+      <base href="//localhost:1313/posts/1672437394-py-executable-framework-chatgpt/">
+    
+    <title>
+  Implementing py-executable workflow using ChatGPT · deskriders
+</title>
+
+    
+      <link rel="canonical" href="//localhost:1313/posts/1672437394-py-executable-framework-chatgpt/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//localhost:1313/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Implementing py-executable workflow using ChatGPT</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2022-12-30T21:56:34Z'>
+                December 30, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              8 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/chatgpt/">chatgpt</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/workflow/">workflow</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <blockquote>
+<p><em>Teaching <a href="https://chat.openai.com/chat">ChatGPT</a> How to write workflows using <a href="https://namuan.github.io/py-executable-checklist/">py-executable-checklist</a> framework.</em></p></blockquote>
+<p><strong><strong>You (🗣️):
+I&rsquo;m writing a Python application which defines a workflow as a series of steps defined by a class for each step.</strong></strong></p>
+<p>Here is what the definition of a whole workflow looks like</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">workflow</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [
+</span></span><span style="display:flex;"><span>        DoSomething,
+</span></span><span style="display:flex;"><span>    ]
+</span></span></code></pre></div><p>DoSomething is a step in the workflow and is defined as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DoSomething</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Go to this page
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Copy the command
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Run the command
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Copy the output and paste it into the email
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    username: str
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        logging<span style="color:#f92672">.</span>info(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>username<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;greetings&#34;</span>: <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Hello </span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>username<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>}
+</span></span></code></pre></div><p>Where username is the input to this workflow and execute method implements the workflow.
+Each step can return some state by returning a dictionary of key value pairs.</p>
+<p>Based on the above description, can you write a workflow for the following scenario</p>
+<ul>
+<li>Gather JSON data from <code>r/listentothis</code> subreddit, specifically the top songs from the past month</li>
+<li>Parse that JSON data such that I have an array of URLs</li>
+<li>Creates a file based on the name of the month in the local directory</li>
+<li>For each URL, the file is downloaded in ALAC format (best iTunes quality possible) and added to said folder</li>
+<li>When the folder contains 20 songs, the top photo from <code>r/earthporn</code> subreddit is grabbed from the reddit API</li>
+<li>Text (title, month, year) is added to the photo in a random color</li>
+<li>For each song, metadata including album name and album art is added</li>
+<li>The entire monthly folder is added to the &ldquo;automatically add to itunes&rdquo; folder</li>
+</ul>
+<p><strong>ChatGPT (🤖):</strong>
+Here is an example of how you could define the workflow for the scenario you described using the WorkflowBase class:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> logging
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> json
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image, ImageDraw, ImageFont
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GatherJSONData</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Gather JSON data from the r/listentothis subreddit for the top songs of the past month.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Send a GET request to the r/listentothis subreddit API</span>
+</span></span><span style="display:flex;"><span>        response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://www.reddit.com/r/listentothis/top.json&#34;</span>, params<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;t&#34;</span>: <span style="color:#e6db74">&#34;month&#34;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Parse the JSON data from the response</span>
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>loads(response<span style="color:#f92672">.</span>text)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Extract the list of URLs from the data</span>
+</span></span><span style="display:flex;"><span>        urls <span style="color:#f92672">=</span> [item[<span style="color:#e6db74">&#34;data&#34;</span>][<span style="color:#e6db74">&#34;url&#34;</span>] <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> data[<span style="color:#e6db74">&#34;data&#34;</span>][<span style="color:#e6db74">&#34;children&#34;</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the list of URLs as output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;urls&#34;</span>: urls}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CreateMonthlyFolder</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Create a file based on the name of the month in the local directory.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Get the current month and year</span>
+</span></span><span style="display:flex;"><span>        current_month <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now()<span style="color:#f92672">.</span>strftime(<span style="color:#e6db74">&#34;%B&#34;</span>)
+</span></span><span style="display:flex;"><span>        current_year <span style="color:#f92672">=</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>now()<span style="color:#f92672">.</span>year
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create the folder for the current month in the local directory</span>
+</span></span><span style="display:flex;"><span>        os<span style="color:#f92672">.</span>makedirs(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>current_month<span style="color:#e6db74">}</span><span style="color:#e6db74">_</span><span style="color:#e6db74">{</span>current_year<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>, exist_ok<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the name of the created folder as output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;folder_name&#34;</span>: <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>current_month<span style="color:#e6db74">}</span><span style="color:#e6db74">_</span><span style="color:#e6db74">{</span>current_year<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DownloadSongs</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    For each URL, download the song in ALAC format and add it to the specified folder.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    folder_name: str
+</span></span><span style="display:flex;"><span>    urls: List[str]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Iterate over the list of URLs</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> url <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>urls:
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Download the song in ALAC format and save it to the specified folder</span>
+</span></span><span style="display:flex;"><span>            download_song(url, self<span style="color:#f92672">.</span>folder_name, <span style="color:#e6db74">&#34;ALAC&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the folder name as output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;folder_name&#34;</span>: self<span style="color:#f92672">.</span>folder_name}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GrabTopPhoto</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Grab the top photo from the r/earthporn subreddit from the reddit API.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Send a GET request to the r/earthporn subreddit API</span>
+</span></span><span style="display:flex;"><span>        response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://www.reddit.com/r/earthporn/top.json&#34;</span>, params<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#34;t&#34;</span>: <span style="color:#e6db74">&#34;day&#34;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Parse the JSON data from the response</span>
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>loads(response<span style="color:#f92672">.</span>text)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Extract the URL of the top photo from the data</span>
+</span></span><span style="display:flex;"><span>        photo_url <span style="color:#f92672">=</span> data[<span style="color:#e6db74">&#34;data&#34;</span>][<span style="color:#e6db74">&#34;children&#34;</span>][<span style="color:#ae81ff">0</span>][<span style="color:#e6db74">&#34;data&#34;</span>][<span style="color:#e6db74">&#34;url&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Download the photo</span>
+</span></span><span style="display:flex;"><span>        response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(photo_url)
+</span></span><span style="display:flex;"><span>        photo_data <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span>content
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the photo data as output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;photo_data&#34;</span>: photo_data}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AddTextToPhoto</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Add text (title, month, year) to the photo in a random
+</span></span></span></code></pre></div><p><strong>You (🗣️):
+Can you implement the following step?</strong></p>
+<ul>
+<li>Text (title, month, year) is added to the photo in a random color</li>
+</ul>
+<p><strong>ChatGPT (🤖):</strong>
+Sure! Here is an example of how you could implement the step to add text (title, month, year) to a photo in a random color using the Python Pillow library:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> random
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image, ImageDraw, ImageFont
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AddTextToPhoto</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Add text (title, month, year) to the photo in a random color.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    photo_data: bytes
+</span></span><span style="display:flex;"><span>    title: str
+</span></span><span style="display:flex;"><span>    month: str
+</span></span><span style="display:flex;"><span>    year: str
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Open the photo data as an image</span>
+</span></span><span style="display:flex;"><span>        image <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(io<span style="color:#f92672">.</span>BytesIO(self<span style="color:#f92672">.</span>photo_data))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create an ImageDraw object to draw on the image</span>
+</span></span><span style="display:flex;"><span>        draw <span style="color:#f92672">=</span> ImageDraw<span style="color:#f92672">.</span>Draw(image)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Choose a random color for the text</span>
+</span></span><span style="display:flex;"><span>        color <span style="color:#f92672">=</span> (random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>), random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>), random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Set the font and font size for the text</span>
+</span></span><span style="display:flex;"><span>        font <span style="color:#f92672">=</span> ImageFont<span style="color:#f92672">.</span>truetype(<span style="color:#e6db74">&#34;arial.ttf&#34;</span>, <span style="color:#ae81ff">20</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Get the width and height of the image</span>
+</span></span><span style="display:flex;"><span>        width, height <span style="color:#f92672">=</span> image<span style="color:#f92672">.</span>size
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Calculate the x and y positions for the text</span>
+</span></span><span style="display:flex;"><span>        x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>        y <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Add the title, month, and year to the image</span>
+</span></span><span style="display:flex;"><span>        draw<span style="color:#f92672">.</span>text((x, y), self<span style="color:#f92672">.</span>title, fill<span style="color:#f92672">=</span>color, font<span style="color:#f92672">=</span>font)
+</span></span><span style="display:flex;"><span>        draw<span style="color:#f92672">.</span>text((x, y <span style="color:#f92672">+</span> <span style="color:#ae81ff">30</span>), self<span style="color:#f92672">.</span>month, fill<span style="color:#f92672">=</span>color, font<span style="color:#f92672">=</span>font)
+</span></span><span style="display:flex;"><span>        draw<span style="color:#f92672">.</span>text((x, y <span style="color:#f92672">+</span> <span style="color:#ae81ff">60</span>), self<span style="color:#f92672">.</span>year, fill<span style="color:#f92672">=</span>color, font<span style="color:#f92672">=</span>font)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Save the modified image to a temporary file</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> tempfile<span style="color:#f92672">.</span>NamedTemporaryFile() <span style="color:#66d9ef">as</span> temp_file:
+</span></span><span style="display:flex;"><span>            image<span style="color:#f92672">.</span>save(temp_file, <span style="color:#e6db74">&#34;JPEG&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Read the modified image data from the temporary file</span>
+</span></span><span style="display:flex;"><span>            modified_photo_data <span style="color:#f92672">=</span> temp_file<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Return the modified photo data as output</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;modified_photo_data&#34;</span>: modified_photo_data}
+</span></span></code></pre></div><p>This step assumes that you have an Arial font file named &ldquo;arial.ttf&rdquo; in the same directory as your Python script. You can modify the font and font size to your liking. The text is added to the image at the top left corner (x = 10, y = 10) with a vertical spacing of 30 pixels between each line of text. The random color is generated using the <code>random.randint()</code> function. The modified image is saved to a temporary file and the modified image data is read from the file and returned as output.</p>
+<p><strong>You (🗣️):
+Can you follow on and implement this step?</strong></p>
+<ul>
+<li>For each song, metadata including album name and album art is added</li>
+</ul>
+<p><strong>ChatGPT (🤖):</strong>
+Sure! Here is an example of how you could implement a step to add metadata including album name and album art to each song in a folder using the Python Mutagen library:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mutagen
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AddMetadataToSongs</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    For each song in the specified folder, add metadata including album name and album art.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    folder_name: str
+</span></span><span style="display:flex;"><span>    album_name: str
+</span></span><span style="display:flex;"><span>    album_art: bytes
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Iterate over the files in the specified folder</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> file_name <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(self<span style="color:#f92672">.</span>folder_name):
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Skip non-audio files</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> file_name<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74">&#34;.mp3&#34;</span>):
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">continue</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Load the audio file using Mutagen</span>
+</span></span><span style="display:flex;"><span>            audio_file <span style="color:#f92672">=</span> mutagen<span style="color:#f92672">.</span>File(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(self<span style="color:#f92672">.</span>folder_name, file_name))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Set the album name and album art in the metadata</span>
+</span></span><span style="display:flex;"><span>            audio_file[<span style="color:#e6db74">&#34;album&#34;</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>album_name
+</span></span><span style="display:flex;"><span>            audio_file<span style="color:#f92672">.</span>tags<span style="color:#f92672">.</span>add(mutagen<span style="color:#f92672">.</span>id3<span style="color:#f92672">.</span>APIC(<span style="color:#ae81ff">3</span>, <span style="color:#e6db74">&#34;image/jpeg&#34;</span>, <span style="color:#ae81ff">3</span>, <span style="color:#e6db74">&#34;Front cover&#34;</span>, self<span style="color:#f92672">.</span>album_art))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Save the modified metadata to the audio file</span>
+</span></span><span style="display:flex;"><span>            audio_file<span style="color:#f92672">.</span>save()
+</span></span></code></pre></div><p>This step assumes that you have installed the Mutagen library (<code>pip install mutagen</code>) and that the folder specified in the <code>folder_name</code> input contains only audio files with the &ldquo;.mp3&rdquo; file extension. The step iterates over the files in the folder, skips non-audio files, and uses Mutagen to load the audio file. It then sets the <code>album</code> field in the metadata to the value of the <code>album_name</code> input and adds the <code>album_art</code> image data as the front cover to the metadata using the Mutagen <code>APIC</code> tag. Finally, it saves the modified metadata to the audio file.</p>
+<p><strong>You (🗣️):
+Following on from above, can you implement this step?</strong></p>
+<ul>
+<li>The entire monthly folder is added to the &ldquo;automatically add to itunes&rdquo; folder</li>
+</ul>
+<p><strong>ChatGPT (🤖):</strong>
+Sure! Here is an example of how you could implement a step to move the entire monthly folder to the &ldquo;automatically add to itunes&rdquo; folder on macOS using the Python shutil library:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> shutil
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AddFolderToiTunes</span>(WorkflowBase):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Add the specified folder to the &#34;automatically add to itunes&#34; folder.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    folder_name: str
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">execute</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Get the path to the &#34;automatically add to itunes&#34; folder</span>
+</span></span><span style="display:flex;"><span>        iTunes_folder <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>expanduser(<span style="color:#e6db74">&#34;~/Music/iTunes/iTunes Media/Automatically Add to iTunes&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Move the specified folder to the &#34;automatically add to itunes&#34; folder</span>
+</span></span><span style="display:flex;"><span>        shutil<span style="color:#f92672">.</span>move(self<span style="color:#f92672">.</span>folder_name, iTunes_folder)
+</span></span></code></pre></div><p>This step assumes that you are using macOS and that the &ldquo;automatically add to itunes&rdquo; folder is located at &ldquo;~/Music/iTunes/iTunes Media/Automatically Add to iTunes&rdquo; on your system. The step uses the <code>shutil.move()</code> function to move the specified folder to the &ldquo;automatically add to itunes&rdquo; folder.</p>
+<p>Note that this step will only work on macOS systems. If you are using a different operating system, you will need to use a different method to move the folder to the equivalent location on your system.</p>
+<p><strong>You (🗣️):
+Now can you collect all the above steps and generate the following function</strong></p>
+<p>def workflow():
+return [
+DoSomething,
+]</p>
+<p><strong>ChatGPT (🤖):</strong>
+Sure! Here is an example of how you could define the workflow for the scenario you described using the steps that I provided above:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">workflow</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [
+</span></span><span style="display:flex;"><span>        GatherJSONData,
+</span></span><span style="display:flex;"><span>        CreateMonthlyFolder,
+</span></span><span style="display:flex;"><span>        DownloadSongs,
+</span></span><span style="display:flex;"><span>        GrabTopPhoto,
+</span></span><span style="display:flex;"><span>        AddTextToPhoto,
+</span></span><span style="display:flex;"><span>        AddMetadataToSongs,
+</span></span><span style="display:flex;"><span>        AddFolderToiTunes
+</span></span><span style="display:flex;"><span>    ]
+</span></span></code></pre></div><p>This workflow will first gather the JSON data for the top songs of the past month from the r/listentothis subreddit, create a folder based on the current month and year in the local directory, download the songs in the ALAC format and add them to the folder, grab the top photo from the r/earthporn subreddit, add text (title, month, year) to the photo in a random color, add metadata including album name and album art to each song in the folder, and finally move the entire folder to the &ldquo;automatically add to itunes&rdquo; folder.</p>
+<p>You can customize the workflow by modifying the input parameters of each step or by adding additional steps as needed.</p>
+<p><strong>You (🗣️):
+How can I use requests with a known user agent?</strong></p>
+<p><strong>ChatGPT (🤖):</strong>
+To use the <code>requests</code> library with a known user agent, you can pass the <code>headers</code> parameter to the <code>get()</code> or <code>post()</code> function and specify the user agent in the <code>&quot;User-Agent&quot;</code> header.</p>
+<p>For example, to send a GET request to a URL with the Chrome user agent, you could do the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>headers <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;User-Agent&#34;</span>: <span style="color:#e6db74">&#34;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://www.example.com&#34;</span>, headers<span style="color:#f92672">=</span>headers)
+</span></span></code></pre></div><p>This will send the request with the specified user agent string in the <code>&quot;User-Agent&quot;</code> header. You can specify any user agent string that you want in this header.</p>
+<p>Note that some websites may block or throttle requests with certain user agents, so it is important to use a user agent that is appropriate for the website that you are trying to access.</p>
+<h2 id="credits">Credits</h2>
+<p>Original idea from <a href="https://github.com/purplefloyd14/reddit_music_scrape">https://github.com/purplefloyd14/reddit_music_scrape</a></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

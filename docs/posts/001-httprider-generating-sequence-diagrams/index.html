@@ -9,22 +9,31 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Generating sequence diagrams with HttpRider"/>
-<meta name="twitter:description" content="Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
-In HttpRider, I&rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
-HttpRider is an open source cross platform desktop client for working with JSON APIs"/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Generating sequence diagrams with HttpRider">
+  <meta name="twitter:description" content="Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
+In HttpRider, I’ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
+HttpRider is an open source cross platform desktop client for working with JSON APIs">
 
-    <meta property="og:title" content="Generating sequence diagrams with HttpRider" />
-<meta property="og:description" content="Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
-In HttpRider, I&rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
-HttpRider is an open source cross platform desktop client for working with JSON APIs" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/001-httprider-generating-sequence-diagrams/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-10-13T07:45:14+00:00" />
-<meta property="article:modified_time" content="2019-10-13T07:45:14+00:00" />
-<meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/" /><meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" />
-
+    <meta property="og:url" content="/posts/001-httprider-generating-sequence-diagrams/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Generating sequence diagrams with HttpRider">
+  <meta property="og:description" content="Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
+In HttpRider, I’ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
+HttpRider is an open source cross platform desktop client for working with JSON APIs">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-10-13T07:45:14+00:00">
+    <meta property="article:modified_time" content="2019-10-13T07:45:14+00:00">
+    <meta property="article:tag" content="Plantuml">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Api">
+      <meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/">
+      <meta property="og:see_also" content="/posts/004-httprider-performance-testing/">
+      <meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/">
+      <meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/">
 
 
     
@@ -67,7 +76,7 @@ HttpRider is an open source cross platform desktop client for working with JSON 
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -142,8 +151,7 @@ HttpRider is an open source cross platform desktop client for working with JSON 
         <p>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.</p>
 <p>In HttpRider, I&rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.</p>
 <blockquote>
-<p><a href="https://github.com/namuan/http-rider" title="HttpRider">HttpRider</a> is an open source cross platform desktop client for working with JSON APIs</p>
-</blockquote>
+<p><a href="https://github.com/namuan/http-rider" title="HttpRider">HttpRider</a> is an open source cross platform desktop client for working with JSON APIs</p></blockquote>
 <p>Here is an example:</p>
 <p><img src="/images/001/httprider-multiple-calls.png" alt=""></p>
 <p>To help the tool understand the different participants, the title of each call needs to follow this convention, for eg.<br>
@@ -153,10 +161,9 @@ HttpRider is an open source cross platform desktop client for working with JSON 
 <p>The full diagram can be rederend using <a href="https://www.planttext.com">the online tool</a>. Here is the <a href="https://www.plantuml.com/plantuml/img/jLFlIyCm4FsUl-B8nx3OpatjnYp38LFmHtKJ11aIcjiijar9KwN8_dUJTQWRGnIqXVPwoRthlVSoB8tGfifIGaTfWhcXFAHZOV1LrBGFZ4NNaobZG9-CAVgUrzu_slFjtUu7lkzxXIeD9JfN1a4dYoS33GfvQDx0GrYZpU1IF2CKeixS1iBO6Gg9kcICZ5HkR99Fwm87S_i1iKgLFgOQ9GtPm7Ev43nlK1gTv8lGyyWz7ocjCHKcKJa_bp-jO-ocGbr39BJ8NFEgH9sBxCUDBIUYJfMGjlQDWBseAxTiqTkgB35DuSG-QAjP4vcgBArzQFQkSYyYhLn1sszz9kFAZfF7ZdOwFedeQcL9bWHp2OvXyY6CrUZE_ZLCKByaCQw46fz-ezC2jsHQ8v67TU24-WevWmkbdgjYbTmKwvvV_OgjBRet-DizMzHuP6Eyt_fmru1Rk3CRsFRHBaV-vP1hapYVFIRIoHjqU_DUnp_a1pA8UNVUxlBUF0XuHtQwXnW8iT-H_-2VeOtiKOTt" title="HttpRider PlantUML">link</a> to the generated diagram from the above calls.</p>
 <p><img src="/images/001/httprider_plantuml_rendered.png" alt=""></p>
 <p>A quick video demonstration</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/4Asr_4iOxUM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4Asr_4iOxUM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 
       </div>
@@ -238,18 +245,6 @@ HttpRider is an open source cross platform desktop client for working with JSON 
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,34 +9,44 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Generating BDD tests with HttpRider"/>
-<meta name="twitter:description" content="In this post, we&rsquo;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&rsquo;s start with a few API calls using the sample database provided with source."/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Generating BDD tests with HttpRider">
+  <meta name="twitter:description" content="In this post, we’ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we’ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I’ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let’s start with a few API calls using the sample database provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.">
 
-    <meta property="og:title" content="Generating BDD tests with HttpRider" />
-<meta property="og:description" content="In this post, we&rsquo;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&rsquo;s start with a few API calls using the sample database provided with source." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/003-httprider-generating-bdd-tests/" />
-<meta property="article:published_time" content="2019-10-28T11:30:47+00:00" />
-<meta property="article:modified_time" content="2019-10-28T11:30:47+00:00" /><meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/" /><meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
-
+    <meta property="og:url" content="//localhost:1313/posts/003-httprider-generating-bdd-tests/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Generating BDD tests with HttpRider">
+  <meta property="og:description" content="In this post, we’ll see how we can easily generate BDD tests with HttpRider.
+Instead of writing the code behind the REST api calls, we’ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
+I’ve also created a sample project using Apicki framework to make it easy to get it up and running.
+Let’s start with a few API calls using the sample database provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-10-28T11:30:47+00:00">
+    <meta property="article:modified_time" content="2019-10-28T11:30:47+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Api">
+    <meta property="article:tag" content="Python">
+      <meta property="og:see_also" content="//localhost:1313/posts/1591444366-httprider-notebook-publishing/">
+      <meta property="og:see_also" content="//localhost:1313/posts/004-httprider-performance-testing/">
+      <meta property="og:see_also" content="//localhost:1313/posts/002-httprider-generating-runscope-monitoring-tests/">
+      <meta property="og:see_also" content="//localhost:1313/posts/001-httprider-generating-sequence-diagrams/">
 
 
     
-      <base href="/posts/003-httprider-generating-bdd-tests/">
+      <base href="//localhost:1313/posts/003-httprider-generating-bdd-tests/">
     
     <title>
   Generating BDD tests with HttpRider · deskriders
 </title>
 
     
-      <link rel="canonical" href="/posts/003-httprider-generating-bdd-tests/">
+      <link rel="canonical" href="//localhost:1313/posts/003-httprider-generating-bdd-tests/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -46,7 +56,7 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
     
 
     
@@ -55,7 +65,7 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
       
         
         
-        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
       
     
 
@@ -65,10 +75,10 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
 
     
 
-    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -79,7 +89,7 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="/">
+    <a class="navigation-title" href="//localhost:1313/">
       deskriders
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -88,15 +98,15 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/posts/">Blog</a>
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/products">Products</a>
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/notes/">Notes</a>
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
           </li>
         
       
@@ -155,13 +165,11 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
 <p>You can also view the generated report by running <code>npm run report</code> which should generate the HTML report in the <code>report</code> folder.</p>
 <p><img src="/images/003/apickli_5.png" alt=""></p>
 <blockquote>
-<p><a href="https://www.httprider.com/" title="HttpRider">HttpRider</a> is an open source cross platform desktop client for working with JSON APIs. Please checkout the <a href="https://github.com/namuan/http-rider#features">features</a> on Github.</p>
-</blockquote>
+<p><a href="https://www.httprider.com/" title="HttpRider">HttpRider</a> is an open source cross platform desktop client for working with JSON APIs. Please checkout the <a href="https://github.com/namuan/http-rider#features">features</a> on Github.</p></blockquote>
 <p>See the demo video to generate BDD tests using HttpRider and Apickli.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/mGiF0DfLaSU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mGiF0DfLaSU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 
       </div>
@@ -228,7 +236,7 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
     
     
       
-        © 2019 - 2022
+        © 2019 - 2025
       
        Deskriders.dev 
     
@@ -243,19 +251,6 @@ Let&rsquo;s start with a few API calls using the sample database provided with s
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
 
   </body>
 

@@ -9,25 +9,29 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)"/>
-<meta name="twitter:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)">
+  <meta name="twitter:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
 Link to Google Sheet:
 https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
 Here is the table with current prices:
-Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8."/>
+Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.08 AEYE $26.80 AMD $136.24 AMZN $205.74 ASTS $23.29 AVGO $159.67 AXON $634.96 BABA $86.59 BITF $2.15 BRK.B $483.08 BTBT $4.43 CAVA $141.20 CCJ $57.81 CELH $28.37 CLSK $13.86 COIN $310.98 CRSR $7.31 CWBK $36.50 ET $19.42 EVLV $3.91 FBTC $84.51 GOOG $170.82 GOOGL $169.23 GSAT $1.90 GME $30.89 HIMS $30.34 HOOD $37.65 IBIT $55.03 INTC $23.65 IONQ $32.21 KOS $3.90 LAC $3.95 LUNR $14.45 MARA $26.92 MDGL $331.45 META $569.20 MSTR $388.84 MSTU $161.00 MSTX $100.44 MYNZ $0.26 NEE $78.52 NVDA $135.34 NVDL $68.98 PLTR $66.05 QBTS $2.74 QS $5.18 QUBT $6.75 RCAT $9.27 RDDT $140.04 RGTI $2.40 RKLB $25.67 RYCEY $6.86 S $28.08 SAVA $3.98 SHAK $132.35 SIDU $1.38 SMCI $35.07 SOFI $16.12 SOUN $7.88 SPY $598.83 SSYS $9.55 TMDX $87.11 TSLA $332.89 VOO $550.55 VTI $298.20 WMT $91.88 Z $85.45 Workflow to get the symbols and current prices With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.">
 
-    <meta property="og:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)" />
-<meta property="og:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
+    <meta property="og:url" content="/posts/1732879530-download-reddit-post/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)">
+  <meta property="og:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
 Link to Google Sheet:
 https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
 Here is the table with current prices:
-Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1732879530-download-reddit-post/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-11-29T11:25:30+00:00" />
-<meta property="article:modified_time" content="2024-11-29T11:25:30+00:00" />
-
+Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.08 AEYE $26.80 AMD $136.24 AMZN $205.74 ASTS $23.29 AVGO $159.67 AXON $634.96 BABA $86.59 BITF $2.15 BRK.B $483.08 BTBT $4.43 CAVA $141.20 CCJ $57.81 CELH $28.37 CLSK $13.86 COIN $310.98 CRSR $7.31 CWBK $36.50 ET $19.42 EVLV $3.91 FBTC $84.51 GOOG $170.82 GOOGL $169.23 GSAT $1.90 GME $30.89 HIMS $30.34 HOOD $37.65 IBIT $55.03 INTC $23.65 IONQ $32.21 KOS $3.90 LAC $3.95 LUNR $14.45 MARA $26.92 MDGL $331.45 META $569.20 MSTR $388.84 MSTU $161.00 MSTX $100.44 MYNZ $0.26 NEE $78.52 NVDA $135.34 NVDL $68.98 PLTR $66.05 QBTS $2.74 QS $5.18 QUBT $6.75 RCAT $9.27 RDDT $140.04 RGTI $2.40 RKLB $25.67 RYCEY $6.86 S $28.08 SAVA $3.98 SHAK $132.35 SIDU $1.38 SMCI $35.07 SOFI $16.12 SOUN $7.88 SPY $598.83 SSYS $9.55 TMDX $87.11 TSLA $332.89 VOO $550.55 VTI $298.20 WMT $91.88 Z $85.45 Workflow to get the symbols and current prices With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-29T11:25:30+00:00">
+    <meta property="article:modified_time" content="2024-11-29T11:25:30+00:00">
+    <meta property="article:tag" content="Reddit">
 
 
     
@@ -70,7 +74,7 @@ Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -147,418 +151,418 @@ I thought it would be interesting to track the recommendations and come back in 
 <p><a href="https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing</a></p>
 <p>Here is the table with current prices:</p>
 <table>
-<thead>
-<tr>
-<th>Symbol Name</th>
-<th>Current Price (Dec 2024)</th>
-<th>Price in 1 Year (Dec 2025)</th>
-<th>Price in 3 Years (Dec 2027)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=ACHR">ACHR</a></td>
-<td>$8.08</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=AEYE">AEYE</a></td>
-<td>$26.80</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=AMD">AMD</a></td>
-<td>$136.24</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=AMZN">AMZN</a></td>
-<td>$205.74</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=ASTS">ASTS</a></td>
-<td>$23.29</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=AVGO">AVGO</a></td>
-<td>$159.67</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=AXON">AXON</a></td>
-<td>$634.96</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=BABA">BABA</a></td>
-<td>$86.59</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=BITF">BITF</a></td>
-<td>$2.15</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=BRK-B">BRK.B</a></td>
-<td>$483.08</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=BTBT">BTBT</a></td>
-<td>$4.43</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CAVA">CAVA</a></td>
-<td>$141.20</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CCJ">CCJ</a></td>
-<td>$57.81</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CELH">CELH</a></td>
-<td>$28.37</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CLSK">CLSK</a></td>
-<td>$13.86</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=COIN">COIN</a></td>
-<td>$310.98</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CRSR">CRSR</a></td>
-<td>$7.31</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=CWBK">CWBK</a></td>
-<td>$36.50</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=ET">ET</a></td>
-<td>$19.42</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=EVLV">EVLV</a></td>
-<td>$3.91</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=FBTC">FBTC</a></td>
-<td>$84.51</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOG">GOOG</a></td>
-<td>$170.82</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOGL">GOOGL</a></td>
-<td>$169.23</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=GSAT">GSAT</a></td>
-<td>$1.90</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=GME">GME</a></td>
-<td>$30.89</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=HIMS">HIMS</a></td>
-<td>$30.34</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=HOOD">HOOD</a></td>
-<td>$37.65</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=IBIT">IBIT</a></td>
-<td>$55.03</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=INTC">INTC</a></td>
-<td>$23.65</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=IONQ">IONQ</a></td>
-<td>$32.21</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=KOS">KOS</a></td>
-<td>$3.90</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=LAC">LAC</a></td>
-<td>$3.95</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=LUNR">LUNR</a></td>
-<td>$14.45</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MARA">MARA</a></td>
-<td>$26.92</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MDGL">MDGL</a></td>
-<td>$331.45</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=META">META</a></td>
-<td>$569.20</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTR">MSTR</a></td>
-<td>$388.84</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTU">MSTU</a></td>
-<td>$161.00</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTX">MSTX</a></td>
-<td>$100.44</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=MYNZ">MYNZ</a></td>
-<td>$0.26</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=NEE">NEE</a></td>
-<td>$78.52</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDA">NVDA</a></td>
-<td>$135.34</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDL">NVDL</a></td>
-<td>$68.98</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=PLTR">PLTR</a></td>
-<td>$66.05</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=QBTS">QBTS</a></td>
-<td>$2.74</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=QS">QS</a></td>
-<td>$5.18</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=QUBT">QUBT</a></td>
-<td>$6.75</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=RCAT">RCAT</a></td>
-<td>$9.27</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=RDDT">RDDT</a></td>
-<td>$140.04</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=RGTI">RGTI</a></td>
-<td>$2.40</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=RKLB">RKLB</a></td>
-<td>$25.67</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=RYCEY">RYCEY</a></td>
-<td>$6.86</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=S">S</a></td>
-<td>$28.08</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SAVA">SAVA</a></td>
-<td>$3.98</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SHAK">SHAK</a></td>
-<td>$132.35</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SIDU">SIDU</a></td>
-<td>$1.38</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SMCI">SMCI</a></td>
-<td>$35.07</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SOFI">SOFI</a></td>
-<td>$16.12</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SOUN">SOUN</a></td>
-<td>$7.88</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SPY">SPY</a></td>
-<td>$598.83</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=SSYS">SSYS</a></td>
-<td>$9.55</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=TMDX">TMDX</a></td>
-<td>$87.11</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=TSLA">TSLA</a></td>
-<td>$332.89</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=VOO">VOO</a></td>
-<td>$550.55</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=VTI">VTI</a></td>
-<td>$298.20</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=WMT">WMT</a></td>
-<td>$91.88</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://namuan.github.io/lazy-trader/?symbol=Z">Z</a></td>
-<td>$85.45</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Symbol Name</th>
+          <th>Current Price (Dec 2024)</th>
+          <th>Price in 1 Year (Dec 2025)</th>
+          <th>Price in 3 Years (Dec 2027)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ACHR">ACHR</a></td>
+          <td>$8.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AEYE">AEYE</a></td>
+          <td>$26.80</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AMD">AMD</a></td>
+          <td>$136.24</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AMZN">AMZN</a></td>
+          <td>$205.74</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ASTS">ASTS</a></td>
+          <td>$23.29</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AVGO">AVGO</a></td>
+          <td>$159.67</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AXON">AXON</a></td>
+          <td>$634.96</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BABA">BABA</a></td>
+          <td>$86.59</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BITF">BITF</a></td>
+          <td>$2.15</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BRK-B">BRK.B</a></td>
+          <td>$483.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BTBT">BTBT</a></td>
+          <td>$4.43</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CAVA">CAVA</a></td>
+          <td>$141.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CCJ">CCJ</a></td>
+          <td>$57.81</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CELH">CELH</a></td>
+          <td>$28.37</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CLSK">CLSK</a></td>
+          <td>$13.86</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=COIN">COIN</a></td>
+          <td>$310.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CRSR">CRSR</a></td>
+          <td>$7.31</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CWBK">CWBK</a></td>
+          <td>$36.50</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ET">ET</a></td>
+          <td>$19.42</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=EVLV">EVLV</a></td>
+          <td>$3.91</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=FBTC">FBTC</a></td>
+          <td>$84.51</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOG">GOOG</a></td>
+          <td>$170.82</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOGL">GOOGL</a></td>
+          <td>$169.23</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GSAT">GSAT</a></td>
+          <td>$1.90</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GME">GME</a></td>
+          <td>$30.89</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=HIMS">HIMS</a></td>
+          <td>$30.34</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=HOOD">HOOD</a></td>
+          <td>$37.65</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=IBIT">IBIT</a></td>
+          <td>$55.03</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=INTC">INTC</a></td>
+          <td>$23.65</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=IONQ">IONQ</a></td>
+          <td>$32.21</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=KOS">KOS</a></td>
+          <td>$3.90</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=LAC">LAC</a></td>
+          <td>$3.95</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=LUNR">LUNR</a></td>
+          <td>$14.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MARA">MARA</a></td>
+          <td>$26.92</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MDGL">MDGL</a></td>
+          <td>$331.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=META">META</a></td>
+          <td>$569.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTR">MSTR</a></td>
+          <td>$388.84</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTU">MSTU</a></td>
+          <td>$161.00</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTX">MSTX</a></td>
+          <td>$100.44</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MYNZ">MYNZ</a></td>
+          <td>$0.26</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NEE">NEE</a></td>
+          <td>$78.52</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDA">NVDA</a></td>
+          <td>$135.34</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDL">NVDL</a></td>
+          <td>$68.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=PLTR">PLTR</a></td>
+          <td>$66.05</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QBTS">QBTS</a></td>
+          <td>$2.74</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QS">QS</a></td>
+          <td>$5.18</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QUBT">QUBT</a></td>
+          <td>$6.75</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RCAT">RCAT</a></td>
+          <td>$9.27</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RDDT">RDDT</a></td>
+          <td>$140.04</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RGTI">RGTI</a></td>
+          <td>$2.40</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RKLB">RKLB</a></td>
+          <td>$25.67</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RYCEY">RYCEY</a></td>
+          <td>$6.86</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=S">S</a></td>
+          <td>$28.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SAVA">SAVA</a></td>
+          <td>$3.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SHAK">SHAK</a></td>
+          <td>$132.35</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SIDU">SIDU</a></td>
+          <td>$1.38</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SMCI">SMCI</a></td>
+          <td>$35.07</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SOFI">SOFI</a></td>
+          <td>$16.12</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SOUN">SOUN</a></td>
+          <td>$7.88</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SPY">SPY</a></td>
+          <td>$598.83</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SSYS">SSYS</a></td>
+          <td>$9.55</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=TMDX">TMDX</a></td>
+          <td>$87.11</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=TSLA">TSLA</a></td>
+          <td>$332.89</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=VOO">VOO</a></td>
+          <td>$550.55</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=VTI">VTI</a></td>
+          <td>$298.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=WMT">WMT</a></td>
+          <td>$91.88</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=Z">Z</a></td>
+          <td>$85.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="workflow-to-get-the-symbols-and-current-prices">Workflow to get the symbols and current prices</h2>
 <p>With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.</p>
@@ -738,18 +742,6 @@ The code should select all the text like &lsquo;Reddit&rsquo; in the attached im
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

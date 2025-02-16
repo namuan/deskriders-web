@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>springboot on deskriders</title>
-    <link>/tags/springboot/</link>
-    <description>Recent content in springboot on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Springboot on deskriders</title>
+    <link>//localhost:1313/tags/springboot/</link>
+    <description>Recent content in Springboot on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
-      <link>/posts/1645945892-til-spring-exception-logging/</link>
+      <link>//localhost:1313/posts/1645945892-til-spring-exception-logging/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      
-      <guid>/posts/1645945892-til-spring-exception-logging/</guid>
-      <description>This can go in the application.properties file.
-# Single line. Full stack trace will be captured in a single line logging.exception-conversion-word=%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated Single line. Only the exception message will be captured in a single line logging.exception-conversion-word=%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated. Default formatting but only capturing a single line logging.exception-conversion-word=%wEx{short} This works if you don&amp;rsquo;t override logging.pattern.console as the default logging.pattern.console allows you to use logging.exception-converstion-word
-If you need to only filter out certain packages from exception stack trace.</description>
+      <guid>//localhost:1313/posts/1645945892-til-spring-exception-logging/</guid>
+      <description>&lt;p&gt;This can go in the &lt;code&gt;application.properties&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Single line. Full stack trace will be captured in a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Truncated Single line. Only the exception message will be captured in a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Truncated. Default formatting but only capturing a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%wEx{short}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This works if you don&amp;rsquo;t override &lt;code&gt;logging.pattern.console&lt;/code&gt; as the default &lt;code&gt;logging.pattern.console&lt;/code&gt; allows you to use &lt;code&gt;logging.exception-converstion-word&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2022/02/27/498904421940864.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to only filter out certain packages from exception stack trace.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

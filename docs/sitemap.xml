@@ -21,24 +21,27 @@
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
-    <loc>/posts/1739216844-linklist-2025-02-10/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <loc>/posts/1739728778-linklist-2025-02-16/</loc>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
     <loc>/categories/linklist/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
     <loc>/tags/links/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-02-10T19:47:25+00:00</lastmod>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2025-02-16T18:00:25+00:00</lastmod>
+  </url><url>
+    <loc>/posts/1739216844-linklist-2025-02-10/</loc>
     <lastmod>2025-02-10T19:47:25+00:00</lastmod>
   </url><url>
     <loc>/posts/1737900105-linklist-2025-01-26/</loc>
@@ -587,6 +590,12 @@
     <loc>/tags/imagemagick/</loc>
     <lastmod>2022-12-25T13:49:03+00:00</lastmod>
   </url><url>
+    <loc>/notes/</loc>
+    <lastmod>2022-12-25T10:22:29+00:00</lastmod>
+  </url><url>
+    <loc>/notes/py-script/</loc>
+    <lastmod>2022-12-25T10:22:29+00:00</lastmod>
+  </url><url>
     <loc>/tags/styling/</loc>
     <lastmod>2022-12-25T09:35:08+00:00</lastmod>
   </url><url>
@@ -651,9 +660,6 @@
     <lastmod>2022-10-28T19:58:10+01:00</lastmod>
   </url><url>
     <loc>/notes/jwt/</loc>
-    <lastmod>2022-10-22T15:03:22+01:00</lastmod>
-  </url><url>
-    <loc>/notes/</loc>
     <lastmod>2022-10-22T15:03:22+01:00</lastmod>
   </url><url>
     <loc>/notes/mouseless-mac/</loc>
@@ -1024,7 +1030,5 @@
   </url><url>
     <loc>/tags/packaging/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
-  </url><url>
-    <loc>/notes/py-script/</loc>
   </url>
 </urlset>

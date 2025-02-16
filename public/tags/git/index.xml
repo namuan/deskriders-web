@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on deskriders</title>
-    <link>/tags/git/</link>
-    <description>Recent content in git on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Git on deskriders</title>
+    <link>//localhost:1313/tags/git/</link>
+    <description>Recent content in Git on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 24 Dec 2021 10:06:01 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up Git commit template</title>
-      <link>/posts/1640339806-setting-up-git-commit-template/</link>
+      <link>//localhost:1313/posts/1640339806-setting-up-git-commit-template/</link>
       <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
-      
-      <guid>/posts/1640339806-setting-up-git-commit-template/</guid>
-      <description>How to setup a global Git commit template to remind you to write good commit messages.
- Here is the template I like to use just to remind me about different keywords when using conventional commit
---- fix: PATCH (Semantic versioning) .. fix! for beaking change feat: MINOR (Semantic versioning) .. feat! for breaking change build:, chore:, ci:, docs:, style:, refactor:, perf:, test: BREAKING CHANGE: extends key in config file is now used for extending other config files Create a file with the template.</description>
+      <guid>//localhost:1313/posts/1640339806-setting-up-git-commit-template/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;How to setup a global Git commit template to remind you to write good commit messages.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Here is the template I like to use just to remind me about different keywords when using &lt;a href=&#34;https://www.conventionalcommits.org/en/v1.0.0/#summary&#34;&gt;conventional commit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fix: PATCH (Semantic versioning) .. fix! for beaking change&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;feat: MINOR (Semantic versioning) .. feat! for breaking change&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;build:, chore:, ci:, docs:, style:, refactor:, perf:, test:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BREAKING CHANGE: extends key in config file is now used for extending other config files&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create a file with the template.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

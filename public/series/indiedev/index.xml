@@ -1,47 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>indiedev on deskriders</title>
-    <link>/series/indiedev/</link>
-    <description>Recent content in indiedev on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Indiedev on deskriders</title>
+    <link>//localhost:1313/series/indiedev/</link>
+    <description>Recent content in Indiedev on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Feb 2020 09:10:43 +0000</lastBuildDate>
-    
-	<atom:link href="/series/indiedev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/series/indiedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>January 2020 Progress Report</title>
-      <link>/posts/022-january2020-progress-report/</link>
+      <link>//localhost:1313/posts/022-january2020-progress-report/</link>
       <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
-      
-      <guid>/posts/022-january2020-progress-report/</guid>
-      <description>🚀 Started DevRider
-🚀 Created Windows Release Package for HttpRider (https://www.deskriders.dev/projects/http-rider/)
-🚀 Started MindBooks
-🚀 Started new series on Tooltips
-February Goals: 📝 Add links to MindBook to buy books
-📝 Promote Mindbooks on ProductHunt, IndieHackers and other channels
-📝 Publish around 30 tooltips
-📝 Move tooltips to its own website</description>
+      <guid>//localhost:1313/posts/022-january2020-progress-report/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/022/jan2020-github.png&#34; alt=&#34;Github Contributions&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;🚀 Started &lt;a href=&#34;https://www.deskriders.dev/projects/dev-rider/&#34;&gt;DevRider&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;🚀 Created Windows Release Package for HttpRider (&lt;a href=&#34;https://www.deskriders.dev/projects/http-rider/&#34;&gt;https://www.deskriders.dev/projects/http-rider/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;🚀 Started &lt;a href=&#34;https://www.deskriders.dev/projects/mind-books-club/&#34;&gt;MindBooks&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;🚀 Started new series on &lt;a href=&#34;https://www.deskriders.dev/categories/tooltips/&#34;&gt;Tooltips&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;february-goals&#34;&gt;February Goals:&lt;/h4&gt;&#xA;&lt;p&gt;📝 Add links to MindBook to buy books&lt;/p&gt;&#xA;&lt;p&gt;📝 Promote Mindbooks on ProductHunt, IndieHackers and other channels&lt;/p&gt;&#xA;&lt;p&gt;📝 Publish around 30 tooltips&lt;/p&gt;&#xA;&lt;p&gt;📝 Move tooltips to its own website&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>January Releases for Deskrider Tools</title>
-      <link>/posts/011-deskrider-january-releases/</link>
+      <link>//localhost:1313/posts/011-deskrider-january-releases/</link>
       <pubDate>Sun, 26 Jan 2020 17:21:38 +0000</pubDate>
-      
-      <guid>/posts/011-deskrider-january-releases/</guid>
-      <description>Here are the January releases for HttpRider and DeskRider.
-HttpRider MacOS
-Download for Mac
-Windows releases are still pending. Looks like I may have to switch to PyInstaller from py2app/py2exe. Hoping to finish it over the coming week.
-DevRider MacOS
-Download for Mac
-Windows
-Download for Windows</description>
+      <guid>//localhost:1313/posts/011-deskrider-january-releases/</guid>
+      <description>&lt;p&gt;Here are the January releases for HttpRider and DeskRider.&lt;/p&gt;&#xA;&lt;h4 id=&#34;httprider&#34;&gt;HttpRider&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;MacOS&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/download/0.6.0/HttpRider-0.6.0-macOS.dmg&#34;&gt;Download for Mac&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Windows releases are still pending.&#xA;Looks like I may have to switch to PyInstaller from py2app/py2exe.&#xA;Hoping to finish it over the coming week.&lt;/p&gt;&#xA;&lt;h4 id=&#34;devrider&#34;&gt;DevRider&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;MacOS&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/dev-rider-osx/releases/download/0.2.0/devrider-0.2.0.zip&#34;&gt;Download for Mac&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/dev-rider-win/releases/download/0.2.0/devrider-0.2.0.zip&#34;&gt;Download for Windows&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

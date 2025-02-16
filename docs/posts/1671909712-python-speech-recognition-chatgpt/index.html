@@ -9,23 +9,28 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Learning Speech Recognition in Python"/>
-<meta name="twitter:description" content="You: I would like to learn about speech_recognition module in Python
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Learning Speech Recognition in Python">
+  <meta name="twitter:description" content="You: I would like to learn about speech_recognition module in Python
 ChatGPT: The speech_recognition module is a Python library that allows you to perform speech recognition. With this library, you can easily convert spoken audio to text.
-Here&rsquo;s a simple example of how to use the speech_recognition module to transcribe audio from a microphone:
-import speech_recognition as sr # create a Recognizer object r = sr.Recognizer() # create a Microphone object mic = sr."/>
+Here’s a simple example of how to use the speech_recognition module to transcribe audio from a microphone:
+import speech_recognition as sr # create a Recognizer object r = sr.Recognizer() # create a Microphone object mic = sr.Microphone() # listen for audio from the microphone with mic as source: audio = r.listen(source) # transcribe the audio text = r.recognize_google(audio) print(text) This code will listen for audio from the microphone, and then transcribe the audio using Google’s speech recognition service. The transcribed text will be printed to the console.">
 
-    <meta property="og:title" content="Learning Speech Recognition in Python" />
-<meta property="og:description" content="You: I would like to learn about speech_recognition module in Python
+    <meta property="og:url" content="/posts/1671909712-python-speech-recognition-chatgpt/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Learning Speech Recognition in Python">
+  <meta property="og:description" content="You: I would like to learn about speech_recognition module in Python
 ChatGPT: The speech_recognition module is a Python library that allows you to perform speech recognition. With this library, you can easily convert spoken audio to text.
-Here&rsquo;s a simple example of how to use the speech_recognition module to transcribe audio from a microphone:
-import speech_recognition as sr # create a Recognizer object r = sr.Recognizer() # create a Microphone object mic = sr." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1671909712-python-speech-recognition-chatgpt/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-24T19:21:52+00:00" />
-<meta property="article:modified_time" content="2022-12-24T19:21:52+00:00" />
-
+Here’s a simple example of how to use the speech_recognition module to transcribe audio from a microphone:
+import speech_recognition as sr # create a Recognizer object r = sr.Recognizer() # create a Microphone object mic = sr.Microphone() # listen for audio from the microphone with mic as source: audio = r.listen(source) # transcribe the audio text = r.recognize_google(audio) print(text) This code will listen for audio from the microphone, and then transcribe the audio using Google’s speech recognition service. The transcribed text will be printed to the console.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-12-24T19:21:52+00:00">
+    <meta property="article:modified_time" content="2022-12-24T19:21:52+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Speech">
 
 
     
@@ -68,7 +73,7 @@ import speech_recognition as sr # create a Recognizer object r = sr.Recognizer()
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -251,18 +256,6 @@ Here are some other interesting properties of the <code>Recognizer</code> class:
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

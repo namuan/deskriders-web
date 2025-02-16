@@ -9,22 +9,31 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Performance testing with HttpRider"/>
-<meta name="twitter:description" content="The title is a bit misleading as HttpRider can&rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Performance testing with HttpRider">
+  <meta name="twitter:description" content="The title is a bit misleading as HttpRider can’t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
 Slow cooker: SlowCooker is a command line tool for load testing. Here is an excellent blog post about the background and difference from other similar tools.
-Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code."/>
+Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code. Along with the command, you can find brief documentation on command line arguments and output format.">
 
-    <meta property="og:title" content="Performance testing with HttpRider" />
-<meta property="og:description" content="The title is a bit misleading as HttpRider can&rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
+    <meta property="og:url" content="/posts/004-httprider-performance-testing/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Performance testing with HttpRider">
+  <meta property="og:description" content="The title is a bit misleading as HttpRider can’t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
 Slow cooker: SlowCooker is a command line tool for load testing. Here is an excellent blog post about the background and difference from other similar tools.
-Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/004-httprider-performance-testing/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-11-16T16:24:01+00:00" />
-<meta property="article:modified_time" content="2019-11-16T16:24:01+00:00" />
-<meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
-
+Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code. Along with the command, you can find brief documentation on command line arguments and output format.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-11-16T16:24:01+00:00">
+    <meta property="article:modified_time" content="2019-11-16T16:24:01+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Api">
+    <meta property="article:tag" content="Python">
+      <meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/">
+      <meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/">
+      <meta property="og:see_also" content="/posts/002-httprider-generating-runscope-monitoring-tests/">
+      <meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/">
 
 
     
@@ -67,7 +76,7 @@ Generating code to run slow cooker is as simple as selecting an API call and cli
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -148,10 +157,9 @@ Generating code to run slow cooker is as simple as selecting an API call and cli
 <p>This is where it is useful to have <a href="https://jmeter.apache.org">JMeter</a> or <a href="https://locust.io">Locust.io</a> where you can create a complex user journey and chain requests.</p>
 <h4 id="locustio">Locust.io:</h4>
 <p>Here is a small demo of generating and running performance tests with Locust.io.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/7zqcYmZIdVs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7zqcYmZIdVs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 
       </div>
@@ -233,18 +241,6 @@ Generating code to run slow cooker is as simple as selecting an API call and cli
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

@@ -1,6 +1,6 @@
 ---
 title: "PyScript :: Run Python in HTML"
-date: 2022-12-25T10:22:29+00
+date: 2022-12-25T10:22:29Z
 ---
 
 [HomePage](https://pyscript.net)  

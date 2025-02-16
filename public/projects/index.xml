@@ -2,113 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on deskriders</title>
-    <link>/projects/</link>
+    <link>//localhost:1313/projects/</link>
     <description>Recent content in Projects on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Aug 2021 09:27:38 +0000</lastBuildDate>
-    
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
-      <link>/projects/http-rider/</link>
+      <link>//localhost:1313/projects/http-rider/</link>
       <pubDate>Sun, 01 Dec 2019 12:21:06 +0000</pubDate>
-      
-      <guid>/projects/http-rider/</guid>
-      <description>HttpRider is a cross-platfom open souce desktop API client built using Python and PyQt. It is a lean alternative to Postman and other tools developed using Electron.
-    
-Features: 🚀 Open source and Cross-Platform
-🚀 Lean and Faster than Java/Electron alternatives
-🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.
-🚀 Feature rich generators: Generating code for running performance tests using Locust.</description>
+      <guid>//localhost:1313/projects/http-rider/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://httprider.com&#34;&gt;HttpRider&lt;/a&gt; is a cross-platfom open souce desktop API client built using Python and PyQt.&#xA;It is a lean alternative to Postman and other tools developed using Electron.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider-osx/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/http-rider-osx?label=macos&#34; alt=&#34;MacOS Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/http-rider-win/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/http-rider-win?label=windows&#34; alt=&#34;Windows Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/http-rider/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/http-rider?label=Linux&#34; alt=&#34;Linux Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/http-rider/blob/master/LICENSE&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/license/namuan/http-rider.svg&#34; alt=&#34;GitHub license&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/deskriders_twt&#34;&gt;&lt;img src=&#34;https://img.shields.io/twitter/follow/deskriders_twt.svg?style=social&amp;amp;label=Follow&#34; alt=&#34;Twitter Follow&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/httprider-cover-image.png&#34; alt=&#34;HttpRider Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;features&#34;&gt;Features:&lt;/h5&gt;&#xA;&lt;p&gt;🚀 Open source and Cross-Platform&lt;/p&gt;&#xA;&lt;p&gt;🚀 Lean and Faster than Java/Electron alternatives&lt;/p&gt;&#xA;&lt;p&gt;🚀 OpenAPI V3 exporter: You can export to OpenAPI v3 including the request/response schema which is lacking in other clients.&lt;/p&gt;&#xA;&lt;p&gt;🚀 Feature rich generators: Generating code for running performance tests using Locust.io or Slowcooker. Monitor with Runscope or just generate tests using Apickli or RestAssured.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TradingUtils :: Collection of scripts and utilities for stock market analysis, strategies</title>
-      <link>/projects/trading-utils/</link>
+      <link>//localhost:1313/projects/trading-utils/</link>
       <pubDate>Sun, 29 Aug 2021 09:27:38 +0000</pubDate>
-      
-      <guid>/projects/trading-utils/</guid>
-      <description>👉 https://github.com/namuan/trading-utils</description>
+      <guid>//localhost:1313/projects/trading-utils/</guid>
+      <description>&lt;p&gt;👉 &lt;a href=&#34;https://github.com/namuan/trading-utils&#34;&gt;https://github.com/namuan/trading-utils&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/trading-utils.gif&#34; alt=&#34;TradingUtils&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kube Rider :: Desktop Kubernetes Client</title>
-      <link>/projects/kube-rider/</link>
+      <link>//localhost:1313/projects/kube-rider/</link>
       <pubDate>Sun, 13 Oct 2019 08:46:20 +0000</pubDate>
-      
-      <guid>/projects/kube-rider/</guid>
-      <description>KubeRider is a simple desktop client for working with Kubernetes. It is a wrapper over kubectl which means you don&amp;rsquo;t have to remember CLI options and arguments.
-Downloads Downloads are currently only available for MacOS.
-Mac OS App
-Features: 🚀 Uses kubectl so no extra configuration required
-🚀 Display kubectl commands for learning
-🚀 Context and Namespace switching
-🚀 Pod list and watching
-🚀 Create/Delete Pods
-🚀 List Pod containers and Events</description>
+      <guid>//localhost:1313/projects/kube-rider/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/kube-rider&#34;&gt;KubeRider&lt;/a&gt; is a simple desktop client for working with Kubernetes.&#xA;It is a wrapper over kubectl which means you don&amp;rsquo;t have to remember CLI options and arguments.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/kuberider-cover-image.png&#34; alt=&#34;KubeRider Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;downloads&#34;&gt;Downloads&lt;/h4&gt;&#xA;&lt;p&gt;Downloads are currently only available for MacOS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/kube-rider-osx/releases/latest&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h5 id=&#34;features&#34;&gt;Features:&lt;/h5&gt;&#xA;&lt;p&gt;🚀 Uses kubectl so no extra configuration required&lt;/p&gt;&#xA;&lt;p&gt;🚀 Display kubectl commands for learning&lt;/p&gt;&#xA;&lt;p&gt;🚀 Context and Namespace switching&lt;/p&gt;&#xA;&lt;p&gt;🚀 Pod list and watching&lt;/p&gt;&#xA;&lt;p&gt;🚀 Create/Delete Pods&lt;/p&gt;&#xA;&lt;p&gt;🚀 List Pod containers and Events&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dev Rider :: Development Tools/Utilities In One Place</title>
-      <link>/projects/dev-rider/</link>
+      <link>//localhost:1313/projects/dev-rider/</link>
       <pubDate>Fri, 17 Jan 2020 08:46:26 +0000</pubDate>
-      
-      <guid>/projects/dev-rider/</guid>
-      <description>There is a serious problem with the state of simple development tools on the internet. Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups 😷 which makes it difficult and risky to use. And then there is also a huge problem with privacy 👀 and leaking any private data that is used on any of these websites.
-DevRider is an attempt to provide a desktop tool which includes a shell and addins for various utilities.</description>
+      <guid>//localhost:1313/projects/dev-rider/</guid>
+      <description>&lt;p&gt;There is a serious problem with the state of simple development tools on the internet.&#xA;Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups 😷 which makes it difficult and risky to use.&#xA;And then there is also a huge problem with privacy 👀 and leaking any private data that is used on any of these websites.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/dev-rider&#34;&gt;DevRider&lt;/a&gt; is an attempt to provide a desktop tool which includes a shell and addins for various utilities.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tube Stats :: Export Youtube Comments</title>
-      <link>/projects/tube-stats/</link>
+      <link>//localhost:1313/projects/tube-stats/</link>
       <pubDate>Tue, 25 Dec 2018 09:27:30 +0000</pubDate>
-      
-      <guid>/projects/tube-stats/</guid>
-      <description>Completely serverless e-commerce service built using Python, Serverless Framework and DynamoDB and deployed on AWS Platform.
-👉 TubeStats.</description>
+      <guid>//localhost:1313/projects/tube-stats/</guid>
+      <description>&lt;p&gt;Completely serverless e-commerce service built using Python, Serverless Framework and DynamoDB and deployed on AWS Platform.&lt;/p&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;https://tubestats.bettercallbots.com/&#34;&gt;TubeStats&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/tubestats-cover-image.png&#34; alt=&#34;TubeStats&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker Files :: Dockerfile(s) for NodeJS, Python, Java, Ruby etc</title>
-      <link>/projects/docker-files/</link>
+      <link>//localhost:1313/projects/docker-files/</link>
       <pubDate>Fri, 18 Jan 2019 09:27:38 +0000</pubDate>
-      
-      <guid>/projects/docker-files/</guid>
-      <description>👉 docker-files</description>
+      <guid>//localhost:1313/projects/docker-files/</guid>
+      <description>&lt;p&gt;👉 &lt;a href=&#34;https://docker-files.com/&#34;&gt;docker-files&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/dockerfiles-cover-image.png&#34; alt=&#34;Dockerfiles&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>One Page :: Simple ScratchPad</title>
-      <link>/projects/one-page/</link>
+      <link>//localhost:1313/projects/one-page/</link>
       <pubDate>Thu, 13 Feb 2020 18:53:43 +0000</pubDate>
-      
-      <guid>/projects/one-page/</guid>
-      <description>OnePage is a simple cross-platform scratchpad.
-     
-👉 https://github.com/namuan/one-page
-Features 🚀 Only allows you to create a single note
-🚀 No possibility of creating multiple notes so your notes are always in front
-🚀 Single App across platforms
-🚀 Remove any formatting style
-🚀 Auto-save notes
-Downloads Downloads are currently available for MacOS and Windows.
-Mac OS App
-Windows App
-Linux from Source. Please check README.</description>
+      <guid>//localhost:1313/projects/one-page/</guid>
+      <description>&lt;p&gt;OnePage is a simple cross-platform scratchpad.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/one-page-releases/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/one-page-releases?label=macos&#34; alt=&#34;MacOS Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/one-page-releases/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/one-page-releases?label=windows&#34; alt=&#34;Windows Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/one-page/releases/latest&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/namuan/one-page?label=Linux&#34; alt=&#34;Linux Release&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/namuan/one-page/blob/master/LICENSE&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/license/namuan/one-page.svg&#34; alt=&#34;GitHub license&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://travis-ci.org/namuan/one-page&#34;&gt;&lt;img src=&#34;https://travis-ci.com/namuan/one-page.svg?branch=master&#34; alt=&#34;Build Status&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/deskriders_twt&#34;&gt;&lt;img src=&#34;https://img.shields.io/twitter/follow/deskriders_twt.svg?style=social&amp;amp;label=Follow&#34; alt=&#34;Twitter Follow&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;https://github.com/namuan/one-page&#34;&gt;https://github.com/namuan/one-page&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/one-page-cover-image.png&#34; alt=&#34;DevRider Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;p&gt;🚀 Only allows you to create a single note&lt;/p&gt;&#xA;&lt;p&gt;🚀 No possibility of creating multiple notes so your notes are always in front&lt;/p&gt;&#xA;&lt;p&gt;🚀 Single App across platforms&lt;/p&gt;&#xA;&lt;p&gt;🚀 Remove any formatting style&lt;/p&gt;&#xA;&lt;p&gt;🚀 Auto-save notes&lt;/p&gt;&#xA;&lt;h4 id=&#34;downloads&#34;&gt;Downloads&lt;/h4&gt;&#xA;&lt;p&gt;Downloads are currently available for MacOS and Windows.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/one-page-releases/releases/latest&#34;&gt;Mac OS App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/one-page-releases/releases/latest&#34;&gt;Windows App&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/one-page/releases/latest&#34;&gt;Linux from Source&lt;/a&gt;.&#xA;Please check &lt;a href=&#34;https://github.com/namuan/one-page/blob/master/README.md#development&#34;&gt;README.md&lt;/a&gt; for instructions&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>News Rider :: Personalised News</title>
-      <link>/projects/news-rider/</link>
+      <link>//localhost:1313/projects/news-rider/</link>
       <pubDate>Sat, 18 Jan 2020 09:27:57 +0000</pubDate>
-      
-      <guid>/projects/news-rider/</guid>
-      <description>Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi
-👉 NewsRider</description>
+      <guid>//localhost:1313/projects/news-rider/</guid>
+      <description>&lt;p&gt;Personalised News Delivery. Built using Python/Ansible and deployed on DigitalOcean/RaspberryPi&lt;/p&gt;&#xA;&lt;p&gt;👉 &lt;a href=&#34;https://github.com/namuan/news-rider&#34;&gt;NewsRider&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

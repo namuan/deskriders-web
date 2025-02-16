@@ -9,23 +9,26 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Weekly Notes 2023-11-26"/>
-<meta name="twitter:description" content="AI narrator This is like the original demo but using downloadable models. It requires using replicate API but it&rsquo;ll be cool to run everything locally.
-SVD-WebUI Looks like an interface to Stable Video diffusion but I can&rsquo;t get it to work on a Mac.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Weekly Notes 2023-11-26">
+  <meta name="twitter:description" content="AI narrator This is like the original demo but using downloadable models. It requires using replicate API but it’ll be cool to run everything locally.
+SVD-WebUI Looks like an interface to Stable Video diffusion but I can’t get it to work on a Mac.
 How to create a custom GPT from an SQLite3 database Name: API Tool Finder Instructions:
-The API Tool Finder GPT is tailored to assist users in identifying the most suitable API tools for their needs."/>
+The API Tool Finder GPT is tailored to assist users in identifying the most suitable API tools for their needs. It interacts with an SQLite database that contains the api_resources table with the following structure (0, &#39;id&#39;, &#39;INTEGER&#39;, 1, None, 1), (1, &#39;name&#39;, &#39;TEXT&#39;, 0, None, 0), (2, &#39;short_description&#39;, &#39;TEXT&#39;, 0, None, 0), (3, &#39;website&#39;, &#39;TEXT&#39;, 0, None, 0), (4, &#39;category&#39;, &#39;TEXT&#39;, 0, None, 0), (5, &#39;tags&#39;, &#39;TEXT&#39;, 0, None, 0), (6, &#39;screen_shot&#39;, &#39;TEXT&#39;, 0, None, 0), (7, &#39;long_description&#39;, &#39;TEXT&#39;, 0, None, 0), (8, &#39;is_opensource&#39;, &#39;BOOLEAN&#39;, 0, None, 0)] Instructions: Use SQL Like query on the following four columns to find a matching answer Column 1: name Column 2: short_description Column 3: category Column 4: tags If a match is found then display all the information about the tools in a markdown formatted table view. Ignore the screen_shot and long description column when displaying the answer. Always make sure that the answer can be referenced back to a row or rows in the database table. If a match is not found then just saw that a match is not found Knowledge: Attach database file">
 
-    <meta property="og:title" content="Weekly Notes 2023-11-26" />
-<meta property="og:description" content="AI narrator This is like the original demo but using downloadable models. It requires using replicate API but it&rsquo;ll be cool to run everything locally.
-SVD-WebUI Looks like an interface to Stable Video diffusion but I can&rsquo;t get it to work on a Mac.
+    <meta property="og:url" content="/posts/1700996509-weekly-notes/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Weekly Notes 2023-11-26">
+  <meta property="og:description" content="AI narrator This is like the original demo but using downloadable models. It requires using replicate API but it’ll be cool to run everything locally.
+SVD-WebUI Looks like an interface to Stable Video diffusion but I can’t get it to work on a Mac.
 How to create a custom GPT from an SQLite3 database Name: API Tool Finder Instructions:
-The API Tool Finder GPT is tailored to assist users in identifying the most suitable API tools for their needs." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1700996509-weekly-notes/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-11-26T11:01:49+00:00" />
-<meta property="article:modified_time" content="2023-11-26T11:01:49+00:00" />
-
+The API Tool Finder GPT is tailored to assist users in identifying the most suitable API tools for their needs. It interacts with an SQLite database that contains the api_resources table with the following structure (0, &#39;id&#39;, &#39;INTEGER&#39;, 1, None, 1), (1, &#39;name&#39;, &#39;TEXT&#39;, 0, None, 0), (2, &#39;short_description&#39;, &#39;TEXT&#39;, 0, None, 0), (3, &#39;website&#39;, &#39;TEXT&#39;, 0, None, 0), (4, &#39;category&#39;, &#39;TEXT&#39;, 0, None, 0), (5, &#39;tags&#39;, &#39;TEXT&#39;, 0, None, 0), (6, &#39;screen_shot&#39;, &#39;TEXT&#39;, 0, None, 0), (7, &#39;long_description&#39;, &#39;TEXT&#39;, 0, None, 0), (8, &#39;is_opensource&#39;, &#39;BOOLEAN&#39;, 0, None, 0)] Instructions: Use SQL Like query on the following four columns to find a matching answer Column 1: name Column 2: short_description Column 3: category Column 4: tags If a match is found then display all the information about the tools in a markdown formatted table view. Ignore the screen_shot and long description column when displaying the answer. Always make sure that the answer can be referenced back to a row or rows in the database table. If a match is not found then just saw that a match is not found Knowledge: Attach database file">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-26T11:01:49+00:00">
+    <meta property="article:modified_time" content="2023-11-26T11:01:49+00:00">
 
 
     
@@ -68,7 +71,7 @@ The API Tool Finder GPT is tailored to assist users in identifying the most suit
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -238,18 +241,6 @@ It&rsquo;s the first of many multi-agent applications that utilize LLMs (large l
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

@@ -6,7 +6,9 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+pagerSize = 20
+
 canonifyurls = true
 
 pygmentscodefences = true
@@ -14,7 +16,9 @@ pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-129728575-5"
 
-# disqusShortname = "yourdiscussshortname"
+[services]
+#[services.disqus]
+#shortname = "yourdiscussshortname"
 
 [params]
     author = "Deskriders.dev"

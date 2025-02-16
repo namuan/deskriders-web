@@ -1,97 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>trading on deskriders</title>
+    <title>Trading on deskriders</title>
     <link>/tags/trading/</link>
-    <description>Recent content in trading on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Trading on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate><atom:link href="/tags/trading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate>
+    <atom:link href="/tags/trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short Straddles with Laddering</title>
       <link>/posts/1736507408-short-straddle-with-laddering/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/posts/1736507408-short-straddle-with-laddering/</guid>
-      <description>Short Straddles
-For e.g. Given that our account can trade 5 SPX contracts at once.
-We can either trade 1 contract every day - 5 different positions Or we can trade all 5 contracts at the same time in a single trade - 1 position Or we can stagger 5 contracts in a single trade. Add 1 contract every day Here are the results
-(a) 1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry</description>
+      <description>&lt;p&gt;&lt;strong&gt;Short Straddles&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;For e.g. Given that our account can trade 5 SPX contracts at once.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;We can either trade 1 contract every day - 5 different positions&lt;/li&gt;&#xA;&lt;li&gt;Or we can trade all 5 contracts at the same time in a single trade - 1 position&lt;/li&gt;&#xA;&lt;li&gt;Or we can stagger 5 contracts in a single trade. Add 1 contract every day&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here are the results&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;(a)&lt;/strong&gt; &lt;em&gt;1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Short Straddles with RSI based market filters</title>
       <link>/posts/1736250948-short-straddle-rsi-market-filter/</link>
       <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
-      
       <guid>/posts/1736250948-short-straddle-rsi-market-filter/</guid>
-      <description>Hypothesis: What if we avoid new trade if RSI is overbought or oversold?
-Backtest with different RSI thresholds and different RSI periods
-RSI Thresholds:
-RSI Period: 4 rsi_low_values=(0 10 20 30) rsi_high_values=(70 80 90 100) Best Parameters by Expectancy Ratio:
-rsi_low_threshold=20, rsi_high_threshold=100
-Expectancy Ratio: 1.08
-This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns. rsi_low_threshold=30, rsi_high_threshold=100
-Expectancy Ratio: 1.06
-Second-best expectancy ratio. rsi_low_threshold=30, rsi_high_threshold=70
-Expectancy Ratio: 1.</description>
+      <description>&lt;p&gt;Hypothesis: What if we avoid new trade if RSI is overbought or oversold?&lt;/p&gt;&#xA;&lt;p&gt;Backtest with different RSI thresholds and different RSI periods&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;RSI Thresholds:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RSI Period: 4&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_low_values=(0 10 20 30)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_high_values=(70 80 90 100)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/images/2025/01/07/1736255462-1.png&#34; alt=&#34;images/2025/01/07/1736255462-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Best Parameters by Expectancy Ratio:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;rsi_low_threshold=20, rsi_high_threshold=100&lt;/strong&gt;&lt;br&gt;&#xA;Expectancy Ratio: 1.08&lt;br&gt;&#xA;This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=100&lt;br&gt;&#xA;Expectancy Ratio: 1.06&lt;br&gt;&#xA;Second-best expectancy ratio.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=70&lt;br&gt;&#xA;Expectancy Ratio: 1.04&lt;br&gt;&#xA;Third-best expectancy ratio.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Observations:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Key Metrics for Evaluating Trading System Performance</title>
       <link>/posts/1734292310-key-metrics-trading-system-performance/</link>
       <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      
       <guid>/posts/1734292310-key-metrics-trading-system-performance/</guid>
-      <description>Summary from this tweet from Laurens Bensdorp
-Here&amp;rsquo;s what seems to matter most:
-Core Performance Metrics: CAGR (Compound Annual Growth Rate) and its variants CAGR/UI (Ulcer Index) ratio CAGR/MaxDD (Maximum Drawdown) Some use RAR (Risk-Adjusted Return) instead of CAGR for more date-independent analysis Risk Management Metrics: Maximum Drawdown Average Exposure (particularly important for mean reversion strategies) Drawdown Correlation Total Drawdown Ulcer Index Trade Quality Indicators: Profit Factor Expectancy System Quality Number (SQN) Win Ratio Standard Deviation of Returns Coefficient of Variation Strategy-Specific Considerations: For Stocks: Individual trade statistics Capital utilization efficiency Average capital use per trade For Futures: Risk metrics Drawdown analysis Trend gain patterns Advanced Analysis: Walk-forward testing results consistency Performance during &amp;ldquo;black swan&amp;rdquo; events (1987 crash, flash crashes) Stagnation periods Monthly Return on Risk (RoR) Monthly dollar performance Evaluation Method Tip: Some traders use conditional formatting with color ranking to aggregate multiple metrics, helping identify top-performing systems more easily.</description>
+      <description>&lt;p&gt;Summary from &lt;a href=&#34;https://x.com/laurensbensdorp/status/1867255454373486768?s=12&#34;&gt;this tweet&lt;/a&gt; from Laurens Bensdorp&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s what seems to matter most:&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-performance-metrics&#34;&gt;Core Performance Metrics:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CAGR (Compound Annual Growth Rate) and its variants&lt;/li&gt;&#xA;&lt;li&gt;CAGR/UI (Ulcer Index) ratio&lt;/li&gt;&#xA;&lt;li&gt;CAGR/MaxDD (Maximum Drawdown)&lt;/li&gt;&#xA;&lt;li&gt;Some use RAR (Risk-Adjusted Return) instead of CAGR for more date-independent analysis&lt;/li&gt;&#xA;&lt;li&gt;Risk Management Metrics:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;maximum-drawdown&#34;&gt;Maximum Drawdown&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Average Exposure (particularly important for mean reversion strategies)&lt;/li&gt;&#xA;&lt;li&gt;Drawdown Correlation&lt;/li&gt;&#xA;&lt;li&gt;Total Drawdown&lt;/li&gt;&#xA;&lt;li&gt;Ulcer Index&lt;/li&gt;&#xA;&lt;li&gt;Trade Quality Indicators:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;profit-factor&#34;&gt;Profit Factor&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Expectancy&lt;/li&gt;&#xA;&lt;li&gt;System Quality Number (SQN)&lt;/li&gt;&#xA;&lt;li&gt;Win Ratio&lt;/li&gt;&#xA;&lt;li&gt;Standard Deviation of Returns&lt;/li&gt;&#xA;&lt;li&gt;Coefficient of Variation&lt;/li&gt;&#xA;&lt;li&gt;Strategy-Specific Considerations:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;for-stocks&#34;&gt;For Stocks:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Individual trade statistics&lt;/li&gt;&#xA;&lt;li&gt;Capital utilization efficiency&lt;/li&gt;&#xA;&lt;li&gt;Average capital use per trade&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;for-futures&#34;&gt;For Futures:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Risk metrics&lt;/li&gt;&#xA;&lt;li&gt;Drawdown analysis&lt;/li&gt;&#xA;&lt;li&gt;Trend gain patterns&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;advanced-analysis&#34;&gt;Advanced Analysis:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Walk-forward testing results consistency&lt;/li&gt;&#xA;&lt;li&gt;Performance during &amp;ldquo;black swan&amp;rdquo; events (1987 crash, flash crashes)&lt;/li&gt;&#xA;&lt;li&gt;Stagnation periods&lt;/li&gt;&#xA;&lt;li&gt;Monthly Return on Risk (RoR)&lt;/li&gt;&#xA;&lt;li&gt;Monthly dollar performance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;evaluation-method-tip&#34;&gt;Evaluation Method Tip:&lt;/h3&gt;&#xA;&lt;p&gt;Some traders use conditional formatting with color ranking to aggregate multiple metrics, helping identify top-performing systems more easily.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Analysing a very simple Short Straddle strategy</title>
       <link>/posts/1734004071-options-analysis-pipeline/</link>
       <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
       <guid>/posts/1734004071-options-analysis-pipeline/</guid>
-      <description>Gather data The Options data is retrieved from optionsdx. This page documents the field definitions
-The downloaded files will be zipped, so extract them into a single directory. It&amp;rsquo;ll look something like this:
-Import data Use the optionsdx-data-importer.py script to import all the data in an SQLite database
-$ uvr optionsdx-data-importer.py --input $(pwd)/data/spy_eod --output data/spy_eod.db -v The finished database will have an options_data table with all the data from the downloaded files.</description>
+      <description>&lt;h2 id=&#34;gather-data&#34;&gt;Gather data&lt;/h2&gt;&#xA;&lt;p&gt;The Options data is retrieved from &lt;a href=&#34;https://www.optionsdx.com&#34;&gt;optionsdx&lt;/a&gt;.&#xA;This page documents the &lt;a href=&#34;https://www.optionsdx.com/option-chain-field-definitions/&#34;&gt;field definitions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The downloaded files will be zipped, so extract them into a single directory.&#xA;It&amp;rsquo;ll look something like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/12/12/1734006103-1.png&#34; alt=&#34;images/2024/12/12/1734006103-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;import-data&#34;&gt;Import data&lt;/h2&gt;&#xA;&lt;p&gt;Use the &lt;a href=&#34;https://github.com/namuan/trading-utils/blob/main/optionsdx-data-importer.py&#34;&gt;optionsdx-data-importer.py&lt;/a&gt; script to import all the data in an SQLite database&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ uvr optionsdx-data-importer.py --input &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pwd&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;/data/spy_eod --output data/spy_eod.db -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The finished database will have an &lt;code&gt;options_data&lt;/code&gt; table with all the data from the downloaded files.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/12/12/1734006103-2.png&#34; alt=&#34;images/2024/12/12/1734006103-2.png&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to make/lose money with buying dips</title>
       <link>/posts/1719050638-rsi-dips/</link>
       <pubDate>Sat, 22 Jun 2024 11:03:58 +0100</pubDate>
-      
       <guid>/posts/1719050638-rsi-dips/</guid>
-      <description>Overview: Analyzes stock data for RSI dips below a specified lower threshold and subsequent rises above a higher threshold. Simulates buy and sell actions based on these RSI movements Calculates potential profits/losses from these simulated trades Provides a summary of dips and performance metrics Source [GitHub] https://github.com/namuan/trading-utils/blob/main/rsi_dips.py
-See the top of the script on how to run it</description>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzes stock data for RSI dips below a specified lower threshold and subsequent rises above a higher threshold.&lt;/li&gt;&#xA;&lt;li&gt;Simulates buy and sell actions based on these RSI movements&lt;/li&gt;&#xA;&lt;li&gt;Calculates potential profits/losses from these simulated trades&lt;/li&gt;&#xA;&lt;li&gt;Provides a summary of dips and performance metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/06/22/1719050942.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;&#xA;&lt;p&gt;[GitHub] &lt;a href=&#34;https://github.com/namuan/trading-utils/blob/main/rsi_dips.py&#34;&gt;https://github.com/namuan/trading-utils/blob/main/rsi_dips.py&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;See the top of the script on how to run it&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tracking Stocks in Google Sheet</title>
       <link>/posts/1714824523-track-stocks-csv-google-sheet/</link>
       <pubDate>Sat, 04 May 2024 13:08:43 +0100</pubDate>
-      
       <guid>/posts/1714824523-track-stocks-csv-google-sheet/</guid>
-      <description>Generate CSV reports $ ./generate-csv-reports.sh 2&amp;gt;&amp;amp;1 | grep &amp;#34;Exporting report&amp;#34; Combine all reports $ python3 combine-all-csvs.py Paste into Google Sheet Re-arrange and apply formulas Last Close: =GOOGLEFINANCE(C3,&amp;#34;price&amp;#34;) Current Code: =G3*E3 TV Link: =HYPERLINK(CONCATENATE(&amp;#34;https://www.tradingview.com/chart/?symbol=&amp;#34;, C3), C3) Chart: =sparkline(googlefinance(C3,&amp;#34;price&amp;#34;,today()-30,today())) Profit Loss: =I3-H3 </description>
+      <description>&lt;h3 id=&#34;generate-csv-reports&#34;&gt;Generate CSV reports&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ./generate-csv-reports.sh 2&amp;gt;&amp;amp;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; | grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Exporting report&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;combine-all-reports&#34;&gt;Combine all reports&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ python3 combine-all-csvs.py                                                                                   &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;paste-into-google-sheet&#34;&gt;Paste into Google Sheet&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/05/05/1714934552.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;re-arrange-and-apply-formulas&#34;&gt;Re-arrange and apply formulas&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Last Close: =GOOGLEFINANCE(C3,&amp;#34;price&amp;#34;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Current Code: =G3*E3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;TV Link: =HYPERLINK(CONCATENATE(&amp;#34;https://www.tradingview.com/chart/?symbol=&amp;#34;, C3), C3)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Chart: =sparkline(googlefinance(C3,&amp;#34;price&amp;#34;,today()-30,today()))&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Profit Loss: =I3-H3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>What happened next when SPY jumped over 2%</title>
       <link>/posts/1708762767-spy-pct-move/</link>
       <pubDate>Sat, 24 Feb 2024 08:19:29 +0000</pubDate>
-      
       <guid>/posts/1708762767-spy-pct-move/</guid>
-      <description>Last week, SPY jump over 2% on Thursday
-This was surprising for many as the market is already up a lot.
-So, I wanted to see what happened the next day when SPY jumped over 2%.
-Here are the results over the last 10 years.
-The next day change after a 2% jump
-Next Day Change Number of Occurrences &amp;lt; 0 36 &amp;gt; 0 25 &amp;gt; 1 % 13 &amp;gt; 2 % 3 &amp;gt; 3 % 1 This doesn&amp;rsquo;t tell us much, but it does give us a good indication of what is going on.</description>
+      <description>&lt;p&gt;Last week, SPY jump over 2% on Thursday&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/02/24/1708762923.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This was surprising for many as the market is already up a lot.&lt;/p&gt;&#xA;&lt;p&gt;So, I wanted to see what happened the next day when SPY jumped over 2%.&lt;/p&gt;&#xA;&lt;p&gt;Here are the results over the last 10 years.&lt;/p&gt;&#xA;&lt;p&gt;The next day change after a 2% jump&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Next Day Change&lt;/th&gt;&#xA;          &lt;th&gt;Number of Occurrences&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&amp;lt; 0&lt;/td&gt;&#xA;          &lt;td&gt;36&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&amp;gt; 0&lt;/td&gt;&#xA;          &lt;td&gt;25&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&amp;gt; 1 %&lt;/td&gt;&#xA;          &lt;td&gt;13&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&amp;gt; 2 %&lt;/td&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&amp;gt; 3 %&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;This doesn&amp;rsquo;t tell us much, but it does give us a good indication of what is going on.&#xA;Next, I&amp;rsquo;m planning to overlay other indicators to say if this is a trend or not.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

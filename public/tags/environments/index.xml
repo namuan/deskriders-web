@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environments on deskriders</title>
+    <link>//localhost:1313/tags/environments/</link>
+    <description>Recent content in Environments on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Dec 2024 10:10:13 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/environments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Alnoda: A Dockerized Development Workspace</title>
+      <link>//localhost:1313/posts/1735467013-alnoda-workspaces/</link>
+      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
+      <guid>//localhost:1313/posts/1735467013-alnoda-workspaces/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Alnoda desktop&lt;/strong&gt; provides a dockerized development environment.&lt;/p&gt;&#xA;&lt;p&gt;According to the &lt;a href=&#34;https://github.com/bluxmit/alnoda-workspaces&#34;&gt;GitHub repo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Open-source portable containerized workspaces. Isolate your work, make backups, copy, move between computers and cloud seamlessly.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;You can start it up with the following command&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run --name space-1 -d -p 8020-8040:8020-8040 --restart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;always alnoda/alnoda-workspace&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Although due to port conflicts, I had to change to different port sequence &lt;code&gt;(18020-18040)&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run --name space-1 -d -p 18020-18040:8020-8040 --restart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;always alnoda/alnoda-workspace&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once it is up, go to &lt;a href=&#34;http://localhost:18020&#34;&gt;http://localhost:18020&lt;/a&gt; see the environment&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Link List :: 2025-02-16">
+  <meta name="twitter:description" content="https://www.runpulse.com/blog/why-llms-suck-at-ocr We believed LLMs could solve data extraction by plugging in the latest models. However, we found that their probabilistic approach favors common words over exact transcription. LMMs suck at complex OCR because they are excellent for text-generation or summarization tasks but falter at precise character recognition. Their probabilistic nature causes fatal errors in OCR tasks due to lossy transformations and blindspots. *I. How Do LLMs “See” and Process Images?* LLMs process images through high-dimensional embeddings prioritizing semantic understanding over precise character recognition. The attention mechanism splits images into fixed-size patches, losing fine-grained spatial relationships and critical information about data relationships. LMMs struggle with complex 2D relationships like table structure recognition and extraction. *II. Real-World Failures and Hidden Risks* LMMs fail in catastrophic ways for business-critical applications in industries like legal and healthcare. Failures include financial and medical data corruption, equation solving problems, and prompt injection &#43; ethical vulnerabilities. https://github.com/ms-jpq/sad Space Age sed is a Batch File Edit tool that shows a nice diff of proposed changes before committing them, allowing double-checking of edits. Unlike sed, this tool enables selective replacement and choosing the clustering factor for changes using –unified=. It can display side-by-side changes using delta if installed. To replace all occurrences of a pattern with another in a repository, use find &#34;$FIND_ARGS&#34; | sad &#39;&lt;pattern&gt;&#39; &#39;&lt;replacement&gt;&#39;. https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/ Popular vector databases for scaling RAG include Weaviate, PGVector, Pinecone, and Qdrant, with hybrid RAG techniques mentioned for optimization. ParadeDB (Postgres &#43; pg_vector) and LanceDB are suggested for scalability and hybrid search. GraphRAG/LightRAG approaches can be used but are computationally expensive due to graph-based complexity. Horizontal scaling is supported by modern vector DBs through sharding and replication, though graph traversal slows down as data grows. Embedding models like stella_en_400M_v5 are recommended, with binary embeddings (quantized vectors) suggested to reduce storage and improve performance. HNSW indexing is a popular choice, while alternatives like IVF or IVF-PQ can improve performance through cluster-based indexing. Sparse rerankers like BM25 combined with dense embeddings enable hybrid search for better results. Index creation is more efficient when the index is dropped before ingestion and rebuilt after data ingestion is complete. Chunking strategies, like adaptive window chunking, dynamically adjust chunk sizes based on dataset requirements. Proper chunk overlap is critical to avoid losing context during retrieval. Preprocessing should include metadata extraction, semantic enrichment, and duplicate removal to optimize embeddings and indexing. Efficient pipelines are essential for handling diverse document types such as PDFs, scanned images, and statistical data. Segmenting documents by topic or content type and routing them to appropriate vector DBs improves pipeline efficiency. Middleware layers can compress, deduplicate, and summarize embeddings to optimize data ingestion. Azure AI Search is recommended for enterprise-level ingestion pipelines. Hybrid RAG combines dense vector search and sparse retrieval (e.g., BM25) for improved performance and relevance. Hierarchical RAG methods involve topic-based sorting before diving into chunk-level retrieval. ElasticSearch and BM25 are suggested as alternatives to vector DBs for certain domains with better relevance. Fine-tuning models on 20M documents can encode domain-specific knowledge but is more expensive and risks overfitting. RAG is cheaper, faster, and more flexible than fine-tuning and is preferred for large-scale data retrieval. Embedding 20M documents can take significant time but can be parallelized with multiple GPUs, costing between $1,000 and $20,000. Trade-offs between speed, cost, and accuracy can be adjusted by tweaking clustering sizes or chunking strategies. Ensure the dataset is relevant and up-to-date since larger scales do not always yield better results. Vendor solutions like Azure AI Search are helpful but should be used cautiously to avoid vendor lock-in. Iterative testing is necessary to identify the best combination of embeddings, chunking, and retrieval strategies for the specific dataset. Critics argue RAG struggles at scale, but others dismiss this as overly pessimistic, citing successful implementations at larger scales. https://old.reddit.com/r/Python/comments/1ime8ja/a_modern_python_repository_template_with_uv_and/ Showcased a modern Python repository template Features UV and Just for self-hosting Aims to provide a clean and minimalistic template Includes example use cases and explanations Meant to serve as a starting point for new projects https://github.com/ranjanprj/agentollama The Agentollama Framework enables creation, execution, and monitoring of intelligent Agents without writing business logic. AI determines which functions to call dynamically, without hardcoding. Generates code dynamically for API calls using AI. Tools are loaded dynamically when an Agent is called to perform a task. Can be used to integrate with legacy applications for productivity enhancement. Real-time execution step tracking and logs of task execution and decision-making by Agents. Helps debug why a particular Agent took a specific action. Ensures Agents produce outputs in a predefined format. Prevents deviation in reasoning and decision-making. Essential for enterprise use cases where multiple API interactions must follow strict formats. Vectorized file storage for intelligent querying. Retrieval-Augmented Generation (RAG) Agents to enhance decision-making with external knowledge. Loop Agents to iterate over datasets and execute workflows dynamically. Enables seamless multi-agent orchestration for business processes. Supports the DeepSeek R1 (8B Model) Integration for on-device tool code generation. UI-based Agent Execution, no need to touch an IDE! Performance Metrics &amp; Testing (Upcoming Feature) to analyze Agent efficiency and decision-making accuracy. Compatible with Python 3.x. Built using Ollama (AI Model Server), Django, and Vector Database. Clone the repository via git clone https://github.com/your-repo/agentollama.git Create and activate virtual environment: python -m venv venv, source venv/bin/activate Install dependencies: pip install django ollama Run Ollama server in the background with Llama3.1 8B Model. Run the Django server: python manage.py runserver Define Agents through the UI and automate workflows effortlessly. Advanced features include dynamic business testing &amp; performance metrics, advanced agent collaboration, and enhanced RAG capabilities. https://github.com/mpaepper/vibevoice Hi, I’m Marc Päpper and I extended Vlad’s work to run with a local whisper model. Original inspiration: whisper-keyboard by Vlad. Faster Whisper implementation. https://github.com/Pravko-Solutions/FlashLearn This is an introduction to the FlashLearn library, which provides a simple way to integrate large language models (LLMs) into workflows. The library aims to make it easy for startups to use LLMs in their products.">
+
+    <meta property="og:url" content="//localhost:1313/posts/1739728778-linklist-2025-02-16/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Link List :: 2025-02-16">
+  <meta property="og:description" content="https://www.runpulse.com/blog/why-llms-suck-at-ocr We believed LLMs could solve data extraction by plugging in the latest models. However, we found that their probabilistic approach favors common words over exact transcription. LMMs suck at complex OCR because they are excellent for text-generation or summarization tasks but falter at precise character recognition. Their probabilistic nature causes fatal errors in OCR tasks due to lossy transformations and blindspots. *I. How Do LLMs “See” and Process Images?* LLMs process images through high-dimensional embeddings prioritizing semantic understanding over precise character recognition. The attention mechanism splits images into fixed-size patches, losing fine-grained spatial relationships and critical information about data relationships. LMMs struggle with complex 2D relationships like table structure recognition and extraction. *II. Real-World Failures and Hidden Risks* LMMs fail in catastrophic ways for business-critical applications in industries like legal and healthcare. Failures include financial and medical data corruption, equation solving problems, and prompt injection &#43; ethical vulnerabilities. https://github.com/ms-jpq/sad Space Age sed is a Batch File Edit tool that shows a nice diff of proposed changes before committing them, allowing double-checking of edits. Unlike sed, this tool enables selective replacement and choosing the clustering factor for changes using –unified=. It can display side-by-side changes using delta if installed. To replace all occurrences of a pattern with another in a repository, use find &#34;$FIND_ARGS&#34; | sad &#39;&lt;pattern&gt;&#39; &#39;&lt;replacement&gt;&#39;. https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/ Popular vector databases for scaling RAG include Weaviate, PGVector, Pinecone, and Qdrant, with hybrid RAG techniques mentioned for optimization. ParadeDB (Postgres &#43; pg_vector) and LanceDB are suggested for scalability and hybrid search. GraphRAG/LightRAG approaches can be used but are computationally expensive due to graph-based complexity. Horizontal scaling is supported by modern vector DBs through sharding and replication, though graph traversal slows down as data grows. Embedding models like stella_en_400M_v5 are recommended, with binary embeddings (quantized vectors) suggested to reduce storage and improve performance. HNSW indexing is a popular choice, while alternatives like IVF or IVF-PQ can improve performance through cluster-based indexing. Sparse rerankers like BM25 combined with dense embeddings enable hybrid search for better results. Index creation is more efficient when the index is dropped before ingestion and rebuilt after data ingestion is complete. Chunking strategies, like adaptive window chunking, dynamically adjust chunk sizes based on dataset requirements. Proper chunk overlap is critical to avoid losing context during retrieval. Preprocessing should include metadata extraction, semantic enrichment, and duplicate removal to optimize embeddings and indexing. Efficient pipelines are essential for handling diverse document types such as PDFs, scanned images, and statistical data. Segmenting documents by topic or content type and routing them to appropriate vector DBs improves pipeline efficiency. Middleware layers can compress, deduplicate, and summarize embeddings to optimize data ingestion. Azure AI Search is recommended for enterprise-level ingestion pipelines. Hybrid RAG combines dense vector search and sparse retrieval (e.g., BM25) for improved performance and relevance. Hierarchical RAG methods involve topic-based sorting before diving into chunk-level retrieval. ElasticSearch and BM25 are suggested as alternatives to vector DBs for certain domains with better relevance. Fine-tuning models on 20M documents can encode domain-specific knowledge but is more expensive and risks overfitting. RAG is cheaper, faster, and more flexible than fine-tuning and is preferred for large-scale data retrieval. Embedding 20M documents can take significant time but can be parallelized with multiple GPUs, costing between $1,000 and $20,000. Trade-offs between speed, cost, and accuracy can be adjusted by tweaking clustering sizes or chunking strategies. Ensure the dataset is relevant and up-to-date since larger scales do not always yield better results. Vendor solutions like Azure AI Search are helpful but should be used cautiously to avoid vendor lock-in. Iterative testing is necessary to identify the best combination of embeddings, chunking, and retrieval strategies for the specific dataset. Critics argue RAG struggles at scale, but others dismiss this as overly pessimistic, citing successful implementations at larger scales. https://old.reddit.com/r/Python/comments/1ime8ja/a_modern_python_repository_template_with_uv_and/ Showcased a modern Python repository template Features UV and Just for self-hosting Aims to provide a clean and minimalistic template Includes example use cases and explanations Meant to serve as a starting point for new projects https://github.com/ranjanprj/agentollama The Agentollama Framework enables creation, execution, and monitoring of intelligent Agents without writing business logic. AI determines which functions to call dynamically, without hardcoding. Generates code dynamically for API calls using AI. Tools are loaded dynamically when an Agent is called to perform a task. Can be used to integrate with legacy applications for productivity enhancement. Real-time execution step tracking and logs of task execution and decision-making by Agents. Helps debug why a particular Agent took a specific action. Ensures Agents produce outputs in a predefined format. Prevents deviation in reasoning and decision-making. Essential for enterprise use cases where multiple API interactions must follow strict formats. Vectorized file storage for intelligent querying. Retrieval-Augmented Generation (RAG) Agents to enhance decision-making with external knowledge. Loop Agents to iterate over datasets and execute workflows dynamically. Enables seamless multi-agent orchestration for business processes. Supports the DeepSeek R1 (8B Model) Integration for on-device tool code generation. UI-based Agent Execution, no need to touch an IDE! Performance Metrics &amp; Testing (Upcoming Feature) to analyze Agent efficiency and decision-making accuracy. Compatible with Python 3.x. Built using Ollama (AI Model Server), Django, and Vector Database. Clone the repository via git clone https://github.com/your-repo/agentollama.git Create and activate virtual environment: python -m venv venv, source venv/bin/activate Install dependencies: pip install django ollama Run Ollama server in the background with Llama3.1 8B Model. Run the Django server: python manage.py runserver Define Agents through the UI and automate workflows effortlessly. Advanced features include dynamic business testing &amp; performance metrics, advanced agent collaboration, and enhanced RAG capabilities. https://github.com/mpaepper/vibevoice Hi, I’m Marc Päpper and I extended Vlad’s work to run with a local whisper model. Original inspiration: whisper-keyboard by Vlad. Faster Whisper implementation. https://github.com/Pravko-Solutions/FlashLearn This is an introduction to the FlashLearn library, which provides a simple way to integrate large language models (LLMs) into workflows. The library aims to make it easy for startups to use LLMs in their products.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-16T18:00:25+00:00">
+    <meta property="article:modified_time" content="2025-02-16T18:00:25+00:00">
+    <meta property="article:tag" content="Links">
+
+
+    
+      <base href="//localhost:1313/posts/1739728778-linklist-2025-02-16/">
+    
+    <title>
+  Link List :: 2025-02-16 · deskriders
+</title>
+
+    
+      <link rel="canonical" href="//localhost:1313/posts/1739728778-linklist-2025-02-16/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//localhost:1313/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Link List :: 2025-02-16</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2025-02-16T18:00:25Z'>
+                February 16, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              10 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/linklist/">linklist</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/links/">links</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <h2 id="httpswwwrunpulsecomblogwhy-llms-suck-at-ocr"><a href="https://www.runpulse.com/blog/why-llms-suck-at-ocr">https://www.runpulse.com/blog/why-llms-suck-at-ocr</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>We believed LLMs could solve data extraction by plugging in the latest models.
+</span></span><span style="display:flex;"><span>However, we found that their probabilistic approach favors common words over exact transcription.
+</span></span><span style="display:flex;"><span>LMMs suck at complex OCR because they are excellent for text-generation or summarization tasks but falter at precise character recognition.
+</span></span><span style="display:flex;"><span>Their probabilistic nature causes fatal errors in OCR tasks due to lossy transformations and blindspots.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>*I. How Do LLMs “See” and Process Images?*
+</span></span><span style="display:flex;"><span>LLMs process images through high-dimensional embeddings prioritizing semantic understanding over precise character recognition.
+</span></span><span style="display:flex;"><span>The attention mechanism splits images into fixed-size patches, losing fine-grained spatial relationships and critical information about data relationships.
+</span></span><span style="display:flex;"><span>LMMs struggle with complex 2D relationships like table structure recognition and extraction.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>*II. Real-World Failures and Hidden Risks*
+</span></span><span style="display:flex;"><span>LMMs fail in catastrophic ways for business-critical applications in industries like legal and healthcare.
+</span></span><span style="display:flex;"><span>Failures include financial and medical data corruption, equation solving problems, and prompt injection + ethical vulnerabilities.
+</span></span></code></pre></div><h2 id="httpsgithubcomms-jpqsad"><a href="https://github.com/ms-jpq/sad">https://github.com/ms-jpq/sad</a></h2>
+<ul>
+<li>Space Age sed is a Batch File Edit tool that shows a nice diff of proposed changes before committing them, allowing double-checking of edits.</li>
+<li>Unlike sed, this tool enables selective replacement and choosing the clustering factor for changes using &ndash;unified=<!-- raw HTML omitted -->.</li>
+<li>It can display side-by-side changes using delta if installed.</li>
+<li>To replace all occurrences of a pattern with another in a repository, use <code>find &quot;$FIND_ARGS&quot; | sad '&lt;pattern&gt;' '&lt;replacement&gt;'</code>.</li>
+</ul>
+<h2 id="httpsoldredditcomrlocalllamacomments1im35ylhow_to_scale_rag_to_20_million_documents"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/">https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/</a></h2>
+<ul>
+<li>Popular vector databases for scaling RAG include Weaviate, PGVector, Pinecone, and Qdrant, with hybrid RAG techniques mentioned for optimization.</li>
+<li>ParadeDB (Postgres + pg_vector) and LanceDB are suggested for scalability and hybrid search.</li>
+<li>GraphRAG/LightRAG approaches can be used but are computationally expensive due to graph-based complexity.</li>
+<li>Horizontal scaling is supported by modern vector DBs through sharding and replication, though graph traversal slows down as data grows.</li>
+<li>Embedding models like stella_en_400M_v5 are recommended, with binary embeddings (quantized vectors) suggested to reduce storage and improve performance.</li>
+<li>HNSW indexing is a popular choice, while alternatives like IVF or IVF-PQ can improve performance through cluster-based indexing.</li>
+<li>Sparse rerankers like BM25 combined with dense embeddings enable hybrid search for better results.</li>
+<li>Index creation is more efficient when the index is dropped before ingestion and rebuilt after data ingestion is complete.</li>
+<li>Chunking strategies, like adaptive window chunking, dynamically adjust chunk sizes based on dataset requirements.</li>
+<li>Proper chunk overlap is critical to avoid losing context during retrieval.</li>
+<li>Preprocessing should include metadata extraction, semantic enrichment, and duplicate removal to optimize embeddings and indexing.</li>
+<li>Efficient pipelines are essential for handling diverse document types such as PDFs, scanned images, and statistical data.</li>
+<li>Segmenting documents by topic or content type and routing them to appropriate vector DBs improves pipeline efficiency.</li>
+<li>Middleware layers can compress, deduplicate, and summarize embeddings to optimize data ingestion.</li>
+<li>Azure AI Search is recommended for enterprise-level ingestion pipelines.</li>
+<li>Hybrid RAG combines dense vector search and sparse retrieval (e.g., BM25) for improved performance and relevance.</li>
+<li>Hierarchical RAG methods involve topic-based sorting before diving into chunk-level retrieval.</li>
+<li>ElasticSearch and BM25 are suggested as alternatives to vector DBs for certain domains with better relevance.</li>
+<li>Fine-tuning models on 20M documents can encode domain-specific knowledge but is more expensive and risks overfitting.</li>
+<li>RAG is cheaper, faster, and more flexible than fine-tuning and is preferred for large-scale data retrieval.</li>
+<li>Embedding 20M documents can take significant time but can be parallelized with multiple GPUs, costing between $1,000 and $20,000.</li>
+<li>Trade-offs between speed, cost, and accuracy can be adjusted by tweaking clustering sizes or chunking strategies.</li>
+<li>Ensure the dataset is relevant and up-to-date since larger scales do not always yield better results.</li>
+<li>Vendor solutions like Azure AI Search are helpful but should be used cautiously to avoid vendor lock-in.</li>
+<li>Iterative testing is necessary to identify the best combination of embeddings, chunking, and retrieval strategies for the specific dataset.</li>
+<li>Critics argue RAG struggles at scale, but others dismiss this as overly pessimistic, citing successful implementations at larger scales.</li>
+</ul>
+<h2 id="httpsoldredditcomrpythoncomments1ime8jaa_modern_python_repository_template_with_uv_and"><a href="https://old.reddit.com/r/Python/comments/1ime8ja/a_modern_python_repository_template_with_uv_and/">https://old.reddit.com/r/Python/comments/1ime8ja/a_modern_python_repository_template_with_uv_and/</a></h2>
+<ul>
+<li>Showcased a modern Python repository template</li>
+<li>Features UV and Just for self-hosting</li>
+<li>Aims to provide a clean and minimalistic template</li>
+<li>Includes example use cases and explanations</li>
+<li>Meant to serve as a starting point for new projects</li>
+</ul>
+<h2 id="httpsgithubcomranjanprjagentollama"><a href="https://github.com/ranjanprj/agentollama">https://github.com/ranjanprj/agentollama</a></h2>
+<ul>
+<li>The Agentollama Framework enables creation, execution, and monitoring of intelligent Agents without writing business logic.</li>
+<li>AI determines which functions to call dynamically, without hardcoding.</li>
+<li>Generates code dynamically for API calls using AI.</li>
+<li>Tools are loaded dynamically when an Agent is called to perform a task.</li>
+<li>Can be used to integrate with legacy applications for productivity enhancement.</li>
+<li>Real-time execution step tracking and logs of task execution and decision-making by Agents.</li>
+<li>Helps debug why a particular Agent took a specific action.</li>
+<li>Ensures Agents produce outputs in a predefined format.</li>
+<li>Prevents deviation in reasoning and decision-making.</li>
+<li>Essential for enterprise use cases where multiple API interactions must follow strict formats.</li>
+<li>Vectorized file storage for intelligent querying.</li>
+<li>Retrieval-Augmented Generation (RAG) Agents to enhance decision-making with external knowledge.</li>
+<li>Loop Agents to iterate over datasets and execute workflows dynamically.</li>
+<li>Enables seamless multi-agent orchestration for business processes.</li>
+<li>Supports the DeepSeek R1 (8B Model) Integration for on-device tool code generation.</li>
+<li>UI-based Agent Execution, no need to touch an IDE!</li>
+<li>Performance Metrics &amp; Testing (Upcoming Feature) to analyze Agent efficiency and decision-making accuracy.</li>
+<li>Compatible with Python 3.x.</li>
+<li>Built using Ollama (AI Model Server), Django, and Vector Database.</li>
+<li>Clone the repository via git clone <a href="https://github.com/your-repo/agentollama.git">https://github.com/your-repo/agentollama.git</a></li>
+<li>Create and activate virtual environment: python -m venv venv, source venv/bin/activate</li>
+<li>Install dependencies: pip install django ollama</li>
+<li>Run Ollama server in the background with Llama3.1 8B Model.</li>
+<li>Run the Django server: python manage.py runserver</li>
+<li>Define Agents through the UI and automate workflows effortlessly.</li>
+<li>Advanced features include dynamic business testing &amp; performance metrics, advanced agent collaboration, and enhanced RAG capabilities.</li>
+</ul>
+<h2 id="httpsgithubcommpaeppervibevoice"><a href="https://github.com/mpaepper/vibevoice">https://github.com/mpaepper/vibevoice</a></h2>
+<ul>
+<li>Hi, I&rsquo;m Marc Päpper and I extended Vlad&rsquo;s work to run with a local whisper model.</li>
+<li>Original inspiration: whisper-keyboard by Vlad.</li>
+<li>Faster Whisper implementation.</li>
+</ul>
+<h2 id="httpsgithubcompravko-solutionsflashlearn"><a href="https://github.com/Pravko-Solutions/FlashLearn">https://github.com/Pravko-Solutions/FlashLearn</a></h2>
+<p>This is an introduction to the FlashLearn library, which provides a simple way to integrate large language models (LLMs) into workflows. The library aims to make it easy for startups to use LLMs in their products.</p>
+<p>The text describes how to create custom LLM transformations using FlashLearn&rsquo;s skills API, which allows users to create and reuse pre-trained LLM models. It also discusses the library&rsquo;s features, such as parallel processing, cost estimation, and error handling.</p>
+<p>Here are some key points from the introduction:</p>
+<ol>
+<li><strong>Simple and Uniform Workflow</strong>: FlashLearn provides a simple and uniform workflow for using LLMs, making it easy for startups to integrate these models into their products.</li>
+<li><strong>Consistent JSON Output</strong>: The library ensures that all output is well-structured JSON, which makes it easy to analyze and debug the results.</li>
+<li><strong>Parallel Processing</strong>: FlashLearn can process multiple tasks in parallel, which significantly improves performance and reduces processing time.</li>
+<li><strong>Cost Estimation</strong>: The library provides an estimate of the cost associated with running LLMs, which helps users plan their workflows and budget accordingly.</li>
+<li><strong>Error Handling</strong>: FlashLearn includes error handling mechanisms to ensure that errors are properly reported and handled, reducing downtime and improving overall reliability.</li>
+</ol>
+<p>Some examples of how to use FlashLearn&rsquo;s skills API include:</p>
+<ol>
+<li><strong>Creating a classification skill</strong>: The example code shows how to create a classification skill using the <code>ClassificationSkill</code> class, which can be used for tasks such as sentiment analysis or text categorization.</li>
+<li><strong>Running multiple tasks in parallel</strong>: The example code demonstrates how to run multiple tasks in parallel using the <code>run_tasks_in_parallel</code> method, which significantly improves performance and reduces processing time.</li>
+<li><strong>Saving and loading skills</strong>: The example code shows how to save and load skills using the <code>save</code> and <code>load</code> methods, making it easy to reuse and share custom LLM transformations.</li>
+</ol>
+<p>Overall, FlashLearn provides a simple and powerful way to integrate LLMs into workflows, making it an attractive option for startups looking to leverage these models in their products.</p>
+<h2 id="httpswwwmyforevernotescomdocsoverview"><a href="https://www.myforevernotes.com/docs/overview">https://www.myforevernotes.com/docs/overview</a></h2>
+<ul>
+<li>Forever ✱ Notes is a simple, lightweight digital note-taking method for Apple Notes</li>
+<li>It&rsquo;s robust, versatile, and scalable to grow with you, completely free</li>
+<li>It combines fast capturing of journal entries with fast access to connected knowledge</li>
+<li>Modular design allows building your own system as you go</li>
+<li>Purpose: capture thoughts quickly, reflect on them, and organize meaningfully</li>
+<li>Avoids digital graveyard of notes, keeping only what&rsquo;s truly useful</li>
+<li>Grows with you through three levels:
+<ul>
+<li>Level 1 (Beginner): ✱ Home Note, ✱ Tags, and ✱ Collections</li>
+<li>Level 2 (Intermediate): ✱ Hubs to create central notes that link related content</li>
+<li>Level 3 (Expert): ✱ Journal Notes for deeper reflection and planning</li>
+</ul>
+</li>
+<li>Not a replacement for tools like Bullet Journal, Obsidian, Notion, or Roam Research</li>
+<li>Not designed for task management, use Apple Reminders instead</li>
+</ul>
+<h2 id="httpsgithubcom13point5gemini-cursor"><a href="https://github.com/13point5/gemini-cursor">https://github.com/13point5/gemini-cursor</a></h2>
+<ul>
+<li>🖱️ Second AI cursor on your desktop</li>
+<li>🚀 Multimodality: The model can see images, hear voice, and speak</li>
+<li>⚡️ Real-time with low latency</li>
+<li>📚 Understanding complex diagrams in Research papers, Architecture diagrams, etc</li>
+<li>🌐 Navigating complex websites to perform a task like adding a payment method on Amazon</li>
+<li>📝 Real time AI tutor with whiteboards</li>
+<li>Frontend: Electron, React, TypeScript, Vite</li>
+<li>AI: Google Gemini API</li>
+<li>A lot of code from the Gemini Multimodal Live API Web console</li>
+<li>Built using Google&rsquo;s Multimodal Live API</li>
+</ul>
+<h2 id="httpsgithubcommindsdbflat-ai"><a href="https://github.com/mindsdb/flat-ai">https://github.com/mindsdb/flat-ai</a></h2>
+<ul>
+<li>Building AI-Agents using LLMs can be simple, but it&rsquo;s often entertaining to watch them struggle.</li>
+<li>A FLAT approach treats LLM interactions like programming constructs for control and predictability.</li>
+<li>The F.L.A.T library provides a tiny AI library with features like binary decisions, classification, structured data extraction, tool calling, parallelization, observability, and more.</li>
+<li>You can build powerful Agents using absolute simplicity.</li>
+<li>Python&rsquo;s if/else statements and functions are essential for building logic that controls the workflow of your Agent.</li>
+<li>LLMs need to be controlled with life choices, like classifying messages into different categories.</li>
+<li>You can define object schemas to fill out objects like a trained monkey with a PhD in data entry.</li>
+<li>Calling functions is essential, but you want the LLM to figure out arguments for you.</li>
+<li>Functions can be called sequentially or in parallel using the get_functions method.</li>
+<li>You can also use the get_string and get_stream methods for simple string responses and streaming the response from the LLM.</li>
+<li>Tweaking LLM parameters on the fly is possible with a slick configuration pattern that temporarily overrides any parameter without affecting the base configuration.</li>
+<li>Logging and observability are crucial to understand what your LLM does in its spare time.</li>
+<li>The F.L.A.T library provides methods like set_context, add_context, clear_context, and delete_from_context to manage context.</li>
+</ul>
+<h2 id="httpswwwmicrosoftcomen-usresearchblogexact-improving-ai-agents-decision-making-via-test-time-compute-scaling"><a href="https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/">https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/</a></h2>
+<ul>
+<li>Autonomous AI agents are transforming decision-making processes in tasks like web browsing, video editing, and file management.</li>
+<li>These systems struggle in complex environments due to balancing exploitation and exploration.</li>
+<li>A key challenge lies in adapting to unpredictable changes and generalizing knowledge across contexts.</li>
+<li>ExACT is an approach for teaching AI agents to explore more effectively.</li>
+<li>ExACT combines Reflective-MCTS (R-MCTS) and Exploratory Learning techniques.</li>
+<li>R-MCTS builds on MCTS, introducing features like contrastive reflection and a multi-agent debate function.</li>
+<li>Exploratory Learning enables agents to dynamically search and adjust computational resources during testing.</li>
+<li>ExACT demonstrates strong computational scalability during training and testing.</li>
+<li>R-MCTS outperforms previous best-performing methods in VisualWebArena environments.</li>
+<li>ExACT achieves performance improvement, scalable test-time compute, and improved generalization on unseen tasks.</li>
+<li>Continued exploration is needed to improve AI agents&rsquo; decision-making in real-world scenarios with constraints like time or resources.</li>
+<li>The ExACT framework can be accessed at the GitHub repository.</li>
+</ul>
+<h2 id="httpsxcommathsppblogstatus1889395510743605715s12"><a href="https://x.com/mathsppblog/status/1889395510743605715?s=12">https://x.com/mathsppblog/status/1889395510743605715?s=12</a></h2>
+<p>Create a Python CLI that&rsquo;s globally available in your system in 5 easy steps.</p>
+<ol>
+<li>Install uv</li>
+<li>Init project with <code>uv init --app --package mycli</code></li>
+<li>Write code</li>
+<li>Install with <code>uv tool install . -e</code></li>
+<li>Use <code>mycli</code> anywhere in your computer</li>
+</ol>
+<h2 id="httpswwwminotbiohome2025211publish-interactive-data-visualizations-for-free-with-python-and-marimo"><a href="https://www.minot.bio/home/2025/2/11/publish-interactive-data-visualizations-for-free-with-python-and-marimo">https://www.minot.bio/home/2025/2/11/publish-interactive-data-visualizations-for-free-with-python-and-marimo</a></h2>
+<ul>
+<li>Working in data science can be hard to share insights from complex datasets using only static figures</li>
+<li>Pre-generated figures often fail to capture all facets that describe interesting data&rsquo;s shape and meaning</li>
+<li>Powerful technologies are available for presenting interactive figures, but come with tradeoffs</li>
+<li>A recently released Python library called marimo opens up new opportunities for publishing interactive visualizations</li>
+<li>Marimo allows for free publication of interactive data visualizations across the entire field of data science</li>
+</ul>
+<h2 id="httpswwwredditcomrpythoncomments1io2ohvsegment_anything_ui_segmentation_object_detection"><a href="https://www.reddit.com/r/Python/comments/1io2ohv/segment_anything_ui_segmentation_object_detection/">https://www.reddit.com/r/Python/comments/1io2ohv/segment_anything_ui_segmentation_object_detection/</a></h2>
+<ul>
+<li>Segment Anything UI is a PySide6 application for segmentation/object detection annotation tasks.</li>
+<li>The project&rsquo;s GitHub repository is <a href="https://github.com/branislavhesko/segment-anything-ui">https://github.com/branislavhesko/segment-anything-ui</a>.</li>
+</ul>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

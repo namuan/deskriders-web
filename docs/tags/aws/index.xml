@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aws on deskriders</title>
+    <title>Aws on deskriders</title>
     <link>/tags/aws/</link>
-    <description>Recent content in aws on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Aws on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate><atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate>
+    <atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing API exchange sharing service - Part II</title>
       <link>/posts/009-developing-api-exchange-2/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      
       <guid>/posts/009-developing-api-exchange-2/</guid>
-      <description>Please check the previous part to know the background of this project.
-In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&amp;rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
-Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
-The first step is to create a new project folder and initialise package.</description>
+      <description>&lt;p&gt;Please check the &lt;a href=&#34;https://dev.to/namuan/developing-api-exchange-sharing-service-part-i-nhp&#34;&gt;previous part&lt;/a&gt; to know the background of this project.&lt;/p&gt;&#xA;&lt;p&gt;In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be using Python &lt;a href=&#34;https://palletsprojects.com/p/flask/&#34;&gt;Flask&lt;/a&gt; framework for defining the APIs and &lt;a href=&#34;https://serverless.com&#34;&gt;Serverless framework&lt;/a&gt; to manage the infrastructure and deployment.&lt;/p&gt;&#xA;&lt;p&gt;Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.&lt;/p&gt;&#xA;&lt;p&gt;The first step is to create a new project folder and initialise package.json file which will be used to define and install Serverless plugins.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

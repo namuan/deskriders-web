@@ -9,24 +9,33 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Generating Runscope monitoring tests with HttpRider"/>
-<meta name="twitter:description" content="Runscope (Now Part of BlazeMeter) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from HttpRider.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Generating Runscope monitoring tests with HttpRider">
+  <meta name="twitter:description" content="Runscope (Now Part of BlazeMeter) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from HttpRider.
 We start with API definitions in HttpRider, make sure you run them at least once as some of the exporters use the data from the response.
 Along with API definitions, it also generates Runscope environments with placeholders for any variables used from environment.
-Once the tests have successfully finished, click on the export/export all button to display the code generator."/>
+Once the tests have successfully finished, click on the export/export all button to display the code generator.">
 
-    <meta property="og:title" content="Generating Runscope monitoring tests with HttpRider" />
-<meta property="og:description" content="Runscope (Now Part of BlazeMeter) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from HttpRider.
+    <meta property="og:url" content="/posts/002-httprider-generating-runscope-monitoring-tests/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Generating Runscope monitoring tests with HttpRider">
+  <meta property="og:description" content="Runscope (Now Part of BlazeMeter) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from HttpRider.
 We start with API definitions in HttpRider, make sure you run them at least once as some of the exporters use the data from the response.
 Along with API definitions, it also generates Runscope environments with placeholders for any variables used from environment.
-Once the tests have successfully finished, click on the export/export all button to display the code generator." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/002-httprider-generating-runscope-monitoring-tests/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-10-27T11:30:15+00:00" />
-<meta property="article:modified_time" content="2019-10-27T11:30:15+00:00" />
-<meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/" /><meta property="og:see_also" content="/posts/004-httprider-performance-testing/" /><meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/" /><meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/" />
-
+Once the tests have successfully finished, click on the export/export all button to display the code generator.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-10-27T11:30:15+00:00">
+    <meta property="article:modified_time" content="2019-10-27T11:30:15+00:00">
+    <meta property="article:tag" content="Monitoring">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Api">
+      <meta property="og:see_also" content="/posts/1591444366-httprider-notebook-publishing/">
+      <meta property="og:see_also" content="/posts/004-httprider-performance-testing/">
+      <meta property="og:see_also" content="/posts/003-httprider-generating-bdd-tests/">
+      <meta property="og:see_also" content="/posts/001-httprider-generating-sequence-diagrams/">
 
 
     
@@ -69,7 +78,7 @@ Once the tests have successfully finished, click on the export/export all button
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -164,12 +173,10 @@ Once the tests have successfully finished, click on the export/export all button
 <p><img src="/images/002/httprider_runscope_10.png" alt=""></p>
 <p>And that&rsquo;s all for now 🎉.</p>
 <blockquote>
-<p><a href="https://www.httprider.com/">HttpRider</a> is open source so please <a href="https://www.httprider.com/docs/getting-started/installation/">try it out</a>. There is a <a href="https://github.com/namuan/http-rider/tree/master/sample">sample</a> included in the project to quickly load a few APIs running against httpbin.org.</p>
-</blockquote>
-
+<p><a href="https://www.httprider.com/">HttpRider</a> is open source so please <a href="https://www.httprider.com/docs/getting-started/installation/">try it out</a>. There is a <a href="https://github.com/namuan/http-rider/tree/master/sample">sample</a> included in the project to quickly load a few APIs running against httpbin.org.</p></blockquote>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/YNE12-YqiLc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YNE12-YqiLc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 
       </div>
@@ -251,18 +258,6 @@ Once the tests have successfully finished, click on the export/export all button
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

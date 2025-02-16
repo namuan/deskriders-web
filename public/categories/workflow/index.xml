@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on deskriders</title>
+    <link>//localhost:1313/categories/workflow/</link>
+    <description>Recent content in Workflow on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Nov 2024 16:33:26 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining reading and managing bookmarked links</title>
+      <link>//localhost:1313/posts/1732466006-read-it-later-workflow/</link>
+      <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
+      <guid>//localhost:1313/posts/1732466006-read-it-later-workflow/</guid>
+      <description>&lt;p&gt;Here is a brief recap of the workflow I use to collect links to read later.&lt;/p&gt;&#xA;&lt;p&gt;It starts with a &amp;ldquo;Shortcut,&amp;rdquo; which is available on all iOS/Mac devices.&lt;/p&gt;&#xA;&lt;p&gt;It is either something I want to read today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/11/24/1732467148-1.png&#34; alt=&#34;images/2024/11/24/1732467148-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Or push it back to tomorrow:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/11/24/1732467148-2.png&#34; alt=&#34;images/2024/11/24/1732467148-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The links end up in a separate &amp;ldquo;Reminders&amp;rdquo; list, which makes it easy to manage.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/11/24/1732467148-3.png&#34; alt=&#34;images/2024/11/24/1732467148-3.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using Reminders as a way to organize reading links is quite useful, as it nags you at regular intervals.&#xA;And if I&amp;rsquo;m not keen to read something, I simply schedule it back by a month or two.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

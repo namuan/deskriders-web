@@ -9,18 +9,28 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML"/>
-<meta name="twitter:description" content="Looking at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML"/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML">
+  <meta name="twitter:description" content="Looking at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML">
 
-    <meta property="og:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML" />
-<meta property="og:description" content="Looking at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1591343684-plantuml-svg-export/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-06-05T07:47:18+00:00" />
-<meta property="article:modified_time" content="2020-06-05T07:47:18+00:00" />
-<meta property="og:see_also" content="/posts/1639311183-wiremock-match-multiple-urls/" /><meta property="og:see_also" content="/posts/1638735561-safari-export-bookmarks/" /><meta property="og:see_also" content="/posts/1591301414-plantuml-shortcut/" /><meta property="og:see_also" content="/posts/026-tooltip-13-cli-functions-find/" /><meta property="og:see_also" content="/posts/025-tooltip-12-svgo-optimize-svg-files/" />
-
+    <meta property="og:url" content="/posts/1591343684-plantuml-svg-export/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML">
+  <meta property="og:description" content="Looking at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-06-05T07:47:18+00:00">
+    <meta property="article:modified_time" content="2020-06-05T07:47:18+00:00">
+    <meta property="article:tag" content="Plantuml">
+    <meta property="article:tag" content="Bash">
+      <meta property="og:see_also" content="/posts/1639311183-wiremock-match-multiple-urls/">
+      <meta property="og:see_also" content="/posts/1638735561-safari-export-bookmarks/">
+      <meta property="og:see_also" content="/posts/1591301414-plantuml-shortcut/">
+      <meta property="og:see_also" content="/posts/026-tooltip-13-cli-functions-find/">
+      <meta property="og:see_also" content="/posts/025-tooltip-12-svgo-optimize-svg-files/">
+      <meta property="og:see_also" content="/posts/024-tooltip-11-lsof-open-ports-pids/">
 
 
     
@@ -63,7 +73,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -150,10 +160,9 @@
 </span></span></code></pre></div><p>Once you have it setup, this will export the provided plantuml file to an SVG image and open it up using Firefox.
 You can change the application used to open this SVG by replacing <code>Firefox.app</code> with the another application.</p>
 <p>Here it is in action</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ytSB-cjAKzA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ytSB-cjAKzA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 <p>📝:</p>
 <p>👉 Tested on MacOS but should work on earlier versions and all flavours of Linux</p>
@@ -243,18 +252,6 @@ You can change the application used to open this SVG by replacing <code>Firefox.
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

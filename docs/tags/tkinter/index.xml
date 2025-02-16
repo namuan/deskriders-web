@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tkinter on deskriders</title>
+    <title>Tkinter on deskriders</title>
     <link>/tags/tkinter/</link>
-    <description>Recent content in tkinter on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tkinter on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate><atom:link href="/tags/tkinter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 05:53:19 +0100</lastBuildDate>
+    <atom:link href="/tags/tkinter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tkinter blank application</title>
       <link>/posts/1681102399-chatgpt-tkinter-blank-app/</link>
       <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      
       <guid>/posts/1681102399-chatgpt-tkinter-blank-app/</guid>
-      <description>You: Create a blank application in tkinter Python
-ChatGPT: To create a blank application using tkinter in Python, you&amp;rsquo;ll first need to install the tkinter package (if you haven&amp;rsquo;t already) and then import it. Here&amp;rsquo;s a simple example of a blank tkinter application:
-import tkinter as tk # Create the main application window app = tk.Tk() # Set the title for the main window app.title(&amp;#34;Blank Application&amp;#34;) # Set the dimensions of the main window app.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/2023/04/10/1681102879.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;You:&#xA;Create a blank application in tkinter Python&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;ChatGPT:&#xA;To create a blank application using tkinter in Python, you&amp;rsquo;ll first need to install the tkinter package (if you haven&amp;rsquo;t already) and then import it. Here&amp;rsquo;s a simple example of a blank tkinter application:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; tkinter &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; tk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Create the main application window&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tk&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Tk()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Set the title for the main window&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;title(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Blank Application&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Set the dimensions of the main window&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;geometry(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;300x200&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Start the main event loop&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;app&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;mainloop()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This code creates a blank tkinter application window with a title &amp;ldquo;Blank Application&amp;rdquo; and dimensions 300x200 pixels. The &lt;code&gt;mainloop()&lt;/code&gt; method starts the event loop, which keeps the window open and responsive to user actions.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

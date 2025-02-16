@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>testing on deskriders</title>
-    <link>/tags/testing/</link>
-    <description>Recent content in testing on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Testing on deskriders</title>
+    <link>//localhost:1313/tags/testing/</link>
+    <description>Recent content in Testing on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 16 Nov 2019 16:24:01 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Performance testing with HttpRider</title>
-      <link>/posts/004-httprider-performance-testing/</link>
+      <link>//localhost:1313/posts/004-httprider-performance-testing/</link>
       <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
-      
-      <guid>/posts/004-httprider-performance-testing/</guid>
-      <description>The title is a bit misleading as HttpRider can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.
-Slow cooker: SlowCooker is a command line tool for load testing. Here is an excellent blog post about the background and difference from other similar tools.
-Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code.</description>
+      <guid>//localhost:1313/posts/004-httprider-performance-testing/</guid>
+      <description>&lt;p&gt;The title is a bit misleading as &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt; can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.&lt;/p&gt;&#xA;&lt;h4 id=&#34;slow-cooker&#34;&gt;Slow cooker:&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/BuoyantIO/slow_cooker&#34;&gt;SlowCooker&lt;/a&gt; is a command line tool for load testing. &lt;a href=&#34;https://buoyant.io/2016/12/10/slow-cooker-load-testing-for-tough-software/&#34;&gt;Here&lt;/a&gt; is an excellent blog post about the background and difference from other similar tools.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/004/httprider_slowcooker.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code. Along with the command, you can find brief documentation on command line arguments and output format.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Generating BDD tests with HttpRider</title>
-      <link>/posts/003-httprider-generating-bdd-tests/</link>
+      <link>//localhost:1313/posts/003-httprider-generating-bdd-tests/</link>
       <pubDate>Mon, 28 Oct 2019 11:30:47 +0000</pubDate>
-      
-      <guid>/posts/003-httprider-generating-bdd-tests/</guid>
-      <description>In this post, we&amp;rsquo;ll see how we can easily generate BDD tests with HttpRider.
-Instead of writing the code behind the REST api calls, we&amp;rsquo;ll use an open source framework called Apickli to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built Gherkin expressions.
-I&amp;rsquo;ve also created a sample project using Apicki framework to make it easy to get it up and running.
-Let&amp;rsquo;s start with a few API calls using the sample database provided with source.</description>
+      <guid>//localhost:1313/posts/003-httprider-generating-bdd-tests/</guid>
+      <description>&lt;p&gt;In this post, we&amp;rsquo;ll see how we can easily generate BDD tests with HttpRider.&lt;/p&gt;&#xA;&lt;p&gt;Instead of writing the code behind the REST api calls, we&amp;rsquo;ll use an open source framework called &lt;a href=&#34;https://github.com/apickli/apickli&#34;&gt;Apickli&lt;/a&gt; to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built &lt;a href=&#34;https://github.com/apickli/apickli#gherkin-expressions&#34;&gt;Gherkin expressions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also created a &lt;a href=&#34;https://github.com/namuan/apickli_functional_tests&#34;&gt;sample project&lt;/a&gt; using Apicki framework to make it easy to get it up and running.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with a few API calls using the &lt;a href=&#34;https://github.com/namuan/http-rider/tree/master/sample&#34;&gt;sample database&lt;/a&gt; provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -9,21 +9,24 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Keeping multiple projects consistent"/>
-<meta name="twitter:description" content="Here is a command I run to compare and streamline multiple projects.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keeping multiple projects consistent">
+  <meta name="twitter:description" content="Here is a command I run to compare and streamline multiple projects.
 It is run from a project which is already up to date and it requires having diffmerge available in your PATH.
-TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile init-new-project.sh init-template.sh .flake8 setup.cfg .github/actions/python-poetry-env/action.yml .github/workflows/build.yml .github/workflows/dependencies.yml .github/workflows/publish.yml pyproject.toml&#39; | while read file; do echo &#34;Comparing: $file&#34;; test -f &#34;$TARGET_DIR/$file&#34; || cp $file &#34;$TARGET_DIR/$file&#34;; diffmerge &#34;$file&#34; &#34;$TARGET_DIR/$file&#34;; done; cd $TARGET_DIR Once it finishes, you&rsquo;ll end up in the target folder which changes can be manually reviewed and committed."/>
+TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile init-new-project.sh init-template.sh .flake8 setup.cfg .github/actions/python-poetry-env/action.yml .github/workflows/build.yml .github/workflows/dependencies.yml .github/workflows/publish.yml pyproject.toml&#39; | while read file; do echo &#34;Comparing: $file&#34;; test -f &#34;$TARGET_DIR/$file&#34; || cp $file &#34;$TARGET_DIR/$file&#34;; diffmerge &#34;$file&#34; &#34;$TARGET_DIR/$file&#34;; done; cd $TARGET_DIR Once it finishes, you’ll end up in the target folder which changes can be manually reviewed and committed.">
 
-    <meta property="og:title" content="Keeping multiple projects consistent" />
-<meta property="og:description" content="Here is a command I run to compare and streamline multiple projects.
+    <meta property="og:url" content="/posts/1641130250-cli-streamline-projects/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Keeping multiple projects consistent">
+  <meta property="og:description" content="Here is a command I run to compare and streamline multiple projects.
 It is run from a project which is already up to date and it requires having diffmerge available in your PATH.
-TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile init-new-project.sh init-template.sh .flake8 setup.cfg .github/actions/python-poetry-env/action.yml .github/workflows/build.yml .github/workflows/dependencies.yml .github/workflows/publish.yml pyproject.toml&#39; | while read file; do echo &#34;Comparing: $file&#34;; test -f &#34;$TARGET_DIR/$file&#34; || cp $file &#34;$TARGET_DIR/$file&#34;; diffmerge &#34;$file&#34; &#34;$TARGET_DIR/$file&#34;; done; cd $TARGET_DIR Once it finishes, you&rsquo;ll end up in the target folder which changes can be manually reviewed and committed." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1641130250-cli-streamline-projects/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-01-02T13:32:35+00:00" />
-<meta property="article:modified_time" content="2022-01-02T13:32:35+00:00" />
-
+TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile init-new-project.sh init-template.sh .flake8 setup.cfg .github/actions/python-poetry-env/action.yml .github/workflows/build.yml .github/workflows/dependencies.yml .github/workflows/publish.yml pyproject.toml&#39; | while read file; do echo &#34;Comparing: $file&#34;; test -f &#34;$TARGET_DIR/$file&#34; || cp $file &#34;$TARGET_DIR/$file&#34;; diffmerge &#34;$file&#34; &#34;$TARGET_DIR/$file&#34;; done; cd $TARGET_DIR Once it finishes, you’ll end up in the target folder which changes can be manually reviewed and committed.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-01-02T13:32:35+00:00">
+    <meta property="article:modified_time" content="2022-01-02T13:32:35+00:00">
 
 
     
@@ -66,7 +69,7 @@ TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile 
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -183,18 +186,6 @@ TARGET_DIR=&#34;../tele-muninn&#34;; echo &#39;.pre-commit-config.yaml Makefile 
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

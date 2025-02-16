@@ -1,63 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on deskriders</title>
-    <link>/tags/java/</link>
-    <description>Recent content in java on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Java on deskriders</title>
+    <link>//localhost:1313/tags/java/</link>
+    <description>Recent content in Java on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Feb 2022 06:51:10 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL :: Log Exceptions on a single line with Spring Boot</title>
-      <link>/posts/1645945892-til-spring-exception-logging/</link>
+      <link>//localhost:1313/posts/1645945892-til-spring-exception-logging/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      
-      <guid>/posts/1645945892-til-spring-exception-logging/</guid>
-      <description>This can go in the application.properties file.
-# Single line. Full stack trace will be captured in a single line logging.exception-conversion-word=%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated Single line. Only the exception message will be captured in a single line logging.exception-conversion-word=%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex # Truncated. Default formatting but only capturing a single line logging.exception-conversion-word=%wEx{short} This works if you don&amp;rsquo;t override logging.pattern.console as the default logging.pattern.console allows you to use logging.exception-converstion-word
-If you need to only filter out certain packages from exception stack trace.</description>
+      <guid>//localhost:1313/posts/1645945892-til-spring-exception-logging/</guid>
+      <description>&lt;p&gt;This can go in the &lt;code&gt;application.properties&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Single line. Full stack trace will be captured in a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%replace(%wEx){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Truncated Single line. Only the exception message will be captured in a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%replace(%wEx{short}){&amp;#39;\n&amp;#39;,&amp;#39;\u2028&amp;#39;}%nopex&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Truncated. Default formatting but only capturing a single line&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;logging.exception-conversion-word&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%wEx{short}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This works if you don&amp;rsquo;t override &lt;code&gt;logging.pattern.console&lt;/code&gt; as the default &lt;code&gt;logging.pattern.console&lt;/code&gt; allows you to use &lt;code&gt;logging.exception-converstion-word&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2022/02/27/498904421940864.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you need to only filter out certain packages from exception stack trace.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using EasyRandom with Spring Framework</title>
-      <link>/posts/029-easy-random-spring-boot/</link>
+      <link>//localhost:1313/posts/029-easy-random-spring-boot/</link>
       <pubDate>Thu, 14 May 2020 23:45:43 +0100</pubDate>
-      
-      <guid>/posts/029-easy-random-spring-boot/</guid>
-      <description>Tired of creating objects in tests. Try using EasyRandom library. Here is how easily you can add it to a Spring Java project
-Step 1: Add gradle/maven dependency https://mvnrepository.com/artifact/org.jeasy/easy-random
-Step 2: Declare it in test Step 3: Use it to generate random data objects Step 4: 😍 Tips: Random initial seed In the default setup, EasyRandom uses a default seed value to generate randam data. Although it is quite simple to initiate EasyRandom with a random seed.</description>
+      <guid>//localhost:1313/posts/029-easy-random-spring-boot/</guid>
+      <description>&lt;p&gt;Tired of creating objects in tests. Try using EasyRandom library. Here is how easily you can add it to a Spring Java project&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-1-add-gradlemaven-dependency&#34;&gt;Step 1: Add gradle/maven dependency&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mvnrepository.com/artifact/org.jeasy/easy-random&#34;&gt;https://mvnrepository.com/artifact/org.jeasy/easy-random&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/20200514225404481_20190134.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-2-declare-it-in-test&#34;&gt;Step 2: Declare it in test&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/20200514230728850_1337135243.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-3-use-it-to-generate-random-data-objects&#34;&gt;Step 3: Use it to generate random data objects&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/20200514230800345_1963146893.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-4-&#34;&gt;Step 4: 😍&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/20200514230639150_1516619298.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;tips&#34;&gt;Tips:&lt;/h4&gt;&#xA;&lt;h4 id=&#34;random-initial-seed&#34;&gt;Random initial seed&lt;/h4&gt;&#xA;&lt;p&gt;In the default setup, EasyRandom uses a default seed value to generate randam data.&#xA;Although it is quite simple to initiate EasyRandom with a random seed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Gradle custom task for selectively running tests</title>
-      <link>/posts/028-gradle-contract-tests/</link>
+      <link>//localhost:1313/posts/028-gradle-contract-tests/</link>
       <pubDate>Fri, 08 May 2020 15:00:06 +0100</pubDate>
-      
-      <guid>/posts/028-gradle-contract-tests/</guid>
-      <description>Q: How do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?
-Here, I&amp;rsquo;ll add a test which is ignored when running ./gradlew test but it can be triggered when needed (eg. from a separate Jenkins Job).
-The current directory structure look this
-The first step is to exclude all the tests under contracts/
-test { ... exclude(&amp;#39;**/contracts/*.*&amp;#39;) } Then we&amp;rsquo;ll define another Gradle task so that contract tests can be executed on demand</description>
+      <guid>//localhost:1313/posts/028-gradle-contract-tests/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Q: How do I define contract tests which can be run on-demand from Gradle while ignoring them from unit test runs?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here, I&amp;rsquo;ll add a test which is ignored when running &lt;code&gt;./gradlew test&lt;/code&gt; but it can be triggered when needed (eg. from a separate Jenkins Job).&lt;/p&gt;&#xA;&lt;p&gt;The current directory structure look this&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/20200508151905944_642229617.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first step is to exclude all the tests under contracts/&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-groovy&#34; data-lang=&#34;groovy&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;test &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#x9;exclude&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;**/contracts/*.*&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then we&amp;rsquo;ll define another Gradle task so that contract tests can be executed on demand&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Java 8&#43;: Using Collectors as reducers</title>
-      <link>/posts/027-java-collectors-reducer/</link>
+      <link>//localhost:1313/posts/027-java-collectors-reducer/</link>
       <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
-      
-      <guid>/posts/027-java-collectors-reducer/</guid>
-      <description>A simple example to show how to use Collectors as reducers in Java 8+.
-Say, we have a simple Transaction class consists of the currency and the value of the transaction.
-Transaction class is sprinkled with Lombok annotation to make use of Builder.
-@Value @Builder public static class Transaction { String currency; int value; } And given the following set of data:
-GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
+      <guid>//localhost:1313/posts/027-java-collectors-reducer/</guid>
+      <description>&lt;p&gt;A simple example to show how to use Collectors as reducers in Java 8+.&lt;/p&gt;&#xA;&lt;p&gt;Say, we have a simple &lt;code&gt;Transaction&lt;/code&gt; class consists of the currency and the value of the transaction.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Transaction&lt;/code&gt; class is sprinkled with Lombok annotation to make use of Builder.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Value&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Builder&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Transaction&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        String currency;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And given the following set of data:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GBP Transactions = 2&lt;/strong&gt;,&#xA;&lt;strong&gt;USD Transactions = 1&lt;/strong&gt;,&#xA;&lt;strong&gt;CAD Transactions = 1&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

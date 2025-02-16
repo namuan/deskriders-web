@@ -1,46 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>plantuml on deskriders</title>
+    <title>Plantuml on deskriders</title>
     <link>/tags/plantuml/</link>
-    <description>Recent content in plantuml on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Plantuml on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2020 07:47:18 +0000</lastBuildDate><atom:link href="/tags/plantuml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2020 07:47:18 +0000</lastBuildDate>
+    <atom:link href="/tags/plantuml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip 15: Bash/Zsh function to export SVG diagrams using PlantUML</title>
       <link>/posts/1591343684-plantuml-svg-export/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
-      
       <guid>/posts/1591343684-plantuml-svg-export/</guid>
-      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.
-Requirements PlantUML: Direct Download Place it where you can easily refer to it.
-nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
-function plantsvg() { NAME=&amp;#34;$1&amp;#34; cat ${NAME} | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
+      <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function to export SVG diagrams using PlantUML.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PlantUML: &lt;a href=&#34;http://sourceforge.net/projects/plantuml/files/plantuml.jar/download&#34;&gt;Direct Download&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Place it where you can easily refer to it.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-rw-r--r--@ &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; nmn  staff  &lt;span style=&#34;color:#ae81ff&#34;&gt;7985304&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt; Nov  &lt;span style=&#34;color:#ae81ff&#34;&gt;2019&lt;/span&gt; /Users/nmn/tools/plantuml/plantuml.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; plantsvg&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;NAME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt; | java -DPLANTUML_LIMIT_SIZE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8192&lt;/span&gt; -jar $TOOLS_HOME/plantuml/plantuml.jar -tsvg -pipe &amp;gt; &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;NAME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;.svg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    open -a Firefox.app &lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;NAME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;.svg&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once you have it setup, this will export the provided plantuml file to an SVG image and open it up using Firefox.&#xA;You can change the application used to open this SVG by replacing &lt;code&gt;Firefox.app&lt;/code&gt; with the another application.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tooltip 14: Handy Bash/Zsh function to generate PlantUML diagrams</title>
       <link>/posts/1591301414-plantuml-shortcut/</link>
       <pubDate>Thu, 04 Jun 2020 22:11:58 +0000</pubDate>
-      
       <guid>/posts/1591301414-plantuml-shortcut/</guid>
-      <description>In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.
-Requirements: PlantUML: Direct Download Download it where you can easily refer to it.
-nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar -rw-r--r--@ 1 nmn staff 7985304 9 Nov 2019 /Users/nmn/tools/plantuml/plantuml.jar Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.
-function plantuml() { NAME=$1 cat $NAME | java -DPLANTUML_LIMIT_SIZE=8192 -jar $TOOLS_HOME/plantuml/plantuml.</description>
+      <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at creating a simple Bash/Zsh function wrapping PlantUML so that we can use it from anywhere.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PlantUML: &lt;a href=&#34;http://sourceforge.net/projects/plantuml/files/plantuml.jar/download&#34;&gt;Direct Download&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download it where you can easily refer to it.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmn$ ls -l $TOOLS_HOME/plantuml/plantuml.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-rw-r--r--@ &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; nmn  staff  &lt;span style=&#34;color:#ae81ff&#34;&gt;7985304&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt; Nov  &lt;span style=&#34;color:#ae81ff&#34;&gt;2019&lt;/span&gt; /Users/nmn/tools/plantuml/plantuml.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, we&amp;rsquo;ll create a function and put that in bash/zsh profile so that it can be loaded automatically on each session.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; plantuml&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$1&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat $NAME | java -DPLANTUML_LIMIT_SIZE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8192&lt;/span&gt; -jar $TOOLS_HOME/plantuml/plantuml.jar -pipe &amp;gt; $NAME.png&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    open $NAME.png&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you can call this function with the file name.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Generating sequence diagrams with HttpRider</title>
       <link>/posts/001-httprider-generating-sequence-diagrams/</link>
       <pubDate>Sun, 13 Oct 2019 07:45:14 +0000</pubDate>
-      
       <guid>/posts/001-httprider-generating-sequence-diagrams/</guid>
-      <description>Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.
-In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.
-HttpRider is an open source cross platform desktop client for working with JSON APIs</description>
+      <description>&lt;p&gt;Most tools consider an HTTP API call as a single request but that is not usually the case. An API call is surrounded by a sequence of other APIs which makes it easy to understand the context of the use case.&lt;/p&gt;&#xA;&lt;p&gt;In HttpRider, I&amp;rsquo;ve recently introduced an exporter for sequence diagrams. So a collection of HTTP calls can be easily exported to sequence diagrams using PlantUML/MermaidJS.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/http-rider&#34; title=&#34;HttpRider&#34;&gt;HttpRider&lt;/a&gt; is an open source cross platform desktop client for working with JSON APIs&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

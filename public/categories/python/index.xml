@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on deskriders</title>
+    <link>//localhost:1313/categories/python/</link>
+    <description>Recent content in Python on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Short Straddles with Laddering</title>
+      <link>//localhost:1313/posts/1736507408-short-straddle-with-laddering/</link>
+      <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
+      <guid>//localhost:1313/posts/1736507408-short-straddle-with-laddering/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Short Straddles&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;For e.g. Given that our account can trade 5 SPX contracts at once.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;We can either trade 1 contract every day - 5 different positions&lt;/li&gt;&#xA;&lt;li&gt;Or we can trade all 5 contracts at the same time in a single trade - 1 position&lt;/li&gt;&#xA;&lt;li&gt;Or we can stagger 5 contracts in a single trade. Add 1 contract every day&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here are the results&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;(a)&lt;/strong&gt; &lt;em&gt;1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Short Straddles with RSI based market filters</title>
+      <link>//localhost:1313/posts/1736250948-short-straddle-rsi-market-filter/</link>
+      <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/1736250948-short-straddle-rsi-market-filter/</guid>
+      <description>&lt;p&gt;Hypothesis: What if we avoid new trade if RSI is overbought or oversold?&lt;/p&gt;&#xA;&lt;p&gt;Backtest with different RSI thresholds and different RSI periods&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;RSI Thresholds:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RSI Period: 4&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_low_values=(0 10 20 30)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_high_values=(70 80 90 100)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2025/01/07/1736255462-1.png&#34; alt=&#34;images/2025/01/07/1736255462-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Best Parameters by Expectancy Ratio:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;rsi_low_threshold=20, rsi_high_threshold=100&lt;/strong&gt;&lt;br&gt;&#xA;Expectancy Ratio: 1.08&lt;br&gt;&#xA;This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=100&lt;br&gt;&#xA;Expectancy Ratio: 1.06&lt;br&gt;&#xA;Second-best expectancy ratio.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=70&lt;br&gt;&#xA;Expectancy Ratio: 1.04&lt;br&gt;&#xA;Third-best expectancy ratio.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Observations:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analysing a very simple Short Straddle strategy</title>
+      <link>//localhost:1313/posts/1734004071-options-analysis-pipeline/</link>
+      <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
+      <guid>//localhost:1313/posts/1734004071-options-analysis-pipeline/</guid>
+      <description>&lt;h2 id=&#34;gather-data&#34;&gt;Gather data&lt;/h2&gt;&#xA;&lt;p&gt;The Options data is retrieved from &lt;a href=&#34;https://www.optionsdx.com&#34;&gt;optionsdx&lt;/a&gt;.&#xA;This page documents the &lt;a href=&#34;https://www.optionsdx.com/option-chain-field-definitions/&#34;&gt;field definitions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The downloaded files will be zipped, so extract them into a single directory.&#xA;It&amp;rsquo;ll look something like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/12/12/1734006103-1.png&#34; alt=&#34;images/2024/12/12/1734006103-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;import-data&#34;&gt;Import data&lt;/h2&gt;&#xA;&lt;p&gt;Use the &lt;a href=&#34;https://github.com/namuan/trading-utils/blob/main/optionsdx-data-importer.py&#34;&gt;optionsdx-data-importer.py&lt;/a&gt; script to import all the data in an SQLite database&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ uvr optionsdx-data-importer.py --input &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pwd&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;/data/spy_eod --output data/spy_eod.db -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The finished database will have an &lt;code&gt;options_data&lt;/code&gt; table with all the data from the downloaded files.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/12/12/1734006103-2.png&#34; alt=&#34;images/2024/12/12/1734006103-2.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

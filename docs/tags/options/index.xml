@@ -1,547 +1,250 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>options on deskriders</title>
+    <title>Options on deskriders</title>
     <link>/tags/options/</link>
-    <description>Recent content in options on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Options on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate><atom:link href="/tags/options/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 11:10:08 +0000</lastBuildDate>
+    <atom:link href="/tags/options/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short Straddles with Laddering</title>
       <link>/posts/1736507408-short-straddle-with-laddering/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/posts/1736507408-short-straddle-with-laddering/</guid>
-      <description>Short Straddles
-For e.g. Given that our account can trade 5 SPX contracts at once.
-We can either trade 1 contract every day - 5 different positions Or we can trade all 5 contracts at the same time in a single trade - 1 position Or we can stagger 5 contracts in a single trade. Add 1 contract every day Here are the results
-(a) 1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry</description>
+      <description>&lt;p&gt;&lt;strong&gt;Short Straddles&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;For e.g. Given that our account can trade 5 SPX contracts at once.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;We can either trade 1 contract every day - 5 different positions&lt;/li&gt;&#xA;&lt;li&gt;Or we can trade all 5 contracts at the same time in a single trade - 1 position&lt;/li&gt;&#xA;&lt;li&gt;Or we can stagger 5 contracts in a single trade. Add 1 contract every day&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here are the results&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;(a)&lt;/strong&gt; &lt;em&gt;1 Contract Every Day (Max 5 Positions) &amp;gt; 45 DTE Expiry&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Short Straddles with RSI based market filters</title>
       <link>/posts/1736250948-short-straddle-rsi-market-filter/</link>
       <pubDate>Tue, 07 Jan 2025 11:55:48 +0000</pubDate>
-      
       <guid>/posts/1736250948-short-straddle-rsi-market-filter/</guid>
-      <description>Hypothesis: What if we avoid new trade if RSI is overbought or oversold?
-Backtest with different RSI thresholds and different RSI periods
-RSI Thresholds:
-RSI Period: 4 rsi_low_values=(0 10 20 30) rsi_high_values=(70 80 90 100) Best Parameters by Expectancy Ratio:
-rsi_low_threshold=20, rsi_high_threshold=100
-Expectancy Ratio: 1.08
-This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns. rsi_low_threshold=30, rsi_high_threshold=100
-Expectancy Ratio: 1.06
-Second-best expectancy ratio. rsi_low_threshold=30, rsi_high_threshold=70
-Expectancy Ratio: 1.</description>
+      <description>&lt;p&gt;Hypothesis: What if we avoid new trade if RSI is overbought or oversold?&lt;/p&gt;&#xA;&lt;p&gt;Backtest with different RSI thresholds and different RSI periods&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;RSI Thresholds:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RSI Period: 4&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_low_values=(0 10 20 30)  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rsi_high_values=(70 80 90 100)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/images/2025/01/07/1736255462-1.png&#34; alt=&#34;images/2025/01/07/1736255462-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Best Parameters by Expectancy Ratio:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;rsi_low_threshold=20, rsi_high_threshold=100&lt;/strong&gt;&lt;br&gt;&#xA;Expectancy Ratio: 1.08&lt;br&gt;&#xA;This combination shows the highest expectancy ratio, indicating it provides the best risk-adjusted returns.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=100&lt;br&gt;&#xA;Expectancy Ratio: 1.06&lt;br&gt;&#xA;Second-best expectancy ratio.&lt;/li&gt;&#xA;&lt;li&gt;rsi_low_threshold=30, rsi_high_threshold=70&lt;br&gt;&#xA;Expectancy Ratio: 1.04&lt;br&gt;&#xA;Third-best expectancy ratio.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Observations:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Analysing a very simple Short Straddle strategy</title>
       <link>/posts/1734004071-options-analysis-pipeline/</link>
       <pubDate>Thu, 12 Dec 2024 11:47:51 +0000</pubDate>
-      
       <guid>/posts/1734004071-options-analysis-pipeline/</guid>
-      <description>Gather data The Options data is retrieved from optionsdx. This page documents the field definitions
-The downloaded files will be zipped, so extract them into a single directory. It&amp;rsquo;ll look something like this:
-Import data Use the optionsdx-data-importer.py script to import all the data in an SQLite database
-$ uvr optionsdx-data-importer.py --input $(pwd)/data/spy_eod --output data/spy_eod.db -v The finished database will have an options_data table with all the data from the downloaded files.</description>
+      <description>&lt;h2 id=&#34;gather-data&#34;&gt;Gather data&lt;/h2&gt;&#xA;&lt;p&gt;The Options data is retrieved from &lt;a href=&#34;https://www.optionsdx.com&#34;&gt;optionsdx&lt;/a&gt;.&#xA;This page documents the &lt;a href=&#34;https://www.optionsdx.com/option-chain-field-definitions/&#34;&gt;field definitions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The downloaded files will be zipped, so extract them into a single directory.&#xA;It&amp;rsquo;ll look something like this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/12/12/1734006103-1.png&#34; alt=&#34;images/2024/12/12/1734006103-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;import-data&#34;&gt;Import data&lt;/h2&gt;&#xA;&lt;p&gt;Use the &lt;a href=&#34;https://github.com/namuan/trading-utils/blob/main/optionsdx-data-importer.py&#34;&gt;optionsdx-data-importer.py&lt;/a&gt; script to import all the data in an SQLite database&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ uvr optionsdx-data-importer.py --input &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pwd&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;/data/spy_eod --output data/spy_eod.db -v&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The finished database will have an &lt;code&gt;options_data&lt;/code&gt; table with all the data from the downloaded files.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/12/12/1734006103-2.png&#34; alt=&#34;images/2024/12/12/1734006103-2.png&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Trading TSLA After the 20% Surge: Historical Patterns and Options Strategies</title>
       <link>/posts/1730122885-tsla-20-percent-jump/</link>
       <pubDate>Mon, 28 Oct 2024 13:41:25 +0000</pubDate>
-      
       <guid>/posts/1730122885-tsla-20-percent-jump/</guid>
-      <description>Last Thursday, TSLA jumped around 20% after the earnings call.
-I think there may be an opportunity for a trade due to this extreme movement. So I looked into the number of times when there was a significant jump and then what happened afterwards.
-There are around 9 occasions where TSLA jumped more than 15% in a day, including the one that happened last week.
-Date Jump Day Gain Next 7 Days Return 2018-08-02 16.</description>
+      <description>&lt;p&gt;Last Thursday, TSLA jumped around 20% after the earnings call.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/28/1730124452-1.png&#34; alt=&#34;images/2024/10/28/1730124452-1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I think there may be an opportunity for a trade due to this extreme movement.&#xA;So I looked into the number of times when there was a significant jump and then what happened afterwards.&lt;/p&gt;&#xA;&lt;p&gt;There are around 9 occasions where TSLA jumped more than 15% in a day, including the one that happened last week.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Date&lt;/th&gt;&#xA;          &lt;th&gt;Jump Day Gain&lt;/th&gt;&#xA;          &lt;th&gt;Next 7 Days Return&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2018-08-02&lt;/td&gt;&#xA;          &lt;td&gt;16.19%&lt;/td&gt;&#xA;          &lt;td&gt;1.97%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2018-10-01&lt;/td&gt;&#xA;          &lt;td&gt;17.35%&lt;/td&gt;&#xA;          &lt;td&gt;-17.32%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2019-10-24&lt;/td&gt;&#xA;          &lt;td&gt;17.67%&lt;/td&gt;&#xA;          &lt;td&gt;5.94%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2020-02-03&lt;/td&gt;&#xA;          &lt;td&gt;19.89%&lt;/td&gt;&#xA;          &lt;td&gt;-1.63%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2020-03-19&lt;/td&gt;&#xA;          &lt;td&gt;18.39%&lt;/td&gt;&#xA;          &lt;td&gt;17.42%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2020-03-24&lt;/td&gt;&#xA;          &lt;td&gt;16.28%&lt;/td&gt;&#xA;          &lt;td&gt;-10.01%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2021-03-09&lt;/td&gt;&#xA;          &lt;td&gt;19.64%&lt;/td&gt;&#xA;          &lt;td&gt;-3.03%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024-04-29&lt;/td&gt;&#xA;          &lt;td&gt;15.31%&lt;/td&gt;&#xA;          &lt;td&gt;-9.96%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2024-10-24&lt;/td&gt;&#xA;          &lt;td&gt;21.92%&lt;/td&gt;&#xA;          &lt;td&gt;Not Available&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;There is only one occasion (March 19, 2020) when the stock jumped another 17% after the 18% rise in a single day.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-18)</title>
       <link>/posts/1729325604-market-2024-10-19-saturday/</link>
       <pubDate>Sat, 19 Oct 2024 09:13:24 +0100</pubDate>
-      
       <guid>/posts/1729325604-market-2024-10-19-saturday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Positions /ESZ24 Oct 24th 7/8DTE Short Straddle
-Closed for +$1,037.50 (+13%) return since Oct 16, 2024 at 4:07 PM
-/ESZ24 Nov 18th 1M Short Straddle
-So far, +$631.25 (+6.3%) return since Oct 17, 2024 at 5:44 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-/ESZ24 Oct 22nd 3/4DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/17/1729195776-2.png&#34; alt=&#34;images/2024/10/17/1729195776-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/19/1729325953-2.png&#34; alt=&#34;images/2024/10/19/1729325953-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;positions&#34;&gt;Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 24th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$1,037.50&lt;/strong&gt; (+13%) return since Oct 16, 2024 at 4:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Nov 18th 1M Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$631.25&lt;/strong&gt; (+6.3%) return since Oct 17, 2024 at 5:44 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/19/1729325953-3.png&#34; alt=&#34;images/2024/10/19/1729325953-3.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 22nd 3/4DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-17)</title>
       <link>/posts/1729195132-market-2024-10-17-thursday/</link>
       <pubDate>Thu, 17 Oct 2024 20:58:53 +0100</pubDate>
-      
       <guid>/posts/1729195132-market-2024-10-17-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Positions /ESZ24 Oct 23rd 7/8DTE Short Straddle
-Closed for +$612.50 (+15%) return since Oct 15, 2024 at 4:18 PM
-/ESZ24 Oct 24th 7/8DTE Short Straddle
-So far, +$893.75 (+11%) return since Oct 16, 2024 at 4:07 PM
-/ESZ24 Nov 18th 1M Short Straddle
-So far, +$293.75 (+2.9%) return since Oct 17, 2024 at 5:44 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/16/1729108384-2.png&#34; alt=&#34;images/2024/10/16/1729108384-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/17/1729195776-2.png&#34; alt=&#34;images/2024/10/17/1729195776-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;positions&#34;&gt;Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 23rd 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$612.50&lt;/strong&gt; (+15%) return since Oct 15, 2024 at 4:18 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 24th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$893.75&lt;/strong&gt; (+11%) return since Oct 16, 2024 at 4:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Nov 18th 1M Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$293.75&lt;/strong&gt; (+2.9%) return since Oct 17, 2024 at 5:44 PM&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-16)</title>
       <link>/posts/1729107887-market-2024-10-16-wednesday/</link>
       <pubDate>Wed, 16 Oct 2024 20:44:47 +0100</pubDate>
-      
       <guid>/posts/1729107887-market-2024-10-16-wednesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Positions /ESZ24 Oct 23rd 7/8DTE Short Straddle
-So far, +$500 (+12%) return since Oct 15, 2024 at 4:18 PM
-/ESZ24 Oct 24th 7/8DTE Short Straddle
-Double Straddle
-So far, -$18.75 (-0.2%) return since Oct 16, 2024 at 4:07 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-/ESZ24 Oct 16th 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/15/1729025493-2.png&#34; alt=&#34;images/2024/10/15/1729025493-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/16/1729108384-2.png&#34; alt=&#34;images/2024/10/16/1729108384-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;positions&#34;&gt;Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 23rd 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$500&lt;/strong&gt; (+12%) return since Oct 15, 2024 at 4:18 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/16/1729108384-3.png&#34; alt=&#34;images/2024/10/16/1729108384-3.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 24th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Double Straddle&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$18.75&lt;/strong&gt; (-0.2%) return since Oct 16, 2024 at 4:07 PM&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 16th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-15)</title>
       <link>/posts/1729025184-market-2024-10-15-tuesday/</link>
       <pubDate>Tue, 15 Oct 2024 21:46:25 +0100</pubDate>
-      
       <guid>/posts/1729025184-market-2024-10-15-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Positions /ESZ24 Oct 18th 7/8DTE Short Straddle
-Closed for +$537.50 (+15%) return since Oct 11, 2024 at 7:57 PM
-/ESZ24 Oct 18th 3DTE Short Straddle
-Closed for +$325 (+10%) return since Oct 14, 2024 at 3:29 PM
-/ESZ24 Oct 23rd 7/8DTE Short Straddle
-So far, +$62.50 (+1.5%) return since Oct 15, 2024 at 4:18 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/13/1728839594.png&#34; alt=&#34;images/2024/10/13/1728839594.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/15/1729025493-2.png&#34; alt=&#34;images/2024/10/15/1729025493-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;positions&#34;&gt;Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 18th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$537.50&lt;/strong&gt; (+15%) return since Oct 11, 2024 at 7:57 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 18th 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$325&lt;/strong&gt; (+10%) return since Oct 14, 2024 at 3:29 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 23rd 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, +$62.50 (+1.5%) return since Oct 15, 2024 at 4:18 PM&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-14)</title>
       <link>/posts/1728932620-market-2024-10-14-monday/</link>
       <pubDate>Mon, 14 Oct 2024 20:03:40 +0100</pubDate>
-      
       <guid>/posts/1728932620-market-2024-10-14-monday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 18th 7/8DTE Short Straddle
-So far, -$475 (-13%) return since Oct 11, 2024 at 7:57 PM
-New Position /ESZ24 Oct 18th 3DTE Short Straddle
-So far, +$43.75 (+1.4%) return since Oct 14, 2024 at 3:29 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-/ESZ24 Oct 16th 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/13/1728839594.png&#34; alt=&#34;images/2024/10/13/1728839594.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/14/1728933509-2.png&#34; alt=&#34;images/2024/10/14/1728933509-2.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 18th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$475&lt;/strong&gt; (-13%) return since Oct 11, 2024 at 7:57 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 18th 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$43.75&lt;/strong&gt; (+1.4%) return since Oct 14, 2024 at 3:29 PM&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 16th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-10)</title>
       <link>/posts/1728839108-market-2024-10-13-sunday/</link>
       <pubDate>Sun, 13 Oct 2024 18:05:08 +0100</pubDate>
-      
       <guid>/posts/1728839108-market-2024-10-13-sunday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 15th 7/8DTE Short Straddle
-Closed for +$762.50 (+15%) return since Oct 7, 2024 at 3:23 PM
-/ESZ24 Oct 17th 7DTE Short Straddle
-Closed for +$625 (+15%) return since Oct 10, 2024 at 3:17 PM
-New Position /ESZ24 Oct 18th 7/8DTE Short Straddle
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/09/1728496330.png&#34; alt=&#34;images/2024/10/09/1728496330.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/13/1728839594.png&#34; alt=&#34;images/2024/10/13/1728839594.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 15th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$762.50&lt;/strong&gt; (+15%) return since Oct 7, 2024 at 3:23 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 17th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$625&lt;/strong&gt; (+15%) return since Oct 10, 2024 at 3:17 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 18th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-08)</title>
       <link>/posts/1728415568-market-2024-10-08-tuesday/</link>
       <pubDate>Tue, 08 Oct 2024 20:26:08 +0100</pubDate>
-      
       <guid>/posts/1728415568-market-2024-10-08-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 15th 7/8DTE Short Straddle
-So far, +$331.25 (+6.7%) return since Oct 7, 2024 at 3:23 PM
-/ESZ24 Oct 10th 3DTE Short Straddle
-Closed for +$525 (+14%) return since Oct 7, 2024 at 3:25 PM
-New Position Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE /ESZ24 Oct 8th 5770/5795/5745 Iron Butterfly (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/07/1728328938.png&#34; alt=&#34;images/2024/10/07/1728328938.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/08/1728416021.png&#34; alt=&#34;images/2024/10/08/1728416021.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 15th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$331.25&lt;/strong&gt; (+6.7%) return since Oct 7, 2024 at 3:23 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/08/1728416032.png&#34; alt=&#34;images/2024/10/08/1728416032.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 10th 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$525&lt;/strong&gt; (+14%) return since Oct 7, 2024 at 3:25 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-07)</title>
       <link>/posts/1728328488-market-2024-10-07-monday/</link>
       <pubDate>Mon, 07 Oct 2024 20:14:48 +0100</pubDate>
-      
       <guid>/posts/1728328488-market-2024-10-07-monday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 11th 7/8DTE Short Straddle
-Closed for +$662.50 (+13%) return since Oct 4, 2024 at 3:38 PM
-New Position /ESZ24 Oct 15th 7/8DTE Short Straddle
-So far, -$443.75 (-8.9%) return since Oct 7, 2024 at 3:23 PM
-/ESZ24 Oct 10th 3DTE Short Straddle
-So far, -$568.75 (-16%) return since Oct 7, 2024 at 3:25 PM</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/04/1728070334.png&#34; alt=&#34;images/2024/10/04/1728070334.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/07/1728328938.png&#34; alt=&#34;images/2024/10/07/1728328938.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 11th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$662.50&lt;/strong&gt; (+13%) return since Oct 4, 2024 at 3:38 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 15th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$443.75&lt;/strong&gt; (-8.9%) return since Oct 7, 2024 at 3:23 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/07/1728328947.png&#34; alt=&#34;images/2024/10/07/1728328947.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 10th 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$568.75&lt;/strong&gt; (-16%) return since Oct 7, 2024 at 3:25 PM&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-04)</title>
       <link>/posts/1728069743-market-2024-10-04-friday/</link>
       <pubDate>Fri, 04 Oct 2024 20:22:23 +0100</pubDate>
-      
       <guid>/posts/1728069743-market-2024-10-04-friday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 11th 7/8DTE Short Straddle
-Closed for +$587.50 (+10%) return since Oct 3, 2024 at 3:46 PM
-New Position /ESZ24 Oct 11th 7/8DTE Short Straddle
-So far, +$275 (+5.3%) return since Oct 4, 2024 at 3:38 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Oct 8th 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/03/1727990037.png&#34; alt=&#34;images/2024/10/03/1727990037.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/04/1728070334.png&#34; alt=&#34;images/2024/10/04/1728070334.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 11th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$587.50&lt;/strong&gt; (+10%) return since Oct 3, 2024 at 3:46 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 11th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$275&lt;/strong&gt; (+5.3%) return since Oct 4, 2024 at 3:38 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/04/1728070341.png&#34; alt=&#34;images/2024/10/04/1728070341.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-03)</title>
       <link>/posts/1727989608-market-2024-10-03-thursday/</link>
       <pubDate>Thu, 03 Oct 2024 22:06:48 +0100</pubDate>
-      
       <guid>/posts/1727989608-market-2024-10-03-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 9th 7/8DTE Short Straddle
-Closed for +$800 (+14%) return since Oct 1, 2024 at 4:04 PM
-New Position /ESZ24 Oct 11th 7/8DTE Short Straddle
-So far, +$87.50 (+1.5%) return since Oct 3, 2024 at 3:46 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Oct 4th 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/02/1727899165.png&#34; alt=&#34;images/2024/10/02/1727899165.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/03/1727990037.png&#34; alt=&#34;images/2024/10/03/1727990037.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 9th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$800&lt;/strong&gt; (+14%) return since Oct 1, 2024 at 4:04 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;/ESZ24 Oct 11th 7/8DTE Short Straddle&lt;/p&gt;&#xA;&lt;p&gt;So far, +$87.50 (+1.5%) return since Oct 3, 2024 at 3:46 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/03/1727990047.png&#34; alt=&#34;images/2024/10/03/1727990047.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-02)</title>
       <link>/posts/1727898590-market-2024-10-02-wednesday/</link>
       <pubDate>Wed, 02 Oct 2024 20:49:50 +0100</pubDate>
-      
       <guid>/posts/1727898590-market-2024-10-02-wednesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 4th 7/8 DTE Short Straddle
-Closed for +$587.50 (+8.5%) return since Sep 26, 2024 at 3:07 PM
-/ESZ24 Oct 9th 7/8DTE Short Straddle
-So far, +$587.50 (+11%) return since Oct 1, 2024 at 4:04 PM
-New Position /ESZ24 Oct 7th 3DTE Short Straddle (Exp)
-Closed for +$137.50 (+3.2%) return since Oct 2, 2024 at 3:53 PM</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808618.png&#34; alt=&#34;images/2024/10/01/1727808618.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/02/1727899165.png&#34; alt=&#34;images/2024/10/02/1727899165.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 4th 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$587.50&lt;/strong&gt; (+8.5%) return since Sep 26, 2024 at 3:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808627.png&#34; alt=&#34;images/2024/10/01/1727808627.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 9th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$587.50&lt;/strong&gt; (+11%) return since Oct 1, 2024 at 4:04 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808633.png&#34; alt=&#34;images/2024/10/01/1727808633.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 7th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$137.50&lt;/strong&gt; (+3.2%) return since Oct 2, 2024 at 3:53 PM&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-10-01)</title>
       <link>/posts/1727808153-market-2024-10-01-tuesday/</link>
       <pubDate>Tue, 01 Oct 2024 19:42:34 +0100</pubDate>
-      
       <guid>/posts/1727808153-market-2024-10-01-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 4th 7/8 DTE Short Straddle
-So far, +$243.75 (+5.5%) return since Sep 26, 2024 at 3:07 PM
-New Position /ESZ24 Oct 9th 7/8DTE Short Straddle
-So far, -$37.50 (-0.7%) return since Oct 1, 2024 at 4:04 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Oct 3rd 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/30/1727721641.png&#34; alt=&#34;images/2024/09/30/1727721641.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808618.png&#34; alt=&#34;images/2024/10/01/1727808618.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 4th 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, +$243.75 (+5.5%) return since Sep 26, 2024 at 3:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808627.png&#34; alt=&#34;images/2024/10/01/1727808627.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 9th 7/8DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$37.50&lt;/strong&gt; (-0.7%) return since Oct 1, 2024 at 4:04 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/10/01/1727808633.png&#34; alt=&#34;images/2024/10/01/1727808633.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-30)</title>
       <link>/posts/1727721151-market-2024-09-30-monday/</link>
       <pubDate>Mon, 30 Sep 2024 19:32:31 +0100</pubDate>
-      
       <guid>/posts/1727721151-market-2024-09-30-monday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 4th 7/8 DTE Short Straddle
-So far, +$200 (+4.5%) return since Sep 26, 2024 at 3:07 PM
-/ESZ24 Oct 1st 3DTE Short Straddle
-Closed for +$262.50 (+12%) return since Sep 27, 2024 at 4:12 PM
-New Position Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Oct 3rd 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/27/1727466415.png&#34; alt=&#34;images/2024/09/27/1727466415.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/30/1727721641.png&#34; alt=&#34;images/2024/09/30/1727721641.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 4th 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$200&lt;/strong&gt; (+4.5%) return since Sep 26, 2024 at 3:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/27/1727466421.png&#34; alt=&#34;images/2024/09/27/1727466421.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 1st 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$262.50&lt;/strong&gt; (+12%) return since Sep 27, 2024 at 4:12 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-27)</title>
       <link>/posts/1727465883-market-2024-09-27-friday/</link>
       <pubDate>Fri, 27 Sep 2024 20:38:03 +0100</pubDate>
-      
       <guid>/posts/1727465883-market-2024-09-27-friday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 4th 7/8 DTE Short Straddle
-So far, +$200 (+4.5%) return since Sep 26, 2024 at 3:07 PM
-New Position /ESZ24 Oct 1st 3DTE Short Straddle
-So far, -$68.75 (-3%) return since Sep 27, 2024 at 4:12 PM
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Sep 30th 3DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/26/1727382729.png&#34; alt=&#34;images/2024/09/26/1727382729.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/27/1727466415.png&#34; alt=&#34;images/2024/09/27/1727466415.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 4th 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$200&lt;/strong&gt; (+4.5%) return since Sep 26, 2024 at 3:07 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/27/1727466421.png&#34; alt=&#34;images/2024/09/27/1727466421.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 1st 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;-$68.75&lt;/strong&gt; (-3%) return since Sep 27, 2024 at 4:12 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/27/1727466427.png&#34; alt=&#34;images/2024/09/27/1727466427.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-26)</title>
       <link>/posts/1727382365-market-2024-09-26-thursday/</link>
       <pubDate>Thu, 26 Sep 2024 21:26:06 +0100</pubDate>
-      
       <guid>/posts/1727382365-market-2024-09-26-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 2nd 7/8 DTE Short Straddle
-Closed for +$387.50 (+10%) return since Sep 24, 2024 at 3:03 PM
-New Position /ESZ24 Oct 4th 7/8 DTE Short Straddle
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Sep 30th 3DTE Short Straddle (Exp)
-So far, +$175 (+7.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/25/1727285675.png&#34; alt=&#34;images/2024/09/25/1727285675.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/26/1727382729.png&#34; alt=&#34;images/2024/09/26/1727382729.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 2nd 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$387.50&lt;/strong&gt; (+10%) return since Sep 24, 2024 at 3:03 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 4th 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/26/1727382738.png&#34; alt=&#34;images/2024/09/26/1727382738.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;h3 id=&#34;23-dte&#34;&gt;2/3 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 30th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-25)</title>
       <link>/posts/1727284959-market-2024-09-25-wednesday/</link>
       <pubDate>Wed, 25 Sep 2024 18:22:39 +0100</pubDate>
-      
       <guid>/posts/1727284959-market-2024-09-25-wednesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESZ24 Oct 2nd 7/8 DTE Short Straddle
-So far, +$362.50 (+9.5%) return since Sep 24, 2024 at 3:03 PM But looking to close it before day end.
-/ESZ24 Sep 25th 0DTE Short Straddle
-Opened and closed a 0DTE trade
-Closed for +$112.50 (+13%) return since Sep 25, 2024 at 3:17 PM
-New Position Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/24/1727201750.png&#34; alt=&#34;images/2024/09/24/1727201750.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/25/1727285675.png&#34; alt=&#34;images/2024/09/25/1727285675.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 2nd 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;So far, &lt;strong&gt;+$362.50&lt;/strong&gt; (+9.5%) return since Sep 24, 2024 at 3:03 PM&#xA;But looking to close it before day end.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/25/1727285684.png&#34; alt=&#34;images/2024/09/25/1727285684.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 25th 0DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Opened and closed a 0DTE trade&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$112.50&lt;/strong&gt; (+13%) return since Sep 25, 2024 at 3:17 PM&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-24)</title>
       <link>/posts/1727201032-market-2024-09-24-tuesday/</link>
       <pubDate>Tue, 24 Sep 2024 19:03:52 +0100</pubDate>
-      
       <guid>/posts/1727201032-market-2024-09-24-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions New Position /ESZ24 Oct 2nd 7/8 DTE Short Straddle
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Sep 26th 3DTE Short Straddle (Exp)
-Closed for +$587.50 return since Sep 23, 2024 at 3:20 PM
-/ESZ24 Sep 27th 3DTE Short Straddle (Exp)
-New 3 DTE Expiry Straddle</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/23/1727117565.png&#34; alt=&#34;images/2024/09/23/1727117565.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/24/1727201750.png&#34; alt=&#34;images/2024/09/24/1727201750.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Oct 2nd 7/8 DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/24/1727201756.png&#34; alt=&#34;images/2024/09/24/1727201756.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;h3 id=&#34;23-dte&#34;&gt;2/3 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 26th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$587.50&lt;/strong&gt; return since Sep 23, 2024 at 3:20 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 27th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-23)</title>
       <link>/posts/1727116820-market-2024-09-23-monday/</link>
       <pubDate>Mon, 23 Sep 2024 19:40:21 +0100</pubDate>
-      
       <guid>/posts/1727116820-market-2024-09-23-monday/</guid>
-      <description>Missed Friday update. This is how the market looked yesterday:
-Existing Positions New Position No news positions today.
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Sep 23rd 3DTE Short Straddle (Exp)
-Closed for +$628.25 return since Sep 18, 2024 at 8:36 PM
-/ESZ24 Sep 26th 3DTE Short Straddle (Exp)
-7/8 DTE /ESZ24 Sep 24th 7DTE Short Straddle (Exp)
-Closed for +$1,024.</description>
+      <description>&lt;p&gt;Missed Friday update. This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/23/1727117565.png&#34; alt=&#34;images/2024/09/23/1727117565.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;No news positions today.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;h3 id=&#34;23-dte&#34;&gt;2/3 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 23rd 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$628.25&lt;/strong&gt; return since Sep 18, 2024 at 8:36 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 26th 3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/23/1727117573.png&#34; alt=&#34;images/2024/09/23/1727117573.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;78-dte&#34;&gt;7/8 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 24th 7DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-19)</title>
       <link>/posts/1726770784-market-2024-09-19-thursday/</link>
       <pubDate>Thu, 19 Sep 2024 19:33:04 +0100</pubDate>
-      
       <guid>/posts/1726770784-market-2024-09-19-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Around 2% up move so upside is risky for all trades.
-Existing Positions New Position No news positions today.
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE 2/3 DTE /ESZ24 Sep 23rd 3DTE Short Straddle
-7/8 DTE /ESZ24 Sep 24th 7DTE Short Straddle (Exp)
-/ESZ24 Sep 25th 7DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/18/1726688539.png&#34; alt=&#34;images/2024/09/18/1726688539.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/19/1726771140.png&#34; alt=&#34;images/2024/09/19/1726771140.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Around 2% up move so upside is risky for all trades.&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;No news positions today.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;h3 id=&#34;23-dte&#34;&gt;2/3 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 23rd 3DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/19/1726771148.png&#34; alt=&#34;images/2024/09/19/1726771148.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;78-dte&#34;&gt;7/8 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 24th 7DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/19/1726771156.png&#34; alt=&#34;images/2024/09/19/1726771156.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESZ24 Sep 25th 7DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-18)</title>
       <link>/posts/1726687648-market-2024-09-18-wednesday/</link>
       <pubDate>Wed, 18 Sep 2024 20:27:29 +0100</pubDate>
-      
       <guid>/posts/1726687648-market-2024-09-18-wednesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions New Position No news positions today.
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE /ESU24 Sep 18th 0DTE Short Straddle
-Closed just before the Interest rate announcement for +$124.75 return since Sep 18, 2024 at 4:06 PM
-2/3 DTE /ESU24 Sep 19th 2/3DTE Short Straddle (Exp)
-Closed for +$400 return since Sep 16, 2024 at 8:54 PM</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/17/1726599103.png&#34; alt=&#34;images/2024/09/17/1726599103.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/18/1726688539.png&#34; alt=&#34;images/2024/09/18/1726688539.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;No news positions today.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 18th 0DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed just before the Interest rate announcement for +$124.75 return since Sep 18, 2024 at 4:06 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;23-dte&#34;&gt;2/3 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 19th 2/3DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-17)</title>
       <link>/posts/1726598428-market-2024-09-17-tuesday/</link>
       <pubDate>Tue, 17 Sep 2024 19:40:28 +0100</pubDate>
-      
       <guid>/posts/1726598428-market-2024-09-17-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESU24 Sep 20th 7DTE Short Straddle
-Closed for +$825 return since Sep 12, 2024 at 6:41 PM
-New Position No news positions today due to Sept volatility and FOMC Interest rate decision.
-Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.
-0 DTE /ESU24 Sep 17th 0DTE Short Straddle (Exp)</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/16/1726516133.png&#34; alt=&#34;images/2024/09/16/1726516133.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/17/1726599103.png&#34; alt=&#34;images/2024/09/17/1726599103.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 20th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$825&lt;/strong&gt; return since Sep 12, 2024 at 6:41 PM&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;No news positions today due to Sept volatility and FOMC Interest rate decision.&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;&#xA;&lt;h3 id=&#34;0-dte&#34;&gt;0 DTE&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 17th 0DTE Short Straddle (Exp)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-16)</title>
       <link>/posts/1726515438-market-2024-09-16-monday/</link>
       <pubDate>Mon, 16 Sep 2024 20:37:18 +0100</pubDate>
-      
       <guid>/posts/1726515438-market-2024-09-16-monday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESU24 Sep 16th 7DTE Short Straddle
-Closed it for a scratch which was pretty good as the market moved around 5% in a week.
-Closed for -$12.50 (-0.2%) return since Sep 9, 2024 at 5:51 PM
-/ESU24 Sep 20th 7DTE Short Straddle
-Close one straddle to reduce margin requirement and bring strike back to the middle of straddle.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/13/1726249027.png&#34; alt=&#34;images/2024/09/13/1726249027.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/16/1726516133.png&#34; alt=&#34;images/2024/09/16/1726516133.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 16th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed it for a scratch which was pretty good as the market moved around 5% in a week.&lt;/p&gt;&#xA;&lt;p&gt;Closed for -$12.50 (-0.2%) return since Sep 9, 2024 at 5:51 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 20th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Close one straddle to reduce margin requirement and bring strike back to the middle of straddle.&#xA;Looking to close this tomorrow before the FOMC announcement.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-13)</title>
       <link>/posts/1726248425-market-2024-09-13-friday/</link>
       <pubDate>Fri, 13 Sep 2024 18:27:05 +0100</pubDate>
-      
       <guid>/posts/1726248425-market-2024-09-13-friday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions /ESU24 Sep 16th 7DTE Short Straddle
-BTC two almost worthless put. STO ATM Put
-XSP Sep 17th 7DTE Short Straddle
-Closed for -$420 return since Sep 10, 2024, 7:11 PM
-/ESU24 Sep 20th 7DTE Short Straddle
-Added another ATM to expand the area and profit target.
-New Position Experiments Some trades that I&amp;rsquo;m following to learn and try out other strategies.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/12/1726165859.png&#34; alt=&#34;images/2024/09/12/1726165859.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/13/1726249027.png&#34; alt=&#34;images/2024/09/13/1726249027.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 16th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;BTC two almost worthless put. STO ATM Put&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/13/1726249037.png&#34; alt=&#34;images/2024/09/13/1726249037.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 17th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;-$420&lt;/strong&gt; return since Sep 10, 2024, 7:11 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 20th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Added another ATM to expand the area and profit target.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/13/1726249046.png&#34; alt=&#34;images/2024/09/13/1726249046.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;&#xA;&lt;p&gt;Some trades that I&amp;rsquo;m following to learn and try out other strategies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-12)</title>
       <link>/posts/1726165066-market-2024-09-12-thursday/</link>
       <pubDate>Thu, 12 Sep 2024 19:17:46 +0100</pubDate>
-      
       <guid>/posts/1726165066-market-2024-09-12-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Things are starting to look green again.
-It was a strange day and certainly not good for short straddles. The market went up without taking any stops
-Existing Positions /ESU24 Sep 16th 7DTE Short Straddle
-Added two more puts to expand the tent.
-XSP Sep 17th 7DTE Short Straddle
-Had to make one adjustment but may need another one as the current price is already too close to breakeven.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/11/1726069308.png&#34; alt=&#34;images/2024/09/11/1726069308.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;Things are starting to look green again.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/12/1726165859.png&#34; alt=&#34;images/2024/09/12/1726165859.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It was a strange day and certainly not good for short straddles.&#xA;The market went up without taking any stops&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/12/1726166099.png&#34; alt=&#34;images/2024/09/12/1726166099.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 16th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Added two more puts to expand the tent.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/12/1726165868.png&#34; alt=&#34;images/2024/09/12/1726165868.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 17th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Had to make one adjustment but may need another one as the current price is already too close to breakeven.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-11)</title>
       <link>/posts/1726068649-market-2024-09-11-wednesday/</link>
       <pubDate>Wed, 11 Sep 2024 16:30:49 +0100</pubDate>
-      
       <guid>/posts/1726068649-market-2024-09-11-wednesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Existing Positions XSP Sep 13th 7DTE Short Straddle
-Closed for +$246 return since Sep 6, 2024 at 6:31 PM
-/ESU24 Sep 16th 7DTE Short Straddle
-No adjustment required yet although the big swing is taking it closer to the down-side.
-XSP Sep 17th 7DTE Short Straddle
-No adjustment required as current price is almost around the middle.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/10/1725995183.png&#34; alt=&#34;images/2024/09/10/1725995183.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/11/1726069308.png&#34; alt=&#34;images/2024/09/11/1726069308.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 13th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed for &lt;strong&gt;+$246&lt;/strong&gt; return since Sep 6, 2024 at 6:31 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;/ESU24 Sep 16th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;No adjustment required yet although the big swing is taking it closer to the down-side.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/11/1726069315.png&#34; alt=&#34;images/2024/09/11/1726069315.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 17th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;No adjustment required as current price is almost around the middle.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-10)</title>
       <link>/posts/1725956200-market-2024-09-10-tuesday/</link>
       <pubDate>Tue, 10 Sep 2024 09:16:40 +0100</pubDate>
-      
       <guid>/posts/1725956200-market-2024-09-10-tuesday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today (up 1.12%):
-Existing Positions XSP Sep 11th 7DTE Short Straddle
-Closed it for +$134 return since Sep 4, 2024, 6:37 PM
-XSP Sep 12th 7DTE Short Straddle
-Closed it for +$140 return since Sep 5, 2024, 6:46 PM
-XSP Sep 13th 7DTE Short Straddle
-No adjustment required yet (3DTE now) but if the market keeps going up then will need to adjust it.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/09/1725909933.png&#34; alt=&#34;images/2024/09/09/1725909933.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today (up 1.12%):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/10/1725995183.png&#34; alt=&#34;images/2024/09/10/1725995183.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 11th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed it for &lt;strong&gt;+$134&lt;/strong&gt; return since Sep 4, 2024, 6:37 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 12th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed it for &lt;strong&gt;+$140&lt;/strong&gt; return since Sep 5, 2024, 6:46 PM&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 13th 7DTE Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;No adjustment required yet (3DTE now) but if the market keeps going up then will need to adjust it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-09)</title>
       <link>/posts/1725871619-market-2024-09-09-monday/</link>
       <pubDate>Mon, 09 Sep 2024 09:46:59 +0100</pubDate>
-      
       <guid>/posts/1725871619-market-2024-09-09-monday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Market down around -1.68% on Friday
-Existing Positions XSP Sep 11th 552 Short Straddle
-No change. Still going and safe but will plan to close it early tomorrow.
-XSP Sep 12th 550 Short Straddle
-No change. Still safe so will keep it open for another day
-XSP Sep 13th 541 Short Straddle
-No adjustment required yet but if the market keeps going up then will need to adjust it.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/06/1725645230.png&#34; alt=&#34;images/2024/09/06/1725645230.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/09/1725909933.png&#34; alt=&#34;images/2024/09/09/1725909933.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Market down around -1.68% on Friday&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 11th 552 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;No change. Still going and safe but will plan to close it early tomorrow.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/09/1725909942.png&#34; alt=&#34;images/2024/09/09/1725909942.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 12th 550 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;No change. Still safe so will keep it open for another day&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/09/1725909953.png&#34; alt=&#34;images/2024/09/09/1725909953.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 13th 541 Short Straddle&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-06)</title>
       <link>/posts/1725643268-market-2024-09-06-friday/</link>
       <pubDate>Fri, 06 Sep 2024 18:21:08 +0100</pubDate>
-      
       <guid>/posts/1725643268-market-2024-09-06-friday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-Market down around -1.51%
-Existing Positions XSP Sep 9th 558 Short Straddle
-Closed it for -$331 loss
-XSP Sep 10th 556 Short Straddle
-Closed it for +$183 profit
-XSP Sep 11th 552 Short Straddle
-Adjusted. Close existing untested side. Sold another ATM Call.
-New Position XSP Sep 12th 550 Short Straddle
-Opened yesterday and had to adjust it today due to large down move.</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/05/1725523593.png&#34; alt=&#34;images/2024/09/05/1725523593.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/06/1725645230.png&#34; alt=&#34;images/2024/09/06/1725645230.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Market down around -1.51%&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 9th 558 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed it for &lt;strong&gt;-$331&lt;/strong&gt; loss&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 10th 556 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Closed it for &lt;strong&gt;+$183&lt;/strong&gt; profit&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 11th 552 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Adjusted. Close existing untested side. Sold another ATM Call.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/06/1725645240.png&#34; alt=&#34;images/2024/09/06/1725645240.png&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;new-position&#34;&gt;New Position&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 12th 550 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Opened yesterday and had to adjust it today due to large down move.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-05)</title>
       <link>/posts/1725523483-market-2024-09-05-thursday/</link>
       <pubDate>Thu, 05 Sep 2024 09:04:43 +0100</pubDate>
-      
       <guid>/posts/1725523483-market-2024-09-05-thursday/</guid>
-      <description>This is how the market looked yesterday:
-And this is how it looks today:
-There is a general downward trend across most indexes and sectors, particularly in the shorter-term (5-day) moving averages, suggesting a short-term market pullback or increased volatility.
-Existing Positions XSP Sep 6th 562 Short Straddle
-It recovered a little, but I closed it for a loss as it is getting very close to expiry.
-XSP Sep 9th 558 Short Straddle</description>
+      <description>&lt;p&gt;This is how the market looked yesterday:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/04/1725444863.png&#34; alt=&#34;images/2024/09/04/1725444863.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/05/1725523593.png&#34; alt=&#34;images/2024/09/05/1725523593.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;There is a general downward trend across most indexes and sectors,&#xA;particularly in the shorter-term (5-day) moving averages,&#xA;suggesting a short-term market pullback or increased volatility.&lt;/p&gt;&#xA;&lt;h3 id=&#34;existing-positions&#34;&gt;Existing Positions&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 6th 562 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It recovered a little, but I closed it for a loss as it is getting very close to expiry.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 9th 558 Short Straddle&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Market Analysis and Straddle Adjustment Strategies (2024-09-04)</title>
       <link>/posts/1725443356-market-2024-09-04-tuesday/</link>
       <pubDate>Wed, 04 Sep 2024 10:49:16 +0100</pubDate>
-      
       <guid>/posts/1725443356-market-2024-09-04-tuesday/</guid>
-      <description>This is how the market looked yesterday (2024-09-03):
-And this is how it looks today:
-This is after a 2.12% drop.
-This is how the straddles look before market open, so I think I need to adjust at least one which is expiring on the 6th.
-XSP Sep 6th 562 Short Straddle
-The price is almost touching the put strike. We have already done one adjustment here, so there are a couple of potential further adjustments:</description>
+      <description>&lt;p&gt;This is how the market looked yesterday (2024-09-03):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/04/1725444830.png&#34; alt=&#34;images/2024/09/04/1725444830.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And this is how it looks today:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/04/1725444863.png&#34; alt=&#34;images/2024/09/04/1725444863.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is after a 2.12% drop.&lt;/p&gt;&#xA;&lt;p&gt;This is how the straddles look before market open, so I think I need to adjust at least one which is expiring on the 6th.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;XSP Sep 6th 562 Short Straddle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/09/04/1725444896.png&#34; alt=&#34;images/2024/09/04/1725444896.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The price is almost touching the put strike. We have already done one adjustment here, so there are a couple of potential further adjustments:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

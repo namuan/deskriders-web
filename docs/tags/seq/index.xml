@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>seq on deskriders</title>
+    <title>Seq on deskriders</title>
     <link>/tags/seq/</link>
-    <description>Recent content in seq on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Seq on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate><atom:link href="/tags/seq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2020 08:06:04 +0000</lastBuildDate>
+    <atom:link href="/tags/seq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip 10 : Using seq to generate padded numbers</title>
       <link>/posts/023-tooltip-10-seq-padded-numbers/</link>
       <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/posts/023-tooltip-10-seq-padded-numbers/</guid>
-      <description>In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.
-📝:
-👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux</description>
+      <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll use &amp;lsquo;seq&amp;rsquo; command line tool to generate padded numbers.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/fsjUghQCLoY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

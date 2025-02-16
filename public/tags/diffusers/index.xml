@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusers on deskriders</title>
+    <link>//localhost:1313/tags/diffusers/</link>
+    <description>Recent content in Diffusers on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Sep 2024 11:22:15 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/diffusers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Diffusers Image Outpaint Huggingface demo locally on a Mac</title>
+      <link>//localhost:1313/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</link>
+      <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
+      <guid>//localhost:1313/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</guid>
+      <description>&lt;p&gt;See demo &lt;a href=&#34;https://x.com/namuan_twt/status/1836711982340214788&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Clone HuggingFace space locally&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Create Virtual Environment and Install Dependencies&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3.12 -m venv venv&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;source venv/bin/activate&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install -r requirements.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Update source to use &lt;code&gt;mps&lt;/code&gt; backend&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/09/19/1726741576.png&#34; alt=&#34;images/2024/09/19/1726741576.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Run gradio application. It&amp;rsquo;ll take a little time to download all models required to run this space.&#xA;If stuck then exit the process and try again. It should print a link to localhost to open the application.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;venv/bin/gradio app.py&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

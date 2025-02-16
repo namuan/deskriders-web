@@ -9,25 +9,28 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Selenium Firefox and saving webpage as PDF"/>
-<meta name="twitter:description" content="A quick sample to save a webpage as PDF using Selenium with Firefox. Here I&rsquo;m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Selenium Firefox and saving webpage as PDF">
+  <meta name="twitter:description" content="A quick sample to save a webpage as PDF using Selenium with Firefox. Here I’m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
 You can read more about using Helium here.
 Installing the selenium wrapper
 pip3 install helium Python code
-#!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&#34;--start-maximized&#34;) options.set_preference(&#34;print.always_print_silent&#34;, True) options."/>
+#!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&#34;--start-maximized&#34;) options.set_preference(&#34;print.always_print_silent&#34;, True) options.set_preference(&#34;print.printer_Mozilla_Save_to_PDF.print_to_file&#34;, True) options.set_preference(&#34;print_printer&#34;, &#34;Mozilla Save to PDF&#34;) driver = start_firefox(&#34;https://www.deskriders.dev/posts/1639863087-python-selenium/&#34;, options=options) driver.execute_script(&#34;window.print();&#34;) sleep(2) # Found that a little wait is needed for the print to be rendered otherwise the file will be corrupted driver.quit() Once the above script is finished, you’ll find mozilla.pdf in the current directly.">
 
-    <meta property="og:title" content="Selenium Firefox and saving webpage as PDF" />
-<meta property="og:description" content="A quick sample to save a webpage as PDF using Selenium with Firefox. Here I&rsquo;m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
+    <meta property="og:url" content="/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Selenium Firefox and saving webpage as PDF">
+  <meta property="og:description" content="A quick sample to save a webpage as PDF using Selenium with Firefox. Here I’m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
 You can read more about using Helium here.
 Installing the selenium wrapper
 pip3 install helium Python code
-#!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&#34;--start-maximized&#34;) options.set_preference(&#34;print.always_print_silent&#34;, True) options." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-12-29T15:37:40+00:00" />
-<meta property="article:modified_time" content="2021-12-29T15:37:40+00:00" />
-
+#!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&#34;--start-maximized&#34;) options.set_preference(&#34;print.always_print_silent&#34;, True) options.set_preference(&#34;print.printer_Mozilla_Save_to_PDF.print_to_file&#34;, True) options.set_preference(&#34;print_printer&#34;, &#34;Mozilla Save to PDF&#34;) driver = start_firefox(&#34;https://www.deskriders.dev/posts/1639863087-python-selenium/&#34;, options=options) driver.execute_script(&#34;window.print();&#34;) sleep(2) # Found that a little wait is needed for the print to be rendered otherwise the file will be corrupted driver.quit() Once the above script is finished, you’ll find mozilla.pdf in the current directly.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-12-29T15:37:40+00:00">
+    <meta property="article:modified_time" content="2021-12-29T15:37:40+00:00">
 
 
     
@@ -70,7 +73,7 @@ pip3 install helium Python code
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -197,18 +200,6 @@ pip3 install helium Python code
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

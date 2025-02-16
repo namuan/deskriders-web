@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>styling on deskriders</title>
+    <title>Styling on deskriders</title>
     <link>/tags/styling/</link>
-    <description>Recent content in styling on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Styling on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Dec 2022 09:35:08 +0000</lastBuildDate><atom:link href="/tags/styling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Dec 2022 09:35:08 +0000</lastBuildDate>
+    <atom:link href="/tags/styling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Styling Lazy Trader</title>
       <link>/posts/1671960908-html-lazy-trader-styling-chatgpt/</link>
       <pubDate>Sun, 25 Dec 2022 09:35:08 +0000</pubDate>
-      
       <guid>/posts/1671960908-html-lazy-trader-styling-chatgpt/</guid>
-      <description>Conversation with ChatGPT when developing Lazy Trader
-You: In plain css, I want the label, input box and the button to appear in a single row in the middle of the screen.
-ChatGPT: To create a layout with a label, input box, and button in a single row in the middle of the screen using CSS, you can use the display: flex property to create a flex container, the justify-content: center property to center the elements horizontally, and the align-items: center property to center the elements vertically.</description>
+      <description>&lt;p&gt;Conversation with ChatGPT when developing &lt;a href=&#34;https://namuan.github.io/lazy-trader/?symbol=TSLA&#34;&gt;Lazy Trader&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;You:&#xA;In plain css, I want the label, input box and the button to appear in a single row in the middle of the screen.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;ChatGPT:&#xA;To create a layout with a label, input box, and button in a single row in the middle of the screen using CSS, you can use the &lt;code&gt;display: flex&lt;/code&gt; property to create a flex container, the &lt;code&gt;justify-content: center&lt;/code&gt; property to center the elements horizontally, and the &lt;code&gt;align-items: center&lt;/code&gt; property to center the elements vertically.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

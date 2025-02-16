@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>streams on deskriders</title>
+    <title>Streams on deskriders</title>
     <link>/tags/streams/</link>
-    <description>Recent content in streams on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Streams on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2020 13:05:38 +0100</lastBuildDate><atom:link href="/tags/streams/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2020 13:05:38 +0100</lastBuildDate>
+    <atom:link href="/tags/streams/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java 8&#43;: Using Collectors as reducers</title>
       <link>/posts/027-java-collectors-reducer/</link>
       <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
-      
       <guid>/posts/027-java-collectors-reducer/</guid>
-      <description>A simple example to show how to use Collectors as reducers in Java 8+.
-Say, we have a simple Transaction class consists of the currency and the value of the transaction.
-Transaction class is sprinkled with Lombok annotation to make use of Builder.
-@Value @Builder public static class Transaction { String currency; int value; } And given the following set of data:
-GBP Transactions = 2, USD Transactions = 1, CAD Transactions = 1</description>
+      <description>&lt;p&gt;A simple example to show how to use Collectors as reducers in Java 8+.&lt;/p&gt;&#xA;&lt;p&gt;Say, we have a simple &lt;code&gt;Transaction&lt;/code&gt; class consists of the currency and the value of the transaction.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Transaction&lt;/code&gt; class is sprinkled with Lombok annotation to make use of Builder.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Value&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;@Builder&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Transaction&lt;/span&gt; {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        String currency;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; value;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And given the following set of data:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GBP Transactions = 2&lt;/strong&gt;,&#xA;&lt;strong&gt;USD Transactions = 1&lt;/strong&gt;,&#xA;&lt;strong&gt;CAD Transactions = 1&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

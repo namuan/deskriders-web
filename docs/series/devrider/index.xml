@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devrider on deskriders</title>
+    <title>Devrider on deskriders</title>
     <link>/series/devrider/</link>
-    <description>Recent content in devrider on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Devrider on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2020 19:05:42 +0000</lastBuildDate><atom:link href="/series/devrider/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jan 2020 19:05:42 +0000</lastBuildDate>
+    <atom:link href="/series/devrider/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing DevRider :: One Desktop App for Common Development Tools</title>
       <link>/posts/010-introducing-devrider/</link>
       <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
-      
       <guid>/posts/010-introducing-devrider/</guid>
-      <description>There is a serious problem with the state of simple development tools on the internet.
-Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups which makes it annoying and risky to use.
-And then there is also a huge problem with privacy and leaking any private data that is used on any of these websites.
-Although it is impossible to replace them altogether, let me introduce you to DevRider, a new open source to provide some of the common tools in an extensible desktop application.</description>
+      <description>&lt;p&gt;There is a serious problem with the state of simple development tools on the internet.&lt;/p&gt;&#xA;&lt;p&gt;Most of the websites providing simple encoders/decoders/formatters/prettifiers are filled with ads and popups which makes it annoying and risky to use.&lt;/p&gt;&#xA;&lt;p&gt;And then there is also a huge problem with privacy and leaking any private data that is used on any of these websites.&lt;/p&gt;&#xA;&lt;p&gt;Although it is impossible to replace them altogether, let me introduce you to &lt;a href=&#34;/projects/dev-rider/&#34;&gt;DevRider&lt;/a&gt;, a new open source to provide some of the common tools in an extensible desktop application.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

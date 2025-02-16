@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Installing Tortoise TTS">
+  <meta name="twitter:description" content="List all the steps I took to install Tortoise TTS on my MacOS">
+
+    <meta property="og:url" content="//localhost:1313/posts/1672606049-installing-tortoise-tts/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Installing Tortoise TTS">
+  <meta property="og:description" content="List all the steps I took to install Tortoise TTS on my MacOS">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-01-01T20:47:29+00:00">
+    <meta property="article:modified_time" content="2023-01-01T20:47:29+00:00">
+    <meta property="article:tag" content="TTS">
+    <meta property="article:tag" content="Ai">
+
+
+    
+      <base href="//localhost:1313/posts/1672606049-installing-tortoise-tts/">
+    
+    <title>
+  Installing Tortoise TTS · deskriders
+</title>
+
+    
+      <link rel="canonical" href="//localhost:1313/posts/1672606049-installing-tortoise-tts/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//localhost:1313/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Installing Tortoise TTS</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2023-01-01T20:47:29Z'>
+                January 1, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One minute read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/tools/">tools</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/tts/">tts</a>
+      <span class="separator">•</span>
+    <a href="/tags/ai/">ai</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>These instructions are only tested on macOS and valid on 1st of January 2023.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git clone https://github.com/neonbjb/tortoise-tts.git
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cd tortoise-tts
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>python3.9 -m venv venv
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>source venv/bin/activate
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pip install torch torchvision
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>python3.9 setup.py install
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pip uninstall numpy
+</span></span><span style="display:flex;"><span>pip install numba
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pip uninstall threadpoolctl
+</span></span><span style="display:flex;"><span>pip install scikit-learn<span style="color:#f92672">==</span>1.2.0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Rerunning due to failures in the previous step because on mismatched versions</span>
+</span></span><span style="display:flex;"><span>python3.9 setup.py install
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pip install torchaudio
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>python tortoise/do_tts.py --text <span style="color:#e6db74">&#34;I&#39;m going to speak this&#34;</span> --voice random --preset fast
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ls -l results
+</span></span><span style="display:flex;"><span>open results/random_0_0.wav
+</span></span></code></pre></div>
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

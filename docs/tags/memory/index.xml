@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>memory on deskriders</title>
+    <title>Memory on deskriders</title>
     <link>/tags/memory/</link>
-    <description>Recent content in memory on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Memory on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2024 09:00:03 +0000</lastBuildDate><atom:link href="/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Nov 2024 09:00:03 +0000</lastBuildDate>
+    <atom:link href="/tags/memory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minto Pyramid principle</title>
       <link>/posts/1731747603-minto-pyramid/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      
       <guid>/posts/1731747603-minto-pyramid/</guid>
-      <description>User: What is Minto pyramid principle for thinking and writing
-Assistant: The Minto Pyramid Principle, developed by Barbara Minto, is a structured approach for organizing information in writing and thinking. It is especially useful for creating clear and compelling reports, presentations, and documents. The principle is based on the idea that ideas should form a pyramid, with the main idea at the top and supporting arguments and details underneath.
-Here are the key components of the Minto Pyramid Principle:</description>
+      <description>&lt;p&gt;User:&#xA;What is Minto pyramid principle for thinking and writing&lt;/p&gt;&#xA;&lt;p&gt;Assistant:&#xA;The Minto Pyramid Principle, developed by Barbara Minto, is a structured approach for organizing information in writing and thinking. It is especially useful for creating clear and compelling reports, presentations, and documents. The principle is based on the idea that ideas should form a pyramid, with the main idea at the top and supporting arguments and details underneath.&lt;/p&gt;&#xA;&lt;p&gt;Here are the key components of the Minto Pyramid Principle:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -9,21 +9,27 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Overlay button on a PyQt5 widget"/>
-<meta name="twitter:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&rsquo;ll define the button and the relative positioning.
-class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self."/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Overlay button on a PyQt5 widget">
+  <meta name="twitter:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
+First, we’ll define the button and the relative positioning.
+class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.width(), self.height()) def resizeEvent(self, event): #2 super().resizeEvent(event) self.update_position() def mousePressEvent(self, event): #4 self.parent().floatingButtonClicked.emit() Inheriting from QPushButton. Overriding resizeEvent and updating position of the this button based on the parent position. This will add the button to the top. If you need to place it at the button then use something like parent_rect.height() - self.paddingLeft. Catching the mouse pressed event and calling an signal on the parent widget. With the button defined, we’ll embed it in a custom QPlainTextEdit and define appropriate interfaces for the caller to work with the floating button.">
 
-    <meta property="og:title" content="Overlay button on a PyQt5 widget" />
-<meta property="og:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
-First, we&rsquo;ll define the button and the relative positioning.
-class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/007-pyqt5-overlay-button-widget/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-01-02T11:51:10+00:00" />
-<meta property="article:modified_time" content="2020-01-02T11:51:10+00:00" />
-
+    <meta property="og:url" content="/posts/007-pyqt5-overlay-button-widget/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Overlay button on a PyQt5 widget">
+  <meta property="og:description" content="This is a short post on how to add a floating button on top of a widget in PyQt5.
+First, we’ll define the button and the relative positioning.
+class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent): super().__init__(parent) self.paddingLeft = 5 self.paddingTop = 5 def update_position(self): if hasattr(self.parent(), &#39;viewport&#39;): parent_rect = self.parent().viewport().rect() else: parent_rect = self.parent().rect() if not parent_rect: return x = parent_rect.width() - self.width() - self.paddingLeft y = self.paddingTop #3 self.setGeometry(x, y, self.width(), self.height()) def resizeEvent(self, event): #2 super().resizeEvent(event) self.update_position() def mousePressEvent(self, event): #4 self.parent().floatingButtonClicked.emit() Inheriting from QPushButton. Overriding resizeEvent and updating position of the this button based on the parent position. This will add the button to the top. If you need to place it at the button then use something like parent_rect.height() - self.paddingLeft. Catching the mouse pressed event and calling an signal on the parent widget. With the button defined, we’ll embed it in a custom QPlainTextEdit and define appropriate interfaces for the caller to work with the floating button.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-02T11:51:10+00:00">
+    <meta property="article:modified_time" content="2020-01-02T11:51:10+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Pyqt5">
+    <meta property="article:tag" content="Tutorial">
 
 
     
@@ -66,7 +72,7 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -340,18 +346,6 @@ class FloatingButtonWidget(QtWidgets.QPushButton): #1 def __init__(self, parent)
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

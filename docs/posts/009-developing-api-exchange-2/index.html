@@ -9,25 +9,31 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Developing API exchange sharing service - Part II"/>
-<meta name="twitter:description" content="Please check the previous part to know the background of this project.
-In this part, we&rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Developing API exchange sharing service - Part II">
+  <meta name="twitter:description" content="Please check the previous part to know the background of this project.
+In this part, we’ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I’ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
-The first step is to create a new project folder and initialise package."/>
+The first step is to create a new project folder and initialise package.json file which will be used to define and install Serverless plugins.">
 
-    <meta property="og:title" content="Developing API exchange sharing service - Part II" />
-<meta property="og:description" content="Please check the previous part to know the background of this project.
-In this part, we&rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
-I&rsquo;ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
+    <meta property="og:url" content="/posts/009-developing-api-exchange-2/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Developing API exchange sharing service - Part II">
+  <meta property="og:description" content="Please check the previous part to know the background of this project.
+In this part, we’ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.
+I’ll be using Python Flask framework for defining the APIs and Serverless framework to manage the infrastructure and deployment.
 Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.
-The first step is to create a new project folder and initialise package." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/009-developing-api-exchange-2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-01-03T18:51:44+00:00" />
-<meta property="article:modified_time" content="2020-01-03T18:51:44+00:00" />
-
+The first step is to create a new project folder and initialise package.json file which will be used to define and install Serverless plugins.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-03T18:51:44+00:00">
+    <meta property="article:modified_time" content="2020-01-03T18:51:44+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Serverless">
+    <meta property="article:tag" content="Aws">
 
 
     
@@ -70,7 +76,7 @@ The first step is to create a new project folder and initialise package." />
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -232,8 +238,7 @@ Here we&rsquo;ll be using <a href="https://docs.aws.amazon.com/apigateway/latest
 <p>You can also check the complete <a href="https://github.com/namuan/api-exchange-server-guide/blob/master/serverless.yml">file</a>.</p>
 <p>That should be everything to deploy on AWS Lambda. The next step requires an AWS profile with appropriate permissions to deploy and create Lambda resources.</p>
 <blockquote>
-<p>Note that this is where you may be charged.</p>
-</blockquote>
+<p>Note that this is where you may be charged.</p></blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ AWS_PROFILE<span style="color:#f92672">=</span>myprofile ./node_modules/.bin/serverless deploy -v
 </span></span></code></pre></div><p>It will take some time to create all the resources before printing out the endpoints that it generated for the Api Gateway.</p>
 <p><img src="/images/009/bs3nb0oxq24qlnix7bvh.png" alt="Serverless output"></p>
@@ -281,18 +286,6 @@ Here we&rsquo;ll be using <a href="https://docs.aws.amazon.com/apigateway/latest
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

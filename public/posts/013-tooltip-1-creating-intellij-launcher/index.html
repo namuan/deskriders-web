@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,28 +9,40 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tooltip # 1 :: Creating command line launcher for IntelliJ products"/>
-<meta name="twitter:description" content="Create command line launcher for IntelliJ products"/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tooltip # 1 :: Creating command line launcher for IntelliJ products">
+  <meta name="twitter:description" content="Create command line launcher for IntelliJ products">
 
-    <meta property="og:title" content="Tooltip # 1 :: Creating command line launcher for IntelliJ products" />
-<meta property="og:description" content="Create command line launcher for IntelliJ products" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/013-tooltip-1-creating-intellij-launcher/" />
-<meta property="article:published_time" content="2020-01-28T16:38:45+00:00" />
-<meta property="article:modified_time" content="2020-01-28T16:38:45+00:00" /><meta property="og:see_also" content="/posts/1639311183-wiremock-match-multiple-urls/" /><meta property="og:see_also" content="/posts/1638735561-safari-export-bookmarks/" /><meta property="og:see_also" content="/posts/1591343684-plantuml-svg-export/" /><meta property="og:see_also" content="/posts/1591301414-plantuml-shortcut/" /><meta property="og:see_also" content="/posts/026-tooltip-13-cli-functions-find/" /><meta property="og:see_also" content="/posts/025-tooltip-12-svgo-optimize-svg-files/" />
-
+    <meta property="og:url" content="//localhost:1313/posts/013-tooltip-1-creating-intellij-launcher/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Tooltip # 1 :: Creating command line launcher for IntelliJ products">
+  <meta property="og:description" content="Create command line launcher for IntelliJ products">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-28T16:38:45+00:00">
+    <meta property="article:modified_time" content="2020-01-28T16:38:45+00:00">
+    <meta property="article:tag" content="Ide">
+    <meta property="article:tag" content="Productivity">
+      <meta property="og:see_also" content="//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/">
+      <meta property="og:see_also" content="//localhost:1313/posts/1638735561-safari-export-bookmarks/">
+      <meta property="og:see_also" content="//localhost:1313/posts/1591343684-plantuml-svg-export/">
+      <meta property="og:see_also" content="//localhost:1313/posts/1591301414-plantuml-shortcut/">
+      <meta property="og:see_also" content="//localhost:1313/posts/026-tooltip-13-cli-functions-find/">
+      <meta property="og:see_also" content="//localhost:1313/posts/025-tooltip-12-svgo-optimize-svg-files/">
+      <meta property="og:see_also" content="//localhost:1313/posts/024-tooltip-11-lsof-open-ports-pids/">
 
 
     
-      <base href="/posts/013-tooltip-1-creating-intellij-launcher/">
+      <base href="//localhost:1313/posts/013-tooltip-1-creating-intellij-launcher/">
     
     <title>
   Tooltip # 1 :: Creating command line launcher for IntelliJ products · deskriders
 </title>
 
     
-      <link rel="canonical" href="/posts/013-tooltip-1-creating-intellij-launcher/">
+      <link rel="canonical" href="//localhost:1313/posts/013-tooltip-1-creating-intellij-launcher/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -40,7 +52,7 @@
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
     
 
     
@@ -49,7 +61,7 @@
       
         
         
-        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
       
     
 
@@ -59,10 +71,10 @@
 
     
 
-    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.71.0" />
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -73,7 +85,7 @@
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="/">
+    <a class="navigation-title" href="//localhost:1313/">
       deskriders
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -82,15 +94,15 @@
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/posts/">Blog</a>
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/products">Products</a>
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="/notes/">Notes</a>
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
           </li>
         
       
@@ -135,10 +147,9 @@
         <p>This is hopefully first of many (tool)tips where I create a very short ( ~ 30sec -&gt; 1min) video 📹covering a specific task.</p>
 <p>In this first video, we&rsquo;ll look at creating a command line launcher for IntelliJ.
 Although this is created using IntelliJ IDEA but the same option should be available in WebStorm, PhpStorm, PyCharm etc.</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/gOb_3MK8Y7k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/gOb_3MK8Y7k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
 
 
       </div>
@@ -215,7 +226,7 @@ Although this is created using IntelliJ IDEA but the same option should be avail
     
     
       
-        © 2019 - 2022
+        © 2019 - 2025
       
        Deskriders.dev 
     
@@ -230,19 +241,6 @@ Although this is created using IntelliJ IDEA but the same option should be avail
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
 
   </body>
 

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)">
+  <meta name="twitter:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
+Link to Google Sheet:
+https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
+Here is the table with current prices:
+Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.08 AEYE $26.80 AMD $136.24 AMZN $205.74 ASTS $23.29 AVGO $159.67 AXON $634.96 BABA $86.59 BITF $2.15 BRK.B $483.08 BTBT $4.43 CAVA $141.20 CCJ $57.81 CELH $28.37 CLSK $13.86 COIN $310.98 CRSR $7.31 CWBK $36.50 ET $19.42 EVLV $3.91 FBTC $84.51 GOOG $170.82 GOOGL $169.23 GSAT $1.90 GME $30.89 HIMS $30.34 HOOD $37.65 IBIT $55.03 INTC $23.65 IONQ $32.21 KOS $3.90 LAC $3.95 LUNR $14.45 MARA $26.92 MDGL $331.45 META $569.20 MSTR $388.84 MSTU $161.00 MSTX $100.44 MYNZ $0.26 NEE $78.52 NVDA $135.34 NVDL $68.98 PLTR $66.05 QBTS $2.74 QS $5.18 QUBT $6.75 RCAT $9.27 RDDT $140.04 RGTI $2.40 RKLB $25.67 RYCEY $6.86 S $28.08 SAVA $3.98 SHAK $132.35 SIDU $1.38 SMCI $35.07 SOFI $16.12 SOUN $7.88 SPY $598.83 SSYS $9.55 TMDX $87.11 TSLA $332.89 VOO $550.55 VTI $298.20 WMT $91.88 Z $85.45 Workflow to get the symbols and current prices With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.">
+
+    <meta property="og:url" content="//localhost:1313/posts/1732879530-download-reddit-post/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)">
+  <meta property="og:description" content="Came across this reddit post about asking for recommendations where the stock could go at least 2x in 1 to 3 years. I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.
+Link to Google Sheet:
+https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing
+Here is the table with current prices:
+Symbol Name Current Price (Dec 2024) Price in 1 Year (Dec 2025) Price in 3 Years (Dec 2027) ACHR $8.08 AEYE $26.80 AMD $136.24 AMZN $205.74 ASTS $23.29 AVGO $159.67 AXON $634.96 BABA $86.59 BITF $2.15 BRK.B $483.08 BTBT $4.43 CAVA $141.20 CCJ $57.81 CELH $28.37 CLSK $13.86 COIN $310.98 CRSR $7.31 CWBK $36.50 ET $19.42 EVLV $3.91 FBTC $84.51 GOOG $170.82 GOOGL $169.23 GSAT $1.90 GME $30.89 HIMS $30.34 HOOD $37.65 IBIT $55.03 INTC $23.65 IONQ $32.21 KOS $3.90 LAC $3.95 LUNR $14.45 MARA $26.92 MDGL $331.45 META $569.20 MSTR $388.84 MSTU $161.00 MSTX $100.44 MYNZ $0.26 NEE $78.52 NVDA $135.34 NVDL $68.98 PLTR $66.05 QBTS $2.74 QS $5.18 QUBT $6.75 RCAT $9.27 RDDT $140.04 RGTI $2.40 RKLB $25.67 RYCEY $6.86 S $28.08 SAVA $3.98 SHAK $132.35 SIDU $1.38 SMCI $35.07 SOFI $16.12 SOUN $7.88 SPY $598.83 SSYS $9.55 TMDX $87.11 TSLA $332.89 VOO $550.55 VTI $298.20 WMT $91.88 Z $85.45 Workflow to get the symbols and current prices With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-29T11:25:30+00:00">
+    <meta property="article:modified_time" content="2024-11-29T11:25:30+00:00">
+    <meta property="article:tag" content="Reddit">
+
+
+    
+      <base href="//localhost:1313/posts/1732879530-download-reddit-post/">
+    
+    <title>
+  Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread) · deskriders
+</title>
+
+    
+      <link rel="canonical" href="//localhost:1313/posts/1732879530-download-reddit-post/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//localhost:1313/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Tracking Stocks which could 2x in 1 to 3 years (Reddit Thread)</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2024-11-29T11:25:30Z'>
+                November 29, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/trading/">trading</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/reddit/">reddit</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Came across <a href="https://reddit.com/r/stocks/comments/1h1cds4/if_you_could_only_buy_one_stock_now_what_would_it/">this reddit post</a> about asking for recommendations where the stock could go at least 2x in 1 to 3 years.
+I thought it would be interesting to track the recommendations and come back in 1 to 3 years and see how they perform.</p>
+<p>Link to Google Sheet:</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1ti14jCFZmWEzYf_FxkefI8v-NX-7Y_-_biZIXC5wO2g/edit?usp=sharing</a></p>
+<p>Here is the table with current prices:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Symbol Name</th>
+          <th>Current Price (Dec 2024)</th>
+          <th>Price in 1 Year (Dec 2025)</th>
+          <th>Price in 3 Years (Dec 2027)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ACHR">ACHR</a></td>
+          <td>$8.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AEYE">AEYE</a></td>
+          <td>$26.80</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AMD">AMD</a></td>
+          <td>$136.24</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AMZN">AMZN</a></td>
+          <td>$205.74</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ASTS">ASTS</a></td>
+          <td>$23.29</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AVGO">AVGO</a></td>
+          <td>$159.67</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=AXON">AXON</a></td>
+          <td>$634.96</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BABA">BABA</a></td>
+          <td>$86.59</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BITF">BITF</a></td>
+          <td>$2.15</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BRK-B">BRK.B</a></td>
+          <td>$483.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=BTBT">BTBT</a></td>
+          <td>$4.43</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CAVA">CAVA</a></td>
+          <td>$141.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CCJ">CCJ</a></td>
+          <td>$57.81</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CELH">CELH</a></td>
+          <td>$28.37</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CLSK">CLSK</a></td>
+          <td>$13.86</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=COIN">COIN</a></td>
+          <td>$310.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CRSR">CRSR</a></td>
+          <td>$7.31</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=CWBK">CWBK</a></td>
+          <td>$36.50</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=ET">ET</a></td>
+          <td>$19.42</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=EVLV">EVLV</a></td>
+          <td>$3.91</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=FBTC">FBTC</a></td>
+          <td>$84.51</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOG">GOOG</a></td>
+          <td>$170.82</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GOOGL">GOOGL</a></td>
+          <td>$169.23</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GSAT">GSAT</a></td>
+          <td>$1.90</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=GME">GME</a></td>
+          <td>$30.89</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=HIMS">HIMS</a></td>
+          <td>$30.34</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=HOOD">HOOD</a></td>
+          <td>$37.65</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=IBIT">IBIT</a></td>
+          <td>$55.03</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=INTC">INTC</a></td>
+          <td>$23.65</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=IONQ">IONQ</a></td>
+          <td>$32.21</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=KOS">KOS</a></td>
+          <td>$3.90</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=LAC">LAC</a></td>
+          <td>$3.95</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=LUNR">LUNR</a></td>
+          <td>$14.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MARA">MARA</a></td>
+          <td>$26.92</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MDGL">MDGL</a></td>
+          <td>$331.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=META">META</a></td>
+          <td>$569.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTR">MSTR</a></td>
+          <td>$388.84</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTU">MSTU</a></td>
+          <td>$161.00</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MSTX">MSTX</a></td>
+          <td>$100.44</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=MYNZ">MYNZ</a></td>
+          <td>$0.26</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NEE">NEE</a></td>
+          <td>$78.52</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDA">NVDA</a></td>
+          <td>$135.34</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=NVDL">NVDL</a></td>
+          <td>$68.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=PLTR">PLTR</a></td>
+          <td>$66.05</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QBTS">QBTS</a></td>
+          <td>$2.74</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QS">QS</a></td>
+          <td>$5.18</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=QUBT">QUBT</a></td>
+          <td>$6.75</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RCAT">RCAT</a></td>
+          <td>$9.27</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RDDT">RDDT</a></td>
+          <td>$140.04</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RGTI">RGTI</a></td>
+          <td>$2.40</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RKLB">RKLB</a></td>
+          <td>$25.67</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=RYCEY">RYCEY</a></td>
+          <td>$6.86</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=S">S</a></td>
+          <td>$28.08</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SAVA">SAVA</a></td>
+          <td>$3.98</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SHAK">SHAK</a></td>
+          <td>$132.35</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SIDU">SIDU</a></td>
+          <td>$1.38</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SMCI">SMCI</a></td>
+          <td>$35.07</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SOFI">SOFI</a></td>
+          <td>$16.12</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SOUN">SOUN</a></td>
+          <td>$7.88</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SPY">SPY</a></td>
+          <td>$598.83</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=SSYS">SSYS</a></td>
+          <td>$9.55</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=TMDX">TMDX</a></td>
+          <td>$87.11</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=TSLA">TSLA</a></td>
+          <td>$332.89</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=VOO">VOO</a></td>
+          <td>$550.55</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=VTI">VTI</a></td>
+          <td>$298.20</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=WMT">WMT</a></td>
+          <td>$91.88</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td><a href="https://namuan.github.io/lazy-trader/?symbol=Z">Z</a></td>
+          <td>$85.45</td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="workflow-to-get-the-symbols-and-current-prices">Workflow to get the symbols and current prices</h2>
+<p>With the help of Claude Sonnet, I scraped the symbols and retrieved current prices.</p>
+<p>I started with a screenshot of the html element I want to select</p>
+<p><img src="/images/2024/11/29/1732880779-1.png" alt="images/2024/11/29/1732880779-1.png"></p>
+<p>And asked Sonnet if it can write code that I could run in browser console.
+The code should select all the text like &lsquo;Reddit&rsquo; in the attached image.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Select all divs with class &#39;usertext-body&#39; and log their text
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>document.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;.usertext-body&#39;</span>).<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">div</span>, <span style="color:#a6e22e">index</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Get the text content, trim whitespace
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">div</span>.<span style="color:#a6e22e">textContent</span>.<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Text </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">index</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:`</span>, <span style="color:#a6e22e">text</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Alternative method that specifically targets the p element inside
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>document.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;.usertext-body p&#39;</span>).<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">p</span>, <span style="color:#a6e22e">index</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">textContent</span>.<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Paragraph </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">index</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:`</span>, <span style="color:#a6e22e">text</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>I used the second method and asked Claude that I want to save the output in a text file</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Create an array to store all the text
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">textArray</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Collect all text content
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>document.<span style="color:#a6e22e">querySelectorAll</span>(<span style="color:#e6db74">&#39;.usertext-body p&#39;</span>).<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">p</span>, <span style="color:#a6e22e">index</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">p</span>.<span style="color:#a6e22e">textContent</span>.<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">textArray</span>.<span style="color:#a6e22e">push</span>(<span style="color:#e6db74">`Paragraph </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">index</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">text</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Paragraph </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">index</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span><span style="color:#e6db74">}</span><span style="color:#e6db74">:`</span>, <span style="color:#a6e22e">text</span>);
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Join array elements with newlines
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fileContent</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">textArray</span>.<span style="color:#a6e22e">join</span>(<span style="color:#e6db74">&#39;\n&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Create blob and download link
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">blob</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Blob</span>([<span style="color:#a6e22e">fileContent</span>], {<span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;text/plain&#39;</span>});
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">downloadLink</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;a&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">downloadLink</span>.<span style="color:#a6e22e">download</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;reddit_texts.txt&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">downloadLink</span>.<span style="color:#a6e22e">href</span> <span style="color:#f92672">=</span> window.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">createObjectURL</span>(<span style="color:#a6e22e">blob</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">downloadLink</span>.<span style="color:#a6e22e">click</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Clean up
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>window.<span style="color:#a6e22e">URL</span>.<span style="color:#a6e22e">revokeObjectURL</span>(<span style="color:#a6e22e">downloadLink</span>.<span style="color:#a6e22e">href</span>);
+</span></span></code></pre></div><p>That gives me a file with all the comments.</p>
+<p>Then I feed that file to Sonnet-200K and ask to extract all the symbol and company names</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ACHR
+</span></span><span style="display:flex;"><span>AEYE
+</span></span><span style="display:flex;"><span>AMD
+</span></span><span style="display:flex;"><span>AMZN
+</span></span><span style="display:flex;"><span>ASTS
+</span></span><span style="display:flex;"><span>ATFFC
+</span></span><span style="display:flex;"><span>AVGO
+</span></span><span style="display:flex;"><span>AXON
+</span></span><span style="display:flex;"><span>BABA
+</span></span><span style="display:flex;"><span>BITF
+</span></span><span style="display:flex;"><span>BRK.B/BRKB
+</span></span><span style="display:flex;"><span>BTBT
+</span></span><span style="display:flex;"><span>CAVA
+</span></span><span style="display:flex;"><span>CCJ
+</span></span><span style="display:flex;"><span>CELH
+</span></span><span style="display:flex;"><span>CLSK
+</span></span><span style="display:flex;"><span>COIN
+</span></span><span style="display:flex;"><span>CRSR
+</span></span><span style="display:flex;"><span>CWBK
+</span></span><span style="display:flex;"><span>ET
+</span></span><span style="display:flex;"><span>EVLV
+</span></span><span style="display:flex;"><span>FBTC
+</span></span><span style="display:flex;"><span>GOOG/GOOGL
+</span></span><span style="display:flex;"><span>GSAT
+</span></span><span style="display:flex;"><span>GME
+</span></span><span style="display:flex;"><span>HIMS
+</span></span><span style="display:flex;"><span>HOOD
+</span></span><span style="display:flex;"><span>IBIT
+</span></span><span style="display:flex;"><span>INTC
+</span></span><span style="display:flex;"><span>IONQ
+</span></span><span style="display:flex;"><span>KOS
+</span></span><span style="display:flex;"><span>LAC
+</span></span><span style="display:flex;"><span>LUNR
+</span></span><span style="display:flex;"><span>MARA
+</span></span><span style="display:flex;"><span>MDGL
+</span></span><span style="display:flex;"><span>META
+</span></span><span style="display:flex;"><span>MSTR/MSTU/MSTX
+</span></span><span style="display:flex;"><span>MYNZ
+</span></span><span style="display:flex;"><span>NEE
+</span></span><span style="display:flex;"><span>NVDA/NVDL
+</span></span><span style="display:flex;"><span>PLTR
+</span></span><span style="display:flex;"><span>QBTS
+</span></span><span style="display:flex;"><span>QS
+</span></span><span style="display:flex;"><span>QUBT
+</span></span><span style="display:flex;"><span>RCAT
+</span></span><span style="display:flex;"><span>RDDT
+</span></span><span style="display:flex;"><span>RGTI
+</span></span><span style="display:flex;"><span>RKLB
+</span></span><span style="display:flex;"><span>RYCEY
+</span></span><span style="display:flex;"><span>S
+</span></span><span style="display:flex;"><span>SAVA
+</span></span><span style="display:flex;"><span>SHAK
+</span></span><span style="display:flex;"><span>SIDU
+</span></span><span style="display:flex;"><span>SMCI
+</span></span><span style="display:flex;"><span>SOFI
+</span></span><span style="display:flex;"><span>SOUN
+</span></span><span style="display:flex;"><span>SPY
+</span></span><span style="display:flex;"><span>SSYS
+</span></span><span style="display:flex;"><span>TMDX
+</span></span><span style="display:flex;"><span>TSLA
+</span></span><span style="display:flex;"><span>VOO
+</span></span><span style="display:flex;"><span>VTI
+</span></span><span style="display:flex;"><span>WMT
+</span></span><span style="display:flex;"><span>Z
+</span></span></code></pre></div><p>Next I want to generate a markdown file with the symbols and their current prices.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_markdown_table</span>(file_path):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Read symbols from file</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(file_path, <span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span>            symbols <span style="color:#f92672">=</span> [line<span style="color:#f92672">.</span>strip() <span style="color:#66d9ef">for</span> line <span style="color:#f92672">in</span> file <span style="color:#66d9ef">if</span> line<span style="color:#f92672">.</span>strip()]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Create markdown table header</span>
+</span></span><span style="display:flex;"><span>        markdown <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;| Symbol Name | Current Price | Additional Info |</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>        markdown <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;|------------|--------------|----------------|</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Add each symbol to table</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> symbol <span style="color:#f92672">in</span> symbols:
+</span></span><span style="display:flex;"><span>            markdown <span style="color:#f92672">+=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;| </span><span style="color:#e6db74">{</span>symbol<span style="color:#e6db74">}</span><span style="color:#e6db74"> | | |</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> markdown
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">FileNotFoundError</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Error: File not found&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error: </span><span style="color:#e6db74">{</span>str(e)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> len(sys<span style="color:#f92672">.</span>argv) <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;Usage: python script.py &lt;file_path&gt;&#34;</span>)
+</span></span><span style="display:flex;"><span>        sys<span style="color:#f92672">.</span>exit(<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    file_path <span style="color:#f92672">=</span> sys<span style="color:#f92672">.</span>argv[<span style="color:#ae81ff">1</span>]
+</span></span><span style="display:flex;"><span>    print(create_markdown_table(file_path))
+</span></span></code></pre></div>
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

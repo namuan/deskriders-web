@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on deskriders</title>
+    <title>Security on deskriders</title>
     <link>/tags/security/</link>
-    <description>Recent content in security on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Security on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Nov 2019 10:47:29 +0000</lastBuildDate><atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2019 10:47:29 +0000</lastBuildDate>
+    <atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Protecting applications with OAuth2 Proxy</title>
       <link>/posts/005-protecting-applications-oauth2-proxy/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      
       <guid>/posts/005-protecting-applications-oauth2-proxy/</guid>
-      <description>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&amp;rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
-In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider.</description>
+      <description>&lt;p&gt;Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source &lt;a href=&#34;https://pusher.github.io/oauth2_proxy/&#34;&gt;OAuth2 Proxy&lt;/a&gt; (which is a fork from &lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;Bitly OAuth2 Proxy&lt;/a&gt;) to secure private applications without adding any authentication logic in the application itself.&lt;/p&gt;&#xA;&lt;p&gt;Here, we&amp;rsquo;ll see how to secure the open source version of &lt;a href=&#34;https://httpbin.org&#34;&gt;https://httpbin.org&lt;/a&gt;. Httpbin application itself is open and can be accessed without any authentication.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/005/i1zmqplvv8eq8pzsvfvt.png&#34; alt=&#34;Proxy configuration&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider. See &lt;a href=&#34;https://pusher.github.io/oauth2_proxy/auth-configuration&#34;&gt;Providers&lt;/a&gt; for different config options.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

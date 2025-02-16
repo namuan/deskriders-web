@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ideas on deskriders</title>
-    <link>/tags/ideas/</link>
-    <description>Recent content in ideas on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Ideas on deskriders</title>
+    <link>//localhost:1313/tags/ideas/</link>
+    <description>Recent content in Ideas on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Dec 2021 09:56:42 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[SaaS Idea] Markdown to ... converter</title>
-      <link>/posts/1640512515-project-idea-markdown-to-anything/</link>
+      <link>//localhost:1313/posts/1640512515-project-idea-markdown-to-anything/</link>
       <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
-      
-      <guid>/posts/1640512515-project-idea-markdown-to-anything/</guid>
-      <description>Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc
- Release 1.0: Feature: Convert Markdown to Confluence
-Scenario: Successfully post Markdown document Given: a Markdown document When: JD posts the document Then: I accept the document And: Return a unique identifier Scenario: Successfully convert Markdown document Given: a Markdown document When: JD posts the document Then: I convert the document to Confluence And: Return a unique link to download converted document  Technology [] Subdomain - markdown.</description>
+      <guid>//localhost:1313/posts/1640512515-project-idea-markdown-to-anything/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Summary: Online service to convert Markdown to PDF / Confluence / Word / Google Docs / HTML etc&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;release-10&#34;&gt;Release 1.0:&lt;/h3&gt;&#xA;&lt;p&gt;Feature: Convert Markdown to Confluence&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Scenario: Successfully post Markdown document&#xA;    Given: a Markdown document&#xA;    When: JD posts the document&#xA;    Then: I accept the document&#xA;    And: Return a unique identifier&#xA;&#xA;Scenario: Successfully convert Markdown document&#xA;    Given: a Markdown document&#xA;    When: JD posts the document&#xA;    Then: I convert the document to Confluence&#xA;    And: Return a unique link to download converted document&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;&#xA;&lt;p&gt;[] Subdomain - markdown.example.com&#xA;[] AWS Lambda/API Gateway using serverless framework&#xA;[] Python Flask&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Implementing Features with Microservices Architecture</title>
-      <link>/posts/1640512228-implementing_features_micro_services/</link>
+      <link>//localhost:1313/posts/1640512228-implementing_features_micro_services/</link>
       <pubDate>Sun, 26 Dec 2021 09:50:56 +0000</pubDate>
-      
-      <guid>/posts/1640512228-implementing_features_micro_services/</guid>
-      <description>An ongoing thought process on how to help with generating code when working on a microservices based architecture.
-In most organisations I worked with, the usual microservices development model is roughly divided into two main parts.
-1. Common Functionality We can classify the following responsibilities as common across multiple micro services
- Build and deployment pipeline Logging destination and output Environment Configuration Publishing metrics Tracing across multiple services API request/response formats Handling Idempotency where applicable  All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices.</description>
+      <guid>//localhost:1313/posts/1640512228-implementing_features_micro_services/</guid>
+      <description>&lt;p&gt;An ongoing thought process on how to help with generating code when working on a microservices based architecture.&lt;/p&gt;&#xA;&lt;p&gt;In most organisations I worked with, the usual microservices development model is &lt;em&gt;roughly&lt;/em&gt; divided into two main parts.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-common-functionality&#34;&gt;1. Common Functionality&lt;/h3&gt;&#xA;&lt;p&gt;We can classify the following responsibilities as common across multiple micro services&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build and deployment pipeline&lt;/li&gt;&#xA;&lt;li&gt;Logging destination and output&lt;/li&gt;&#xA;&lt;li&gt;Environment Configuration&lt;/li&gt;&#xA;&lt;li&gt;Publishing metrics&lt;/li&gt;&#xA;&lt;li&gt;Tracing across multiple services&lt;/li&gt;&#xA;&lt;li&gt;API request/response formats&lt;/li&gt;&#xA;&lt;li&gt;Handling Idempotency where applicable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All of these will feed into different architectural concerns where it is important to have consistency across multiple microservices. Hopefully these will be defined once and rarely change over time.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

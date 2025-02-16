@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mixtral on deskriders</title>
+    <title>Mixtral on deskriders</title>
     <link>/tags/mixtral/</link>
-    <description>Recent content in mixtral on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Mixtral on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Dec 2023 16:03:16 +0000</lastBuildDate><atom:link href="/tags/mixtral/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 16:03:16 +0000</lastBuildDate>
+    <atom:link href="/tags/mixtral/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Function calling using Ollama models</title>
       <link>/posts/1702742595-function-calling-ollama-models/</link>
       <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
-      
       <guid>/posts/1702742595-function-calling-ollama-models/</guid>
-      <description>Here is a quick breakthrough of using functions with Mixtral running on Ollama
-Code is available here.
-It is built on top of openhermes-functions by abacaj 🙏
-The prompt used looks like this
-You have access to the following tools: {function_to_json(get_weather)} {function_to_json(calculate_mortgage_payment)} {function_to_json(get_directions)} {function_to_json(get_article_details)} You must follow these instructions: Always select one or more of the above tools based on the user query If a tool is found, you must respond in the JSON format matching the following schema: {{ &amp;#34;tools&amp;#34;: {{ &amp;#34;tool&amp;#34;: &amp;#34;&amp;lt;name of the selected tool&amp;gt;&amp;#34;, &amp;#34;tool_input&amp;#34;: &amp;lt;parameters for the selected tool, matching the tool&amp;#39;s JSON schema }} }} If there are multiple tools required, make sure a list of tools are returned in a JSON array.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;/images/2023/12/16/1702744605.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is a quick breakthrough of using &lt;code&gt;functions&lt;/code&gt; with &lt;a href=&#34;https://mistral.ai/news/mixtral-of-experts/&#34;&gt;Mixtral&lt;/a&gt; running on &lt;a href=&#34;https://ollama.ai&#34;&gt;Ollama&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/namuan/llm-playground/blob/main/local-llm-tools-simple.py&#34;&gt;Code&lt;/a&gt; is available here.&lt;/p&gt;&#xA;&lt;p&gt;It is built on top of &lt;a href=&#34;https://github.com/abacaj/openhermes-function-calling/blob/main/openhermes-functions.ipynb&#34;&gt;openhermes-functions&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/abacaj&#34;&gt;abacaj&lt;/a&gt; 🙏&lt;/p&gt;&#xA;&lt;p&gt;The prompt used looks like this&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You have access to the following tools:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{function_to_json(get_weather)}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{function_to_json(calculate_mortgage_payment)}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{function_to_json(get_directions)}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{function_to_json(get_article_details)}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;You must follow these instructions:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Always select one or more of the above tools based on the user query&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;If a tool is found, you must respond in the JSON format matching the following schema:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &amp;#34;tools&amp;#34;: {{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;#34;tool&amp;#34;: &amp;#34;&amp;lt;name of the selected tool&amp;gt;&amp;#34;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;#34;tool_input&amp;#34;: &amp;lt;parameters for the selected tool, matching the tool&amp;#39;s JSON schema&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;If there are multiple tools required, make sure a list of tools are returned in a JSON array.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;If there is no tool that match the user request, you will respond with empty json.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Do not add any additional Notes or Explanations&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User Query:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And ran it through the following functions&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

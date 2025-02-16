@@ -9,17 +9,23 @@
     <meta name="description" content="Improving developer productivity">
     <meta name="keywords" content="blog,developer">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ChatGPT Prompt to return code diff in patch text format"/>
-<meta name="twitter:description" content="ChatGPT Prompt to return code diff in patch text format"/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ChatGPT Prompt to return code diff in patch text format">
+  <meta name="twitter:description" content="ChatGPT Prompt to return code diff in patch text format">
 
-    <meta property="og:title" content="ChatGPT Prompt to return code diff in patch text format" />
-<meta property="og:description" content="ChatGPT Prompt to return code diff in patch text format" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/1681103543-chatgpt-diff-patch-format/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-04-10T06:12:23+01:00" />
-<meta property="article:modified_time" content="2023-04-10T06:12:23+01:00" />
-
+    <meta property="og:url" content="/posts/1681103543-chatgpt-diff-patch-format/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="ChatGPT Prompt to return code diff in patch text format">
+  <meta property="og:description" content="ChatGPT Prompt to return code diff in patch text format">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-04-10T06:12:23+01:00">
+    <meta property="article:modified_time" content="2023-04-10T06:12:23+01:00">
+    <meta property="article:tag" content="Prompt">
+    <meta property="article:tag" content="Patch">
+    <meta property="article:tag" content="Code">
 
 
     
@@ -62,7 +68,7 @@
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.143.1">
   </head>
 
   
@@ -145,38 +151,38 @@ Sure, I can help you generate a diff in patch text format. Can you please provid
 Start with a simple hello world in python</strong></p>
 <p>ChatGPT:
 Sure, here&rsquo;s a simple &ldquo;Hello World&rdquo; program in Python:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>print(&#34;Hello, World!&#34;)
-</span></span></code></pre></div><p>Do you want me to generate a diff for this program?</p>
+<pre tabindex="0"><code>print(&#34;Hello, World!&#34;)
+</code></pre><p>Do you want me to generate a diff for this program?</p>
 <p><strong>You:
 Update the message to say “Hello Hello”</strong></p>
 <p>ChatGPT:
 Sure, here&rsquo;s the updated code with the message changed to &ldquo;Hello Hello&rdquo;:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>print(&#34;Hello Hello&#34;)
-</span></span></code></pre></div><p>And here&rsquo;s the diff in patch text format:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>--- original.py
-</span></span><span style="display:flex;"><span>+++ updated.py
-</span></span><span style="display:flex;"><span>@@ -1 +1 @@
-</span></span><span style="display:flex;"><span>-print(&#34;Hello, World!&#34;)
-</span></span><span style="display:flex;"><span>+print(&#34;Hello Hello&#34;)
-</span></span></code></pre></div><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and the only difference is that the message being printed has been changed. The <code>-</code> character before the old line indicates that it has been removed, and the <code>+</code> character before the new line indicates that it has been added.</p>
+<pre tabindex="0"><code>print(&#34;Hello Hello&#34;)
+</code></pre><p>And here&rsquo;s the diff in patch text format:</p>
+<pre tabindex="0"><code>--- original.py
++++ updated.py
+@@ -1 +1 @@
+-print(&#34;Hello, World!&#34;)
++print(&#34;Hello Hello&#34;)
+</code></pre><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and the only difference is that the message being printed has been changed. The <code>-</code> character before the old line indicates that it has been removed, and the <code>+</code> character before the new line indicates that it has been added.</p>
 <p><strong>You:
 Add a function to wrap this line</strong></p>
 <p>ChatGPT:
 Sure, here&rsquo;s the updated code with a function to wrap the <code>print</code> statement:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>def print_message(message):
-</span></span><span style="display:flex;"><span>    print(message)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print_message(&#34;Hello Hello&#34;)
-</span></span></code></pre></div><p>And here&rsquo;s the diff in patch text format:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>--- original.py
-</span></span><span style="display:flex;"><span>+++ updated.py
-</span></span><span style="display:flex;"><span>@@ -1 +1,4 @@
-</span></span><span style="display:flex;"><span>-print(&#34;Hello, World!&#34;)
-</span></span><span style="display:flex;"><span>+def print_message(message):
-</span></span><span style="display:flex;"><span>+    print(message)
-</span></span><span style="display:flex;"><span>+
-</span></span><span style="display:flex;"><span>+print_message(&#34;Hello Hello&#34;)
-</span></span></code></pre></div><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and a new function <code>print_message</code> has been defined to wrap the <code>print</code> statement. The <code>+</code> characters before the new lines indicate that they have been added.</p>
+<pre tabindex="0"><code>def print_message(message):
+    print(message)
+
+print_message(&#34;Hello Hello&#34;)
+</code></pre><p>And here&rsquo;s the diff in patch text format:</p>
+<pre tabindex="0"><code>--- original.py
++++ updated.py
+@@ -1 +1,4 @@
+-print(&#34;Hello, World!&#34;)
++def print_message(message):
++    print(message)
++
++print_message(&#34;Hello Hello&#34;)
+</code></pre><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and a new function <code>print_message</code> has been defined to wrap the <code>print</code> statement. The <code>+</code> characters before the new lines indicate that they have been added.</p>
 <p><strong>You:
 From now on</strong>
 Don’t send me the code. I just need the diff
@@ -187,22 +193,22 @@ Sure, I&rsquo;ll only provide the diff in patch text format from now on and won&
 Add a new function to create a class to encapsulate this function</strong></p>
 <p>ChatGPT:
 Here&rsquo;s the diff in patch text format for adding a new function to create a class to encapsulate the <code>print_message</code> function:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>--- original.py
-</span></span><span style="display:flex;"><span>+++ updated.py
-</span></span><span style="display:flex;"><span>@@ -1,4 +1,10 @@
-</span></span><span style="display:flex;"><span>-def print_message(message):
-</span></span><span style="display:flex;"><span>-    print(message)
-</span></span><span style="display:flex;"><span>+class MessagePrinter:
-</span></span><span style="display:flex;"><span>+    def __init__(self, message):
-</span></span><span style="display:flex;"><span>+        self.message = message
-</span></span><span style="display:flex;"><span>+
-</span></span><span style="display:flex;"><span>+    def print_message(self):
-</span></span><span style="display:flex;"><span>+        print(self.message)
-</span></span><span style="display:flex;"><span>+
-</span></span><span style="display:flex;"><span>+
-</span></span><span style="display:flex;"><span>+message_printer = MessagePrinter(&#34;Hello Hello&#34;)
-</span></span><span style="display:flex;"><span>+message_printer.print_message()
-</span></span></code></pre></div><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and a new class <code>MessagePrinter</code> has been defined to encapsulate the <code>print_message</code> function. The <code>+</code> characters before the new lines indicate that they have been added.</p>
+<pre tabindex="0"><code>--- original.py
++++ updated.py
+@@ -1,4 +1,10 @@
+-def print_message(message):
+-    print(message)
++class MessagePrinter:
++    def __init__(self, message):
++        self.message = message
++
++    def print_message(self):
++        print(self.message)
++
++
++message_printer = MessagePrinter(&#34;Hello Hello&#34;)
++message_printer.print_message()
+</code></pre><p>This patch text shows that the <code>original.py</code> file has been changed to the <code>updated.py</code> file, and a new class <code>MessagePrinter</code> has been defined to encapsulate the <code>print_message</code> function. The <code>+</code> characters before the new lines indicate that they have been added.</p>
 
       </div>
 
@@ -241,18 +247,6 @@ Here&rsquo;s the diff in patch text format for adding a new function to create a
     </main>
 
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-129728575-5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 
   </body>
 

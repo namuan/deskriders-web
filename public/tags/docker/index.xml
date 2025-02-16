@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on deskriders</title>
-    <link>/tags/docker/</link>
-    <description>Recent content in docker on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Docker on deskriders</title>
+    <link>//localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Feb 2022 07:33:19 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 29 Dec 2024 10:10:13 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Alnoda: A Dockerized Development Workspace</title>
+      <link>//localhost:1313/posts/1735467013-alnoda-workspaces/</link>
+      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
+      <guid>//localhost:1313/posts/1735467013-alnoda-workspaces/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Alnoda desktop&lt;/strong&gt; provides a dockerized development environment.&lt;/p&gt;&#xA;&lt;p&gt;According to the &lt;a href=&#34;https://github.com/bluxmit/alnoda-workspaces&#34;&gt;GitHub repo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Open-source portable containerized workspaces. Isolate your work, make backups, copy, move between computers and cloud seamlessly.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;You can start it up with the following command&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run --name space-1 -d -p 8020-8040:8020-8040 --restart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;always alnoda/alnoda-workspace&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Although due to port conflicts, I had to change to different port sequence &lt;code&gt;(18020-18040)&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run --name space-1 -d -p 18020-18040:8020-8040 --restart&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;always alnoda/alnoda-workspace&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once it is up, go to &lt;a href=&#34;http://localhost:18020&#34;&gt;http://localhost:18020&lt;/a&gt; see the environment&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Maven in Docker</title>
+      <link>//localhost:1313/posts/1672665828-running-maven-docker/</link>
+      <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
+      <guid>//localhost:1313/posts/1672665828-running-maven-docker/</guid>
+      <description>&lt;p&gt;Run this from the root of a maven project&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -it --rm -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PWD&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;:/home/src/gpt-fx -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.m2&amp;#34;&lt;/span&gt;:/root/.m2 -w /home/src/gpt-fx maven:3.8.3-openjdk-17  mvn clean package -Ppackage&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2023/01/02/1672673166.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>TIL :: Graphviz 👉 PNG with docker</title>
-      <link>/posts/1645947154-graphviz-dot-png/</link>
+      <link>//localhost:1313/posts/1645947154-graphviz-dot-png/</link>
       <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
-      
-      <guid>/posts/1645947154-graphviz-dot-png/</guid>
-      <description>A simple Graphviz dot file. You could try generating brew dependencies graph
-Create a Docker image
-FROMalpine:3.5RUN mkdir /graphviz &amp;amp;&amp;amp; \  apk add --update graphviz ttf-dejavu &amp;amp;&amp;amp; \  rm -rf /var/cache/apk/*WORKDIR/graphvizCMD dot -TpngBuild Docker image from this file
-docker build -f Dockerfile -t namuan/dot2png . And then run it with the dot file
-cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png </description>
+      <guid>//localhost:1313/posts/1645947154-graphviz-dot-png/</guid>
+      <description>&lt;p&gt;A simple Graphviz dot file. You could try generating &lt;a href=&#34;https://www.deskriders.dev/posts/1640943229-brew-graph-highlight-edges/&#34;&gt;brew dependencies graph&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Create a Docker image&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-docker&#34; data-lang=&#34;docker&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; alpine:3.5&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;RUN&lt;/span&gt; mkdir /graphviz &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  apk add --update graphviz ttf-dejavu &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  rm -rf /var/cache/apk/*&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; /graphviz&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;CMD&lt;/span&gt; dot -Tpng&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Build Docker image from this file&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker build -f Dockerfile -t namuan/dot2png .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And then run it with the dot file&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat dependencies.dot | docker run --rm -i namuan/dot2png &amp;gt; dependencies.png&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Protecting applications with OAuth2 Proxy</title>
-      <link>/posts/005-protecting-applications-oauth2-proxy/</link>
+      <link>//localhost:1313/posts/005-protecting-applications-oauth2-proxy/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      
-      <guid>/posts/005-protecting-applications-oauth2-proxy/</guid>
-      <description>Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source OAuth2 Proxy (which is a fork from Bitly OAuth2 Proxy) to secure private applications without adding any authentication logic in the application itself.
-Here, we&amp;rsquo;ll see how to secure the open source version of https://httpbin.org. Httpbin application itself is open and can be accessed without any authentication.
-In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider.</description>
+      <guid>//localhost:1313/posts/005-protecting-applications-oauth2-proxy/</guid>
+      <description>&lt;p&gt;Here is a simple guide on protecting a website with social logins supporting OAuth2. It uses an open source &lt;a href=&#34;https://pusher.github.io/oauth2_proxy/&#34;&gt;OAuth2 Proxy&lt;/a&gt; (which is a fork from &lt;a href=&#34;https://github.com/bitly/oauth2_proxy&#34;&gt;Bitly OAuth2 Proxy&lt;/a&gt;) to secure private applications without adding any authentication logic in the application itself.&lt;/p&gt;&#xA;&lt;p&gt;Here, we&amp;rsquo;ll see how to secure the open source version of &lt;a href=&#34;https://httpbin.org&#34;&gt;https://httpbin.org&lt;/a&gt;. Httpbin application itself is open and can be accessed without any authentication.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/005/i1zmqplvv8eq8pzsvfvt.png&#34; alt=&#34;Proxy configuration&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this guide, we will setup a Github OAuth application but the same setup can be easily configured with any other provider. See &lt;a href=&#34;https://pusher.github.io/oauth2_proxy/auth-configuration&#34;&gt;Providers&lt;/a&gt; for different config options.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

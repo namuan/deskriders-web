@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>indicators on deskriders</title>
+    <title>Indicators on deskriders</title>
     <link>/tags/indicators/</link>
-    <description>Recent content in indicators on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Indicators on deskriders</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Jun 2024 11:03:58 +0100</lastBuildDate><atom:link href="/tags/indicators/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 11:03:58 +0100</lastBuildDate>
+    <atom:link href="/tags/indicators/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to make/lose money with buying dips</title>
       <link>/posts/1719050638-rsi-dips/</link>
       <pubDate>Sat, 22 Jun 2024 11:03:58 +0100</pubDate>
-      
       <guid>/posts/1719050638-rsi-dips/</guid>
-      <description>Overview: Analyzes stock data for RSI dips below a specified lower threshold and subsequent rises above a higher threshold. Simulates buy and sell actions based on these RSI movements Calculates potential profits/losses from these simulated trades Provides a summary of dips and performance metrics Source [GitHub] https://github.com/namuan/trading-utils/blob/main/rsi_dips.py
-See the top of the script on how to run it</description>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;Overview:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyzes stock data for RSI dips below a specified lower threshold and subsequent rises above a higher threshold.&lt;/li&gt;&#xA;&lt;li&gt;Simulates buy and sell actions based on these RSI movements&lt;/li&gt;&#xA;&lt;li&gt;Calculates potential profits/losses from these simulated trades&lt;/li&gt;&#xA;&lt;li&gt;Provides a summary of dips and performance metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/06/22/1719050942.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;&#xA;&lt;p&gt;[GitHub] &lt;a href=&#34;https://github.com/namuan/trading-utils/blob/main/rsi_dips.py&#34;&gt;https://github.com/namuan/trading-utils/blob/main/rsi_dips.py&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;See the top of the script on how to run it&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

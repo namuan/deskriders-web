@@ -4,1124 +4,877 @@
     <title>Tags on deskriders</title>
     <link>/tags/</link>
     <description>Recent content in Tags on deskriders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Feb 2025 19:47:25 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Feb 2025 18:00:25 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>links</title>
+      <title>Links</title>
       <link>/tags/links/</link>
-      <pubDate>Mon, 10 Feb 2025 19:47:25 +0000</pubDate>
-      
+      <pubDate>Sun, 16 Feb 2025 18:00:25 +0000</pubDate>
       <guid>/tags/links/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>books</title>
+      <title>Books</title>
       <link>/tags/books/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/tags/books/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MLX</title>
       <link>/tags/mlx/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/tags/mlx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Podcast</title>
       <link>/tags/podcast/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/tags/podcast/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tts</title>
+      <title>TTS</title>
       <link>/tags/tts/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      
       <guid>/tags/tts/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>backtesting</title>
+      <title>Backtesting</title>
       <link>/tags/backtesting/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/tags/backtesting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data analysis</title>
+      <title>Data Analysis</title>
       <link>/tags/data-analysis/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/tags/data-analysis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>options</title>
+      <title>Options</title>
       <link>/tags/options/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/tags/options/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>trading</title>
+      <title>Trading</title>
       <link>/tags/trading/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      
       <guid>/tags/trading/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>api</title>
+      <title>Api</title>
       <link>/tags/api/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      
       <guid>/tags/api/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>trello</title>
+      <title>Trello</title>
       <link>/tags/trello/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      
       <guid>/tags/trello/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>/tags/docker/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      
       <guid>/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>environments</title>
+      <title>Environments</title>
       <link>/tags/environments/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      
       <guid>/tags/environments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vscode</title>
+      <title>Vscode</title>
       <link>/tags/vscode/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      
       <guid>/tags/vscode/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>/tags/development/</link>
       <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
-      
       <guid>/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>/tags/python/</link>
       <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
-      
       <guid>/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>performance</title>
+      <title>Performance</title>
       <link>/tags/performance/</link>
       <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      
       <guid>/tags/performance/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>investment</title>
+      <title>Investment</title>
       <link>/tags/investment/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
-      
       <guid>/tags/investment/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vix</title>
+      <title>Vix</title>
       <link>/tags/vix/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
-      
       <guid>/tags/vix/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>llm</title>
+      <title>Llm</title>
       <link>/tags/llm/</link>
       <pubDate>Mon, 09 Dec 2024 08:59:36 +0000</pubDate>
-      
       <guid>/tags/llm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reddit</title>
+      <title>Reddit</title>
       <link>/tags/reddit/</link>
       <pubDate>Fri, 29 Nov 2024 11:25:30 +0000</pubDate>
-      
       <guid>/tags/reddit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>devdocs</title>
+      <title>Devdocs</title>
       <link>/tags/devdocs/</link>
       <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
-      
       <guid>/tags/devdocs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>readitlater</title>
+      <title>Readitlater</title>
       <link>/tags/readitlater/</link>
       <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
-      
       <guid>/tags/readitlater/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reminders</title>
+      <title>Reminders</title>
       <link>/tags/reminders/</link>
       <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
-      
       <guid>/tags/reminders/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>memory</title>
+      <title>Memory</title>
       <link>/tags/memory/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      
       <guid>/tags/memory/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>thinking</title>
+      <title>Thinking</title>
       <link>/tags/thinking/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      
       <guid>/tags/thinking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>markets</title>
+      <title>Markets</title>
       <link>/tags/markets/</link>
       <pubDate>Sat, 16 Nov 2024 08:40:23 +0000</pubDate>
-      
       <guid>/tags/markets/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>strategies</title>
+      <title>Strategies</title>
       <link>/tags/strategies/</link>
       <pubDate>Sat, 16 Nov 2024 08:40:23 +0000</pubDate>
-      
       <guid>/tags/strategies/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tsla</title>
+      <title>Tsla</title>
       <link>/tags/tsla/</link>
       <pubDate>Mon, 28 Oct 2024 13:41:25 +0000</pubDate>
-      
       <guid>/tags/tsla/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>adjustments</title>
+      <title>Adjustments</title>
       <link>/tags/adjustments/</link>
       <pubDate>Sat, 19 Oct 2024 09:13:24 +0100</pubDate>
-      
       <guid>/tags/adjustments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>/tags/productivity/</link>
       <pubDate>Fri, 27 Sep 2024 09:30:15 +0100</pubDate>
-      
       <guid>/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tools</title>
+      <title>Tools</title>
       <link>/tags/tools/</link>
       <pubDate>Fri, 27 Sep 2024 09:30:15 +0100</pubDate>
-      
       <guid>/tags/tools/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>diffusers</title>
+      <title>Diffusers</title>
       <link>/tags/diffusers/</link>
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
-      
       <guid>/tags/diffusers/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>huggingface</title>
+      <title>Huggingface</title>
       <link>/tags/huggingface/</link>
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
-      
       <guid>/tags/huggingface/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>notebookllm</title>
+      <title>Notebookllm</title>
       <link>/tags/notebookllm/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      
       <guid>/tags/notebookllm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rag</title>
+      <title>Rag</title>
       <link>/tags/rag/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      
       <guid>/tags/rag/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>/tags/research/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      
       <guid>/tags/research/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>deployment</title>
+      <title>Deployment</title>
       <link>/tags/deployment/</link>
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
-      
       <guid>/tags/deployment/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>servers</title>
+      <title>Servers</title>
       <link>/tags/servers/</link>
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
-      
       <guid>/tags/servers/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tips</title>
+      <title>Tips</title>
       <link>/tags/tips/</link>
       <pubDate>Thu, 05 Sep 2024 08:28:07 +0100</pubDate>
-      
       <guid>/tags/tips/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pandoc</title>
+      <title>Pandoc</title>
       <link>/tags/pandoc/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      
       <guid>/tags/pandoc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>PDF conversion</title>
+      <title>PDF Conversion</title>
       <link>/tags/pdf-conversion/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      
       <guid>/tags/pdf-conversion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SingleFile</title>
       <link>/tags/singlefile/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      
       <guid>/tags/singlefile/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web scraping</title>
+      <title>Web Scraping</title>
       <link>/tags/web-scraping/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      
       <guid>/tags/web-scraping/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spy</title>
+      <title>Spy</title>
       <link>/tags/spy/</link>
       <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
-      
       <guid>/tags/spy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stocks</title>
+      <title>Stocks</title>
       <link>/tags/stocks/</link>
       <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
-      
       <guid>/tags/stocks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>finance</title>
+      <title>Finance</title>
       <link>/tags/finance/</link>
       <pubDate>Thu, 22 Aug 2024 08:55:38 +0100</pubDate>
-      
       <guid>/tags/finance/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>investments</title>
+      <title>Investments</title>
       <link>/tags/investments/</link>
       <pubDate>Thu, 22 Aug 2024 08:55:38 +0100</pubDate>
-      
       <guid>/tags/investments/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>indicators</title>
+      <title>Indicators</title>
       <link>/tags/indicators/</link>
       <pubDate>Sat, 22 Jun 2024 11:03:58 +0100</pubDate>
-      
       <guid>/tags/indicators/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ollama</title>
+      <title>Ollama</title>
       <link>/tags/ollama/</link>
       <pubDate>Sun, 26 May 2024 18:57:32 +0100</pubDate>
-      
       <guid>/tags/ollama/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sheets</title>
+      <title>Sheets</title>
       <link>/tags/sheets/</link>
       <pubDate>Sat, 04 May 2024 13:08:43 +0100</pubDate>
-      
       <guid>/tags/sheets/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mixtral</title>
+      <title>Mixtral</title>
       <link>/tags/mixtral/</link>
       <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
-      
       <guid>/tags/mixtral/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>code</title>
+      <title>Code</title>
       <link>/tags/code/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      
       <guid>/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>patch</title>
+      <title>Patch</title>
       <link>/tags/patch/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      
       <guid>/tags/patch/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prompt</title>
+      <title>Prompt</title>
       <link>/tags/prompt/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      
       <guid>/tags/prompt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>template</title>
+      <title>Template</title>
       <link>/tags/template/</link>
       <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      
       <guid>/tags/template/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tkinter</title>
+      <title>Tkinter</title>
       <link>/tags/tkinter/</link>
       <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      
       <guid>/tags/tkinter/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>html</title>
+      <title>Html</title>
       <link>/tags/html/</link>
       <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
-      
       <guid>/tags/html/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>checklist</title>
+      <title>Checklist</title>
       <link>/tags/checklist/</link>
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
-      
       <guid>/tags/checklist/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>step</title>
+      <title>Step</title>
       <link>/tags/step/</link>
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
-      
       <guid>/tags/step/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>maven</title>
+      <title>Maven</title>
       <link>/tags/maven/</link>
       <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
-      
       <guid>/tags/maven/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>/tags/ai/</link>
       <pubDate>Sun, 01 Jan 2023 20:47:29 +0000</pubDate>
-      
       <guid>/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>workflow</title>
+      <title>Workflow</title>
       <link>/tags/workflow/</link>
       <pubDate>Fri, 30 Dec 2022 21:56:34 +0000</pubDate>
-      
       <guid>/tags/workflow/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javascript</title>
+      <title>Javascript</title>
       <link>/tags/javascript/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      
       <guid>/tags/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>playwright</title>
+      <title>Playwright</title>
       <link>/tags/playwright/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      
       <guid>/tags/playwright/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>scroll</title>
+      <title>Scroll</title>
       <link>/tags/scroll/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      
       <guid>/tags/scroll/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>css</title>
+      <title>Css</title>
       <link>/tags/css/</link>
       <pubDate>Sun, 25 Dec 2022 13:50:37 +0000</pubDate>
-      
       <guid>/tags/css/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>responsive</title>
+      <title>Responsive</title>
       <link>/tags/responsive/</link>
       <pubDate>Sun, 25 Dec 2022 13:50:37 +0000</pubDate>
-      
       <guid>/tags/responsive/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>icons</title>
+      <title>Icons</title>
       <link>/tags/icons/</link>
       <pubDate>Sun, 25 Dec 2022 13:49:03 +0000</pubDate>
-      
       <guid>/tags/icons/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>imagemagick</title>
+      <title>Imagemagick</title>
       <link>/tags/imagemagick/</link>
       <pubDate>Sun, 25 Dec 2022 13:49:03 +0000</pubDate>
-      
       <guid>/tags/imagemagick/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>styling</title>
+      <title>Styling</title>
       <link>/tags/styling/</link>
       <pubDate>Sun, 25 Dec 2022 09:35:08 +0000</pubDate>
-      
       <guid>/tags/styling/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>speech</title>
+      <title>Speech</title>
       <link>/tags/speech/</link>
       <pubDate>Sat, 24 Dec 2022 19:21:52 +0000</pubDate>
-      
       <guid>/tags/speech/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>audio</title>
+      <title>Audio</title>
       <link>/tags/audio/</link>
       <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
-      
       <guid>/tags/audio/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pyaudio</title>
+      <title>Pyaudio</title>
       <link>/tags/pyaudio/</link>
       <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
-      
       <guid>/tags/pyaudio/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>makefile</title>
+      <title>Makefile</title>
       <link>/tags/makefile/</link>
       <pubDate>Tue, 20 Dec 2022 10:08:33 +0000</pubDate>
-      
       <guid>/tags/makefile/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>javafx</title>
+      <title>Javafx</title>
       <link>/tags/javafx/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      
       <guid>/tags/javafx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kotlin</title>
+      <title>Kotlin</title>
       <link>/tags/kotlin/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      
       <guid>/tags/kotlin/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>logging</title>
+      <title>Logging</title>
       <link>/tags/logging/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      
       <guid>/tags/logging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hacker-news-links</title>
+      <title>Hacker-News-Links</title>
       <link>/tags/hacker-news-links/</link>
       <pubDate>Sat, 19 Nov 2022 12:43:03 +0000</pubDate>
-      
       <guid>/tags/hacker-news-links/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>commandline</title>
+      <title>Commandline</title>
       <link>/tags/commandline/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      
       <guid>/tags/commandline/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>json</title>
+      <title>Json</title>
       <link>/tags/json/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      
       <guid>/tags/json/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>graphviz</title>
+      <title>Graphviz</title>
       <link>/tags/graphviz/</link>
       <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
-      
       <guid>/tags/graphviz/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>java</title>
+      <title>Java</title>
       <link>/tags/java/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      
       <guid>/tags/java/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>springboot</title>
+      <title>Springboot</title>
       <link>/tags/springboot/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      
       <guid>/tags/springboot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ideas</title>
+      <title>Ideas</title>
       <link>/tags/ideas/</link>
       <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
-      
       <guid>/tags/ideas/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>best-practices</title>
+      <title>Best-Practices</title>
       <link>/tags/best-practices/</link>
       <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
-      
       <guid>/tags/best-practices/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>/tags/git/</link>
       <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
-      
       <guid>/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>selenium</title>
+      <title>Selenium</title>
       <link>/tags/selenium/</link>
       <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
-      
       <guid>/tags/selenium/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mapping</title>
+      <title>Mapping</title>
       <link>/tags/mapping/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      
       <guid>/tags/mapping/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wiremock</title>
+      <title>Wiremock</title>
       <link>/tags/wiremock/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      
       <guid>/tags/wiremock/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>safari</title>
+      <title>Safari</title>
       <link>/tags/safari/</link>
       <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
-      
       <guid>/tags/safari/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>products</title>
+      <title>Products</title>
       <link>/tags/products/</link>
       <pubDate>Mon, 15 Jun 2020 20:33:16 +0000</pubDate>
-      
       <guid>/tags/products/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>architecture</title>
+      <title>Architecture</title>
       <link>/tags/architecture/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
-      
       <guid>/tags/architecture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>document</title>
+      <title>Document</title>
       <link>/tags/document/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
-      
       <guid>/tags/document/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bash</title>
+      <title>Bash</title>
       <link>/tags/bash/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
-      
       <guid>/tags/bash/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>plantuml</title>
+      <title>Plantuml</title>
       <link>/tags/plantuml/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
-      
       <guid>/tags/plantuml/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gradle</title>
+      <title>Gradle</title>
       <link>/tags/gradle/</link>
       <pubDate>Fri, 08 May 2020 15:00:06 +0100</pubDate>
-      
       <guid>/tags/gradle/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>streams</title>
+      <title>Streams</title>
       <link>/tags/streams/</link>
       <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
-      
       <guid>/tags/streams/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>/tags/cli/</link>
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/cli/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>find</title>
+      <title>Find</title>
       <link>/tags/find/</link>
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/find/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>svg</title>
+      <title>Svg</title>
       <link>/tags/svg/</link>
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/svg/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web</title>
+      <title>Web</title>
       <link>/tags/web/</link>
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lsof</title>
+      <title>Lsof</title>
       <link>/tags/lsof/</link>
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/lsof/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>/tags/networking/</link>
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/networking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>seq</title>
+      <title>Seq</title>
       <link>/tags/seq/</link>
       <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/seq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>jq</title>
+      <title>Jq</title>
       <link>/tags/jq/</link>
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
-      
       <guid>/tags/jq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>motivation</title>
+      <title>Motivation</title>
       <link>/tags/motivation/</link>
       <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
-      
       <guid>/tags/motivation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>csv</title>
+      <title>Csv</title>
       <link>/tags/csv/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
-      
       <guid>/tags/csv/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>csvkit</title>
+      <title>Csvkit</title>
       <link>/tags/csvkit/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
-      
       <guid>/tags/csvkit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>shell</title>
+      <title>Shell</title>
       <link>/tags/shell/</link>
       <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
-      
       <guid>/tags/shell/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>maths</title>
+      <title>Maths</title>
       <link>/tags/maths/</link>
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
-      
       <guid>/tags/maths/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ide</title>
+      <title>Ide</title>
       <link>/tags/ide/</link>
       <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
-      
       <guid>/tags/ide/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>utilities</title>
+      <title>Utilities</title>
       <link>/tags/utilities/</link>
       <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
-      
       <guid>/tags/utilities/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aws</title>
+      <title>Aws</title>
       <link>/tags/aws/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      
       <guid>/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>serverless</title>
+      <title>Serverless</title>
       <link>/tags/serverless/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      
       <guid>/tags/serverless/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pyqt5</title>
+      <title>Pyqt5</title>
       <link>/tags/pyqt5/</link>
       <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
-      
       <guid>/tags/pyqt5/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tutorial</title>
+      <title>Tutorial</title>
       <link>/tags/tutorial/</link>
       <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
-      
       <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>devops</title>
+      <title>Devops</title>
       <link>/tags/devops/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      
       <guid>/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>oauth2</title>
+      <title>Oauth2</title>
       <link>/tags/oauth2/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      
       <guid>/tags/oauth2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>/tags/security/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      
       <guid>/tags/security/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>testing</title>
+      <title>Testing</title>
       <link>/tags/testing/</link>
       <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
-      
       <guid>/tags/testing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>monitoring</title>
+      <title>Monitoring</title>
       <link>/tags/monitoring/</link>
       <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
-      
       <guid>/tags/monitoring/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kuberider</title>
+      <title>Kuberider</title>
       <link>/tags/kuberider/</link>
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
-      
       <guid>/tags/kuberider/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>packaging</title>
+      <title>Packaging</title>
       <link>/tags/packaging/</link>
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
-      
       <guid>/tags/packaging/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
