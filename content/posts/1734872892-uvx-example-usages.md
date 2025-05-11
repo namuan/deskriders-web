@@ -103,3 +103,9 @@ uv run --with f5-tts-mlx \
   --output gen.wav \
   --text "On December 7, 1941, an unprepared United States was attacked at Pearl Harbor, crippling much of the US fleet. Less than four years later, US deployed a new and unimaginably destructive weapon—a weapon that, just a few years before, had been considered science fiction."
 ```
+
+```shell
+uvx --from mlx-audio mlx_audio.tts.generate \
+    --model mlx-community/Dia-1.6B-6bit \
+    --text "[S1] Dia can now run on your Mac thanks to MLX. [S2] You get full control over scripts and voices. [S1] Wow. Amazing. (laughs)"
+```
