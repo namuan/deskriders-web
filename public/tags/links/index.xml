@@ -6,8 +6,15 @@
     <description>Recent content in Links on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Mar 2025 10:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 May 2025 10:00:25 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Link List :: 2025-05-25</title>
+      <link>//localhost:1313/posts/1748181366-linklist-2025-05-25/</link>
+      <pubDate>Sun, 25 May 2025 10:00:25 +0000</pubDate>
+      <guid>//localhost:1313/posts/1748181366-linklist-2025-05-25/</guid>
+      <description>&lt;h2 id=&#34;httpsgithubcomrneatherwaygh-slack&#34;&gt;&lt;a href=&#34;https://github.com/rneatherway/gh-slack&#34;&gt;https://github.com/rneatherway/gh-slack&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;* This project provides a means of archiving a Slack conversation or thread as markdown.&#xA;* For convenience, it is installable as a gh extension: `gh extension install https://github.com/rneatherway/gh-slack` and then upgrade with `gh extension upgrade gh-slack`&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;httpsgithubcomautomataaicodeguidetabreadme-ov-filevibe&#34;&gt;&lt;a href=&#34;https://github.com/automata/aicodeguide?tab=readme-ov-file#vibe&#34;&gt;https://github.com/automata/aicodeguide?tab=readme-ov-file#vibe&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is an extensive guide on how to use Large Language Models (LLMs) for coding purposes. Here&amp;rsquo;s a summary of the main points:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Getting started with LLMs&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Choose an LLM tool, such as Cursor Agent or Aider.&lt;/li&gt;&#xA;&lt;li&gt;Set up your development environment and project structure.&lt;/li&gt;&#xA;&lt;li&gt;Create a PRD (Product Requirements Document) to guide your LLM&amp;rsquo;s implementation.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;LLM Training and Guidelines&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Link List :: 2025-03-30</title>
       <link>//localhost:1313/posts/1743339206-linklist-2025-03-30/</link>
