@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 May 2025 10:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 12:00:33 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
@@ -49,6 +49,13 @@
       <pubDate>Fri, 18 Jan 2019 09:27:38 +0000</pubDate>
       <guid>//localhost:1313/projects/docker-files/</guid>
       <description>&lt;p&gt;👉 &lt;a href=&#34;https://docker-files.com/&#34;&gt;docker-files&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/dockerfiles-cover-image.png&#34; alt=&#34;Dockerfiles&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prompt Chain for Decomposing Tasks and Step-by-Step Implementation</title>
+      <link>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</link>
+      <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
+      <guid>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</guid>
+      <description>&lt;h3 id=&#34;initial-prompt&#34;&gt;Initial Prompt&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Provide an overall solution for the problem stated at the end.&#xA;Don&amp;rsquo;t generate code.&#xA;Describe the solution and break it down into a task list.&#xA;We will refer to this task list as our master plan.&#xA;Reply succinctly and do not add anything not required for the solution.&#xA;Each task in the task list should be a single line.&lt;/p&gt;&#xA;&lt;p&gt;Problem:&#xA;I want to develop a Carousel component in React using TypeScript.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Link List :: 2025-05-25</title>

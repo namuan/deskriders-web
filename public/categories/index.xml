@@ -6,12 +6,26 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Mar 2025 10:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 12:00:33 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>//localhost:1313/categories/development/</link>
+      <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
+      <guid>//localhost:1313/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>//localhost:1313/categories/programming/</link>
+      <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
+      <guid>//localhost:1313/categories/programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linklist</title>
       <link>//localhost:1313/categories/linklist/</link>
-      <pubDate>Sun, 30 Mar 2025 10:00:25 +0000</pubDate>
+      <pubDate>Sun, 25 May 2025 10:00:25 +0000</pubDate>
       <guid>//localhost:1313/categories/linklist/</guid>
       <description></description>
     </item>
@@ -79,13 +93,6 @@
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>//localhost:1313/categories/development/</link>
-      <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      <guid>//localhost:1313/categories/development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Research</title>
       <link>//localhost:1313/categories/research/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
@@ -104,13 +111,6 @@
       <link>//localhost:1313/categories/llm/</link>
       <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
       <guid>//localhost:1313/categories/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>//localhost:1313/categories/programming/</link>
-      <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
-      <guid>//localhost:1313/categories/programming/</guid>
       <description></description>
     </item>
     <item>

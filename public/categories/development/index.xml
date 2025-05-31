@@ -6,8 +6,15 @@
     <description>Recent content in Development on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2024 10:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 12:00:33 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Chain for Decomposing Tasks and Step-by-Step Implementation</title>
+      <link>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</link>
+      <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
+      <guid>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</guid>
+      <description>&lt;h3 id=&#34;initial-prompt&#34;&gt;Initial Prompt&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Provide an overall solution for the problem stated at the end.&#xA;Don&amp;rsquo;t generate code.&#xA;Describe the solution and break it down into a task list.&#xA;We will refer to this task list as our master plan.&#xA;Reply succinctly and do not add anything not required for the solution.&#xA;Each task in the task list should be a single line.&lt;/p&gt;&#xA;&lt;p&gt;Problem:&#xA;I want to develop a Carousel component in React using TypeScript.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting Up Alnoda: A Dockerized Development Workspace</title>
       <link>//localhost:1313/posts/1735467013-alnoda-workspaces/</link>
