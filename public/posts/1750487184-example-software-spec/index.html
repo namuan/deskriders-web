@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Example Software Spec">
+  <meta name="twitter:description" content="Copy of example software spec">
+
+    <meta property="og:url" content="//localhost:1313/posts/1750487184-example-software-spec/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Example Software Spec">
+  <meta property="og:description" content="Copy of example software spec">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-21T07:26:24+01:00">
+    <meta property="article:modified_time" content="2025-06-21T07:26:24+01:00">
+    <meta property="article:tag" content="Specification">
+    <meta property="article:tag" content="Requirements">
+    <meta property="article:tag" content="Testing">
+
+
+    
+      <base href="//localhost:1313/posts/1750487184-example-software-spec/">
+    
+    <title>
+  Example Software Spec · deskriders
+</title>
+
+    
+      <link rel="canonical" href="//localhost:1313/posts/1750487184-example-software-spec/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="//localhost:1313/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Example Software Spec</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2025-06-21T07:26:24&#43;01:00'>
+                June 21, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              11 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/software/">software</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/specification/">specification</a>
+      <span class="separator">•</span>
+    <a href="/tags/requirements/">requirements</a>
+      <span class="separator">•</span>
+    <a href="/tags/testing/">testing</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Copied from <a href="https://dzone.com/articles/software-specs-an-elaborate-example">https://dzone.com/articles/software-specs-an-elaborate-example</a></p>
+<p><strong>Software Specs 2.0: An Elaborate Example</strong></p>
+<p><strong>Stelios Manioudakis, PhD</strong></p>
+<p>This article is a follow-up to the article that lays the theoretical foundation for software requirement qualities.</p>
+<p>Here, I provide an example for how to craft requirements for a User Authentication Login Endpoint. A practical illustration of how essential software requirement qualities can be interwoven when designing specifications for AI-generated code. I demonstrate the crucial interplay between explicitness (to achieve completeness), unambiguity (for machine-first understandability), constraint definition (to guide implementation and ensure viability), and testability (through explicit acceptance criteria). We&rsquo;ll explore how these qualities can practically be achieved through structured documentation. Our goal is that our AI assistant has a clear, actionable blueprint for generating a secure and functional login service.</p>
+<p>For explanatory purposes and to make clear how things work, I will provide a detailed requirements document. A blueprint that is by no means exhaustive, but it can serve as the basis for understanding and expanding. Documentation can be lightweight in practice, but this article must focus on details to avoid confusion. The document starts by stating the requirement ID and title. A feature&rsquo;s description follows, along with its functional and non-functional requirements. Data definitions, implementation constraints, acceptance criteria, and error handling fundamentals are also documented.</p>
+<h2 id="requirement-document-user-authentication---login-endpoint">Requirement Document: User Authentication - Login Endpoint</h2>
+<h3 id="1-requirement-id-and-title">1. Requirement ID and Title</h3>
+<p>Unique IDs are crucial for traceability, allowing you to link this specific requirement to design documents, generated code blocks, and test cases. This helps in maintenance and debugging.</p>
+<ul>
+<li><strong>ID</strong>: REQ-AUTH-001</li>
+<li><strong>Title</strong>: User Login Endpoint</li>
+</ul>
+<h3 id="2-feature-description">2. Feature Description</h3>
+<p>The feature description provides a high-level overview and context. For AI, this helps establish the overall goal before diving into specifics. It answers the &ldquo;what&rdquo; at a broad level.</p>
+<p>This feature provides an API endpoint for registered users to authenticate themselves using their email address and password. Successful authentication will grant access by providing a session token.</p>
+<h3 id="3-functional-requirements-fr">3. Functional Requirements (FR)</h3>
+<p>Functional requirements are broken down into atomic, specific statements. Keywords like MUST, SHOULD (though only MUST is used here for strictness) can follow RFC 2119 style, which AI-assistants can be trained to recognize. &ldquo;Case-insensitive search,&rdquo; &ldquo;structurally valid email format,&rdquo; and specific counter actions (increment, reset) leave little room for AI misinterpretation.</p>
+<p>This promotes unambiguity and precision. Details like checking if an account is disabled and the account lockout mechanism (FR11) cover crucial edge cases and security aspects, aiming for explicitness and completeness.</p>
+<ul>
+<li><strong>FR1</strong>: The system MUST expose an HTTPS POST endpoint at <code>/api/v1/auth/login</code>.</li>
+<li><strong>FR2</strong>: The endpoint MUST accept a JSON payload containing email (string) and password (string).</li>
+<li><strong>FR3</strong>: The system MUST validate the provided email:
+<ul>
+<li><strong>FR3.1</strong>: It MUST be a non-empty string.</li>
+<li><strong>FR3.2</strong>: It MUST be a structurally valid email format (e.g., <a href="mailto:user@example.com">user@example.com</a>).</li>
+</ul>
+</li>
+<li><strong>FR4</strong>: The system MUST validate the provided password:
+<ul>
+<li><strong>FR4.1</strong>: It MUST comply with a strong password policy.</li>
+</ul>
+</li>
+<li><strong>FR5</strong>: If input validation (FR3, FR4) fails, the system MUST return an error (see Error Handling EH1).</li>
+<li><strong>FR6</strong>: The system MUST retrieve the user record from the Users database table based on the provided email.</li>
+<li><strong>FR7</strong>: If no user record is found for the email, or if the user account is marked as disabled, the system MUST return an authentication failure error (see Error Handling EH2).</li>
+<li><strong>FR8</strong>: If a user record is found and the account is active, the system MUST verify the provided password against the stored hashed password for the user using the defined password hashing algorithm (see IC3: Security).</li>
+<li><strong>FR9</strong>: If password verification fails, the system MUST increment a failed_login_attempts counter for the user and return an authentication failure error (see Error Handling EH2).</li>
+<li><strong>FR10</strong>: If password verification is successful:
+<ul>
+<li><strong>FR10.1</strong>: The system MUST reset the failed_login_attempts counter for the user to 0.</li>
+<li><strong>FR10.2</strong>: The system MUST generate a JSON Web Token (JWT) (see IC3: Security for JWT specifications).</li>
+<li><strong>FR10.3</strong>: The system MUST return a success response containing the JWT (see Data Definitions - Output).</li>
+</ul>
+</li>
+<li><strong>FR11</strong>: Account lockout: If failed_login_attempts for a user reaches 5, their account MUST be temporarily locked for 15 minutes. Attempts to log in to a locked account MUST return an account locked error (see Error Handling EH3), even with correct credentials.</li>
+</ul>
+<h3 id="4-data-definitions">4. Data Definitions</h3>
+<p>Clearly defining data definitions (schemas) for inputs and outputs is critical for AI to generate correct data validation, serialization, and deserialization logic.</p>
+<p>Using terms like &ldquo;string, required, format: email&rdquo; helps the AI map to data types and validation rules (e.g., when using Pydantic models). This contributes to Structured Input.</p>
+<ul>
+<li><strong>Input Payload (JSON)</strong>:
+<ul>
+<li><code>email</code> (string, required, format: email)</li>
+<li><code>password</code> (string, required, minLength: 1)</li>
+</ul>
+</li>
+<li><strong>Success Output (JSON, HTTPS 200)</strong>:
+<ul>
+<li><code>access_token</code> (string, JWT format)</li>
+<li><code>token_type</code> (string, fixed value: &ldquo;Bearer&rdquo;)</li>
+<li><code>expires_in</code> (integer, seconds, representing token validity duration)</li>
+</ul>
+</li>
+<li><strong>Error Output (JSON, specific HTTPS status codes - see Error Handling)</strong>:
+<ul>
+<li><code>error_code</code> (string, e.g., &ldquo;INVALID_INPUT&rdquo;, &ldquo;AUTH_FAILED&rdquo;, &ldquo;ACCOUNT_LOCKED&rdquo;)</li>
+<li><code>message</code> (string, human-readable error description)</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-non-functional-requirements-nfrs">5. Non-Functional Requirements (NFRs)</h3>
+<p>NFRs reduce ambiguity, guide code generation toward aligned behaviors, and make the resulting software easier to verify against clearly defined benchmarks. They make qualities like performance and security testable and unambiguous. Specific millisecond targets and load conditions are set. Also, as an example, specific actions (no password logging, input sanitization) and references to further constraints (IC3) are provided.</p>
+<ul>
+<li><strong>NFR1 (Performance)</strong>: The average response time for the login endpoint MUST be less than 300ms under a load of 100 concurrent requests. P99 response time MUST be less than 800ms.</li>
+<li><strong>NFR2 (Security)</strong>: All password handling must adhere to security constraints specified in IC3. No sensitive information (passwords) should be logged. Input sanitization must be performed to prevent common injection attacks.</li>
+<li><strong>NFR3 (Auditability)</strong>: Successful and failed login attempts MUST be logged to the audit trail with timestamp, user email (for failed attempts, if identifiable), source IP address, and success/failure status. Failed attempts should include the specific failure reason (e.g., &ldquo;user_not_found,&rdquo; &ldquo;incorrect_password,&rdquo; &ldquo;account_locked&rdquo;).</li>
+</ul>
+<h3 id="6-implementation-constraints-and-guidance-ic">6. Implementation Constraints and Guidance (IC)</h3>
+<p>This section guides the AI&rsquo;s choices (Python/FastAPI, SQLAlchemy, Pydantic, bcrypt, JWT structure) without dictating the exact low-level code. For the purposes of this article, these specific choices are random and are not considered to be optimal in any sense. You are free to choose your own tech stack, architectural patterns, etc. Implementation constraints can guide towards Viability within the project&rsquo;s ecosystem and to meet specific security and architectural requirements.</p>
+<p>Also, it should be mentioned that the constraints shown are indicative and are by no means exhaustive. Currently, it depends on the specific AI assistant and the project under development, which constraints are more appropriate. Will there be AI assistants that develop code perfectly without constraints and guidance from humans? It remains to be seen.</p>
+<ul>
+<li><strong>IC1 (Technology Stack)</strong>:
+<ul>
+<li>Backend Language/Framework: Python 3.11+ / FastAPI.</li>
+<li>Data Validation: Pydantic models derived from Data Definitions.</li>
+<li>Database Interaction: Use SQLAlchemy ORM with the existing project database session configuration. Target table: Users.</li>
+</ul>
+</li>
+<li><strong>IC2 (Architectural Pattern)</strong>:
+<ul>
+<li>Logic should be primarily contained within a dedicated AuthenticationService class. The API endpoint controller should delegate to this service.</li>
+</ul>
+</li>
+<li><strong>IC3 (Security - Password and Token)</strong>:
+<ul>
+<li>Password Hashing: Stored passwords MUST be hashed using bcrypt with a work factor of 12.</li>
+<li>JWT Specifications:
+<ul>
+<li>Algorithm: HS256.</li>
+<li>Secret Key: Retrieved from environment variable JWT_SECRET_KEY.</li>
+<li>Payload Claims: MUST include sub (user_id), email, exp (expiration time), iat (issued at).</li>
+<li>Expiration: Tokens MUST expire 1 hour after issuance.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>IC4 (Environment)</strong>:
+<ul>
+<li>The service will be deployed as a Docker container. Configuration values (like JWT_SECRET_KEY, database connection string) MUST be configurable via environment variables.</li>
+</ul>
+</li>
+<li><strong>IC5 (Coding Standards)</strong>:
+<ul>
+<li>Adhere to PEP 8 style guide.</li>
+<li>All functions and methods MUST include type hints.</li>
+<li>All public functions/methods MUST have docstrings explaining purpose, arguments, and return values.</li>
+</ul>
+</li>
+</ul>
+<h3 id="7-acceptance-criteria-ac---gherkin-format">7. Acceptance Criteria (AC - Gherkin Format)</h3>
+<p>Acceptance criteria make the requirements Testable. Gherkin is an example format that is human-readable and structured. A behaviour-driven development tool that can also be used for AI assistants to derive specific test cases. It can cover happy paths and key error/edge cases, providing concrete examples of expected behavior. This gives clear verification targets for the AI-generated code.</p>
+<pre tabindex="0"><code>Feature: User Login API Endpoint
+
+Background:
+Given a user &#34;test@example.com&#34; exists with a bcrypt hashed password for &#34;ValidPassword123&#34;
+And the user account &#34;test@example.com&#34; is not disabled
+And the user &#34;test@example.com&#34; has 0 failed_login_attempts
+And the JWT_SECRET_KEY environment variable is set
+
+Scenario: Successful Login with Valid Credentials
+When a POST request is made to &#34;/api/v1/auth/login&#34; with JSON body:
+&#34;&#34;&#34;
+{
+&#34;email&#34;: &#34;test@example.com&#34;,
+&#34;password&#34;: &#34;ValidPassword123&#34;
+}
+&#34;&#34;&#34;
+Then the response status code should be 200
+And the response JSON should contain an &#34;access_token&#34; (string)
+And the response JSON should contain &#34;token_type&#34; with value &#34;Bearer&#34;
+And the response JSON should contain &#34;expires_in&#34; with value 3600
+And the &#34;access_token&#34; should be a valid JWT signed with HS256 containing &#34;sub&#34;, &#34;email&#34;, &#34;exp&#34;, &#34;iat&#34; claims
+And the failed_login_attempts for &#34;test@example.com&#34; should remain 0
+
+Scenario: Login with Invalid Password
+When a POST request is made to &#34;/api/v1/auth/login&#34; with JSON body:
+&#34;&#34;&#34;
+{
+&#34;email&#34;: &#34;test@example.com&#34;,
+&#34;password&#34;: &#34;InvalidPassword&#34;
+}
+&#34;&#34;&#34;
+Then the response status code should be 401
+And the response JSON should contain &#34;error_code&#34; with value &#34;AUTHENTICATION_FAILED&#34;
+And the response JSON should contain &#34;message&#34; with value &#34;Invalid email or password.&#34;
+And the failed_login_attempts for &#34;test@example.com&#34; should be 1
+
+Scenario: Login with Non-Existent Email
+When a POST request is made to &#34;/api/v1/auth/login&#34; with JSON body:
+&#34;&#34;&#34;
+{
+&#34;email&#34;: &#34;nouser@example.com&#34;,
+&#34;password&#34;: &#34;AnyPassword&#34;
+}
+&#34;&#34;&#34;
+Then the response status code should be 401
+And the response JSON should contain &#34;error_code&#34; with value &#34;AUTHENTICATION_FAILED&#34;
+And the response JSON should contain &#34;message&#34; with value &#34;Invalid email or password.&#34;
+
+Scenario: Account Lockout after 5 Failed Attempts
+Given the user &#34;test@example.com&#34; has 4 failed_login_attempts
+When a POST request is made to &#34;/api/v1/auth/login&#34; with JSON body: # This is the 5th failed attempt
+&#34;&#34;&#34;
+{
+&#34;email&#34;: &#34;test@example.com&#34;,
+&#34;password&#34;: &#34;InvalidPasswordAgain&#34;
+}
+&#34;&#34;&#34;
+Then the response status code should be 403
+And the response JSON should contain &#34;error_code&#34; with value &#34;ACCOUNT_LOCKED&#34;
+And the response JSON should contain &#34;message&#34; with value &#34;Account is temporarily locked due to too many failed login attempts.&#34;
+And the failed_login_attempts for &#34;test@example.com&#34; should be 5
+</code></pre><h3 id="8-error-handling-eh">8. Error Handling (EH)</h3>
+<p>This dedicated error handling section ensures Completeness by explicitly defining how different failure scenarios are communicated. To improve completeness we need to extensively cover edge cases and error handling. Specify exactly how different errors (validation errors, system errors, network errors) should be caught, logged, and communicated to the user (specific error messages, codes).</p>
+<ul>
+<li><strong>EH1 (Invalid Input)</strong>:
+<ul>
+<li><strong>Trigger</strong>: FR3 or FR4 fails.</li>
+<li><strong>HTTPS Status</strong>: 400 Bad Request.</li>
+<li><strong>Response Body</strong>: <code>{ &quot;error_code&quot;: &quot;INVALID_INPUT&quot;, &quot;message&quot;: &quot;Invalid input. Email must be valid and password must not be empty.&quot; }</code> (Example message, could be more specific based on which field failed).</li>
+</ul>
+</li>
+<li><strong>EH2 (Authentication Failure)</strong>:
+<ul>
+<li><strong>Trigger</strong>: FR7 or FR9 occurs.</li>
+<li><strong>HTTPS Status</strong>: 401 Unauthorized.</li>
+<li><strong>Response Body</strong>: <code>{ &quot;error_code&quot;: &quot;AUTHENTICATION_FAILED&quot;, &quot;message&quot;: &quot;Invalid email or password.&quot; }</code> (Generic message to prevent user enumeration).</li>
+</ul>
+</li>
+<li><strong>EH3 (Account Locked)</strong>:
+<ul>
+<li><strong>Trigger</strong>: Attempt to log in to an account that is locked per FR11.</li>
+<li><strong>HTTP Status</strong>: 403 Forbidden.</li>
+<li><strong>Response Body</strong>: <code>{ &quot;error_code&quot;: &quot;ACCOUNT_LOCKED&quot;, &quot;message&quot;: &quot;Account is temporarily locked due to too many failed login attempts.&quot; }</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="final-remarks">Final Remarks</h2>
+<p><strong>The dual purpose.</strong> The example User Authentication Login Endpoint requirement is carefully chosen so that it can be used for two purposes. The first is to explain the basic qualities of software requirements, irrespective of who writes the code (a human or AI). The second purpose is to focus on AI-assisted code and how to use requirements to our advantage.</p>
+<p><strong>Examples used are not exhaustive.</strong> All data and examples presented in the eight paragraphs, from requirement ID and title to error handling, are indicative. Many more functional/non-functional requirements can be crafted, as well as data definitions. Acceptance criteria and error handling cases are a minimal sample of what is usually needed in practice. Negative constraints (don&rsquo;t use Z, avoid pattern A), for example, are not provided here but can be very beneficial as well. And of course, you may find that there are other paragraphs, beyond the scope of this article, that are tailored to your documentation needs.</p>
+<p><strong>Documentation is not static.</strong> For clarity and completeness in this article, the documentation for the User Authentication Login Endpoint seems to be static. All is well specified upfront and then fed to the AI-assistant that does the job for us. Although a detailed document can be a good starting point, factors like implementation constraints and guidance can be fully interactive. For AI assistants, for example, with sophisticated chat interfaces, a &ldquo;dialogue&rdquo; with AI can be an important part of the process. While initial implementation constraints can be vital, some constraints might be refined or even discovered through interaction with the AI.</p>
+<h2 id="wrapping-up">Wrapping Up</h2>
+<p>I provided a requirements document for a User Authentication Login Endpoint requirement. This example document attempts to be explicit, precise, and constrained. Software requirements must necessarily be viable whilst eminently testable. It&rsquo;s structured to provide an AI code generator with sufficient detail to minimize guesswork and the chances of the AI producing undesirable output.</p>
+<p>While AI code assistants will probably be more capable and context-aware, the fundamental need for human-defined guidance appears to remain. Guiding an AI assistant for software development could be embedded in project templates. It could be via custom AI assistant configurations (if available), or even as part of a &ldquo;system prompt&rdquo; that always precedes specific task prompts.</p>
+<p>A dynamic set of principles that inform an ongoing interaction with AI can be based on the following.</p>
+<ul>
+<li><strong>Initial scaffolding</strong>: We provide the critical initial direction, ensuring the AI starts on the right path aligned with project standards, architecture, and non-negotiable requirements (especially security).</li>
+<li><strong>Basis for interaction</strong>: Our documentation becomes the foundation for interactive refinement. When the AI produces output, it can be evaluated against our documented requirements.</li>
+<li><strong>Evolving knowledge base</strong>: As the project progresses, parts of our documentation can be updated, or new ones added, reflecting new decisions or learnings.</li>
+<li><strong>Guardrails for AI autonomy</strong>: As AIs gain more autonomy in suggesting larger code blocks or even architectural components, such documents can act as essential guardrails, ensuring their &ldquo;creativity&rdquo; stays within acceptable project boundaries.</li>
+</ul>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2025
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

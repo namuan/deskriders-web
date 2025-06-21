@@ -6,8 +6,15 @@
     <description>Recent content in Posts on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 May 2025 12:00:33 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 07:26:24 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Software Spec</title>
+      <link>//localhost:1313/posts/1750487184-example-software-spec/</link>
+      <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
+      <guid>//localhost:1313/posts/1750487184-example-software-spec/</guid>
+      <description>&lt;p&gt;Copied from &lt;a href=&#34;https://dzone.com/articles/software-specs-an-elaborate-example&#34;&gt;https://dzone.com/articles/software-specs-an-elaborate-example&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Specs 2.0: An Elaborate Example&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Stelios Manioudakis, PhD&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This article is a follow-up to the article that lays the theoretical foundation for software requirement qualities.&lt;/p&gt;&#xA;&lt;p&gt;Here, I provide an example for how to craft requirements for a User Authentication Login Endpoint. A practical illustration of how essential software requirement qualities can be interwoven when designing specifications for AI-generated code. I demonstrate the crucial interplay between explicitness (to achieve completeness), unambiguity (for machine-first understandability), constraint definition (to guide implementation and ensure viability), and testability (through explicit acceptance criteria). We&amp;rsquo;ll explore how these qualities can practically be achieved through structured documentation. Our goal is that our AI assistant has a clear, actionable blueprint for generating a secure and functional login service.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prompt Chain for Decomposing Tasks and Step-by-Step Implementation</title>
       <link>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</link>
