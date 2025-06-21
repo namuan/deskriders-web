@@ -6,8 +6,15 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jun 2025 07:26:24 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 07:50:18 +0100</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Sat, 21 Jun 2025 07:50:18 +0100</pubDate>
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Requirements</title>
       <link>/tags/requirements/</link>
@@ -55,13 +62,6 @@
       <link>/tags/templates/</link>
       <pubDate>Sat, 08 Mar 2025 08:24:04 +0000</pubDate>
       <guid>/tags/templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Books</title>
-      <link>/tags/books/</link>
-      <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      <guid>/tags/books/</guid>
       <description></description>
     </item>
     <item>

@@ -20,16 +20,28 @@
     <loc>//localhost:1313/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/posts/1750488618-book-recommendations-typesfast-tweet/</loc>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/books/</loc>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/books/</loc>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-06-21T07:26:24+01:00</lastmod>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-06-21T07:26:24+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/1750487184-example-software-spec/</loc>
-    <lastmod>2025-06-21T07:26:24+01:00</lastmod>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-06-21T07:50:18+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/1750487184-example-software-spec/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/requirements/</loc>
@@ -39,9 +51,6 @@
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/specification/</loc>
-    <lastmod>2025-06-21T07:26:24+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/testing/</loc>
@@ -105,9 +114,6 @@
     <lastmod>2025-01-18T17:26:27+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/audio-processing/</loc>
-    <lastmod>2025-01-18T10:42:41+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/books/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/ebook-conversion/</loc>
@@ -228,9 +234,6 @@
     <lastmod>2024-12-09T08:59:36+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/1733520014-book-recommendations-maryrosecook-tweet/</loc>
-    <lastmod>2024-12-06T21:20:14+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/books/</loc>
     <lastmod>2024-12-06T21:20:14+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/1733067199-linklist-2024-12-01/</loc>
