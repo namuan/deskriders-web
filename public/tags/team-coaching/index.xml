@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Team-Coaching on deskriders</title>
+    <link>//localhost:1313/tags/team-coaching/</link>
+    <description>Recent content in Team-Coaching on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Jul 2025 21:54:18 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/team-coaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Questioning Techniques</title>
+      <link>//localhost:1313/posts/1752353657-effective-questions-software-coach/</link>
+      <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
+      <guid>//localhost:1313/posts/1752353657-effective-questions-software-coach/</guid>
+      <description>&lt;p&gt;As a software team coach, powerful questioning helps uncover insights, foster collaboration, and drive growth. Here are some techniques to ask impactful questions:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Open-Ended Questions&lt;/strong&gt;: Encourage exploration by asking &amp;ldquo;why,&amp;rdquo; &amp;ldquo;how,&amp;rdquo; or &amp;ldquo;what&amp;rdquo; (e.g., &amp;ldquo;What challenges are you facing with this sprint?&amp;rdquo;). Avoid yes/no questions to spark deeper discussion.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Socratic Method&lt;/strong&gt;: Probe assumptions to stimulate critical thinking (e.g., &amp;ldquo;What led you to that conclusion?&amp;rdquo; or &amp;ldquo;What might happen if we tried X instead?&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

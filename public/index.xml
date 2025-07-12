@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jul 2025 19:09:27 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 21:54:18 +0100</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
@@ -49,6 +49,13 @@
       <pubDate>Fri, 18 Jan 2019 09:27:38 +0000</pubDate>
       <guid>//localhost:1313/projects/docker-files/</guid>
       <description>&lt;p&gt;👉 &lt;a href=&#34;https://docker-files.com/&#34;&gt;docker-files&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/dockerfiles-cover-image.png&#34; alt=&#34;Dockerfiles&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Questioning Techniques</title>
+      <link>//localhost:1313/posts/1752353657-effective-questions-software-coach/</link>
+      <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
+      <guid>//localhost:1313/posts/1752353657-effective-questions-software-coach/</guid>
+      <description>&lt;p&gt;As a software team coach, powerful questioning helps uncover insights, foster collaboration, and drive growth. Here are some techniques to ask impactful questions:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Open-Ended Questions&lt;/strong&gt;: Encourage exploration by asking &amp;ldquo;why,&amp;rdquo; &amp;ldquo;how,&amp;rdquo; or &amp;ldquo;what&amp;rdquo; (e.g., &amp;ldquo;What challenges are you facing with this sprint?&amp;rdquo;). Avoid yes/no questions to spark deeper discussion.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Socratic Method&lt;/strong&gt;: Probe assumptions to stimulate critical thinking (e.g., &amp;ldquo;What led you to that conclusion?&amp;rdquo; or &amp;ldquo;What might happen if we tried X instead?&amp;rdquo;).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Link List :: 2025-07-12</title>

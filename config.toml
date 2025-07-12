@@ -62,11 +62,6 @@ googleAnalytics = "UA-129728575-5"
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/namuan/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://x.com/namuan_twt/"
 
 [[menu.main]]
 name = "Blog"
