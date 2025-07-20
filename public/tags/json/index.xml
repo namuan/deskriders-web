@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Json on deskriders</title>
-    <link>//localhost:1313/tags/json/</link>
+    <link>/tags/json/</link>
     <description>Recent content in Json on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JSON Command line power tools</title>
-      <link>//localhost:1313/posts/1666983482-json-power-tools/</link>
+      <link>/posts/1666983482-json-power-tools/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      <guid>//localhost:1313/posts/1666983482-json-power-tools/</guid>
+      <guid>/posts/1666983482-json-power-tools/</guid>
       <description>&lt;h2 id=&#34;jq--command-line-json-processor&#34;&gt;JQ :: command-line JSON processor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://earthly.dev/blog/jq-select/&#34;&gt;Tutorial&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;jtab--json-data-as-a-formatted-table&#34;&gt;JTab :: Json data as a formatted table&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/wlezzar/jtab&#34;&gt;https://github.com/wlezzar/jtab&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;gron--make-json-greppable&#34;&gt;gron :: Make JSON greppable&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/tomnomnom/gron&#34;&gt;https://github.com/tomnomnom/gron&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;fx-function-execution--interactive-json-viewer&#34;&gt;fx (Function eXecution) :: Interactive JSON Viewer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/antonmedv/fx&#34;&gt;https://github.com/antonmedv/fx&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wiremock: How to match multiple urls in a single mapping</title>
-      <link>//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/</link>
+      <link>/posts/1639311183-wiremock-match-multiple-urls/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      <guid>//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/</guid>
+      <guid>/posts/1639311183-wiremock-match-multiple-urls/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://wiremock.org/&#34;&gt;Wiremock&lt;/a&gt; is a tool to mock HTTP APIs.&#xA;You can set up Stubs in Wiremock by using their API or by calling the admin API over HTTP.&#xA;Usually it is used as part of a test suite but here I&amp;rsquo;m running the &lt;a href=&#34;http://wiremock.org/docs/running-standalone/&#34;&gt;standalone&lt;/a&gt; Wiremock server.&lt;/p&gt;&#xA;&lt;p&gt;Once the jar file is downloaded, you can start the server by running the following command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;java -jar wiremock-jre8-standalone-2.32.0.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here we are setting multiple URLs to match in a single mapping.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip 9 : Combining JSON attributes using jq</title>
-      <link>//localhost:1313/posts/021-tooltip-9-constructing-new-structure-jq/</link>
+      <link>/posts/021-tooltip-9-constructing-new-structure-jq/</link>
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
+      <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mjGh5gjJtqo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip 8 : Extracting Array Item using jq</title>
-      <link>//localhost:1313/posts/020-tooltip-8-extracting-items-contains-jq/</link>
+      <link>/posts/020-tooltip-8-extracting-items-contains-jq/</link>
       <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
-      <guid>//localhost:1313/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
+      <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/OR88RAyiTiE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip 7: Selecting nested array items using jq</title>
-      <link>//localhost:1313/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
+      <link>/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
       <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
-      <guid>//localhost:1313/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
+      <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jAuMRjBDAMo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;&#xA;&lt;p&gt;👉 Although &lt;code&gt;jq&lt;/code&gt; is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip # 6 :: Filtering JSON arrays with jq</title>
-      <link>//localhost:1313/posts/018-tooltip-6-filtering-json-arrays-jq/</link>
+      <link>/posts/018-tooltip-6-filtering-json-arrays-jq/</link>
       <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
-      <guid>//localhost:1313/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
+      <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at using &lt;code&gt;jq&lt;/code&gt; to filter JSON arrays.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/_rNmyYkZdUc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;&#xA;&lt;p&gt;👉 Although &lt;code&gt;jq&lt;/code&gt; is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip # 5 :: Converting CSV to JSON using csvkit</title>
-      <link>//localhost:1313/posts/017-tooltip-5-converting-csv-to-json/</link>
+      <link>/posts/017-tooltip-5-converting-csv-to-json/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
-      <guid>//localhost:1313/posts/017-tooltip-5-converting-csv-to-json/</guid>
+      <guid>/posts/017-tooltip-5-converting-csv-to-json/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at using &lt;code&gt;csvjson&lt;/code&gt; utility from &lt;code&gt;csvkit&lt;/code&gt; to convert CSV to JSON.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;csvkit: &lt;a href=&#34;https://csvkit.readthedocs.io/en/latest/&#34;&gt;https://csvkit.readthedocs.io/en/latest/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(sudo) pip install csvkit&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/OQLJyefim4o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip # 4 :: Converting JSON to CSV using csvkit</title>
-      <link>//localhost:1313/posts/016-tooltip-4-converting-json-to-csv/</link>
+      <link>/posts/016-tooltip-4-converting-json-to-csv/</link>
       <pubDate>Fri, 31 Jan 2020 08:00:06 +0000</pubDate>
-      <guid>//localhost:1313/posts/016-tooltip-4-converting-json-to-csv/</guid>
+      <guid>/posts/016-tooltip-4-converting-json-to-csv/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at using &lt;code&gt;in2sec&lt;/code&gt; utility from &lt;code&gt;csvkit&lt;/code&gt; to convert JSON to CSV.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;csvkit: &lt;a href=&#34;https://csvkit.readthedocs.io/en/latest/&#34;&gt;https://csvkit.readthedocs.io/en/latest/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(sudo) pip install csvkit&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/QXhhKyIi900?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;&#xA;&lt;p&gt;👉 Used &lt;a href=&#34;http://next.json-generator.com&#34;&gt;http://next.json-generator.com&lt;/a&gt; to generate JSON document&lt;/p&gt;</description>
     </item>
   </channel>

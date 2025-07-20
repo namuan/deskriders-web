@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jq on deskriders</title>
-    <link>//localhost:1313/tags/jq/</link>
+    <link>/tags/jq/</link>
     <description>Recent content in Jq on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Feb 2020 08:06:04 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/jq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/jq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tooltip 9 : Combining JSON attributes using jq</title>
-      <link>//localhost:1313/posts/021-tooltip-9-constructing-new-structure-jq/</link>
+      <link>/posts/021-tooltip-9-constructing-new-structure-jq/</link>
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
+      <guid>/posts/021-tooltip-9-constructing-new-structure-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll continue looking at jq to combine (first name and last name) attributes of a JSON object and then build a new attribute (full name).&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mjGh5gjJtqo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip 8 : Extracting Array Item using jq</title>
-      <link>//localhost:1313/posts/020-tooltip-8-extracting-items-contains-jq/</link>
+      <link>/posts/020-tooltip-8-extracting-items-contains-jq/</link>
       <pubDate>Tue, 04 Feb 2020 08:05:44 +0000</pubDate>
-      <guid>//localhost:1313/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
+      <guid>/posts/020-tooltip-8-extracting-items-contains-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll continue looking at jq to extract a nested array item along with using the &amp;lsquo;contains&amp;rsquo; function to partially match an attribute value.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/OR88RAyiTiE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip 7: Selecting nested array items using jq</title>
-      <link>//localhost:1313/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
+      <link>/posts/019-tooltip-7-selecting-nested-array-items-jq/</link>
       <pubDate>Mon, 03 Feb 2020 08:05:07 +0000</pubDate>
-      <guid>//localhost:1313/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
+      <guid>/posts/019-tooltip-7-selecting-nested-array-items-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll further into jq syntax and selecting nested items using jq filtering.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/jAuMRjBDAMo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;&#xA;&lt;p&gt;👉 Although &lt;code&gt;jq&lt;/code&gt; is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tooltip # 6 :: Filtering JSON arrays with jq</title>
-      <link>//localhost:1313/posts/018-tooltip-6-filtering-json-arrays-jq/</link>
+      <link>/posts/018-tooltip-6-filtering-json-arrays-jq/</link>
       <pubDate>Sun, 02 Feb 2020 07:45:25 +0000</pubDate>
-      <guid>//localhost:1313/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
+      <guid>/posts/018-tooltip-6-filtering-json-arrays-jq/</guid>
       <description>&lt;p&gt;In this short clip, we&amp;rsquo;ll look at using &lt;code&gt;jq&lt;/code&gt; to filter JSON arrays.&lt;/p&gt;&#xA;&lt;h4 id=&#34;requirements&#34;&gt;Requirements:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jq: &lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/_rNmyYkZdUc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;📝:&lt;/p&gt;&#xA;&lt;p&gt;👉 Tested on MacOS Mojave but should work on earlier versions and all flavours of Linux&lt;/p&gt;&#xA;&lt;p&gt;👉 Although &lt;code&gt;jq&lt;/code&gt; is really powerful but watch out for over using it. It is probably more easier to achieve the same thing in a proper language.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Templates on deskriders</title>
-    <link>//localhost:1313/tags/templates/</link>
+    <link>/tags/templates/</link>
     <description>Recent content in Templates on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 08 Mar 2025 08:24:04 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/templates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Engineering Project Proposal Template</title>
-      <link>//localhost:1313/posts/1741422244-engineering-request-proposal-template/</link>
+      <link>/posts/1741422244-engineering-request-proposal-template/</link>
       <pubDate>Sat, 08 Mar 2025 08:24:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/1741422244-engineering-request-proposal-template/</guid>
+      <guid>/posts/1741422244-engineering-request-proposal-template/</guid>
       <description>&lt;h2 id=&#34;questions-to-ask&#34;&gt;Questions to ask:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;What is the underlying problem you are trying to address?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Should be well defined&lt;/li&gt;&#xA;&lt;li&gt;Focus on the issue&lt;/li&gt;&#xA;&lt;li&gt;No solutions yet&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why should we solve this problem?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Impact on the org&lt;/li&gt;&#xA;&lt;li&gt;Significance and urgency&lt;/li&gt;&#xA;&lt;li&gt;Add data (quantitative or qualitative)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can we solve this problem?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Proposed changes required.&lt;/li&gt;&#xA;&lt;li&gt;Incorporate different views (4+1 architectural view model)&lt;/li&gt;&#xA;&lt;li&gt;What are we optimising? (Deadline/Tech Debt)&lt;/li&gt;&#xA;&lt;li&gt;What are we sacrificing? (Tech Debt/Complexity)&lt;/li&gt;&#xA;&lt;li&gt;What are some alternatives to solve this problem (Important)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What are the risks with the solution?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

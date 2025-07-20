@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monitoring on deskriders</title>
-    <link>//localhost:1313/tags/monitoring/</link>
+    <link>/tags/monitoring/</link>
     <description>Recent content in Monitoring on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Oct 2019 11:30:15 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating Runscope monitoring tests with HttpRider</title>
-      <link>//localhost:1313/posts/002-httprider-generating-runscope-monitoring-tests/</link>
+      <link>/posts/002-httprider-generating-runscope-monitoring-tests/</link>
       <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
-      <guid>//localhost:1313/posts/002-httprider-generating-runscope-monitoring-tests/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.runscope.com&#34;&gt;Runscope&lt;/a&gt; (Now Part of &lt;a href=&#34;https://www.blazemeter.com&#34;&gt;BlazeMeter&lt;/a&gt;) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We start with API definitions in HttpRider, make sure you run them at least once as some of the exporters use the data from the response.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/002/httprider_runscope_1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Along with API definitions, it also generates &lt;a href=&#34;https://www.runscope.com/docs/api-testing/environments/&#34;&gt;Runscope environments&lt;/a&gt; with placeholders for any variables used from environment.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/002/httprider_runscope_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once the tests have successfully finished, click on the export/export all button to display the code generator.&lt;/p&gt;</description>
+      <guid>/posts/002-httprider-generating-runscope-monitoring-tests/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.runscope.com&#34;&gt;Runscope&lt;/a&gt; (Now Part of &lt;a href=&#34;https://www.blazemeter.com&#34;&gt;BlazeMeter&lt;/a&gt;) is a well known service for API Monitoring. This post covers generating Runscope monitoring tests from &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We start with API definitions in HttpRider, make sure you run them at least once as some of the exporters use the data from the response.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/002/httprider_runscope_1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Along with API definitions, it also generates &lt;a href=&#34;https://www.runscope.com/docs/api-testing/environments/&#34;&gt;Runscope environments&lt;/a&gt; with placeholders for any variables used from environment.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/002/httprider_runscope_2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once the tests have successfully finished, click on the export/export all button to display the code generator.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

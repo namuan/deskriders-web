@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,7 +18,7 @@ Installing the selenium wrapper
 pip3 install helium Python code
 #!/usr/bin/env python3 from time import sleep from helium import start_firefox from selenium.webdriver import FirefoxOptions options = FirefoxOptions() options.add_argument(&#34;--start-maximized&#34;) options.set_preference(&#34;print.always_print_silent&#34;, True) options.set_preference(&#34;print.printer_Mozilla_Save_to_PDF.print_to_file&#34;, True) options.set_preference(&#34;print_printer&#34;, &#34;Mozilla Save to PDF&#34;) driver = start_firefox(&#34;https://www.deskriders.dev/posts/1639863087-python-selenium/&#34;, options=options) driver.execute_script(&#34;window.print();&#34;) sleep(2) # Found that a little wait is needed for the print to be rendered otherwise the file will be corrupted driver.quit() Once the above script is finished, you’ll find mozilla.pdf in the current directly.">
 
-    <meta property="og:url" content="//localhost:1313/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
+    <meta property="og:url" content="/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
   <meta property="og:site_name" content="deskriders">
   <meta property="og:title" content="Selenium Firefox and saving webpage as PDF">
   <meta property="og:description" content="A quick sample to save a webpage as PDF using Selenium with Firefox. Here I’m using Helium as a wrapper over Selenium but the same configuration can be directly applied to selenium library.
@@ -34,14 +34,14 @@ pip3 install helium Python code
 
 
     
-      <base href="//localhost:1313/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
+      <base href="/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
     
     <title>
   Selenium Firefox and saving webpage as PDF · deskriders
 </title>
 
     
-      <link rel="canonical" href="//localhost:1313/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
+      <link rel="canonical" href="/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -51,7 +51,7 @@ pip3 install helium Python code
     
       
       
-      <link rel="stylesheet" href="/css/coder.css" media="screen">
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -60,7 +60,7 @@ pip3 install helium Python code
       
         
         
-        <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
       
     
 
@@ -70,8 +70,8 @@ pip3 install helium Python code
 
     
 
-    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="//localhost:1313/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.143.1">
   </head>
@@ -84,7 +84,7 @@ pip3 install helium Python code
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="//localhost:1313/">
+    <a class="navigation-title" href="/">
       deskriders
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -93,15 +93,15 @@ pip3 install helium Python code
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="//localhost:1313/posts/">Blog</a>
+            <a class="navigation-link" href="/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="//localhost:1313/products">Products</a>
+            <a class="navigation-link" href="/products">Products</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="//localhost:1313/notes/">Notes</a>
+            <a class="navigation-link" href="/notes/">Notes</a>
           </li>
         
       

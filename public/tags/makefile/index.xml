@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Makefile on deskriders</title>
-    <link>//localhost:1313/tags/makefile/</link>
+    <link>/tags/makefile/</link>
     <description>Recent content in Makefile on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Dec 2022 10:08:33 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/makefile/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/makefile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Run a Makefile target with argument</title>
-      <link>//localhost:1313/posts/1671531201-makefile-argument/</link>
+      <link>/posts/1671531201-makefile-argument/</link>
       <pubDate>Tue, 20 Dec 2022 10:08:33 +0000</pubDate>
-      <guid>//localhost:1313/posts/1671531201-makefile-argument/</guid>
+      <guid>/posts/1671531201-makefile-argument/</guid>
       <description>&lt;p&gt;Define a new &lt;code&gt;Makefile&lt;/code&gt; task&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new-post: ## Create a new post with the given title (Use this with title=blah blah)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    hugo new posts/`date +%s`-$(title).md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Use it from the command line by providing a title when calling this task&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make new-post title&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;hello-world&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See full &lt;a href=&#34;https://github.com/namuan/deskriders-web/blob/master/Makefile#L39&#34;&gt;Makefile&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

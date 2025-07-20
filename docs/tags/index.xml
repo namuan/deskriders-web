@@ -6,8 +6,15 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jul 2025 21:54:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 19:09:27 +0100</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>/tags/links/</link>
+      <pubDate>Sun, 20 Jul 2025 19:09:27 +0100</pubDate>
+      <guid>/tags/links/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agile</title>
       <link>/tags/agile/</link>
@@ -27,13 +34,6 @@
       <link>/tags/team-coaching/</link>
       <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
       <guid>/tags/team-coaching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>/tags/links/</link>
-      <pubDate>Sat, 12 Jul 2025 19:09:27 +0100</pubDate>
-      <guid>/tags/links/</guid>
       <description></description>
     </item>
     <item>

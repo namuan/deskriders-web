@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on deskriders</title>
-    <link>//localhost:1313/tags/testing/</link>
+    <link>/tags/testing/</link>
     <description>Recent content in Testing on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Jun 2025 07:26:24 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Software Spec</title>
-      <link>//localhost:1313/posts/1750487184-example-software-spec/</link>
+      <link>/posts/1750487184-example-software-spec/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
-      <guid>//localhost:1313/posts/1750487184-example-software-spec/</guid>
+      <guid>/posts/1750487184-example-software-spec/</guid>
       <description>&lt;p&gt;Copied from &lt;a href=&#34;https://dzone.com/articles/software-specs-an-elaborate-example&#34;&gt;https://dzone.com/articles/software-specs-an-elaborate-example&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Specs 2.0: An Elaborate Example&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Stelios Manioudakis, PhD&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This article is a follow-up to the article that lays the theoretical foundation for software requirement qualities.&lt;/p&gt;&#xA;&lt;p&gt;Here, I provide an example for how to craft requirements for a User Authentication Login Endpoint. A practical illustration of how essential software requirement qualities can be interwoven when designing specifications for AI-generated code. I demonstrate the crucial interplay between explicitness (to achieve completeness), unambiguity (for machine-first understandability), constraint definition (to guide implementation and ensure viability), and testability (through explicit acceptance criteria). We&amp;rsquo;ll explore how these qualities can practically be achieved through structured documentation. Our goal is that our AI assistant has a clear, actionable blueprint for generating a secure and functional login service.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Performance testing with HttpRider</title>
-      <link>//localhost:1313/posts/004-httprider-performance-testing/</link>
+      <link>/posts/004-httprider-performance-testing/</link>
       <pubDate>Sat, 16 Nov 2019 16:24:01 +0000</pubDate>
-      <guid>//localhost:1313/posts/004-httprider-performance-testing/</guid>
-      <description>&lt;p&gt;The title is a bit misleading as &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt; can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.&lt;/p&gt;&#xA;&lt;h4 id=&#34;slow-cooker&#34;&gt;Slow cooker:&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/BuoyantIO/slow_cooker&#34;&gt;SlowCooker&lt;/a&gt; is a command line tool for load testing. &lt;a href=&#34;https://buoyant.io/2016/12/10/slow-cooker-load-testing-for-tough-software/&#34;&gt;Here&lt;/a&gt; is an excellent blog post about the background and difference from other similar tools.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/004/httprider_slowcooker.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code. Along with the command, you can find brief documentation on command line arguments and output format.&lt;/p&gt;</description>
+      <guid>/posts/004-httprider-performance-testing/</guid>
+      <description>&lt;p&gt;The title is a bit misleading as &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt; can&amp;rsquo;t run performance tests (as of now), however it can be used to generate performance tests using a couple of different approach.&lt;/p&gt;&#xA;&lt;h4 id=&#34;slow-cooker&#34;&gt;Slow cooker:&lt;/h4&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/BuoyantIO/slow_cooker&#34;&gt;SlowCooker&lt;/a&gt; is a command line tool for load testing. &lt;a href=&#34;https://buoyant.io/2016/12/10/slow-cooker-load-testing-for-tough-software/&#34;&gt;Here&lt;/a&gt; is an excellent blog post about the background and difference from other similar tools.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/004/httprider_slowcooker.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Generating code to run slow cooker is as simple as selecting an API call and click on the export button to generate code. Along with the command, you can find brief documentation on command line arguments and output format.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Generating BDD tests with HttpRider</title>
-      <link>//localhost:1313/posts/003-httprider-generating-bdd-tests/</link>
+      <link>/posts/003-httprider-generating-bdd-tests/</link>
       <pubDate>Mon, 28 Oct 2019 11:30:47 +0000</pubDate>
-      <guid>//localhost:1313/posts/003-httprider-generating-bdd-tests/</guid>
+      <guid>/posts/003-httprider-generating-bdd-tests/</guid>
       <description>&lt;p&gt;In this post, we&amp;rsquo;ll see how we can easily generate BDD tests with HttpRider.&lt;/p&gt;&#xA;&lt;p&gt;Instead of writing the code behind the REST api calls, we&amp;rsquo;ll use an open source framework called &lt;a href=&#34;https://github.com/apickli/apickli&#34;&gt;Apickli&lt;/a&gt; to do the heavy lifting. Apickli is based on cucumber.js and defines a number of pre-built &lt;a href=&#34;https://github.com/apickli/apickli#gherkin-expressions&#34;&gt;Gherkin expressions&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also created a &lt;a href=&#34;https://github.com/namuan/apickli_functional_tests&#34;&gt;sample project&lt;/a&gt; using Apicki framework to make it easy to get it up and running.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with a few API calls using the &lt;a href=&#34;https://github.com/namuan/http-rider/tree/master/sample&#34;&gt;sample database&lt;/a&gt; provided with source. Once it is loaded, please make sure that you run all the APIs at least once as some of the exporters use the response to generate code.&lt;/p&gt;</description>
     </item>
   </channel>

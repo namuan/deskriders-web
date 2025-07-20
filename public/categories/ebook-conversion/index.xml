@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EBook Conversion on deskriders</title>
-    <link>//localhost:1313/categories/ebook-conversion/</link>
+    <link>/categories/ebook-conversion/</link>
     <description>Recent content in EBook Conversion on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Jan 2025 10:42:41 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/ebook-conversion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/ebook-conversion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EPUB to Conversational Audio: AI-Powered Podcast Generator</title>
-      <link>//localhost:1313/posts/1737196960-epub-to-audio-setup/</link>
+      <link>/posts/1737196960-epub-to-audio-setup/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      <guid>//localhost:1313/posts/1737196960-epub-to-audio-setup/</guid>
+      <guid>/posts/1737196960-epub-to-audio-setup/</guid>
       <description>&lt;p&gt;This script extracts text from an EPUB file, formats it, and converts it into an engaging audio podcast.&#xA;It uses AI-based transcript generation, rewriting, and text-to-speech synthesis to create a conversational and captivating audio output.&lt;/p&gt;&#xA;&lt;p&gt;Here is the &lt;a href=&#34;https://github.com/namuan/llm-playground/blob/main/epub-to-audio.py&#34;&gt;source code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/namuan/llm-playground.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-Requisites:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MLX Qwen2.5 Models:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;These will be downloaded when the script runs for the first time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;FIRST_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-14B-Instruct-4bit&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SECOND_PASS_LLM = &amp;#34;mlx-community/Qwen2.5-7B-Instruct-4bit&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Although you can configure a different MLX model if you already have it downloaded.&lt;/p&gt;</description>
     </item>
   </channel>

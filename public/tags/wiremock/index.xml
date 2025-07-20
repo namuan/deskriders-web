@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wiremock on deskriders</title>
-    <link>//localhost:1313/tags/wiremock/</link>
+    <link>/tags/wiremock/</link>
     <description>Recent content in Wiremock on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Dec 2021 12:13:25 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/wiremock/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/wiremock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wiremock: How to match multiple urls in a single mapping</title>
-      <link>//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/</link>
+      <link>/posts/1639311183-wiremock-match-multiple-urls/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      <guid>//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/</guid>
+      <guid>/posts/1639311183-wiremock-match-multiple-urls/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://wiremock.org/&#34;&gt;Wiremock&lt;/a&gt; is a tool to mock HTTP APIs.&#xA;You can set up Stubs in Wiremock by using their API or by calling the admin API over HTTP.&#xA;Usually it is used as part of a test suite but here I&amp;rsquo;m running the &lt;a href=&#34;http://wiremock.org/docs/running-standalone/&#34;&gt;standalone&lt;/a&gt; Wiremock server.&lt;/p&gt;&#xA;&lt;p&gt;Once the jar file is downloaded, you can start the server by running the following command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;java -jar wiremock-jre8-standalone-2.32.0.jar&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here we are setting multiple URLs to match in a single mapping.&lt;/p&gt;</description>
     </item>
   </channel>

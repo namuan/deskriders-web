@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maven on deskriders</title>
-    <link>//localhost:1313/tags/maven/</link>
+    <link>/tags/maven/</link>
     <description>Recent content in Maven on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 02 Jan 2023 13:23:48 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running Maven in Docker</title>
-      <link>//localhost:1313/posts/1672665828-running-maven-docker/</link>
+      <link>/posts/1672665828-running-maven-docker/</link>
       <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
-      <guid>//localhost:1313/posts/1672665828-running-maven-docker/</guid>
-      <description>&lt;p&gt;Run this from the root of a maven project&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -it --rm -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PWD&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;:/home/src/gpt-fx -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.m2&amp;#34;&lt;/span&gt;:/root/.m2 -w /home/src/gpt-fx maven:3.8.3-openjdk-17  mvn clean package -Ppackage&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2023/01/02/1672673166.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+      <guid>/posts/1672665828-running-maven-docker/</guid>
+      <description>&lt;p&gt;Run this from the root of a maven project&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -it --rm -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PWD&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;:/home/src/gpt-fx -v &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$HOME&lt;span style=&#34;color:#e6db74&#34;&gt;/.m2&amp;#34;&lt;/span&gt;:/root/.m2 -w /home/src/gpt-fx maven:3.8.3-openjdk-17  mvn clean package -Ppackage&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/images/2023/01/02/1672673166.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

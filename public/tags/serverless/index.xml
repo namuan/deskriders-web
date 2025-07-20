@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serverless on deskriders</title>
-    <link>//localhost:1313/tags/serverless/</link>
+    <link>/tags/serverless/</link>
     <description>Recent content in Serverless on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Jan 2020 18:51:44 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing API exchange sharing service - Part II</title>
-      <link>//localhost:1313/posts/009-developing-api-exchange-2/</link>
+      <link>/posts/009-developing-api-exchange-2/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      <guid>//localhost:1313/posts/009-developing-api-exchange-2/</guid>
+      <guid>/posts/009-developing-api-exchange-2/</guid>
       <description>&lt;p&gt;Please check the &lt;a href=&#34;https://dev.to/namuan/developing-api-exchange-sharing-service-part-i-nhp&#34;&gt;previous part&lt;/a&gt; to know the background of this project.&lt;/p&gt;&#xA;&lt;p&gt;In this part, we&amp;rsquo;ll dive into code and deploy a simple API to AWS Lambda and Api Gateway.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be using Python &lt;a href=&#34;https://palletsprojects.com/p/flask/&#34;&gt;Flask&lt;/a&gt; framework for defining the APIs and &lt;a href=&#34;https://serverless.com&#34;&gt;Serverless framework&lt;/a&gt; to manage the infrastructure and deployment.&lt;/p&gt;&#xA;&lt;p&gt;Please make sure you have Python3 and relatively newer version of nodejs installed and working to follow along.&lt;/p&gt;&#xA;&lt;p&gt;The first step is to create a new project folder and initialise package.json file which will be used to define and install Serverless plugins.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Developing API exchange sharing service - Part I</title>
-      <link>//localhost:1313/posts/008-developing-api-exchange-1/</link>
+      <link>/posts/008-developing-api-exchange-1/</link>
       <pubDate>Wed, 01 Jan 2020 16:51:35 +0000</pubDate>
-      <guid>//localhost:1313/posts/008-developing-api-exchange-1/</guid>
-      <description>&lt;p&gt;In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using &lt;a href=&#34;https://palletsprojects.com/p/flask/&#34;&gt;Flask&lt;/a&gt; python framework and deploying it on &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; and API gateway.&lt;/p&gt;&#xA;&lt;p&gt;This API is used from &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt; to save API exchanges (request+response).&lt;/p&gt;&#xA;&lt;p&gt;Here is a &lt;a href=&#34;https://printrider.bettercallbots.com/prints/9e4d91c5-4526-471f-8896-79543ccaeb6a&#34;&gt;sample page&lt;/a&gt; generated from HttpRider.&lt;/p&gt;&#xA;&lt;h3 id=&#34;demo&#34;&gt;Demo&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/008/0148au5ftxy2fby8qufj.gif&#34; alt=&#34;Quick Demo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The service itself consists of two simple APIs.&lt;/p&gt;&#xA;&lt;h4 id=&#34;post-prints&#34;&gt;POST /prints&lt;/h4&gt;&#xA;&lt;p&gt;Saves the HTML encoded in base64 in dynamo database. Once it is saved, it returns the URL of the shared document in the Location header of the response.&lt;/p&gt;</description>
+      <guid>/posts/008-developing-api-exchange-1/</guid>
+      <description>&lt;p&gt;In this series of articles, I&amp;rsquo;ll go through my experience of building a simple Serverless API using &lt;a href=&#34;https://palletsprojects.com/p/flask/&#34;&gt;Flask&lt;/a&gt; python framework and deploying it on &lt;a href=&#34;https://aws.amazon.com/lambda/&#34;&gt;AWS Lambda&lt;/a&gt; and API gateway.&lt;/p&gt;&#xA;&lt;p&gt;This API is used from &lt;a href=&#34;https://github.com/namuan/http-rider&#34;&gt;HttpRider&lt;/a&gt; to save API exchanges (request+response).&lt;/p&gt;&#xA;&lt;p&gt;Here is a &lt;a href=&#34;https://printrider.bettercallbots.com/prints/9e4d91c5-4526-471f-8896-79543ccaeb6a&#34;&gt;sample page&lt;/a&gt; generated from HttpRider.&lt;/p&gt;&#xA;&lt;h3 id=&#34;demo&#34;&gt;Demo&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/008/0148au5ftxy2fby8qufj.gif&#34; alt=&#34;Quick Demo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The service itself consists of two simple APIs.&lt;/p&gt;&#xA;&lt;h4 id=&#34;post-prints&#34;&gt;POST /prints&lt;/h4&gt;&#xA;&lt;p&gt;Saves the HTML encoded in base64 in dynamo database. Once it is saved, it returns the URL of the shared document in the Location header of the response.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

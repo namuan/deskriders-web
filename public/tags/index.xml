@@ -2,934 +2,934 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on deskriders</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jul 2025 21:54:18 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Jul 2025 19:09:27 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>/tags/links/</link>
+      <pubDate>Sun, 20 Jul 2025 19:09:27 +0100</pubDate>
+      <guid>/tags/links/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agile</title>
-      <link>//localhost:1313/tags/agile/</link>
+      <link>/tags/agile/</link>
       <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
-      <guid>//localhost:1313/tags/agile/</guid>
+      <guid>/tags/agile/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Development</title>
-      <link>//localhost:1313/tags/software-development/</link>
+      <link>/tags/software-development/</link>
       <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
-      <guid>//localhost:1313/tags/software-development/</guid>
+      <guid>/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Team-Coaching</title>
-      <link>//localhost:1313/tags/team-coaching/</link>
+      <link>/tags/team-coaching/</link>
       <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
-      <guid>//localhost:1313/tags/team-coaching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>//localhost:1313/tags/links/</link>
-      <pubDate>Sat, 12 Jul 2025 19:09:27 +0100</pubDate>
-      <guid>//localhost:1313/tags/links/</guid>
+      <guid>/tags/team-coaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>//localhost:1313/tags/books/</link>
+      <link>/tags/books/</link>
       <pubDate>Sat, 21 Jun 2025 07:50:18 +0100</pubDate>
-      <guid>//localhost:1313/tags/books/</guid>
+      <guid>/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Requirements</title>
-      <link>//localhost:1313/tags/requirements/</link>
+      <link>/tags/requirements/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
-      <guid>//localhost:1313/tags/requirements/</guid>
+      <guid>/tags/requirements/</guid>
       <description></description>
     </item>
     <item>
       <title>Specification</title>
-      <link>//localhost:1313/tags/specification/</link>
+      <link>/tags/specification/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
-      <guid>//localhost:1313/tags/specification/</guid>
+      <guid>/tags/specification/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>//localhost:1313/tags/testing/</link>
+      <link>/tags/testing/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
-      <guid>//localhost:1313/tags/testing/</guid>
+      <guid>/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompts</title>
-      <link>//localhost:1313/tags/prompts/</link>
+      <link>/tags/prompts/</link>
       <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
-      <guid>//localhost:1313/tags/prompts/</guid>
+      <guid>/tags/prompts/</guid>
       <description></description>
     </item>
     <item>
       <title>Engineering</title>
-      <link>//localhost:1313/tags/engineering/</link>
+      <link>/tags/engineering/</link>
       <pubDate>Sat, 08 Mar 2025 08:24:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/engineering/</guid>
+      <guid>/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Templates</title>
-      <link>//localhost:1313/tags/templates/</link>
+      <link>/tags/templates/</link>
       <pubDate>Sat, 08 Mar 2025 08:24:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/templates/</guid>
+      <guid>/tags/templates/</guid>
       <description></description>
     </item>
     <item>
       <title>MLX</title>
-      <link>//localhost:1313/tags/mlx/</link>
+      <link>/tags/mlx/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      <guid>//localhost:1313/tags/mlx/</guid>
+      <guid>/tags/mlx/</guid>
       <description></description>
     </item>
     <item>
       <title>Podcast</title>
-      <link>//localhost:1313/tags/podcast/</link>
+      <link>/tags/podcast/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      <guid>//localhost:1313/tags/podcast/</guid>
+      <guid>/tags/podcast/</guid>
       <description></description>
     </item>
     <item>
       <title>TTS</title>
-      <link>//localhost:1313/tags/tts/</link>
+      <link>/tags/tts/</link>
       <pubDate>Sat, 18 Jan 2025 10:42:41 +0000</pubDate>
-      <guid>//localhost:1313/tags/tts/</guid>
+      <guid>/tags/tts/</guid>
       <description></description>
     </item>
     <item>
       <title>Backtesting</title>
-      <link>//localhost:1313/tags/backtesting/</link>
+      <link>/tags/backtesting/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      <guid>//localhost:1313/tags/backtesting/</guid>
+      <guid>/tags/backtesting/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis</title>
-      <link>//localhost:1313/tags/data-analysis/</link>
+      <link>/tags/data-analysis/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      <guid>//localhost:1313/tags/data-analysis/</guid>
+      <guid>/tags/data-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Options</title>
-      <link>//localhost:1313/tags/options/</link>
+      <link>/tags/options/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      <guid>//localhost:1313/tags/options/</guid>
+      <guid>/tags/options/</guid>
       <description></description>
     </item>
     <item>
       <title>Trading</title>
-      <link>//localhost:1313/tags/trading/</link>
+      <link>/tags/trading/</link>
       <pubDate>Fri, 10 Jan 2025 11:10:08 +0000</pubDate>
-      <guid>//localhost:1313/tags/trading/</guid>
+      <guid>/tags/trading/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>//localhost:1313/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Trello</title>
-      <link>//localhost:1313/tags/trello/</link>
+      <link>/tags/trello/</link>
       <pubDate>Thu, 02 Jan 2025 10:58:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/trello/</guid>
+      <guid>/tags/trello/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>//localhost:1313/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      <guid>//localhost:1313/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Environments</title>
-      <link>//localhost:1313/tags/environments/</link>
+      <link>/tags/environments/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      <guid>//localhost:1313/tags/environments/</guid>
+      <guid>/tags/environments/</guid>
       <description></description>
     </item>
     <item>
       <title>Vscode</title>
-      <link>//localhost:1313/tags/vscode/</link>
+      <link>/tags/vscode/</link>
       <pubDate>Sun, 29 Dec 2024 10:10:13 +0000</pubDate>
-      <guid>//localhost:1313/tags/vscode/</guid>
+      <guid>/tags/vscode/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>//localhost:1313/tags/development/</link>
+      <link>/tags/development/</link>
       <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
-      <guid>//localhost:1313/tags/development/</guid>
+      <guid>/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
-      <guid>//localhost:1313/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>//localhost:1313/tags/performance/</link>
+      <link>/tags/performance/</link>
       <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      <guid>//localhost:1313/tags/performance/</guid>
+      <guid>/tags/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Investment</title>
-      <link>//localhost:1313/tags/investment/</link>
+      <link>/tags/investment/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/investment/</guid>
+      <guid>/tags/investment/</guid>
       <description></description>
     </item>
     <item>
       <title>Vix</title>
-      <link>//localhost:1313/tags/vix/</link>
+      <link>/tags/vix/</link>
       <pubDate>Mon, 09 Dec 2024 20:56:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/vix/</guid>
+      <guid>/tags/vix/</guid>
       <description></description>
     </item>
     <item>
       <title>Llm</title>
-      <link>//localhost:1313/tags/llm/</link>
+      <link>/tags/llm/</link>
       <pubDate>Mon, 09 Dec 2024 08:59:36 +0000</pubDate>
-      <guid>//localhost:1313/tags/llm/</guid>
+      <guid>/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Reddit</title>
-      <link>//localhost:1313/tags/reddit/</link>
+      <link>/tags/reddit/</link>
       <pubDate>Fri, 29 Nov 2024 11:25:30 +0000</pubDate>
-      <guid>//localhost:1313/tags/reddit/</guid>
+      <guid>/tags/reddit/</guid>
       <description></description>
     </item>
     <item>
       <title>Devdocs</title>
-      <link>//localhost:1313/tags/devdocs/</link>
+      <link>/tags/devdocs/</link>
       <pubDate>Tue, 26 Nov 2024 11:49:29 +0000</pubDate>
-      <guid>//localhost:1313/tags/devdocs/</guid>
+      <guid>/tags/devdocs/</guid>
       <description></description>
     </item>
     <item>
       <title>Readitlater</title>
-      <link>//localhost:1313/tags/readitlater/</link>
+      <link>/tags/readitlater/</link>
       <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
-      <guid>//localhost:1313/tags/readitlater/</guid>
+      <guid>/tags/readitlater/</guid>
       <description></description>
     </item>
     <item>
       <title>Reminders</title>
-      <link>//localhost:1313/tags/reminders/</link>
+      <link>/tags/reminders/</link>
       <pubDate>Sun, 24 Nov 2024 16:33:26 +0000</pubDate>
-      <guid>//localhost:1313/tags/reminders/</guid>
+      <guid>/tags/reminders/</guid>
       <description></description>
     </item>
     <item>
       <title>Memory</title>
-      <link>//localhost:1313/tags/memory/</link>
+      <link>/tags/memory/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      <guid>//localhost:1313/tags/memory/</guid>
+      <guid>/tags/memory/</guid>
       <description></description>
     </item>
     <item>
       <title>Thinking</title>
-      <link>//localhost:1313/tags/thinking/</link>
+      <link>/tags/thinking/</link>
       <pubDate>Sat, 16 Nov 2024 09:00:03 +0000</pubDate>
-      <guid>//localhost:1313/tags/thinking/</guid>
+      <guid>/tags/thinking/</guid>
       <description></description>
     </item>
     <item>
       <title>Markets</title>
-      <link>//localhost:1313/tags/markets/</link>
+      <link>/tags/markets/</link>
       <pubDate>Sat, 16 Nov 2024 08:40:23 +0000</pubDate>
-      <guid>//localhost:1313/tags/markets/</guid>
+      <guid>/tags/markets/</guid>
       <description></description>
     </item>
     <item>
       <title>Strategies</title>
-      <link>//localhost:1313/tags/strategies/</link>
+      <link>/tags/strategies/</link>
       <pubDate>Sat, 16 Nov 2024 08:40:23 +0000</pubDate>
-      <guid>//localhost:1313/tags/strategies/</guid>
+      <guid>/tags/strategies/</guid>
       <description></description>
     </item>
     <item>
       <title>Tsla</title>
-      <link>//localhost:1313/tags/tsla/</link>
+      <link>/tags/tsla/</link>
       <pubDate>Mon, 28 Oct 2024 13:41:25 +0000</pubDate>
-      <guid>//localhost:1313/tags/tsla/</guid>
+      <guid>/tags/tsla/</guid>
       <description></description>
     </item>
     <item>
       <title>Adjustments</title>
-      <link>//localhost:1313/tags/adjustments/</link>
+      <link>/tags/adjustments/</link>
       <pubDate>Sat, 19 Oct 2024 09:13:24 +0100</pubDate>
-      <guid>//localhost:1313/tags/adjustments/</guid>
+      <guid>/tags/adjustments/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>//localhost:1313/tags/productivity/</link>
+      <link>/tags/productivity/</link>
       <pubDate>Fri, 27 Sep 2024 09:30:15 +0100</pubDate>
-      <guid>//localhost:1313/tags/productivity/</guid>
+      <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>//localhost:1313/tags/tools/</link>
+      <link>/tags/tools/</link>
       <pubDate>Fri, 27 Sep 2024 09:30:15 +0100</pubDate>
-      <guid>//localhost:1313/tags/tools/</guid>
+      <guid>/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Diffusers</title>
-      <link>//localhost:1313/tags/diffusers/</link>
+      <link>/tags/diffusers/</link>
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
-      <guid>//localhost:1313/tags/diffusers/</guid>
+      <guid>/tags/diffusers/</guid>
       <description></description>
     </item>
     <item>
       <title>Huggingface</title>
-      <link>//localhost:1313/tags/huggingface/</link>
+      <link>/tags/huggingface/</link>
       <pubDate>Thu, 19 Sep 2024 11:22:15 +0100</pubDate>
-      <guid>//localhost:1313/tags/huggingface/</guid>
+      <guid>/tags/huggingface/</guid>
       <description></description>
     </item>
     <item>
       <title>Notebookllm</title>
-      <link>//localhost:1313/tags/notebookllm/</link>
+      <link>/tags/notebookllm/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      <guid>//localhost:1313/tags/notebookllm/</guid>
+      <guid>/tags/notebookllm/</guid>
       <description></description>
     </item>
     <item>
       <title>Rag</title>
-      <link>//localhost:1313/tags/rag/</link>
+      <link>/tags/rag/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      <guid>//localhost:1313/tags/rag/</guid>
+      <guid>/tags/rag/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>//localhost:1313/tags/research/</link>
+      <link>/tags/research/</link>
       <pubDate>Sat, 14 Sep 2024 09:04:54 +0100</pubDate>
-      <guid>//localhost:1313/tags/research/</guid>
+      <guid>/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>//localhost:1313/tags/deployment/</link>
+      <link>/tags/deployment/</link>
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
-      <guid>//localhost:1313/tags/deployment/</guid>
+      <guid>/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Servers</title>
-      <link>//localhost:1313/tags/servers/</link>
+      <link>/tags/servers/</link>
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
-      <guid>//localhost:1313/tags/servers/</guid>
+      <guid>/tags/servers/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>//localhost:1313/tags/tips/</link>
+      <link>/tags/tips/</link>
       <pubDate>Thu, 05 Sep 2024 08:28:07 +0100</pubDate>
-      <guid>//localhost:1313/tags/tips/</guid>
+      <guid>/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandoc</title>
-      <link>//localhost:1313/tags/pandoc/</link>
+      <link>/tags/pandoc/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      <guid>//localhost:1313/tags/pandoc/</guid>
+      <guid>/tags/pandoc/</guid>
       <description></description>
     </item>
     <item>
       <title>PDF Conversion</title>
-      <link>//localhost:1313/tags/pdf-conversion/</link>
+      <link>/tags/pdf-conversion/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      <guid>//localhost:1313/tags/pdf-conversion/</guid>
+      <guid>/tags/pdf-conversion/</guid>
       <description></description>
     </item>
     <item>
       <title>SingleFile</title>
-      <link>//localhost:1313/tags/singlefile/</link>
+      <link>/tags/singlefile/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      <guid>//localhost:1313/tags/singlefile/</guid>
+      <guid>/tags/singlefile/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Scraping</title>
-      <link>//localhost:1313/tags/web-scraping/</link>
+      <link>/tags/web-scraping/</link>
       <pubDate>Sat, 31 Aug 2024 11:16:44 +0100</pubDate>
-      <guid>//localhost:1313/tags/web-scraping/</guid>
+      <guid>/tags/web-scraping/</guid>
       <description></description>
     </item>
     <item>
       <title>Spy</title>
-      <link>//localhost:1313/tags/spy/</link>
+      <link>/tags/spy/</link>
       <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
-      <guid>//localhost:1313/tags/spy/</guid>
+      <guid>/tags/spy/</guid>
       <description></description>
     </item>
     <item>
       <title>Stocks</title>
-      <link>//localhost:1313/tags/stocks/</link>
+      <link>/tags/stocks/</link>
       <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
-      <guid>//localhost:1313/tags/stocks/</guid>
+      <guid>/tags/stocks/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>//localhost:1313/tags/finance/</link>
+      <link>/tags/finance/</link>
       <pubDate>Thu, 22 Aug 2024 08:55:38 +0100</pubDate>
-      <guid>//localhost:1313/tags/finance/</guid>
+      <guid>/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Investments</title>
-      <link>//localhost:1313/tags/investments/</link>
+      <link>/tags/investments/</link>
       <pubDate>Thu, 22 Aug 2024 08:55:38 +0100</pubDate>
-      <guid>//localhost:1313/tags/investments/</guid>
+      <guid>/tags/investments/</guid>
       <description></description>
     </item>
     <item>
       <title>Indicators</title>
-      <link>//localhost:1313/tags/indicators/</link>
+      <link>/tags/indicators/</link>
       <pubDate>Sat, 22 Jun 2024 11:03:58 +0100</pubDate>
-      <guid>//localhost:1313/tags/indicators/</guid>
+      <guid>/tags/indicators/</guid>
       <description></description>
     </item>
     <item>
       <title>Ollama</title>
-      <link>//localhost:1313/tags/ollama/</link>
+      <link>/tags/ollama/</link>
       <pubDate>Sun, 26 May 2024 18:57:32 +0100</pubDate>
-      <guid>//localhost:1313/tags/ollama/</guid>
+      <guid>/tags/ollama/</guid>
       <description></description>
     </item>
     <item>
       <title>Sheets</title>
-      <link>//localhost:1313/tags/sheets/</link>
+      <link>/tags/sheets/</link>
       <pubDate>Sat, 04 May 2024 13:08:43 +0100</pubDate>
-      <guid>//localhost:1313/tags/sheets/</guid>
+      <guid>/tags/sheets/</guid>
       <description></description>
     </item>
     <item>
       <title>Mixtral</title>
-      <link>//localhost:1313/tags/mixtral/</link>
+      <link>/tags/mixtral/</link>
       <pubDate>Sat, 16 Dec 2023 16:03:16 +0000</pubDate>
-      <guid>//localhost:1313/tags/mixtral/</guid>
+      <guid>/tags/mixtral/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>//localhost:1313/tags/code/</link>
+      <link>/tags/code/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      <guid>//localhost:1313/tags/code/</guid>
+      <guid>/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Patch</title>
-      <link>//localhost:1313/tags/patch/</link>
+      <link>/tags/patch/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      <guid>//localhost:1313/tags/patch/</guid>
+      <guid>/tags/patch/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompt</title>
-      <link>//localhost:1313/tags/prompt/</link>
+      <link>/tags/prompt/</link>
       <pubDate>Mon, 10 Apr 2023 06:12:23 +0100</pubDate>
-      <guid>//localhost:1313/tags/prompt/</guid>
+      <guid>/tags/prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Template</title>
-      <link>//localhost:1313/tags/template/</link>
+      <link>/tags/template/</link>
       <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      <guid>//localhost:1313/tags/template/</guid>
+      <guid>/tags/template/</guid>
       <description></description>
     </item>
     <item>
       <title>Tkinter</title>
-      <link>//localhost:1313/tags/tkinter/</link>
+      <link>/tags/tkinter/</link>
       <pubDate>Mon, 10 Apr 2023 05:53:19 +0100</pubDate>
-      <guid>//localhost:1313/tags/tkinter/</guid>
+      <guid>/tags/tkinter/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>//localhost:1313/tags/html/</link>
+      <link>/tags/html/</link>
       <pubDate>Wed, 29 Mar 2023 11:45:44 +0000</pubDate>
-      <guid>//localhost:1313/tags/html/</guid>
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Checklist</title>
-      <link>//localhost:1313/tags/checklist/</link>
+      <link>/tags/checklist/</link>
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
-      <guid>//localhost:1313/tags/checklist/</guid>
+      <guid>/tags/checklist/</guid>
       <description></description>
     </item>
     <item>
       <title>Step</title>
-      <link>//localhost:1313/tags/step/</link>
+      <link>/tags/step/</link>
       <pubDate>Wed, 04 Jan 2023 21:14:23 +0000</pubDate>
-      <guid>//localhost:1313/tags/step/</guid>
+      <guid>/tags/step/</guid>
       <description></description>
     </item>
     <item>
       <title>Maven</title>
-      <link>//localhost:1313/tags/maven/</link>
+      <link>/tags/maven/</link>
       <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
-      <guid>//localhost:1313/tags/maven/</guid>
+      <guid>/tags/maven/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>//localhost:1313/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Sun, 01 Jan 2023 20:47:29 +0000</pubDate>
-      <guid>//localhost:1313/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Workflow</title>
-      <link>//localhost:1313/tags/workflow/</link>
+      <link>/tags/workflow/</link>
       <pubDate>Fri, 30 Dec 2022 21:56:34 +0000</pubDate>
-      <guid>//localhost:1313/tags/workflow/</guid>
+      <guid>/tags/workflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>//localhost:1313/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      <guid>//localhost:1313/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Playwright</title>
-      <link>//localhost:1313/tags/playwright/</link>
+      <link>/tags/playwright/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      <guid>//localhost:1313/tags/playwright/</guid>
+      <guid>/tags/playwright/</guid>
       <description></description>
     </item>
     <item>
       <title>Scroll</title>
-      <link>//localhost:1313/tags/scroll/</link>
+      <link>/tags/scroll/</link>
       <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      <guid>//localhost:1313/tags/scroll/</guid>
+      <guid>/tags/scroll/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>//localhost:1313/tags/css/</link>
+      <link>/tags/css/</link>
       <pubDate>Sun, 25 Dec 2022 13:50:37 +0000</pubDate>
-      <guid>//localhost:1313/tags/css/</guid>
+      <guid>/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Responsive</title>
-      <link>//localhost:1313/tags/responsive/</link>
+      <link>/tags/responsive/</link>
       <pubDate>Sun, 25 Dec 2022 13:50:37 +0000</pubDate>
-      <guid>//localhost:1313/tags/responsive/</guid>
+      <guid>/tags/responsive/</guid>
       <description></description>
     </item>
     <item>
       <title>Icons</title>
-      <link>//localhost:1313/tags/icons/</link>
+      <link>/tags/icons/</link>
       <pubDate>Sun, 25 Dec 2022 13:49:03 +0000</pubDate>
-      <guid>//localhost:1313/tags/icons/</guid>
+      <guid>/tags/icons/</guid>
       <description></description>
     </item>
     <item>
       <title>Imagemagick</title>
-      <link>//localhost:1313/tags/imagemagick/</link>
+      <link>/tags/imagemagick/</link>
       <pubDate>Sun, 25 Dec 2022 13:49:03 +0000</pubDate>
-      <guid>//localhost:1313/tags/imagemagick/</guid>
+      <guid>/tags/imagemagick/</guid>
       <description></description>
     </item>
     <item>
       <title>Styling</title>
-      <link>//localhost:1313/tags/styling/</link>
+      <link>/tags/styling/</link>
       <pubDate>Sun, 25 Dec 2022 09:35:08 +0000</pubDate>
-      <guid>//localhost:1313/tags/styling/</guid>
+      <guid>/tags/styling/</guid>
       <description></description>
     </item>
     <item>
       <title>Speech</title>
-      <link>//localhost:1313/tags/speech/</link>
+      <link>/tags/speech/</link>
       <pubDate>Sat, 24 Dec 2022 19:21:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/speech/</guid>
+      <guid>/tags/speech/</guid>
       <description></description>
     </item>
     <item>
       <title>Audio</title>
-      <link>//localhost:1313/tags/audio/</link>
+      <link>/tags/audio/</link>
       <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
-      <guid>//localhost:1313/tags/audio/</guid>
+      <guid>/tags/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>Pyaudio</title>
-      <link>//localhost:1313/tags/pyaudio/</link>
+      <link>/tags/pyaudio/</link>
       <pubDate>Sat, 24 Dec 2022 16:57:13 +0000</pubDate>
-      <guid>//localhost:1313/tags/pyaudio/</guid>
+      <guid>/tags/pyaudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Makefile</title>
-      <link>//localhost:1313/tags/makefile/</link>
+      <link>/tags/makefile/</link>
       <pubDate>Tue, 20 Dec 2022 10:08:33 +0000</pubDate>
-      <guid>//localhost:1313/tags/makefile/</guid>
+      <guid>/tags/makefile/</guid>
       <description></description>
     </item>
     <item>
       <title>Javafx</title>
-      <link>//localhost:1313/tags/javafx/</link>
+      <link>/tags/javafx/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      <guid>//localhost:1313/tags/javafx/</guid>
+      <guid>/tags/javafx/</guid>
       <description></description>
     </item>
     <item>
       <title>Kotlin</title>
-      <link>//localhost:1313/tags/kotlin/</link>
+      <link>/tags/kotlin/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      <guid>//localhost:1313/tags/kotlin/</guid>
+      <guid>/tags/kotlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Logging</title>
-      <link>//localhost:1313/tags/logging/</link>
+      <link>/tags/logging/</link>
       <pubDate>Tue, 20 Dec 2022 09:57:16 +0000</pubDate>
-      <guid>//localhost:1313/tags/logging/</guid>
+      <guid>/tags/logging/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacker-News-Links</title>
-      <link>//localhost:1313/tags/hacker-news-links/</link>
+      <link>/tags/hacker-news-links/</link>
       <pubDate>Sat, 19 Nov 2022 12:43:03 +0000</pubDate>
-      <guid>//localhost:1313/tags/hacker-news-links/</guid>
+      <guid>/tags/hacker-news-links/</guid>
       <description></description>
     </item>
     <item>
       <title>Commandline</title>
-      <link>//localhost:1313/tags/commandline/</link>
+      <link>/tags/commandline/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      <guid>//localhost:1313/tags/commandline/</guid>
+      <guid>/tags/commandline/</guid>
       <description></description>
     </item>
     <item>
       <title>Json</title>
-      <link>//localhost:1313/tags/json/</link>
+      <link>/tags/json/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      <guid>//localhost:1313/tags/json/</guid>
+      <guid>/tags/json/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphviz</title>
-      <link>//localhost:1313/tags/graphviz/</link>
+      <link>/tags/graphviz/</link>
       <pubDate>Sun, 27 Feb 2022 07:33:19 +0000</pubDate>
-      <guid>//localhost:1313/tags/graphviz/</guid>
+      <guid>/tags/graphviz/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>//localhost:1313/tags/java/</link>
+      <link>/tags/java/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      <guid>//localhost:1313/tags/java/</guid>
+      <guid>/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Springboot</title>
-      <link>//localhost:1313/tags/springboot/</link>
+      <link>/tags/springboot/</link>
       <pubDate>Sun, 27 Feb 2022 06:51:10 +0000</pubDate>
-      <guid>//localhost:1313/tags/springboot/</guid>
+      <guid>/tags/springboot/</guid>
       <description></description>
     </item>
     <item>
       <title>Ideas</title>
-      <link>//localhost:1313/tags/ideas/</link>
+      <link>/tags/ideas/</link>
       <pubDate>Sun, 26 Dec 2021 09:56:42 +0000</pubDate>
-      <guid>//localhost:1313/tags/ideas/</guid>
+      <guid>/tags/ideas/</guid>
       <description></description>
     </item>
     <item>
       <title>Best-Practices</title>
-      <link>//localhost:1313/tags/best-practices/</link>
+      <link>/tags/best-practices/</link>
       <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
-      <guid>//localhost:1313/tags/best-practices/</guid>
+      <guid>/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>//localhost:1313/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Fri, 24 Dec 2021 10:06:01 +0000</pubDate>
-      <guid>//localhost:1313/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Selenium</title>
-      <link>//localhost:1313/tags/selenium/</link>
+      <link>/tags/selenium/</link>
       <pubDate>Sun, 19 Dec 2021 12:23:12 +0000</pubDate>
-      <guid>//localhost:1313/tags/selenium/</guid>
+      <guid>/tags/selenium/</guid>
       <description></description>
     </item>
     <item>
       <title>Mapping</title>
-      <link>//localhost:1313/tags/mapping/</link>
+      <link>/tags/mapping/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      <guid>//localhost:1313/tags/mapping/</guid>
+      <guid>/tags/mapping/</guid>
       <description></description>
     </item>
     <item>
       <title>Wiremock</title>
-      <link>//localhost:1313/tags/wiremock/</link>
+      <link>/tags/wiremock/</link>
       <pubDate>Sun, 12 Dec 2021 12:13:25 +0000</pubDate>
-      <guid>//localhost:1313/tags/wiremock/</guid>
+      <guid>/tags/wiremock/</guid>
       <description></description>
     </item>
     <item>
       <title>Safari</title>
-      <link>//localhost:1313/tags/safari/</link>
+      <link>/tags/safari/</link>
       <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
-      <guid>//localhost:1313/tags/safari/</guid>
+      <guid>/tags/safari/</guid>
       <description></description>
     </item>
     <item>
       <title>Products</title>
-      <link>//localhost:1313/tags/products/</link>
+      <link>/tags/products/</link>
       <pubDate>Mon, 15 Jun 2020 20:33:16 +0000</pubDate>
-      <guid>//localhost:1313/tags/products/</guid>
+      <guid>/tags/products/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>//localhost:1313/tags/architecture/</link>
+      <link>/tags/architecture/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/architecture/</guid>
+      <guid>/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Document</title>
-      <link>//localhost:1313/tags/document/</link>
+      <link>/tags/document/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
-      <guid>//localhost:1313/tags/document/</guid>
+      <guid>/tags/document/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>//localhost:1313/tags/bash/</link>
+      <link>/tags/bash/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
-      <guid>//localhost:1313/tags/bash/</guid>
+      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Plantuml</title>
-      <link>//localhost:1313/tags/plantuml/</link>
+      <link>/tags/plantuml/</link>
       <pubDate>Fri, 05 Jun 2020 07:47:18 +0000</pubDate>
-      <guid>//localhost:1313/tags/plantuml/</guid>
+      <guid>/tags/plantuml/</guid>
       <description></description>
     </item>
     <item>
       <title>Gradle</title>
-      <link>//localhost:1313/tags/gradle/</link>
+      <link>/tags/gradle/</link>
       <pubDate>Fri, 08 May 2020 15:00:06 +0100</pubDate>
-      <guid>//localhost:1313/tags/gradle/</guid>
+      <guid>/tags/gradle/</guid>
       <description></description>
     </item>
     <item>
       <title>Streams</title>
-      <link>//localhost:1313/tags/streams/</link>
+      <link>/tags/streams/</link>
       <pubDate>Sun, 19 Apr 2020 13:05:38 +0100</pubDate>
-      <guid>//localhost:1313/tags/streams/</guid>
+      <guid>/tags/streams/</guid>
       <description></description>
     </item>
     <item>
       <title>Cli</title>
-      <link>//localhost:1313/tags/cli/</link>
+      <link>/tags/cli/</link>
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/cli/</guid>
+      <guid>/tags/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Find</title>
-      <link>//localhost:1313/tags/find/</link>
+      <link>/tags/find/</link>
       <pubDate>Sun, 16 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/find/</guid>
+      <guid>/tags/find/</guid>
       <description></description>
     </item>
     <item>
       <title>Svg</title>
-      <link>//localhost:1313/tags/svg/</link>
+      <link>/tags/svg/</link>
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/svg/</guid>
+      <guid>/tags/svg/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>//localhost:1313/tags/web/</link>
+      <link>/tags/web/</link>
       <pubDate>Mon, 10 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/web/</guid>
+      <guid>/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Lsof</title>
-      <link>//localhost:1313/tags/lsof/</link>
+      <link>/tags/lsof/</link>
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/lsof/</guid>
+      <guid>/tags/lsof/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>//localhost:1313/tags/networking/</link>
+      <link>/tags/networking/</link>
       <pubDate>Fri, 07 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/networking/</guid>
+      <guid>/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Seq</title>
-      <link>//localhost:1313/tags/seq/</link>
+      <link>/tags/seq/</link>
       <pubDate>Thu, 06 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/seq/</guid>
+      <guid>/tags/seq/</guid>
       <description></description>
     </item>
     <item>
       <title>Jq</title>
-      <link>//localhost:1313/tags/jq/</link>
+      <link>/tags/jq/</link>
       <pubDate>Wed, 05 Feb 2020 08:06:04 +0000</pubDate>
-      <guid>//localhost:1313/tags/jq/</guid>
+      <guid>/tags/jq/</guid>
       <description></description>
     </item>
     <item>
       <title>Motivation</title>
-      <link>//localhost:1313/tags/motivation/</link>
+      <link>/tags/motivation/</link>
       <pubDate>Sun, 02 Feb 2020 09:10:43 +0000</pubDate>
-      <guid>//localhost:1313/tags/motivation/</guid>
+      <guid>/tags/motivation/</guid>
       <description></description>
     </item>
     <item>
       <title>Csv</title>
-      <link>//localhost:1313/tags/csv/</link>
+      <link>/tags/csv/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
-      <guid>//localhost:1313/tags/csv/</guid>
+      <guid>/tags/csv/</guid>
       <description></description>
     </item>
     <item>
       <title>Csvkit</title>
-      <link>//localhost:1313/tags/csvkit/</link>
+      <link>/tags/csvkit/</link>
       <pubDate>Sat, 01 Feb 2020 08:00:21 +0000</pubDate>
-      <guid>//localhost:1313/tags/csvkit/</guid>
+      <guid>/tags/csvkit/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>//localhost:1313/tags/shell/</link>
+      <link>/tags/shell/</link>
       <pubDate>Thu, 30 Jan 2020 09:24:27 +0000</pubDate>
-      <guid>//localhost:1313/tags/shell/</guid>
+      <guid>/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Maths</title>
-      <link>//localhost:1313/tags/maths/</link>
+      <link>/tags/maths/</link>
       <pubDate>Wed, 29 Jan 2020 08:38:45 +0000</pubDate>
-      <guid>//localhost:1313/tags/maths/</guid>
+      <guid>/tags/maths/</guid>
       <description></description>
     </item>
     <item>
       <title>Ide</title>
-      <link>//localhost:1313/tags/ide/</link>
+      <link>/tags/ide/</link>
       <pubDate>Tue, 28 Jan 2020 16:38:45 +0000</pubDate>
-      <guid>//localhost:1313/tags/ide/</guid>
+      <guid>/tags/ide/</guid>
       <description></description>
     </item>
     <item>
       <title>Utilities</title>
-      <link>//localhost:1313/tags/utilities/</link>
+      <link>/tags/utilities/</link>
       <pubDate>Sat, 25 Jan 2020 19:05:42 +0000</pubDate>
-      <guid>//localhost:1313/tags/utilities/</guid>
+      <guid>/tags/utilities/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws</title>
-      <link>//localhost:1313/tags/aws/</link>
+      <link>/tags/aws/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      <guid>//localhost:1313/tags/aws/</guid>
+      <guid>/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>//localhost:1313/tags/serverless/</link>
+      <link>/tags/serverless/</link>
       <pubDate>Fri, 03 Jan 2020 18:51:44 +0000</pubDate>
-      <guid>//localhost:1313/tags/serverless/</guid>
+      <guid>/tags/serverless/</guid>
       <description></description>
     </item>
     <item>
       <title>Pyqt5</title>
-      <link>//localhost:1313/tags/pyqt5/</link>
+      <link>/tags/pyqt5/</link>
       <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
-      <guid>//localhost:1313/tags/pyqt5/</guid>
+      <guid>/tags/pyqt5/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>//localhost:1313/tags/tutorial/</link>
+      <link>/tags/tutorial/</link>
       <pubDate>Thu, 02 Jan 2020 11:51:10 +0000</pubDate>
-      <guid>//localhost:1313/tags/tutorial/</guid>
+      <guid>/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>//localhost:1313/tags/devops/</link>
+      <link>/tags/devops/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      <guid>//localhost:1313/tags/devops/</guid>
+      <guid>/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Oauth2</title>
-      <link>//localhost:1313/tags/oauth2/</link>
+      <link>/tags/oauth2/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      <guid>//localhost:1313/tags/oauth2/</guid>
+      <guid>/tags/oauth2/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>//localhost:1313/tags/security/</link>
+      <link>/tags/security/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
-      <guid>//localhost:1313/tags/security/</guid>
+      <guid>/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Monitoring</title>
-      <link>//localhost:1313/tags/monitoring/</link>
+      <link>/tags/monitoring/</link>
       <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
-      <guid>//localhost:1313/tags/monitoring/</guid>
+      <guid>/tags/monitoring/</guid>
       <description></description>
     </item>
     <item>
       <title>Kuberider</title>
-      <link>//localhost:1313/tags/kuberider/</link>
+      <link>/tags/kuberider/</link>
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
-      <guid>//localhost:1313/tags/kuberider/</guid>
+      <guid>/tags/kuberider/</guid>
       <description></description>
     </item>
     <item>
       <title>Packaging</title>
-      <link>//localhost:1313/tags/packaging/</link>
+      <link>/tags/packaging/</link>
       <pubDate>Mon, 26 Aug 2019 08:32:55 +0000</pubDate>
-      <guid>//localhost:1313/tags/packaging/</guid>
+      <guid>/tags/packaging/</guid>
       <description></description>
     </item>
   </channel>

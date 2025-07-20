@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Document on deskriders</title>
-    <link>//localhost:1313/tags/document/</link>
+    <link>/tags/document/</link>
     <description>Recent content in Document on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Jun 2020 11:53:52 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/document/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/document/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publishing Notebooks with HttpRider</title>
-      <link>//localhost:1313/posts/1591444366-httprider-notebook-publishing/</link>
+      <link>/posts/1591444366-httprider-notebook-publishing/</link>
       <pubDate>Sat, 06 Jun 2020 11:53:52 +0000</pubDate>
-      <guid>//localhost:1313/posts/1591444366-httprider-notebook-publishing/</guid>
+      <guid>/posts/1591444366-httprider-notebook-publishing/</guid>
       <description>&lt;p&gt;Preliminary design document for implementing notebooks with HttpRider.&lt;/p&gt;&#xA;&lt;p&gt;This feature enables the user to publish interactive API notebooks.&#xA;These interactive API notebooks can be used to document a scenario where an individual API call doesn&amp;rsquo;t make sense without the context around it.&lt;/p&gt;&#xA;&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;&#xA;&lt;p&gt;[] Publish API call description in Markdown format&lt;/p&gt;&#xA;&lt;p&gt;[] Publish API call as curl commands&lt;/p&gt;&#xA;&lt;p&gt;[] Allow user of the notebook to run curl commands interactively&lt;/p&gt;&#xA;&lt;p&gt;[] Track the response of the commands and use the output to chain other calls&lt;/p&gt;</description>
     </item>
   </channel>

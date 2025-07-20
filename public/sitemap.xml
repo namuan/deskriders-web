@@ -2,1108 +2,1108 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/projects/http-rider/</loc>
+    <loc>/projects/http-rider/</loc>
     <lastmod>2019-12-01T12:21:06+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/trading-utils/</loc>
+    <loc>/projects/trading-utils/</loc>
     <lastmod>2021-08-29T09:27:38+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/kube-rider/</loc>
+    <loc>/projects/kube-rider/</loc>
     <lastmod>2019-10-13T08:46:20+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/dev-rider/</loc>
+    <loc>/projects/dev-rider/</loc>
     <lastmod>2020-01-17T08:46:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/tube-stats/</loc>
+    <loc>/projects/tube-stats/</loc>
     <lastmod>2018-12-25T09:27:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/docker-files/</loc>
+    <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/agile/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/posts/1753035639-linklist-2025-07-20/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/categories/linklist/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/tags/links/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-07-20T19:09:27+01:00</lastmod>
+  </url><url>
+    <loc>/tags/agile/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/agile-practices/</loc>
+    <loc>/categories/agile-practices/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/posts/1752353657-effective-questions-software-coach/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/categories/software-engineering/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/tags/software-development/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1752353657-effective-questions-software-coach/</loc>
+    <loc>/categories/team-management/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/software-engineering/</loc>
+    <loc>/tags/team-coaching/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/software-development/</loc>
-    <lastmod>2025-07-12T21:54:18+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-07-12T21:54:18+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/team-management/</loc>
-    <lastmod>2025-07-12T21:54:18+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/team-coaching/</loc>
-    <lastmod>2025-07-12T21:54:18+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/1752343767-linklist-2025-07-12/</loc>
+    <loc>/posts/1752343767-linklist-2025-07-12/</loc>
     <lastmod>2025-07-12T19:09:27+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/linklist/</loc>
-    <lastmod>2025-07-12T19:09:27+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/links/</loc>
-    <lastmod>2025-07-12T19:09:27+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/1750488618-book-recommendations-typesfast-tweet/</loc>
+    <loc>/posts/1750488618-book-recommendations-typesfast-tweet/</loc>
     <lastmod>2025-06-21T07:50:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/books/</loc>
+    <loc>/tags/books/</loc>
     <lastmod>2025-06-21T07:50:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/books/</loc>
+    <loc>/categories/books/</loc>
     <lastmod>2025-06-21T07:50:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1750487184-example-software-spec/</loc>
+    <loc>/posts/1750487184-example-software-spec/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/requirements/</loc>
+    <loc>/tags/requirements/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/software/</loc>
+    <loc>/categories/software/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/specification/</loc>
+    <loc>/tags/specification/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/testing/</loc>
+    <loc>/tags/testing/</loc>
     <lastmod>2025-06-21T07:26:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/development/</loc>
+    <loc>/categories/development/</loc>
     <lastmod>2025-05-31T12:00:33+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/programming/</loc>
+    <loc>/categories/programming/</loc>
     <lastmod>2025-05-31T12:00:33+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1748689233-prompt-workflow-tasks/</loc>
+    <loc>/posts/1748689233-prompt-workflow-tasks/</loc>
     <lastmod>2025-05-31T12:00:33+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/prompts/</loc>
+    <loc>/tags/prompts/</loc>
     <lastmod>2025-05-31T12:00:33+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1748181366-linklist-2025-05-25/</loc>
+    <loc>/posts/1748181366-linklist-2025-05-25/</loc>
     <lastmod>2025-05-25T10:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1743339206-linklist-2025-03-30/</loc>
+    <loc>/posts/1743339206-linklist-2025-03-30/</loc>
     <lastmod>2025-03-30T10:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1743338145-linklist-2025-03-22/</loc>
+    <loc>/posts/1743338145-linklist-2025-03-22/</loc>
     <lastmod>2025-03-22T18:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1743337329-linklist-2025-03-15/</loc>
+    <loc>/posts/1743337329-linklist-2025-03-15/</loc>
     <lastmod>2025-03-15T18:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/engineering/</loc>
+    <loc>/tags/engineering/</loc>
     <lastmod>2025-03-08T08:24:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1741422244-engineering-request-proposal-template/</loc>
+    <loc>/posts/1741422244-engineering-request-proposal-template/</loc>
     <lastmod>2025-03-08T08:24:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/templates/</loc>
+    <loc>/tags/templates/</loc>
     <lastmod>2025-03-08T08:24:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/work/</loc>
+    <loc>/categories/work/</loc>
     <lastmod>2025-03-08T08:24:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1743337915-linklist-2025-03-03/</loc>
+    <loc>/posts/1743337915-linklist-2025-03-03/</loc>
     <lastmod>2025-03-03T18:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1739728778-linklist-2025-02-16/</loc>
+    <loc>/posts/1739728778-linklist-2025-02-16/</loc>
     <lastmod>2025-02-16T18:00:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1739216844-linklist-2025-02-10/</loc>
+    <loc>/posts/1739216844-linklist-2025-02-10/</loc>
     <lastmod>2025-02-10T19:47:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1737900105-linklist-2025-01-26/</loc>
+    <loc>/posts/1737900105-linklist-2025-01-26/</loc>
     <lastmod>2025-01-26T14:01:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1737221187-linklist-2025-01-18/</loc>
+    <loc>/posts/1737221187-linklist-2025-01-18/</loc>
     <lastmod>2025-01-18T17:26:27+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/audio-processing/</loc>
+    <loc>/categories/audio-processing/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ebook-conversion/</loc>
+    <loc>/categories/ebook-conversion/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1737196960-epub-to-audio-setup/</loc>
+    <loc>/posts/1737196960-epub-to-audio-setup/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mlx/</loc>
+    <loc>/tags/mlx/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/podcast/</loc>
+    <loc>/tags/podcast/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/text-to-speech/</loc>
+    <loc>/categories/text-to-speech/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tts/</loc>
+    <loc>/tags/tts/</loc>
     <lastmod>2025-01-18T10:42:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1737221182-linklist-2025-01-11/</loc>
+    <loc>/posts/1737221182-linklist-2025-01-11/</loc>
     <lastmod>2025-01-11T17:26:22+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/backtesting/</loc>
+    <loc>/tags/backtesting/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/data-analysis/</loc>
+    <loc>/tags/data-analysis/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/data-analysis/</loc>
+    <loc>/categories/data-analysis/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/options/</loc>
+    <loc>/tags/options/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1736507408-short-straddle-with-laddering/</loc>
+    <loc>/posts/1736507408-short-straddle-with-laddering/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/trading/</loc>
+    <loc>/tags/trading/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/trading/</loc>
+    <loc>/categories/trading/</loc>
     <lastmod>2025-01-10T11:10:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1736250948-short-straddle-rsi-market-filter/</loc>
+    <loc>/posts/1736250948-short-straddle-rsi-market-filter/</loc>
     <lastmod>2025-01-07T11:55:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/api/</loc>
+    <loc>/tags/api/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/productivity/</loc>
+    <loc>/categories/productivity/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/tools/</loc>
+    <loc>/categories/tools/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/trello/</loc>
+    <loc>/tags/trello/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1735815480-trello-api-usage/</loc>
+    <loc>/posts/1735815480-trello-api-usage/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1735636186-linklist-2024-12-31/</loc>
+    <loc>/posts/1735636186-linklist-2024-12-31/</loc>
     <lastmod>2024-12-31T09:09:47+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2024-12-29T10:10:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/environments/</loc>
+    <loc>/tags/environments/</loc>
     <lastmod>2024-12-29T10:10:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1735467013-alnoda-workspaces/</loc>
+    <loc>/posts/1735467013-alnoda-workspaces/</loc>
     <lastmod>2024-12-29T10:10:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/vscode/</loc>
+    <loc>/tags/vscode/</loc>
     <lastmod>2024-12-29T10:10:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/development/</loc>
+    <loc>/tags/development/</loc>
     <lastmod>2024-12-22T13:08:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1734872892-uvx-example-usages/</loc>
+    <loc>/posts/1734872892-uvx-example-usages/</loc>
     <lastmod>2024-12-22T13:08:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2024-12-22T13:08:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1734292310-key-metrics-trading-system-performance/</loc>
+    <loc>/posts/1734292310-key-metrics-trading-system-performance/</loc>
     <lastmod>2024-12-15T19:51:50+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/performance/</loc>
+    <loc>/tags/performance/</loc>
     <lastmod>2024-12-15T19:51:50+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1734004071-options-analysis-pipeline/</loc>
+    <loc>/posts/1734004071-options-analysis-pipeline/</loc>
     <lastmod>2024-12-12T11:47:51+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1733949322-linklist-2024-12-11/</loc>
+    <loc>/posts/1733949322-linklist-2024-12-11/</loc>
     <lastmod>2024-12-11T20:35:22+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/investment/</loc>
+    <loc>/tags/investment/</loc>
     <lastmod>2024-12-09T20:56:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/research/</loc>
+    <loc>/categories/research/</loc>
     <lastmod>2024-12-09T20:56:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/vix/</loc>
+    <loc>/tags/vix/</loc>
     <lastmod>2024-12-09T20:56:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1733777812-vix-yearly-highest-high/</loc>
+    <loc>/posts/1733777812-vix-yearly-highest-high/</loc>
     <lastmod>2024-12-09T20:56:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/llm/</loc>
+    <loc>/tags/llm/</loc>
     <lastmod>2024-12-09T08:59:36+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1733734776-genai-developed-projects/</loc>
+    <loc>/posts/1733734776-genai-developed-projects/</loc>
     <lastmod>2024-12-09T08:59:36+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1733520014-book-recommendations-maryrosecook-tweet/</loc>
+    <loc>/posts/1733520014-book-recommendations-maryrosecook-tweet/</loc>
     <lastmod>2024-12-06T21:20:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1733067199-linklist-2024-12-01/</loc>
+    <loc>/posts/1733067199-linklist-2024-12-01/</loc>
     <lastmod>2024-12-01T15:33:19+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/reddit/</loc>
+    <loc>/tags/reddit/</loc>
     <lastmod>2024-11-29T11:25:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1732879530-download-reddit-post/</loc>
+    <loc>/posts/1732879530-download-reddit-post/</loc>
     <lastmod>2024-11-29T11:25:30+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/devdocs/</loc>
+    <loc>/tags/devdocs/</loc>
     <lastmod>2024-11-26T11:49:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/llm/</loc>
+    <loc>/categories/llm/</loc>
     <lastmod>2024-11-26T11:49:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1732621769-devdocs-offline-documentation-llm/</loc>
+    <loc>/posts/1732621769-devdocs-offline-documentation-llm/</loc>
     <lastmod>2024-11-26T11:49:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/readitlater/</loc>
+    <loc>/tags/readitlater/</loc>
     <lastmod>2024-11-24T16:33:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/reminders/</loc>
+    <loc>/tags/reminders/</loc>
     <lastmod>2024-11-24T16:33:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1732466006-read-it-later-workflow/</loc>
+    <loc>/posts/1732466006-read-it-later-workflow/</loc>
     <lastmod>2024-11-24T16:33:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/workflow/</loc>
+    <loc>/categories/workflow/</loc>
     <lastmod>2024-11-24T16:33:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1732465541-linklist-2024-11-24/</loc>
+    <loc>/posts/1732465541-linklist-2024-11-24/</loc>
     <lastmod>2024-11-24T16:25:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1731923597-linklist-2024-11-18/</loc>
+    <loc>/posts/1731923597-linklist-2024-11-18/</loc>
     <lastmod>2024-11-18T09:53:17+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1731923520-linklist-2024-11-08/</loc>
+    <loc>/posts/1731923520-linklist-2024-11-08/</loc>
     <lastmod>2024-11-18T09:52:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/knowledge/</loc>
+    <loc>/categories/knowledge/</loc>
     <lastmod>2024-11-16T09:00:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/memory/</loc>
+    <loc>/tags/memory/</loc>
     <lastmod>2024-11-16T09:00:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1731747603-minto-pyramid/</loc>
+    <loc>/posts/1731747603-minto-pyramid/</loc>
     <lastmod>2024-11-16T09:00:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/thinking/</loc>
+    <loc>/tags/thinking/</loc>
     <lastmod>2024-11-16T09:00:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1731746422-mcclellan-oscillator/</loc>
+    <loc>/posts/1731746422-mcclellan-oscillator/</loc>
     <lastmod>2024-11-16T08:40:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/market-summary/</loc>
+    <loc>/categories/market-summary/</loc>
     <lastmod>2024-11-16T08:40:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markets/</loc>
+    <loc>/tags/markets/</loc>
     <lastmod>2024-11-16T08:40:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/strategies/</loc>
+    <loc>/tags/strategies/</loc>
     <lastmod>2024-11-16T08:40:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/stocks/</loc>
+    <loc>/categories/stocks/</loc>
     <lastmod>2024-10-28T13:41:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1730122885-tsla-20-percent-jump/</loc>
+    <loc>/posts/1730122885-tsla-20-percent-jump/</loc>
     <lastmod>2024-10-28T13:41:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tsla/</loc>
+    <loc>/tags/tsla/</loc>
     <lastmod>2024-10-28T13:41:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/adjustments/</loc>
+    <loc>/tags/adjustments/</loc>
     <lastmod>2024-10-19T09:13:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1729325604-market-2024-10-19-saturday/</loc>
+    <loc>/posts/1729325604-market-2024-10-19-saturday/</loc>
     <lastmod>2024-10-19T09:13:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1729195132-market-2024-10-17-thursday/</loc>
+    <loc>/posts/1729195132-market-2024-10-17-thursday/</loc>
     <lastmod>2024-10-17T20:58:53+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1729107887-market-2024-10-16-wednesday/</loc>
+    <loc>/posts/1729107887-market-2024-10-16-wednesday/</loc>
     <lastmod>2024-10-16T20:44:47+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/learning/</loc>
+    <loc>/categories/learning/</loc>
     <lastmod>2024-10-16T12:51:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1729079478-llm-learning-resources/</loc>
+    <loc>/posts/1729079478-llm-learning-resources/</loc>
     <lastmod>2024-10-16T12:51:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1729025184-market-2024-10-15-tuesday/</loc>
+    <loc>/posts/1729025184-market-2024-10-15-tuesday/</loc>
     <lastmod>2024-10-15T21:46:25+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728932620-market-2024-10-14-monday/</loc>
+    <loc>/posts/1728932620-market-2024-10-14-monday/</loc>
     <lastmod>2024-10-14T20:03:40+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728900744-tdd-cycle-loop-llm/</loc>
+    <loc>/posts/1728900744-tdd-cycle-loop-llm/</loc>
     <lastmod>2024-10-14T11:12:24+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728891496-linklist-2024-10-13/</loc>
+    <loc>/posts/1728891496-linklist-2024-10-13/</loc>
     <lastmod>2024-10-14T08:38:16+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728839108-market-2024-10-13-sunday/</loc>
+    <loc>/posts/1728839108-market-2024-10-13-sunday/</loc>
     <lastmod>2024-10-13T18:05:08+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728496063-market-2024-10-09-wednesday/</loc>
-    <lastmod>2024-10-09T18:47:44+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/1728415568-market-2024-10-08-tuesday/</loc>
+    <loc>/posts/1728415568-market-2024-10-08-tuesday/</loc>
     <lastmod>2024-10-08T20:26:08+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728891487-linklist-2024-10-06/</loc>
+    <loc>/posts/1728891487-linklist-2024-10-06/</loc>
     <lastmod>2024-10-08T08:38:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728328488-market-2024-10-07-monday/</loc>
+    <loc>/posts/1728328488-market-2024-10-07-monday/</loc>
     <lastmod>2024-10-07T20:14:48+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1728069743-market-2024-10-04-friday/</loc>
+    <loc>/posts/1728069743-market-2024-10-04-friday/</loc>
     <lastmod>2024-10-04T20:22:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727989608-market-2024-10-03-thursday/</loc>
+    <loc>/posts/1727989608-market-2024-10-03-thursday/</loc>
     <lastmod>2024-10-03T22:06:48+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727898590-market-2024-10-02-wednesday/</loc>
+    <loc>/posts/1727898590-market-2024-10-02-wednesday/</loc>
     <lastmod>2024-10-02T20:49:50+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727808153-market-2024-10-01-tuesday/</loc>
+    <loc>/posts/1727808153-market-2024-10-01-tuesday/</loc>
     <lastmod>2024-10-01T19:42:34+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727721151-market-2024-09-30-monday/</loc>
+    <loc>/posts/1727721151-market-2024-09-30-monday/</loc>
     <lastmod>2024-09-30T19:32:31+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727687969-linklist-2024-09-30/</loc>
+    <loc>/posts/1727687969-linklist-2024-09-30/</loc>
     <lastmod>2024-09-30T10:19:29+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727465883-market-2024-09-27-friday/</loc>
+    <loc>/posts/1727465883-market-2024-09-27-friday/</loc>
     <lastmod>2024-09-27T20:38:03+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/productivity/</loc>
+    <loc>/tags/productivity/</loc>
     <lastmod>2024-09-27T09:30:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727425815-productivity-2024/</loc>
+    <loc>/posts/1727425815-productivity-2024/</loc>
     <lastmod>2024-09-27T09:30:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tools/</loc>
+    <loc>/tags/tools/</loc>
     <lastmod>2024-09-27T09:30:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727382365-market-2024-09-26-thursday/</loc>
+    <loc>/posts/1727382365-market-2024-09-26-thursday/</loc>
     <lastmod>2024-09-26T21:26:06+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727284959-market-2024-09-25-wednesday/</loc>
+    <loc>/posts/1727284959-market-2024-09-25-wednesday/</loc>
     <lastmod>2024-09-25T18:22:39+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727201032-market-2024-09-24-tuesday/</loc>
+    <loc>/posts/1727201032-market-2024-09-24-tuesday/</loc>
     <lastmod>2024-09-24T19:03:52+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727117710-linklist-2024-09-23/</loc>
+    <loc>/posts/1727117710-linklist-2024-09-23/</loc>
     <lastmod>2024-09-23T19:55:10+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1727116820-market-2024-09-23-monday/</loc>
+    <loc>/posts/1727116820-market-2024-09-23-monday/</loc>
     <lastmod>2024-09-23T19:40:21+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726770784-market-2024-09-19-thursday/</loc>
+    <loc>/posts/1726770784-market-2024-09-19-thursday/</loc>
     <lastmod>2024-09-19T19:33:04+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/demos/</loc>
+    <loc>/categories/demos/</loc>
     <lastmod>2024-09-19T11:22:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/diffusers/</loc>
+    <loc>/tags/diffusers/</loc>
     <lastmod>2024-09-19T11:22:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/huggingface/</loc>
+    <loc>/tags/huggingface/</loc>
     <lastmod>2024-09-19T11:22:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</loc>
+    <loc>/posts/1726741335-diffusers-image-outpaint-hf-to-mac/</loc>
     <lastmod>2024-09-19T11:22:15+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726687648-market-2024-09-18-wednesday/</loc>
+    <loc>/posts/1726687648-market-2024-09-18-wednesday/</loc>
     <lastmod>2024-09-18T20:27:29+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726598428-market-2024-09-17-tuesday/</loc>
+    <loc>/posts/1726598428-market-2024-09-17-tuesday/</loc>
     <lastmod>2024-09-17T19:40:28+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726515438-market-2024-09-16-monday/</loc>
+    <loc>/posts/1726515438-market-2024-09-16-monday/</loc>
     <lastmod>2024-09-16T20:37:18+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726471582-linklist-2024-09-16/</loc>
+    <loc>/posts/1726471582-linklist-2024-09-16/</loc>
     <lastmod>2024-09-16T08:26:22+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726301094-google-ai-notebook-llm/</loc>
+    <loc>/posts/1726301094-google-ai-notebook-llm/</loc>
     <lastmod>2024-09-14T09:04:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/notebookllm/</loc>
+    <loc>/tags/notebookllm/</loc>
     <lastmod>2024-09-14T09:04:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rag/</loc>
+    <loc>/tags/rag/</loc>
     <lastmod>2024-09-14T09:04:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/research/</loc>
+    <loc>/tags/research/</loc>
     <lastmod>2024-09-14T09:04:54+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726248425-market-2024-09-13-friday/</loc>
+    <loc>/posts/1726248425-market-2024-09-13-friday/</loc>
     <lastmod>2024-09-13T18:27:05+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726165066-market-2024-09-12-thursday/</loc>
+    <loc>/posts/1726165066-market-2024-09-12-thursday/</loc>
     <lastmod>2024-09-12T19:17:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726068649-market-2024-09-11-wednesday/</loc>
+    <loc>/posts/1726068649-market-2024-09-11-wednesday/</loc>
     <lastmod>2024-09-11T16:30:49+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725956200-market-2024-09-10-tuesday/</loc>
+    <loc>/posts/1725956200-market-2024-09-10-tuesday/</loc>
     <lastmod>2024-09-10T09:16:40+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725871619-market-2024-09-09-monday/</loc>
+    <loc>/posts/1725871619-market-2024-09-09-monday/</loc>
     <lastmod>2024-09-09T09:46:59+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1726471302-linklist-2024-09-07/</loc>
+    <loc>/posts/1726471302-linklist-2024-09-07/</loc>
     <lastmod>2024-09-07T08:21:43+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725643268-market-2024-09-06-friday/</loc>
+    <loc>/posts/1725643268-market-2024-09-06-friday/</loc>
     <lastmod>2024-09-06T18:21:08+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725526000-vps-deployment-multiple-apps/</loc>
+    <loc>/posts/1725526000-vps-deployment-multiple-apps/</loc>
     <lastmod>2024-09-05T09:46:40+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/deployment/</loc>
+    <loc>/tags/deployment/</loc>
     <lastmod>2024-09-05T09:46:40+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/servers/</loc>
+    <loc>/tags/servers/</loc>
     <lastmod>2024-09-05T09:46:40+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725523483-market-2024-09-05-thursday/</loc>
+    <loc>/posts/1725523483-market-2024-09-05-thursday/</loc>
     <lastmod>2024-09-05T09:04:43+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725521287-search-reddit-date-range/</loc>
+    <loc>/posts/1725521287-search-reddit-date-range/</loc>
     <lastmod>2024-09-05T08:28:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tips/</loc>
+    <loc>/tags/tips/</loc>
     <lastmod>2024-09-05T08:28:07+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725443356-market-2024-09-04-tuesday/</loc>
+    <loc>/posts/1725443356-market-2024-09-04-tuesday/</loc>
     <lastmod>2024-09-04T10:49:16+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/automation/</loc>
+    <loc>/categories/automation/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1725099403-blog-posts-to-pdf/</loc>
+    <loc>/posts/1725099403-blog-posts-to-pdf/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pandoc/</loc>
+    <loc>/tags/pandoc/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pdf-conversion/</loc>
+    <loc>/tags/pdf-conversion/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/singlefile/</loc>
+    <loc>/tags/singlefile/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/web-scraping/</loc>
+    <loc>/tags/web-scraping/</loc>
     <lastmod>2024-08-31T11:16:44+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1724407248-bear-markets-analysis/</loc>
+    <loc>/posts/1724407248-bear-markets-analysis/</loc>
     <lastmod>2024-08-23T11:00:48+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/spy/</loc>
+    <loc>/tags/spy/</loc>
     <lastmod>2024-08-23T11:00:48+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/stocks/</loc>
+    <loc>/tags/stocks/</loc>
     <lastmod>2024-08-23T11:00:48+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/finance/</loc>
+    <loc>/tags/finance/</loc>
     <lastmod>2024-08-22T08:55:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/investments/</loc>
+    <loc>/tags/investments/</loc>
     <lastmod>2024-08-22T08:55:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1724313337-reit-spy-comparison/</loc>
+    <loc>/posts/1724313337-reit-spy-comparison/</loc>
     <lastmod>2024-08-22T08:55:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1719050638-rsi-dips/</loc>
+    <loc>/posts/1719050638-rsi-dips/</loc>
     <lastmod>2024-06-22T11:03:58+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/indicators/</loc>
+    <loc>/tags/indicators/</loc>
     <lastmod>2024-06-22T11:03:58+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ollama/</loc>
+    <loc>/tags/ollama/</loc>
     <lastmod>2024-05-26T18:57:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1716746252-openwebui-ollama-models/</loc>
+    <loc>/posts/1716746252-openwebui-ollama-models/</loc>
     <lastmod>2024-05-26T18:57:32+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/sheets/</loc>
+    <loc>/tags/sheets/</loc>
     <lastmod>2024-05-04T13:08:43+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1714824523-track-stocks-csv-google-sheet/</loc>
+    <loc>/posts/1714824523-track-stocks-csv-google-sheet/</loc>
     <lastmod>2024-05-04T13:08:43+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1714730035-aitown-ollama-models/</loc>
+    <loc>/posts/1714730035-aitown-ollama-models/</loc>
     <lastmod>2024-05-03T10:53:56+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1708762767-spy-pct-move/</loc>
+    <loc>/posts/1708762767-spy-pct-move/</loc>
     <lastmod>2024-02-24T08:19:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1705859719-hn-gpt-documents-2023/</loc>
+    <loc>/posts/1705859719-hn-gpt-documents-2023/</loc>
     <lastmod>2024-01-21T17:55:20+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1702742595-function-calling-ollama-models/</loc>
+    <loc>/posts/1702742595-function-calling-ollama-models/</loc>
     <lastmod>2023-12-16T16:03:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mixtral/</loc>
+    <loc>/tags/mixtral/</loc>
     <lastmod>2023-12-16T16:03:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1701633809-weekly-notes/</loc>
+    <loc>/posts/1701633809-weekly-notes/</loc>
     <lastmod>2023-12-03T20:03:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1700996509-weekly-notes/</loc>
+    <loc>/posts/1700996509-weekly-notes/</loc>
     <lastmod>2023-11-26T11:01:49+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/chatgpt/</loc>
+    <loc>/categories/chatgpt/</loc>
     <lastmod>2023-04-10T06:12:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1681103543-chatgpt-diff-patch-format/</loc>
+    <loc>/posts/1681103543-chatgpt-diff-patch-format/</loc>
     <lastmod>2023-04-10T06:12:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/code/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2023-04-10T06:12:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/patch/</loc>
+    <loc>/tags/patch/</loc>
     <lastmod>2023-04-10T06:12:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/prompt/</loc>
+    <loc>/tags/prompt/</loc>
     <lastmod>2023-04-10T06:12:23+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/template/</loc>
+    <loc>/tags/template/</loc>
     <lastmod>2023-04-10T05:53:19+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tkinter/</loc>
+    <loc>/tags/tkinter/</loc>
     <lastmod>2023-04-10T05:53:19+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1681102399-chatgpt-tkinter-blank-app/</loc>
+    <loc>/posts/1681102399-chatgpt-tkinter-blank-app/</loc>
     <lastmod>2023-04-10T05:53:19+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1680090300-chatgpt-prompt-html-template/</loc>
+    <loc>/posts/1680090300-chatgpt-prompt-html-template/</loc>
     <lastmod>2023-03-29T11:45:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2023-03-29T11:45:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672866863-chatgpt-prompt-checklist-step/</loc>
+    <loc>/posts/1672866863-chatgpt-prompt-checklist-step/</loc>
     <lastmod>2023-01-04T21:14:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/checklist/</loc>
+    <loc>/tags/checklist/</loc>
     <lastmod>2023-01-04T21:14:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/step/</loc>
+    <loc>/tags/step/</loc>
     <lastmod>2023-01-04T21:14:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672866656-chatgpt-prompt-py-executable-checklist/</loc>
+    <loc>/posts/1672866656-chatgpt-prompt-py-executable-checklist/</loc>
     <lastmod>2023-01-04T21:10:56+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/maven/</loc>
+    <loc>/tags/maven/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672665828-running-maven-docker/</loc>
+    <loc>/posts/1672665828-running-maven-docker/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ai/</loc>
+    <loc>/tags/ai/</loc>
     <lastmod>2023-01-01T20:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672606049-installing-tortoise-tts/</loc>
+    <loc>/posts/1672606049-installing-tortoise-tts/</loc>
     <lastmod>2023-01-01T20:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672437394-py-executable-framework-chatgpt/</loc>
+    <loc>/posts/1672437394-py-executable-framework-chatgpt/</loc>
     <lastmod>2022-12-30T21:56:34+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/workflow/</loc>
+    <loc>/tags/workflow/</loc>
     <lastmod>2022-12-30T21:56:34+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1672317337-questions-2022-12-29/</loc>
+    <loc>/posts/1672317337-questions-2022-12-29/</loc>
     <lastmod>2022-12-29T12:35:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2022-12-29T12:35:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/playwright/</loc>
+    <loc>/tags/playwright/</loc>
     <lastmod>2022-12-29T12:35:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/scroll/</loc>
+    <loc>/tags/scroll/</loc>
     <lastmod>2022-12-29T12:35:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2022-12-25T13:50:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671976237-media-queries-chatgpt/</loc>
+    <loc>/posts/1671976237-media-queries-chatgpt/</loc>
     <lastmod>2022-12-25T13:50:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/responsive/</loc>
+    <loc>/tags/responsive/</loc>
     <lastmod>2022-12-25T13:50:37+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671976143-imagemagick-convert-chatgpt/</loc>
+    <loc>/posts/1671976143-imagemagick-convert-chatgpt/</loc>
     <lastmod>2022-12-25T13:49:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/icons/</loc>
+    <loc>/tags/icons/</loc>
     <lastmod>2022-12-25T13:49:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/imagemagick/</loc>
+    <loc>/tags/imagemagick/</loc>
     <lastmod>2022-12-25T13:49:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/</loc>
+    <loc>/notes/</loc>
     <lastmod>2022-12-25T10:22:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/py-script/</loc>
+    <loc>/notes/py-script/</loc>
     <lastmod>2022-12-25T10:22:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/styling/</loc>
+    <loc>/tags/styling/</loc>
     <lastmod>2022-12-25T09:35:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671960908-html-lazy-trader-styling-chatgpt/</loc>
+    <loc>/posts/1671960908-html-lazy-trader-styling-chatgpt/</loc>
     <lastmod>2022-12-25T09:35:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671909712-python-speech-recognition-chatgpt/</loc>
+    <loc>/posts/1671909712-python-speech-recognition-chatgpt/</loc>
     <lastmod>2022-12-24T19:21:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/speech/</loc>
+    <loc>/tags/speech/</loc>
     <lastmod>2022-12-24T19:21:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/audio/</loc>
+    <loc>/tags/audio/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671901033-installing-pyaudio-mac/</loc>
+    <loc>/posts/1671901033-installing-pyaudio-mac/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pyaudio/</loc>
+    <loc>/tags/pyaudio/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/setup/</loc>
+    <loc>/categories/setup/</loc>
     <lastmod>2022-12-24T16:57:13+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/makefile/</loc>
+    <loc>/tags/makefile/</loc>
     <lastmod>2022-12-20T10:08:33+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671531201-makefile-argument/</loc>
+    <loc>/posts/1671531201-makefile-argument/</loc>
     <lastmod>2022-12-20T10:08:33+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/tips/</loc>
+    <loc>/categories/tips/</loc>
     <lastmod>2022-12-20T10:08:33+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/javafx/</loc>
+    <loc>/tags/javafx/</loc>
     <lastmod>2022-12-20T09:57:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/kotlin/</loc>
+    <loc>/tags/kotlin/</loc>
     <lastmod>2022-12-20T09:57:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1671530224-kotlin-logging/</loc>
+    <loc>/posts/1671530224-kotlin-logging/</loc>
     <lastmod>2022-12-20T09:57:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/logging/</loc>
+    <loc>/tags/logging/</loc>
     <lastmod>2022-12-20T09:57:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/til/</loc>
+    <loc>/categories/til/</loc>
     <lastmod>2022-12-20T09:57:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-do-you-recall-any-book-or-course-that-made-a-topic-finally-click/</loc>
+    <loc>/posts/links-ask-hn-do-you-recall-any-book-or-course-that-made-a-topic-finally-click/</loc>
     <lastmod>2022-11-19T12:43:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hacker-news-links/</loc>
+    <loc>/tags/hacker-news-links/</loc>
     <lastmod>2022-11-19T12:43:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/commandline/</loc>
+    <loc>/tags/commandline/</loc>
     <lastmod>2022-10-28T19:58:10+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/json/</loc>
+    <loc>/tags/json/</loc>
     <lastmod>2022-10-28T19:58:10+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1666983482-json-power-tools/</loc>
+    <loc>/posts/1666983482-json-power-tools/</loc>
     <lastmod>2022-10-28T19:58:10+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/jwt/</loc>
+    <loc>/notes/jwt/</loc>
     <lastmod>2022-10-22T15:03:22+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/mouseless-mac/</loc>
+    <loc>/notes/mouseless-mac/</loc>
     <lastmod>2022-10-22T15:03:14+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/graphviz/</loc>
+    <loc>/tags/graphviz/</loc>
     <lastmod>2022-02-27T07:33:19+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1645947154-graphviz-dot-png/</loc>
+    <loc>/posts/1645947154-graphviz-dot-png/</loc>
     <lastmod>2022-02-27T07:33:19+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/java/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2022-02-27T06:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/springboot/</loc>
+    <loc>/tags/springboot/</loc>
     <lastmod>2022-02-27T06:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1645945892-til-spring-exception-logging/</loc>
+    <loc>/posts/1645945892-til-spring-exception-logging/</loc>
     <lastmod>2022-02-27T06:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1644141796-auto-generate-readme/</loc>
+    <loc>/posts/1644141796-auto-generate-readme/</loc>
     <lastmod>2022-02-06T10:03:41+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-tools-you-have-made-for-yourself/</loc>
+    <loc>/posts/links-ask-hn-tools-you-have-made-for-yourself/</loc>
     <lastmod>2022-01-16T16:15:50+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-which-tools-have-made-you-a-much-better-programmer/</loc>
+    <loc>/posts/links-ask-hn-which-tools-have-made-you-a-much-better-programmer/</loc>
     <lastmod>2022-01-16T15:24:36+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-are-some-tools-libraries-you-built-yourself/</loc>
+    <loc>/posts/links-ask-hn-what-are-some-tools-libraries-you-built-yourself/</loc>
     <lastmod>2022-01-03T12:35:38+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640943229-brew-graph-highlight-edges/</loc>
+    <loc>/posts/1640943229-brew-graph-highlight-edges/</loc>
     <lastmod>2022-01-03T10:38:32+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-did-you-make-during-lockdown/</loc>
+    <loc>/posts/links-ask-hn-what-did-you-make-during-lockdown/</loc>
     <lastmod>2022-01-02T17:10:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1641130250-cli-streamline-projects/</loc>
+    <loc>/posts/1641130250-cli-streamline-projects/</loc>
     <lastmod>2022-01-02T13:32:35+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-is-there-still-a-place-for-native-desktop-apps/</loc>
+    <loc>/posts/links-ask-hn-is-there-still-a-place-for-native-desktop-apps/</loc>
     <lastmod>2021-12-31T12:57:23+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/cooking/</loc>
+    <loc>/notes/cooking/</loc>
     <lastmod>2021-12-29T15:46:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/interesting/</loc>
+    <loc>/notes/interesting/</loc>
     <lastmod>2021-12-29T15:46:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</loc>
+    <loc>/posts/1640791840-selenium-firefox-and-saving-webpage-as-pdf/</loc>
     <lastmod>2021-12-29T15:37:40+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</loc>
+    <loc>/posts/links-ask-hn-whats-the-most-life-changing-blog-post-youve-ever-read/</loc>
     <lastmod>2021-12-27T21:12:51+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-programs-that-saved-you-100-hours/</loc>
+    <loc>/posts/links-ask-hn-programs-that-saved-you-100-hours/</loc>
     <lastmod>2021-12-26T17:14:20+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640512515-project-idea-markdown-to-anything/</loc>
+    <loc>/posts/1640512515-project-idea-markdown-to-anything/</loc>
     <lastmod>2021-12-26T09:56:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ideas/</loc>
+    <loc>/tags/ideas/</loc>
     <lastmod>2021-12-26T09:56:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/ideas/</loc>
+    <loc>/series/ideas/</loc>
     <lastmod>2021-12-26T09:56:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>/series/</loc>
     <lastmod>2021-12-26T09:56:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640512228-implementing_features_micro_services/</loc>
+    <loc>/posts/1640512228-implementing_features_micro_services/</loc>
     <lastmod>2021-12-26T09:50:56+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</loc>
+    <loc>/posts/links-programs-that-have-saved-me-100-hours-hacker-news/</loc>
     <lastmod>2021-12-25T10:52:03+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/best-practices/</loc>
+    <loc>/tags/best-practices/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640339806-setting-up-git-commit-template/</loc>
+    <loc>/posts/1640339806-setting-up-git-commit-template/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</loc>
+    <loc>/posts/links-ask-hn-what-are-your-favorite-low-coding-apps-tools-as-a-developer-hacker-news/</loc>
     <lastmod>2021-12-23T21:12:20+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</loc>
+    <loc>/posts/links-ask-hn-what-overlooked-class-of-tools-should-a-self-taught-programmer-look-into-hacker-news/</loc>
     <lastmod>2021-12-23T20:13:43+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1640280913-working-with-asdf/</loc>
+    <loc>/posts/1640280913-working-with-asdf/</loc>
     <lastmod>2021-12-23T18:40:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-automation-tools-have-you-used-to-replace-mundane-activities-hacker-news/</loc>
+    <loc>/posts/links-ask-hn-what-automation-tools-have-you-used-to-replace-mundane-activities-hacker-news/</loc>
     <lastmod>2021-12-22T08:44:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-what-do-you-automate-in-your-life-and-work-hacker-news/</loc>
+    <loc>/posts/links-ask-hn-what-do-you-automate-in-your-life-and-work-hacker-news/</loc>
     <lastmod>2021-12-22T08:10:07+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</loc>
+    <loc>/posts/links-ask-hn-whats-are-your-personal-automations-hacker-news/</loc>
     <lastmod>2021-12-21T22:27:39+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/developer/</loc>
+    <loc>/notes/developer/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/testing/</loc>
+    <loc>/notes/testing/</loc>
     <lastmod>2021-12-19T15:46:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/selenium/</loc>
+    <loc>/tags/selenium/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1639863087-python-selenium/</loc>
+    <loc>/posts/1639863087-python-selenium/</loc>
     <lastmod>2021-12-19T12:23:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mapping/</loc>
+    <loc>/tags/mapping/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/tooltips/</loc>
+    <loc>/series/tooltips/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/wiremock/</loc>
+    <loc>/tags/wiremock/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1639311183-wiremock-match-multiple-urls/</loc>
+    <loc>/posts/1639311183-wiremock-match-multiple-urls/</loc>
     <lastmod>2021-12-12T12:13:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1638735561-safari-export-bookmarks/</loc>
+    <loc>/posts/1638735561-safari-export-bookmarks/</loc>
     <lastmod>2021-12-05T20:19:36+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/safari/</loc>
+    <loc>/tags/safari/</loc>
     <lastmod>2021-12-05T20:19:36+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2021-08-29T09:27:38+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1605953563-etfs-momentum-report/</loc>
+    <loc>/posts/1605953563-etfs-momentum-report/</loc>
     <lastmod>2020-11-21T10:13:22+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/orkestra/</loc>
+    <loc>/series/orkestra/</loc>
     <lastmod>2020-06-15T20:33:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591776555-orkestra-day-3/</loc>
+    <loc>/posts/1591776555-orkestra-day-3/</loc>
     <lastmod>2020-06-15T20:33:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/products/</loc>
+    <loc>/tags/products/</loc>
     <lastmod>2020-06-15T20:33:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591735673-orkestra-day-2/</loc>
+    <loc>/posts/1591735673-orkestra-day-2/</loc>
     <lastmod>2020-06-09T21:10:56+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591300238_orkestra_day1/</loc>
+    <loc>/posts/1591300238_orkestra_day1/</loc>
     <lastmod>2020-06-06T15:13:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/architecture/</loc>
+    <loc>/tags/architecture/</loc>
     <lastmod>2020-06-06T11:53:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/document/</loc>
+    <loc>/tags/document/</loc>
     <lastmod>2020-06-06T11:53:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/httprider/</loc>
+    <loc>/series/httprider/</loc>
     <lastmod>2020-06-06T11:53:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591444366-httprider-notebook-publishing/</loc>
+    <loc>/posts/1591444366-httprider-notebook-publishing/</loc>
     <lastmod>2020-06-06T11:53:52+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/bash/</loc>
+    <loc>/tags/bash/</loc>
     <lastmod>2020-06-05T07:47:18+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/plantuml/</loc>
+    <loc>/tags/plantuml/</loc>
     <lastmod>2020-06-05T07:47:18+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591343684-plantuml-svg-export/</loc>
+    <loc>/posts/1591343684-plantuml-svg-export/</loc>
     <lastmod>2020-06-05T07:47:18+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/1591301414-plantuml-shortcut/</loc>
+    <loc>/posts/1591301414-plantuml-shortcut/</loc>
     <lastmod>2020-06-04T22:11:58+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/029-easy-random-spring-boot/</loc>
+    <loc>/posts/029-easy-random-spring-boot/</loc>
     <lastmod>2020-05-14T23:45:43+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gradle/</loc>
+    <loc>/tags/gradle/</loc>
     <lastmod>2020-05-08T15:00:06+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/028-gradle-contract-tests/</loc>
+    <loc>/posts/028-gradle-contract-tests/</loc>
     <lastmod>2020-05-08T15:00:06+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/027-java-collectors-reducer/</loc>
+    <loc>/posts/027-java-collectors-reducer/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/streams/</loc>
+    <loc>/tags/streams/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cli/</loc>
+    <loc>/tags/cli/</loc>
     <lastmod>2020-02-16T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/find/</loc>
+    <loc>/tags/find/</loc>
     <lastmod>2020-02-16T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/026-tooltip-13-cli-functions-find/</loc>
+    <loc>/posts/026-tooltip-13-cli-functions-find/</loc>
     <lastmod>2020-02-16T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/one-page/</loc>
+    <loc>/projects/one-page/</loc>
     <lastmod>2020-02-13T18:53:43+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/svg/</loc>
+    <loc>/tags/svg/</loc>
     <lastmod>2020-02-10T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/025-tooltip-12-svgo-optimize-svg-files/</loc>
+    <loc>/posts/025-tooltip-12-svgo-optimize-svg-files/</loc>
     <lastmod>2020-02-10T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/web/</loc>
+    <loc>/tags/web/</loc>
     <lastmod>2020-02-10T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lsof/</loc>
+    <loc>/tags/lsof/</loc>
     <lastmod>2020-02-07T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/networking/</loc>
+    <loc>/tags/networking/</loc>
     <lastmod>2020-02-07T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/024-tooltip-11-lsof-open-ports-pids/</loc>
+    <loc>/posts/024-tooltip-11-lsof-open-ports-pids/</loc>
     <lastmod>2020-02-07T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/seq/</loc>
+    <loc>/tags/seq/</loc>
     <lastmod>2020-02-06T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/023-tooltip-10-seq-padded-numbers/</loc>
+    <loc>/posts/023-tooltip-10-seq-padded-numbers/</loc>
     <lastmod>2020-02-06T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/jq/</loc>
+    <loc>/tags/jq/</loc>
     <lastmod>2020-02-05T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/021-tooltip-9-constructing-new-structure-jq/</loc>
+    <loc>/posts/021-tooltip-9-constructing-new-structure-jq/</loc>
     <lastmod>2020-02-05T08:06:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/020-tooltip-8-extracting-items-contains-jq/</loc>
+    <loc>/posts/020-tooltip-8-extracting-items-contains-jq/</loc>
     <lastmod>2020-02-04T08:05:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/019-tooltip-7-selecting-nested-array-items-jq/</loc>
+    <loc>/posts/019-tooltip-7-selecting-nested-array-items-jq/</loc>
     <lastmod>2020-02-03T08:05:07+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/indiedev/</loc>
+    <loc>/series/indiedev/</loc>
     <lastmod>2020-02-02T09:10:43+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/022-january2020-progress-report/</loc>
+    <loc>/posts/022-january2020-progress-report/</loc>
     <lastmod>2020-02-02T09:10:43+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/motivation/</loc>
+    <loc>/tags/motivation/</loc>
     <lastmod>2020-02-02T09:10:43+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
+    <loc>/posts/018-tooltip-6-filtering-json-arrays-jq/</loc>
     <lastmod>2020-02-02T07:45:25+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/csv/</loc>
+    <loc>/tags/csv/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/csvkit/</loc>
+    <loc>/tags/csvkit/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/017-tooltip-5-converting-csv-to-json/</loc>
+    <loc>/posts/017-tooltip-5-converting-csv-to-json/</loc>
     <lastmod>2020-02-01T08:00:21+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/016-tooltip-4-converting-json-to-csv/</loc>
+    <loc>/posts/016-tooltip-4-converting-json-to-csv/</loc>
     <lastmod>2020-01-31T08:00:06+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/shell/</loc>
+    <loc>/tags/shell/</loc>
     <lastmod>2020-01-30T09:24:27+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/015-tooltip-3-reading-file-line-by-line/</loc>
+    <loc>/posts/015-tooltip-3-reading-file-line-by-line/</loc>
     <lastmod>2020-01-30T09:24:27+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/maths/</loc>
+    <loc>/tags/maths/</loc>
     <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/014-tooltip-2-simple-maths-bc/</loc>
+    <loc>/posts/014-tooltip-2-simple-maths-bc/</loc>
     <lastmod>2020-01-29T08:38:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ide/</loc>
+    <loc>/tags/ide/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/013-tooltip-1-creating-intellij-launcher/</loc>
+    <loc>/posts/013-tooltip-1-creating-intellij-launcher/</loc>
     <lastmod>2020-01-28T16:38:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/012-keeping-snippets/</loc>
+    <loc>/posts/012-keeping-snippets/</loc>
     <lastmod>2020-01-27T10:13:04+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/011-deskrider-january-releases/</loc>
+    <loc>/posts/011-deskrider-january-releases/</loc>
     <lastmod>2020-01-26T17:21:38+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/devrider/</loc>
+    <loc>/series/devrider/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/010-introducing-devrider/</loc>
+    <loc>/posts/010-introducing-devrider/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/utilities/</loc>
+    <loc>/tags/utilities/</loc>
     <lastmod>2020-01-25T19:05:42+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/notes/to-sort/</loc>
+    <loc>/notes/to-sort/</loc>
     <lastmod>2020-01-20T09:45:05+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/news-rider/</loc>
+    <loc>/projects/news-rider/</loc>
     <lastmod>2020-01-18T09:27:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/products/</loc>
+    <loc>/products/</loc>
     <lastmod>2020-01-15T10:32:46+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-01-15T10:32:46+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/aws/</loc>
+    <loc>/tags/aws/</loc>
     <lastmod>2020-01-03T18:51:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/009-developing-api-exchange-2/</loc>
+    <loc>/posts/009-developing-api-exchange-2/</loc>
     <lastmod>2020-01-03T18:51:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/serverless/</loc>
+    <loc>/tags/serverless/</loc>
     <lastmod>2020-01-03T18:51:44+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/007-pyqt5-overlay-button-widget/</loc>
+    <loc>/posts/007-pyqt5-overlay-button-widget/</loc>
     <lastmod>2020-01-02T11:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pyqt5/</loc>
+    <loc>/tags/pyqt5/</loc>
     <lastmod>2020-01-02T11:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
+    <loc>/tags/tutorial/</loc>
     <lastmod>2020-01-02T11:51:10+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/008-developing-api-exchange-1/</loc>
+    <loc>/posts/008-developing-api-exchange-1/</loc>
     <lastmod>2020-01-01T16:51:35+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/devops/</loc>
+    <loc>/tags/devops/</loc>
     <lastmod>2019-11-23T10:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/oauth2/</loc>
+    <loc>/tags/oauth2/</loc>
     <lastmod>2019-11-23T10:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/005-protecting-applications-oauth2-proxy/</loc>
+    <loc>/posts/005-protecting-applications-oauth2-proxy/</loc>
     <lastmod>2019-11-23T10:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/security/</loc>
+    <loc>/tags/security/</loc>
     <lastmod>2019-11-23T10:47:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/004-httprider-performance-testing/</loc>
+    <loc>/posts/004-httprider-performance-testing/</loc>
     <lastmod>2019-11-16T16:24:01+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/003-httprider-generating-bdd-tests/</loc>
+    <loc>/posts/003-httprider-generating-bdd-tests/</loc>
     <lastmod>2019-10-28T11:30:47+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/002-httprider-generating-runscope-monitoring-tests/</loc>
+    <loc>/posts/002-httprider-generating-runscope-monitoring-tests/</loc>
     <lastmod>2019-10-27T11:30:15+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/monitoring/</loc>
+    <loc>/tags/monitoring/</loc>
     <lastmod>2019-10-27T11:30:15+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/001-httprider-generating-sequence-diagrams/</loc>
+    <loc>/posts/001-httprider-generating-sequence-diagrams/</loc>
     <lastmod>2019-10-13T07:45:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/kuberider/</loc>
+    <loc>/tags/kuberider/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/006-kuberider-bundling-macosx-release/</loc>
+    <loc>/posts/006-kuberider-bundling-macosx-release/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/packaging/</loc>
+    <loc>/tags/packaging/</loc>
     <lastmod>2019-08-26T08:32:55+00:00</lastmod>
   </url>
 </urlset>

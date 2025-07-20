@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning on deskriders</title>
-    <link>//localhost:1313/categories/learning/</link>
+    <link>/categories/learning/</link>
     <description>Recent content in Learning on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Oct 2024 12:51:18 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM Learning Resources</title>
-      <link>//localhost:1313/posts/1729079478-llm-learning-resources/</link>
+      <link>/posts/1729079478-llm-learning-resources/</link>
       <pubDate>Wed, 16 Oct 2024 12:51:18 +0100</pubDate>
-      <guid>//localhost:1313/posts/1729079478-llm-learning-resources/</guid>
+      <guid>/posts/1729079478-llm-learning-resources/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Sebastian Raschka&amp;rsquo;s book &amp;ldquo;&lt;a href=&#34;https://www.manning.com/books/build-a-large-language-model-from-scratch&#34;&gt;Build a Large Language Model From Scratch&lt;/a&gt;&amp;rdquo; &lt;a href=&#34;https://www.youtube.com/watch?v=quh7z1q7-uc&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&#34;&gt;Andrej Karpathy&amp;rsquo;s YouTube playlist&lt;/a&gt; on neural networks&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=kCc8FmEb1nY&#34;&gt;Karpathy&amp;rsquo;s NanoGPT tutorial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zxQyTK8quyY&#34;&gt;StatQuest videos&lt;/a&gt; on coding a transformer from scratch&lt;/li&gt;&#xA;&lt;li&gt;Video explaining self-attention mechanism: &lt;a href=&#34;https://youtu.be/g2BRIuln4uc&#34;&gt;https://youtu.be/g2BRIuln4uc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub repo with diagrams and implementation code: &lt;a href=&#34;https://github.com/adalkiran/llama-nuts-and-bolts&#34;&gt;https://github.com/adalkiran/llama-nuts-and-bolts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Spreadsheet-based approach: &lt;a href=&#34;https://github.com/ianand/spreadsheets-are-all-you-need&#34;&gt;https://github.com/ianand/spreadsheets-are-all-you-need&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Karpathy&amp;rsquo;s llama2.c project: &lt;a href=&#34;https://github.com/karpathy/llama2.c&#34;&gt;https://github.com/karpathy/llama2.c&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

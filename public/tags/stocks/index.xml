@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stocks on deskriders</title>
-    <link>//localhost:1313/tags/stocks/</link>
+    <link>/tags/stocks/</link>
     <description>Recent content in Stocks on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 11:00:48 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Not all bear markets are equal</title>
-      <link>//localhost:1313/posts/1724407248-bear-markets-analysis/</link>
+      <link>/posts/1724407248-bear-markets-analysis/</link>
       <pubDate>Fri, 23 Aug 2024 11:00:48 +0100</pubDate>
-      <guid>//localhost:1313/posts/1724407248-bear-markets-analysis/</guid>
-      <description>&lt;p&gt;Analysis on bear markets from their peak to the trough.&#xA;The data for peak and trough values is extracted from &lt;a href=&#34;https://yardeni.com/wp-content/uploads/BullBearTables.pdf&#34;&gt;Yardeni Research&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;comparison-between-the-last-4-bear-markets&#34;&gt;Comparison between the last 4 bear markets&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407445.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is how the performance looks like during those periods&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407762.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Performance break down during each bear market&lt;/p&gt;&#xA;&lt;h3 id=&#34;dot-com-bubble-burst&#34;&gt;Dot-com bubble burst&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407560.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;global-financial-crises&#34;&gt;Global Financial Crises&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407629.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;covid-19-crash&#34;&gt;Covid-19 Crash&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407670.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;2022-downturn&#34;&gt;2022 Downturn&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/2024/08/23/1724407704.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+      <guid>/posts/1724407248-bear-markets-analysis/</guid>
+      <description>&lt;p&gt;Analysis on bear markets from their peak to the trough.&#xA;The data for peak and trough values is extracted from &lt;a href=&#34;https://yardeni.com/wp-content/uploads/BullBearTables.pdf&#34;&gt;Yardeni Research&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;comparison-between-the-last-4-bear-markets&#34;&gt;Comparison between the last 4 bear markets&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407445.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is how the performance looks like during those periods&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407762.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Performance break down during each bear market&lt;/p&gt;&#xA;&lt;h3 id=&#34;dot-com-bubble-burst&#34;&gt;Dot-com bubble burst&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407560.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;global-financial-crises&#34;&gt;Global Financial Crises&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407629.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;covid-19-crash&#34;&gt;Covid-19 Crash&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407670.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;2022-downturn&#34;&gt;2022 Downturn&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/2024/08/23/1724407704.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

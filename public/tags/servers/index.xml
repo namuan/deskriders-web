@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Servers on deskriders</title>
-    <link>//localhost:1313/tags/servers/</link>
+    <link>/tags/servers/</link>
     <description>Recent content in Servers on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Sep 2024 09:46:40 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/servers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/servers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploying multiple applications on a VPS</title>
-      <link>//localhost:1313/posts/1725526000-vps-deployment-multiple-apps/</link>
+      <link>/posts/1725526000-vps-deployment-multiple-apps/</link>
       <pubDate>Thu, 05 Sep 2024 09:46:40 +0100</pubDate>
-      <guid>//localhost:1313/posts/1725526000-vps-deployment-multiple-apps/</guid>
+      <guid>/posts/1725526000-vps-deployment-multiple-apps/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hamel.dev/blog/posts/dokku/&#34;&gt;Dokku: my favorite personal serverless platform&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://becomesovran.com/blog/server-setup-basics.html&#34;&gt;Server Setup Basics&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.notmyhostna.me/posts/deploying-docker-images-with-dokku-and-a-custom-nginx-configuration&#34;&gt;Deploying Docker images with Dokku and a custom nginx configuration&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://maxschmitt.me/posts/tutorial-deploy-apps-websites-dokku&#34;&gt;Tutorial: How to Deploy Apps and Websites with Dokku&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Wowu/docker-rollout&#34;&gt;Zero Downtime Deployment for Docker Compose&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/maxcountryman/aquamarine&#34;&gt;aquamarine&lt;/a&gt;&#xA;A demo of zero-downtime deploys with Docker Compose and Traefik&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/DareFail/AI-Video-Boilerplate-Pro&#34;&gt;Example Repo&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

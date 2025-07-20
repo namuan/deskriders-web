@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Safari on deskriders</title>
-    <link>//localhost:1313/tags/safari/</link>
+    <link>/tags/safari/</link>
     <description>Recent content in Safari on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 05 Dec 2021 20:19:36 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/safari/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/safari/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Export Reading list from Safari</title>
-      <link>//localhost:1313/posts/1638735561-safari-export-bookmarks/</link>
+      <link>/posts/1638735561-safari-export-bookmarks/</link>
       <pubDate>Sun, 05 Dec 2021 20:19:36 +0000</pubDate>
-      <guid>//localhost:1313/posts/1638735561-safari-export-bookmarks/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open ~/Library/Safari&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Copy the Safari bookmarks file to your desktop.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/1638735561-safari-export-bookmarks.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Then run the following command to get the list of links&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;plutil -convert xml1 -o - Bookmarks.plist | grep -E  -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431&#34;&gt;https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>/posts/1638735561-safari-export-bookmarks/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open ~/Library/Safari&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Copy the Safari bookmarks file to your desktop.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/1638735561-safari-export-bookmarks.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Then run the following command to get the list of links&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;plutil -convert xml1 -o - Bookmarks.plist | grep -E  -o &amp;#39;&amp;lt;string&amp;gt;http[s]{0,1}://.*&amp;lt;/string&amp;gt;&amp;#39; | grep -v icloud | sed -E &amp;#39;s/&amp;lt;\/{0,1}string&amp;gt;//g&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431&#34;&gt;https://apple.stackexchange.com/questions/24864/is-it-possible-to-export-safaris-reading-list-on-safari-5-1#62431&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

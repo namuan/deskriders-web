@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commandline on deskriders</title>
-    <link>//localhost:1313/tags/commandline/</link>
+    <link>/tags/commandline/</link>
     <description>Recent content in Commandline on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Oct 2022 19:58:10 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JSON Command line power tools</title>
-      <link>//localhost:1313/posts/1666983482-json-power-tools/</link>
+      <link>/posts/1666983482-json-power-tools/</link>
       <pubDate>Fri, 28 Oct 2022 19:58:10 +0100</pubDate>
-      <guid>//localhost:1313/posts/1666983482-json-power-tools/</guid>
+      <guid>/posts/1666983482-json-power-tools/</guid>
       <description>&lt;h2 id=&#34;jq--command-line-json-processor&#34;&gt;JQ :: command-line JSON processor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stedolan.github.io/jq/&#34;&gt;https://stedolan.github.io/jq/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://earthly.dev/blog/jq-select/&#34;&gt;Tutorial&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;jtab--json-data-as-a-formatted-table&#34;&gt;JTab :: Json data as a formatted table&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/wlezzar/jtab&#34;&gt;https://github.com/wlezzar/jtab&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;gron--make-json-greppable&#34;&gt;gron :: Make JSON greppable&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/tomnomnom/gron&#34;&gt;https://github.com/tomnomnom/gron&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;fx-function-execution--interactive-json-viewer&#34;&gt;fx (Function eXecution) :: Interactive JSON Viewer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/antonmedv/fx&#34;&gt;https://github.com/antonmedv/fx&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
