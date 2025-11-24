@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rum on deskriders</title>
+    <link>/tags/rum/</link>
+    <description>Recent content in Rum on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Nov 2025 21:11:42 +0000</lastBuildDate>
+    <atom:link href="/tags/rum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DataDog RUM Integration for Website Monitoring: A Complete Guide</title>
+      <link>/posts/datadog-rum-website-monitoring/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/posts/datadog-rum-website-monitoring/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Generated using LLM for reference purposes. Not reviewed and tested and may contain errors.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;datadog-rum-integration-for-website-monitoring-a-complete-guide&#34;&gt;DataDog RUM Integration for Website Monitoring: A Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;DataDog Real User Monitoring (RUM) provides comprehensive insights into your website&amp;rsquo;s performance and user experience by collecting real-time data from actual user interactions. This guide covers everything you need to know about implementing DataDog RUM for effective website monitoring.&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#datadog-rum-overview&#34;&gt;DataDog RUM Overview&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#datadog-rum-setup--configuration&#34;&gt;DataDog RUM Setup &amp;amp; Configuration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#website-monitoring-with-datadog-rum&#34;&gt;Website Monitoring with DataDog RUM&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#datadog-dashboard-creation&#34;&gt;DataDog Dashboard Creation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#implementation-examples&#34;&gt;Implementation Examples&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#best-practices&#34;&gt;Best Practices&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;datadog-rum-overview&#34;&gt;DataDog RUM Overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-is-datadog-rum&#34;&gt;What is DataDog RUM?&lt;/h3&gt;&#xA;&lt;p&gt;DataDog Real User Monitoring (RUM) is a powerful tool that automatically collects performance and usage data from real user sessions on your website. It provides deep insights into:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,50 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Oct 2025 19:44:43 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 21:11:42 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datadog</title>
+      <link>/tags/datadog/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/datadog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>/tags/frontend/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>/tags/monitoring/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>/tags/performance/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rum</title>
+      <link>/tags/rum/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/rum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>/tags/website/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/tags/website/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Links</title>
       <link>/tags/links/</link>
@@ -209,13 +251,6 @@
       <link>/tags/python/</link>
       <pubDate>Sun, 22 Dec 2024 13:08:12 +0000</pubDate>
       <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>/tags/performance/</link>
-      <pubDate>Sun, 15 Dec 2024 19:51:50 +0000</pubDate>
-      <guid>/tags/performance/</guid>
       <description></description>
     </item>
     <item>
@@ -930,13 +965,6 @@
       <link>/tags/security/</link>
       <pubDate>Sat, 23 Nov 2019 10:47:29 +0000</pubDate>
       <guid>/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Monitoring</title>
-      <link>/tags/monitoring/</link>
-      <pubDate>Sun, 27 Oct 2019 11:30:15 +0000</pubDate>
-      <guid>/tags/monitoring/</guid>
       <description></description>
     </item>
     <item>

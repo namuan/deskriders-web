@@ -6,8 +6,29 @@
     <description>Recent content in Categories on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Oct 2025 19:44:43 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 21:11:42 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>/categories/development/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monitoring</title>
+      <link>/categories/monitoring/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/categories/monitoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>/categories/performance/</link>
+      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
+      <guid>/categories/performance/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linklist</title>
       <link>/categories/linklist/</link>
@@ -69,13 +90,6 @@
       <link>/categories/software/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
       <guid>/categories/software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Development</title>
-      <link>/categories/development/</link>
-      <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
-      <guid>/categories/development/</guid>
       <description></description>
     </item>
     <item>
