@@ -15,8 +15,6 @@ summarizes it using Ollama via the litellm package, and generates a markdown fil
 Usage:
 ./web_content_summarizer.py -h
 ./web_content_summarizer.py -i input_links.txt -o output_summary.md -m ollama_chat/llama3.2
-
-Note: Set the JINA_API_KEY environment variable before running the script.
 """
 
 import logging
@@ -26,6 +24,7 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 import requests
 import trafilatura
 from litellm import completion
+
 
 def setup_logging(verbosity):
     logging_level = logging.WARNING
@@ -80,7 +79,12 @@ Content:\n\n
     """
     try:
         response = completion(
-            model=model_name, messages=[{"content": prompt, "role": "user"}], api_base="http://localhost:11434"
+            model="openai/proxy",
+            api_key="any_key_will_do",
+            api_base="http://0.0.0.0:8080/v1",
+            messages=[
+                {"content": prompt, "role": "user"}
+            ],
         )
         return response.choices[0].message.content
     except Exception as e:
