@@ -6,8 +6,36 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Dec 2025 19:29:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 22:18:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>/tags/ai/</link>
+      <pubDate>Sat, 28 Feb 2026 22:18:00 +0000</pubDate>
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engineering</title>
+      <link>/tags/engineering/</link>
+      <pubDate>Sat, 28 Feb 2026 22:18:00 +0000</pubDate>
+      <guid>/tags/engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SDLC</title>
+      <link>/tags/sdlc/</link>
+      <pubDate>Sat, 28 Feb 2026 22:18:00 +0000</pubDate>
+      <guid>/tags/sdlc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>/tags/software-development/</link>
+      <pubDate>Sat, 28 Feb 2026 22:18:00 +0000</pubDate>
+      <guid>/tags/software-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Links</title>
       <link>/tags/links/</link>
@@ -93,13 +121,6 @@
       <description></description>
     </item>
     <item>
-      <title>Software-Development</title>
-      <link>/tags/software-development/</link>
-      <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
-      <guid>/tags/software-development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Team-Coaching</title>
       <link>/tags/team-coaching/</link>
       <pubDate>Sat, 12 Jul 2025 21:54:18 +0100</pubDate>
@@ -139,13 +160,6 @@
       <link>/tags/prompts/</link>
       <pubDate>Sat, 31 May 2025 12:00:33 +0100</pubDate>
       <guid>/tags/prompts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Engineering</title>
-      <link>/tags/engineering/</link>
-      <pubDate>Sat, 08 Mar 2025 08:24:04 +0000</pubDate>
-      <guid>/tags/engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -552,13 +566,6 @@
       <link>/tags/maven/</link>
       <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
       <guid>/tags/maven/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>/tags/ai/</link>
-      <pubDate>Sun, 01 Jan 2023 20:47:29 +0000</pubDate>
-      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>

@@ -20,11 +20,38 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/ai/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2025-12-21T19:29:04+00:00</lastmod>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-12-21T19:29:04+00:00</lastmod>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/engineering/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/engineering/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/agentic-sdlc-initial-thoughts/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/sdlc/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/software-development/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-28T22:18:00+00:00</lastmod>
   </url><url>
     <loc>/posts/1766345343-linklist-2025-12-21/</loc>
     <lastmod>2025-12-21T19:29:04+00:00</lastmod>
@@ -33,12 +60,6 @@
     <lastmod>2025-12-21T19:29:04+00:00</lastmod>
   </url><url>
     <loc>/tags/links/</loc>
-    <lastmod>2025-12-21T19:29:04+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-12-21T19:29:04+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-12-21T19:29:04+00:00</lastmod>
   </url><url>
     <loc>/tags/datadog/</loc>
@@ -122,9 +143,6 @@
     <loc>/categories/software-engineering/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
-    <loc>/tags/software-development/</loc>
-    <lastmod>2025-07-12T21:54:18+01:00</lastmod>
-  </url><url>
     <loc>/categories/team-management/</loc>
     <lastmod>2025-07-12T21:54:18+01:00</lastmod>
   </url><url>
@@ -175,9 +193,6 @@
   </url><url>
     <loc>/posts/1743337329-linklist-2025-03-15/</loc>
     <lastmod>2025-03-15T18:00:25+00:00</lastmod>
-  </url><url>
-    <loc>/tags/engineering/</loc>
-    <lastmod>2025-03-08T08:24:04+00:00</lastmod>
   </url><url>
     <loc>/posts/1741422244-engineering-request-proposal-template/</loc>
     <lastmod>2025-03-08T08:24:04+00:00</lastmod>
@@ -682,9 +697,6 @@
   </url><url>
     <loc>/posts/1672665828-running-maven-docker/</loc>
     <lastmod>2023-01-02T13:23:48+00:00</lastmod>
-  </url><url>
-    <loc>/tags/ai/</loc>
-    <lastmod>2023-01-01T20:47:29+00:00</lastmod>
   </url><url>
     <loc>/posts/1672606049-installing-tortoise-tts/</loc>
     <lastmod>2023-01-01T20:47:29+00:00</lastmod>
