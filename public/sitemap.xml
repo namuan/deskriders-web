@@ -21,16 +21,49 @@
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
     <loc>/tags/ai/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
   </url><url>
     <loc>/categories/ai/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ai-development/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/categories/development/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/llama.cpp/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/llm/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/local-ai/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/opencode/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/posts/quick-setup-qwen35-llama-opencode/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/qwen3.5/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tools/</loc>
+    <lastmod>2026-03-01T00:11:13+00:00</lastmod>
   </url><url>
     <loc>/tags/engineering/</loc>
     <lastmod>2026-02-28T22:41:42+00:00</lastmod>
@@ -39,9 +72,6 @@
     <lastmod>2026-02-28T22:41:42+00:00</lastmod>
   </url><url>
     <loc>/posts/ideas-opportunities-agentic-sdlc/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2026-02-28T22:41:42+00:00</lastmod>
   </url><url>
     <loc>/tags/product-management/</loc>
@@ -62,9 +92,6 @@
     <loc>/categories/startups/</loc>
     <lastmod>2026-02-28T22:41:42+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-02-28T22:41:42+00:00</lastmod>
-  </url><url>
     <loc>/posts/agentic-sdlc-initial-thoughts/</loc>
     <lastmod>2026-02-28T22:18:00+00:00</lastmod>
   </url><url>
@@ -81,9 +108,6 @@
     <lastmod>2025-11-24T21:11:42+00:00</lastmod>
   </url><url>
     <loc>/posts/datadog-rum-website-monitoring/</loc>
-    <lastmod>2025-11-24T21:11:42+00:00</lastmod>
-  </url><url>
-    <loc>/categories/development/</loc>
     <lastmod>2025-11-24T21:11:42+00:00</lastmod>
   </url><url>
     <loc>/tags/frontend/</loc>
@@ -111,9 +135,6 @@
     <lastmod>2025-10-11T19:44:43+01:00</lastmod>
   </url><url>
     <loc>/tags/codex/</loc>
-    <lastmod>2025-10-04T19:37:45+01:00</lastmod>
-  </url><url>
-    <loc>/tags/llm/</loc>
     <lastmod>2025-10-04T19:37:45+01:00</lastmod>
   </url><url>
     <loc>/categories/programming/</loc>
@@ -288,9 +309,6 @@
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>/categories/productivity/</loc>
-    <lastmod>2025-01-02T10:58:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/tools/</loc>
     <lastmod>2025-01-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>/tags/trello/</loc>

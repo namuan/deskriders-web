@@ -6,13 +6,55 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 22:41:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 00:11:13 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>/tags/ai/</link>
-      <pubDate>Sat, 28 Feb 2026 22:41:42 +0000</pubDate>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
       <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Development</title>
+      <link>/tags/ai-development/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/ai-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llama.cpp</title>
+      <link>/tags/llama.cpp/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/llama.cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>/tags/llm/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local AI</title>
+      <link>/tags/local-ai/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/local-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenCode</title>
+      <link>/tags/opencode/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/opencode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qwen3.5</title>
+      <link>/tags/qwen3.5/</link>
+      <pubDate>Sun, 01 Mar 2026 00:11:13 +0000</pubDate>
+      <guid>/tags/qwen3.5/</guid>
       <description></description>
     </item>
     <item>
@@ -104,13 +146,6 @@
       <link>/tags/codex/</link>
       <pubDate>Sat, 04 Oct 2025 19:37:45 +0100</pubDate>
       <guid>/tags/codex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Llm</title>
-      <link>/tags/llm/</link>
-      <pubDate>Sat, 04 Oct 2025 19:37:45 +0100</pubDate>
-      <guid>/tags/llm/</guid>
       <description></description>
     </item>
     <item>
