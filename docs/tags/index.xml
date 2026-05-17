@@ -6,8 +6,57 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 May 2026 09:03:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 12:22:55 +0100</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai-Agents</title>
+      <link>/tags/ai-agents/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/ai-agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ci-Cd</title>
+      <link>/tags/ci-cd/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code-Quality</title>
+      <link>/tags/code-quality/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code-Review</title>
+      <link>/tags/code-review/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/code-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development-Workflows</title>
+      <link>/tags/development-workflows/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/development-workflows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Engineering</title>
+      <link>/tags/software-engineering/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>/tags/testing/</link>
+      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
+      <guid>/tags/testing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Food-Insecurity</title>
       <link>/tags/food-insecurity/</link>
@@ -314,13 +363,6 @@
       <link>/tags/specification/</link>
       <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
       <guid>/tags/specification/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>/tags/testing/</link>
-      <pubDate>Sat, 21 Jun 2025 07:26:24 +0100</pubDate>
-      <guid>/tags/testing/</guid>
       <description></description>
     </item>
     <item>
