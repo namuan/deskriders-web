@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building and Shipping Mac and iOS Apps Without Ever Opening Xcode">
+  <meta name="twitter:description" content="A fully headless Xcode workflow using xcodebuild, notarytool, and XcodeGen — driven entirely from the command line and scriptable by AI coding agents.">
+
+    <meta property="og:url" content="/posts/mac-apps-without-xcode/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Building and Shipping Mac and iOS Apps Without Ever Opening Xcode">
+  <meta property="og:description" content="A fully headless Xcode workflow using xcodebuild, notarytool, and XcodeGen — driven entirely from the command line and scriptable by AI coding agents.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-07-16T22:29:45+01:00">
+    <meta property="article:modified_time" content="2026-07-16T22:29:45+01:00">
+    <meta property="article:tag" content="Xcode">
+    <meta property="article:tag" content="Macos">
+    <meta property="article:tag" content="Ios">
+    <meta property="article:tag" content="Cli">
+    <meta property="article:tag" content="Developer-Tools">
+    <meta property="article:tag" content="Automation">
+
+
+    
+      <base href="/posts/mac-apps-without-xcode/">
+    
+    <title>
+  Building and Shipping Mac and iOS Apps Without Ever Opening Xcode · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/mac-apps-without-xcode/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Building and Shipping Mac and iOS Apps Without Ever Opening Xcode</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2026-07-16T22:29:45&#43;01:00'>
+                July 16, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              4 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/development/">development</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/xcode/">xcode</a>
+      <span class="separator">•</span>
+    <a href="/tags/macos/">macos</a>
+      <span class="separator">•</span>
+    <a href="/tags/ios/">ios</a>
+      <span class="separator">•</span>
+    <a href="/tags/cli/">cli</a>
+      <span class="separator">•</span>
+    <a href="/tags/developer-tools/">developer-tools</a>
+      <span class="separator">•</span>
+    <a href="/tags/automation/">automation</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <ul>
+<li><strong>Headless by design:</strong> Xcode must be installed but never opened. All tools (<code>xcodebuild</code>, <code>notarytool</code>, <code>stapler</code>, <code>devicectl</code>) live inside <code>Xcode.app</code> and run from a shell. A one-time credential setup (Apple ID sign-in, Developer ID certificate, notarytool keychain profile) makes every subsequent build and deploy fully headless.</li>
+<li><strong>Project management:</strong> <code>XcodeGen</code> replaces the <code>.xcodeproj</code> with a <code>project.yml</code> committed to git, regenerating the project on every build so the binary folder is never in version control.</li>
+<li><strong>One-command release:</strong> <code>scripts/release.sh</code> runs the entire chain — archive, Developer ID sign, notarize, staple, verify, install to <code>/Applications</code>.</li>
+<li><strong>Two build paths:</strong> <code>CODE_SIGNING_ALLOWED=NO</code> for fast unsigned builds (local/CI). <code>release.sh</code> for shipping with Developer ID signing and full notarization. Zero secrets in the repo — the private key stays in your login keychain, the notary credential in a keychain profile.</li>
+<li><strong>iOS too:</strong> <code>xcodebuild archive</code> + <code>xcrun devicectl device install</code> deploys to a connected iPhone without the GUI.</li>
+<li><strong>Agent-native:</strong> A <code>CLAUDE.md</code> tells your LLM coding tool the conventions — build paths, notary profile naming, scheme names. &ldquo;Ship a build&rdquo; becomes a single sentence.</li>
+<li><strong>One interactive step:</strong> <code>notarytool store-credentials</code> requires typing an app-specific password once. Everything after that is scriptable end to end.</li>
+</ul>
+<hr>
+<p><em>This post is a condensed summary of <a href="https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/">Scott Willsey&rsquo;s detailed guide</a>. All credit for the original workflow, the release script pattern, and the CLAUDE.md conventions goes to him.</em></p>
+<h2 id="process-flow">Process Flow</h2>
+<div class="mermaid">
+flowchart TD
+    Setup["One-Time Credential Setup"]
+    DevFast["Unsigned Build (Dev/CI)"]
+    Release["Release Pipeline"]
+    iOSPath["iOS Device Deploy"]
+
+    Setup --> DevFast
+    Setup --> Release
+    Setup --> iOSPath
+
+    DevFast --> Gen["xcodegen generate"]
+    DevFast --> Test["swift test"]
+    DevFast --> AdHoc["xcodebuild<br/>CODE_SIGNING_ALLOWED=NO"]
+
+    Release --> Arch["1. Archive<br/>xcodebuild archive"]
+    Arch --> Exp["2. Developer ID Export<br/>xcodebuild -exportArchive"]
+    Exp --> Not["3. Notarize<br/>notarytool submit --wait"]
+    Not --> Sta["4. Staple Ticket<br/>stapler staple"]
+    Sta --> Ver["5. Verify<br/>spctl / stapler validate"]
+    Ver --> Inst["6. Install to /Applications<br/>cp -R"]
+
+    iOSPath --> iOSArch["xcodebuild archive<br/>-destination generic/platform=iOS"]
+    iOSArch --> iOSInst["devicectl device install"]
+
+    click Setup "#one-time-setup" "Go to One-Time Setup commands"
+    click DevFast "#build--unsigned-quick-checks" "Go to unsigned build commands"
+    click Gen "#build--unsigned-quick-checks" "Go to xcodegen generate"
+    click AdHoc "#build--unsigned-quick-checks" "Go to unsigned build commands"
+    click Release "#release-pipeline-mac" "Go to Release Pipeline commands"
+    click Arch "#archive--export-manual-steps" "Go to archive/export commands"
+    click Exp "#archive--export-manual-steps" "Go to archive/export commands"
+    click Not "#notarization--stapling" "Go to notarization commands"
+    click Sta "#notarization--stapling" "Go to notarization commands"
+    click Ver "#verification" "Go to verification commands"
+    click Inst "#release-pipeline-mac" "Go to Release Pipeline commands"
+    click iOSPath "#ios-device-deployment" "Go to iOS deployment commands"
+    click iOSArch "#ios-device-deployment" "Go to iOS deployment commands"
+    click iOSInst "#ios-device-deployment" "Go to iOS deployment commands"
+
+    style Setup fill:#1e293b,color:#fff,stroke:#475569
+    style DevFast fill:#1e3a5f,color:#fff,stroke:#2563eb
+    style Release fill:#3b1f3b,color:#fff,stroke:#7e22ce
+    style iOSPath fill:#1a3a2a,color:#fff,stroke:#059669
+</div><script>
+    (function() {
+      var s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js';
+      s.onload = function() {
+        mermaid.initialize({ startOnLoad: false, theme: 'default' });
+        mermaid.run({ nodes: document.querySelectorAll('.mermaid') });
+      };
+      document.head.appendChild(s);
+    })();
+  </script>
+<p>Click any node in the diagram to jump to its corresponding command table.</p>
+<h2 id="command-reference">Command Reference</h2>
+<h3 id="one-time-setup">One-Time Setup</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>xcode-select -p</code></td>
+          <td>Check which toolchain is active</td>
+      </tr>
+      <tr>
+          <td><code>sudo xcode-select -s /Applications/Xcode.app/Contents/Developer</code></td>
+          <td>Switch to Xcode&rsquo;s full toolchain</td>
+      </tr>
+      <tr>
+          <td><code>brew install xcodegen</code></td>
+          <td>Install XcodeGen for project generation</td>
+      </tr>
+      <tr>
+          <td><code>sudo xcodebuild -license accept</code></td>
+          <td>Accept Xcode license agreement</td>
+      </tr>
+      <tr>
+          <td><code>sudo xcodebuild -runFirstLaunch</code></td>
+          <td>Install Xcode additional components</td>
+      </tr>
+      <tr>
+          <td><code>xcrun notarytool store-credentials &lt;App-Name&gt; --apple-id &quot;&lt;email&gt;&quot; --team-id &lt;TEAM-ID&gt;</code></td>
+          <td>Store notarization credential (prompts for app-specific password)</td>
+      </tr>
+      <tr>
+          <td><code>xcrun notarytool history --keychain-profile &lt;App-Name&gt;</code></td>
+          <td>Verify notarization credential is stored</td>
+      </tr>
+      <tr>
+          <td><code>cp Local.xcconfig.example Local.xcconfig</code></td>
+          <td>Create local config file for team ID and bundle prefix</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="build--unsigned-quick-checks">Build — Unsigned (Quick Checks)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>swift test</code></td>
+          <td>Run unit tests (SPM, no Xcode build)</td>
+      </tr>
+      <tr>
+          <td><code>xcodegen generate</code></td>
+          <td>Regenerate <code>.xcodeproj</code> from <code>project.yml</code></td>
+      </tr>
+      <tr>
+          <td><code>xcodebuild -project &lt;App&gt;.xcodeproj -scheme &lt;App&gt;-macOS -destination 'platform=macOS' CODE_SIGNING_ALLOWED=NO build</code></td>
+          <td>Compile macOS app (ad-hoc, unsigned)</td>
+      </tr>
+      <tr>
+          <td><code>xcodebuild -project &lt;App&gt;.xcodeproj -scheme &lt;App&gt;-iOS -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build</code></td>
+          <td>Compile iOS app for Simulator (unsigned)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="release-pipeline-mac">Release Pipeline (Mac)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>./scripts/release.sh</code></td>
+          <td>Full chain: archive → Developer ID sign → notarize → staple → install to <code>/Applications</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;APP&gt;_NOTARY_PROFILE=&lt;name&gt; ./scripts/release.sh</code></td>
+          <td>Override the notary profile for a different identity</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="archive--export-manual-steps">Archive &amp; Export (Manual Steps)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>xcodebuild -project &lt;App&gt;.xcodeproj -scheme &lt;App&gt;-macOS -configuration Release -derivedDataPath build/derived -archivePath build/&lt;App&gt;.xcarchive -allowProvisioningUpdates archive</code></td>
+          <td>Archive the macOS app</td>
+      </tr>
+      <tr>
+          <td><code>xcodebuild -exportArchive -archivePath build/&lt;App&gt;.xcarchive -exportPath build/Export -exportOptionsPlist build/ExportOptions.plist -allowProvisioningUpdates</code></td>
+          <td>Export Developer ID-signed <code>.app</code> from archive</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="notarization--stapling">Notarization &amp; Stapling</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>ditto -c -k --keepParent &lt;App&gt;.app notarize.zip</code></td>
+          <td>Package app into zip for upload</td>
+      </tr>
+      <tr>
+          <td><code>xcrun notarytool submit notarize.zip --keychain-profile &lt;App-Name&gt; --wait</code></td>
+          <td>Submit for notarization (blocks until complete)</td>
+      </tr>
+      <tr>
+          <td><code>xcrun stapler staple &lt;App&gt;.app</code></td>
+          <td>Attach notarization ticket to the app bundle</td>
+      </tr>
+      <tr>
+          <td><code>xcrun stapler validate &lt;App&gt;.app</code></td>
+          <td>Verify ticket is attached</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="verification">Verification</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>codesign -dv --verbose=4 /Applications/&lt;App&gt;.app</code></td>
+          <td>Show signing identity and certificate chain</td>
+      </tr>
+      <tr>
+          <td><code>spctl -a -vvv -t exec /Applications/&lt;App&gt;.app</code></td>
+          <td>Check Gatekeeper acceptance</td>
+      </tr>
+      <tr>
+          <td><code>xcrun stapler validate /Applications/&lt;App&gt;.app</code></td>
+          <td>Validate notarization ticket on installed app</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="ios-device-deployment">iOS Device Deployment</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Command</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>xcodebuild -project &lt;App&gt;.xcodeproj -scheme &lt;App&gt;-iOS -destination 'generic/platform=iOS' -allowProvisioningUpdates -derivedDataPath build/ios archive -archivePath build/&lt;App&gt;-iOS.xcarchive</code></td>
+          <td>Archive iOS app for device deployment</td>
+      </tr>
+      <tr>
+          <td><code>xcrun devicectl list devices</code></td>
+          <td>List connected devices and their UDIDs</td>
+      </tr>
+      <tr>
+          <td><code>xcrun devicectl device install app --device &lt;UDID&gt; path/to/&lt;App&gt;.app</code></td>
+          <td>Install <code>.app</code> onto a connected iPhone</td>
+      </tr>
+  </tbody>
+</table>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2026
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on deskriders</title>
+    <link>/tags/automation/</link>
+    <description>Recent content in Automation on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Jul 2026 22:29:45 +0100</lastBuildDate>
+    <atom:link href="/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building and Shipping Mac and iOS Apps Without Ever Opening Xcode</title>
+      <link>/posts/mac-apps-without-xcode/</link>
+      <pubDate>Thu, 16 Jul 2026 22:29:45 +0100</pubDate>
+      <guid>/posts/mac-apps-without-xcode/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Headless by design:&lt;/strong&gt; Xcode must be installed but never opened. All tools (&lt;code&gt;xcodebuild&lt;/code&gt;, &lt;code&gt;notarytool&lt;/code&gt;, &lt;code&gt;stapler&lt;/code&gt;, &lt;code&gt;devicectl&lt;/code&gt;) live inside &lt;code&gt;Xcode.app&lt;/code&gt; and run from a shell. A one-time credential setup (Apple ID sign-in, Developer ID certificate, notarytool keychain profile) makes every subsequent build and deploy fully headless.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project management:&lt;/strong&gt; &lt;code&gt;XcodeGen&lt;/code&gt; replaces the &lt;code&gt;.xcodeproj&lt;/code&gt; with a &lt;code&gt;project.yml&lt;/code&gt; committed to git, regenerating the project on every build so the binary folder is never in version control.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;One-command release:&lt;/strong&gt; &lt;code&gt;scripts/release.sh&lt;/code&gt; runs the entire chain — archive, Developer ID sign, notarize, staple, verify, install to &lt;code&gt;/Applications&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Two build paths:&lt;/strong&gt; &lt;code&gt;CODE_SIGNING_ALLOWED=NO&lt;/code&gt; for fast unsigned builds (local/CI). &lt;code&gt;release.sh&lt;/code&gt; for shipping with Developer ID signing and full notarization. Zero secrets in the repo — the private key stays in your login keychain, the notary credential in a keychain profile.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;iOS too:&lt;/strong&gt; &lt;code&gt;xcodebuild archive&lt;/code&gt; + &lt;code&gt;xcrun devicectl device install&lt;/code&gt; deploys to a connected iPhone without the GUI.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Agent-native:&lt;/strong&gt; A &lt;code&gt;CLAUDE.md&lt;/code&gt; tells your LLM coding tool the conventions — build paths, notary profile naming, scheme names. &amp;ldquo;Ship a build&amp;rdquo; becomes a single sentence.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;One interactive step:&lt;/strong&gt; &lt;code&gt;notarytool store-credentials&lt;/code&gt; requires typing an app-specific password once. Everything after that is scriptable end to end.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;This post is a condensed summary of &lt;a href=&#34;https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/&#34;&gt;Scott Willsey&amp;rsquo;s detailed guide&lt;/a&gt;. All credit for the original workflow, the release script pattern, and the CLAUDE.md conventions goes to him.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

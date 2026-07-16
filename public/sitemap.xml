@@ -20,22 +20,49 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
-    <loc>/tags/data/</loc>
-    <lastmod>2026-07-05T07:32:34+00:00</lastmod>
+    <loc>/tags/automation/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/posts/mac-apps-without-xcode/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/cli/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/developer-tools/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/categories/development/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/ios/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/macos/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/xcode/</loc>
+    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
+  </url><url>
+    <loc>/tags/data/</loc>
     <lastmod>2026-07-05T07:32:34+00:00</lastmod>
   </url><url>
     <loc>/tags/economics/</loc>
     <lastmod>2026-07-05T07:32:34+00:00</lastmod>
   </url><url>
     <loc>/tags/ons/</loc>
-    <lastmod>2026-07-05T07:32:34+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2026-07-05T07:32:34+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2026-07-05T07:32:34+00:00</lastmod>
   </url><url>
     <loc>/tags/uk/</loc>
@@ -53,9 +80,6 @@
     <loc>/tags/ai-agents/</loc>
     <lastmod>2026-05-17T12:22:55+01:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2026-05-17T12:22:55+01:00</lastmod>
-  </url><url>
     <loc>/tags/ci-cd/</loc>
     <lastmod>2026-05-17T12:22:55+01:00</lastmod>
   </url><url>
@@ -63,9 +87,6 @@
     <lastmod>2026-05-17T12:22:55+01:00</lastmod>
   </url><url>
     <loc>/tags/code-review/</loc>
-    <lastmod>2026-05-17T12:22:55+01:00</lastmod>
-  </url><url>
-    <loc>/categories/development/</loc>
     <lastmod>2026-05-17T12:22:55+01:00</lastmod>
   </url><url>
     <loc>/tags/development-workflows/</loc>
@@ -1135,9 +1156,6 @@
   </url><url>
     <loc>/tags/streams/</loc>
     <lastmod>2020-04-19T13:05:38+01:00</lastmod>
-  </url><url>
-    <loc>/tags/cli/</loc>
-    <lastmod>2020-02-16T08:06:04+00:00</lastmod>
   </url><url>
     <loc>/tags/find/</loc>
     <lastmod>2020-02-16T08:06:04+00:00</lastmod>
