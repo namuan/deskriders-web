@@ -20,37 +20,49 @@
     <loc>/projects/docker-files/</loc>
     <lastmod>2019-01-18T09:27:38+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/cli/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/developer-tools/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/categories/development/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/git/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/posts/git-worktrees-tutorial/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
+    <loc>/tags/worktrees/</loc>
+    <lastmod>2026-08-11T20:36:06+01:00</lastmod>
+  </url><url>
     <loc>/tags/automation/</loc>
     <lastmod>2026-07-16T22:29:45+01:00</lastmod>
   </url><url>
     <loc>/posts/mac-apps-without-xcode/</loc>
     <lastmod>2026-07-16T22:29:45+01:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/tags/cli/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/tags/developer-tools/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/categories/development/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
     <loc>/tags/ios/</loc>
     <lastmod>2026-07-16T22:29:45+01:00</lastmod>
   </url><url>
     <loc>/tags/macos/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2026-07-16T22:29:45+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2026-07-16T22:29:45+01:00</lastmod>
   </url><url>
     <loc>/tags/xcode/</loc>
@@ -860,9 +872,6 @@
     <loc>/posts/1672437394-py-executable-framework-chatgpt/</loc>
     <lastmod>2022-12-30T21:56:34+00:00</lastmod>
   </url><url>
-    <loc>/tags/workflow/</loc>
-    <lastmod>2022-12-30T21:56:34+00:00</lastmod>
-  </url><url>
     <loc>/posts/1672317337-questions-2022-12-29/</loc>
     <lastmod>2022-12-29T12:35:37+00:00</lastmod>
   </url><url>
@@ -1041,9 +1050,6 @@
     <lastmod>2021-12-25T10:52:03+00:00</lastmod>
   </url><url>
     <loc>/tags/best-practices/</loc>
-    <lastmod>2021-12-24T10:06:01+00:00</lastmod>
-  </url><url>
-    <loc>/tags/git/</loc>
     <lastmod>2021-12-24T10:06:01+00:00</lastmod>
   </url><url>
     <loc>/posts/1640339806-setting-up-git-commit-template/</loc>
