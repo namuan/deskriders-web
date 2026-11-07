@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Deskriders.dev">
+    <meta name="description" content="Improving developer productivity">
+    <meta name="keywords" content="blog,developer">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions">
+  <meta name="twitter:description" content="A practical guide to finding slow Jest tests, investigating startup overhead and memory growth, and tracking performance regressions in CI.">
+
+    <meta property="og:url" content="/posts/diagnosing-slow-jest-tests/">
+  <meta property="og:site_name" content="deskriders">
+  <meta property="og:title" content="Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions">
+  <meta property="og:description" content="A practical guide to finding slow Jest tests, investigating startup overhead and memory growth, and tracking performance regressions in CI.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-07T09:11:08+00:00">
+    <meta property="article:modified_time" content="2026-11-07T09:11:08+00:00">
+    <meta property="article:tag" content="Jest">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Performance">
+    <meta property="article:tag" content="Ci">
+
+
+    
+      <base href="/posts/diagnosing-slow-jest-tests/">
+    
+    <title>
+  Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions · deskriders
+</title>
+
+    
+      <link rel="canonical" href="/posts/diagnosing-slow-jest-tests/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.143.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      deskriders
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/products">Products</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/notes/">Notes</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2026-11-07T09:11:08Z'>
+                November 7, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              9 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/engineering/">Engineering</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/jest/">jest</a>
+      <span class="separator">•</span>
+    <a href="/tags/testing/">testing</a>
+      <span class="separator">•</span>
+    <a href="/tags/javascript/">javascript</a>
+      <span class="separator">•</span>
+    <a href="/tags/performance/">performance</a>
+      <span class="separator">•</span>
+    <a href="/tags/ci/">ci</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>A unit test suite usually gets slower gradually: another shared setup import, another real timer, another expensive fixture. Eventually, running tests becomes something you postpone.</p>
+<p>The useful starting point is measurement. Find out whether the extra time belongs to individual tests, test-file startup, resource contention, or work that remains after assertions finish. Each points to a different investigation.</p>
+<p>This guide builds a small diagnostic workflow using Jest&rsquo;s built-in options, a timing-report script, and Node&rsquo;s CPU profiler. Examples assume Jest is installed locally and commands run from the project root. Check <code>npx jest --version</code> and the documentation for your installed version before adopting options. The linked Jest documentation currently describes version 30.5.</p>
+<h2 id="1-make-slow-test-files-visible">1. Make slow test files visible</h2>
+<p>Merge these options into your existing configuration; preserve your project&rsquo;s environment, transforms, and other settings:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// jest.config.cjs
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ...existing configuration
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">verbose</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">slowTestThreshold</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p><code>verbose</code> expands individual test results. <code>slowTestThreshold</code> is measured in <strong>seconds</strong> and highlights slow test-file runs in the default reporter. Its default is five seconds. It is a reporting threshold, not a performance assertion: crossing it does not fail the run.</p>
+<p>Do not confuse it with <code>testTimeout</code>, which limits how long a test may take before failing. Increasing a timeout can accommodate intentionally long work, but does not explain a regression. See the <a href="https://jestjs.io/docs/configuration#slowtestthreshold-number">Jest configuration reference</a>.</p>
+<p>One second is a starting point, not a universal budget. Choose a threshold that makes outliers visible in your own suite.</p>
+<h2 id="2-separate-diagnosis-from-normal-execution">2. Separate diagnosis from normal execution</h2>
+<p>Use two measurements:</p>
+<ul>
+<li><strong>Normal execution:</strong> the exact command developers or CI use. This measures the experience you want to improve.</li>
+<li><strong>Diagnostic execution:</strong> a controlled serial run that makes it easier to attribute time to a file.</li>
+</ul>
+<p>Capture a diagnostic report:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx jest --runInBand --coverage<span style="color:#f92672">=</span>false --watch<span style="color:#f92672">=</span>false --json --outputFile<span style="color:#f92672">=</span>jest-timings.json
+</span></span></code></pre></div><p>Here, <code>--runInBand</code> runs files in one process, while <code>--json</code> and <code>--outputFile</code> save machine-readable results. Jest sends other output to stderr in JSON mode. See the <a href="https://jestjs.io/docs/cli">CLI reference</a>.</p>
+<p>Serial execution reduces competition between Jest workers, but changes the workload. A serial speedup does not automatically mean your normal parallel run improved. Also, <code>test.concurrent</code> can still introduce concurrency within a file.</p>
+<p>Turning coverage off helps investigate execution without instrumentation. If your regression happens with coverage enabled, capture a second report with coverage enabled and compare like with like.</p>
+<p>For repeatable measurements:</p>
+<ol>
+<li>Keep Node, Jest, dependencies, machine resources, and worker settings fixed.</li>
+<li>Separate cold-cache and warm-cache experiments. Do not clear the cache between only some samples.</li>
+<li>Run one warm-up, then collect at least three to five measured runs.</li>
+<li>Compare medians and inspect variation.</li>
+<li>Record the commit and whether coverage was enabled.</li>
+</ol>
+<p>Avoid timing while unrelated builds or other heavy processes compete for resources.</p>
+<h2 id="3-rank-slow-files-and-individual-tests">3. Rank slow files and individual tests</h2>
+<p>Save the following as <code>scripts/jest-timings.cjs</code>. The <code>.cjs</code> extension also works in projects using <code>&quot;type&quot;: &quot;module&quot;</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;node:fs&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">path</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;node:path&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">filename</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">argv</span>[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;jest-timings.json&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">report</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readFileSync</span>(<span style="color:#a6e22e">filename</span>, <span style="color:#e6db74">&#39;utf8&#39;</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>Array.<span style="color:#a6e22e">isArray</span>(<span style="color:#a6e22e">report</span>.<span style="color:#a6e22e">testResults</span>)) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Error(<span style="color:#e6db74">&#39;Expected a Jest JSON results file&#39;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">relative</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">filename</span> =&gt; <span style="color:#a6e22e">path</span>.<span style="color:#a6e22e">relative</span>(<span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">cwd</span>(), <span style="color:#a6e22e">filename</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">suites</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tests</span> <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">suite</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">report</span>.<span style="color:#a6e22e">testResults</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">file</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">relative</span>(<span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">name</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">assertions</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">assertionResults</span> <span style="color:#f92672">||</span> [];
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">timed</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">assertions</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">test</span> =&gt; Number.isFinite(<span style="color:#a6e22e">test</span>.<span style="color:#a6e22e">duration</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">elapsed</span> <span style="color:#f92672">=</span> Number.isFinite(<span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">startTime</span>) <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>    Number.isFinite(<span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">endTime</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">?</span> <span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">endTime</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">suite</span>.<span style="color:#a6e22e">startTime</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">suites</span>.<span style="color:#a6e22e">push</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">file</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fileMs</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">elapsed</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">summedTestMs</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">timed</span>.<span style="color:#a6e22e">reduce</span>((<span style="color:#a6e22e">sum</span>, <span style="color:#a6e22e">test</span>) =&gt; <span style="color:#a6e22e">sum</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">test</span>.<span style="color:#a6e22e">duration</span>, <span style="color:#ae81ff">0</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">timedTests</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">timed</span>.<span style="color:#a6e22e">length</span>,
+</span></span><span style="display:flex;"><span>  });
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">test</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">timed</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">tests</span>.<span style="color:#a6e22e">push</span>({ <span style="color:#a6e22e">ms</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">test</span>.<span style="color:#a6e22e">duration</span>, <span style="color:#a6e22e">test</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">test</span>.<span style="color:#a6e22e">fullName</span>, <span style="color:#a6e22e">file</span> });
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;\nSlowest files&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">table</span>(<span style="color:#a6e22e">suites</span>.<span style="color:#a6e22e">sort</span>((<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) =&gt;
+</span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">fileMs</span> <span style="color:#f92672">??</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">-</span> (<span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">fileMs</span> <span style="color:#f92672">??</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>).<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">20</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;\nSlowest individual tests&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">table</span>(<span style="color:#a6e22e">tests</span>.<span style="color:#a6e22e">sort</span>((<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) =&gt; <span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">ms</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">ms</span>).<span style="color:#a6e22e">slice</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">20</span>));
+</span></span></code></pre></div><p>Run it against any saved report:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node scripts/jest-timings.cjs jest-timings.json
+</span></span></code></pre></div><p>The script uses the CLI JSON structure, including <code>assertionResults</code> and individual durations in milliseconds. Do not substitute the differently shaped object passed to a custom reporter or <code>testResultsProcessor</code>. Confirm the fields when changing Jest versions; absent timings are skipped rather than treated as zero.</p>
+<h3 id="interpret-the-two-rankings-together">Interpret the two rankings together</h3>
+<p>A file taking eight seconds with one test taking seven seconds suggests a different problem from an eight-second file containing dozens of very short tests.</p>
+<p>For the first, inspect the slow test and its hooks. For the second, investigate module imports, transforms, environment initialization, shared setup, and suite-level hooks.</p>
+<p>Do not label <code>fileMs - summedTestMs</code> as exact startup time. The clocks cover different scopes, hooks may contribute differently, and concurrent tests can overlap. Use the gap as a lead, then measure suspected phases directly.</p>
+<h2 id="4-isolate-the-slow-test">4. Isolate the slow test</h2>
+<p>Run the exact file, then narrow by test name:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx jest --runTestsByPath src/example.test.js --runInBand --coverage<span style="color:#f92672">=</span>false
+</span></span><span style="display:flex;"><span>npx jest --runTestsByPath src/example.test.js --runInBand --coverage<span style="color:#f92672">=</span>false -t <span style="color:#e6db74">&#39;returns cached results&#39;</span>
+</span></span></code></pre></div><p><code>-t</code> matches a regular expression against the full test name, including surrounding <code>describe</code> names. Narrowing the tests does not avoid loading the file and its imports.</p>
+<p>Inspect these common suspects:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Suspect</th>
+          <th>What to investigate</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Real timers</td>
+          <td>Debounce delays, retry backoff, polling, or sleeps that could be controlled explicitly</td>
+      </tr>
+      <tr>
+          <td>External I/O</td>
+          <td>Accidental network calls, database access, filesystem work, or subprocesses</td>
+      </tr>
+      <tr>
+          <td>Expensive hooks</td>
+          <td>Fixture generation or repeated initialization in <code>beforeEach</code></td>
+      </tr>
+      <tr>
+          <td>Large inputs</td>
+          <td>Unnecessarily large fixtures, snapshots, or repeated parsing</td>
+      </tr>
+      <tr>
+          <td>Repeated work</td>
+          <td>The same expensive setup performed for every case</td>
+      </tr>
+      <tr>
+          <td>Console output</td>
+          <td>Large logs or repeated warnings</td>
+      </tr>
+  </tbody>
+</table>
+<p>Measure suspected operations with <code>performance.now()</code> or temporary timers. Remove diagnostic logging before comparing final timings.</p>
+<p>Fake timers can help test time-dependent behavior, but adopt them deliberately: advance the clock, await asynchronous work, and restore timer state. Likewise, mock an external boundary when the test&rsquo;s purpose is local behavior; keep separate coverage for the real integration.</p>
+<h2 id="5-investigate-slow-file-startup">5. Investigate slow file startup</h2>
+<p>When test bodies are fast but files are slow, inspect what runs before them:</p>
+<ul>
+<li>Does a small test import an application entry point or a barrel file that loads many modules?</li>
+<li>Do global setup files initialize services every file does not need?</li>
+<li>Does each file load a large fixture at module scope?</li>
+<li>Are transforms doing unnecessary work?</li>
+<li>Does a test requiring only Node APIs use a browser environment unnecessarily?</li>
+</ul>
+<p>Try one change at a time, rerun the same file, and then rerun the full suite. Narrower imports and smaller setup modules can help, but preserve behavior and isolation.</p>
+<p>For a controlled cache experiment, use <code>--no-cache</code> consistently across samples. Expect a different workload from normal cached execution; do not make it the default profiling command.</p>
+<h2 id="6-check-memory-when-later-files-get-slower">6. Check memory when later files get slower</h2>
+<p>If performance degrades as the run progresses, inspect heap usage:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node --expose-gc ./node_modules/jest/bin/jest.js --runInBand --logHeapUsage --coverage<span style="color:#f92672">=</span>false
+</span></span></code></pre></div><p>This assumes a conventional <code>node_modules</code> installation. Adapt the executable path for other package layouts.</p>
+<p>Jest recommends combining <code>--logHeapUsage</code>, <code>--runInBand</code>, and Node&rsquo;s <code>--expose-gc</code> option. Treat the result as a trend across test files, not an allocation trace for each assertion. See the <a href="https://jestjs.io/docs/cli#--logheapusage">heap usage option</a>.</p>
+<p>A steadily rising heap is a reason to investigate retained objects, caches, listeners, timers, and large fixtures. It is not proof of a leak: module caching and different file workloads can also increase memory. Repeat the experiment and correlate growth with particular files.</p>
+<p>For worker-based runs, Jest&rsquo;s <code>workerIdleMemoryLimit</code> can recycle workers that exceed a configured memory threshold. Treat that as an operational mitigation; it does not identify the retained objects, and worker restarts have a cost. It is not useful for recycling workers in the serial command above.</p>
+<h2 id="7-diagnose-hangs-separately">7. Diagnose hangs separately</h2>
+<p>If assertions finish but Jest does not exit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx jest --detectOpenHandles
+</span></span></code></pre></div><p>This diagnostic attempts to identify resources preventing exit, such as servers, sockets, or timers. It implies serial execution and adds overhead, so do not use its timings as a performance baseline. See <a href="https://jestjs.io/docs/cli#--detectopenhandles">Jest&rsquo;s open-handle diagnostic</a>.</p>
+<p>Close resources in appropriate teardown hooks and await asynchronous cleanup. Avoid making <code>--forceExit</code> the routine fix: it can conceal unfinished cleanup.</p>
+<h2 id="8-compare-worker-counts-in-ci">8. Compare worker counts in CI</h2>
+<p>If local runs are fine but CI slows down, test whether the runner is overloaded:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npx jest --maxWorkers<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>npx jest --maxWorkers<span style="color:#f92672">=</span>50%
+</span></span></code></pre></div><p>Run these as separate experiments with otherwise identical settings. Do not combine <code>--maxWorkers</code> with <code>--runInBand</code>.</p>
+<p>More workers can increase memory use and competition for CPU or shared services. Fewer workers can reduce contention but also reduce parallelism. Choose based on repeated wall-clock measurements on the actual CI runner.</p>
+<p><code>maxWorkers</code> controls the worker pool. <code>maxConcurrency</code> controls concurrency for <code>test.concurrent</code>; they solve different problems.</p>
+<h2 id="9-capture-a-cpu-profile-when-timings-are-insufficient">9. Capture a CPU profile when timings are insufficient</h2>
+<p>For CPU-heavy cases, profile an isolated file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>node --cpu-prof --cpu-prof-dir<span style="color:#f92672">=</span>. ./node_modules/jest/bin/jest.js --runInBand --runTestsByPath src/example.test.js --coverage<span style="color:#f92672">=</span>false
+</span></span></code></pre></div><p>Node writes a <code>.cpuprofile</code> file when the process exits. Load it into a compatible CPU profile viewer, such as Chrome DevTools&rsquo; JavaScript Profiler. Node documents the options in its <a href="https://nodejs.org/api/cli.html#--cpu-prof">command-line reference</a>.</p>
+<p>Inspect where samples accumulate: application code, fixture construction, serialization, transformation, or garbage collection. A CPU profile helps explain active CPU time; a slow test waiting on network I/O may require separate instrumentation around the awaited operation.</p>
+<p>Profiling adds overhead. Use the profile to locate work, then verify improvements with ordinary timing runs.</p>
+<h2 id="10-track-regressions-in-ci">10. Track regressions in CI</h2>
+<p>A static slow threshold will not catch a test growing from 100 ms to 400 ms. Historical comparison is a separate step.</p>
+<p>A practical rollout is:</p>
+<ol>
+<li>Save timing JSON as a CI artifact alongside commit and environment metadata.</li>
+<li>Establish a baseline from several runs on the main branch.</li>
+<li>Match tests by repository-relative file path and full test name. Include project identity in multi-project repositories.</li>
+<li>Compare medians for matching tests and files.</li>
+<li>Report new or renamed tests separately.</li>
+<li>Start with warnings; enforce budgets after measuring normal variation.</li>
+</ol>
+<p>An illustrative starting rule is to flag a test when its median duration increases by <strong>both more than 25% and more than 100 ms</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">isRegression</span>(<span style="color:#a6e22e">baselineMs</span>, <span style="color:#a6e22e">currentMs</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">currentMs</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">baselineMs</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">currentMs</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">baselineMs</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.25</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>These thresholds are a suggested policy, not a Jest feature or a universal standard. Tune them to your runner and workload. Missing timings must remain missing; failed or incomplete runs should not silently become valid performance baselines.</p>
+<p>Track total wall-clock time as well. Individual tests can remain stable while imports get more expensive, worker contention increases, or the suite simply adds more tests. For tests intentionally executed concurrently, avoid treating the sum of durations as elapsed time.</p>
+<h2 id="a-compact-troubleshooting-reference">A compact troubleshooting reference</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Observation</th>
+          <th>First investigation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>One assertion is consistently slow</td>
+          <td>Its body, hooks, timers, retries, and I/O</td>
+      </tr>
+      <tr>
+          <td>File is slow; assertions are fast</td>
+          <td>Imports, transforms, environment, and setup</td>
+      </tr>
+      <tr>
+          <td>Later files get progressively slower</td>
+          <td>Heap growth and retained state</td>
+      </tr>
+      <tr>
+          <td>Assertions finish but the process stays alive</td>
+          <td>Open handles and teardown</td>
+      </tr>
+      <tr>
+          <td>Parallel CI runs are disproportionately slow</td>
+          <td>Worker count, memory pressure, and shared resources</td>
+      </tr>
+      <tr>
+          <td>Timings vary widely between runs</td>
+          <td>Runner load, cache state, external dependencies, and sample size</td>
+      </tr>
+  </tbody>
+</table>
+<p>Start with the normal run, capture a controlled timing report, isolate the outlier, and investigate the resource it consumes. After changing the code or configuration, verify both the isolated case and the command your team actually runs.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://jestjs.io/docs/cli">Jest CLI options</a></li>
+<li><a href="https://jestjs.io/docs/configuration">Jest configuration</a></li>
+<li><a href="https://nodejs.org/api/cli.html">Node.js command-line options</a></li>
+</ul>
+<p>Documentation reviewed on November 7, 2026. Use the version selector in Jest&rsquo;s documentation when working with an older release.</p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2019 - 2026
+      
+       Deskriders.dev 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

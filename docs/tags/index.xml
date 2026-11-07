@@ -6,8 +6,43 @@
     <description>Recent content in Tags on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 20:36:06 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:11:08 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ci</title>
+      <link>/tags/ci/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/tags/ci/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jest</title>
+      <link>/tags/jest/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/tags/jest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>/tags/performance/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>/tags/testing/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/tags/testing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cli</title>
       <link>/tags/cli/</link>
@@ -139,13 +174,6 @@
       <link>/tags/software-engineering/</link>
       <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
       <guid>/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>/tags/testing/</link>
-      <pubDate>Sun, 17 May 2026 12:22:55 +0100</pubDate>
-      <guid>/tags/testing/</guid>
       <description></description>
     </item>
     <item>
@@ -377,13 +405,6 @@
       <link>/tags/monitoring/</link>
       <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
       <guid>/tags/monitoring/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>/tags/performance/</link>
-      <pubDate>Mon, 24 Nov 2025 21:11:42 +0000</pubDate>
-      <guid>/tags/performance/</guid>
       <description></description>
     </item>
     <item>
@@ -860,13 +881,6 @@
       <link>/tags/maven/</link>
       <pubDate>Mon, 02 Jan 2023 13:23:48 +0000</pubDate>
       <guid>/tags/maven/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>/tags/javascript/</link>
-      <pubDate>Thu, 29 Dec 2022 12:35:37 +0000</pubDate>
-      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     <item>

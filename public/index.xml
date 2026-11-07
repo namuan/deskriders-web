@@ -6,7 +6,7 @@
     <description>Recent content on deskriders</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 20:36:06 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:11:08 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http Rider :: Cross-Platform Open Source Desktop API Client</title>
@@ -49,6 +49,13 @@
       <pubDate>Fri, 18 Jan 2019 09:27:38 +0000</pubDate>
       <guid>/projects/docker-files/</guid>
       <description>&lt;p&gt;👉 &lt;a href=&#34;https://docker-files.com/&#34;&gt;docker-files&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/dockerfiles-cover-image.png&#34; alt=&#34;Dockerfiles&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions</title>
+      <link>/posts/diagnosing-slow-jest-tests/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/posts/diagnosing-slow-jest-tests/</guid>
+      <description>&lt;p&gt;A unit test suite usually gets slower gradually: another shared setup import, another real timer, another expensive fixture. Eventually, running tests becomes something you postpone.&lt;/p&gt;&#xA;&lt;p&gt;The useful starting point is measurement. Find out whether the extra time belongs to individual tests, test-file startup, resource contention, or work that remains after assertions finish. Each points to a different investigation.&lt;/p&gt;&#xA;&lt;p&gt;This guide builds a small diagnostic workflow using Jest&amp;rsquo;s built-in options, a timing-report script, and Node&amp;rsquo;s CPU profiler. Examples assume Jest is installed locally and commands run from the project root. Check &lt;code&gt;npx jest --version&lt;/code&gt; and the documentation for your installed version before adopting options. The linked Jest documentation currently describes version 30.5.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git Worktrees: Multiple Trees, One Repository</title>

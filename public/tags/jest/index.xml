@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jest on deskriders</title>
+    <link>/tags/jest/</link>
+    <description>Recent content in Jest on deskriders</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Nov 2026 09:11:08 +0000</lastBuildDate>
+    <atom:link href="/tags/jest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diagnosing Slow Jest Tests: Timings, Memory, and CI Regressions</title>
+      <link>/posts/diagnosing-slow-jest-tests/</link>
+      <pubDate>Sat, 07 Nov 2026 09:11:08 +0000</pubDate>
+      <guid>/posts/diagnosing-slow-jest-tests/</guid>
+      <description>&lt;p&gt;A unit test suite usually gets slower gradually: another shared setup import, another real timer, another expensive fixture. Eventually, running tests becomes something you postpone.&lt;/p&gt;&#xA;&lt;p&gt;The useful starting point is measurement. Find out whether the extra time belongs to individual tests, test-file startup, resource contention, or work that remains after assertions finish. Each points to a different investigation.&lt;/p&gt;&#xA;&lt;p&gt;This guide builds a small diagnostic workflow using Jest&amp;rsquo;s built-in options, a timing-report script, and Node&amp;rsquo;s CPU profiler. Examples assume Jest is installed locally and commands run from the project root. Check &lt;code&gt;npx jest --version&lt;/code&gt; and the documentation for your installed version before adopting options. The linked Jest documentation currently describes version 30.5.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
