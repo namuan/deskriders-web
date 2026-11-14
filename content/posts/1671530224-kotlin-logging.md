@@ -13,9 +13,9 @@ Add depedencies in `pom.xml` or `gradle` file
 
 ```xml
 <dependency>
-    <groupId>io.github.microutils</groupId>
+    <groupId>io.github.oshai</groupId>
     <artifactId>kotlin-logging-jvm</artifactId>
-    <version>${kotlin-logging-jvm.version}</version>
+    <version>8.0.7</version>
 </dependency>
 <dependency>
     <groupId>ch.qos.logback</groupId>
@@ -47,14 +47,16 @@ If the project is using [Java Modules](https://www.oracle.com/uk/corporate/featu
 
 ```properties
 requires org.slf4j;
-requires io.github.microutils.kotlinlogging;
+requires io.github.oshai.kotlinlogging;
 ```
 
 That is all for setup.
-Now we can use it by importing `mu.KotlinLogging` at the top level
+Now we can use it by importing `io.github.oshai.kotlinlogging.KotlinLogging` at the top level
 
 ```kotlin
-import mu.KotlinLogging
+import io.github.oshai.kotlinlogging.KotlinLogging
+
+private val logger = KotlinLogging.logger {}
 ```
 
 Then using it where needed
